@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Nombre artístico · Segarra y Garibo — 2026-09-18
+
+- La identidad pública de la web pasa a ser «Segarra y Garibo»: portada, navegación, créditos de obra, página de artista y metadatos para buscadores. Los nombres que identifican documentos, proyectos o fondos históricos se conservan tal como constan en el archivo.
+
 ## Exposiciones y dibujos · recorrido unificado — 2026-09-17
 
 - Rediseñado el índice de exposiciones como recorrido horizontal y unificada la presentación de los dibujos. Se incorporan las imágenes de sala de Bellas Artes y sus miniaturas, conservando los contextos y enlaces documentales.

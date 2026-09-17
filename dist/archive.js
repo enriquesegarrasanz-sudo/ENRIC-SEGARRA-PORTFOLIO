@@ -28,7 +28,7 @@ export function buildPhotoIndex(works, albums) {
       scope,
       discipline: item.category || "",
       series: item.series || "",
-      credit: own ? "Obra de Enric Segarra" : item.credit || "",
+      credit: own ? "Obra de Segarra y Garibo" : item.credit || "",
       place: item.place || "",
       date: item.date || "",
       reference: item.reference || "",
