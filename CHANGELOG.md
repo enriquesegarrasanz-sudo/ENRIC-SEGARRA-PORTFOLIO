@@ -4,6 +4,12 @@
 
 - Renovada la etiqueta de versión de la aplicación, el catálogo y los recursos de imagen para que la página pública cargue las vistas secundarias actualizadas y no reutilice fotografías almacenadas en caché de la versión anterior.
 
+## Dibujo · encuadre y luz — 2026-09-18
+
+- Rehechas las versiones de catálogo de las fotografías de dibujo que tenían un encuadre demasiado cerrado: ahora se conserva completa la hoja o el marco, incluida la firma cuando es visible.
+- Las obras verticales mantienen su proporción real en la cuadrícula, sin estrecharlas artificialmente. La luz se equilibra de manera global y no se ha retocado ni reconstruido ningún trazo de las obras.
+- Se conserva sin sobrescribir la versión ya corregida de DIB-023; los originales siguen intactos y las versiones derivadas mantienen su procedencia registrada.
+
 ## Nombre artístico · Segarra y Garibo — 2026-09-18
 
 - La identidad pública de la web pasa a ser «Segarra y Garibo»: portada, navegación, créditos de obra, página de artista y metadatos para buscadores. Los nombres que identifican documentos, proyectos o fondos históricos se conservan tal como constan en el archivo.
