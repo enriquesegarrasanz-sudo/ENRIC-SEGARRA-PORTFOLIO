@@ -2918,6 +2918,189 @@ main {
   }
 }
 
+/* Portada: una imagen de encuentro antes de entrar en la selección de obra. */
+.home-opening {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  min-height: 0;
+  overflow: hidden;
+  background: #20211f;
+}
+.opening-photo-link,
+.opening-photo,
+.opening-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.opening-photo-link {
+  position: absolute;
+  inset: 0;
+}
+.opening-photo img {
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.8s ease, opacity 0.35s ease;
+}
+.opening-photo-link:hover img,
+.opening-photo-link:focus-visible img {
+  transform: scale(1.018);
+  opacity: 0.94;
+}
+.opening-photo::after {
+  position: absolute;
+  inset: 45% 0 0;
+  content: "";
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.48));
+  pointer-events: none;
+}
+.opening-photo figcaption {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  z-index: 1;
+  padding: 7px 9px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #222;
+  font-size: 10px;
+}
+.opening-title {
+  position: absolute;
+  z-index: 1;
+  bottom: clamp(34px, 5vw, 80px);
+  left: clamp(24px, 4vw, 62px);
+  color: #fff;
+}
+.opening-title .eyebrow {
+  margin-bottom: 19px;
+  color: rgba(255, 255, 255, 0.76);
+}
+.opening-title h1 {
+  margin: 0;
+  max-width: 750px;
+  font-size: clamp(62px, 8.7vw, 156px);
+  letter-spacing: -0.09em;
+  line-height: 0.75;
+  text-transform: uppercase;
+}
+.opening-title > p:not(.eyebrow) {
+  margin-top: 29px;
+  font-size: 14px;
+}
+.home-opening-link {
+  display: inline-block;
+  margin-top: 20px;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 6px;
+  font-size: 12px;
+}
+.home-carousel {
+  padding-top: clamp(65px, 8vw, 118px);
+}
+.home-carousel-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 29px;
+}
+.home-carousel-head .eyebrow {
+  margin-bottom: 15px;
+}
+.home-carousel-head h2 {
+  font-size: clamp(32px, 3.6vw, 54px);
+}
+.carousel-controls {
+  display: flex;
+  gap: 7px;
+}
+.carousel-controls button {
+  width: 43px;
+  height: 43px;
+  border: 1px solid var(--line);
+  font-size: 20px;
+}
+.carousel-controls button:hover,
+.carousel-controls button:focus-visible {
+  border-color: #222;
+  color: #222;
+}
+.carousel-viewport {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 16px;
+}
+.carousel-track {
+  display: flex;
+  gap: clamp(14px, 2vw, 28px);
+  width: max-content;
+}
+.carousel-track > a {
+  width: min(67vw, 850px);
+  scroll-snap-align: start;
+}
+.carousel-slide {
+  position: relative;
+  height: min(48vw, 600px);
+  overflow: hidden;
+  background: #f1f1ee;
+}
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease, opacity 0.35s ease;
+}
+.carousel-track > a:hover img,
+.carousel-track > a:focus-visible img {
+  transform: scale(1.022);
+  opacity: 0.92;
+}
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: end;
+  gap: 18px;
+  padding: 17px 20px;
+  background: rgba(255, 255, 255, 0.94);
+}
+.carousel-caption h3 {
+  font-size: clamp(24px, 2.4vw, 38px);
+  line-height: 0.95;
+}
+.carousel-caption > span:last-child {
+  font-size: 17px;
+}
+@media (max-width: 760px) {
+  .home-opening {
+    min-height: 560px;
+    margin-top: -28px;
+  }
+  .opening-photo img { object-position: 58% center; }
+  .opening-title {
+    right: 23px;
+    bottom: 37px;
+    left: 23px;
+  }
+  .opening-title h1 { font-size: clamp(58px, 18vw, 92px); }
+  .opening-title > p:not(.eyebrow) { margin-top: 23px; }
+  .opening-photo figcaption { display: none; }
+  .home-carousel { padding-top: 58px; }
+  .home-carousel-head { margin-bottom: 22px; }
+  .home-carousel-head h2 { font-size: 31px; }
+  .carousel-controls button { width: 38px; height: 38px; }
+  .carousel-track > a { width: 84vw; }
+  .carousel-slide { height: 108vw; }
+  .carousel-caption { padding: 14px; gap: 12px; }
+  .carousel-caption h3 { font-size: 29px; }
+}
+
 /* La obra ocupa la portada; la identidad editorial queda deliberadamente discreta. */
 .home-cover {
   display: block;

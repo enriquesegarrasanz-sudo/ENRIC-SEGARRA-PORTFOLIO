@@ -1,10 +1,15 @@
 # Historial de cambios
 
-## Portada · selección de obra — 2026-09-18
+## Escultura · Forma articulada dentro de un círculo — 2026-09-18
 
-- La portada deja de apoyarse en un retrato o una sola pieza: presenta una selección visual de móviles, escultura de madera, escultura clara, pintura y una intervención en la naturaleza.
-- El nombre y la entrada al catálogo se reducen a una cabecera discreta para que las obras sean el primer elemento de lectura.
-- Los accesos a los recorridos mantienen una presentación fotográfica y reducen los textos de orientación a lo imprescindible.
+- Revisadas las siete vistas de la ficha ESC-054 con una iluminación editorial coherente y fondo de exposición blanco cálido.
+- La pátina irregular del metal, la textura de la pared y el desgaste de la peana permanecen visibles, sin homogeneizarlos ni idealizarlos.
+
+## Portada · artista y carrusel de obra — 2026-09-18
+
+- La portada se presenta como «Segarra y Garibo» y abre con una fotografía horizontal de Enric junto a una obra actual, en lugar de un mosaico de imágenes.
+- Tras la fotografía inicial, un carrusel horizontal permite recorrer una selección de imágenes ya editadas: móvil, escultura, instalación de pintura y escultura, y dibujo de catálogo.
+- Las flechas desplazan el carrusel sin ocultar las piezas siguientes; cada imagen conserva el acceso a su apartado correspondiente.
 
 ## Arte infantil · mosaico editorial — 2026-09-18
 
