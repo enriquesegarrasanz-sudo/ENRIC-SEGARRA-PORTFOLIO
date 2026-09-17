@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Fondos de estudio para Pintura — 2026-09-17
+
+- Las 80 fichas de pintura utilizan nuevas versiones sobre un fondo de estudio blanco cálido, coherente con la galería de escultura. El fondo maestro se generó con IA a partir de la referencia facilitada; obra, marco, color, textura, firma, encuadre y proporciones se conservan desde los archivos web anteriores, sin reinterpretación generativa. Se añaden miniaturas, recortes supervisados y una sombra ambiental mínima. Originales y versiones anteriores permanecen intactos y con procedencia registrada.
+
 ## Palacio Colomina · edición fotográfica profesional — 2026-09-17
 
 - Sustituidas las siete vistas del álbum por versiones de presentación profesional con luz, color, perspectiva, nitidez y composición revisados. La vista frontal se reencuadró con criterio editorial y la escultura negra de alambre se corrigió para aparecer completa, sin extremos cortados. Originales y versiones web anteriores conservados; procedencia registrada.

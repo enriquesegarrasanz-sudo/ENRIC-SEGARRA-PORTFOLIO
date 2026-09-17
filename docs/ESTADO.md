@@ -4,6 +4,7 @@
 
 ## Entregado
 
+- Renovadas las 80 fichas de pintura con fondo de estudio blanco cálido y luz ambiental coherente con la escultura. La IA se utiliza únicamente para crear el fondo maestro; los píxeles de cada obra y su marco proceden de la versión anterior, con recorte supervisado, sombra mínima, nuevas miniaturas y trazabilidad completa. Originales y versiones web previas quedan conservados.
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
@@ -25,7 +26,7 @@ Los nombres de obras y las familias siguen siendo descripciones editoriales prov
 
 Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. No se ha desplegado la web en un alojamiento público.
 
-La edición y mejora individual incluye una primera tanda de seis imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
+La edición y mejora individual incluye las 80 imágenes principales de pintura, una primera tanda de seis imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 
@@ -35,4 +36,4 @@ En navegador se verificaron la portada, trayectoria y búsqueda por año, acceso
 
 ## Guardado
 
-Rama: archivo-completo-trayectoria-20260917. El estado anterior se conserva en 58432b4 y en los respaldos 0.3.0. Esta entrega se guarda en Git y en una copia privada complementaria dentro de COPIAS_SEGURIDAD_WEB. Los archivos de revisión, fotografías privadas y sus relaciones forman parte de esa copia local, no del repositorio público.
+Rama: feature/fondos-pintura-estudio, aislada de los cambios pendientes de escultura. Parte de d4b7d09 y conserva intacto el estado anterior. Esta entrega se guarda en Git; los archivos de revisión y fotografías privadas continúan fuera del repositorio público.
