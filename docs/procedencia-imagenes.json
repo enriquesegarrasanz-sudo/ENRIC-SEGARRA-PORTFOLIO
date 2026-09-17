@@ -18716,5 +18716,101 @@
     "transformacion": "Orientación EXIF y reducción proporcional; sin recorte ni retoque. Previa incrustada si el original es RAW.",
     "width": 600,
     "height": 424
+  },
+  {
+    "asset": "assets/gallery-014590.webp",
+    "archivo_id": "ARC-014590",
+    "original": "MÓBIILES\\DSC02374.ARW",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014590-thumb.webp",
+    "archivo_id": "ARC-014590",
+    "original": "MÓBIILES\\DSC02374.ARW",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014605.webp",
+    "archivo_id": "ARC-014605",
+    "original": "MÓBIILES\\DSC02389.ARW",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014605-thumb.webp",
+    "archivo_id": "ARC-014605",
+    "original": "MÓBIILES\\DSC02389.ARW",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014616.webp",
+    "archivo_id": "ARC-014616",
+    "original": "MÓBIILES\\DSC02400.ARW",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014616-thumb.webp",
+    "archivo_id": "ARC-014616",
+    "original": "MÓBIILES\\DSC02400.ARW",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014625.webp",
+    "archivo_id": "ARC-014625",
+    "original": "MÓBIILES\\DSC02409.ARW",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014625-thumb.webp",
+    "archivo_id": "ARC-014625",
+    "original": "MÓBIILES\\DSC02409.ARW",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014646.webp",
+    "archivo_id": "ARC-014646",
+    "original": "MÓBIILES\\DSC02430.ARW",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014646-thumb.webp",
+    "archivo_id": "ARC-014646",
+    "original": "MÓBIILES\\DSC02430.ARW",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-009204.webp",
+    "archivo_id": "ARC-009204",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03779.jpg",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 725,
+    "height": 2170
+  },
+  {
+    "asset": "assets/gallery-009204-thumb.webp",
+    "archivo_id": "ARC-009204",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03779.jpg",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 187,
+    "height": 560
   }
 ]

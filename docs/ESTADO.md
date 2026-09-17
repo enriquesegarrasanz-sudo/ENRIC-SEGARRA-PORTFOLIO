@@ -4,6 +4,7 @@
 
 ## Entregado
 
+- Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
 - Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.
 - Portada con una introducción más clara al artista y tres recorridos equilibrados. Cabecera horizontal sobre blanco, menú móvil y fotografías completas.
 - 221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. Son 39 fichas más; se conservan las referencias anteriores y se reúnen las distintas perspectivas.
@@ -22,7 +23,7 @@ Los nombres de obras y las familias siguen siendo descripciones editoriales prov
 
 Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. No se ha desplegado la web en un alojamiento público.
 
-La edición y mejora individual de las fotografías sigue siendo una fase posterior. Esta entrega se centra en cobertura, clasificación, distribución y recorrido.
+La edición y mejora individual ha comenzado con una primera tanda de seis imágenes principales de móviles. El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 

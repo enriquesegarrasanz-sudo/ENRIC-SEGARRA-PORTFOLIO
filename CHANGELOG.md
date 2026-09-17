@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Tratamiento fotográfico de móviles — 2026-09-17
+
+- Primera tanda de tratamiento expositivo: seis imágenes principales con fondo continuo blanco cálido, iluminación de galería coherente y originales intactos. Procedencia y transformaciones registradas.
+
 ## Ajuste posterior — 2026-09-17
 
 - Retirado «Proceso y entorno» de la navegación y de todos los recorridos públicos, manteniendo intactos los originales y los datos internos.
