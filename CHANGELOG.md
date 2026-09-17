@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Móviles · cobertura expositiva completa — 2026-09-18
+
+- Las 21 portadas pendientes, de MOV-007 a MOV-027, reciben una versión de presentación con luz y fondo de galería coherentes. Junto con las tandas previas, las 33 fichas de Móviles cuentan ya con portada profesional; cada galería conserva sus vistas originales de espacio, instalación o naturaleza.
+
 ## Móviles exteriores · edición fotográfica profesional — 2026-09-18
 
 - Las portadas de MOV-028 a MOV-033 incorporan versiones de galería con fondo continuo blanco cálido, luz difusa y color equilibrado. Se conservan las seis fotografías originales, sus vistas adicionales y una trazabilidad independiente para cada nueva versión y miniatura.
