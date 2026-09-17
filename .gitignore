@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.sites-runtime/
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+test-results/
+.local/
+*.ARW
+*.arw
+*.psd
+*.zip
+*.bundle
+__pycache__/

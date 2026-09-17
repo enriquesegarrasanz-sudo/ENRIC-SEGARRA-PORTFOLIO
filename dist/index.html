@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="La obra y la memoria artística de Enric Segarra. Móviles, escultura, pintura, dibujo y una vida dedicada a crear."
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="light" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <title>Enric Segarra — Obra y memoria</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f4f1eb'/%3E%3Ctext x='13' y='47' font-family='Georgia,serif' font-size='46' fill='%239e412c'%3Ee%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+    <header class="header">
+      <a class="brand" href="#/" aria-label="Enric Segarra, inicio"
+        >enric segarra<span>OBRA Y MEMORIA</span></a
+      >
+      <button
+        id="menu-toggle"
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="nav"
+      >
+        Menú <span aria-hidden="true">+</span>
+      </button>
+      <nav id="nav" aria-label="Navegación principal">
+        <a href="#/" data-nav="inicio">Inicio</a
+        ><a href="#/obra" data-nav="obra">Obra</a
+        ><a href="#/proceso" data-nav="proceso">Proceso y entorno</a
+        ><a href="#/memoria" data-nav="memoria">Trayectoria y memoria</a
+        ><a href="#/artista" data-nav="artista">Artista</a
+        ><a href="#/contacto" data-nav="contacto">Contacto</a>
+      </nav>
+    </header>
+    <main id="contenido" tabindex="-1"></main>
+    <footer class="footer">
+      <a class="footer-brand" href="#/">enric segarra</a>
+      <p>Obra, presente y memoria.</p>
+      <a href="#/memoria"
+        >Una historia que sigue creciendo <span aria-hidden="true">↗</span></a
+      ><small>Selección en desarrollo · Archivo familiar</small>
+    </footer>
+    <dialog id="image-dialog" aria-labelledby="image-caption">
+      <button class="close-image" aria-label="Cerrar imagen">
+        Cerrar <span aria-hidden="true">×</span></button
+      ><img id="large-image" alt="" />
+      <p id="image-caption"></p>
+    </dialog>
+    <noscript
+      ><p>
+        Esta primera versión necesita JavaScript para navegar por la obra y la
+        memoria.
+      </p></noscript
+    >
+  </body>
+</html>
