@@ -4,7 +4,7 @@
 
 ## Entregado
 
-- La web adopta «Segarra y Garibo» como nombre artístico público en su portada, navegación, créditos, perfil y metadatos. Las referencias archivísticas con la denominación histórica se mantienen para preservar su procedencia.
+- La web adopta «SEGARRA Y GARIBO» como nombre artístico público en su portada, navegación, créditos, perfil y metadatos. Las referencias archivísticas con la denominación histórica se mantienen para preservar su procedencia.
 
 - Índice de exposiciones rediseñado como recorrido horizontal, con acceso a las vistas completas de sala, lugar y fecha cuando constan. La presentación de los dibujos se unifica y se incorporan los recursos de la Sala d’Exposicions de les Belles Arts, conservando sus contextos documentales.
 - Tratamiento de galería aplicado a 49 portadas de Escultura: fondo blanco neutro, luz difusa, formato 1536 × 1024, miniaturas 768 × 512 y grano fotográfico fino. Las instalaciones ESC-047 a ESC-052 mantienen las fotografías originales en naturaleza; no se altera ese contexto.

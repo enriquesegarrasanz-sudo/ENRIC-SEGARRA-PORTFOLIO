@@ -1,7 +1,7 @@
 // Contenido editable. Los nombres de piezas son descripciones provisionales,
 // no títulos del artista. No completar fechas, técnicas o medidas por inferencia.
 export const site = {
-  name: "Segarra y Garibo",
+  name: "SEGARRA Y GARIBO",
   contactEmail: null,
   contactText: "El contacto profesional se incorporará próximamente.",
   intro:

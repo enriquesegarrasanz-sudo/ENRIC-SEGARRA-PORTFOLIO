@@ -3,6 +3,7 @@
 ## Nombre artístico · Segarra y Garibo — 2026-09-18
 
 - La identidad pública de la web pasa a ser «Segarra y Garibo»: portada, navegación, créditos de obra, página de artista y metadatos para buscadores. Los nombres que identifican documentos, proyectos o fondos históricos se conservan tal como constan en el archivo.
+- La identidad pública se presenta en mayúsculas: «SEGARRA Y GARIBO».
 
 ## Exposiciones y dibujos · recorrido unificado — 2026-09-17
 
