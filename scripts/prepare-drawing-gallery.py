@@ -22,6 +22,9 @@ FULL_SIZE = (1536, 1024)
 THUMB_SIZE = (768, 512)
 BACKGROUND = (245, 246, 247)  # Approved cool-neutral gallery white, #F5F6F7.
 GENERATIVE_ASSISTED = {"015079", "015080", "015081", "015105"}
+# ARC-015105 has a separate, hand-cleaned version.  It must not be replaced by
+# a new crop from the camera original when the rest of the series is rebuilt.
+PRESERVE_EXISTING = {"015105"}
 
 
 @dataclass(frozen=True)
@@ -37,29 +40,32 @@ class Drawing:
 # not.  The only generative exception (ARC-015105) is supplied separately after
 # its hand was removed; every other result is this deterministic pipeline.
 DRAWINGS = (
-    Drawing("015079", "arc-015079", (0.14, 0.22, 0.86, 0.79)),
-    Drawing("015080", "arc-015080", (0.13, 0.17, 0.87, 0.83)),
-    Drawing("015081", "arc-015081", (0.12, 0.17, 0.88, 0.83)),
-    Drawing("015082", "arc-015082", (0.13, 0.17, 0.87, 0.83)),
-    Drawing("015083", "arc-015083", (0.13, 0.17, 0.87, 0.83)),
-    Drawing("015084", "arc-015084", (0.13, 0.17, 0.87, 0.83)),
-    Drawing("015085", "arc-015085", (0.13, 0.17, 0.87, 0.83)),
-    Drawing("015086", "arc-015086", (0.13, 0.17, 0.87, 0.83)),
-    Drawing("015087", "arc-015087", (0.14, 0.20, 0.86, 0.80)),
-    Drawing("015088", "arc-015088", (0.13, 0.20, 0.87, 0.80)),
-    Drawing("015089", "arc-015089", (0.15, 0.18, 0.85, 0.82)),
-    Drawing("015090", "arc-015090", (0.15, 0.18, 0.85, 0.82)),
-    Drawing("015091", "arc-015091", (0.15, 0.18, 0.85, 0.82)),
-    Drawing("015092", "arc-015092", (0.14, 0.18, 0.86, 0.82)),
-    Drawing("015093", "arc-015093", (0.13, 0.18, 0.87, 0.82)),
-    Drawing("015094", "arc-015094", (0.30, 0.16, 0.70, 0.85), True),
-    Drawing("015095", "arc-015095", (0.30, 0.16, 0.70, 0.85), True),
-    Drawing("015096", "arc-015096", (0.13, 0.14, 0.87, 0.86), True),
-    Drawing("015098", "arc-015098", (0.13, 0.14, 0.87, 0.86), True),
-    Drawing("015099", "arc-015099", (0.13, 0.14, 0.87, 0.86), True),
-    Drawing("015102", "arc-015102", (0.13, 0.14, 0.87, 0.86), True),
-    Drawing("015103", "arc-015103", (0.30, 0.16, 0.70, 0.85), True),
-    Drawing("015105", "arc-015105", (0.13, 0.14, 0.87, 0.86), True),
+    # The earlier catalogue crop prioritised equal visual scale and cut too
+    # close to several sheets and frames.  These bounds retain the complete
+    # support, the signature and the edge of the frame whenever present.
+    Drawing("015079", "arc-015079", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015080", "arc-015080", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015081", "arc-015081", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015082", "arc-015082", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015083", "arc-015083", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015084", "arc-015084", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015085", "arc-015085", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015086", "arc-015086", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015087", "arc-015087", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015088", "arc-015088", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015089", "arc-015089", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015090", "arc-015090", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015091", "arc-015091", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015092", "arc-015092", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015093", "arc-015093", (0.06, 0.10, 0.94, 0.90)),
+    Drawing("015094", "arc-015094", (0.08, 0.06, 0.92, 0.95), True),
+    Drawing("015095", "arc-015095", (0.08, 0.06, 0.92, 0.95), True),
+    Drawing("015096", "arc-015096", (0.05, 0.06, 0.95, 0.94), True),
+    Drawing("015098", "arc-015098", (0.05, 0.06, 0.95, 0.94), True),
+    Drawing("015099", "arc-015099", (0.05, 0.06, 0.95, 0.94), True),
+    Drawing("015102", "arc-015102", (0.05, 0.06, 0.95, 0.94), True),
+    Drawing("015103", "arc-015103", (0.08, 0.06, 0.92, 0.95), True),
+    Drawing("015105", "arc-015105", (0.05, 0.06, 0.95, 0.94), True),
     Drawing("015172", "arc-015172", (0.12, 0.18, 0.88, 0.82)),
     Drawing("015173", "arc-015173", (0.12, 0.18, 0.88, 0.82)),
     Drawing("015176", "arc-015176", (0.12, 0.18, 0.88, 0.82)),
@@ -67,8 +73,8 @@ DRAWINGS = (
     Drawing("015181", "arc-015181", (0.12, 0.18, 0.88, 0.82)),
     Drawing("015182", "arc-015182", (0.12, 0.18, 0.88, 0.82)),
     Drawing("015183", "arc-015183", (0.12, 0.18, 0.88, 0.82)),
-    Drawing("015185", "arc-015185", (0.30, 0.16, 0.70, 0.85), True),
-    Drawing("015186", "arc-015186", (0.30, 0.16, 0.70, 0.85), True),
+    Drawing("015185", "arc-015185", (0.08, 0.06, 0.92, 0.95), True),
+    Drawing("015186", "arc-015186", (0.08, 0.06, 0.92, 0.95), True),
     Drawing("015187", "arc-015187", (0.10, 0.12, 0.90, 0.88), True),
     Drawing("008527", "arc-008527", (0.02, 0.02, 0.98, 0.98)),
     Drawing("008528", "arc-008528", (0.02, 0.02, 0.98, 0.98)),
@@ -218,6 +224,9 @@ def main() -> None:
 
     drawings = [drawing for drawing in DRAWINGS if not args.only or drawing.archive_id == args.only]
     for drawing in drawings:
+        if drawing.archive_id in PRESERVE_EXISTING and not args.only:
+            print(f"{drawing.archive_id} -> se conserva la versión ya corregida")
+            continue
         source_path = args.assets / f"{drawing.source}.webp"
         with Image.open(source_path) as source:
             cropped = crop(ImageOps.exif_transpose(source).convert("RGB"), drawing.crop)
