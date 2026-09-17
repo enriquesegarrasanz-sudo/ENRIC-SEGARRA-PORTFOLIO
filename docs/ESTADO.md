@@ -4,7 +4,7 @@
 
 ## Entregado
 
-- Renovadas las 80 fichas de pintura con fondo de estudio blanco cálido y luz ambiental coherente con la escultura. La IA se utiliza únicamente para crear el fondo maestro; los píxeles de cada obra y su marco proceden de la versión anterior, con recorte supervisado, sombra mínima, nuevas miniaturas y trazabilidad completa. Originales y versiones web previas quedan conservados.
+- Revisadas de nuevo las 80 fichas de pintura, con 80 imágenes principales y 80 miniaturas de segunda versión. Once fotografías se orientan manualmente según rostros, animales, signos y firmas. El recorte se rehace con criterio conservador: no simplifica ni reconstruye contornos y conserva cualquier píxel dudoso de la fotografía original. Los soportes rectangulares y circulares se delimitan solo por su borde físico exterior; las piezas irregulares mantienen su silueta real. La IA se limita al fondo maestro vacío. Originales y primera versión quedan conservados.
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
@@ -24,9 +24,9 @@ La revisión está explicada en [REVISION-0.4.0.md](REVISION-0.4.0.md). Se revis
 
 Los nombres de obras y las familias siguen siendo descripciones editoriales provisionales. Las fechas se publican cuando hay documentación, indicando si proceden del título de una carpeta. Continúan pendientes técnicas, medidas, títulos originales, algunas autorías y datos de contacto. La serie astrológica permanece en reserva. No se han modificado los originales.
 
-Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. No se ha desplegado la web en un alojamiento público.
+Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. La web se publica mediante GitHub Pages, exclusivamente desde `dist/`.
 
-La edición y mejora individual incluye las 80 imágenes principales de pintura, una primera tanda de seis imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
+La edición y mejora individual incluye las 80 imágenes principales y 80 miniaturas revisadas de pintura, una primera tanda de seis imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 
@@ -36,4 +36,4 @@ En navegador se verificaron la portada, trayectoria y búsqueda por año, acceso
 
 ## Guardado
 
-Rama: feature/fondos-pintura-estudio, aislada de los cambios pendientes de escultura. Parte de d4b7d09 y conserva intacto el estado anterior. Esta entrega se guarda en Git; los archivos de revisión y fotografías privadas continúan fuera del repositorio público.
+Rama de corrección: fix/pintura-fidelidad, creada sobre la versión pública anterior. Conserva intactos los originales y la primera versión de estudio. Esta entrega se guarda en Git; los archivos de revisión y fotografías privadas continúan fuera del repositorio público.

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Prepare faithful painting cut-outs on the shared warm studio background.
+"""Prepare faithful painting photographs on the shared warm studio background.
 
-The artwork pixels are copied from the current catalogue asset. Only pixels
-outside the detected physical work/frame are replaced. Originals are never
-overwritten.
+The artwork pixels are copied from the original catalogue asset. Only backdrop
+pixels confidently connected to the photograph edge are replaced. This avoids
+turning pale paint, open shapes, or fine contours into background. Originals
+and the first studio version are never overwritten.
 """
 
 from __future__ import annotations
@@ -20,7 +21,59 @@ from PIL import Image, ImageFilter, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "dist" / "assets"
-DEFAULT_BACKGROUND = ASSETS / "painting-studio-background.png"
+DEFAULT_BACKGROUND = ASSETS / "painting-studio-background-v2.png"
+OUTPUT_VERSION = "studio-v2"
+
+# These photographs were captured with the camera in landscape orientation even
+# though the works themselves are vertical. Values use PIL's clockwise degrees.
+# The list was reviewed visually against faces, horns, lettering, and signatures.
+ORIENTATIONS: dict[str, int] = {
+    "arc-015123": 90,
+    "arc-015124": 90,
+    "arc-015126": 90,
+    "arc-015127": 90,
+    "arc-015128": 90,
+    "arc-015129": 90,
+    "arc-015130": 270,
+    "arc-015136": 270,
+    "arc-015148": 90,
+    "arc-015149": 270,
+    "arc-015167": 90,
+}
+
+ELLIPTICAL_ASSETS = {
+    "arc-008492",
+    "arc-015106",
+    "arc-015107",
+    "arc-015108",
+    "arc-015109",
+    "arc-015110",
+    "arc-015111",
+    "arc-015112",
+    "arc-015113",
+    "arc-015114",
+    "arc-015115",
+    "arc-015118",
+    "arc-015119",
+    "arc-015202",
+    "arc-015218",
+    "arc-015221",
+    "arc-015223",
+    "arc-015240",
+}
+
+IRREGULAR_ASSETS = {
+    "arc-015120",
+    "arc-015128",
+    "arc-015129",
+    "arc-015130",
+    "arc-015131",
+    "arc-015132",
+    "arc-015169",
+    "arc-015204",
+    "arc-015206",
+    "arc-015234",
+}
 
 # Normalized outlines for photographs whose textured wall or pale frame cannot
 # be separated reliably by colour alone. These follow the visible outer edge of
@@ -59,7 +112,10 @@ def painting_assets() -> list[str]:
         text=True,
         encoding="utf-8",
     )
-    return [name.removesuffix("-studio") for name in json.loads(result.stdout)]
+    return [
+        name.removesuffix("-studio-v2").removesuffix("-studio")
+        for name in json.loads(result.stdout)
+    ]
 
 
 def _border_samples(lab: np.ndarray, width: int) -> np.ndarray:
@@ -102,7 +158,7 @@ def _manual_mask(asset: str, size: tuple[int, int]) -> Image.Image | None:
 
 
 def artwork_mask(image: Image.Image, asset: str) -> Image.Image:
-    """Return a conservative antialiased mask for the physical artwork."""
+    """Return a conservative antialiased mask for pixels that must be preserved."""
     manual = _manual_mask(asset, image.size)
     if manual is not None:
         return manual
@@ -112,13 +168,14 @@ def artwork_mask(image: Image.Image, asset: str) -> Image.Image:
     border_width = max(8, int(min(width, height) * 0.018))
     samples = _border_samples(lab, border_width)
 
-    # A few colour centres model the wall/background despite mild gradients.
+    # A few colour centres model only the photographed wall/background. The
+    # threshold is deliberately strict: uncertain pixels always remain original.
     sample_step = max(1, len(samples) // 18000)
     compact = samples[::sample_step]
     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 80, 0.25)
     _score, _labels, centres = cv2.kmeans(
         compact,
-        5,
+        4,
         None,
         criteria,
         5,
@@ -130,67 +187,73 @@ def artwork_mask(image: Image.Image, asset: str) -> Image.Image:
     )
 
     gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
-    saturation = cv2.cvtColor(rgb, cv2.COLOR_RGB2HSV)[:, :, 1]
     gradient_x = cv2.Sobel(gray, cv2.CV_32F, 1, 0, ksize=3)
     gradient_y = cv2.Sobel(gray, cv2.CV_32F, 0, 1, ksize=3)
     gradient = cv2.magnitude(gradient_x, gradient_y)
 
-    # Only background-like pixels connected to the image edge may be removed.
-    colour_match = (distances < 31.0) & (gradient < 92)
-    smooth_backdrop = (gradient < 10.5) & (saturation < 118)
-    candidate = (colour_match | smooth_backdrop).astype(np.uint8)
-    hard_edge = cv2.dilate(
-        (gradient > 105).astype(np.uint8),
-        cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3)),
-    )
-    candidate[hard_edge > 0] = 0
-    count, labels = cv2.connectedComponents(candidate, connectivity=8)
+    # Only smooth pixels very close to a sampled border colour can be removed,
+    # and only when connected to an outer edge. No contour simplification,
+    # closing, convex hull, or inferred fill is allowed.
+    candidate = ((distances < 18.0) & (gradient < 38.0)).astype(np.uint8)
+    _count, labels = cv2.connectedComponents(candidate, connectivity=8)
     edge_labels = np.unique(
         np.concatenate(
             [labels[0, :], labels[-1, :], labels[:, 0], labels[:, -1]]
         )
     )
     edge_labels = edge_labels[edge_labels != 0]
-    background = np.isin(labels, edge_labels).astype(np.uint8)
-    foreground = (1 - background) * 255
+    background = np.isin(labels, edge_labels).astype(np.uint8) * 255
+    foreground = 255 - background
 
-    # Join fragmented evidence, then keep only substantial central objects.
-    radius = max(5, int(min(width, height) * 0.008))
-    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (radius | 1, radius | 1))
-    foreground = cv2.morphologyEx(foreground, cv2.MORPH_CLOSE, kernel)
-    component_count, component_labels, stats, centroids = cv2.connectedComponentsWithStats(
-        (foreground > 0).astype(np.uint8), connectivity=8
-    )
-    kept = np.zeros((height, width), dtype=np.uint8)
-    minimum_area = width * height * 0.0015
-    for index in range(1, component_count):
-        area = stats[index, cv2.CC_STAT_AREA]
-        cx, cy = centroids[index]
-        central = 0.06 * width < cx < 0.94 * width and 0.05 * height < cy < 0.95 * height
-        if area >= minimum_area and central:
-            kept[component_labels == index] = 255
+    # For conventional canvases and panels, preserve the complete physical
+    # surface inside its outer edge. This prevents pale painted regions from
+    # being mistaken for wall. Irregular silhouettes keep the conservative
+    # pixel mask above and are never forced into a geometric outline.
+    if asset not in IRREGULAR_ASSETS:
+        cleaned = cv2.morphologyEx(
+            (foreground > 0).astype(np.uint8),
+            cv2.MORPH_OPEN,
+            cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5)),
+        )
+        count, component_labels, stats, _centroids = cv2.connectedComponentsWithStats(
+            cleaned, connectivity=8
+        )
+        if count > 1:
+            candidates = [
+                index
+                for index in range(1, count)
+                if stats[index, cv2.CC_STAT_AREA] > width * height * 0.025
+            ]
+            if candidates:
+                largest = max(candidates, key=lambda index: stats[index, cv2.CC_STAT_AREA])
+                component = (component_labels == largest).astype(np.uint8)
+                contours, _hierarchy = cv2.findContours(
+                    component, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE
+                )
+                contour = max(contours, key=cv2.contourArea)
+                geometric = np.zeros_like(foreground)
+                if asset in ELLIPTICAL_ASSETS and len(contour) >= 5:
+                    ellipse = cv2.fitEllipse(contour)
+                    cv2.ellipse(geometric, ellipse, 255, thickness=cv2.FILLED)
+                else:
+                    rectangle = cv2.minAreaRect(contour)
+                    (cx, cy), (rw, rh), angle = rectangle
+                    expanded = ((cx, cy), (rw + 5, rh + 5), angle)
+                    box = np.int32(np.round(cv2.boxPoints(expanded)))
+                    cv2.fillPoly(geometric, [box], 255)
+                foreground = geometric
 
-    contours, _hierarchy = cv2.findContours(kept, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    if not contours:
-        raise RuntimeError("No se ha podido detectar la obra")
-    contours = [c for c in contours if cv2.contourArea(c) >= minimum_area]
-    filled = np.zeros_like(kept)
-    simplified: list[np.ndarray] = []
-    for contour in contours:
-        perimeter = cv2.arcLength(contour, True)
-        hull = cv2.convexHull(contour)
-        hull_area = max(cv2.contourArea(hull), 1.0)
-        solidity = cv2.contourArea(contour) / hull_area
-        epsilon = perimeter * (0.0028 if solidity > 0.90 else 0.0012)
-        simplified.append(cv2.approxPolyDP(contour, epsilon, True))
-    cv2.drawContours(filled, simplified, -1, 255, thickness=cv2.FILLED)
-
-    # Protect the original edge pixels and feather only the outermost transition.
-    protect = max(2, int(min(width, height) * 0.0025))
-    protect_kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (protect * 2 + 1, protect * 2 + 1))
-    filled = cv2.dilate(filled, protect_kernel)
-    mask = Image.fromarray(filled, mode="L").filter(ImageFilter.GaussianBlur(radius=1.15))
+    mask = Image.fromarray(foreground, mode="L").filter(ImageFilter.GaussianBlur(radius=0.75))
     return mask
+
+
+def orient_original(original: Image.Image, asset: str) -> Image.Image:
+    degrees = ORIENTATIONS.get(asset, 0)
+    if degrees == 90:
+        return original.transpose(Image.Transpose.ROTATE_270)
+    if degrees == 270:
+        return original.transpose(Image.Transpose.ROTATE_90)
+    return original
 
 
 def fit_background(background: Image.Image, size: tuple[int, int]) -> Image.Image:
@@ -215,19 +278,9 @@ def render(
     mask_path: Path | None,
     thumb_path: Path | None = None,
 ) -> None:
-    original = Image.open(source).convert("RGB")
+    original = orient_original(Image.open(source).convert("RGB"), source.stem)
     mask = artwork_mask(original, source.stem)
     canvas = fit_background(background, original.size)
-
-    # A restrained contact shadow belongs to the environment, not the artwork.
-    shadow_offset = max(2, int(min(original.size) * 0.006))
-    shadow = Image.new("RGBA", original.size, (0, 0, 0, 0))
-    shadow_alpha = mask.filter(ImageFilter.GaussianBlur(radius=max(8, min(original.size) * 0.012)))
-    shadow_alpha = shadow_alpha.point(lambda value: int(value * 0.12))
-    shadow_layer = Image.new("RGBA", original.size, (65, 58, 50, 0))
-    shadow_layer.putalpha(shadow_alpha)
-    shadow.alpha_composite(shadow_layer, (0, shadow_offset))
-    canvas = Image.alpha_composite(canvas.convert("RGBA"), shadow).convert("RGB")
 
     result = Image.composite(original, canvas, mask)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -245,8 +298,10 @@ def activate_assets(assets: list[str]) -> None:
     catalogue = catalogue_path.read_text(encoding="utf-8")
     for asset in assets:
         suffix = asset.removeprefix("arc-")
-        catalogue = catalogue.replace(f'"{asset}"', f'"{asset}-studio"')
-        catalogue = catalogue.replace(f'"thumb-{suffix}"', f'"thumb-{suffix}-studio"')
+        catalogue = catalogue.replace(f'"{asset}-studio"', f'"{asset}-{OUTPUT_VERSION}"')
+        catalogue = catalogue.replace(
+            f'"thumb-{suffix}-studio"', f'"thumb-{suffix}-{OUTPUT_VERSION}"'
+        )
     catalogue_path.write_text(catalogue, encoding="utf-8", newline="\n")
 
     provenance_path = ROOT / "docs" / "procedencia-imagenes.json"
@@ -257,39 +312,39 @@ def activate_assets(assets: list[str]) -> None:
         suffix = asset.removeprefix("arc-")
         source_key = f"assets/{asset}.webp"
         base = indexed[source_key]
-        with Image.open(ASSETS / f"{asset}-studio.webp") as full:
+        with Image.open(ASSETS / f"{asset}-{OUTPUT_VERSION}.webp") as full:
             full_size = full.size
-        with Image.open(ASSETS / f"thumb-{suffix}-studio.webp") as thumb:
+        with Image.open(ASSETS / f"thumb-{suffix}-{OUTPUT_VERSION}.webp") as thumb:
             thumb_size = thumb.size
         additions.extend(
             [
                 {
-                    "asset": f"assets/{asset}-studio.webp",
+                    "asset": f"assets/{asset}-{OUTPUT_VERSION}.webp",
                     "archivo_id": base["archivo_id"],
                     "original": base["original"],
-                    "transformacion": "Obra y marco copiados directamente de la versión web anterior, sin reinterpretación generativa; sustitución del fondo exterior por fondo de estudio blanco cálido generado con IA, recorte supervisado y sombra ambiental suave; original intacto",
+                    "transformacion": "Fotografía original conservada sin reinterpretación generativa; orientación revisada manualmente cuando corresponde; sustitución exclusiva de píxeles de fondo confirmados y conectados al borde por fondo de estudio blanco cálido generado con IA; sin simplificar, rellenar ni reconstruir el contorno; original y primera versión intactos",
                     "width": full_size[0],
                     "height": full_size[1],
                 },
                 {
-                    "asset": f"assets/thumb-{suffix}-studio.webp",
+                    "asset": f"assets/thumb-{suffix}-{OUTPUT_VERSION}.webp",
                     "archivo_id": base["archivo_id"],
                     "original": base["original"],
-                    "transformacion": "Miniatura proporcional de la versión de estudio; obra y marco conservados; original intacto",
+                    "transformacion": "Miniatura proporcional de la segunda versión de estudio; orientación, obra, marco y proporciones conservados; original intacto",
                     "width": thumb_size[0],
                     "height": thumb_size[1],
                 },
             ]
         )
 
-    background_key = "assets/painting-studio-background.png"
+    background_key = "assets/painting-studio-background-v2.png"
     if background_key not in indexed:
         additions.append(
             {
                 "asset": background_key,
-                "archivo_id": "GENERATED-PAINTING-BACKGROUND-001",
+                "archivo_id": "GENERATED-PAINTING-BACKGROUND-002",
                 "original": "Referencia visual facilitada para este encargo: escultura sobre fondo de estudio",
-                "transformacion": "Fondo maestro vacío generado con IA: blanco cálido, gradación radial suave y grano monocromático mínimo",
+                "transformacion": "Segunda versión del fondo maestro vacío generada con IA: blanco cálido, gradación radial suave y superficie limpia sin textura visible",
                 "width": 1536,
                 "height": 1024,
             }
@@ -326,11 +381,11 @@ def main() -> None:
         args.output_dir = ASSETS
     for asset in selected:
         source = ASSETS / f"{asset}.webp"
-        destination = args.output_dir / f"{asset}-studio.webp"
+        destination = args.output_dir / f"{asset}-{OUTPUT_VERSION}.webp"
         thumb_path = None
         if args.final:
             suffix = asset.removeprefix("arc-")
-            thumb_path = ASSETS / f"thumb-{suffix}-studio.webp"
+            thumb_path = ASSETS / f"thumb-{suffix}-{OUTPUT_VERSION}.webp"
         mask_path = args.mask_dir / f"{asset}-mask.png" if args.mask_dir else None
         render(source, background, destination, mask_path, thumb_path)
         print(destination.relative_to(ROOT))

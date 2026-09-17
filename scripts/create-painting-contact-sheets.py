@@ -14,7 +14,7 @@ CELL = (360, 270)
 
 
 def main() -> None:
-    files = sorted(SOURCE.glob("*-studio.webp"))
+    files = sorted(SOURCE.glob("*-studio-v2.webp"))
     OUTPUT.mkdir(parents=True, exist_ok=True)
     font = ImageFont.load_default(size=16)
     for sheet_index, start in enumerate(range(0, len(files), FILES_PER_SHEET), start=1):

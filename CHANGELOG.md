@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Revisión de fidelidad de Pintura — 2026-09-17
+
+- Rehechas las 80 imágenes principales y sus miniaturas desde las fotografías originales. Se corrigen manualmente once orientaciones evidentes y se elimina el recorte que podía confundir pintura clara, huecos o líneas finas con el fondo. La segunda versión conserva geometría, proporciones, marco, firma y píxeles originales; la IA se limita a un fondo maestro vacío y más limpio. Originales y primera versión de estudio permanecen intactos.
+
 ## Fondos de estudio para Pintura — 2026-09-17
 
 - Las 80 fichas de pintura utilizan nuevas versiones sobre un fondo de estudio blanco cálido, coherente con la galería de escultura. El fondo maestro se generó con IA a partir de la referencia facilitada; obra, marco, color, textura, firma, encuadre y proporciones se conservan desde los archivos web anteriores, sin reinterpretación generativa. Se añaden miniaturas, recortes supervisados y una sombra ambiental mínima. Originales y versiones anteriores permanecen intactos y con procedencia registrada.
