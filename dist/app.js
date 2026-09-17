@@ -153,6 +153,15 @@ function galleryGrid(list, start = 0) {
     )
     .join("");
 }
+function educationPhotoIndex(section, list) {
+  const label = educationSections.find((item) => item.id === section)?.label || "Arte infantil";
+  const photos = list.flatMap((album) =>
+    album.gallery.map((photo) => ({ ...photo, galleryGroup: album.title })),
+  );
+  setGallery(photos, label);
+  return `<div class="result-line"><p>${photos.length} fotografías · ${list.length} salas</p>${a("/imagenes?ambito=" + (section === "obras" ? "infantil" : section), "Ver las fotografías con filtros " + arrow)}</div><div class="gallery-grid education-photo-grid">${galleryGrid(photos)}</div>`;
+}
+
 function workDetail(w) {
   setGallery(w.gallery, w.label);
   const related = works
@@ -214,6 +223,9 @@ function education(params) {
             )
             .join("")}</nav>`
         : "";
+    if (["obras", "talleres", "formacion"].includes(section)) {
+      return intro + educationPhotoIndex(section, shown);
+    }
     return (
       intro +
       filters +

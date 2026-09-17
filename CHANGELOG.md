@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Arte infantil · salas de obra — 2026-09-18
+
+- Las obras infantiles se recorren en cinco salas diferenciadas por familias de trabajo, con fotografías completas tanto en formato horizontal como vertical.
+
 ## Escultura · Forma articulada dentro de un círculo — 2026-09-18
 
 - Revisadas las siete vistas de la ficha ESC-054 con una iluminación editorial coherente y fondo de exposición blanco cálido.

@@ -27,6 +27,7 @@
 - Archivo visual general con 1.226 registros versionados y 147 fotografías adicionales en la revisión privada local: 1.373 imágenes disponibles localmente. Filtros de ámbito, disciplina y colección, búsqueda, ampliación y enlaces a todos los contextos.
 - Arte infantil con un directorio visual de obras, talleres, formación docente, exposiciones y textos; cinco colecciones de obras, cuatro álbumes de talleres, tres de formación y ocho de exposiciones. Las exposiciones de participantes adultos se distinguen de las infantiles.
 - Exposiciones clasificadas entre obra propia, colectivas, arte infantil y formación docente, con búsqueda por nombre, lugar o fecha.
+- La sección de obras infantiles se recorre ahora por cinco salas temáticas; sus imágenes mantienen la proporción completa para no perder las piezas verticales.
 - Trayectoria de 16 entradas: imagen fija a la izquierda y lista a la derecha, cambio por desplazamiento o enfoque, búsqueda de etapas/años, controles de anterior/siguiente y acceso al detalle. Los siete capítulos conservan sus enlaces y cuentan con navegación interna.
 - Eliminadas las apariciones de tarjetas con desplazamiento. Sustitución de imágenes sin dejar el panel vacío durante la carga.
 

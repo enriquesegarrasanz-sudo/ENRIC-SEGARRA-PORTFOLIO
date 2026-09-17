@@ -2595,6 +2595,27 @@ main {
   .reading-image { height: 190px; }
 }
 
+/* Las obras infantiles se recorren como salas, conservando siempre el encuadre completo. */
+.education-photo-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px 18px;
+}
+.education-photo-grid .gallery-group { margin-top: 12px; }
+.education-photo-grid .gallery-item .photo-button {
+  height: auto;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f4f3ef;
+}
+.education-photo-grid .gallery-item img { object-fit: contain; }
+.education-photo-grid .gallery-item figcaption { margin-top: 9px; padding-top: 7px; }
+@media (max-width: 760px) {
+  .education-photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 13px; }
+}
+@media (max-width: 520px) {
+  .education-photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 11px; }
+}
+
 /* Portada: una composición de imágenes, no una única obra representativa. */
 .home-cover {
   display: grid;
