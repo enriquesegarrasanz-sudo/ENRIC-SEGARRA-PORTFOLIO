@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Dibujo · encuadre y luz — 2026-09-18
+
+- Rehechas las versiones de catálogo de las fotografías de dibujo que tenían un encuadre demasiado cerrado: ahora se conserva completa la hoja o el marco, incluida la firma cuando es visible.
+- Las obras verticales mantienen su proporción real en la cuadrícula, sin estrecharlas artificialmente. La luz se equilibra de manera global y no se ha retocado ni reconstruido ningún trazo de las obras.
+- Se conserva sin sobrescribir la versión ya corregida de DIB-023; los originales siguen intactos y las versiones derivadas mantienen su procedencia registrada.
+
 ## Arte infantil · índice visual — 2026-09-18
 
 - Rediseñado el índice de Arte infantil con imágenes horizontales grandes para identificar de un vistazo obras, talleres, formación, exposiciones y textos.
