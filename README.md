@@ -1,16 +1,16 @@
-# Enric Segarra — Obra y memoria
+# SEGARRA Y GARIBO — Obra y memoria
 
-Portfolio, catálogo visual y memoria artística. Versión **0.3.0**, preparada el 17 de septiembre de 2026.
+Portfolio, catálogo visual y memoria artística. Versión **0.4.0**, actualizada el 18 de septiembre de 2026.
 
 ## Qué contiene
 
-- Inicio con el trabajo actual y acceso destacado a la trayectoria.
-- Obra: 182 fichas, cuatro disciplinas, familias, búsqueda, cuadrícula, recorrido vertical y galerías por pieza.
+- Inicio con acceso directo a obra, arte infantil, exposiciones, archivo visual, artista y contacto.
+- Obra: 221 fichas, cuatro disciplinas, familias, búsqueda, cuadrícula, recorrido vertical y galerías por pieza.
 - Arte infantil: proyecto, obras infantiles, talleres, formación docente, exposiciones y textos.
 - Exposiciones reunidas en un apartado propio.
-- Trayectoria: siete capítulos visuales con navegación entre imágenes y documentos. El archivo reúne 27 álbumes.
+- Archivo visual con filtros por ámbito, disciplina, colección o ficha.
 - Artista y contacto pendiente de completar con datos profesionales aprobados.
-- Ampliación de imágenes, navegación móvil y enlaces entre obras y capítulos.
+- Ampliación de imágenes, navegación móvil y enlaces entre obras, álbumes y contextos.
 
 Las imágenes son copias ligeras de revisión, sin retoque creativo. Los nombres de piezas son descripciones provisionales, no títulos inventados. La cronología y las fichas se ampliarán con datos contrastados.
 
@@ -24,7 +24,7 @@ npm run dev
 
 Abrir `http://127.0.0.1:4173`. Para parar, usar Ctrl+C en esa terminal. El servidor sirve exclusivamente `dist/` y escucha solo en el equipo local.
 
-También puede alojarse `dist/` en un servidor de archivos estáticos. La navegación usa fragmentos (`#/obra`, `#/memoria`), por lo que no requiere reglas especiales de redirección. Esta versión no se ha desplegado como web pública; GitHub contiene la copia del proyecto. Se mantiene `noindex` mientras se revisa.
+También puede alojarse `dist/` en un servidor de archivos estáticos. La navegación usa fragmentos (`#/obra`, `#/exposiciones`, `#/imagenes`), por lo que no requiere reglas especiales de redirección. Se mantiene `noindex` mientras se revisa.
 
 ## Dónde cambiar cada cosa
 

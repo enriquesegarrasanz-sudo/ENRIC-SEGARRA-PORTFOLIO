@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Limpieza editorial · sin trayectoria — 2026-09-18
+
+- Retirado el apartado «Trayectoria» de la navegación principal, del índice de inicio y del pie de página. Los enlaces internos que llevaban a ese recorrido se sustituyen por accesos a obra o exposiciones.
+
 ## Arte infantil · archivo completo por apartado — 2026-09-18
 
 - Obras infantiles, Talleres y Formación docente muestran ahora todas sus fotografías juntas, clasificadas por cada colección de origen.
