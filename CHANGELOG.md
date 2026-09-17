@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Móviles exteriores · edición fotográfica profesional — 2026-09-18
+
+- Las portadas de MOV-028 a MOV-033 incorporan versiones de galería con fondo continuo blanco cálido, luz difusa y color equilibrado. Se conservan las seis fotografías originales, sus vistas adicionales y una trazabilidad independiente para cada nueva versión y miniatura.
+
 ## Revisión de fidelidad de Pintura — 2026-09-17
 
 - Rehechas las 80 imágenes principales y sus miniaturas desde las fotografías originales. Se corrigen manualmente once orientaciones evidentes y se elimina el recorte que podía confundir pintura clara, huecos o líneas finas con el fondo. La segunda versión conserva geometría, proporciones, marco, firma y píxeles originales; la IA se limita a un fondo maestro vacío y más limpio. Originales y primera versión de estudio permanecen intactos.

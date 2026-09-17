@@ -21756,5 +21756,101 @@
     "transformacion": "Segunda versión del fondo maestro vacío generada con IA: blanco cálido, gradación radial suave y superficie limpia sin textura visible",
     "width": 1536,
     "height": 1024
+  },
+  {
+    "asset": "assets/gallery-015021.webp",
+    "archivo_id": "ARC-015021",
+    "original": "NATURALEZA MOBILES\\IMG20260819142328~2.jpg",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1152,
+    "height": 1366
+  },
+  {
+    "asset": "assets/gallery-015021-thumb.webp",
+    "archivo_id": "ARC-015021",
+    "original": "NATURALEZA MOBILES\\IMG20260819142328~2.jpg",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 472,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-015045.webp",
+    "archivo_id": "ARC-015045",
+    "original": "NATURALEZA MOBILES\\IMG20260907095349~2.jpg",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1333,
+    "height": 1180
+  },
+  {
+    "asset": "assets/gallery-015045-thumb.webp",
+    "archivo_id": "ARC-015045",
+    "original": "NATURALEZA MOBILES\\IMG20260907095349~2.jpg",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 560,
+    "height": 496
+  },
+  {
+    "asset": "assets/gallery-015051.webp",
+    "archivo_id": "ARC-015051",
+    "original": "NATURALEZA MOBILES\\IMG20260908120619.jpg",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "asset": "assets/gallery-015051-thumb.webp",
+    "archivo_id": "ARC-015051",
+    "original": "NATURALEZA MOBILES\\IMG20260908120619.jpg",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-015058.webp",
+    "archivo_id": "ARC-015058",
+    "original": "NATURALEZA MOBILES\\IMG_20240511_205553.jpg",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1446,
+    "height": 1087
+  },
+  {
+    "asset": "assets/gallery-015058-thumb.webp",
+    "archivo_id": "ARC-015058",
+    "original": "NATURALEZA MOBILES\\IMG_20240511_205553.jpg",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 560,
+    "height": 421
+  },
+  {
+    "asset": "assets/gallery-015062.webp",
+    "archivo_id": "ARC-015062",
+    "original": "NATURALEZA MOBILES\\IMG_20240511_205707.jpg",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1088,
+    "height": 1445
+  },
+  {
+    "asset": "assets/gallery-015062-thumb.webp",
+    "archivo_id": "ARC-015062",
+    "original": "NATURALEZA MOBILES\\IMG_20240511_205707.jpg",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 422,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-015067.webp",
+    "archivo_id": "ARC-015067",
+    "original": "NATURALEZA MOBILES\\IMG_20240512_123717.jpg",
+    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "width": 1088,
+    "height": 1445
+  },
+  {
+    "asset": "assets/gallery-015067-thumb.webp",
+    "archivo_id": "ARC-015067",
+    "original": "NATURALEZA MOBILES\\IMG_20240511_205835.jpg",
+    "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
+    "width": 422,
+    "height": 560
   }
 ]
