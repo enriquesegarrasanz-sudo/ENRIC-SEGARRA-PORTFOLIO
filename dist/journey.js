@@ -38,7 +38,7 @@ export function journeyEntries(chapters, albums, works) {
     },
     chapter("pintar-mundos", "Pintura"),
     chapter("crear-con-otros", "Educación", "arc-002472"),
-    album("evolucion-belles-arts", "2005"),
+    album("sala-bellas-artes", "2005"),
     album("educacion-paneles", "2005"),
     album("caixa-castello", "2006"),
     album("signo-agua", "El agua"),
@@ -46,7 +46,6 @@ export function journeyEntries(chapters, albums, works) {
     album("sant-jordi-estivella", "Estivella"),
     album("quatre", "Quatre"),
     chapter("exponer-abrir-espacios", "Las salas", "arc-009086"),
-    album("pineda", "Móviles"),
     chapter("seguir-creando", "Presente", "arc-014873"),
   ];
 }

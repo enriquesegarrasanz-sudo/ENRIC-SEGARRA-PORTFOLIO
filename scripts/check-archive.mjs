@@ -30,7 +30,7 @@ assert(
 );
 assert(
   filterPhotos(photos, { query: "evolucion" }).some((p) =>
-    p.owners.some((o) => o.id === "evolucion-belles-arts"),
+    p.owners.some((o) => o.id === "sala-bellas-artes"),
   ),
   "Búsqueda sin acentos",
 );

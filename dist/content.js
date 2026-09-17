@@ -15,7 +15,51 @@ export const categories = [
   { id: "dibujo", label: "Dibujo" },
 ];
 // El catálogo amplio y sus galerías se editan en catalogue.js.
-export { catalogue as works, albums } from "./catalogue.js";
+import { catalogue, albums as catalogueAlbums } from "./catalogue.js";
+import { bellasArtsGallery } from "./bellas-arts.js";
+
+export const works = catalogue;
+const consolidatedBellasArts = new Set([
+  "sala-compartida",
+  "educacion-salas",
+  "evolucion-belles-arts",
+]);
+const hiddenAlbums = new Set(["pineda"]);
+export const albums = [
+  ...catalogueAlbums.filter(
+    (album) =>
+      !consolidatedBellasArts.has(album.id) && !hiddenAlbums.has(album.id),
+  ),
+  {
+    id: "sala-bellas-artes",
+    title: "Sala d’Exposicions de les Belles Arts",
+    chapter: "exponer-abrir-espacios",
+    type: "Archivo de sala",
+    section: "exposiciones",
+    audience: "sala",
+    exhibitionKind: "sala",
+    text: "Archivo reunido de las exposiciones conservadas en la Sala d’Exposicions de les Belles Arts, en Valencia.",
+    paragraphs: [
+      "Las fotografías que antes aparecían como exposiciones separadas se reúnen aquí por su sede común: la Sala d’Exposicions de les Belles Arts.",
+      "El archivo distingue la muestra de arte infantil, la muestra colectiva y «Evolución 1984–2004». Las obras de participantes y de otros artistas se presentan como contexto documental y no se atribuyen a Enric.",
+      "La invitación de «Evolución 1984–2004» documenta su celebración entre el 3 de febrero y el 3 de marzo de 2005. Las fechas de los otros conjuntos continúan pendientes de confirmación.",
+    ],
+    image: "evolucion-013392-restored",
+    gallery: bellasArtsGallery,
+    credit:
+      "La autoría se indica en cada bloque: obra de Enric en «Evolución 1984–2004»; obras de participantes en arte infantil; y contexto documental en la muestra colectiva.",
+    place: "Sala d’Exposicions de les Belles Arts · Valencia",
+    searchTerms: "Bellas Artes Valencia",
+    source:
+      "Reunión de los fondos «Exposición Arte Infantil», «Expo Galería d’art» y «dibujos y pinturas Enric Segarra». La invitación ARC-013418 documenta el título, la sede y las fechas de «Evolución 1984–2004».",
+  },
+];
+export const albumRedirects = {
+  pineda: "/exposiciones",
+  "sala-compartida": "sala-bellas-artes",
+  "educacion-salas": "sala-bellas-artes",
+  "evolucion-belles-arts": "sala-bellas-artes",
+};
 export const chapters = [
   {
     id: "aprender-oficio",

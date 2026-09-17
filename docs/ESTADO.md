@@ -4,14 +4,17 @@
 
 ## Entregado
 
+- Índice de exposiciones rediseñado como recorrido horizontal: cada archivo presenta una vista amplia y completa de la sala, su tipo, lugar y fecha cuando constan, un breve contexto y el acceso a todas sus fotografías. Se mantienen filtros y búsqueda, con una composición de una columna en móvil.
+- Retirado «Móviles · Palau de Pineda» del índice público, del archivo visual y de la trayectoria. El enlace histórico redirige al apartado de exposiciones.
+- Unificado el archivo de la Sala d’Exposicions de les Belles Arts: 101 fotografías procedentes de arte infantil, una muestra colectiva y «Evolución 1984–2004». Los tres contextos se conservan dentro de la misma página con sus atribuciones diferenciadas; los antiguos enlaces llevan al nuevo archivo de sala.
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
 - Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.
 - Portada con una introducción más clara al artista y tres recorridos equilibrados. Cabecera horizontal sobre blanco, menú móvil y fotografías completas.
 - 221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. Son 39 fichas más; se conservan las referencias anteriores y se reúnen las distintas perspectivas.
-- 34 álbumes, siete más: cinco exposiciones y dos conjuntos de proceso. Fondo Naturaleza Móviles completo en sus 237 fotografías revisadas.
-- Archivo visual general con 1.153 registros versionados y 147 fotografías adicionales en la revisión privada local: 1.300 imágenes disponibles localmente. Filtros de ámbito, disciplina y colección, búsqueda, ampliación y enlaces a todos los contextos.
+- 31 álbumes: la Sala d’Exposicions de les Belles Arts reúne tres antiguas páginas sin perder sus contextos. Fondo Naturaleza Móviles completo en sus 237 fotografías revisadas.
+- Archivo visual general con 1.226 registros versionados y 147 fotografías adicionales en la revisión privada local: 1.373 imágenes disponibles localmente. Filtros de ámbito, disciplina y colección, búsqueda, ampliación y enlaces a todos los contextos.
 - Arte infantil con un directorio visual de obras, talleres, formación docente, exposiciones y textos; cinco colecciones de obras, cuatro álbumes de talleres, tres de formación y ocho de exposiciones. Las exposiciones de participantes adultos se distinguen de las infantiles.
 - Exposiciones clasificadas entre obra propia, colectivas, arte infantil y formación docente, con búsqueda por nombre, lugar o fecha.
 - Trayectoria de 16 entradas: imagen fija a la izquierda y lista a la derecha, cambio por desplazamiento o enfoque, búsqueda de etapas/años, controles de anterior/siguiente y acceso al detalle. Los siete capítulos conservan sus enlaces y cuentan con navegación interna.

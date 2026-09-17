@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## Exposiciones · recorrido horizontal — 2026-09-17
+
+- Rediseñado el índice de exposiciones como una secuencia horizontal de archivos: imagen de sala completa, tipo de muestra, lugar y fecha cuando están documentados, descripción y número de fotografías en cada ficha.
+- Retirado «Móviles · Palau de Pineda» del índice, del archivo visual y de la trayectoria. Su enlace anterior conduce de vuelta al apartado de exposiciones.
+- El nuevo formato responde también a filtros y búsquedas, y conserva una versión de una sola columna en pantallas pequeñas.
+
+## Sala d’Exposicions de les Belles Arts — 2026-09-17
+
+- Reunidas en un único archivo de sala las antiguas páginas de la muestra colectiva, arte infantil y «Evolución 1984–2004». Los enlaces anteriores redirigen al nuevo recorrido.
+- Incorporadas 101 fotografías: 11 de arte infantil, 68 de la muestra colectiva y 22 de «Evolución 1984–2004». Las 16 vistas ya restauradas de esta última se conservan.
+- La galería separa visualmente los tres contextos y explicita sus atribuciones: obra de Enric, obras de participantes y contexto documental de otros artistas.
+
 ## Palacio Colomina · edición fotográfica profesional — 2026-09-17
 
 - Sustituidas las siete vistas del álbum por versiones de presentación profesional con luz, color, perspectiva, nitidez y composición revisados. La vista frontal se reencuadró con criterio editorial y la escultura negra de alambre se corrigió para aparecer completa, sin extremos cortados. Originales y versiones web anteriores conservados; procedencia registrada.

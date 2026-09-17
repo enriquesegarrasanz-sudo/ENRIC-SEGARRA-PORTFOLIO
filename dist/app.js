@@ -1,4 +1,11 @@
-import { site, works, albums, chapters, categories } from "./content.js";
+import {
+  site,
+  works,
+  albums,
+  chapters,
+  categories,
+  albumRedirects,
+} from "./content.js";
 import { redirects } from "./catalogue.js";
 import {
   buildPhotoIndex,
@@ -46,11 +53,24 @@ const sectionHead = (label, path, text = "Ver todo") =>
 const workCard = (w) =>
   `<article class="work-card reveal">${a("/obra/" + w.id, `<div class="image-space">${img(w.thumb, w.alt)}</div><div class="caption"><span class="reference">${esc(w.reference)}</span><h3>${esc(w.label)}</h3><p>${esc(w.series)}${w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : ""}</p></div>`)}</article>`;
 const albumCard = (al) =>
-  `<article class="album-card reveal">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${esc(al.section === "exposiciones" ? [{ obra: "Obra propia", colectiva: "Colectiva", infantil: "Arte infantil", formacion: "Formación docente" }[al.exhibitionKind], al.date].filter(Boolean).join(" · ") : al.audience === "educacion" ? educationSections.find((s) => s.id === al.section)?.label : al.type)}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`)}</article>`;
+  `<article class="album-card reveal">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${esc(al.section === "exposiciones" ? [{ obra: "Obra propia", colectiva: "Colectiva", infantil: "Arte infantil", formacion: "Formación docente", sala: "Archivo de sala" }[al.exhibitionKind], al.date].filter(Boolean).join(" · ") : al.audience === "educacion" ? educationSections.find((s) => s.id === al.section)?.label : al.type)}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`)}</article>`;
+const exhibitionKind = {
+  obra: "Obra propia",
+  colectiva: "Muestra colectiva",
+  infantil: "Arte infantil",
+  formacion: "Formación docente",
+  sala: "Archivo de sala",
+};
+const exhibitionCard = (al) => {
+  const details = [al.date, al.place].filter(Boolean).join(" · ");
+  return `<article class="exhibition-card reveal">${a("/archivo/" + al.id, `<div class="exhibition-image">${img(al.image, al.title)}<span class="exhibition-count">${al.gallery.length} fotografías</span></div><div class="exhibition-copy"><p class="eyebrow">${esc(exhibitionKind[al.exhibitionKind] || "Exposición")}</p><h2>${esc(al.title)}</h2>${details ? `<p class="exhibition-details">${esc(details)}</p>` : ""}<p class="exhibition-text">${esc(al.text)}</p><span class="exhibition-link">Recorrer el archivo <b aria-hidden="true">${arrow}</b></span></div><span class="exhibition-arrow" aria-hidden="true">${arrow}</span>`)}</article>`;
+};
 const workGrid = (ws) =>
     `<div class="works-grid">${ws.map(workCard).join("")}</div>`,
   albumGrid = (list) =>
-    `<div class="albums-grid">${list.map(albumCard).join("")}</div>`;
+    `<div class="albums-grid">${list.map(albumCard).join("")}</div>`,
+  exhibitionList = (list) =>
+    `<div class="exhibition-list">${list.map(exhibitionCard).join("")}</div>`;
 const educationAlbums = () =>
   albums.filter((al) => al.audience === "educacion");
 const visibleAlbums = () => albums.filter((al) => al.section !== "proceso");
@@ -169,10 +189,17 @@ function setGallery(list, label) {
   galleryLabel = label;
 }
 function galleryGrid(list, start = 0) {
+  let previousGroup = start ? currentGallery[start - 1]?.galleryGroup || "" : "";
   return list
     .map(
-      (p, i) =>
-        `<figure class="gallery-item reveal"><button class="photo-button" data-photo="${start + i}" aria-label="Ampliar fotografía ${start + i + 1}: ${esc(p.alt)}">${img(p.thumb, p.alt, false, p.local)}<span class="zoom-mark" aria-hidden="true">↗</span></button><figcaption><span>${num(start + i + 1)}</span><span>${esc(photoRef(p))}</span></figcaption></figure>`,
+      (p, i) => {
+        const group =
+          p.galleryGroup && p.galleryGroup !== previousGroup
+            ? `<header class="gallery-group"><p class="eyebrow">${esc(p.galleryGroup)}</p>${p.attribution ? `<p>${esc(p.attribution)}</p>` : ""}</header>`
+            : "";
+        previousGroup = p.galleryGroup || previousGroup;
+        return `${group}<figure class="gallery-item reveal"><button class="photo-button" data-photo="${start + i}" aria-label="Ampliar fotografía ${start + i + 1}: ${esc(p.alt)}">${img(p.thumb, p.alt, false, p.local)}<span class="zoom-mark" aria-hidden="true">↗</span></button><figcaption><span>${num(start + i + 1)}</span><span>${esc(photoRef(p))}</span></figcaption></figure>`;
+      },
     )
     .join("");
 }
@@ -324,7 +351,9 @@ function exhibitions(params) {
       (f === "todas" ||
         al.exhibitionKind === f ||
         (f === "educacion" && al.audience === "educacion")) &&
-      normalize([al.title, al.place, al.date].join(" ")).includes(normalize(q)),
+      normalize([al.title, al.place, al.date, al.searchTerms].join(" ")).includes(
+        normalize(q),
+      ),
   );
   const types = [
     ["todas", "Todas"],
@@ -332,6 +361,7 @@ function exhibitions(params) {
     ["colectiva", "Colectivas"],
     ["infantil", "Arte infantil"],
     ["formacion", "Formación docente"],
+    ["sala", "Sala"],
   ];
   return (
     head(
@@ -339,7 +369,7 @@ function exhibitions(params) {
       "Exposiciones",
       "La obra en las salas y la memoria de los encuentros. Montajes, vistas del espacio y documentos, organizados por el contexto de cada exposición.",
     ) +
-    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t]) => a("/exposiciones?tipo=" + id, t + ` <sup>${all.filter((al) => id === "todas" || al.exhibitionKind === id).length}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? albumGrid(list) : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada álbum. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
+    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t]) => a("/exposiciones?tipo=" + id, t + ` <sup>${all.filter((al) => id === "todas" || al.exhibitionKind === id).length}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? exhibitionList(list) : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada archivo. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
   );
 }
 
@@ -613,6 +643,16 @@ function render({ keepScroll = false } = {}) {
     html = r ? readingPage(r) : notFound();
     title = r?.title;
   } else if (section === "archivo") {
+    if (albumRedirects[id]) {
+      const destination = albumRedirects[id];
+      location.replace(
+        "#" +
+          (destination.startsWith("/")
+            ? destination
+            : "/archivo/" + destination),
+      );
+      return;
+    }
     const al = visibleAlbums().find((al) => al.id === id);
     html = al ? albumPage(al) : notFound();
     title = al?.title;
@@ -764,7 +804,9 @@ function showImage() {
             a(o.path, esc(o.label) + " ↗") + `<span>${esc(o.credit)}</span>`,
         )
         .join("")
-    : "";
+    : p.attribution
+      ? `<span>${esc(p.attribution)}</span>`
+      : "";
   document
     .querySelectorAll("[data-step]")
     .forEach((b) => (b.disabled = currentGallery.length < 2));
