@@ -1,5 +1,13 @@
 # Catálogo y tratamiento del archivo
 
+## Ampliación 0.4.0
+
+221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. 34 álbumes y 1.153 registros fotográficos distintos; 147 registros privados adicionales disponibles localmente. Ver [revisión detallada](REVISION-0.4.0.md).
+
+El fondo Naturaleza Móviles incluye ahora sus 237 fotografías revisadas. Las fichas reúnen piezas identificadas y sus vistas; el álbum completo conserva también variantes, montajes y correspondencias por precisar. Los dibujos de Sala de Bellas Artes se compararon con las fichas anteriores antes de añadir obras y perspectivas.
+
+El archivo general agrupa imágenes idénticas por la huella disponible, mantiene todas sus referencias y pertenencias y permite filtrarlas sin mezclar autorías. La identidad de una página PDF es ARC + número de página. `dist/archive.js` contiene el índice y sus filtros; `dist/journey.js` relaciona los acontecimientos documentados con sus destinos.
+
 ## Ampliación 0.3.0
 
 182 fichas: 21 móviles, 46 esculturas, 80 pinturas y 35 dibujos. Se recuperan cinco pinturas de los RAW, manteniendo las referencias anteriores y reservando los motivos astrológicos o dudosos. La revisión de los 44 RAW sin ficha distingue imágenes de contexto de piezas ausentes.

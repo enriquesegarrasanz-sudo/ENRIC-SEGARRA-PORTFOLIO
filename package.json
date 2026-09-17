@@ -1,13 +1,13 @@
 {
   "name": "enric-segarra-portfolio",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "description": "Portfolio y memoria artística de Enric Segarra",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs && node scripts/check-archive.mjs"
   },
   "engines": {
     "node": ">=22"

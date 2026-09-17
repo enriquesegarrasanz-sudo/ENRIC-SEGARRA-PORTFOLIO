@@ -1,6 +1,13 @@
 import { site, works, albums, chapters, categories } from "./content.js";
 import { redirects } from "./catalogue.js";
 import {
+  buildPhotoIndex,
+  filterPhotos,
+  archiveSections,
+  normalize,
+} from "./archive.js";
+import { journeyEntries } from "./journey.js";
+import {
   educationSections,
   educationIntro,
   educationPrinciples,
@@ -39,7 +46,7 @@ const sectionHead = (label, path, text = "Ver todo") =>
 const workCard = (w) =>
   `<article class="work-card reveal">${a("/obra/" + w.id, `<div class="image-space">${img(w.thumb, w.alt)}</div><div class="caption"><span class="reference">${esc(w.reference)}</span><h3>${esc(w.label)}</h3><p>${esc(w.series)}${w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : ""}</p></div>`)}</article>`;
 const albumCard = (al) =>
-  `<article class="album-card reveal">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${esc(al.date || (al.audience === "educacion" ? educationSections.find((s) => s.id === al.section)?.label : al.type))}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`)}</article>`;
+  `<article class="album-card reveal">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${esc(al.section === "exposiciones" ? [{ obra: "Obra propia", colectiva: "Colectiva", infantil: "Arte infantil", formacion: "Formación docente" }[al.exhibitionKind], al.date].filter(Boolean).join(" · ") : al.audience === "educacion" ? educationSections.find((s) => s.id === al.section)?.label : al.type)}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`)}</article>`;
 const workGrid = (ws) =>
     `<div class="works-grid">${ws.map(workCard).join("")}</div>`,
   albumGrid = (list) =>
@@ -50,12 +57,36 @@ let currentGallery = [],
   galleryLabel = "",
   selectedPhoto = 0,
   activeFilters = null,
-  observer,
   routeKey = "";
 
 function home() {
-  const hero = works.find((w) => w.id === "suspension-rosa") || works[0];
-  return `<section class="home-intro"><div><p class="eyebrow">Escultura · pintura · educación artística</p><h1>La forma,<br>en movimiento.</h1><p class="lead">Una vida entre la materia, la imaginación y el placer de crear.</p>${a("/obra/moviles", "Explorar los móviles " + arrow, "text-link")}</div>${a("/obra/" + hero.id, `<figure class="hero-work">${img(hero.image, hero.alt, true)}<figcaption><span>${esc(hero.label)}</span><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</section><section class="section">${sectionHead("Obra", "/obra", "Explorar el catálogo")}<div class="category-index">${categories
+  const hero =
+    works.find((w) => w.id === "moviles-015028") ||
+    works.find((w) => w.id === "moviles-015000");
+  const doors = [
+    [
+      "Obra",
+      "/obra",
+      "Escultura, móviles, pintura y dibujo. Familias de obras y perspectivas reunidas en cada ficha.",
+      "arc-013430",
+      `${works.length} fichas`,
+    ],
+    [
+      "Arte infantil",
+      "/arte-infantil",
+      "Las obras de los participantes, el trabajo en el aula y la experiencia de aprender con las manos.",
+      "arc-014341",
+      `${educationAlbums().length} colecciones y álbumes`,
+    ],
+    [
+      "Trayectoria",
+      "/memoria",
+      "Los comienzos, las exposiciones y los proyectos compartidos. Un recorrido por las imágenes y la memoria.",
+      "arc-009490",
+      "Vida y obra",
+    ],
+  ];
+  return `<section class="welcome"><div class="welcome-copy"><p class="eyebrow">Obra y memoria</p><h1>Enric Segarra</h1><p class="welcome-role">Escultura, pintura y dibujo.<br>Creación y educación artística.</p><p>Una práctica que nace del oficio y de la curiosidad por las formas. El volumen, la línea y el color abren caminos entre los materiales, la naturaleza y la imaginación.</p><p>Este archivo reúne la obra personal, los proyectos compartidos y una trayectoria dedicada también a acompañar la creación de otros. En el presente, los móviles y las esculturas suspendidas continúan esa búsqueda.</p><div class="welcome-links">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div></div>${a("/obra/" + hero.id, `<figure class="welcome-image">${img(hero.image, hero.alt, true)}<figcaption><span>${esc(hero.label)}</span><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</section><section class="home-doors" aria-label="Recorridos principales">${doors.map(([title, path, text, image, meta], i) => `<article>${a(path, `<div class="door-image">${img(image, title)}</div><div class="door-title"><span class="reference">${num(i + 1)}</span><h2>${title}</h2>${arrow}</div>`)}<p>${text}</p><span class="reference">${meta}</span></article>`).join("")}</section><section class="section">${sectionHead("Cuatro maneras de construir una imagen", "/obra", "Todo el catálogo")}<div class="category-index">${categories
     .slice(1)
     .map((c, i) => {
       const w = works.find((w) => w.category === c.id);
@@ -66,7 +97,25 @@ function home() {
     })
     .join(
       "",
-    )}</div></section><section class="feature section"><div>${img("arc-002472", "Vista de la exposición de arte infantil en Casa Abadía")}</div><div><p class="eyebrow">Arte infantil</p><h2>Crear también<br>es descubrir.</h2><p>Obras de niños y niñas, talleres, formación docente y exposiciones. Un archivo para mirar la educación artística desde lo que sucede al hacer.</p>${a("/arte-infantil", "Entrar en el archivo educativo " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Una trayectoria abierta", "/memoria", "Recorrer la memoria")}<p class="section-intro">El oficio, las imágenes, los proyectos compartidos y los espacios de encuentro. Siete entradas a una historia que continúa.</p>${albumGrid([albums.find((x) => x.id === "arboles"), albums.find((x) => x.id === "colomina")])}</section>`;
+    )}</div></section><section class="archive-invitation"><div><p class="eyebrow">Archivo visual</p><h2>Todas las imágenes,<br>muchas formas de mirar.</h2><p>Busca una pieza, recorre una exposición o reúne las imágenes de un taller. Cada fotografía conserva el acceso a su contexto.</p>${a("/imagenes", "Abrir el archivo de imágenes " + arrow, "text-link")}</div><div class="archive-links">${[
+    [
+      "Exposiciones",
+      "/exposiciones",
+      "Obra propia, muestras colectivas y educación.",
+    ],
+    [
+      "Proceso y entorno",
+      "/proceso",
+      "Las piezas, sus variaciones y el lugar que las acoge.",
+    ],
+    [
+      "Proyectos compartidos",
+      "/proyectos",
+      "El agua, el dragón y los encuentros.",
+    ],
+  ]
+    .map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`))
+    .join("")}</div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -158,44 +207,80 @@ function albumPage(al) {
   return (
     trail(parent, label, al.title) +
     head(al.date || al.type, al.title, al.text) +
-    `<div class="album-intro">${prose(al.paragraphs || [al.text])}<aside>${al.place ? `<p class="eyebrow">Lugar</p><p>${esc(al.place)}</p>` : ""}<p class="eyebrow">Archivo visual</p><p>${al.gallery.length} fotografías</p>${al.credit ? `<p class="credit">${esc(al.credit)}</p>` : ""}</aside></div><div class="gallery-grid" id="album-photos">${galleryGrid(al.gallery.slice(0, 36))}</div>${al.gallery.length > 36 ? `<button class="load-more" id="more-photos" data-shown="36">Seguir viendo <span>36 / ${al.gallery.length}</span></button>` : ""}${al.source ? `<div class="source-note"><p class="eyebrow">Documentación</p><p>${esc(al.source)}</p></div>` : ""}<div class="end-link">${a(parent, "Volver a " + label.toLowerCase() + " " + arrow)}</div>`
+    `<div class="album-intro">${prose(al.paragraphs || [al.text])}<aside>${al.place ? `<p class="eyebrow">Lugar</p><p>${esc(al.place)}</p>` : ""}<p class="eyebrow">Archivo visual</p><p>${al.gallery.length} fotografías</p>${a("/imagenes?coleccion=" + al.id, "Abrir con filtros ↗", "text-link")}${al.credit ? `<p class="credit">${esc(al.credit)}</p>` : ""}</aside></div><div class="gallery-grid" id="album-photos">${galleryGrid(al.gallery.slice(0, 36))}</div>${al.gallery.length > 36 ? `<button class="load-more" id="more-photos" data-shown="36">Seguir viendo <span>36 / ${al.gallery.length}</span></button>` : ""}${al.source ? `<div class="source-note"><p class="eyebrow">Documentación</p><p>${esc(al.source)}</p></div>` : ""}<div class="end-link">${a(parent, "Volver a " + label.toLowerCase() + " " + arrow)}</div>`
   );
 }
 
 function education(params) {
   let section = params.get("seccion") || "proyecto";
   if (!educationSections.some((s) => s.id === section)) section = "proyecto";
-  const list = educationAlbums().filter((al) => al.section === section),
-    title = educationSections.find((s) => s.id === section).label,
-    tabs = `<nav class="tabs education-tabs" aria-label="Archivo educativo">${educationSections.map((s) => a("/arte-infantil" + (s.id === "proyecto" ? "" : "?seccion=" + s.id), esc(s.label), s.id === section ? "active" : "")).join("")}</nav>`;
-  if (section !== "proyecto")
-    return (
-      head("Arte infantil", title, educationDescriptions[section]) +
-      tabs +
-      (section === "textos" ? readingIndex() : albumGrid(list))
+  const list = educationAlbums().filter((al) => al.section === section);
+  const tabs = `<nav class="tabs education-tabs" aria-label="Archivo educativo">${educationSections.map((s) => a("/arte-infantil" + (s.id === "proyecto" ? "" : "?seccion=" + s.id), esc(s.label), s.id === section ? "active" : "")).join("")}</nav>`;
+  if (section !== "proyecto") {
+    const intro =
+      head(
+        "Educación artística",
+        educationSections.find((s) => s.id === section).label,
+        educationDescriptions[section],
+      ) + tabs;
+    if (section === "textos") return intro + readingIndex();
+    const group =
+      section === "exposiciones" ? params.get("grupo") || "todas" : "";
+    const shown = list.filter(
+      (al) => group === "todas" || !group || al.exhibitionKind === group,
     );
+    const filters =
+      section === "exposiciones"
+        ? `<nav class="subfilters" aria-label="Participantes de las exposiciones">${[
+            ["todas", "Todas"],
+            ["infantil", "Arte infantil"],
+            ["formacion", "Formación de adultos"],
+          ]
+            .map(([v, t]) =>
+              a(
+                "/arte-infantil?seccion=exposiciones&grupo=" + v,
+                t,
+                v === group ? "active" : "",
+              ),
+            )
+            .join("")}</nav>`
+        : "";
+    return (
+      intro +
+      filters +
+      `<div class="result-line"><p>${shown.length} ${section === "obras" ? "colecciones" : "álbumes"}</p>${a("/imagenes?ambito=" + (section === "obras" ? "infantil" : section), "Ver las fotografías con filtros " + arrow)}</div>` +
+      albumGrid(shown)
+    );
+  }
+  const covers = {
+    obras: "arc-006379",
+    talleres: "arc-005506",
+    exposiciones: "arc-002472",
+    formacion: "arc-005944",
+    textos: readings[0].image,
+  };
   return (
     head(
       "Educación artística",
       "Arte infantil",
-      "Un lugar para la imaginación, la materia y el aprendizaje compartido.",
+      "Crear con las manos, descubrir el volumen y dar espacio a la imaginación.",
     ) +
     tabs +
-    `<section class="education-hero">${img("arc-002472", "La colección de arte infantil en Casa Abadía", true)}<div><p class="eyebrow">Hacer para descubrir</p><h2>Muchas manos.<br>Muchas maneras<br>de mirar.</h2><p>Las obras de los participantes, la experiencia de los talleres y la memoria de sus exposiciones.</p>${a("/arte-infantil?seccion=obras", "Explorar las obras infantiles " + arrow, "text-link")}</div></section>${prose(educationIntro)}<div class="principles">${educationPrinciples.map((p, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></article>`).join("")}</div>${educationSections
-      .slice(1, 5)
-      .map(
-        (s) =>
-          `<section class="section">${sectionHead(s.label, "/arte-infantil?seccion=" + s.id)}<p class="section-intro">${esc(educationDescriptions[s.id])}</p>${albumGrid(
-            educationAlbums()
-              .filter((al) => al.section === s.id)
-              .slice(0, 2),
-          )}</section>`,
-      )
+    `<section class="education-opening"><figure>${img("arc-014341", "Relieve realizado en una actividad de arte infantil", true)}<figcaption>La colección: materiales cotidianos, soluciones propias.</figcaption></figure><div>${prose(educationIntro.slice(0, 2))}${a("/imagenes?ambito=infantil", "Ver las imágenes de obras infantiles " + arrow, "text-link")}</div></section><div class="education-directory">${educationSections
+      .slice(1)
+      .map((item, i) => {
+        const als = educationAlbums().filter((al) => al.section === item.id);
+        return a(
+          "/arte-infantil?seccion=" + item.id,
+          `<div>${img(covers[item.id], item.label)}</div><span class="reference">${num(i + 1)}</span><div><h2>${item.label}</h2><p>${esc(educationDescriptions[item.id])}</p><span class="directory-count">${item.id === "textos" ? readings.length + " lecturas" : als.length + " colecciones · " + als.reduce((n, al) => n + al.gallery.length, 0) + " fotografías"}</span></div>${arrow}`,
+        );
+      })
       .join(
         "",
-      )}<section class="section">${sectionHead("Textos y propuestas", "/arte-infantil?seccion=textos")}${readingIndex()}</section>`
+      )}</div><section class="section">${sectionHead("Una manera de acompañar la creación")}<div class="principles">${educationPrinciples.map((p, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></article>`).join("")}</div></section>`
   );
 }
+
 function readingIndex() {
   return `<div class="reading-index">${readings.map((r, i) => a("/textos/" + r.id, `<span class="reference">${num(i + 1)} / ${esc(r.kind)}</span><div><h2>${esc(r.title)}</h2><p>${esc(r.authors)}</p></div>${arrow}`)).join("")}</div>`;
 }
@@ -216,30 +301,26 @@ const chapterImages = {
   "seguir-creando": "arc-014873",
 };
 function memory(params) {
-  const archive = params.get("vista") === "archivo";
-  return (
-    head(
-      "Vida y obra",
-      "Trayectoria",
-      "Un recorrido por el oficio, la creación y los encuentros. Los capítulos se organizan por afinidades y experiencias; sus caminos se cruzan.",
-    ) +
-    `<nav class="tabs" aria-label="Vista de la trayectoria">${a("/memoria", "Recorrido visual", !archive ? "active" : "")}${a("/memoria?vista=archivo", "Índice del archivo", archive ? "active" : "")}</nav>` +
-    (archive
-      ? `<div class="archive-index">${chapters.map((c, i) => a("/memoria/" + c.id, `<span>${num(i + 1)}</span><h2>${esc(c.title)}</h2><p>${esc(c.short)}</p>${arrow}`)).join("")}</div><section class="section">${sectionHead("Álbumes documentales")}${albumGrid(albums)}</section>`
-      : `<div class="timeline"><nav class="chapter-rail" aria-label="Capítulos del recorrido">${chapters.map((c, i) => `<a href="#/memoria" data-jump="${c.id}"><span>${num(i + 1)}</span>${esc(c.title)}</a>`).join("")}</nav><div>${chapters.map((c, i) => `<article class="timeline-step reveal" id="etapa-${c.id}"><div class="step-top"><span class="reference">${num(i + 1)} / ${i === 0 ? "Orígenes" : i === 6 ? "Presente" : "Trayectoria"}</span>${a("/memoria/" + c.id, "Abrir capítulo " + arrow)}</div>${a("/memoria/" + c.id, img(chapterImages[c.id], c.imageAlt || c.title))}<div class="step-copy"><h2>${esc(c.title)}</h2><p>${esc(c.short)}</p>${a("/memoria/" + c.id, "Obras, imágenes y memoria " + arrow)}</div></article>`).join("")}</div></div>`)
-  );
+  if (params.get("vista") === "archivo")
+    return (
+      head(
+        "Vida y obra",
+        "Índice del archivo",
+        "Capítulos y álbumes de la memoria artística.",
+      ) +
+      `<div class="end-link">${a("/imagenes", "Abrir todas las fotografías con filtros " + arrow)}</div><div class="archive-index">${chapters.map((c, i) => a("/memoria/" + c.id, `<span>${num(i + 1)}</span><h2>${esc(c.title)}</h2><p>${esc(c.short)}</p>${arrow}`)).join("")}</div>` +
+      albumGrid(albums)
+    );
+  const entries = journeyEntries(chapters, albums, works),
+    first = entries[0];
+  return `<header class="journey-heading"><h1>Trayectoria</h1><p>Vida, obra y encuentros. Las fechas corresponden a episodios documentados; los demás recorridos son temáticos.</p></header><div class="journey"><aside class="journey-preview"><form id="journey-search" role="search"><label for="journey-query" class="sr-only">Buscar una etapa o un año</label><input id="journey-query" type="search" placeholder="Buscar una etapa o un año"><button aria-label="Buscar en la trayectoria">↗</button></form><p class="journey-help" id="journey-status">${entries.length} entradas · Recorre la lista para cambiar de imagen</p><a id="journey-image-link" href="#${first.path}"><figure><div class="journey-image">${img(first.image, first.title, true)}</div><figcaption><span id="journey-caption">${esc(first.title)}</span><span aria-hidden="true">→</span></figcaption></figure></a><div class="journey-controls"><button type="button" data-journey-step="-1" aria-label="Etapa anterior">←</button><span id="journey-position">01 / ${num(entries.length)}</span><button type="button" data-journey-step="1" aria-label="Etapa siguiente">→</button></div></aside><div class="journey-list" aria-label="Etapas y acontecimientos">${entries.map((e, i) => `<article class="journey-entry${i === 0 ? " selected" : ""}" data-entry="${i}"><a href="#${e.path}"><h2>${esc(e.label)}</h2><div><h3>${esc(e.title)}</h3><p>${esc(e.text)}</p></div></a></article>`).join("")}<p id="journey-empty" hidden>No hay entradas con esa búsqueda. Prueba otro año, lugar o tema.</p></div></div>`;
 }
+
 function chapterPage(c) {
-  const relatedWorks = works.filter((w) => w.chapter === c.id).slice(0, 6),
-    relatedAlbums = albums.filter((al) => al.chapter === c.id);
-  return (
-    trail("/memoria", "Trayectoria", c.title) +
-    head("Un capítulo de la memoria", c.title, c.short) +
-    `<figure class="chapter-hero">${img(chapterImages[c.id], c.imageAlt || c.title, true)}${c.caption ? `<figcaption>${esc(c.caption)}</figcaption>` : ""}</figure>${prose(c.paragraphs)}${c.id === "crear-con-otros" ? `<div class="end-link">${a("/arte-infantil", "Explorar el archivo completo de arte infantil " + arrow)}</div>` : ""}${relatedWorks.length ? `<section class="section">${sectionHead("Obras relacionadas")}${workGrid(relatedWorks)}</section>` : ""}${relatedAlbums.length ? `<section class="section">${sectionHead("Imágenes y documentos")}${albumGrid(relatedAlbums)}</section>` : ""}<div class="chapter-pagination">${chapters
-      .filter((_, i) => Math.abs(i - chapters.indexOf(c)) === 1)
-      .map((x) => a("/memoria/" + x.id, esc(x.title) + " " + arrow))
-      .join("")}</div>`
-  );
+  const relatedWorks = works.filter((w) => w.chapter === c.id),
+    relatedAlbums = albums.filter((al) => al.chapter === c.id),
+    i = chapters.indexOf(c);
+  return `<div class="chapter-top">${a("/memoria", "← Trayectoria")}<span>${num(i + 1)} / ${num(chapters.length)}</span><div>${i > 0 ? a("/memoria/" + chapters[i - 1].id, "← Anterior") : ""}${i < chapters.length - 1 ? a("/memoria/" + chapters[i + 1].id, "Siguiente →") : ""}</div></div><header class="chapter-title"><p class="eyebrow">${esc(c.short)}</p><h1>${esc(c.title)}</h1></header><div class="chapter-reader"><aside class="chapter-contents"><p class="eyebrow">En este capítulo</p><button data-anchor="chapter-story">La memoria</button>${relatedWorks.length ? '<button data-anchor="chapter-works">La obra</button>' : ""}${relatedAlbums.length ? '<button data-anchor="chapter-albums">Imágenes y documentos</button>' : ""}</aside><div><section id="chapter-story"><figure class="chapter-hero">${img(chapterImages[c.id], c.imageAlt || c.title, true)}${c.caption ? `<figcaption>${esc(c.caption)}</figcaption>` : ""}</figure>${prose(c.paragraphs)}</section>${c.id === "crear-con-otros" ? `<div class="end-link">${a("/arte-infantil", "Explorar el archivo de arte infantil " + arrow)}</div>` : ""}${relatedWorks.length ? `<section class="section" id="chapter-works">${sectionHead("La obra", "/imagenes?q=" + encodeURIComponent(c.id === "construir-formas" ? "línea" : c.id === "seguir-creando" ? "móviles" : c.id === "pintar-mundos" ? "pintura" : ""), "Explorar imágenes")}${workGrid(relatedWorks.slice(0, 9))}</section>` : ""}${relatedAlbums.length ? `<section class="section" id="chapter-albums">${sectionHead("Imágenes y documentos")}${albumGrid(relatedAlbums)}</section>` : ""}</div></div>`;
 }
 
 function processPage() {
@@ -264,6 +345,18 @@ function processPage() {
       ],
       [
         "03",
+        "Articular",
+        "Construcciones que cambian al girar y reorganizar sus elementos.",
+        "esculturas-articuladas",
+      ],
+      [
+        "04",
+        "Naturaleza Móviles",
+        "Las 237 fotografías revisadas del fondo, con piezas, detalles y distintas perspectivas.",
+        "naturaleza-moviles",
+      ],
+      [
+        "05",
         "Habitar el entorno",
         "El cuerpo del artista, la escala de las piezas y el espacio que las rodea.",
         "arboles",
@@ -280,34 +373,239 @@ function processPage() {
 }
 function exhibitions(params) {
   const f = params.get("tipo") || "todas",
-    list = albums.filter(
-      (al) =>
-        al.section === "exposiciones" && (f === "todas" || al.audience === f),
-    );
+    q = params.get("q") || "",
+    all = albums.filter((al) => al.section === "exposiciones");
+  const list = all.filter(
+    (al) =>
+      (f === "todas" ||
+        al.exhibitionKind === f ||
+        (f === "educacion" && al.audience === "educacion")) &&
+      normalize([al.title, al.place, al.date].join(" ")).includes(normalize(q)),
+  );
+  const types = [
+    ["todas", "Todas"],
+    ["obra", "Obra propia"],
+    ["colectiva", "Colectivas"],
+    ["infantil", "Arte infantil"],
+    ["formacion", "Formación docente"],
+  ];
   return (
     head(
       "Encuentros con el público",
       "Exposiciones",
-      "La obra en las salas, los patios y los centros educativos. Cada álbum conserva el montaje, las vistas del espacio y la documentación disponible.",
+      "La obra en las salas y la memoria de los encuentros. Montajes, vistas del espacio y documentos, organizados por el contexto de cada exposición.",
     ) +
-    `<nav class="tabs" aria-label="Tipo de exposición">${[
-      ["todas", "Todas"],
-      ["obra", "Obra y encuentros"],
-      ["educacion", "Educación artística"],
-    ]
-      .map(([id, t]) =>
-        a("/exposiciones?tipo=" + id, t, id === f ? "active" : ""),
-      )
-      .join(
-        "",
-      )}</nav>${albumGrid(list)}<div class="source-note"><p>Las fechas se muestran cuando están documentadas. Las identificaciones procedentes de carpetas o dossieres se indican en cada álbum.</p></div>`
+    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t]) => a("/exposiciones?tipo=" + id, t + ` <sup>${all.filter((al) => id === "todas" || al.exhibitionKind === id).length}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? albumGrid(list) : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada álbum. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
   );
 }
+
+function imageArchive(params) {
+  const pool = buildPhotoIndex(works, albums),
+    scope = params.get("ambito") || "",
+    discipline = params.get("disciplina") || "",
+    collection = params.get("coleccion") || "",
+    query = params.get("q") || "";
+  const filtered = filterPhotos(pool, { scope, discipline, collection, query });
+  const opts = [
+    ...new Map(
+      pool
+        .flatMap((p) => p.owners)
+        .filter(
+          (o) =>
+            (!scope || o.scope === scope) &&
+            (!discipline || o.discipline === discipline),
+        )
+        .map((o) => [o.id, o]),
+    ).values(),
+  ].sort((a, b) => a.label.localeCompare(b.label, "es"));
+  setGallery(filtered, "Archivo visual");
+  const option = (id, label, current) =>
+    `<option value="${esc(id)}" ${id === current ? "selected" : ""}>${esc(label)}</option>`;
+  return (
+    head(
+      "Fotografías y documentos",
+      "Archivo visual",
+      "Todas las fotografías incorporadas a la web. Obras, perspectivas, exposiciones y actividades, con acceso a la ficha o al álbum de cada imagen.",
+    ) +
+    `<form class="image-filters" id="image-filters"><label class="image-search">Buscar<input type="search" name="q" placeholder="Título, lugar, año, archivo o referencia" value="${esc(query)}"></label><label>Ámbito<select name="ambito">${option("", "Todos los ámbitos", scope)}${archiveSections.map(([id, t]) => option(id, t, scope)).join("")}</select></label><label>Disciplina<select name="disciplina">${option("", "Todas las disciplinas", discipline)}${categories
+      .slice(1)
+      .map((c) => option(c.id, c.label, discipline))
+      .join(
+        "",
+      )}</select></label><label>Colección o ficha<select name="coleccion">${option("", "Todas las colecciones", collection)}${opts.map((o) => option(o.id, o.label, collection)).join("")}</select></label><button class="archive-search-button" type="submit">Buscar ↗</button></form><div class="result-line"><p role="status">${filtered.length} de ${pool.length} fotografías</p>${scope || discipline || collection || query ? a("/imagenes", "Quitar filtros ×") : "<p>Una imagen puede pertenecer a varios recorridos</p>"}</div><div class="photo-archive-grid" id="archive-photos">${archiveGrid(filtered.slice(0, 48))}</div>${filtered.length > 48 ? `<button class="load-more" id="more-archive" data-shown="48">Ver más imágenes <span>48 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay imágenes con esos filtros.</h2>${a("/imagenes", "Ver todas las fotografías " + arrow)}</div>` : ""}`
+  );
+}
+function archiveGrid(list, start = 0) {
+  return list
+    .map(
+      (p, i) =>
+        `<figure class="archive-photo"><button class="photo-button" data-photo="${start + i}" aria-label="Ampliar: ${esc(p.owners[0].label)} · ${esc(photoRef(p))}">${img(p.thumb, p.alt, false, p.local)}<span class="zoom-mark" aria-hidden="true">↗</span></button><figcaption><span class="reference">${esc(photoRef(p))}</span>${a(p.owners[0].path, esc(p.owners[0].label) + " " + arrow)}<span class="archive-context">${esc(archiveSections.find(([id]) => id === p.owners[0].scope)?.[1] || "Archivo")}${p.owners.length > 1 ? " · " + p.owners.length + " recorridos" : ""}</span></figcaption></figure>`,
+    )
+    .join("");
+}
+let pageEvents;
+function attachArchiveEvents() {
+  const form = document.querySelector("#image-filters");
+  function filter(changed) {
+    const data = new FormData(form),
+      p = new URLSearchParams();
+    if (changed === "ambito") {
+      data.set("coleccion", "");
+      if (data.get("ambito") !== "obra") data.set("disciplina", "");
+    }
+    if (changed === "disciplina") {
+      data.set("coleccion", "");
+      if (data.get("disciplina")) data.set("ambito", "obra");
+    }
+    for (const [k, v] of data) if (v) p.set(k, v);
+    location.hash = "/imagenes" + (p.size ? "?" + p : "");
+  }
+  form?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    filter();
+  });
+  form
+    ?.querySelectorAll("select")
+    .forEach((el) => el.addEventListener("change", () => filter(el.name)));
+  document.querySelector("#more-archive")?.addEventListener("click", (e) => {
+    const b = e.currentTarget,
+      n = +b.dataset.shown,
+      list = currentGallery.slice(n, n + 48);
+    document
+      .querySelector("#archive-photos")
+      .insertAdjacentHTML("beforeend", archiveGrid(list, n));
+    b.dataset.shown = n + list.length;
+    b.innerHTML = `Ver más imágenes <span>${b.dataset.shown} / ${currentGallery.length}</span>`;
+    if (+b.dataset.shown >= currentGallery.length) b.remove();
+  });
+  document
+    .querySelector("#exhibition-search")
+    ?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      location.hash =
+        "/exposiciones?" + new URLSearchParams(new FormData(e.currentTarget));
+    });
+  document
+    .querySelectorAll("[data-anchor]")
+    .forEach((b) =>
+      b.addEventListener("click", () =>
+        document
+          .getElementById(b.dataset.anchor)
+          ?.scrollIntoView({ behavior: "instant" }),
+      ),
+    );
+}
+function attachJourneyEvents() {
+  const list = document.querySelector(".journey-list");
+  if (!list) return;
+  const entries = journeyEntries(chapters, albums, works),
+    rows = [...list.querySelectorAll("[data-entry]")];
+  let active = 0,
+    sequence = 0;
+  const select = (i) => {
+    active = i;
+    const e = entries[i],
+      token = ++sequence,
+      link = document.querySelector("#journey-image-link"),
+      image = link.querySelector("img");
+    rows.forEach((row, j) => row.classList.toggle("selected", i === j));
+    // Decode before swapping so scrolling never blanks the fixed photograph.
+    const next = new Image();
+    next.src = asset(e.image);
+    next
+      .decode()
+      .catch(() => {})
+      .then(() => {
+        if (token !== sequence || !link.isConnected) return;
+        image.src = next.src;
+        image.alt = e.title;
+        link.href = "#" + e.path;
+        document.querySelector("#journey-caption").textContent = e.title;
+      });
+    document.querySelector("#journey-position").textContent =
+      `${num(i + 1)} / ${num(entries.length)}`;
+  };
+  rows.forEach((row, i) => {
+    row.addEventListener("pointerenter", () => select(i));
+    row.addEventListener("focusin", () => select(i));
+  });
+  const search = document.querySelector("#journey-query");
+  const applySearch = () => {
+    const q = normalize(search.value);
+    rows.forEach(
+      (r, i) =>
+        (r.hidden = !normalize(
+          [entries[i].label, entries[i].title, entries[i].text].join(" "),
+        ).includes(q)),
+    );
+    const visible = rows.filter((r) => !r.hidden);
+    document.querySelector("#journey-empty").hidden = visible.length > 0;
+    document.querySelector("#journey-status").textContent =
+      `${visible.length} entradas · Recorre la lista para cambiar de imagen`;
+    document.querySelector("#journey-image-link").hidden = !visible.length;
+    document.querySelector(".journey-controls").hidden = !visible.length;
+    if (visible.length) select(+visible[0].dataset.entry);
+  };
+  search.addEventListener("input", applySearch);
+  document.querySelector("#journey-search").addEventListener("submit", (e) => {
+    e.preventDefault();
+    applySearch();
+  });
+  document.querySelectorAll("[data-journey-step]").forEach((b) =>
+    b.addEventListener("click", () => {
+      const visible = rows.filter((r) => !r.hidden),
+        n = visible.indexOf(rows[active]),
+        row =
+          visible[
+            (n + Number(b.dataset.journeyStep) + visible.length) %
+              visible.length
+          ];
+      if (row) {
+        select(+row.dataset.entry);
+        row.scrollIntoView({ block: "center", behavior: "instant" });
+      }
+    }),
+  );
+  let scheduled = false;
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (scheduled) return;
+      scheduled = true;
+      requestAnimationFrame(() => {
+        scheduled = false;
+        if (!list.isConnected) return;
+        const line =
+          innerWidth <= 760
+            ? document.querySelector(".journey-preview").getBoundingClientRect()
+                .bottom + 50
+            : innerHeight * 0.45;
+        const visible = rows.filter((r) => !r.hidden);
+        const closest = visible.reduce(
+          (best, r) =>
+            Math.abs(
+              r.getBoundingClientRect().top + r.offsetHeight / 2 - line,
+            ) <
+            Math.abs(
+              best.getBoundingClientRect().top + best.offsetHeight / 2 - line,
+            )
+              ? r
+              : best,
+          visible[0],
+        );
+        if (closest && +closest.dataset.entry !== active)
+          select(+closest.dataset.entry);
+      });
+    },
+    { passive: true, signal: pageEvents.signal },
+  );
+}
+
 function projects() {
   const c = chapters.find((x) => x.id === "proyectos-compartidos");
   return (
     head("Crear con otros", "Proyectos compartidos", c.short) +
-    `<section class="feature"><div>${img("arc-009962", "Archivo expositivo de Signo de Agua", true)}</div><div><p class="eyebrow">Agua · creación · educación</p><h2>El agua como<br>punto de encuentro.</h2><p>${esc(c.paragraphs[0])}</p>${a("/archivo/signo-agua", "Ver el archivo de Signo de Agua " + arrow, "text-link")}</div></section><div class="prose"><h2>Signo de Agua y la memoria del proyecto</h2><p>Las fotografías conservadas bajo el nombre Signo de Agua muestran una exposición y sus encuentros. La denominación Propósito del Agua procede del relato del artista. Ambas referencias se mantienen visibles mientras se documenta su relación exacta.</p><h2>Dragonians</h2><p>${esc(c.paragraphs[1])}</p><p>Las piezas del catálogo vinculadas a dragones y relatos se reúnen a continuación. Los materiales de otros participantes se conservan como documentación del proyecto y no se atribuyen a Enric.</p></div><section class="section">${workGrid(works.filter((w) => w.series === "Dragones y relatos"))}</section><div class="end-link">${a("/memoria/exponer-abrir-espacios", "Exponer y abrir espacios " + arrow)}</div>`
+    `<section class="feature"><div>${img("arc-009962", "Archivo expositivo de Signo de Agua", true)}</div><div><p class="eyebrow">Agua · creación · educación</p><h2>El agua como<br>punto de encuentro.</h2><p>${esc(c.paragraphs[0])}</p>${a("/archivo/signo-agua", "Ver el archivo de Signo de Agua " + arrow, "text-link")}</div></section><div class="prose"><h2>Signo de Agua y la memoria del proyecto</h2><p>Las fotografías conservadas bajo el nombre Signo de Agua muestran una exposición y sus encuentros. La denominación Propósito del Agua procede del relato del artista. Ambas referencias se mantienen visibles mientras se documenta su relación exacta.</p><h2>Dragonians</h2><p>${esc(c.paragraphs[1])}</p><p>Las piezas del catálogo vinculadas a dragones y relatos se reúnen a continuación. Los materiales de otros participantes se conservan como documentación del proyecto y no se atribuyen a Enric.</p></div><section class="section">${sectionHead("Dragonians en las salas")}${albumGrid(albums.filter((al) => ["dragonians-casa-libro", "sant-jordi-estivella"].includes(al.id)))}</section><section class="section">${sectionHead("Obras del catálogo")}${workGrid(works.filter((w) => w.series === "Dragones y relatos"))}</section><div class="end-link">${a("/memoria/exponer-abrir-espacios", "Exponer y abrir espacios " + arrow)}</div>`
   );
 }
 function artist() {
@@ -340,6 +638,8 @@ function render({ keepScroll = false } = {}) {
     section = parts[0] || "inicio",
     id = parts[1];
   let html, title;
+  pageEvents?.abort();
+  pageEvents = new AbortController();
   activeFilters = null;
   currentGallery = [];
   if (section === "obra" && redirects[id]) {
@@ -358,6 +658,9 @@ function render({ keepScroll = false } = {}) {
       html = w ? workDetail(w) : notFound();
       title = w?.label;
     }
+  } else if (section === "imagenes") {
+    html = imageArchive(params);
+    title = "Archivo visual";
   } else if (section === "arte-infantil") {
     html = education(params);
     title = "Arte infantil";
@@ -415,28 +718,12 @@ function render({ keepScroll = false } = {}) {
   }
   routeKey = raw;
   attachPageEvents();
+  attachArchiveEvents();
+  attachJourneyEvents();
   observe();
 }
-function observe() {
-  observer?.disconnect();
-  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  observer = new IntersectionObserver(
-    (entries) =>
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("entered");
-          observer.unobserve(entry.target);
-        }
-      }),
-    { threshold: 0.04 },
-  );
-  document.querySelectorAll(".reveal:not(.entered)").forEach((el) => {
-    if (el.getBoundingClientRect().top > innerHeight) {
-      el.classList.add("will-reveal");
-      observer.observe(el);
-    } else el.classList.add("entered");
-  });
-}
+function observe() {}
+
 function updateFilters(view) {
   if (!activeFilters) return;
   const data = new FormData(document.querySelector("#catalogue-filters")),
@@ -514,14 +801,12 @@ main.addEventListener("click", (e) => {
   const jump = e.target.closest("[data-jump]");
   if (jump) {
     e.preventDefault();
-    document
-      .getElementById("etapa-" + jump.dataset.jump)
-      ?.scrollIntoView({
-        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-          ? "instant"
-          : "smooth",
-        block: "start",
-      });
+    document.getElementById("etapa-" + jump.dataset.jump)?.scrollIntoView({
+      behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "instant"
+        : "smooth",
+      block: "start",
+    });
   }
 });
 function showImage() {
@@ -531,7 +816,15 @@ function showImage() {
   image.src = asset(p.image, p.local);
   image.alt = p.alt;
   document.querySelector("#image-caption").textContent =
-    `${galleryLabel} · ${selectedPhoto + 1} / ${currentGallery.length} · ${photoRef(p)}`;
+    `${p.owners?.[0]?.label || galleryLabel} · ${selectedPhoto + 1} / ${currentGallery.length} · ${photoRef(p)}`;
+  document.querySelector("#image-context").innerHTML = p.owners
+    ? p.owners
+        .map(
+          (o) =>
+            a(o.path, esc(o.label) + " ↗") + `<span>${esc(o.credit)}</span>`,
+        )
+        .join("")
+    : "";
   document
     .querySelectorAll("[data-step]")
     .forEach((b) => (b.disabled = currentGallery.length < 2));

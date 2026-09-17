@@ -1,5 +1,16 @@
 # Historial de cambios
 
+## 0.4.0 — 2026-09-17
+
+- 221 fichas (+39): incorporación de 12 móviles, nueve esculturas y 18 dibujos; más perspectivas en fichas existentes.
+- Naturaleza Móviles: revisión y acceso a sus 237 fotografías. Recuperación de dibujos del fondo Sala de Bellas Artes.
+- 34 álbumes (+7), con Evolución 1984–2004, Caixa Castelló, Quatre, Sant Jordi en Estivella y Dragonians Cinc en Casa del Libro.
+- Archivo visual general: 1.153 fotografías versionadas (+399), filtros combinados, búsqueda, visor y conservación de todos sus contextos. En local, 147 fotografías privadas adicionales; total de 1.300.
+- Introducción y portada equilibradas; cabecera horizontal; directorio educativo con separación de exposiciones infantiles y formación de adultos.
+- Trayectoria rehecha siguiendo la disposición de Hockney: imagen fija y lista lateral, 16 entradas, búsqueda y cambio de imagen al avanzar; detalle de capítulos con navegación propia. Eliminadas las apariciones con desplazamiento.
+- Clasificación expositiva y búsqueda por lugar/año. Pruebas del modelo de imágenes y verificación de escritorio y móvil.
+- Originales intactos; títulos provisionales y fechas documentadas; sin retoque individual ni despliegue público.
+
 ## 0.3.0 — 2026-09-17
 
 - Rediseño completo sobre blanco: navegación lateral, tipografía sin serifas, fotografías completas, pies discretos y adaptación móvil.

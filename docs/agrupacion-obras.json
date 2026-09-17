@@ -523,13 +523,27 @@
       "ARC-014905",
       "ARC-014906",
       "ARC-014907",
-      "ARC-014908"
+      "ARC-014908",
+      "ARC-014931",
+      "ARC-014932",
+      "ARC-014950",
+      "ARC-014951",
+      "ARC-014952",
+      "ARC-014953",
+      "ARC-014954"
     ],
     "publicados": [
       "ARC-014847",
       "ARC-014856",
       "ARC-014863",
-      "ARC-014901"
+      "ARC-014901",
+      "ARC-014931",
+      "ARC-014932",
+      "ARC-014950",
+      "ARC-014951",
+      "ARC-014952",
+      "ARC-014953",
+      "ARC-014954"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -545,12 +559,22 @@
       "ARC-014869",
       "ARC-014870",
       "ARC-014871",
-      "ARC-014872"
+      "ARC-014872",
+      "ARC-014928",
+      "ARC-014929",
+      "ARC-014930",
+      "ARC-014942",
+      "ARC-014943"
     ],
     "publicados": [
       "ARC-014851",
       "ARC-014869",
-      "ARC-014872"
+      "ARC-014872",
+      "ARC-014928",
+      "ARC-014929",
+      "ARC-014930",
+      "ARC-014942",
+      "ARC-014943"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -564,12 +588,28 @@
       "ARC-014883",
       "ARC-014884",
       "ARC-014885",
-      "ARC-014886"
+      "ARC-014886",
+      "ARC-014933",
+      "ARC-014935",
+      "ARC-014936",
+      "ARC-014937",
+      "ARC-014938",
+      "ARC-014939",
+      "ARC-014948",
+      "ARC-014949"
     ],
     "publicados": [
       "ARC-014880",
       "ARC-014883",
-      "ARC-014886"
+      "ARC-014886",
+      "ARC-014933",
+      "ARC-014935",
+      "ARC-014936",
+      "ARC-014937",
+      "ARC-014938",
+      "ARC-014939",
+      "ARC-014948",
+      "ARC-014949"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -585,12 +625,20 @@
       "ARC-014893",
       "ARC-014894",
       "ARC-014895",
-      "ARC-014909"
+      "ARC-014909",
+      "ARC-014926",
+      "ARC-014927",
+      "ARC-014934",
+      "ARC-014941"
     ],
     "publicados": [
       "ARC-014890",
       "ARC-014894",
-      "ARC-014909"
+      "ARC-014909",
+      "ARC-014926",
+      "ARC-014927",
+      "ARC-014934",
+      "ARC-014941"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -1615,10 +1663,12 @@
   {
     "ficha": "dibujo-015093",
     "identificados": [
-      "ARC-015093"
+      "ARC-015093",
+      "ARC-013437"
     ],
     "publicados": [
-      "ARC-015093"
+      "ARC-015093",
+      "ARC-013437"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -1647,10 +1697,16 @@
     "identificados": [
       "ARC-015096",
       "ARC-015097",
-      "ARC-015189"
+      "ARC-015189",
+      "ARC-013414",
+      "ARC-013442",
+      "ARC-013457"
     ],
     "publicados": [
-      "ARC-015096"
+      "ARC-015096",
+      "ARC-013414",
+      "ARC-013442",
+      "ARC-013457"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -1658,10 +1714,12 @@
     "ficha": "dibujo-015098",
     "identificados": [
       "ARC-015098",
-      "ARC-015190"
+      "ARC-015190",
+      "ARC-013432"
     ],
     "publicados": [
-      "ARC-015098"
+      "ARC-015098",
+      "ARC-013432"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -1670,10 +1728,12 @@
     "identificados": [
       "ARC-015099",
       "ARC-015100",
-      "ARC-015101"
+      "ARC-015101",
+      "ARC-013433"
     ],
     "publicados": [
-      "ARC-015099"
+      "ARC-015099",
+      "ARC-013433"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -1683,10 +1743,14 @@
       "ARC-015102",
       "ARC-015191",
       "ARC-015192",
-      "ARC-015193"
+      "ARC-015193",
+      "ARC-013446",
+      "ARC-013456"
     ],
     "publicados": [
-      "ARC-015102"
+      "ARC-015102",
+      "ARC-013446",
+      "ARC-013456"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -1719,10 +1783,14 @@
   {
     "ficha": "dibujo-015172",
     "identificados": [
-      "ARC-015172"
+      "ARC-015172",
+      "ARC-013424",
+      "ARC-013459"
     ],
     "publicados": [
-      "ARC-015172"
+      "ARC-015172",
+      "ARC-013424",
+      "ARC-013459"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -1819,20 +1887,30 @@
   {
     "ficha": "dibujo-008527",
     "identificados": [
-      "ARC-008527"
+      "ARC-008527",
+      "ARC-013450",
+      "ARC-013451"
     ],
     "publicados": [
-      "ARC-008527"
+      "ARC-008527",
+      "ARC-013450",
+      "ARC-013451"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
   {
     "ficha": "dibujo-008528",
     "identificados": [
-      "ARC-008528"
+      "ARC-008528",
+      "ARC-013416",
+      "ARC-013444",
+      "ARC-013458"
     ],
     "publicados": [
-      "ARC-008528"
+      "ARC-008528",
+      "ARC-013416",
+      "ARC-013444",
+      "ARC-013458"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -2677,6 +2755,561 @@
     ],
     "publicados": [
       "ARC-015263"
+    ]
+  },
+  {
+    "ficha": "moviles-014955",
+    "identificados": [
+      "ARC-014955",
+      "ARC-014956",
+      "ARC-014957",
+      "ARC-014958"
+    ],
+    "publicados": [
+      "ARC-014955",
+      "ARC-014956",
+      "ARC-014957",
+      "ARC-014958"
+    ]
+  },
+  {
+    "ficha": "escultura-014959",
+    "identificados": [
+      "ARC-014959",
+      "ARC-014960",
+      "ARC-014961",
+      "ARC-014963",
+      "ARC-014965",
+      "ARC-014966",
+      "ARC-014989",
+      "ARC-014991"
+    ],
+    "publicados": [
+      "ARC-014959",
+      "ARC-014960",
+      "ARC-014961",
+      "ARC-014963",
+      "ARC-014965",
+      "ARC-014966",
+      "ARC-014989",
+      "ARC-014991"
+    ]
+  },
+  {
+    "ficha": "escultura-014967",
+    "identificados": [
+      "ARC-014967",
+      "ARC-014970"
+    ],
+    "publicados": [
+      "ARC-014967",
+      "ARC-014970"
+    ]
+  },
+  {
+    "ficha": "escultura-014968",
+    "identificados": [
+      "ARC-014968",
+      "ARC-014969",
+      "ARC-014972",
+      "ARC-014974",
+      "ARC-014990",
+      "ARC-014995",
+      "ARC-014996"
+    ],
+    "publicados": [
+      "ARC-014968",
+      "ARC-014969",
+      "ARC-014972",
+      "ARC-014974",
+      "ARC-014990",
+      "ARC-014995",
+      "ARC-014996"
+    ]
+  },
+  {
+    "ficha": "moviles-014976",
+    "identificados": [
+      "ARC-014976",
+      "ARC-014977",
+      "ARC-015003",
+      "ARC-015004",
+      "ARC-015005",
+      "ARC-015026",
+      "ARC-015035",
+      "ARC-015036",
+      "ARC-015043"
+    ],
+    "publicados": [
+      "ARC-014976",
+      "ARC-014977",
+      "ARC-015003",
+      "ARC-015004",
+      "ARC-015005",
+      "ARC-015026",
+      "ARC-015035",
+      "ARC-015036",
+      "ARC-015043"
+    ]
+  },
+  {
+    "ficha": "escultura-014978",
+    "identificados": [
+      "ARC-014978",
+      "ARC-014979",
+      "ARC-014980",
+      "ARC-014981",
+      "ARC-014982",
+      "ARC-014983",
+      "ARC-014984",
+      "ARC-014985",
+      "ARC-014997",
+      "ARC-014998",
+      "ARC-014999"
+    ],
+    "publicados": [
+      "ARC-014978",
+      "ARC-014979",
+      "ARC-014980",
+      "ARC-014981",
+      "ARC-014982",
+      "ARC-014983",
+      "ARC-014984",
+      "ARC-014985",
+      "ARC-014997",
+      "ARC-014998",
+      "ARC-014999"
+    ]
+  },
+  {
+    "ficha": "moviles-015000",
+    "identificados": [
+      "ARC-015000",
+      "ARC-015001",
+      "ARC-015028",
+      "ARC-015029",
+      "ARC-015030",
+      "ARC-015046",
+      "ARC-015049"
+    ],
+    "publicados": [
+      "ARC-015000",
+      "ARC-015001",
+      "ARC-015028",
+      "ARC-015029",
+      "ARC-015030",
+      "ARC-015046",
+      "ARC-015049"
+    ]
+  },
+  {
+    "ficha": "moviles-015002",
+    "identificados": [
+      "ARC-015002"
+    ],
+    "publicados": [
+      "ARC-015002"
+    ]
+  },
+  {
+    "ficha": "moviles-015006",
+    "identificados": [
+      "ARC-015006",
+      "ARC-015007",
+      "ARC-015008",
+      "ARC-015009",
+      "ARC-015010",
+      "ARC-015044"
+    ],
+    "publicados": [
+      "ARC-015006",
+      "ARC-015007",
+      "ARC-015008",
+      "ARC-015009",
+      "ARC-015010",
+      "ARC-015044"
+    ]
+  },
+  {
+    "ficha": "moviles-015011",
+    "identificados": [
+      "ARC-015011",
+      "ARC-015012",
+      "ARC-015013",
+      "ARC-015014",
+      "ARC-015015",
+      "ARC-015016",
+      "ARC-015017",
+      "ARC-015018",
+      "ARC-015019",
+      "ARC-015020",
+      "ARC-015047",
+      "ARC-015048",
+      "ARC-015050"
+    ],
+    "publicados": [
+      "ARC-015011",
+      "ARC-015012",
+      "ARC-015013",
+      "ARC-015014",
+      "ARC-015015",
+      "ARC-015016",
+      "ARC-015017",
+      "ARC-015018",
+      "ARC-015019",
+      "ARC-015020",
+      "ARC-015047",
+      "ARC-015048",
+      "ARC-015050"
+    ]
+  },
+  {
+    "ficha": "moviles-015021",
+    "identificados": [
+      "ARC-015021",
+      "ARC-015022",
+      "ARC-015023",
+      "ARC-015024",
+      "ARC-015025",
+      "ARC-015027",
+      "ARC-015054",
+      "ARC-015055",
+      "ARC-015056"
+    ],
+    "publicados": [
+      "ARC-015021",
+      "ARC-015022",
+      "ARC-015023",
+      "ARC-015024",
+      "ARC-015025",
+      "ARC-015027",
+      "ARC-015054",
+      "ARC-015055",
+      "ARC-015056"
+    ]
+  },
+  {
+    "ficha": "escultura-015032",
+    "identificados": [
+      "ARC-015032",
+      "ARC-015033"
+    ],
+    "publicados": [
+      "ARC-015032",
+      "ARC-015033"
+    ]
+  },
+  {
+    "ficha": "moviles-015045",
+    "identificados": [
+      "ARC-015045"
+    ],
+    "publicados": [
+      "ARC-015045"
+    ]
+  },
+  {
+    "ficha": "moviles-015051",
+    "identificados": [
+      "ARC-015051",
+      "ARC-015052",
+      "ARC-015053"
+    ],
+    "publicados": [
+      "ARC-015051",
+      "ARC-015052",
+      "ARC-015053"
+    ]
+  },
+  {
+    "ficha": "moviles-015058",
+    "identificados": [
+      "ARC-015058",
+      "ARC-015059",
+      "ARC-015060",
+      "ARC-015061",
+      "ARC-015057",
+      "ARC-015073",
+      "ARC-015074"
+    ],
+    "publicados": [
+      "ARC-015058",
+      "ARC-015059",
+      "ARC-015060",
+      "ARC-015061",
+      "ARC-015057",
+      "ARC-015073",
+      "ARC-015074"
+    ]
+  },
+  {
+    "ficha": "moviles-015062",
+    "identificados": [
+      "ARC-015062",
+      "ARC-015063",
+      "ARC-015064",
+      "ARC-015065",
+      "ARC-015066",
+      "ARC-015071",
+      "ARC-015072",
+      "ARC-015075"
+    ],
+    "publicados": [
+      "ARC-015062",
+      "ARC-015063",
+      "ARC-015064",
+      "ARC-015065",
+      "ARC-015066",
+      "ARC-015071",
+      "ARC-015072",
+      "ARC-015075"
+    ]
+  },
+  {
+    "ficha": "moviles-015067",
+    "identificados": [
+      "ARC-015067",
+      "ARC-015068",
+      "ARC-015069",
+      "ARC-015070"
+    ],
+    "publicados": [
+      "ARC-015067",
+      "ARC-015068",
+      "ARC-015069",
+      "ARC-015070"
+    ]
+  },
+  {
+    "ficha": "escultura-015076",
+    "identificados": [
+      "ARC-015076",
+      "ARC-015077"
+    ],
+    "publicados": [
+      "ARC-015076",
+      "ARC-015077"
+    ]
+  },
+  {
+    "ficha": "escultura-008659",
+    "identificados": [
+      "ARC-008659",
+      "ARC-008658",
+      "ARC-008660",
+      "ARC-008661",
+      "ARC-008662"
+    ],
+    "publicados": [
+      "ARC-008659",
+      "ARC-008658",
+      "ARC-008660",
+      "ARC-008661",
+      "ARC-008662"
+    ]
+  },
+  {
+    "ficha": "escultura-008704",
+    "identificados": [
+      "ARC-008704",
+      "ARC-008706",
+      "ARC-008708",
+      "ARC-008710",
+      "ARC-008663",
+      "ARC-008664",
+      "ARC-008665"
+    ],
+    "publicados": [
+      "ARC-008704",
+      "ARC-008706",
+      "ARC-008708",
+      "ARC-008710",
+      "ARC-008663",
+      "ARC-008664",
+      "ARC-008665"
+    ]
+  },
+  {
+    "ficha": "escultura-009729",
+    "identificados": [
+      "ARC-009729",
+      "ARC-009730",
+      "ARC-009731",
+      "ARC-009734",
+      "ARC-009737",
+      "ARC-009713",
+      "ARC-009725"
+    ],
+    "publicados": [
+      "ARC-009729",
+      "ARC-009730",
+      "ARC-009731",
+      "ARC-009734",
+      "ARC-009737",
+      "ARC-009713",
+      "ARC-009725"
+    ]
+  },
+  {
+    "ficha": "dibujo-013422",
+    "identificados": [
+      "ARC-013422"
+    ],
+    "publicados": [
+      "ARC-013422"
+    ]
+  },
+  {
+    "ficha": "dibujo-013423",
+    "identificados": [
+      "ARC-013423"
+    ],
+    "publicados": [
+      "ARC-013423"
+    ]
+  },
+  {
+    "ficha": "dibujo-013426",
+    "identificados": [
+      "ARC-013426"
+    ],
+    "publicados": [
+      "ARC-013426"
+    ]
+  },
+  {
+    "ficha": "dibujo-013427",
+    "identificados": [
+      "ARC-013427"
+    ],
+    "publicados": [
+      "ARC-013427"
+    ]
+  },
+  {
+    "ficha": "dibujo-013430",
+    "identificados": [
+      "ARC-013430"
+    ],
+    "publicados": [
+      "ARC-013430"
+    ]
+  },
+  {
+    "ficha": "dibujo-013431",
+    "identificados": [
+      "ARC-013431"
+    ],
+    "publicados": [
+      "ARC-013431"
+    ]
+  },
+  {
+    "ficha": "dibujo-013434",
+    "identificados": [
+      "ARC-013434"
+    ],
+    "publicados": [
+      "ARC-013434"
+    ]
+  },
+  {
+    "ficha": "dibujo-013435",
+    "identificados": [
+      "ARC-013435"
+    ],
+    "publicados": [
+      "ARC-013435"
+    ]
+  },
+  {
+    "ficha": "dibujo-013436",
+    "identificados": [
+      "ARC-013436"
+    ],
+    "publicados": [
+      "ARC-013436"
+    ]
+  },
+  {
+    "ficha": "dibujo-013439",
+    "identificados": [
+      "ARC-013439"
+    ],
+    "publicados": [
+      "ARC-013439"
+    ]
+  },
+  {
+    "ficha": "dibujo-013440",
+    "identificados": [
+      "ARC-013440"
+    ],
+    "publicados": [
+      "ARC-013440"
+    ]
+  },
+  {
+    "ficha": "dibujo-013441",
+    "identificados": [
+      "ARC-013441"
+    ],
+    "publicados": [
+      "ARC-013441"
+    ]
+  },
+  {
+    "ficha": "dibujo-013443",
+    "identificados": [
+      "ARC-013443"
+    ],
+    "publicados": [
+      "ARC-013443"
+    ]
+  },
+  {
+    "ficha": "dibujo-013447",
+    "identificados": [
+      "ARC-013447"
+    ],
+    "publicados": [
+      "ARC-013447"
+    ]
+  },
+  {
+    "ficha": "dibujo-013448",
+    "identificados": [
+      "ARC-013448"
+    ],
+    "publicados": [
+      "ARC-013448"
+    ]
+  },
+  {
+    "ficha": "dibujo-013449",
+    "identificados": [
+      "ARC-013449"
+    ],
+    "publicados": [
+      "ARC-013449"
+    ]
+  },
+  {
+    "ficha": "dibujo-013452",
+    "identificados": [
+      "ARC-013452"
+    ],
+    "publicados": [
+      "ARC-013452"
+    ]
+  },
+  {
+    "ficha": "dibujo-013453",
+    "identificados": [
+      "ARC-013453"
+    ],
+    "publicados": [
+      "ARC-013453"
     ]
   }
 ]
