@@ -655,8 +655,8 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014847",
-        "thumb": "thumb-014847",
+        "image": "nature-014847",
+        "thumb": "nature-014847-thumb",
         "archiveId": "ARC-014847",
         "alt": "Pieza entre las ramas. Fotografía 1",
         "sourceName": "DSC02291.ARW",
@@ -757,8 +757,8 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014851",
-        "thumb": "thumb-014851",
+        "image": "nature-014851",
+        "thumb": "nature-014851-thumb",
         "archiveId": "ARC-014851",
         "alt": "Planos de color entre los árboles. Fotografía 1",
         "sourceName": "DSC02295.ARW",
@@ -835,8 +835,8 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014880",
-        "thumb": "thumb-014880",
+        "image": "nature-014880",
+        "thumb": "nature-014880-thumb",
         "archiveId": "ARC-014880",
         "alt": "Líneas de color al aire libre. Fotografía 1",
         "sourceName": "DSC02324.ARW",
@@ -937,8 +937,8 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014890",
-        "thumb": "thumb-014890",
+        "image": "nature-014890",
+        "thumb": "nature-014890-thumb",
         "archiveId": "ARC-014890",
         "alt": "Círculo azul y blanco. Fotografía 1",
         "sourceName": "DSC02334.ARW",
@@ -5137,8 +5137,8 @@ export const catalogue = [
     "text": "Arcos oscuros y pequeños acentos de color. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-014955",
-        "thumb": "thumb-014955",
+        "image": "nature-014955",
+        "thumb": "nature-014955-thumb",
         "archiveId": "ARC-014955",
         "alt": "Arcos oscuros y pequeños acentos de color · vista 1",
         "sourceName": "IMG20260511110617_BURST001_COVER.jpg",
@@ -5361,8 +5361,8 @@ export const catalogue = [
     "text": "Círculos rojos entrelazados. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-014976",
-        "thumb": "thumb-014976",
+        "image": "nature-014976",
+        "thumb": "nature-014976-thumb",
         "archiveId": "ARC-014976",
         "alt": "Círculos rojos entrelazados · vista 1",
         "sourceName": "IMG20260629213021.jpg",
@@ -5549,8 +5549,8 @@ export const catalogue = [
     "text": "Curvas azules y verdes. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015000",
-        "thumb": "thumb-015000",
+        "image": "nature-015000",
+        "thumb": "nature-015000-thumb",
         "archiveId": "ARC-015000",
         "alt": "Curvas azules y verdes · vista 1",
         "sourceName": "IMG20260805133737.jpg",
@@ -5619,8 +5619,8 @@ export const catalogue = [
     "text": "Trama oscura con flores de color. Una pieza del archivo de Enric Segarra. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015002",
-        "thumb": "thumb-015002",
+        "image": "nature-015002",
+        "thumb": "nature-015002-thumb",
         "archiveId": "ARC-015002",
         "alt": "Trama oscura con flores de color · vista 1",
         "sourceName": "IMG20260809120427.jpg",
@@ -5641,8 +5641,8 @@ export const catalogue = [
     "text": "Arco rojo y discos azules. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015006",
-        "thumb": "thumb-015006",
+        "image": "nature-015006",
+        "thumb": "nature-015006-thumb",
         "archiveId": "ARC-015006",
         "alt": "Arco rojo y discos azules · vista 1",
         "sourceName": "IMG20260816201736.jpg",
@@ -5703,8 +5703,8 @@ export const catalogue = [
     "text": "Un recorrido de pequeños discos. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015011",
-        "thumb": "thumb-015011",
+        "image": "nature-015011",
+        "thumb": "nature-015011-thumb",
         "archiveId": "ARC-015011",
         "alt": "Un recorrido de pequeños discos · vista 1",
         "sourceName": "IMG20260817161218_BURST001_COVER.jpg",
@@ -5821,8 +5821,8 @@ export const catalogue = [
     "text": "Círculo abierto de muchos colores. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015021",
-        "thumb": "thumb-015021",
+        "image": "nature-015021",
+        "thumb": "nature-015021-thumb",
         "archiveId": "ARC-015021",
         "alt": "Círculo abierto de muchos colores · vista 1",
         "sourceName": "IMG20260819142328~2.jpg",
@@ -5937,8 +5937,8 @@ export const catalogue = [
     "text": "Estructura abierta y un aro de color. Una pieza del archivo de Enric Segarra. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015045",
-        "thumb": "thumb-015045",
+        "image": "nature-015045",
+        "thumb": "nature-015045-thumb",
         "archiveId": "ARC-015045",
         "alt": "Estructura abierta y un aro de color · vista 1",
         "sourceName": "IMG20260907095349~2.jpg",
@@ -5959,8 +5959,8 @@ export const catalogue = [
     "text": "Columna de discos multicolores. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015051",
-        "thumb": "thumb-015051",
+        "image": "nature-015051",
+        "thumb": "nature-015051-thumb",
         "archiveId": "ARC-015051",
         "alt": "Columna de discos multicolores · vista 1",
         "sourceName": "IMG20260908120619.jpg",
@@ -5997,8 +5997,8 @@ export const catalogue = [
     "text": "Recipientes rosas, verdes y amarillos. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015058",
-        "thumb": "thumb-015058",
+        "image": "nature-015058",
+        "thumb": "nature-015058-thumb",
         "archiveId": "ARC-015058",
         "alt": "Recipientes rosas, verdes y amarillos · vista 1",
         "sourceName": "IMG_20240511_205553.jpg",
@@ -6067,8 +6067,8 @@ export const catalogue = [
     "text": "Ramas y figuras geométricas. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015062",
-        "thumb": "thumb-015062",
+        "image": "nature-015062",
+        "thumb": "nature-015062-thumb",
         "archiveId": "ARC-015062",
         "alt": "Ramas y figuras geométricas · vista 1",
         "sourceName": "IMG_20240511_205707.jpg",
@@ -6145,8 +6145,8 @@ export const catalogue = [
     "text": "Pequeños recipientes suspendidos. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "arc-015067",
-        "thumb": "thumb-015067",
+        "image": "nature-015067",
+        "thumb": "nature-015067-thumb",
         "archiveId": "ARC-015067",
         "alt": "Pequeños recipientes suspendidos · vista 1",
         "sourceName": "IMG_20240512_123717.jpg",

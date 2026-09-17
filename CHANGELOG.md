@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Móviles en naturaleza · edición editorial orgánica — 2026-09-18
+
+- Las 16 vistas exteriores de MOV-016 a MOV-019 y MOV-022 a MOV-033 pasan a ser segundas fotografías de contexto: naturaleza, árbol e instalación permanecen presentes, con luz y detalle equilibrados. Donde aparecían fachadas, ladrillo, pavimento u otros elementos domésticos, se sustituyen por vegetación continua y verosímil para dar prioridad a la obra. La portada de cada ficha sigue siendo la versión expositiva; los originales se conservan y toda versión queda trazada.
+
 ## Móviles · cobertura expositiva completa — 2026-09-18
 
 - Las 21 portadas pendientes, de MOV-007 a MOV-027, reciben una versión de presentación con luz y fondo de galería coherentes. Junto con las tandas previas, las 33 fichas de Móviles cuentan ya con portada profesional; cada galería conserva sus vistas originales de espacio, instalación o naturaleza.

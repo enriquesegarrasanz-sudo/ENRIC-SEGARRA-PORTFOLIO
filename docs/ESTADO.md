@@ -9,7 +9,8 @@
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
 - Completada la cobertura expositiva de MOV-007 a MOV-027: las portadas se normalizan con el mismo fondo y luz de galería, mientras que cada ficha conserva las fotografías originales de instalación, sala o naturaleza en sus vistas documentales.
-- Completada una segunda tanda de portadas de Móviles (MOV-028 a MOV-033), antes fotografiadas en árboles y jardín: versiones de galería con fondo blanco cálido, luz controlada y nuevas miniaturas. Las fotografías originales y las vistas complementarias se mantienen publicadas y trazables.
+- Completada una segunda tanda de portadas de Móviles (MOV-028 a MOV-033), antes fotografiadas en árboles y jardín: versiones de galería con fondo blanco cálido, luz controlada y nuevas miniaturas. Los originales y las vistas complementarias se mantienen trazables.
+- Añadida una segunda vista de naturaleza de acabado editorial a MOV-016 a MOV-019 y MOV-022 a MOV-033: la ficha abre con la presentación expositiva y continúa con la obra suspendida en árbol o jardín. La intervención conserva obra e instalación y limpia selectivamente edificios, ladrillos, pavimento u otros elementos domésticos para dejar un entorno vegetal orgánico.
 - Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.
 - Portada con una introducción más clara al artista y tres recorridos equilibrados. Cabecera horizontal sobre blanco, menú móvil y fotografías completas.
 - 221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. Son 39 fichas más; se conservan las referencias anteriores y se reúnen las distintas perspectivas.
@@ -28,7 +29,7 @@ Los nombres de obras y las familias siguen siendo descripciones editoriales prov
 
 Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. La web se publica mediante GitHub Pages, exclusivamente desde `dist/`.
 
-La edición y mejora individual incluye las 80 imágenes principales y 80 miniaturas revisadas de pintura, las 33 imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
+La edición y mejora individual incluye las 80 imágenes principales y 80 miniaturas revisadas de pintura, las 33 imágenes principales de móviles, 16 segundas vistas orgánicas de naturaleza de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 
