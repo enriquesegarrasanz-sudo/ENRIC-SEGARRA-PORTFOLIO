@@ -86,9 +86,7 @@ function home() {
     ["Obra", "/obra", `${works.length} fichas`],
     ["Arte infantil", "/arte-infantil", `${educationAlbums().length} colecciones`],
     ["Exposiciones", "/exposiciones", "Archivo de muestras"],
-    ["Trayectoria", "/memoria", "Vida y obra"],
     ["Proyectos", "/proyectos", "Trabajo compartido"],
-    ["Archivo visual", "/imagenes", "1.226 imágenes"],
     ["Artista", "/artista", "Perfil y práctica"],
     ["Contacto", "/contacto", "Información profesional"],
   ];
@@ -626,9 +624,8 @@ function render({ keepScroll = false } = {}) {
     html = al ? albumPage(al) : notFound();
     title = al?.title;
   } else if (section === "memoria") {
-    const c = chapters.find((c) => c.id === id);
-    html = id ? (c ? chapterPage(c) : notFound()) : memory(params);
-    title = c?.title || "Trayectoria";
+    html = notFound();
+    title = "Página no encontrada";
   } else if (section === "exposiciones") {
     html = exhibitions(params);
     title = "Exposiciones";
