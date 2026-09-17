@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Exposiciones y dibujos · recorrido unificado — 2026-09-17
+
+- Rediseñado el índice de exposiciones como recorrido horizontal y unificada la presentación de los dibujos. Se incorporan las imágenes de sala de Bellas Artes y sus miniaturas, conservando los contextos y enlaces documentales.
+
 ## Escultura · tratamiento de galería — 2026-09-17
 
 - Renovadas las portadas de 49 fichas de escultura con fondo blanco neutro, iluminación museística, encuadre horizontal 3:2 y grano fotográfico fino. Las seis instalaciones fotografiadas en naturaleza (ESC-047 a ESC-052) conservan sus imágenes originales porque el entorno forma parte de la obra. Originales y referencias ARC intactos; procedencia registrada.

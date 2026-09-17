@@ -319,6 +319,84 @@ main {
   border-top: 1px solid var(--line);
   margin-top: 16px;
 }
+.exhibition-list {
+  border-top: 1px solid var(--line);
+}
+.exhibition-card > a {
+  display: grid;
+  grid-template-columns: minmax(0, 1.38fr) minmax(255px, 0.82fr) 28px;
+  gap: clamp(24px, 4vw, 64px);
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+}
+.exhibition-image {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #f4f3ef;
+}
+.exhibition-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.7s ease;
+}
+.exhibition-card > a:hover .exhibition-image img,
+.exhibition-card > a:focus-visible .exhibition-image img {
+  transform: scale(1.018);
+}
+.exhibition-count {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 8px 11px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--muted);
+  font-size: 10px;
+}
+.exhibition-copy .eyebrow {
+  margin-bottom: 13px;
+}
+.exhibition-copy h2 {
+  max-width: 470px;
+  font-size: clamp(25px, 2.35vw, 38px);
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+}
+.exhibition-details {
+  margin-top: 15px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.exhibition-text {
+  max-width: 430px;
+  margin-top: 20px;
+  color: #5c5c56;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.exhibition-link {
+  display: flex;
+  gap: 18px;
+  width: fit-content;
+  margin-top: 25px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #aaa;
+  font-size: 12px;
+}
+.exhibition-link b {
+  font-weight: 400;
+}
+.exhibition-arrow {
+  color: var(--muted);
+  font-size: 16px;
+  justify-self: end;
+}
 .home-intro {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
@@ -686,6 +764,22 @@ main {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 45px 28px;
+}
+.gallery-group {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  margin-top: 18px;
+  max-width: 760px;
+}
+.gallery-group .eyebrow {
+  margin: 0 0 8px;
+}
+.gallery-group p:last-child {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 0;
 }
 .gallery-item .photo-button {
   height: 280px;
@@ -1302,6 +1396,27 @@ body:has(dialog[open]) {
   }
   .album-card h3 {
     font-size: 17px;
+  }
+  .exhibition-card > a {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 25px 0;
+  }
+  .exhibition-image {
+    aspect-ratio: 16 / 10;
+  }
+  .exhibition-copy h2 {
+    font-size: 30px;
+  }
+  .exhibition-text {
+    margin-top: 16px;
+    font-size: 12px;
+  }
+  .exhibition-link {
+    margin-top: 20px;
+  }
+  .exhibition-arrow {
+    display: none;
   }
   .tabs {
     gap: 24px;
