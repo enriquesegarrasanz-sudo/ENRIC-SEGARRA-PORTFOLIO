@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Ajuste posterior — 2026-09-17
+
+- Retirado «Proceso y entorno» de la navegación y de todos los recorridos públicos, manteniendo intactos los originales y los datos internos.
+
 ## 0.4.0 — 2026-09-17
 
 - 221 fichas (+39): incorporación de 12 móviles, nueve esculturas y 18 dibujos; más perspectivas en fichas existentes.

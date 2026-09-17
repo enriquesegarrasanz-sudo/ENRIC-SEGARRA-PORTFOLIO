@@ -53,6 +53,7 @@ const workGrid = (ws) =>
     `<div class="albums-grid">${list.map(albumCard).join("")}</div>`;
 const educationAlbums = () =>
   albums.filter((al) => al.audience === "educacion");
+const visibleAlbums = () => albums.filter((al) => al.section !== "proceso");
 let currentGallery = [],
   galleryLabel = "",
   selectedPhoto = 0,
@@ -102,11 +103,6 @@ function home() {
       "Exposiciones",
       "/exposiciones",
       "Obra propia, muestras colectivas y educación.",
-    ],
-    [
-      "Proceso y entorno",
-      "/proceso",
-      "Las piezas, sus variaciones y el lugar que las acoge.",
     ],
     [
       "Proyectos compartidos",
@@ -195,15 +191,11 @@ function albumPage(al) {
   const parent =
       al.audience === "educacion"
         ? "/arte-infantil?seccion=" + al.section
-        : al.section === "exposiciones"
-          ? "/exposiciones"
-          : "/proceso",
+        : "/exposiciones",
     label =
       al.audience === "educacion"
         ? "Arte infantil"
-        : al.section === "exposiciones"
-          ? "Exposiciones"
-          : "Proceso y entorno";
+        : "Exposiciones";
   return (
     trail(parent, label, al.title) +
     head(al.date || al.type, al.title, al.text) +
@@ -309,68 +301,20 @@ function memory(params) {
         "Capítulos y álbumes de la memoria artística.",
       ) +
       `<div class="end-link">${a("/imagenes", "Abrir todas las fotografías con filtros " + arrow)}</div><div class="archive-index">${chapters.map((c, i) => a("/memoria/" + c.id, `<span>${num(i + 1)}</span><h2>${esc(c.title)}</h2><p>${esc(c.short)}</p>${arrow}`)).join("")}</div>` +
-      albumGrid(albums)
+      albumGrid(visibleAlbums())
     );
-  const entries = journeyEntries(chapters, albums, works),
+  const entries = journeyEntries(chapters, visibleAlbums(), works),
     first = entries[0];
   return `<header class="journey-heading"><h1>Trayectoria</h1><p>Vida, obra y encuentros. Las fechas corresponden a episodios documentados; los demás recorridos son temáticos.</p></header><div class="journey"><aside class="journey-preview"><form id="journey-search" role="search"><label for="journey-query" class="sr-only">Buscar una etapa o un año</label><input id="journey-query" type="search" placeholder="Buscar una etapa o un año"><button aria-label="Buscar en la trayectoria">↗</button></form><p class="journey-help" id="journey-status">${entries.length} entradas · Recorre la lista para cambiar de imagen</p><a id="journey-image-link" href="#${first.path}"><figure><div class="journey-image">${img(first.image, first.title, true)}</div><figcaption><span id="journey-caption">${esc(first.title)}</span><span aria-hidden="true">→</span></figcaption></figure></a><div class="journey-controls"><button type="button" data-journey-step="-1" aria-label="Etapa anterior">←</button><span id="journey-position">01 / ${num(entries.length)}</span><button type="button" data-journey-step="1" aria-label="Etapa siguiente">→</button></div></aside><div class="journey-list" aria-label="Etapas y acontecimientos">${entries.map((e, i) => `<article class="journey-entry${i === 0 ? " selected" : ""}" data-entry="${i}"><a href="#${e.path}"><h2>${esc(e.label)}</h2><div><h3>${esc(e.title)}</h3><p>${esc(e.text)}</p></div></a></article>`).join("")}<p id="journey-empty" hidden>No hay entradas con esa búsqueda. Prueba otro año, lugar o tema.</p></div></div>`;
 }
 
 function chapterPage(c) {
   const relatedWorks = works.filter((w) => w.chapter === c.id),
-    relatedAlbums = albums.filter((al) => al.chapter === c.id),
+    relatedAlbums = visibleAlbums().filter((al) => al.chapter === c.id),
     i = chapters.indexOf(c);
   return `<div class="chapter-top">${a("/memoria", "← Trayectoria")}<span>${num(i + 1)} / ${num(chapters.length)}</span><div>${i > 0 ? a("/memoria/" + chapters[i - 1].id, "← Anterior") : ""}${i < chapters.length - 1 ? a("/memoria/" + chapters[i + 1].id, "Siguiente →") : ""}</div></div><header class="chapter-title"><p class="eyebrow">${esc(c.short)}</p><h1>${esc(c.title)}</h1></header><div class="chapter-reader"><aside class="chapter-contents"><p class="eyebrow">En este capítulo</p><button data-anchor="chapter-story">La memoria</button>${relatedWorks.length ? '<button data-anchor="chapter-works">La obra</button>' : ""}${relatedAlbums.length ? '<button data-anchor="chapter-albums">Imágenes y documentos</button>' : ""}</aside><div><section id="chapter-story"><figure class="chapter-hero">${img(chapterImages[c.id], c.imageAlt || c.title, true)}${c.caption ? `<figcaption>${esc(c.caption)}</figcaption>` : ""}</figure>${prose(c.paragraphs)}</section>${c.id === "crear-con-otros" ? `<div class="end-link">${a("/arte-infantil", "Explorar el archivo de arte infantil " + arrow)}</div>` : ""}${relatedWorks.length ? `<section class="section" id="chapter-works">${sectionHead("La obra", "/imagenes?q=" + encodeURIComponent(c.id === "construir-formas" ? "línea" : c.id === "seguir-creando" ? "móviles" : c.id === "pintar-mundos" ? "pintura" : ""), "Explorar imágenes")}${workGrid(relatedWorks.slice(0, 9))}</section>` : ""}${relatedAlbums.length ? `<section class="section" id="chapter-albums">${sectionHead("Imágenes y documentos")}${albumGrid(relatedAlbums)}</section>` : ""}</div></div>`;
 }
 
-function processPage() {
-  return (
-    head(
-      "Materia · espacio · movimiento",
-      "Proceso y entorno",
-      "Mirar de cerca. Construir, suspender y volver a mirar. Las piezas se transforman con el lugar, la luz y el punto de vista.",
-    ) +
-    `<section class="process-opening"><figure>${img("arc-014873", "Enric Segarra junto a sus esculturas suspendidas en los árboles", true)}<figcaption>El artista, las piezas y el entorno.</figcaption></figure><div><p class="eyebrow">Un trabajo que continúa</p><h2>La escultura<br>sale al encuentro<br>del paisaje.</h2><p>En los árboles, una composición encuentra otro equilibrio. El aire introduce movimiento y la luz cambia la relación entre sus partes. El archivo permite seguir esas variaciones, reuniendo las distintas vistas de una misma pieza.</p>${a("/archivo/arboles", "Recorrer las fotografías " + arrow, "text-link")}</div></section><div class="process-sequence">${[
-      [
-        "01",
-        "Encontrar",
-        "Texturas, ramas, piedras y restos de color. Observar es una parte del trabajo.",
-        "mirar-materia",
-      ],
-      [
-        "02",
-        "Experimentar",
-        "La fotografía conserva ensayos, variaciones y maneras distintas de mirar la materia.",
-        "variaciones-fotograficas",
-      ],
-      [
-        "03",
-        "Articular",
-        "Construcciones que cambian al girar y reorganizar sus elementos.",
-        "esculturas-articuladas",
-      ],
-      [
-        "04",
-        "Naturaleza Móviles",
-        "Las 237 fotografías revisadas del fondo, con piezas, detalles y distintas perspectivas.",
-        "naturaleza-moviles",
-      ],
-      [
-        "05",
-        "Habitar el entorno",
-        "El cuerpo del artista, la escala de las piezas y el espacio que las rodea.",
-        "arboles",
-      ],
-    ]
-      .map(([n, t, p, id]) => {
-        const al = albums.find((x) => x.id === id);
-        return `<section class="process-step reveal"><div><span class="reference">${n}</span><h2>${t}</h2><p>${p}</p>${a("/archivo/" + id, "Abrir el cuaderno " + arrow, "text-link")}</div>${a("/archivo/" + id, img(al.image, al.title))}</section>`;
-      })
-      .join(
-        "",
-      )}</div><section class="section">${sectionHead("Formas suspendidas", "/obra/moviles")}${workGrid(works.filter((w) => w.category === "moviles").slice(0, 3))}</section><section class="section closing-note"><h2>El proceso también<br>se comparte.</h2><p>El trabajo con materiales continúa en los talleres de educación artística y en la formación docente.</p>${a("/arte-infantil?seccion=talleres", "Entrar en los talleres " + arrow, "text-link")}</section>`
-  );
-}
 function exhibitions(params) {
   const f = params.get("tipo") || "todas",
     q = params.get("q") || "",
@@ -400,7 +344,7 @@ function exhibitions(params) {
 }
 
 function imageArchive(params) {
-  const pool = buildPhotoIndex(works, albums),
+  const pool = buildPhotoIndex(works, visibleAlbums()),
     scope = params.get("ambito") || "",
     discipline = params.get("disciplina") || "",
     collection = params.get("coleccion") || "",
@@ -669,16 +613,13 @@ function render({ keepScroll = false } = {}) {
     html = r ? readingPage(r) : notFound();
     title = r?.title;
   } else if (section === "archivo") {
-    const al = albums.find((al) => al.id === id);
+    const al = visibleAlbums().find((al) => al.id === id);
     html = al ? albumPage(al) : notFound();
     title = al?.title;
   } else if (section === "memoria") {
     const c = chapters.find((c) => c.id === id);
     html = id ? (c ? chapterPage(c) : notFound()) : memory(params);
     title = c?.title || "Trayectoria";
-  } else if (section === "proceso") {
-    html = processPage();
-    title = "Proceso y entorno";
   } else if (section === "exposiciones") {
     html = exhibitions(params);
     title = "Exposiciones";
@@ -698,14 +639,13 @@ function render({ keepScroll = false } = {}) {
   if (dialog.open) dialog.close();
   main.innerHTML = html;
   document.title = `${title || "Archivo"} — ${site.name}`;
-  const al = section === "archivo" ? albums.find((al) => al.id === id) : null,
+  const al =
+      section === "archivo" ? visibleAlbums().find((al) => al.id === id) : null,
     active =
       section === "textos" || al?.audience === "educacion"
         ? "arte-infantil"
         : al
-          ? al.section === "exposiciones"
-            ? "exposiciones"
-            : "proceso"
+          ? "exposiciones"
           : section;
   document.querySelectorAll("[data-nav]").forEach((el) => {
     if (el.dataset.nav === active) el.setAttribute("aria-current", "page");

@@ -11,7 +11,6 @@ export const archiveSections = [
   ["talleres", "Talleres"],
   ["formacion", "Formación docente"],
   ["exposiciones", "Exposiciones"],
-  ["proceso", "Proceso y entorno"],
 ];
 export function buildPhotoIndex(works, albums) {
   const index = new Map();

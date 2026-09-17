@@ -48,6 +48,5 @@ export function journeyEntries(chapters, albums, works) {
     chapter("exponer-abrir-espacios", "Las salas", "arc-009086"),
     album("pineda", "Móviles"),
     chapter("seguir-creando", "Presente", "arc-014873"),
-    album("naturaleza-moviles", "El entorno"),
   ];
 }

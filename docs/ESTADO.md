@@ -4,6 +4,7 @@
 
 ## Entregado
 
+- Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.
 - Portada con una introducción más clara al artista y tres recorridos equilibrados. Cabecera horizontal sobre blanco, menú móvil y fotografías completas.
 - 221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. Son 39 fichas más; se conservan las referencias anteriores y se reúnen las distintas perspectivas.
 - 34 álbumes, siete más: cinco exposiciones y dos conjuntos de proceso. Fondo Naturaleza Móviles completo en sus 237 fotografías revisadas.

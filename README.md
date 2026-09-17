@@ -8,7 +8,6 @@ Portfolio, catálogo visual y memoria artística. Versión **0.3.0**, preparada 
 - Obra: 182 fichas, cuatro disciplinas, familias, búsqueda, cuadrícula, recorrido vertical y galerías por pieza.
 - Arte infantil: proyecto, obras infantiles, talleres, formación docente, exposiciones y textos.
 - Exposiciones y proyectos compartidos con páginas propias.
-- Proceso y entorno.
 - Trayectoria: siete capítulos visuales con navegación entre imágenes y documentos. El archivo reúne 27 álbumes.
 - Artista y contacto pendiente de completar con datos profesionales aprobados.
 - Ampliación de imágenes, navegación móvil y enlaces entre obras y capítulos.
