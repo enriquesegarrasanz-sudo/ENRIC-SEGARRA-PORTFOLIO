@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Móviles · presentación expositiva y naturaleza — 2026-09-18
+
+- Las 33 fichas de Móviles cuentan con una portada de presentación coherente. En MOV-016 a MOV-019 y MOV-022 a MOV-033, la ficha continúa con una segunda vista editorial de naturaleza: la obra permanece suspendida en árbol o jardín, con luz y detalle equilibrados. Las fachadas, ladrillos, pavimentos y otros elementos domésticos se limpian selectivamente para dejar un entorno vegetal orgánico; originales y procedencias se conservan.
+
 ## Publicación · renovación de recursos de escultura — 2026-09-18
 
 - Renovada la etiqueta de versión de la aplicación, el catálogo y los recursos de imagen para que la página pública cargue las vistas secundarias actualizadas y no reutilice fotografías almacenadas en caché de la versión anterior.
