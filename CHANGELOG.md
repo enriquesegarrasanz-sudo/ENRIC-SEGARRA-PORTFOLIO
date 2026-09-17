@@ -11,8 +11,8 @@
 
 ## Portada · retrato único — 2026-09-18
 
-- La portada queda deliberadamente reducida a un único retrato de Enric Segarra con una escultura de madera, a gran formato y sin textos ni carrusel.
-- Se ha preparado una versión de portada con una depuración localizada del borde de la figura, preservando la persona, la obra, su forma orgánica, la veta, el color y el encuadre del original.
+- La portada queda deliberadamente reducida a un único retrato horizontal de Enric Segarra con una escultura de madera, a gran formato y sin textos ni carrusel.
+- Se ha preparado una versión de portada apaisada con una depuración localizada del borde de la figura, preservando la persona, la obra, su forma orgánica, la veta, el color y la luz del original.
 
 ## Arte infantil · mosaico editorial — 2026-09-18
 

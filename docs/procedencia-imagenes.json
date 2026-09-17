@@ -21274,5 +21274,13 @@
     "transformacion": "Versión de portada a partir del retrato original: depuración localizada del contorno de la figura de madera; se conservan encuadre, persona, gesto, obra, veta, color y fondo. Original intacto",
     "width": 1024,
     "height": 1536
+  },
+  {
+    "asset": "assets/retrato-portada-horizontal-v1.png",
+    "archivo_id": "ARC-014584",
+    "original": "FOTOS ENRIC SEGARRA\\_DSC1856.jpg",
+    "transformacion": "Versión horizontal de portada a partir del retrato ya depurado: encuadre editorial apaisado y extensión lateral del fondo de estudio; se conservan persona, gesto, escultura, veta, bordes, color y luz. Original intacto",
+    "width": 1536,
+    "height": 864
   }
 ]

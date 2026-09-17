@@ -81,7 +81,7 @@ let currentGallery = [],
   routeKey = "";
 
 function home() {
-  return `<section class="portrait-cover" aria-label="Retrato de Enric Segarra con una escultura"><img src="assets/retrato-portada-bordes-v1.png" alt="Enric Segarra sostiene una escultura de madera" loading="eager" decoding="async"></section>`;
+  return `<section class="portrait-cover" aria-label="Retrato de Enric Segarra con una escultura"><img src="assets/retrato-portada-horizontal-v1.png" alt="Enric Segarra sostiene una escultura de madera" loading="eager" decoding="async"></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -120,13 +120,17 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
     dibujo:
       "Líneas, manchas y formas que construyen el espacio sobre el papel.",
   };
+  const sculptureFamilies =
+    category === "escultura"
+      ? `<section class="sculpture-families" aria-labelledby="sculpture-families-title"><div class="section-head"><div><p class="eyebrow">Clasificación provisional</p><h2 id="sculpture-families-title">Familias de la escultura</h2></div><p class="sculpture-families-note">Una entrada visual a los distintos modos de trabajar el volumen presentes en el archivo.</p></div><div class="family-grid">${seriesList.map((family) => { const familyWorks = pool.filter((w) => w.series === family); const representative = familyWorks[0]; const selected = series === family ? " active" : ""; return `<a class="family-card${selected}" href="#/obra/escultura?serie=${encodeURIComponent(family)}" aria-label="Ver ${familyWorks.length} obras de ${esc(family)}"><div class="family-image">${img(representative.thumb, representative.alt)}</div><div class="family-copy"><span class="reference">${String(familyWorks.length).padStart(2, "0")} obras</span><h3>${esc(family)}</h3><span class="family-link">Explorar <span aria-hidden="true">↗</span></span></div></a>`; }).join("")}</div></section>`
+      : "";
   return (
     head(
       "Catálogo de obra",
       category === "todas" ? "Obra" : catName(category),
       descriptions[category],
     ) +
-    `<nav class="tabs" aria-label="Disciplinas">${categories.map((c) => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter((w) => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav><form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar título, familia o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label><label class="select-label">Familia<select name="serie"><option value="">Todas las familias</option>${seriesList.map((s) => `<option ${s === series ? "selected" : ""} value="${esc(s)}">${esc(s)}</option>`).join("")}</select></label><div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}${series ? " · " + esc(series) : ""}</p><p>Nombres descriptivos provisionales</p></div><div id="catalogue-results">${renderWorks(filtered.slice(0, 24), view)}</div>${filtered.length > 24 ? `<button class="load-more" id="more-works" data-shown="24">Ver más obras <span>24 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`
+    `<nav class="tabs" aria-label="Disciplinas">${categories.map((c) => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter((w) => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>${sculptureFamilies}<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar título, familia o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label><label class="select-label">Familia<select name="serie"><option value="">Todas las familias</option>${seriesList.map((s) => `<option ${s === series ? "selected" : ""} value="${esc(s)}">${esc(s)}</option>`).join("")}</select></label><div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}${series ? " · " + esc(series) : ""}</p><p>Nombres descriptivos provisionales</p></div><div id="catalogue-results">${renderWorks(filtered.slice(0, 24), view)}</div>${filtered.length > 24 ? `<button class="load-more" id="more-works" data-shown="24">Ver más obras <span>24 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`
   );
 }
 function renderWorks(list, view) {

@@ -501,6 +501,33 @@ main {
   color: var(--muted);
   margin-left: 5px;
 }
+.sculpture-families {
+  margin: 48px 0 54px;
+  padding: 28px 0 34px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.sculpture-families .section-head { align-items: end; margin-bottom: 25px; }
+.sculpture-families h2 { margin-top: 8px; }
+.sculpture-families-note { max-width: 310px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.family-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px 20px; }
+.family-card { display: grid; grid-template-columns: 104px 1fr; gap: 16px; align-items: stretch; min-width: 0; border-top: 1px solid var(--line); padding-top: 13px; }
+.family-card:hover .family-image img, .family-card.active .family-image img { transform: scale(1.035); }
+.family-image { height: 86px; overflow: hidden; background: #f3f2ee; }
+.family-image img { width: 100%; height: 100%; object-fit: contain; transition: transform 350ms ease; }
+.family-copy { display: flex; flex-direction: column; min-width: 0; }
+.family-copy h3 { margin: 8px 0 12px; font-size: 17px; line-height: 1.12; }
+.family-link { margin-top: auto; color: var(--muted); font-size: 10px; }
+.family-card.active .family-link, .family-card:hover .family-link { color: #111; }
+@media (max-width: 900px) {
+  .family-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .sculpture-families { margin: 36px 0 42px; padding: 24px 0 28px; }
+  .sculpture-families .section-head { display: block; }
+  .sculpture-families-note { margin-top: 14px; }
+  .family-grid { grid-template-columns: 1fr; gap: 22px; }
+}
 .catalogue-tools {
   display: flex;
   align-items: center;
@@ -3200,25 +3227,15 @@ main {
 
 /* Portada en pausa: un único retrato, sin elementos editoriales alrededor. */
 .portrait-cover {
-  display: grid;
-  min-height: 82svh;
-  place-items: start center;
+  display: block;
   padding: 0 0 clamp(44px, 6vw, 88px);
 }
 .portrait-cover img {
-  width: auto;
-  max-width: 100%;
-  height: min(82svh, 980px);
-  max-height: 980px;
-  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 760px) {
   .portrait-cover {
-    min-height: calc(100svh - 126px);
     padding-bottom: 34px;
-  }
-  .portrait-cover img {
-    width: 100%;
-    height: calc(100svh - 126px);
   }
 }
