@@ -4,9 +4,9 @@
 
 ## Ajuste visual · 18 de septiembre de 2026
 
-- Obras infantiles, Talleres y Formación docente agrupan ahora todas las fotografías de cada apartado en un único archivo visual, con divisiones discretas por colección y miniaturas apaisadas. Exposiciones mantiene los álbumes organizados por contexto.
+- Las siete vistas de «Forma articulada dentro de un círculo» (ESC-054) comparten ahora luz, balance de color y fondo de exposición blanco cálido. Se ha mantenido la pátina y la peana como rasgos materiales de la obra.
+- La portada se presenta bajo el nombre «Segarra y Garibo» con un único retrato horizontal de Enric Segarra junto a una escultura de madera, mostrado a gran formato. Se ha depurado únicamente el contorno de la figura de madera y extendido lateralmente el fondo de estudio; por ahora no incluye textos ni carrusel.
 - El índice de Arte infantil se presenta como un mosaico de cinco accesos, con fotografías horizontales y la misma jerarquía editorial del índice de Exposiciones. La imagen inicial es ahora una composición colectiva; «Textos y propuestas» se muestra como «Ideas para crear», sin retirar los documentos vinculados.
-- Retirado el apartado «Trayectoria» de la navegación pública, del índice de inicio y del pie. La web queda más directa: obra, arte infantil, exposiciones, archivo visual, artista y contacto.
 - Rehechas las fotografías de catálogo de dibujo que presentaban cortes demasiado ajustados. Las nuevas versiones muestran la hoja o el marco completos, respetan las piezas verticales y corrigen la iluminación de forma global, sin alterar los trazos, firmas ni originales.
 - El índice de Arte infantil presenta sus cinco apartados mediante bloques con imágenes horizontales grandes, contadores y llamadas a explorar.
 - «Textos y propuestas» muestra una imagen de referencia por lectura antes de entrar al documento, reduciendo la dependencia del texto para orientarse.
@@ -32,7 +32,8 @@
 - Archivo visual general con 1.226 registros versionados y 147 fotografías adicionales en la revisión privada local: 1.373 imágenes disponibles localmente. Filtros de ámbito, disciplina y colección, búsqueda, ampliación y enlaces a todos los contextos.
 - Arte infantil con un directorio visual de obras, talleres, formación docente, exposiciones y textos; cinco colecciones de obras, cuatro álbumes de talleres, tres de formación y ocho de exposiciones. Las exposiciones de participantes adultos se distinguen de las infantiles.
 - Exposiciones clasificadas entre obra propia, colectivas, arte infantil y formación docente, con búsqueda por nombre, lugar o fecha.
-- El recorrido de trayectoria se retira de la web pública para no forzar una cronología sin fechas suficientemente documentadas. Los datos editoriales se conservan como estructura interna de relación entre obras, álbumes y proyectos.
+- La sección de obras infantiles se recorre ahora por cinco salas temáticas; sus imágenes mantienen la proporción completa para no perder las piezas verticales.
+- Trayectoria de 16 entradas: imagen fija a la izquierda y lista a la derecha, cambio por desplazamiento o enfoque, búsqueda de etapas/años, controles de anterior/siguiente y acceso al detalle. Los siete capítulos conservan sus enlaces y cuentan con navegación interna.
 - Eliminadas las apariciones de tarjetas con desplazamiento. Sustitución de imágenes sin dejar el panel vacío durante la carga.
 
 ## Documentación y límites

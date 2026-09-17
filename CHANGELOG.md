@@ -1,22 +1,18 @@
 # Historial de cambios
 
-## Limpieza editorial · sin trayectoria — 2026-09-18
+## Arte infantil · salas de obra — 2026-09-18
 
-- Retirado el apartado «Trayectoria» de la navegación principal, del índice de inicio y del pie de página. Los enlaces internos que llevaban a ese recorrido se sustituyen por accesos a obra o exposiciones.
+- Las obras infantiles se recorren en cinco salas diferenciadas por familias de trabajo, con fotografías completas tanto en formato horizontal como vertical.
 
-## Arte infantil · archivo completo por apartado — 2026-09-18
+## Escultura · Forma articulada dentro de un círculo — 2026-09-18
 
-- Obras infantiles, Talleres y Formación docente muestran ahora todas sus fotografías juntas, clasificadas por cada colección de origen.
-- Las imágenes se presentan en una cuadrícula más pequeña y horizontal para facilitar una lectura de conjunto; cada una mantiene el acceso para ampliarla.
-- Exposiciones conserva su organización por muestras, lugares y contextos documentales.
+- Revisadas las siete vistas de la ficha ESC-054 con una iluminación editorial coherente y fondo de exposición blanco cálido.
+- La pátina irregular del metal, la textura de la pared y el desgaste de la peana permanecen visibles, sin homogeneizarlos ni idealizarlos.
 
-## Móviles · presentación expositiva y naturaleza — 2026-09-18
+## Portada · retrato único — 2026-09-18
 
-- Las 33 fichas de Móviles cuentan con una portada de presentación coherente. En MOV-016 a MOV-019 y MOV-022 a MOV-033, la ficha continúa con una segunda vista editorial de naturaleza: la obra permanece suspendida en árbol o jardín, con luz y detalle equilibrados. Las fachadas, ladrillos, pavimentos y otros elementos domésticos se limpian selectivamente para dejar un entorno vegetal orgánico; originales y procedencias se conservan.
-
-## Publicación · renovación de recursos de escultura — 2026-09-18
-
-- Renovada la etiqueta de versión de la aplicación, el catálogo y los recursos de imagen para que la página pública cargue las vistas secundarias actualizadas y no reutilice fotografías almacenadas en caché de la versión anterior.
+- La portada queda deliberadamente reducida a un único retrato horizontal de Enric Segarra con una escultura de madera, a gran formato y sin textos ni carrusel.
+- Se ha preparado una versión de portada apaisada con una depuración localizada del borde de la figura, preservando la persona, la obra, su forma orgánica, la veta, el color y la luz del original.
 
 ## Arte infantil · mosaico editorial — 2026-09-18
 
