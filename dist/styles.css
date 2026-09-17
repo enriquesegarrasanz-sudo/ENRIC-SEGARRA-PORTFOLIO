@@ -511,14 +511,22 @@ main {
 .sculpture-families h2 { margin-top: 8px; }
 .sculpture-families-note { max-width: 310px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
 .family-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px 20px; }
-.family-card { display: grid; grid-template-columns: 104px 1fr; gap: 16px; align-items: stretch; min-width: 0; border-top: 1px solid var(--line); padding-top: 13px; }
+.family-card { display: grid; grid-template-rows: auto 1fr; gap: 17px; align-items: stretch; min-width: 0; border-top: 1px solid var(--line); padding-top: 13px; }
 .family-card:hover .family-image img, .family-card.active .family-image img { transform: scale(1.035); }
-.family-image { height: 86px; overflow: hidden; background: #f3f2ee; }
-.family-image img { width: 100%; height: 100%; object-fit: contain; transition: transform 350ms ease; }
+.family-image { height: clamp(190px, 17vw, 260px); overflow: hidden; background: #f3f2ee; }
+.family-slideshow { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.family-slide { position: absolute; inset: 0; display: block; opacity: 0; transition: opacity 650ms ease; }
+.family-slide.is-visible { opacity: 1; }
+.family-slide img { width: 100%; height: 100%; object-fit: contain; transition: transform 900ms ease; }
+.family-card:hover .family-slide.is-visible img, .family-card:focus-visible .family-slide.is-visible img { transform: scale(1.035); }
 .family-copy { display: flex; flex-direction: column; min-width: 0; }
 .family-copy h3 { margin: 8px 0 12px; font-size: 17px; line-height: 1.12; }
 .family-link { margin-top: auto; color: var(--muted); font-size: 10px; }
 .family-card.active .family-link, .family-card:hover .family-link { color: #111; }
+@media (prefers-reduced-motion: reduce) {
+  .family-slide { transition: none; }
+  .family-slide img { transition: none; }
+}
 @media (max-width: 900px) {
   .family-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
@@ -527,6 +535,7 @@ main {
   .sculpture-families .section-head { display: block; }
   .sculpture-families-note { margin-top: 14px; }
   .family-grid { grid-template-columns: 1fr; gap: 22px; }
+  .family-image { height: min(72vw, 330px); }
 }
 .catalogue-tools {
   display: flex;
@@ -3227,12 +3236,54 @@ main {
 
 /* Portada en pausa: un único retrato, sin elementos editoriales alrededor. */
 .portrait-cover {
+  position: relative;
   display: block;
   padding: 0 0 clamp(44px, 6vw, 88px);
+  overflow: hidden;
 }
 .portrait-cover img {
   width: 100%;
   height: auto;
+  display: block;
+}
+.portrait-cover-copy {
+  position: absolute;
+  left: clamp(28px, 5vw, 82px);
+  top: 50%;
+  transform: translateY(-50%);
+  color: #171816;
+  max-width: 360px;
+}
+.portrait-cover-copy .eyebrow {
+  margin-bottom: 22px;
+  color: #4f6871;
+}
+.portrait-cover-copy h1 {
+  margin: 0;
+  font-size: clamp(42px, 5.5vw, 86px);
+  line-height: .86;
+  letter-spacing: -.08em;
+}
+.portrait-cover-copy > p:not(.eyebrow) {
+  margin: 27px 0 0;
+  max-width: 235px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.portrait-cover-link {
+  display: inline-block;
+  margin-top: 24px;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 6px;
+  font-size: 12px;
+}
+@media (max-width: 760px) {
+  .portrait-cover-copy {
+    left: 23px;
+    top: 43%;
+  }
+  .portrait-cover-copy h1 { font-size: clamp(42px, 14vw, 72px); }
+  .portrait-cover-copy > p:not(.eyebrow) { font-size: 14px; }
 }
 @media (max-width: 760px) {
   .portrait-cover {
