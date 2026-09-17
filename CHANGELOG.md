@@ -11,7 +11,7 @@
 
 ## Tratamiento fotográfico de móviles — 2026-09-17
 
-- Primera tanda de tratamiento expositivo: seis imágenes principales normalizadas en lienzo 2:3, centrado óptico y fondo frío-neutro calibrado al blanco de referencia `#F5F6F7`. Las tres perspectivas de MOV-001 ya comparten también lienzo, escala y fondo. Iluminación de galería coherente, originales intactos y procedencia registrada.
+- Primera tanda completa de tratamiento expositivo: las 22 imágenes de MOV-001 a MOV-006 quedan normalizadas en lienzo 2:3, centrado óptico y fondo frío-neutro calibrado al blanco de referencia `#F5F6F7`. Vistas completas, giros y detalles comparten iluminación y presentación de galería; originales intactos y procedencia registrada.
 
 ## Ajuste posterior — 2026-09-17
 

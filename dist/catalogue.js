@@ -59,16 +59,16 @@ export const catalogue = [
         "contentKey": "da0bc654eba30b804b7ceb53b9a6eaa12ad2e72a2bcced5cc4cbb4860328c8dd"
       },
       {
-        "image": "arc-014608",
-        "thumb": "thumb-014608",
+        "image": "gallery-014608",
+        "thumb": "gallery-014608-thumb",
         "archiveId": "ARC-014608",
         "alt": "Una línea en suspensión. Fotografía 2",
         "sourceName": "DSC02392.ARW",
         "contentKey": "43b848b68d3277601f46d3788dec47265464563186456320c286a53d1754cea2"
       },
       {
-        "image": "arc-014613",
-        "thumb": "thumb-014613",
+        "image": "gallery-014613",
+        "thumb": "gallery-014613-thumb",
         "archiveId": "ARC-014613",
         "alt": "Una línea en suspensión. Fotografía 3",
         "sourceName": "DSC02397.ARW",
@@ -97,16 +97,16 @@ export const catalogue = [
         "contentKey": "ARC-014616"
       },
       {
-        "image": "arc-014619",
-        "thumb": "thumb-014619",
+        "image": "gallery-014619",
+        "thumb": "gallery-014619-thumb",
         "archiveId": "ARC-014619",
         "alt": "Rama oscura, acentos rojos. Fotografía 2",
         "sourceName": "DSC02403.ARW",
         "contentKey": "ARC-014619"
       },
       {
-        "image": "arc-014622",
-        "thumb": "thumb-014622",
+        "image": "gallery-014622",
+        "thumb": "gallery-014622-thumb",
         "archiveId": "ARC-014622",
         "alt": "Rama oscura, acentos rojos. Fotografía 3",
         "sourceName": "DSC02406.ARW",
@@ -135,16 +135,16 @@ export const catalogue = [
         "contentKey": "6de719eb68f5073418729dff2a12abc6accd59f41cc6ffc57ee5038cc0e2231a"
       },
       {
-        "image": "arc-014629",
-        "thumb": "thumb-014629",
+        "image": "gallery-014629",
+        "thumb": "gallery-014629-thumb",
         "archiveId": "ARC-014629",
         "alt": "Figuras sobre una barra roja. Fotografía 2",
         "sourceName": "DSC02413.ARW",
         "contentKey": "ARC-014629"
       },
       {
-        "image": "arc-014633",
-        "thumb": "thumb-014633",
+        "image": "gallery-014633",
+        "thumb": "gallery-014633-thumb",
         "archiveId": "ARC-014633",
         "alt": "Figuras sobre una barra roja. Fotografía 3",
         "sourceName": "DSC02417.ARW",
@@ -173,32 +173,32 @@ export const catalogue = [
         "contentKey": "683191162b5b3412fd14b747deb420a7eef110cacef333757f2d1f5deadbae3f"
       },
       {
-        "image": "arc-014639",
-        "thumb": "thumb-014639",
+        "image": "gallery-014639",
+        "thumb": "gallery-014639-thumb",
         "archiveId": "ARC-014639",
         "alt": "Forma suspendida en verde. Fotografía 2",
         "sourceName": "DSC02423.ARW",
         "contentKey": "ARC-014639"
       },
       {
-        "image": "arc-014650",
-        "thumb": "thumb-014650",
+        "image": "gallery-014650",
+        "thumb": "gallery-014650-thumb",
         "archiveId": "ARC-014650",
         "alt": "Forma suspendida en verde. Fotografía 3",
         "sourceName": "DSC02434.ARW",
         "contentKey": "ARC-014650"
       },
       {
-        "image": "arc-014656",
-        "thumb": "thumb-014656",
+        "image": "gallery-014656",
+        "thumb": "gallery-014656-thumb",
         "archiveId": "ARC-014656",
         "alt": "Forma suspendida en verde. Fotografía 4",
         "sourceName": "DSC02440.ARW",
         "contentKey": "94ae903a7ee7cbad3ae0aa03abbaafc286029f18437031df4396016ff3c252a2"
       },
       {
-        "image": "arc-009174",
-        "thumb": "thumb-009174",
+        "image": "gallery-009174",
+        "thumb": "gallery-009174-thumb",
         "archiveId": "ARC-009174",
         "alt": "Forma suspendida en verde. Fotografía 5",
         "sourceName": "IMG_20180321_113546.jpg",
@@ -227,32 +227,32 @@ export const catalogue = [
         "contentKey": "91e82f94b4fe97800287d0d4974c8469db5227ca3db5c6e0b6af4c3c2aeecd09"
       },
       {
-        "image": "arc-014666",
-        "thumb": "thumb-014666",
+        "image": "gallery-014666",
+        "thumb": "gallery-014666-thumb",
         "archiveId": "ARC-014666",
         "alt": "Tubos rosas sobre un arco. Fotografía 2",
         "sourceName": "DSC02450.ARW",
         "contentKey": "ARC-014666"
       },
       {
-        "image": "arc-014673",
-        "thumb": "thumb-014673",
+        "image": "gallery-014673",
+        "thumb": "gallery-014673-thumb",
         "archiveId": "ARC-014673",
         "alt": "Tubos rosas sobre un arco. Fotografía 3",
         "sourceName": "DSC02457.ARW",
         "contentKey": "55c42b3521d592e970342f35684508d7986b01284bd7fcaa57f0d20a6864e6aa"
       },
       {
-        "image": "arc-009220",
-        "thumb": "thumb-009220",
+        "image": "gallery-009220",
+        "thumb": "gallery-009220-thumb",
         "archiveId": "ARC-009220",
         "alt": "Tubos rosas sobre un arco. Fotografía 4",
         "sourceName": "DSC03783.jpg",
         "contentKey": "b0757c36290e6b4bd4f23909e0d8dcd7aa020338c950cbe7c40a4cf0cd0bdbcb"
       },
       {
-        "image": "arc-009246",
-        "thumb": "thumb-009246",
+        "image": "gallery-009246",
+        "thumb": "gallery-009246-thumb",
         "archiveId": "ARC-009246",
         "alt": "Tubos rosas sobre un arco. Fotografía 5",
         "sourceName": "IMG_20150512_114051.jpg",

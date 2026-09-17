@@ -19228,5 +19228,229 @@
     "transformacion": "Miniatura proporcional del reencuadre centrado en la escultura verde; original y versiones anteriores conservados",
     "width": 420,
     "height": 560
+  },
+  {
+    "asset": "assets/gallery-014608.webp",
+    "archivo_id": "ARC-014608",
+    "original": "MÓBIILES\\DSC02392.ARW",
+    "transformacion": "Vista alternativa MOV-002 en lienzo 2:3 con fondo #F5F6F7, iluminación difusa, escala y centrado óptico coherentes; geometría, remaches, suspensión y pátina preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014608-thumb.webp",
+    "archivo_id": "ARC-014608",
+    "original": "MÓBIILES\\DSC02392.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014613.webp",
+    "archivo_id": "ARC-014613",
+    "original": "MÓBIILES\\DSC02397.ARW",
+    "transformacion": "Vista alternativa MOV-002 en lienzo 2:3 con fondo #F5F6F7, iluminación difusa, escala y centrado óptico coherentes; geometría, remaches, suspensión y pátina preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014613-thumb.webp",
+    "archivo_id": "ARC-014613",
+    "original": "MÓBIILES\\DSC02397.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014619.webp",
+    "archivo_id": "ARC-014619",
+    "original": "MÓBIILES\\DSC02403.ARW",
+    "transformacion": "Vista completa MOV-003 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; rama, tubos, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014619-thumb.webp",
+    "archivo_id": "ARC-014619",
+    "original": "MÓBIILES\\DSC02403.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014622.webp",
+    "archivo_id": "ARC-014622",
+    "original": "MÓBIILES\\DSC02406.ARW",
+    "transformacion": "Detalle MOV-003 conservado en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; recorte, tubos, textura y escala relativa preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014622-thumb.webp",
+    "archivo_id": "ARC-014622",
+    "original": "MÓBIILES\\DSC02406.ARW",
+    "transformacion": "Miniatura proporcional del detalle expositivo; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014629.webp",
+    "archivo_id": "ARC-014629",
+    "original": "MÓBIILES\\DSC02413.ARW",
+    "transformacion": "Vista alternativa MOV-004 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; figuras, barra, piezas metálicas y suspensión preservadas",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014629-thumb.webp",
+    "archivo_id": "ARC-014629",
+    "original": "MÓBIILES\\DSC02413.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014633.webp",
+    "archivo_id": "ARC-014633",
+    "original": "MÓBIILES\\DSC02417.ARW",
+    "transformacion": "Vista alternativa MOV-004 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; figuras, barra, piezas metálicas y suspensión preservadas",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014633-thumb.webp",
+    "archivo_id": "ARC-014633",
+    "original": "MÓBIILES\\DSC02417.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014639.webp",
+    "archivo_id": "ARC-014639",
+    "original": "MÓBIILES\\DSC02423.ARW",
+    "transformacion": "Detalle MOV-005 conservado en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; recorte, tubos, uniones y textura preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014639-thumb.webp",
+    "archivo_id": "ARC-014639",
+    "original": "MÓBIILES\\DSC02423.ARW",
+    "transformacion": "Miniatura proporcional del detalle expositivo; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014650.webp",
+    "archivo_id": "ARC-014650",
+    "original": "MÓBIILES\\DSC02434.ARW",
+    "transformacion": "Vista alternativa MOV-005 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; tubos, varillas, uniones, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014650-thumb.webp",
+    "archivo_id": "ARC-014650",
+    "original": "MÓBIILES\\DSC02434.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014656.webp",
+    "archivo_id": "ARC-014656",
+    "original": "MÓBIILES\\DSC02440.ARW",
+    "transformacion": "Vista alternativa MOV-005 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; tubos, varillas, uniones, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014656-thumb.webp",
+    "archivo_id": "ARC-014656",
+    "original": "MÓBIILES\\DSC02440.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-009174.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Vista de instalación MOV-005 aislada en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; ángulo, geometría visible, tubos, varillas y uniones preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-009174-thumb.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Miniatura proporcional de la vista expositiva aislada; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014666.webp",
+    "archivo_id": "ARC-014666",
+    "original": "MÓBIILES\\DSC02450.ARW",
+    "transformacion": "Detalle MOV-006 conservado en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; recorte, tubos corrugados, aberturas, cordones y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014666-thumb.webp",
+    "archivo_id": "ARC-014666",
+    "original": "MÓBIILES\\DSC02450.ARW",
+    "transformacion": "Miniatura proporcional del detalle expositivo; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014673.webp",
+    "archivo_id": "ARC-014673",
+    "original": "MÓBIILES\\DSC02457.ARW",
+    "transformacion": "Vista alternativa MOV-006 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; tubos, aberturas, cordones, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014673-thumb.webp",
+    "archivo_id": "ARC-014673",
+    "original": "MÓBIILES\\DSC02457.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-009220.webp",
+    "archivo_id": "ARC-009220",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03783.jpg",
+    "transformacion": "Vista frontal MOV-006 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; disposición, tubos, aberturas, cordones y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-009220-thumb.webp",
+    "archivo_id": "ARC-009220",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03783.jpg",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-009246.webp",
+    "archivo_id": "ARC-009246",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\IMG_20150512_114051.jpg",
+    "transformacion": "Vista de instalación MOV-006 aislada en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; ángulo, disposición visible, tubos y cordones preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-009246-thumb.webp",
+    "archivo_id": "ARC-009246",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\IMG_20150512_114051.jpg",
+    "transformacion": "Miniatura proporcional de la vista expositiva aislada; original intacto",
+    "width": 373,
+    "height": 560
   }
 ]
