@@ -2,6 +2,12 @@
 
 17 de septiembre de 2026.
 
+## Ajuste visual · 18 de septiembre de 2026
+
+- El índice de Arte infantil presenta sus cinco apartados mediante bloques con imágenes horizontales grandes, contadores y llamadas a explorar.
+- «Textos y propuestas» muestra una imagen de referencia por lectura antes de entrar al documento, reduciendo la dependencia del texto para orientarse.
+- Se mantienen IDs, galerías, autorías, referencias y enlaces existentes.
+
 ## Entregado
 
 - Índice de exposiciones rediseñado como recorrido horizontal: cada archivo presenta una vista amplia y completa de la sala, su tipo, lugar y fecha cuando constan, un breve contexto y el acceso a todas sus fotografías. Se mantienen filtros y búsqueda, con una composición de una columna en móvil.

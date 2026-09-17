@@ -322,6 +322,14 @@ main {
 .exhibition-list {
   border-top: 1px solid var(--line);
 }
+.exhibition-results.is-grid .exhibition-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px 22px; padding-top: 26px; }
+.exhibition-results.is-grid .exhibition-card > a { display: block; padding: 0 0 18px; }
+.exhibition-results.is-grid .exhibition-copy { padding-top: 15px; }
+.exhibition-results.is-grid .exhibition-copy h2 { font-size: clamp(21px, 1.7vw, 29px); }
+.exhibition-results.is-grid .exhibition-details { margin-top: 9px; }
+.exhibition-results.is-grid .exhibition-text { margin-top: 12px; font-size: 12px; line-height: 1.5; }
+.exhibition-results.is-grid .exhibition-link { margin-top: 16px; }
+.exhibition-results.is-grid .exhibition-arrow { display: none; }
 .exhibition-card > a {
   display: grid;
   grid-template-columns: minmax(0, 1.38fr) minmax(255px, 0.82fr) 28px;
@@ -342,9 +350,10 @@ main {
 .exhibition-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   transition: transform 0.7s ease;
 }
+.exhibition-results.is-grid .exhibition-image { aspect-ratio: 4 / 3; }
 .exhibition-card > a:hover .exhibition-image img,
 .exhibition-card > a:focus-visible .exhibition-image img {
   transform: scale(1.018);
@@ -1402,6 +1411,8 @@ body:has(dialog[open]) {
     gap: 24px;
     padding: 25px 0;
   }
+  .exhibition-results.is-grid .exhibition-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 16px; }
+  .exhibition-results.is-grid .exhibition-card > a { display: block; }
   .exhibition-image {
     aspect-ratio: 16 / 10;
   }
@@ -2558,6 +2569,30 @@ main {
   .welcome h1 {
     font-size: 43px;
   }
+}
+
+/* Presentación visual del índice de arte infantil. */
+.education-directory > a { grid-template-columns: minmax(290px, .8fr) 1.2fr; gap: clamp(24px, 5vw, 72px); align-items: stretch; }
+.education-directory-image { position: relative; min-height: 235px; overflow: hidden; background: #f1f0ec; }
+.education-directory-image img { width: 100%; height: 100%; min-height: 235px; object-fit: cover; display: block; }
+.education-directory-image .directory-count { position: absolute; left: 14px; bottom: 12px; margin: 0; padding: 6px 9px; color: #fff; background: rgba(0,0,0,.7); }
+.education-directory-copy { padding: 8px 38px 8px 0; }
+.education-directory-copy .reference { display: block; margin-bottom: 26px; }
+.education-directory-copy h2 { font-size: clamp(30px, 3.4vw, 48px); margin-bottom: 16px; }
+.education-directory-copy p { max-width: 560px; font-size: 15px; color: #555; }
+.directory-link, .reading-link { display: inline-block; margin-top: 28px; font-size: 12px; border-bottom: 1px solid currentColor; padding-bottom: 7px; }
+.reading-index > a { grid-template-columns: minmax(270px, .9fr) 1.5fr; gap: clamp(24px, 5vw, 72px); padding: 34px 0; }
+.reading-image { height: 230px; overflow: hidden; background: #f1f0ec; }
+.reading-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.reading-copy { padding: 8px 38px 8px 0; }
+.reading-index h2 { font-size: clamp(28px, 3.2vw, 44px); margin-top: 22px; }
+@media (max-width: 760px) {
+  .education-directory > a, .reading-index > a { grid-template-columns: 1fr; gap: 18px; }
+  .education-directory-image, .education-directory-image img { min-height: 190px; height: 190px; }
+  .education-directory-copy, .reading-copy { padding-right: 0; }
+  .education-directory-copy .reference { margin-bottom: 14px; }
+  .education-directory-copy h2, .reading-index h2 { font-size: 29px; }
+  .reading-image { height: 190px; }
 }
 /* Ajustes comprobados en la revisión móvil. */
 .education-opening {

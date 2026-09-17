@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Arte infantil · índice visual — 2026-09-18
+
+- Rediseñado el índice de Arte infantil con imágenes horizontales grandes para identificar de un vistazo obras, talleres, formación, exposiciones y textos.
+- Añadidos accesos visuales y contadores discretos a cada apartado, manteniendo los enlaces y la separación documental existente.
+- Las lecturas de «Textos y propuestas» incorporan su imagen de referencia y un acceso directo más claro al detalle.
+
 ## Exposiciones · recorrido horizontal — 2026-09-17
 
 - Rediseñado el índice de exposiciones como una secuencia horizontal de archivos: imagen de sala completa, tipo de muestra, lugar y fecha cuando están documentados, descripción y número de fotografías en cada ficha.

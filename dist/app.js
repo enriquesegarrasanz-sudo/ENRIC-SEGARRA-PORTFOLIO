@@ -291,7 +291,7 @@ function education(params) {
         const als = educationAlbums().filter((al) => al.section === item.id);
         return a(
           "/arte-infantil?seccion=" + item.id,
-          `<div>${img(covers[item.id], item.label)}</div><span class="reference">${num(i + 1)}</span><div><h2>${item.label}</h2><p>${esc(educationDescriptions[item.id])}</p><span class="directory-count">${item.id === "textos" ? readings.length + " lecturas" : als.length + " colecciones · " + als.reduce((n, al) => n + al.gallery.length, 0) + " fotografías"}</span></div>${arrow}`,
+          `<div class="education-directory-image">${img(covers[item.id], item.label)}<span class="directory-count">${item.id === "textos" ? readings.length + " lecturas" : als.length + " colecciones · " + als.reduce((n, al) => n + al.gallery.length, 0) + " fotografías"}</span></div><div class="education-directory-copy"><span class="reference">${num(i + 1)}</span><h2>${item.label}</h2><p>${esc(educationDescriptions[item.id])}</p><span class="directory-link">Explorar ${arrow}</span></div>`,
         );
       })
       .join(
@@ -301,7 +301,7 @@ function education(params) {
 }
 
 function readingIndex() {
-  return `<div class="reading-index">${readings.map((r, i) => a("/textos/" + r.id, `<span class="reference">${num(i + 1)} / ${esc(r.kind)}</span><div><h2>${esc(r.title)}</h2><p>${esc(r.authors)}</p></div>${arrow}`)).join("")}</div>`;
+  return `<div class="reading-index">${readings.map((r, i) => a("/textos/" + r.id, `<div class="reading-image">${img(r.image, r.title)}</div><div class="reading-copy"><span class="reference">${num(i + 1)} / ${esc(r.kind)}</span><h2>${esc(r.title)}</h2><p>${esc(r.authors)}</p><span class="reading-link">Leer la propuesta ${arrow}</span></div>`)).join("")}</div>`;
 }
 function readingPage(r) {
   return (
@@ -345,6 +345,7 @@ function chapterPage(c) {
 function exhibitions(params) {
   const f = params.get("tipo") || "todas",
     q = params.get("q") || "",
+    view = params.get("vista") === "ampliada" ? "ampliada" : "mosaico",
     all = albums.filter((al) => al.section === "exposiciones");
   const list = all.filter(
     (al) =>
@@ -369,7 +370,7 @@ function exhibitions(params) {
       "Exposiciones",
       "La obra en las salas y la memoria de los encuentros. Montajes, vistas del espacio y documentos, organizados por el contexto de cada exposición.",
     ) +
-    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t]) => a("/exposiciones?tipo=" + id, t + ` <sup>${all.filter((al) => id === "todas" || al.exhibitionKind === id).length}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? exhibitionList(list) : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada archivo. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
+    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t]) => a("/exposiciones?tipo=" + id, t + ` <sup>${all.filter((al) => id === "todas" || al.exhibitionKind === id).length}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"><div class="view-toggle" aria-label="Presentación"><button type="button" data-exhibition-view="mosaico" aria-pressed="${view === "mosaico"}">Mosaico</button><button type="button" data-exhibition-view="ampliada" aria-pressed="${view === "ampliada"}">Vista amplia</button></div></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? `<div class="exhibition-results ${view === "ampliada" ? "is-expanded" : "is-grid"}">${exhibitionList(list)}</div>` : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada archivo. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
   );
 }
 
@@ -717,6 +718,22 @@ function updateFilters(view) {
     (p.size ? "?" + p.toString() : "");
 }
 function attachPageEvents() {
+  document.querySelector("#exhibition-search")?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget), p = new URLSearchParams();
+    if (data.get("tipo") && data.get("tipo") !== "todas") p.set("tipo", data.get("tipo"));
+    if (data.get("q")) p.set("q", data.get("q"));
+    const current = new URLSearchParams(location.hash.split("?")[1] || "");
+    if (current.get("vista") === "ampliada") p.set("vista", "ampliada");
+    location.hash = "/exposiciones" + (p.size ? "?" + p.toString() : "");
+  });
+  document.querySelectorAll("[data-exhibition-view]").forEach((b) =>
+    b.addEventListener("click", () => {
+      const current = new URLSearchParams(location.hash.split("?")[1] || "");
+      current.set("vista", b.dataset.exhibitionView);
+      location.hash = "/exposiciones?" + current.toString();
+    }),
+  );
   document
     .querySelector("#catalogue-filters")
     ?.addEventListener("submit", (e) => {
