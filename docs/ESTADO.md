@@ -2,6 +2,12 @@
 
 17 de septiembre de 2026.
 
+## Ajuste visual · 18 de septiembre de 2026
+
+- El índice de Arte infantil presenta sus cinco apartados mediante bloques con imágenes horizontales grandes, contadores y llamadas a explorar.
+- «Textos y propuestas» muestra una imagen de referencia por lectura antes de entrar al documento, reduciendo la dependencia del texto para orientarse.
+- Se mantienen IDs, galerías, autorías, referencias y enlaces existentes.
+
 ## Entregado
 
 - La web adopta «SEGARRA Y GARIBO» como nombre artístico público en su portada, navegación, créditos, perfil y metadatos. Las referencias archivísticas con la denominación histórica se mantienen para preservar su procedencia.
