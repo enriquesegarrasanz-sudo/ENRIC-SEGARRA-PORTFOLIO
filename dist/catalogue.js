@@ -14285,6 +14285,25 @@ export const albums = [
     "source": "Fondos históricos de escultura; selección comparada visualmente."
   }
 ];
+
+// Las portadas de dibujo se muestran con una versión de catálogo trazable.
+// Las demás vistas documentales de cada ficha se conservan sin modificar.
+for (const work of catalogue) {
+  if (work.category !== "dibujo") continue;
+  const original = work.image;
+  const archiveId = original.match(/^arc-(\d+)$/)?.[1];
+  if (!archiveId) continue;
+  const image = `drawing-${archiveId}-catalogue`;
+  work.image = image;
+  work.thumb = `thumb-${image}`;
+  for (const view of work.gallery) {
+    if (view.image === original) {
+      view.image = image;
+      view.thumb = `thumb-${image}`;
+    }
+  }
+}
+
 export const redirects = {
   "moviles-009201": "moviles-014659",
   "escultura-007764": "escultura-014564"

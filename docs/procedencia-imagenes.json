@@ -19228,7 +19228,7 @@
     "transformacion": "Miniatura proporcional del reencuadre centrado en la escultura verde; original y versiones anteriores conservados",
     "width": 420,
     "height": 560
-  },
+  },
   {
     "asset": "assets/bellas-arc-012548.webp",
     "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL Sala de Exposicions de les Belles Arts\\P1010001.JPG",
@@ -20418,5 +20418,853 @@
     "width": 320,
     "height": 240,
     "transformation": "Orientación EXIF aplicada y reducción proporcional para miniatura; sin recorte ni retoque creativo."
+  },
+  {
+    "asset": "assets/drawing-015079-catalogue.webp",
+    "archivo_id": "ARC-015079",
+    "original": "Nueva carpeta (2)\\_DSC3582.ARW",
+    "transformacion": "Versión de catálogo asistida para reiluminación y limpieza del fondo: referencia calibrada a blanco frío-neutro #F5F6F7 y luz de galería; dibujo, firma, marco, textura y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015079-catalogue.webp",
+    "archivo_id": "ARC-015079",
+    "original": "Nueva carpeta (2)\\_DSC3582.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015080-catalogue.webp",
+    "archivo_id": "ARC-015080",
+    "original": "Nueva carpeta (2)\\_DSC3586.ARW",
+    "transformacion": "Versión de catálogo asistida para reiluminación y limpieza del fondo: referencia calibrada a blanco frío-neutro #F5F6F7 y luz de galería; dibujo, firma, marco, textura y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015080-catalogue.webp",
+    "archivo_id": "ARC-015080",
+    "original": "Nueva carpeta (2)\\_DSC3586.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015081-catalogue.webp",
+    "archivo_id": "ARC-015081",
+    "original": "Nueva carpeta (2)\\_DSC3587.ARW",
+    "transformacion": "Versión de catálogo asistida para reiluminación y limpieza del fondo: referencia calibrada a blanco frío-neutro #F5F6F7 y luz de galería; dibujo, firma, marco, textura y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015081-catalogue.webp",
+    "archivo_id": "ARC-015081",
+    "original": "Nueva carpeta (2)\\_DSC3587.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015082-catalogue.webp",
+    "archivo_id": "ARC-015082",
+    "original": "Nueva carpeta (2)\\_DSC3590.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015082-catalogue.webp",
+    "archivo_id": "ARC-015082",
+    "original": "Nueva carpeta (2)\\_DSC3590.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015083-catalogue.webp",
+    "archivo_id": "ARC-015083",
+    "original": "Nueva carpeta (2)\\_DSC3591.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015083-catalogue.webp",
+    "archivo_id": "ARC-015083",
+    "original": "Nueva carpeta (2)\\_DSC3591.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015084-catalogue.webp",
+    "archivo_id": "ARC-015084",
+    "original": "Nueva carpeta (2)\\_DSC3592.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015084-catalogue.webp",
+    "archivo_id": "ARC-015084",
+    "original": "Nueva carpeta (2)\\_DSC3592.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015085-catalogue.webp",
+    "archivo_id": "ARC-015085",
+    "original": "Nueva carpeta (2)\\_DSC3594.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015085-catalogue.webp",
+    "archivo_id": "ARC-015085",
+    "original": "Nueva carpeta (2)\\_DSC3594.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015086-catalogue.webp",
+    "archivo_id": "ARC-015086",
+    "original": "Nueva carpeta (2)\\_DSC3596.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015086-catalogue.webp",
+    "archivo_id": "ARC-015086",
+    "original": "Nueva carpeta (2)\\_DSC3596.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015087-catalogue.webp",
+    "archivo_id": "ARC-015087",
+    "original": "Nueva carpeta (2)\\_DSC3597.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015087-catalogue.webp",
+    "archivo_id": "ARC-015087",
+    "original": "Nueva carpeta (2)\\_DSC3597.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015088-catalogue.webp",
+    "archivo_id": "ARC-015088",
+    "original": "Nueva carpeta (2)\\_DSC3602.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015088-catalogue.webp",
+    "archivo_id": "ARC-015088",
+    "original": "Nueva carpeta (2)\\_DSC3602.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015089-catalogue.webp",
+    "archivo_id": "ARC-015089",
+    "original": "Nueva carpeta (2)\\_DSC3603.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015089-catalogue.webp",
+    "archivo_id": "ARC-015089",
+    "original": "Nueva carpeta (2)\\_DSC3603.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015090-catalogue.webp",
+    "archivo_id": "ARC-015090",
+    "original": "Nueva carpeta (2)\\_DSC3604.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015090-catalogue.webp",
+    "archivo_id": "ARC-015090",
+    "original": "Nueva carpeta (2)\\_DSC3604.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015091-catalogue.webp",
+    "archivo_id": "ARC-015091",
+    "original": "Nueva carpeta (2)\\_DSC3605.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015091-catalogue.webp",
+    "archivo_id": "ARC-015091",
+    "original": "Nueva carpeta (2)\\_DSC3605.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015092-catalogue.webp",
+    "archivo_id": "ARC-015092",
+    "original": "Nueva carpeta (2)\\_DSC3606.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015092-catalogue.webp",
+    "archivo_id": "ARC-015092",
+    "original": "Nueva carpeta (2)\\_DSC3606.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015093-catalogue.webp",
+    "archivo_id": "ARC-015093",
+    "original": "Nueva carpeta (2)\\_DSC3607.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015093-catalogue.webp",
+    "archivo_id": "ARC-015093",
+    "original": "Nueva carpeta (2)\\_DSC3607.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015094-catalogue.webp",
+    "archivo_id": "ARC-015094",
+    "original": "Nueva carpeta (2)\\_DSC3608.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015094-catalogue.webp",
+    "archivo_id": "ARC-015094",
+    "original": "Nueva carpeta (2)\\_DSC3608.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015095-catalogue.webp",
+    "archivo_id": "ARC-015095",
+    "original": "Nueva carpeta (2)\\_DSC3611.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015095-catalogue.webp",
+    "archivo_id": "ARC-015095",
+    "original": "Nueva carpeta (2)\\_DSC3611.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015096-catalogue.webp",
+    "archivo_id": "ARC-015096",
+    "original": "Nueva carpeta (2)\\_DSC3618.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015096-catalogue.webp",
+    "archivo_id": "ARC-015096",
+    "original": "Nueva carpeta (2)\\_DSC3618.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015098-catalogue.webp",
+    "archivo_id": "ARC-015098",
+    "original": "Nueva carpeta (2)\\_DSC3621.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015098-catalogue.webp",
+    "archivo_id": "ARC-015098",
+    "original": "Nueva carpeta (2)\\_DSC3621.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015099-catalogue.webp",
+    "archivo_id": "ARC-015099",
+    "original": "Nueva carpeta (2)\\_DSC3623.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015099-catalogue.webp",
+    "archivo_id": "ARC-015099",
+    "original": "Nueva carpeta (2)\\_DSC3623.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015102-catalogue.webp",
+    "archivo_id": "ARC-015102",
+    "original": "Nueva carpeta (2)\\_DSC3628.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015102-catalogue.webp",
+    "archivo_id": "ARC-015102",
+    "original": "Nueva carpeta (2)\\_DSC3628.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015103-catalogue.webp",
+    "archivo_id": "ARC-015103",
+    "original": "Nueva carpeta (2)\\_DSC3631.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015103-catalogue.webp",
+    "archivo_id": "ARC-015103",
+    "original": "Nueva carpeta (2)\\_DSC3631.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015105-catalogue.webp",
+    "archivo_id": "ARC-015105",
+    "original": "Nueva carpeta (2)\\_DSC3646.ARW",
+    "transformacion": "Versión de catálogo asistida para reiluminación y limpieza del fondo: referencia calibrada a blanco frío-neutro #F5F6F7 y luz de galería; dibujo, firma, marco, textura y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015105-catalogue.webp",
+    "archivo_id": "ARC-015105",
+    "original": "Nueva carpeta (2)\\_DSC3646.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015172-catalogue.webp",
+    "archivo_id": "ARC-015172",
+    "original": "PINTURA\\_DSC3588.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015172-catalogue.webp",
+    "archivo_id": "ARC-015172",
+    "original": "PINTURA\\_DSC3588.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015173-catalogue.webp",
+    "archivo_id": "ARC-015173",
+    "original": "PINTURA\\_DSC3589.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015173-catalogue.webp",
+    "archivo_id": "ARC-015173",
+    "original": "PINTURA\\_DSC3589.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015176-catalogue.webp",
+    "archivo_id": "ARC-015176",
+    "original": "PINTURA\\_DSC3593.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015176-catalogue.webp",
+    "archivo_id": "ARC-015176",
+    "original": "PINTURA\\_DSC3593.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015178-catalogue.webp",
+    "archivo_id": "ARC-015178",
+    "original": "PINTURA\\_DSC3595.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015178-catalogue.webp",
+    "archivo_id": "ARC-015178",
+    "original": "PINTURA\\_DSC3595.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015181-catalogue.webp",
+    "archivo_id": "ARC-015181",
+    "original": "PINTURA\\_DSC3598.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015181-catalogue.webp",
+    "archivo_id": "ARC-015181",
+    "original": "PINTURA\\_DSC3598.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015182-catalogue.webp",
+    "archivo_id": "ARC-015182",
+    "original": "PINTURA\\_DSC3599.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015182-catalogue.webp",
+    "archivo_id": "ARC-015182",
+    "original": "PINTURA\\_DSC3599.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015183-catalogue.webp",
+    "archivo_id": "ARC-015183",
+    "original": "PINTURA\\_DSC3600.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015183-catalogue.webp",
+    "archivo_id": "ARC-015183",
+    "original": "PINTURA\\_DSC3600.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015185-catalogue.webp",
+    "archivo_id": "ARC-015185",
+    "original": "PINTURA\\_DSC3609.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015185-catalogue.webp",
+    "archivo_id": "ARC-015185",
+    "original": "PINTURA\\_DSC3609.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015186-catalogue.webp",
+    "archivo_id": "ARC-015186",
+    "original": "PINTURA\\_DSC3610.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015186-catalogue.webp",
+    "archivo_id": "ARC-015186",
+    "original": "PINTURA\\_DSC3610.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-015187-catalogue.webp",
+    "archivo_id": "ARC-015187",
+    "original": "PINTURA\\_DSC3613.ARW",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-015187-catalogue.webp",
+    "archivo_id": "ARC-015187",
+    "original": "PINTURA\\_DSC3613.ARW",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-008527-catalogue.webp",
+    "archivo_id": "ARC-008527",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P804300121.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-008527-catalogue.webp",
+    "archivo_id": "ARC-008527",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P804300121.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-008528-catalogue.webp",
+    "archivo_id": "ARC-008528",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PB0300051.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-008528-catalogue.webp",
+    "archivo_id": "ARC-008528",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PB0300051.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013422-catalogue.webp",
+    "archivo_id": "ARC-013422",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80340004.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013422-catalogue.webp",
+    "archivo_id": "ARC-013422",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80340004.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013423-catalogue.webp",
+    "archivo_id": "ARC-013423",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80340015.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013423-catalogue.webp",
+    "archivo_id": "ARC-013423",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80340015.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013426-catalogue.webp",
+    "archivo_id": "ARC-013426",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040002.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013426-catalogue.webp",
+    "archivo_id": "ARC-013426",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040002.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013427-catalogue.webp",
+    "archivo_id": "ARC-013427",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040003.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013427-catalogue.webp",
+    "archivo_id": "ARC-013427",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040003.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013430-catalogue.webp",
+    "archivo_id": "ARC-013430",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040004.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013430-catalogue.webp",
+    "archivo_id": "ARC-013430",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040004.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013431-catalogue.webp",
+    "archivo_id": "ARC-013431",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040006.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013431-catalogue.webp",
+    "archivo_id": "ARC-013431",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040006.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013434-catalogue.webp",
+    "archivo_id": "ARC-013434",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040012.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013434-catalogue.webp",
+    "archivo_id": "ARC-013434",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040012.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013435-catalogue.webp",
+    "archivo_id": "ARC-013435",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040013.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013435-catalogue.webp",
+    "archivo_id": "ARC-013435",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040013.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013436-catalogue.webp",
+    "archivo_id": "ARC-013436",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040014.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013436-catalogue.webp",
+    "archivo_id": "ARC-013436",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040014.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013439-catalogue.webp",
+    "archivo_id": "ARC-013439",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040018.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013439-catalogue.webp",
+    "archivo_id": "ARC-013439",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040018.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013440-catalogue.webp",
+    "archivo_id": "ARC-013440",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040020.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013440-catalogue.webp",
+    "archivo_id": "ARC-013440",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040020.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013441-catalogue.webp",
+    "archivo_id": "ARC-013441",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040021.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013441-catalogue.webp",
+    "archivo_id": "ARC-013441",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P8040021.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013443-catalogue.webp",
+    "archivo_id": "ARC-013443",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80400309.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013443-catalogue.webp",
+    "archivo_id": "ARC-013443",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80400309.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013447-catalogue.webp",
+    "archivo_id": "ARC-013447",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80403006.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013447-catalogue.webp",
+    "archivo_id": "ARC-013447",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80403006.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013448-catalogue.webp",
+    "archivo_id": "ARC-013448",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80403014.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013448-catalogue.webp",
+    "archivo_id": "ARC-013448",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80403014.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013449-catalogue.webp",
+    "archivo_id": "ARC-013449",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80403020.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013449-catalogue.webp",
+    "archivo_id": "ARC-013449",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\P80403020.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013452-catalogue.webp",
+    "archivo_id": "ARC-013452",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\PA260002.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013452-catalogue.webp",
+    "archivo_id": "ARC-013452",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\PA260002.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/drawing-013453-catalogue.webp",
+    "archivo_id": "ARC-013453",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\PA260003.JPG",
+    "transformacion": "Versión de catálogo no generativa: encuadre común 3:2, fondo de referencia calibrado a blanco frío-neutro #F5F6F7, balance de blancos y corrección tonal global; dibujo, firma, textura, desgaste y proporciones preservados; original intacto",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-drawing-013453-catalogue.webp",
+    "archivo_id": "ARC-013453",
+    "original": "ARTE INFATIL Y PASADO\\FOTOS SALA D´EXPOSICIONS\\dibuixos i pintures enric segarra\\PA260003.JPG",
+    "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
+    "width": 768,
+    "height": 512
   }
 ]
