@@ -13017,131 +13017,131 @@ export const albums = [
       "Las vistas de sala relacionan los dibujos de líneas y planos con la escultura de volúmenes abiertos y la pintura figurativa. La exposición permite leer juntas prácticas que el catálogo presenta por separado.",
       "La invitación conservada identifica el título «Evolución 1984–2004». Ese intervalo forma parte del título de la muestra; la exposición tuvo lugar en 2005."
     ],
-    "image": "arc-013392",
+    "image": "evolucion-013392-restored",
     "gallery": [
       {
-        "image": "arc-013392",
-        "thumb": "thumb-013392",
+        "image": "evolucion-013392-restored",
+        "thumb": "thumb-evolucion-013392-restored",
         "archiveId": "ARC-013392",
         "alt": "Evolución 1984–2004 · fotografía 1",
         "sourceName": "100_0071.jpg",
         "contentKey": "ARC-013392"
       },
       {
-        "image": "arc-013393",
-        "thumb": "thumb-013393",
+        "image": "evolucion-013393-restored",
+        "thumb": "thumb-evolucion-013393-restored",
         "archiveId": "ARC-013393",
         "alt": "Evolución 1984–2004 · fotografía 2",
         "sourceName": "100_0072.jpg",
         "contentKey": "ARC-013393"
       },
       {
-        "image": "arc-013394",
-        "thumb": "thumb-013394",
+        "image": "evolucion-013394-restored",
+        "thumb": "thumb-evolucion-013394-restored",
         "archiveId": "ARC-013394",
         "alt": "Evolución 1984–2004 · fotografía 3",
         "sourceName": "100_0073.jpg",
         "contentKey": "ARC-013394"
       },
       {
-        "image": "arc-013395",
-        "thumb": "thumb-013395",
+        "image": "evolucion-013395-restored",
+        "thumb": "thumb-evolucion-013395-restored",
         "archiveId": "ARC-013395",
         "alt": "Evolución 1984–2004 · fotografía 4",
         "sourceName": "100_0074.jpg",
         "contentKey": "ARC-013395"
       },
       {
-        "image": "arc-013396",
-        "thumb": "thumb-013396",
+        "image": "evolucion-013396-restored",
+        "thumb": "thumb-evolucion-013396-restored",
         "archiveId": "ARC-013396",
         "alt": "Evolución 1984–2004 · fotografía 5",
         "sourceName": "100_0075.jpg",
         "contentKey": "ARC-013396"
       },
       {
-        "image": "arc-013397",
-        "thumb": "thumb-013397",
+        "image": "evolucion-013397-restored",
+        "thumb": "thumb-evolucion-013397-restored",
         "archiveId": "ARC-013397",
         "alt": "Evolución 1984–2004 · fotografía 6",
         "sourceName": "100_0076.jpg",
         "contentKey": "ARC-013397"
       },
       {
-        "image": "arc-013399",
-        "thumb": "thumb-013399",
+        "image": "evolucion-013399-restored",
+        "thumb": "thumb-evolucion-013399-restored",
         "archiveId": "ARC-013399",
         "alt": "Evolución 1984–2004 · fotografía 7",
         "sourceName": "100_0079.jpg",
         "contentKey": "ARC-013399"
       },
       {
-        "image": "arc-013400",
-        "thumb": "thumb-013400",
+        "image": "evolucion-013400-restored",
+        "thumb": "thumb-evolucion-013400-restored",
         "archiveId": "ARC-013400",
         "alt": "Evolución 1984–2004 · fotografía 8",
         "sourceName": "100_0080.jpg",
         "contentKey": "ARC-013400"
       },
       {
-        "image": "arc-013401",
-        "thumb": "thumb-013401",
+        "image": "evolucion-013401-restored",
+        "thumb": "thumb-evolucion-013401-restored",
         "archiveId": "ARC-013401",
         "alt": "Evolución 1984–2004 · fotografía 9",
         "sourceName": "100_0081.jpg",
         "contentKey": "ARC-013401"
       },
       {
-        "image": "arc-013402",
-        "thumb": "thumb-013402",
+        "image": "evolucion-013402-restored",
+        "thumb": "thumb-evolucion-013402-restored",
         "archiveId": "ARC-013402",
         "alt": "Evolución 1984–2004 · fotografía 10",
         "sourceName": "100_0082.jpg",
         "contentKey": "ARC-013402"
       },
       {
-        "image": "arc-013403",
-        "thumb": "thumb-013403",
+        "image": "evolucion-013403-restored",
+        "thumb": "thumb-evolucion-013403-restored",
         "archiveId": "ARC-013403",
         "alt": "Evolución 1984–2004 · fotografía 11",
         "sourceName": "100_0083.jpg",
         "contentKey": "ARC-013403"
       },
       {
-        "image": "arc-013404",
-        "thumb": "thumb-013404",
+        "image": "evolucion-013404-restored",
+        "thumb": "thumb-evolucion-013404-restored",
         "archiveId": "ARC-013404",
         "alt": "Evolución 1984–2004 · fotografía 12",
         "sourceName": "100_0084.jpg",
         "contentKey": "ARC-013404"
       },
       {
-        "image": "arc-013405",
-        "thumb": "thumb-013405",
+        "image": "evolucion-013405-restored",
+        "thumb": "thumb-evolucion-013405-restored",
         "archiveId": "ARC-013405",
         "alt": "Evolución 1984–2004 · fotografía 13",
         "sourceName": "100_0085.jpg",
         "contentKey": "ARC-013405"
       },
       {
-        "image": "arc-013406",
-        "thumb": "thumb-013406",
+        "image": "evolucion-013406-restored",
+        "thumb": "thumb-evolucion-013406-restored",
         "archiveId": "ARC-013406",
         "alt": "Evolución 1984–2004 · fotografía 14",
         "sourceName": "100_0086.jpg",
         "contentKey": "ARC-013406"
       },
       {
-        "image": "arc-013419",
-        "thumb": "thumb-013419",
+        "image": "evolucion-013419-restored",
+        "thumb": "thumb-evolucion-013419-restored",
         "archiveId": "ARC-013419",
         "alt": "Evolución 1984–2004 · fotografía 15",
         "sourceName": "100_0087.jpg",
         "contentKey": "21b8857ab1b9f47bf5367bb08582d09dda239eae2a57b50982fd0f0763b38a5d"
       },
       {
-        "image": "arc-013413",
-        "thumb": "thumb-013413",
+        "image": "evolucion-013413-restored",
+        "thumb": "thumb-evolucion-013413-restored",
         "archiveId": "ARC-013413",
         "alt": "Evolución 1984–2004 · fotografía 16",
         "sourceName": "100_0093.jpg",

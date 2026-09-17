@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Restauración fotográfica de Evolución 1984–2004 — 2026-09-17
+
+- Las 16 vistas de sala reciben nuevas versiones no generativas con balance de blancos, rango tonal recuperado, ruido reducido, ampliación proporcional, enfoque moderado y grano fino. Se conservan encuadre, geometría, obras, originales y versiones web anteriores.
+
 ## Tratamiento fotográfico de móviles — 2026-09-17
 
 - Primera tanda de tratamiento expositivo: seis imágenes principales con fondo continuo blanco cálido, iluminación de galería coherente y originales intactos. Procedencia y transformaciones registradas.
