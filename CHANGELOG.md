@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Arte infantil · archivo completo por apartado — 2026-09-18
+
+- Obras infantiles, Talleres y Formación docente muestran ahora todas sus fotografías juntas, clasificadas por cada colección de origen.
+- Las imágenes se presentan en una cuadrícula más pequeña y horizontal para facilitar una lectura de conjunto; cada una mantiene el acceso para ampliarla.
+- Exposiciones conserva su organización por muestras, lugares y contextos documentales.
+
 ## Publicación · renovación de recursos de escultura — 2026-09-18
 
 - Renovada la etiqueta de versión de la aplicación, el catálogo y los recursos de imagen para que la página pública cargue las vistas secundarias actualizadas y no reutilice fotografías almacenadas en caché de la versión anterior.
