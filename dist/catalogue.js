@@ -6833,8 +6833,8 @@ export const albums = [
         "contentKey": "5fb5e1d6d372c37679a477a706c5e79496bf2107bd7db625de4b4d2e829328aa"
       },
       {
-        "image": "colomina-009174-professional",
-        "thumb": "thumb-colomina-009174-professional",
+        "image": "colomina-009174-focus-professional",
+        "thumb": "thumb-colomina-009174-focus-professional",
         "archiveId": "ARC-009174",
         "alt": "La escultura en la sala. Fotografía 4",
         "sourceName": "IMG_20180321_113546.jpg",

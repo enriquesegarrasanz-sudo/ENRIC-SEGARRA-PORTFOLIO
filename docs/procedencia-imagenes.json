@@ -19180,5 +19180,21 @@
     "transformacion": "Miniatura proporcional de la versión editorial profesional; original y versión web anterior conservados",
     "width": 560,
     "height": 373
+  },
+  {
+    "asset": "assets/colomina-009174-focus-professional.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Segundo reencuadre profesional asistido por generación: la escultura verde completa ocupa el plano principal sobre pared neutra y se eliminan del encuadre la vista profunda, el proyector, el suelo y las obras competidoras; geometría, uniones, tensores, color y textura de la pieza preservados; original y versión profesional anterior intactos",
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "asset": "assets/thumb-colomina-009174-focus-professional.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Miniatura proporcional del reencuadre centrado en la escultura verde; original y versiones anteriores conservados",
+    "width": 420,
+    "height": 560
   }
 ]

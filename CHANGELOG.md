@@ -3,6 +3,7 @@
 ## Palacio Colomina · edición fotográfica profesional — 2026-09-17
 
 - Sustituidas las siete vistas del álbum por versiones de presentación profesional con luz, color, perspectiva, nitidez y composición revisados. La vista frontal se reencuadró con criterio editorial y la escultura negra de alambre se corrigió para aparecer completa, sin extremos cortados. Originales y versiones web anteriores conservados; procedencia registrada.
+- La fotografía 4 se reencuadra de nuevo para aislar la escultura tubular verde, eliminar elementos competidores y convertirla en el único foco visual.
 
 ## Restauración fotográfica de Evolución 1984–2004 — 2026-09-17
 
