@@ -5,15 +5,14 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js";
-import { redirects } from "./catalogue.js";
+} from "./content.js?v=20260918-escultura-vistas";
+import { redirects } from "./catalogue.js?v=20260918-escultura-vistas";
 import {
   buildPhotoIndex,
   filterPhotos,
   archiveSections,
   normalize,
 } from "./archive.js";
-import { journeyEntries } from "./journey.js";
 import {
   educationSections,
   educationIntro,
@@ -36,7 +35,7 @@ const num = (n) => String(n).padStart(2, "0"),
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
 const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp`;
+  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-vistas`;
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
@@ -173,7 +172,7 @@ function workDetail(w) {
     .slice(0, 3);
   return (
     trail("/obra/" + w.category, catName(w.category), w.reference) +
-    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>Enric Segarra</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
+    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>SEGARRA Y GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
   );
 }
 function albumPage(al) {
@@ -233,7 +232,7 @@ function education(params) {
     return (
       intro +
       filters +
-      `<div class="result-line"><p>${shown.length} ${section === "obras" ? "colecciones" : "álbumes"}</p>${a("/imagenes?ambito=" + (section === "obras" ? "infantil" : section), "Ver las fotografías con filtros " + arrow)}</div>` +
+      `<div class="result-line"><p>${shown.length} álbumes</p>${a("/imagenes?ambito=exposiciones", "Ver las fotografías con filtros " + arrow)}</div>` +
       albumGrid(shown)
     );
   }
@@ -550,7 +549,7 @@ function artist() {
 function contact() {
   return (
     head("Información", "Contacto", site.contactText) +
-    `<div class="prose"><p>Este espacio reúne la obra y la memoria artística de Enric Segarra. El archivo sigue creciendo con la identificación de piezas, documentos y fotografías.</p></div><div class="end-link">${a("/obra", "Volver a la obra " + arrow)}</div>`
+    `<div class="prose"><p>Este espacio reúne la obra y la memoria artística de SEGARRA Y GARIBO. El archivo sigue creciendo con la identificación de piezas, documentos y fotografías.</p></div><div class="end-link">${a("/obra", "Volver a la obra " + arrow)}</div>`
   );
 }
 function notFound() {
@@ -615,10 +614,6 @@ function render({ keepScroll = false } = {}) {
     const al = visibleAlbums().find((al) => al.id === id);
     html = al ? albumPage(al) : notFound();
     title = al?.title;
-  } else if (section === "memoria") {
-    const c = chapters.find((c) => c.id === id);
-    html = id ? (c ? chapterPage(c) : notFound()) : memory(params);
-    title = c?.title || "Trayectoria";
   } else if (section === "exposiciones") {
     html = exhibitions(params);
     title = "Exposiciones";
@@ -655,7 +650,6 @@ function render({ keepScroll = false } = {}) {
   routeKey = raw;
   attachPageEvents();
   attachArchiveEvents();
-  attachJourneyEvents();
   observe();
 }
 function observe() {}

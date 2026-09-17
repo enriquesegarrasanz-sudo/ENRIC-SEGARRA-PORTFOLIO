@@ -26,23 +26,34 @@
 - Las obras verticales mantienen su proporción real en la cuadrícula, sin estrecharlas artificialmente. La luz se equilibra de manera global y no se ha retocado ni reconstruido ningún trazo de las obras.
 - Se conserva sin sobrescribir la versión ya corregida de DIB-023; los originales siguen intactos y las versiones derivadas mantienen su procedencia registrada.
 
-## Arte infantil · índice visual — 2026-09-18
+## Nombre artístico · Segarra y Garibo — 2026-09-18
 
-- Rediseñado el índice de Arte infantil con imágenes horizontales grandes para identificar de un vistazo obras, talleres, formación, exposiciones y textos.
-- Añadidos accesos visuales y contadores discretos a cada apartado, manteniendo los enlaces y la separación documental existente.
-- Las lecturas de «Textos y propuestas» incorporan su imagen de referencia y un acceso directo más claro al detalle.
+- La identidad pública de la web pasa a ser «Segarra y Garibo»: portada, navegación, créditos de obra, página de artista y metadatos para buscadores. Los nombres que identifican documentos, proyectos o fondos históricos se conservan tal como constan en el archivo.
+- La identidad pública se presenta en mayúsculas: «SEGARRA Y GARIBO».
 
-## Exposiciones · recorrido horizontal — 2026-09-17
+## Escultura · vistas secundarias, primera tanda — 2026-09-18
 
-- Rediseñado el índice de exposiciones como una secuencia horizontal de archivos: imagen de sala completa, tipo de muestra, lugar y fecha cuando están documentados, descripción y número de fotografías en cada ficha.
-- Retirado «Móviles · Palau de Pineda» del índice, del archivo visual y de la trayectoria. Su enlace anterior conduce de vuelta al apartado de exposiciones.
-- El nuevo formato responde también a filtros y búsquedas, y conserva una versión de una sola columna en pantallas pequeñas.
+- Tratamiento editorial aplicado a doce vistas secundarias de ESC-006, ESC-008 a ESC-012: fondo blanco cálido-neutro, iluminación y sombras coherentes, sin reemplazar ni modificar los originales. Cada nueva vista preserva el encuadre y las dimensiones de su fuente; se generan miniaturas proporcionales y se registra la procedencia.
 
-## Sala d’Exposicions de les Belles Arts — 2026-09-17
+## Escultura · Flores de engranajes — 2026-09-18
 
-- Reunidas en un único archivo de sala las antiguas páginas de la muestra colectiva, arte infantil y «Evolución 1984–2004». Los enlaces anteriores redirigen al nuevo recorrido.
-- Incorporadas 101 fotografías: 11 de arte infantil, 68 de la muestra colectiva y 22 de «Evolución 1984–2004». Las 16 vistas ya restauradas de esta última se conservan.
-- La galería separa visualmente los tres contextos y explicita sus atribuciones: obra de Enric, obras de participantes y contexto documental de otros artistas.
+- Renovadas las tres vistas secundarias de ESC-043 con un fondo blanco cálido-neutro, luz de estudio coherente y miniaturas proporcionales. Se conservan los tres encuadres, las dimensiones de cada fotografía, la pieza completa y los originales ARC; las nuevas versiones quedan registradas por separado.
+
+## Exposiciones y dibujos · recorrido unificado — 2026-09-17
+
+- Rediseñado el índice de exposiciones como recorrido horizontal y unificada la presentación de los dibujos. Se incorporan las imágenes de sala de Bellas Artes y sus miniaturas, conservando los contextos y enlaces documentales.
+
+## Escultura · tratamiento de galería — 2026-09-17
+
+- Renovadas las portadas de 49 fichas de escultura con fondo blanco neutro, iluminación museística, encuadre horizontal 3:2 y grano fotográfico fino. Las seis instalaciones fotografiadas en naturaleza (ESC-047 a ESC-052) conservan sus imágenes originales porque el entorno forma parte de la obra. Originales y referencias ARC intactos; procedencia registrada.
+
+## Revisión de fidelidad de Pintura — 2026-09-17
+
+- Rehechas las 80 imágenes principales y sus miniaturas desde las fotografías originales. Se corrigen manualmente once orientaciones evidentes y se elimina el recorte que podía confundir pintura clara, huecos o líneas finas con el fondo. La segunda versión conserva geometría, proporciones, marco, firma y píxeles originales; la IA se limita a un fondo maestro vacío y más limpio. Originales y primera versión de estudio permanecen intactos.
+
+## Fondos de estudio para Pintura — 2026-09-17
+
+- Las 80 fichas de pintura utilizan nuevas versiones sobre un fondo de estudio blanco cálido, coherente con la galería de escultura. El fondo maestro se generó con IA a partir de la referencia facilitada; obra, marco, color, textura, firma, encuadre y proporciones se conservan desde los archivos web anteriores, sin reinterpretación generativa. Se añaden miniaturas, recortes supervisados y una sombra ambiental mínima. Originales y versiones anteriores permanecen intactos y con procedencia registrada.
 
 ## Palacio Colomina · edición fotográfica profesional — 2026-09-17
 
@@ -55,7 +66,7 @@
 
 ## Tratamiento fotográfico de móviles — 2026-09-17
 
-- Primera tanda de tratamiento expositivo: seis imágenes principales normalizadas en lienzo 2:3, centrado óptico y fondo frío-neutro calibrado al blanco de referencia `#F5F6F7`. Las tres perspectivas de MOV-001 ya comparten también lienzo, escala y fondo. Iluminación de galería coherente, originales intactos y procedencia registrada.
+- Primera tanda completa de tratamiento expositivo: las 22 imágenes de MOV-001 a MOV-006 quedan normalizadas en lienzo 2:3, centrado óptico y fondo frío-neutro calibrado al blanco de referencia `#F5F6F7`. Vistas completas, giros y detalles comparten iluminación y presentación de galería; originales intactos y procedencia registrada.
 
 ## Ajuste posterior — 2026-09-17
 
@@ -65,8 +76,8 @@
 
 - 221 fichas (+39): incorporación de 12 móviles, nueve esculturas y 18 dibujos; más perspectivas en fichas existentes.
 - Naturaleza Móviles: revisión y acceso a sus 237 fotografías. Recuperación de dibujos del fondo Sala de Bellas Artes.
-- 34 álbumes (+7), con Evolución 1984–2004, Caixa Castelló, Quatre, Sant Jordi en Estivella y Dragonians Cinc en Casa del Libro.
-- Archivo visual general: 1.153 fotografías versionadas (+399), filtros combinados, búsqueda, visor y conservación de todos sus contextos. En local, 147 fotografías privadas adicionales; total de 1.300.
+- 31 álbumes: los contextos de la Sala d’Exposicions de les Belles Arts se reúnen sin perder sus atribuciones y se mantienen los accesos históricos.
+- Archivo visual general: 1.226 fotografías versionadas, filtros combinados, búsqueda, visor y conservación de todos sus contextos. En local, 147 fotografías privadas adicionales; total de 1.373.
 - Introducción y portada equilibradas; cabecera horizontal; directorio educativo con separación de exposiciones infantiles y formación de adultos.
 - Trayectoria rehecha siguiendo la disposición de Hockney: imagen fija y lista lateral, 16 entradas, búsqueda y cambio de imagen al avanzar; detalle de capítulos con navegación propia. Eliminadas las apariciones con desplazamiento.
 - Clasificación expositiva y búsqueda por lugar/año. Pruebas del modelo de imágenes y verificación de escritorio y móvil.

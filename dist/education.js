@@ -8,7 +8,7 @@ export const educationSections = [
   { id: "textos", label: "Ideas para crear" },
 ];
 export const educationIntro = [
-  "La educación artística ocupa un lugar propio en la trayectoria de Enric Segarra. Su experiencia como escultor se traslada al aula a través del volumen, la experimentación y el encuentro con materiales cotidianos. El trabajo empieza en las manos: tocar, juntar, modelar, pintar y descubrir lo que una forma puede llegar a ser.",
+  "La educación artística ocupa un lugar propio en la trayectoria de SEGARRA Y GARIBO. Su experiencia como escultor se traslada al aula a través del volumen, la experimentación y el encuentro con materiales cotidianos. El trabajo empieza en las manos: tocar, juntar, modelar, pintar y descubrir lo que una forma puede llegar a ser.",
   "Las obras de los niños y las niñas conservan sus soluciones, sus preguntas y su imaginación. El papel del adulto consiste en acompañar ese proceso, abrir posibilidades y preparar un entorno de trabajo. La colección reúne dibujos, relieves, ensamblajes, construcciones verticales y obras colectivas.",
   "El archivo guarda también la vida que rodea a las piezas: los talleres, la formación del profesorado y las exposiciones. Estos recorridos se presentan por separado para distinguir quién crea, qué sucede en el aula y cómo los trabajos llegan a un espacio compartido.",
 ];

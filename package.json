@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "private": true,
   "type": "module",
-  "description": "Portfolio y memoria artística de Enric Segarra",
+  "description": "Portfolio y memoria artística de SEGARRA Y GARIBO",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",

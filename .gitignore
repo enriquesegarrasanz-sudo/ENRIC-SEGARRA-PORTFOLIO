@@ -8,6 +8,7 @@ Thumbs.db
 *.log
 coverage/
 test-results/
+tmp/
 .local/
 *.ARW
 *.arw

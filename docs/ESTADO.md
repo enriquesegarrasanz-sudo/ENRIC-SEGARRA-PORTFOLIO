@@ -14,16 +14,21 @@
 
 ## Entregado
 
-- Índice de exposiciones rediseñado como recorrido horizontal: cada archivo presenta una vista amplia y completa de la sala, su tipo, lugar y fecha cuando constan, un breve contexto y el acceso a todas sus fotografías. Se mantienen filtros y búsqueda, con una composición de una columna en móvil.
-- Retirado «Móviles · Palau de Pineda» del índice público, del archivo visual y de la trayectoria. El enlace histórico redirige al apartado de exposiciones.
-- Unificado el archivo de la Sala d’Exposicions de les Belles Arts: 101 fotografías procedentes de arte infantil, una muestra colectiva y «Evolución 1984–2004». Los tres contextos se conservan dentro de la misma página con sus atribuciones diferenciadas; los antiguos enlaces llevan al nuevo archivo de sala.
+- La web adopta «SEGARRA Y GARIBO» como nombre artístico público en su portada, navegación, créditos, perfil y metadatos. Las referencias archivísticas con la denominación histórica se mantienen para preservar su procedencia.
+
+- En curso la normalización de vistas secundarias de Escultura. La primera tanda incorpora doce versiones de ESC-006, ESC-008, ESC-009, ESC-010, ESC-011 y ESC-012, conservando referencias ARC, proporciones y originales. Las fotografías en contexto de ESC-047 a ESC-052 permanecen documentales.
+- ESC-043 («Flores de engranajes») ya presenta sus cuatro vistas con el mismo fondo blanco cálido-neutro y una luz editorial coherente. Las tres vistas secundarias mantienen sus dimensiones y encuadres originales, se incorporan con nuevas referencias de activo y conservan intactas las fotografías ARC de partida.
+- Índice de exposiciones rediseñado como recorrido horizontal, con acceso a las vistas completas de sala, lugar y fecha cuando constan. La presentación de los dibujos se unifica y se incorporan los recursos de la Sala d’Exposicions de les Belles Arts, conservando sus contextos documentales.
+- Tratamiento de galería aplicado a 49 portadas de Escultura: fondo blanco neutro, luz difusa, formato 1536 × 1024, miniaturas 768 × 512 y grano fotográfico fino. Las instalaciones ESC-047 a ESC-052 mantienen las fotografías originales en naturaleza; no se altera ese contexto.
+- Revisadas de nuevo las 80 fichas de pintura, con 80 imágenes principales y 80 miniaturas de segunda versión. Once fotografías se orientan manualmente según rostros, animales, signos y firmas. El recorte se rehace con criterio conservador: no simplifica ni reconstruye contornos y conserva cualquier píxel dudoso de la fotografía original. Los soportes rectangulares y circulares se delimitan solo por su borde físico exterior; las piezas irregulares mantienen su silueta real. La IA se limita al fondo maestro vacío. Originales y primera versión quedan conservados.
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
-- Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
+- Tratamiento fotográfico expositivo aplicado a MOV-001 a MOV-013, con galerías ampliadas y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
+- Completada la presentación expositiva de MOV-014 a MOV-033. Además, MOV-016 a MOV-019 y MOV-022 a MOV-033 incorporan una segunda vista de naturaleza de acabado editorial: la ficha abre con la obra en presentación de galería y continúa con la instalación en árbol o jardín, sin elementos domésticos que distraigan de la pieza.
 - Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.
 - Portada con una introducción más clara al artista y tres recorridos equilibrados. Cabecera horizontal sobre blanco, menú móvil y fotografías completas.
 - 221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. Son 39 fichas más; se conservan las referencias anteriores y se reúnen las distintas perspectivas.
-- 31 álbumes: la Sala d’Exposicions de les Belles Arts reúne tres antiguas páginas sin perder sus contextos. Fondo Naturaleza Móviles completo en sus 237 fotografías revisadas.
+- 31 álbumes: la Sala d’Exposicions de les Belles Arts reúne contextos anteriores sin perder sus atribuciones. Fondo Naturaleza Móviles completo en sus 237 fotografías revisadas.
 - Archivo visual general con 1.226 registros versionados y 147 fotografías adicionales en la revisión privada local: 1.373 imágenes disponibles localmente. Filtros de ámbito, disciplina y colección, búsqueda, ampliación y enlaces a todos los contextos.
 - Arte infantil con un directorio visual de obras, talleres, formación docente, exposiciones y textos; cinco colecciones de obras, cuatro álbumes de talleres, tres de formación y ocho de exposiciones. Las exposiciones de participantes adultos se distinguen de las infantiles.
 - Exposiciones clasificadas entre obra propia, colectivas, arte infantil y formación docente, con búsqueda por nombre, lugar o fecha.
@@ -37,16 +42,16 @@ La revisión está explicada en [REVISION-0.4.0.md](REVISION-0.4.0.md). Se revis
 
 Los nombres de obras y las familias siguen siendo descripciones editoriales provisionales. Las fechas se publican cuando hay documentación, indicando si proceden del título de una carpeta. Continúan pendientes técnicas, medidas, títulos originales, algunas autorías y datos de contacto. La serie astrológica permanece en reserva. No se han modificado los originales.
 
-Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. No se ha desplegado la web en un alojamiento público.
+Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. La web se publica mediante GitHub Pages, exclusivamente desde `dist/`.
 
-La edición y mejora individual incluye una primera tanda de seis imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
+La edición y mejora individual incluye 49 portadas de Escultura, las 80 imágenes principales y 80 miniaturas revisadas de pintura, las 33 portadas expositivas de Móviles, 16 segundas vistas orgánicas de naturaleza de Móviles y las 16 vistas históricas de «Evolución 1984–2004». Las instalaciones de Escultura fotografiadas en naturaleza conservan su contexto original. El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 
 npm run check valida las fichas, agrupaciones, recursos, procedencias, autorías educativas y enlaces, además del archivo visual: copias exactas, páginas PDF distintas, filtros combinados en un mismo contexto y búsqueda sin tildes. Sintaxis comprobada.
 
-En navegador se verificaron la portada, trayectoria y búsqueda por año, acceso a exposición, filtros y carga progresiva de imágenes, visor con flechas y Escape, menú móvil y nueve recorridos a 320 píxeles sin desbordamiento. Se revisaron también escritorio y 390 píxeles.
+En navegador se verificaron la portada, acceso a exposición, filtros y carga progresiva de imágenes, visor con flechas y Escape, menú móvil y recorridos a 320 píxeles sin desbordamiento. Se revisaron también escritorio y 390 píxeles.
 
 ## Guardado
 
-Rama: archivo-completo-trayectoria-20260917. El estado anterior se conserva en 58432b4 y en los respaldos 0.3.0. Esta entrega se guarda en Git y en una copia privada complementaria dentro de COPIAS_SEGURIDAD_WEB. Los archivos de revisión, fotografías privadas y sus relaciones forman parte de esa copia local, no del repositorio público.
+Rama de corrección: fix/pintura-fidelidad, creada sobre la versión pública anterior. Conserva intactos los originales y la primera versión de estudio. Esta entrega se guarda en Git; los archivos de revisión y fotografías privadas continúan fuera del repositorio público.

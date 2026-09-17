@@ -2,7 +2,7 @@
 
 ## Alcance y voz
 
-Portfolio y memoria artística de Enric Segarra. Enrike es su hijo y promotor del proyecto. Usar el nombre público provisional Enric Segarra; no añadir apellidos ni credenciales sin confirmación.
+Portfolio y memoria artística de SEGARRA Y GARIBO. Enrike es su hijo y promotor del proyecto. Usar el nombre artístico público SEGARRA Y GARIBO; no añadir credenciales sin confirmación.
 
 El presente se centra en móviles y esculturas suspendidas. La trayectoria y memoria tienen protagonismo propio y deben crecer con amplitud. Conservar accesibles pintura, dibujo, escultura, educación, proyectos y gestión cultural.
 
