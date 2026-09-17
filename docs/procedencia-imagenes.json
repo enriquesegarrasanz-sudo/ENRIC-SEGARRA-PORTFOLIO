@@ -126,5 +126,5269 @@
     "transformacion": "Previa incrustada RAW o imagen fuente; orientación disponible, reducción y WebP; sin retoque creativo",
     "width": 1600,
     "height": 1067
+  },
+  {
+    "asset": "assets/arc-006741.webp",
+    "archivo_id": "ARC-006741",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-30 21.16.52.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 468,
+    "height": 644
+  },
+  {
+    "asset": "assets/thumb-006741.webp",
+    "archivo_id": "ARC-006741",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-30 21.16.52.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 407,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-006819.webp",
+    "archivo_id": "ARC-006819",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.49.26 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 480,
+    "height": 800
+  },
+  {
+    "asset": "assets/thumb-006819.webp",
+    "archivo_id": "ARC-006819",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.49.26 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-006829.webp",
+    "archivo_id": "ARC-006829",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.51.32 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 480,
+    "height": 800
+  },
+  {
+    "asset": "assets/thumb-006829.webp",
+    "archivo_id": "ARC-006829",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.51.32 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-006851.webp",
+    "archivo_id": "ARC-006851",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.58.57 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 800,
+    "height": 480
+  },
+  {
+    "asset": "assets/thumb-006851.webp",
+    "archivo_id": "ARC-006851",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.58.57 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 336
+  },
+  {
+    "asset": "assets/arc-006855.webp",
+    "archivo_id": "ARC-006855",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.59.50 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 800,
+    "height": 480
+  },
+  {
+    "asset": "assets/thumb-006855.webp",
+    "archivo_id": "ARC-006855",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 16.59.50 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 336
+  },
+  {
+    "asset": "assets/arc-006871.webp",
+    "archivo_id": "ARC-006871",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 17.09.21 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 778,
+    "height": 435
+  },
+  {
+    "asset": "assets/thumb-006871.webp",
+    "archivo_id": "ARC-006871",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 17.09.21 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 313
+  },
+  {
+    "asset": "assets/arc-006875.webp",
+    "archivo_id": "ARC-006875",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 17.09.50 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 778,
+    "height": 435
+  },
+  {
+    "asset": "assets/thumb-006875.webp",
+    "archivo_id": "ARC-006875",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 17.09.50 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 313
+  },
+  {
+    "asset": "assets/arc-006881.webp",
+    "archivo_id": "ARC-006881",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 17.12.04 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 322,
+    "height": 492
+  },
+  {
+    "asset": "assets/thumb-006881.webp",
+    "archivo_id": "ARC-006881",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-01-31 17.12.04 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 322,
+    "height": 492
+  },
+  {
+    "asset": "assets/arc-007013.webp",
+    "archivo_id": "ARC-007013",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-02-07 13.37.54 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 480,
+    "height": 800
+  },
+  {
+    "asset": "assets/thumb-007013.webp",
+    "archivo_id": "ARC-007013",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-02-07 13.37.54 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007025.webp",
+    "archivo_id": "ARC-007025",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-02-07 13.39.36.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 480,
+    "height": 800
+  },
+  {
+    "asset": "assets/thumb-007025.webp",
+    "archivo_id": "ARC-007025",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-02-07 13.39.36.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007045.webp",
+    "archivo_id": "ARC-007045",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-02-07 13.55.45 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 480,
+    "height": 800
+  },
+  {
+    "asset": "assets/thumb-007045.webp",
+    "archivo_id": "ARC-007045",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\2016-02-07 13.55.45 (1).jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007134.webp",
+    "archivo_id": "ARC-007134",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193038.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007134.webp",
+    "archivo_id": "ARC-007134",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193038.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007137.webp",
+    "archivo_id": "ARC-007137",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193228.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007137.webp",
+    "archivo_id": "ARC-007137",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193228.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007141.webp",
+    "archivo_id": "ARC-007141",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193339.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007141.webp",
+    "archivo_id": "ARC-007141",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193339.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007147.webp",
+    "archivo_id": "ARC-007147",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193648.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007147.webp",
+    "archivo_id": "ARC-007147",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193648.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007158.webp",
+    "archivo_id": "ARC-007158",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194010.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007158.webp",
+    "archivo_id": "ARC-007158",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194010.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007161.webp",
+    "archivo_id": "ARC-007161",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194049.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007161.webp",
+    "archivo_id": "ARC-007161",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194049.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007163.webp",
+    "archivo_id": "ARC-007163",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160602_142601.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007163.webp",
+    "archivo_id": "ARC-007163",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160602_142601.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007164.webp",
+    "archivo_id": "ARC-007164",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160602_142631.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 960,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007164.webp",
+    "archivo_id": "ARC-007164",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160602_142631.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 336,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007167.webp",
+    "archivo_id": "ARC-007167",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\IMG_20180609_142101.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-007167.webp",
+    "archivo_id": "ARC-007167",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\IMG_20180609_142101.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-007757.webp",
+    "archivo_id": "ARC-007757",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04018.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1433
+  },
+  {
+    "asset": "assets/thumb-007757.webp",
+    "archivo_id": "ARC-007757",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04018.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 502
+  },
+  {
+    "asset": "assets/arc-007764.webp",
+    "archivo_id": "ARC-007764",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04047.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-007764.webp",
+    "archivo_id": "ARC-007764",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04047.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-008492.webp",
+    "archivo_id": "ARC-008492",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\ENRIC SEGARRA\\SANT JORDI.tif",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1091,
+    "height": 1088
+  },
+  {
+    "asset": "assets/thumb-008492.webp",
+    "archivo_id": "ARC-008492",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\ENRIC SEGARRA\\SANT JORDI.tif",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 558
+  },
+  {
+    "asset": "assets/arc-008507.webp",
+    "archivo_id": "ARC-008507",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0071.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1060,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008507.webp",
+    "archivo_id": "ARC-008507",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0071.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 371,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008512.webp",
+    "archivo_id": "ARC-008512",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0076.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 789,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008512.webp",
+    "archivo_id": "ARC-008512",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0076.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 276,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008513.webp",
+    "archivo_id": "ARC-008513",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0081.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008513.webp",
+    "archivo_id": "ARC-008513",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0081.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008515.webp",
+    "archivo_id": "ARC-008515",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0083.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 813,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008515.webp",
+    "archivo_id": "ARC-008515",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0083.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 285,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008517.webp",
+    "archivo_id": "ARC-008517",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0085.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 988,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008517.webp",
+    "archivo_id": "ARC-008517",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0085.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 346,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008523.webp",
+    "archivo_id": "ARC-008523",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P1010005.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 924,
+    "height": 1182
+  },
+  {
+    "asset": "assets/thumb-008523.webp",
+    "archivo_id": "ARC-008523",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P1010005.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 438,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008525.webp",
+    "archivo_id": "ARC-008525",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P10100xa11A.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1302,
+    "height": 1590
+  },
+  {
+    "asset": "assets/thumb-008525.webp",
+    "archivo_id": "ARC-008525",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P10100xa11A.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 459,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008527.webp",
+    "archivo_id": "ARC-008527",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P804300121.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1109
+  },
+  {
+    "asset": "assets/thumb-008527.webp",
+    "archivo_id": "ARC-008527",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P804300121.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 388
+  },
+  {
+    "asset": "assets/arc-008528.webp",
+    "archivo_id": "ARC-008528",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PB0300051.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1578,
+    "height": 1112
+  },
+  {
+    "asset": "assets/thumb-008528.webp",
+    "archivo_id": "ARC-008528",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PB0300051.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 395
+  },
+  {
+    "asset": "assets/arc-008529.webp",
+    "archivo_id": "ARC-008529",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1036.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1100,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008529.webp",
+    "archivo_id": "ARC-008529",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1036.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 385,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008531.webp",
+    "archivo_id": "ARC-008531",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1038.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 853,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008531.webp",
+    "archivo_id": "ARC-008531",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1038.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 299,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008532.webp",
+    "archivo_id": "ARC-008532",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1039.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 991,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008532.webp",
+    "archivo_id": "ARC-008532",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1039.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 347,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008534.webp",
+    "archivo_id": "ARC-008534",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1041.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008534.webp",
+    "archivo_id": "ARC-008534",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1041.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008535.webp",
+    "archivo_id": "ARC-008535",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1042.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 918,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008535.webp",
+    "archivo_id": "ARC-008535",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1042.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 321,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008537.webp",
+    "archivo_id": "ARC-008537",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1044.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 930,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008537.webp",
+    "archivo_id": "ARC-008537",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1044.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 325,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008541.webp",
+    "archivo_id": "ARC-008541",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1048.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 717,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008541.webp",
+    "archivo_id": "ARC-008541",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1048.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 251,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008543.webp",
+    "archivo_id": "ARC-008543",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1050.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1319,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008543.webp",
+    "archivo_id": "ARC-008543",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1050.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 462,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008544.webp",
+    "archivo_id": "ARC-008544",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1051.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1302,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008544.webp",
+    "archivo_id": "ARC-008544",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1051.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 456,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008552.webp",
+    "archivo_id": "ARC-008552",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\TORSO1.TIF",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 456,
+    "height": 499
+  },
+  {
+    "asset": "assets/thumb-008552.webp",
+    "archivo_id": "ARC-008552",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\TORSO1.TIF",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 456,
+    "height": 499
+  },
+  {
+    "asset": "assets/arc-008731.webp",
+    "archivo_id": "ARC-008731",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094014.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 960
+  },
+  {
+    "asset": "assets/thumb-008731.webp",
+    "archivo_id": "ARC-008731",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094014.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 336
+  },
+  {
+    "asset": "assets/arc-008738.webp",
+    "archivo_id": "ARC-008738",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094301.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 960
+  },
+  {
+    "asset": "assets/thumb-008738.webp",
+    "archivo_id": "ARC-008738",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094301.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 336
+  },
+  {
+    "asset": "assets/arc-008768.webp",
+    "archivo_id": "ARC-008768",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2680.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008768.webp",
+    "archivo_id": "ARC-008768",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2680.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008777.webp",
+    "archivo_id": "ARC-008777",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2725.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1071
+  },
+  {
+    "asset": "assets/thumb-008777.webp",
+    "archivo_id": "ARC-008777",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2725.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 375
+  },
+  {
+    "asset": "assets/arc-008788.webp",
+    "archivo_id": "ARC-008788",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2852.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008788.webp",
+    "archivo_id": "ARC-008788",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2852.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008792.webp",
+    "archivo_id": "ARC-008792",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2872.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008792.webp",
+    "archivo_id": "ARC-008792",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2872.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008803.webp",
+    "archivo_id": "ARC-008803",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2907.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008803.webp",
+    "archivo_id": "ARC-008803",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2907.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008807.webp",
+    "archivo_id": "ARC-008807",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2927.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008807.webp",
+    "archivo_id": "ARC-008807",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2927.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008810.webp",
+    "archivo_id": "ARC-008810",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2942.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008810.webp",
+    "archivo_id": "ARC-008810",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2942.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008812.webp",
+    "archivo_id": "ARC-008812",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2952.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008812.webp",
+    "archivo_id": "ARC-008812",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2952.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008814.webp",
+    "archivo_id": "ARC-008814",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2965.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008814.webp",
+    "archivo_id": "ARC-008814",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2965.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008816.webp",
+    "archivo_id": "ARC-008816",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2981.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008816.webp",
+    "archivo_id": "ARC-008816",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2981.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008825.webp",
+    "archivo_id": "ARC-008825",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3017.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008825.webp",
+    "archivo_id": "ARC-008825",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3017.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008826.webp",
+    "archivo_id": "ARC-008826",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3029.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008826.webp",
+    "archivo_id": "ARC-008826",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3029.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008829.webp",
+    "archivo_id": "ARC-008829",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3049.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1071,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008829.webp",
+    "archivo_id": "ARC-008829",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3049.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 375,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008831.webp",
+    "archivo_id": "ARC-008831",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3137.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1071
+  },
+  {
+    "asset": "assets/thumb-008831.webp",
+    "archivo_id": "ARC-008831",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3137.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 375
+  },
+  {
+    "asset": "assets/arc-008907.webp",
+    "archivo_id": "ARC-008907",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04224.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008907.webp",
+    "archivo_id": "ARC-008907",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04224.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008909.webp",
+    "archivo_id": "ARC-008909",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04226.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008909.webp",
+    "archivo_id": "ARC-008909",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04226.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008914.webp",
+    "archivo_id": "ARC-008914",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04231.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-008914.webp",
+    "archivo_id": "ARC-008914",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04231.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-008924.webp",
+    "archivo_id": "ARC-008924",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04241.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-008924.webp",
+    "archivo_id": "ARC-008924",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04241.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-008934.webp",
+    "archivo_id": "ARC-008934",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04251.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-008934.webp",
+    "archivo_id": "ARC-008934",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04251.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-008941.webp",
+    "archivo_id": "ARC-008941",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180321_113841.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008941.webp",
+    "archivo_id": "ARC-008941",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180321_113841.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008943.webp",
+    "archivo_id": "ARC-008943",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180321_113852.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008943.webp",
+    "archivo_id": "ARC-008943",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180321_113852.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008949.webp",
+    "archivo_id": "ARC-008949",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120136.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008949.webp",
+    "archivo_id": "ARC-008949",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120136.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008952.webp",
+    "archivo_id": "ARC-008952",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120225.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008952.webp",
+    "archivo_id": "ARC-008952",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120225.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-008954.webp",
+    "archivo_id": "ARC-008954",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120243.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-008954.webp",
+    "archivo_id": "ARC-008954",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120243.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009031.webp",
+    "archivo_id": "ARC-009031",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P1010068.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-009031.webp",
+    "archivo_id": "ARC-009031",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P1010068.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-009068.webp",
+    "archivo_id": "ARC-009068",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P101010M7.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-009068.webp",
+    "archivo_id": "ARC-009068",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P101010M7.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-009070.webp",
+    "archivo_id": "ARC-009070",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P10101M01.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-009070.webp",
+    "archivo_id": "ARC-009070",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P10101M01.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-009072.webp",
+    "archivo_id": "ARC-009072",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P10101M10.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009072.webp",
+    "archivo_id": "ARC-009072",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO GALERÍA D´ART DE LES BELLES ARTS\\P10101M10.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009085.webp",
+    "archivo_id": "ARC-009085",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\_DX_6987.jpeg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-009085.webp",
+    "archivo_id": "ARC-009085",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\_DX_6987.jpeg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-009086.webp",
+    "archivo_id": "ARC-009086",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\_DX_6993.jpeg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-009086.webp",
+    "archivo_id": "ARC-009086",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\_DX_6993.jpeg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-009160.webp",
+    "archivo_id": "ARC-009160",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113148.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009160.webp",
+    "archivo_id": "ARC-009160",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113148.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009174.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009174.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009176.webp",
+    "archivo_id": "ARC-009176",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113617.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-009176.webp",
+    "archivo_id": "ARC-009176",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113617.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-009178.webp",
+    "archivo_id": "ARC-009178",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113740.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009178.webp",
+    "archivo_id": "ARC-009178",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113740.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009181.webp",
+    "archivo_id": "ARC-009181",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180411_085832.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009181.webp",
+    "archivo_id": "ARC-009181",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180411_085832.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009193.webp",
+    "archivo_id": "ARC-009193",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\1432023180352-001.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009193.webp",
+    "archivo_id": "ARC-009193",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\1432023180352-001.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009204.webp",
+    "archivo_id": "ARC-009204",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03779.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 490,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009204.webp",
+    "archivo_id": "ARC-009204",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03779.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 172,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009220.webp",
+    "archivo_id": "ARC-009220",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03783.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 561,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009220.webp",
+    "archivo_id": "ARC-009220",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03783.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 196,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009246.webp",
+    "archivo_id": "ARC-009246",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\IMG_20150512_114051.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 900,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-009246.webp",
+    "archivo_id": "ARC-009246",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\IMG_20150512_114051.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 315,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009947.webp",
+    "archivo_id": "ARC-009947",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1161,
+    "height": 834
+  },
+  {
+    "asset": "assets/thumb-009947.webp",
+    "archivo_id": "ARC-009947",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 402
+  },
+  {
+    "asset": "assets/arc-009951.webp",
+    "archivo_id": "ARC-009951",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC13.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1185,
+    "height": 872
+  },
+  {
+    "asset": "assets/thumb-009951.webp",
+    "archivo_id": "ARC-009951",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC13.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 412
+  },
+  {
+    "asset": "assets/arc-009957.webp",
+    "archivo_id": "ARC-009957",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC6.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 856,
+    "height": 1500
+  },
+  {
+    "asset": "assets/thumb-009957.webp",
+    "archivo_id": "ARC-009957",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC6.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 320,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-009962.webp",
+    "archivo_id": "ARC-009962",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC9.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1500,
+    "height": 856
+  },
+  {
+    "asset": "assets/thumb-009962.webp",
+    "archivo_id": "ARC-009962",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Proyecto agua\\EXPOSICIÓN SIGNO DE AGUA\\EXPOSICIÓ EL PELÈC9.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 320
+  },
+  {
+    "asset": "assets/arc-011828.webp",
+    "archivo_id": "ARC-011828",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04190.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 976,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-011828.webp",
+    "archivo_id": "ARC-011828",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04190.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 341,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-011832.webp",
+    "archivo_id": "ARC-011832",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04194.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 987,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-011832.webp",
+    "archivo_id": "ARC-011832",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04194.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 345,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-011834.webp",
+    "archivo_id": "ARC-011834",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04196.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1482,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-011834.webp",
+    "archivo_id": "ARC-011834",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04196.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 519,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-011838.webp",
+    "archivo_id": "ARC-011838",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04200.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-011838.webp",
+    "archivo_id": "ARC-011838",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04200.jpg",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-012174.webp",
+    "archivo_id": "ARC-012174",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010015.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-012174.webp",
+    "archivo_id": "ARC-012174",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010015.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-012176.webp",
+    "archivo_id": "ARC-012176",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010017.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012176.webp",
+    "archivo_id": "ARC-012176",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010017.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012177.webp",
+    "archivo_id": "ARC-012177",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010018.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012177.webp",
+    "archivo_id": "ARC-012177",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010018.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012179.webp",
+    "archivo_id": "ARC-012179",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010020.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012179.webp",
+    "archivo_id": "ARC-012179",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010020.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012180.webp",
+    "archivo_id": "ARC-012180",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010021.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012180.webp",
+    "archivo_id": "ARC-012180",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010021.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012181.webp",
+    "archivo_id": "ARC-012181",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010022.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012181.webp",
+    "archivo_id": "ARC-012181",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010022.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012182.webp",
+    "archivo_id": "ARC-012182",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010023.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012182.webp",
+    "archivo_id": "ARC-012182",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010023.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012183.webp",
+    "archivo_id": "ARC-012183",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010024.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012183.webp",
+    "archivo_id": "ARC-012183",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010024.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012184.webp",
+    "archivo_id": "ARC-012184",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010025.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012184.webp",
+    "archivo_id": "ARC-012184",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010025.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012507.webp",
+    "archivo_id": "ARC-012507",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010001.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012507.webp",
+    "archivo_id": "ARC-012507",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010001.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012508.webp",
+    "archivo_id": "ARC-012508",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010002.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012508.webp",
+    "archivo_id": "ARC-012508",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010002.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012509.webp",
+    "archivo_id": "ARC-012509",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010003.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012509.webp",
+    "archivo_id": "ARC-012509",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010003.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012511.webp",
+    "archivo_id": "ARC-012511",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010005.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012511.webp",
+    "archivo_id": "ARC-012511",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010005.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012512.webp",
+    "archivo_id": "ARC-012512",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010006.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012512.webp",
+    "archivo_id": "ARC-012512",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010006.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012514.webp",
+    "archivo_id": "ARC-012514",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010008.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012514.webp",
+    "archivo_id": "ARC-012514",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010008.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-012516.webp",
+    "archivo_id": "ARC-012516",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010010.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "asset": "assets/thumb-012516.webp",
+    "archivo_id": "ARC-012516",
+    "original": "ARTE INFATIL Y PASADO\\EXPOSICIÓN  ARTE INFANTIL 2005\\P1010010.JPG",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 420
+  },
+  {
+    "asset": "assets/arc-014490.webp",
+    "archivo_id": "ARC-014490",
+    "original": "ESCULTURA\\_DSC3636.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014490.webp",
+    "archivo_id": "ARC-014490",
+    "original": "ESCULTURA\\_DSC3636.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014492.webp",
+    "archivo_id": "ARC-014492",
+    "original": "ESCULTURA\\_DSC3638.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014492.webp",
+    "archivo_id": "ARC-014492",
+    "original": "ESCULTURA\\_DSC3638.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014494.webp",
+    "archivo_id": "ARC-014494",
+    "original": "ESCULTURA\\_DSC3640.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014494.webp",
+    "archivo_id": "ARC-014494",
+    "original": "ESCULTURA\\_DSC3640.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014496.webp",
+    "archivo_id": "ARC-014496",
+    "original": "ESCULTURA\\_DSC3642.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014496.webp",
+    "archivo_id": "ARC-014496",
+    "original": "ESCULTURA\\_DSC3642.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014502.webp",
+    "archivo_id": "ARC-014502",
+    "original": "ESCULTURA\\_DSC3655.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014502.webp",
+    "archivo_id": "ARC-014502",
+    "original": "ESCULTURA\\_DSC3655.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014507.webp",
+    "archivo_id": "ARC-014507",
+    "original": "ESCULTURA\\_DSC3660.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014507.webp",
+    "archivo_id": "ARC-014507",
+    "original": "ESCULTURA\\_DSC3660.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014509.webp",
+    "archivo_id": "ARC-014509",
+    "original": "ESCULTURA\\_DSC3664.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014509.webp",
+    "archivo_id": "ARC-014509",
+    "original": "ESCULTURA\\_DSC3664.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014512.webp",
+    "archivo_id": "ARC-014512",
+    "original": "ESCULTURA\\_DSC3667.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014512.webp",
+    "archivo_id": "ARC-014512",
+    "original": "ESCULTURA\\_DSC3667.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014514.webp",
+    "archivo_id": "ARC-014514",
+    "original": "ESCULTURA\\_DSC3669.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014514.webp",
+    "archivo_id": "ARC-014514",
+    "original": "ESCULTURA\\_DSC3669.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014516.webp",
+    "archivo_id": "ARC-014516",
+    "original": "ESCULTURA\\_DSC3671.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014516.webp",
+    "archivo_id": "ARC-014516",
+    "original": "ESCULTURA\\_DSC3671.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014519.webp",
+    "archivo_id": "ARC-014519",
+    "original": "ESCULTURA\\_DSC3674.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014519.webp",
+    "archivo_id": "ARC-014519",
+    "original": "ESCULTURA\\_DSC3674.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014522.webp",
+    "archivo_id": "ARC-014522",
+    "original": "ESCULTURA\\_DSC3677.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014522.webp",
+    "archivo_id": "ARC-014522",
+    "original": "ESCULTURA\\_DSC3677.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014523.webp",
+    "archivo_id": "ARC-014523",
+    "original": "ESCULTURA\\_DSC3678.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014523.webp",
+    "archivo_id": "ARC-014523",
+    "original": "ESCULTURA\\_DSC3678.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014525.webp",
+    "archivo_id": "ARC-014525",
+    "original": "ESCULTURA\\_DSC3680.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014525.webp",
+    "archivo_id": "ARC-014525",
+    "original": "ESCULTURA\\_DSC3680.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014527.webp",
+    "archivo_id": "ARC-014527",
+    "original": "ESCULTURA\\_DSC3682.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014527.webp",
+    "archivo_id": "ARC-014527",
+    "original": "ESCULTURA\\_DSC3682.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014528.webp",
+    "archivo_id": "ARC-014528",
+    "original": "ESCULTURA\\_DSC3683.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014528.webp",
+    "archivo_id": "ARC-014528",
+    "original": "ESCULTURA\\_DSC3683.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014530.webp",
+    "archivo_id": "ARC-014530",
+    "original": "ESCULTURA\\_DSC3685.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014530.webp",
+    "archivo_id": "ARC-014530",
+    "original": "ESCULTURA\\_DSC3685.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014532.webp",
+    "archivo_id": "ARC-014532",
+    "original": "ESCULTURA\\_DSC3687.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014532.webp",
+    "archivo_id": "ARC-014532",
+    "original": "ESCULTURA\\_DSC3687.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014533.webp",
+    "archivo_id": "ARC-014533",
+    "original": "ESCULTURA\\_DSC3688.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014533.webp",
+    "archivo_id": "ARC-014533",
+    "original": "ESCULTURA\\_DSC3688.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014536.webp",
+    "archivo_id": "ARC-014536",
+    "original": "ESCULTURA\\_DSC3691.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014536.webp",
+    "archivo_id": "ARC-014536",
+    "original": "ESCULTURA\\_DSC3691.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014539.webp",
+    "archivo_id": "ARC-014539",
+    "original": "ESCULTURA\\_DSC3695.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014539.webp",
+    "archivo_id": "ARC-014539",
+    "original": "ESCULTURA\\_DSC3695.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014540.webp",
+    "archivo_id": "ARC-014540",
+    "original": "ESCULTURA\\_DSC3696.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014540.webp",
+    "archivo_id": "ARC-014540",
+    "original": "ESCULTURA\\_DSC3696.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014543.webp",
+    "archivo_id": "ARC-014543",
+    "original": "ESCULTURA\\_DSC3699.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014543.webp",
+    "archivo_id": "ARC-014543",
+    "original": "ESCULTURA\\_DSC3699.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014546.webp",
+    "archivo_id": "ARC-014546",
+    "original": "ESCULTURA\\_DSC3702.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014546.webp",
+    "archivo_id": "ARC-014546",
+    "original": "ESCULTURA\\_DSC3702.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014547.webp",
+    "archivo_id": "ARC-014547",
+    "original": "ESCULTURA\\_DSC3703.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014547.webp",
+    "archivo_id": "ARC-014547",
+    "original": "ESCULTURA\\_DSC3703.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014549.webp",
+    "archivo_id": "ARC-014549",
+    "original": "ESCULTURA\\_DSC3705.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014549.webp",
+    "archivo_id": "ARC-014549",
+    "original": "ESCULTURA\\_DSC3705.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014551.webp",
+    "archivo_id": "ARC-014551",
+    "original": "ESCULTURA\\_DSC3707.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014551.webp",
+    "archivo_id": "ARC-014551",
+    "original": "ESCULTURA\\_DSC3707.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014552.webp",
+    "archivo_id": "ARC-014552",
+    "original": "ESCULTURA\\_DSC3708.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014552.webp",
+    "archivo_id": "ARC-014552",
+    "original": "ESCULTURA\\_DSC3708.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014555.webp",
+    "archivo_id": "ARC-014555",
+    "original": "ESCULTURA\\_DSC3711.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014555.webp",
+    "archivo_id": "ARC-014555",
+    "original": "ESCULTURA\\_DSC3711.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014558.webp",
+    "archivo_id": "ARC-014558",
+    "original": "ESCULTURA\\_DSC3714.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014558.webp",
+    "archivo_id": "ARC-014558",
+    "original": "ESCULTURA\\_DSC3714.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014560.webp",
+    "archivo_id": "ARC-014560",
+    "original": "ESCULTURA\\_DSC7867.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014560.webp",
+    "archivo_id": "ARC-014560",
+    "original": "ESCULTURA\\_DSC7867.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014562.webp",
+    "archivo_id": "ARC-014562",
+    "original": "ESCULTURA\\_DSC7870.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014562.webp",
+    "archivo_id": "ARC-014562",
+    "original": "ESCULTURA\\_DSC7870.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014564.webp",
+    "archivo_id": "ARC-014564",
+    "original": "ESCULTURA\\_DSC7872.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014564.webp",
+    "archivo_id": "ARC-014564",
+    "original": "ESCULTURA\\_DSC7872.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014565.webp",
+    "archivo_id": "ARC-014565",
+    "original": "ESCULTURA\\_DSC7873.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014565.webp",
+    "archivo_id": "ARC-014565",
+    "original": "ESCULTURA\\_DSC7873.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014566.webp",
+    "archivo_id": "ARC-014566",
+    "original": "ESCULTURA\\_DSC7874.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014566.webp",
+    "archivo_id": "ARC-014566",
+    "original": "ESCULTURA\\_DSC7874.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014568.webp",
+    "archivo_id": "ARC-014568",
+    "original": "ESCULTURA\\_DSC7877.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014568.webp",
+    "archivo_id": "ARC-014568",
+    "original": "ESCULTURA\\_DSC7877.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014570.webp",
+    "archivo_id": "ARC-014570",
+    "original": "ESCULTURA\\_DSC7880.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014570.webp",
+    "archivo_id": "ARC-014570",
+    "original": "ESCULTURA\\_DSC7880.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014571.webp",
+    "archivo_id": "ARC-014571",
+    "original": "ESCULTURA\\_DSC7881.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014571.webp",
+    "archivo_id": "ARC-014571",
+    "original": "ESCULTURA\\_DSC7881.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014572.webp",
+    "archivo_id": "ARC-014572",
+    "original": "ESCULTURA\\_DSC7882.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014572.webp",
+    "archivo_id": "ARC-014572",
+    "original": "ESCULTURA\\_DSC7882.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014573.webp",
+    "archivo_id": "ARC-014573",
+    "original": "ESCULTURA\\_DSC7883.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014573.webp",
+    "archivo_id": "ARC-014573",
+    "original": "ESCULTURA\\_DSC7883.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014574.webp",
+    "archivo_id": "ARC-014574",
+    "original": "ESCULTURA\\_DSC7884.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014574.webp",
+    "archivo_id": "ARC-014574",
+    "original": "ESCULTURA\\_DSC7884.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014575.webp",
+    "archivo_id": "ARC-014575",
+    "original": "ESCULTURA\\_DSC7886.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014575.webp",
+    "archivo_id": "ARC-014575",
+    "original": "ESCULTURA\\_DSC7886.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014576.webp",
+    "archivo_id": "ARC-014576",
+    "original": "ESCULTURA\\_DSC7887.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014576.webp",
+    "archivo_id": "ARC-014576",
+    "original": "ESCULTURA\\_DSC7887.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014577.webp",
+    "archivo_id": "ARC-014577",
+    "original": "ESCULTURA\\_DSC7888.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014577.webp",
+    "archivo_id": "ARC-014577",
+    "original": "ESCULTURA\\_DSC7888.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014578.webp",
+    "archivo_id": "ARC-014578",
+    "original": "ESCULTURA\\_DSC7889.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014578.webp",
+    "archivo_id": "ARC-014578",
+    "original": "ESCULTURA\\_DSC7889.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014581.webp",
+    "archivo_id": "ARC-014581",
+    "original": "ESCULTURA\\_DSC7892.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014581.webp",
+    "archivo_id": "ARC-014581",
+    "original": "ESCULTURA\\_DSC7892.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014590.webp",
+    "archivo_id": "ARC-014590",
+    "original": "MÓBIILES\\DSC02374.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014590.webp",
+    "archivo_id": "ARC-014590",
+    "original": "MÓBIILES\\DSC02374.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014596.webp",
+    "archivo_id": "ARC-014596",
+    "original": "MÓBIILES\\DSC02380.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014596.webp",
+    "archivo_id": "ARC-014596",
+    "original": "MÓBIILES\\DSC02380.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014600.webp",
+    "archivo_id": "ARC-014600",
+    "original": "MÓBIILES\\DSC02384.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014600.webp",
+    "archivo_id": "ARC-014600",
+    "original": "MÓBIILES\\DSC02384.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014605.webp",
+    "archivo_id": "ARC-014605",
+    "original": "MÓBIILES\\DSC02389.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014605.webp",
+    "archivo_id": "ARC-014605",
+    "original": "MÓBIILES\\DSC02389.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014608.webp",
+    "archivo_id": "ARC-014608",
+    "original": "MÓBIILES\\DSC02392.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014608.webp",
+    "archivo_id": "ARC-014608",
+    "original": "MÓBIILES\\DSC02392.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014613.webp",
+    "archivo_id": "ARC-014613",
+    "original": "MÓBIILES\\DSC02397.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014613.webp",
+    "archivo_id": "ARC-014613",
+    "original": "MÓBIILES\\DSC02397.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014616.webp",
+    "archivo_id": "ARC-014616",
+    "original": "MÓBIILES\\DSC02400.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014616.webp",
+    "archivo_id": "ARC-014616",
+    "original": "MÓBIILES\\DSC02400.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014619.webp",
+    "archivo_id": "ARC-014619",
+    "original": "MÓBIILES\\DSC02403.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014619.webp",
+    "archivo_id": "ARC-014619",
+    "original": "MÓBIILES\\DSC02403.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014622.webp",
+    "archivo_id": "ARC-014622",
+    "original": "MÓBIILES\\DSC02406.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014622.webp",
+    "archivo_id": "ARC-014622",
+    "original": "MÓBIILES\\DSC02406.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014625.webp",
+    "archivo_id": "ARC-014625",
+    "original": "MÓBIILES\\DSC02409.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014625.webp",
+    "archivo_id": "ARC-014625",
+    "original": "MÓBIILES\\DSC02409.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014629.webp",
+    "archivo_id": "ARC-014629",
+    "original": "MÓBIILES\\DSC02413.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014629.webp",
+    "archivo_id": "ARC-014629",
+    "original": "MÓBIILES\\DSC02413.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014633.webp",
+    "archivo_id": "ARC-014633",
+    "original": "MÓBIILES\\DSC02417.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014633.webp",
+    "archivo_id": "ARC-014633",
+    "original": "MÓBIILES\\DSC02417.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014639.webp",
+    "archivo_id": "ARC-014639",
+    "original": "MÓBIILES\\DSC02423.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014639.webp",
+    "archivo_id": "ARC-014639",
+    "original": "MÓBIILES\\DSC02423.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014646.webp",
+    "archivo_id": "ARC-014646",
+    "original": "MÓBIILES\\DSC02430.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014646.webp",
+    "archivo_id": "ARC-014646",
+    "original": "MÓBIILES\\DSC02430.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014650.webp",
+    "archivo_id": "ARC-014650",
+    "original": "MÓBIILES\\DSC02434.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014650.webp",
+    "archivo_id": "ARC-014650",
+    "original": "MÓBIILES\\DSC02434.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014656.webp",
+    "archivo_id": "ARC-014656",
+    "original": "MÓBIILES\\DSC02440.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014656.webp",
+    "archivo_id": "ARC-014656",
+    "original": "MÓBIILES\\DSC02440.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014666.webp",
+    "archivo_id": "ARC-014666",
+    "original": "MÓBIILES\\DSC02450.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014666.webp",
+    "archivo_id": "ARC-014666",
+    "original": "MÓBIILES\\DSC02450.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014673.webp",
+    "archivo_id": "ARC-014673",
+    "original": "MÓBIILES\\DSC02457.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014673.webp",
+    "archivo_id": "ARC-014673",
+    "original": "MÓBIILES\\DSC02457.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014680.webp",
+    "archivo_id": "ARC-014680",
+    "original": "MÓBIILES\\DSC02464.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014680.webp",
+    "archivo_id": "ARC-014680",
+    "original": "MÓBIILES\\DSC02464.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014685.webp",
+    "archivo_id": "ARC-014685",
+    "original": "MÓBIILES\\DSC02469.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014685.webp",
+    "archivo_id": "ARC-014685",
+    "original": "MÓBIILES\\DSC02469.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014689.webp",
+    "archivo_id": "ARC-014689",
+    "original": "MÓBIILES\\DSC02473.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014689.webp",
+    "archivo_id": "ARC-014689",
+    "original": "MÓBIILES\\DSC02473.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014696.webp",
+    "archivo_id": "ARC-014696",
+    "original": "MÓBIILES\\DSC02480.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014696.webp",
+    "archivo_id": "ARC-014696",
+    "original": "MÓBIILES\\DSC02480.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014701.webp",
+    "archivo_id": "ARC-014701",
+    "original": "MÓBIILES\\DSC02485.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014701.webp",
+    "archivo_id": "ARC-014701",
+    "original": "MÓBIILES\\DSC02485.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014707.webp",
+    "archivo_id": "ARC-014707",
+    "original": "MÓBIILES\\DSC02491.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014707.webp",
+    "archivo_id": "ARC-014707",
+    "original": "MÓBIILES\\DSC02491.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014712.webp",
+    "archivo_id": "ARC-014712",
+    "original": "MÓBIILES\\DSC02496.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014712.webp",
+    "archivo_id": "ARC-014712",
+    "original": "MÓBIILES\\DSC02496.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014715.webp",
+    "archivo_id": "ARC-014715",
+    "original": "MÓBIILES\\DSC02499.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014715.webp",
+    "archivo_id": "ARC-014715",
+    "original": "MÓBIILES\\DSC02499.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014718.webp",
+    "archivo_id": "ARC-014718",
+    "original": "MÓBIILES\\DSC02502.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014718.webp",
+    "archivo_id": "ARC-014718",
+    "original": "MÓBIILES\\DSC02502.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014722.webp",
+    "archivo_id": "ARC-014722",
+    "original": "MÓBIILES\\DSC02506.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014722.webp",
+    "archivo_id": "ARC-014722",
+    "original": "MÓBIILES\\DSC02506.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014725.webp",
+    "archivo_id": "ARC-014725",
+    "original": "MÓBIILES\\DSC02509.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014725.webp",
+    "archivo_id": "ARC-014725",
+    "original": "MÓBIILES\\DSC02509.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014728.webp",
+    "archivo_id": "ARC-014728",
+    "original": "MÓBIILES\\DSC02512.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014728.webp",
+    "archivo_id": "ARC-014728",
+    "original": "MÓBIILES\\DSC02512.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014734.webp",
+    "archivo_id": "ARC-014734",
+    "original": "MÓBIILES\\DSC02518.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014734.webp",
+    "archivo_id": "ARC-014734",
+    "original": "MÓBIILES\\DSC02518.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014740.webp",
+    "archivo_id": "ARC-014740",
+    "original": "MÓBIILES\\DSC02524.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014740.webp",
+    "archivo_id": "ARC-014740",
+    "original": "MÓBIILES\\DSC02524.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014746.webp",
+    "archivo_id": "ARC-014746",
+    "original": "MÓBIILES\\DSC02530.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014746.webp",
+    "archivo_id": "ARC-014746",
+    "original": "MÓBIILES\\DSC02530.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014750.webp",
+    "archivo_id": "ARC-014750",
+    "original": "MÓBIILES\\DSC02534.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014750.webp",
+    "archivo_id": "ARC-014750",
+    "original": "MÓBIILES\\DSC02534.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014755.webp",
+    "archivo_id": "ARC-014755",
+    "original": "MÓBIILES\\DSC02539.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014755.webp",
+    "archivo_id": "ARC-014755",
+    "original": "MÓBIILES\\DSC02539.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014761.webp",
+    "archivo_id": "ARC-014761",
+    "original": "MÓBIILES\\DSC02545.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014761.webp",
+    "archivo_id": "ARC-014761",
+    "original": "MÓBIILES\\DSC02545.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014765.webp",
+    "archivo_id": "ARC-014765",
+    "original": "MÓBIILES\\DSC02549.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014765.webp",
+    "archivo_id": "ARC-014765",
+    "original": "MÓBIILES\\DSC02549.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014768.webp",
+    "archivo_id": "ARC-014768",
+    "original": "MÓBIILES\\DSC02552.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014768.webp",
+    "archivo_id": "ARC-014768",
+    "original": "MÓBIILES\\DSC02552.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014771.webp",
+    "archivo_id": "ARC-014771",
+    "original": "MÓBIILES\\DSC02555.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014771.webp",
+    "archivo_id": "ARC-014771",
+    "original": "MÓBIILES\\DSC02555.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014774.webp",
+    "archivo_id": "ARC-014774",
+    "original": "MÓBIILES\\DSC02558.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014774.webp",
+    "archivo_id": "ARC-014774",
+    "original": "MÓBIILES\\DSC02558.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014783.webp",
+    "archivo_id": "ARC-014783",
+    "original": "MÓBIILES\\DSC02567.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014783.webp",
+    "archivo_id": "ARC-014783",
+    "original": "MÓBIILES\\DSC02567.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014793.webp",
+    "archivo_id": "ARC-014793",
+    "original": "MÓBIILES\\DSC02577.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014793.webp",
+    "archivo_id": "ARC-014793",
+    "original": "MÓBIILES\\DSC02577.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014801.webp",
+    "archivo_id": "ARC-014801",
+    "original": "MÓBIILES\\DSC02585.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014801.webp",
+    "archivo_id": "ARC-014801",
+    "original": "MÓBIILES\\DSC02585.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014812.webp",
+    "archivo_id": "ARC-014812",
+    "original": "MÓBIILES\\DSC02596.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014812.webp",
+    "archivo_id": "ARC-014812",
+    "original": "MÓBIILES\\DSC02596.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014819.webp",
+    "archivo_id": "ARC-014819",
+    "original": "MÓBIILES\\DSC02603.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014819.webp",
+    "archivo_id": "ARC-014819",
+    "original": "MÓBIILES\\DSC02603.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014821.webp",
+    "archivo_id": "ARC-014821",
+    "original": "MÓBIILES\\DSC02605.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014821.webp",
+    "archivo_id": "ARC-014821",
+    "original": "MÓBIILES\\DSC02605.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014825.webp",
+    "archivo_id": "ARC-014825",
+    "original": "MÓBIILES\\DSC02609.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014825.webp",
+    "archivo_id": "ARC-014825",
+    "original": "MÓBIILES\\DSC02609.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014831.webp",
+    "archivo_id": "ARC-014831",
+    "original": "MÓBIILES\\DSC02615.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014831.webp",
+    "archivo_id": "ARC-014831",
+    "original": "MÓBIILES\\DSC02615.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014837.webp",
+    "archivo_id": "ARC-014837",
+    "original": "MÓBIILES\\DSC02621.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014837.webp",
+    "archivo_id": "ARC-014837",
+    "original": "MÓBIILES\\DSC02621.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014847.webp",
+    "archivo_id": "ARC-014847",
+    "original": "NATURALEZA MOBILES\\DSC02291.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014847.webp",
+    "archivo_id": "ARC-014847",
+    "original": "NATURALEZA MOBILES\\DSC02291.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014851.webp",
+    "archivo_id": "ARC-014851",
+    "original": "NATURALEZA MOBILES\\DSC02295.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014851.webp",
+    "archivo_id": "ARC-014851",
+    "original": "NATURALEZA MOBILES\\DSC02295.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014856.webp",
+    "archivo_id": "ARC-014856",
+    "original": "NATURALEZA MOBILES\\DSC02300.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014856.webp",
+    "archivo_id": "ARC-014856",
+    "original": "NATURALEZA MOBILES\\DSC02300.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014863.webp",
+    "archivo_id": "ARC-014863",
+    "original": "NATURALEZA MOBILES\\DSC02307.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014863.webp",
+    "archivo_id": "ARC-014863",
+    "original": "NATURALEZA MOBILES\\DSC02307.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014869.webp",
+    "archivo_id": "ARC-014869",
+    "original": "NATURALEZA MOBILES\\DSC02313.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014869.webp",
+    "archivo_id": "ARC-014869",
+    "original": "NATURALEZA MOBILES\\DSC02313.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014872.webp",
+    "archivo_id": "ARC-014872",
+    "original": "NATURALEZA MOBILES\\DSC02316.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014872.webp",
+    "archivo_id": "ARC-014872",
+    "original": "NATURALEZA MOBILES\\DSC02316.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014873.webp",
+    "archivo_id": "ARC-014873",
+    "original": "NATURALEZA MOBILES\\DSC02317.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014873.webp",
+    "archivo_id": "ARC-014873",
+    "original": "NATURALEZA MOBILES\\DSC02317.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014876.webp",
+    "archivo_id": "ARC-014876",
+    "original": "NATURALEZA MOBILES\\DSC02320.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014876.webp",
+    "archivo_id": "ARC-014876",
+    "original": "NATURALEZA MOBILES\\DSC02320.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014880.webp",
+    "archivo_id": "ARC-014880",
+    "original": "NATURALEZA MOBILES\\DSC02324.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014880.webp",
+    "archivo_id": "ARC-014880",
+    "original": "NATURALEZA MOBILES\\DSC02324.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014883.webp",
+    "archivo_id": "ARC-014883",
+    "original": "NATURALEZA MOBILES\\DSC02327.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014883.webp",
+    "archivo_id": "ARC-014883",
+    "original": "NATURALEZA MOBILES\\DSC02327.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014886.webp",
+    "archivo_id": "ARC-014886",
+    "original": "NATURALEZA MOBILES\\DSC02330.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014886.webp",
+    "archivo_id": "ARC-014886",
+    "original": "NATURALEZA MOBILES\\DSC02330.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014890.webp",
+    "archivo_id": "ARC-014890",
+    "original": "NATURALEZA MOBILES\\DSC02334.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014890.webp",
+    "archivo_id": "ARC-014890",
+    "original": "NATURALEZA MOBILES\\DSC02334.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014894.webp",
+    "archivo_id": "ARC-014894",
+    "original": "NATURALEZA MOBILES\\DSC02338.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014894.webp",
+    "archivo_id": "ARC-014894",
+    "original": "NATURALEZA MOBILES\\DSC02338.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014901.webp",
+    "archivo_id": "ARC-014901",
+    "original": "NATURALEZA MOBILES\\DSC02345.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014901.webp",
+    "archivo_id": "ARC-014901",
+    "original": "NATURALEZA MOBILES\\DSC02345.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014909.webp",
+    "archivo_id": "ARC-014909",
+    "original": "NATURALEZA MOBILES\\DSC02353.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014909.webp",
+    "archivo_id": "ARC-014909",
+    "original": "NATURALEZA MOBILES\\DSC02353.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014910.webp",
+    "archivo_id": "ARC-014910",
+    "original": "NATURALEZA MOBILES\\DSC02358.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014910.webp",
+    "archivo_id": "ARC-014910",
+    "original": "NATURALEZA MOBILES\\DSC02358.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014915.webp",
+    "archivo_id": "ARC-014915",
+    "original": "NATURALEZA MOBILES\\DSC02363.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014915.webp",
+    "archivo_id": "ARC-014915",
+    "original": "NATURALEZA MOBILES\\DSC02363.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-014919.webp",
+    "archivo_id": "ARC-014919",
+    "original": "NATURALEZA MOBILES\\DSC02367.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014919.webp",
+    "archivo_id": "ARC-014919",
+    "original": "NATURALEZA MOBILES\\DSC02367.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014922.webp",
+    "archivo_id": "ARC-014922",
+    "original": "NATURALEZA MOBILES\\DSC02370.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-014922.webp",
+    "archivo_id": "ARC-014922",
+    "original": "NATURALEZA MOBILES\\DSC02370.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-014925.webp",
+    "archivo_id": "ARC-014925",
+    "original": "NATURALEZA MOBILES\\DSC02373.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-014925.webp",
+    "archivo_id": "ARC-014925",
+    "original": "NATURALEZA MOBILES\\DSC02373.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015079.webp",
+    "archivo_id": "ARC-015079",
+    "original": "Nueva carpeta (2)\\_DSC3582.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015079.webp",
+    "archivo_id": "ARC-015079",
+    "original": "Nueva carpeta (2)\\_DSC3582.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015080.webp",
+    "archivo_id": "ARC-015080",
+    "original": "Nueva carpeta (2)\\_DSC3586.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015080.webp",
+    "archivo_id": "ARC-015080",
+    "original": "Nueva carpeta (2)\\_DSC3586.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015081.webp",
+    "archivo_id": "ARC-015081",
+    "original": "Nueva carpeta (2)\\_DSC3587.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015081.webp",
+    "archivo_id": "ARC-015081",
+    "original": "Nueva carpeta (2)\\_DSC3587.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015082.webp",
+    "archivo_id": "ARC-015082",
+    "original": "Nueva carpeta (2)\\_DSC3590.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015082.webp",
+    "archivo_id": "ARC-015082",
+    "original": "Nueva carpeta (2)\\_DSC3590.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015083.webp",
+    "archivo_id": "ARC-015083",
+    "original": "Nueva carpeta (2)\\_DSC3591.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015083.webp",
+    "archivo_id": "ARC-015083",
+    "original": "Nueva carpeta (2)\\_DSC3591.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015084.webp",
+    "archivo_id": "ARC-015084",
+    "original": "Nueva carpeta (2)\\_DSC3592.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015084.webp",
+    "archivo_id": "ARC-015084",
+    "original": "Nueva carpeta (2)\\_DSC3592.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015085.webp",
+    "archivo_id": "ARC-015085",
+    "original": "Nueva carpeta (2)\\_DSC3594.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015085.webp",
+    "archivo_id": "ARC-015085",
+    "original": "Nueva carpeta (2)\\_DSC3594.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015086.webp",
+    "archivo_id": "ARC-015086",
+    "original": "Nueva carpeta (2)\\_DSC3596.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015086.webp",
+    "archivo_id": "ARC-015086",
+    "original": "Nueva carpeta (2)\\_DSC3596.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015087.webp",
+    "archivo_id": "ARC-015087",
+    "original": "Nueva carpeta (2)\\_DSC3597.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015087.webp",
+    "archivo_id": "ARC-015087",
+    "original": "Nueva carpeta (2)\\_DSC3597.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015088.webp",
+    "archivo_id": "ARC-015088",
+    "original": "Nueva carpeta (2)\\_DSC3602.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015088.webp",
+    "archivo_id": "ARC-015088",
+    "original": "Nueva carpeta (2)\\_DSC3602.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015089.webp",
+    "archivo_id": "ARC-015089",
+    "original": "Nueva carpeta (2)\\_DSC3603.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015089.webp",
+    "archivo_id": "ARC-015089",
+    "original": "Nueva carpeta (2)\\_DSC3603.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015090.webp",
+    "archivo_id": "ARC-015090",
+    "original": "Nueva carpeta (2)\\_DSC3604.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015090.webp",
+    "archivo_id": "ARC-015090",
+    "original": "Nueva carpeta (2)\\_DSC3604.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015091.webp",
+    "archivo_id": "ARC-015091",
+    "original": "Nueva carpeta (2)\\_DSC3605.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015091.webp",
+    "archivo_id": "ARC-015091",
+    "original": "Nueva carpeta (2)\\_DSC3605.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015092.webp",
+    "archivo_id": "ARC-015092",
+    "original": "Nueva carpeta (2)\\_DSC3606.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015092.webp",
+    "archivo_id": "ARC-015092",
+    "original": "Nueva carpeta (2)\\_DSC3606.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015093.webp",
+    "archivo_id": "ARC-015093",
+    "original": "Nueva carpeta (2)\\_DSC3607.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015093.webp",
+    "archivo_id": "ARC-015093",
+    "original": "Nueva carpeta (2)\\_DSC3607.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015094.webp",
+    "archivo_id": "ARC-015094",
+    "original": "Nueva carpeta (2)\\_DSC3608.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015094.webp",
+    "archivo_id": "ARC-015094",
+    "original": "Nueva carpeta (2)\\_DSC3608.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015095.webp",
+    "archivo_id": "ARC-015095",
+    "original": "Nueva carpeta (2)\\_DSC3611.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015095.webp",
+    "archivo_id": "ARC-015095",
+    "original": "Nueva carpeta (2)\\_DSC3611.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015096.webp",
+    "archivo_id": "ARC-015096",
+    "original": "Nueva carpeta (2)\\_DSC3618.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015096.webp",
+    "archivo_id": "ARC-015096",
+    "original": "Nueva carpeta (2)\\_DSC3618.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015098.webp",
+    "archivo_id": "ARC-015098",
+    "original": "Nueva carpeta (2)\\_DSC3621.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015098.webp",
+    "archivo_id": "ARC-015098",
+    "original": "Nueva carpeta (2)\\_DSC3621.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015099.webp",
+    "archivo_id": "ARC-015099",
+    "original": "Nueva carpeta (2)\\_DSC3623.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015099.webp",
+    "archivo_id": "ARC-015099",
+    "original": "Nueva carpeta (2)\\_DSC3623.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015102.webp",
+    "archivo_id": "ARC-015102",
+    "original": "Nueva carpeta (2)\\_DSC3628.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015102.webp",
+    "archivo_id": "ARC-015102",
+    "original": "Nueva carpeta (2)\\_DSC3628.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015103.webp",
+    "archivo_id": "ARC-015103",
+    "original": "Nueva carpeta (2)\\_DSC3631.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015103.webp",
+    "archivo_id": "ARC-015103",
+    "original": "Nueva carpeta (2)\\_DSC3631.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015105.webp",
+    "archivo_id": "ARC-015105",
+    "original": "Nueva carpeta (2)\\_DSC3646.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015105.webp",
+    "archivo_id": "ARC-015105",
+    "original": "Nueva carpeta (2)\\_DSC3646.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015106.webp",
+    "archivo_id": "ARC-015106",
+    "original": "PINTURA\\_DSC3514.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015106.webp",
+    "archivo_id": "ARC-015106",
+    "original": "PINTURA\\_DSC3514.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015107.webp",
+    "archivo_id": "ARC-015107",
+    "original": "PINTURA\\_DSC3515.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015107.webp",
+    "archivo_id": "ARC-015107",
+    "original": "PINTURA\\_DSC3515.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015108.webp",
+    "archivo_id": "ARC-015108",
+    "original": "PINTURA\\_DSC3516.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015108.webp",
+    "archivo_id": "ARC-015108",
+    "original": "PINTURA\\_DSC3516.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015109.webp",
+    "archivo_id": "ARC-015109",
+    "original": "PINTURA\\_DSC3517.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015109.webp",
+    "archivo_id": "ARC-015109",
+    "original": "PINTURA\\_DSC3517.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015110.webp",
+    "archivo_id": "ARC-015110",
+    "original": "PINTURA\\_DSC3519.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015110.webp",
+    "archivo_id": "ARC-015110",
+    "original": "PINTURA\\_DSC3519.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015111.webp",
+    "archivo_id": "ARC-015111",
+    "original": "PINTURA\\_DSC3520.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015111.webp",
+    "archivo_id": "ARC-015111",
+    "original": "PINTURA\\_DSC3520.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015112.webp",
+    "archivo_id": "ARC-015112",
+    "original": "PINTURA\\_DSC3521.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015112.webp",
+    "archivo_id": "ARC-015112",
+    "original": "PINTURA\\_DSC3521.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015113.webp",
+    "archivo_id": "ARC-015113",
+    "original": "PINTURA\\_DSC3523.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015113.webp",
+    "archivo_id": "ARC-015113",
+    "original": "PINTURA\\_DSC3523.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015114.webp",
+    "archivo_id": "ARC-015114",
+    "original": "PINTURA\\_DSC3525.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015114.webp",
+    "archivo_id": "ARC-015114",
+    "original": "PINTURA\\_DSC3525.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015115.webp",
+    "archivo_id": "ARC-015115",
+    "original": "PINTURA\\_DSC3528.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015115.webp",
+    "archivo_id": "ARC-015115",
+    "original": "PINTURA\\_DSC3528.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015118.webp",
+    "archivo_id": "ARC-015118",
+    "original": "PINTURA\\_DSC3531.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015118.webp",
+    "archivo_id": "ARC-015118",
+    "original": "PINTURA\\_DSC3531.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015119.webp",
+    "archivo_id": "ARC-015119",
+    "original": "PINTURA\\_DSC3532.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015119.webp",
+    "archivo_id": "ARC-015119",
+    "original": "PINTURA\\_DSC3532.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015120.webp",
+    "archivo_id": "ARC-015120",
+    "original": "PINTURA\\_DSC3534.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015120.webp",
+    "archivo_id": "ARC-015120",
+    "original": "PINTURA\\_DSC3534.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015122.webp",
+    "archivo_id": "ARC-015122",
+    "original": "PINTURA\\_DSC3536.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015122.webp",
+    "archivo_id": "ARC-015122",
+    "original": "PINTURA\\_DSC3536.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015123.webp",
+    "archivo_id": "ARC-015123",
+    "original": "PINTURA\\_DSC3537.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015123.webp",
+    "archivo_id": "ARC-015123",
+    "original": "PINTURA\\_DSC3537.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015124.webp",
+    "archivo_id": "ARC-015124",
+    "original": "PINTURA\\_DSC3538.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015124.webp",
+    "archivo_id": "ARC-015124",
+    "original": "PINTURA\\_DSC3538.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015125.webp",
+    "archivo_id": "ARC-015125",
+    "original": "PINTURA\\_DSC3539.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015125.webp",
+    "archivo_id": "ARC-015125",
+    "original": "PINTURA\\_DSC3539.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015126.webp",
+    "archivo_id": "ARC-015126",
+    "original": "PINTURA\\_DSC3540.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015126.webp",
+    "archivo_id": "ARC-015126",
+    "original": "PINTURA\\_DSC3540.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015127.webp",
+    "archivo_id": "ARC-015127",
+    "original": "PINTURA\\_DSC3541.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015127.webp",
+    "archivo_id": "ARC-015127",
+    "original": "PINTURA\\_DSC3541.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015128.webp",
+    "archivo_id": "ARC-015128",
+    "original": "PINTURA\\_DSC3542.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015128.webp",
+    "archivo_id": "ARC-015128",
+    "original": "PINTURA\\_DSC3542.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015129.webp",
+    "archivo_id": "ARC-015129",
+    "original": "PINTURA\\_DSC3543.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015129.webp",
+    "archivo_id": "ARC-015129",
+    "original": "PINTURA\\_DSC3543.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015130.webp",
+    "archivo_id": "ARC-015130",
+    "original": "PINTURA\\_DSC3544.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015130.webp",
+    "archivo_id": "ARC-015130",
+    "original": "PINTURA\\_DSC3544.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015131.webp",
+    "archivo_id": "ARC-015131",
+    "original": "PINTURA\\_DSC3545.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015131.webp",
+    "archivo_id": "ARC-015131",
+    "original": "PINTURA\\_DSC3545.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015132.webp",
+    "archivo_id": "ARC-015132",
+    "original": "PINTURA\\_DSC3546.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015132.webp",
+    "archivo_id": "ARC-015132",
+    "original": "PINTURA\\_DSC3546.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015133.webp",
+    "archivo_id": "ARC-015133",
+    "original": "PINTURA\\_DSC3547.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015133.webp",
+    "archivo_id": "ARC-015133",
+    "original": "PINTURA\\_DSC3547.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015134.webp",
+    "archivo_id": "ARC-015134",
+    "original": "PINTURA\\_DSC3548.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015134.webp",
+    "archivo_id": "ARC-015134",
+    "original": "PINTURA\\_DSC3548.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015135.webp",
+    "archivo_id": "ARC-015135",
+    "original": "PINTURA\\_DSC3549.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015135.webp",
+    "archivo_id": "ARC-015135",
+    "original": "PINTURA\\_DSC3549.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015136.webp",
+    "archivo_id": "ARC-015136",
+    "original": "PINTURA\\_DSC3550.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015136.webp",
+    "archivo_id": "ARC-015136",
+    "original": "PINTURA\\_DSC3550.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015137.webp",
+    "archivo_id": "ARC-015137",
+    "original": "PINTURA\\_DSC3551.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015137.webp",
+    "archivo_id": "ARC-015137",
+    "original": "PINTURA\\_DSC3551.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015138.webp",
+    "archivo_id": "ARC-015138",
+    "original": "PINTURA\\_DSC3552.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015138.webp",
+    "archivo_id": "ARC-015138",
+    "original": "PINTURA\\_DSC3552.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015139.webp",
+    "archivo_id": "ARC-015139",
+    "original": "PINTURA\\_DSC3553.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015139.webp",
+    "archivo_id": "ARC-015139",
+    "original": "PINTURA\\_DSC3553.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015141.webp",
+    "archivo_id": "ARC-015141",
+    "original": "PINTURA\\_DSC3555.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015141.webp",
+    "archivo_id": "ARC-015141",
+    "original": "PINTURA\\_DSC3555.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015142.webp",
+    "archivo_id": "ARC-015142",
+    "original": "PINTURA\\_DSC3557.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015142.webp",
+    "archivo_id": "ARC-015142",
+    "original": "PINTURA\\_DSC3557.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015143.webp",
+    "archivo_id": "ARC-015143",
+    "original": "PINTURA\\_DSC3558.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015143.webp",
+    "archivo_id": "ARC-015143",
+    "original": "PINTURA\\_DSC3558.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015145.webp",
+    "archivo_id": "ARC-015145",
+    "original": "PINTURA\\_DSC3560.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015145.webp",
+    "archivo_id": "ARC-015145",
+    "original": "PINTURA\\_DSC3560.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015146.webp",
+    "archivo_id": "ARC-015146",
+    "original": "PINTURA\\_DSC3561.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015146.webp",
+    "archivo_id": "ARC-015146",
+    "original": "PINTURA\\_DSC3561.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015147.webp",
+    "archivo_id": "ARC-015147",
+    "original": "PINTURA\\_DSC3562.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015147.webp",
+    "archivo_id": "ARC-015147",
+    "original": "PINTURA\\_DSC3562.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015148.webp",
+    "archivo_id": "ARC-015148",
+    "original": "PINTURA\\_DSC3563.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015148.webp",
+    "archivo_id": "ARC-015148",
+    "original": "PINTURA\\_DSC3563.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015149.webp",
+    "archivo_id": "ARC-015149",
+    "original": "PINTURA\\_DSC3564.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015149.webp",
+    "archivo_id": "ARC-015149",
+    "original": "PINTURA\\_DSC3564.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015150.webp",
+    "archivo_id": "ARC-015150",
+    "original": "PINTURA\\_DSC3565.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015150.webp",
+    "archivo_id": "ARC-015150",
+    "original": "PINTURA\\_DSC3565.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015152.webp",
+    "archivo_id": "ARC-015152",
+    "original": "PINTURA\\_DSC3567.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015152.webp",
+    "archivo_id": "ARC-015152",
+    "original": "PINTURA\\_DSC3567.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015153.webp",
+    "archivo_id": "ARC-015153",
+    "original": "PINTURA\\_DSC3568.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015153.webp",
+    "archivo_id": "ARC-015153",
+    "original": "PINTURA\\_DSC3568.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015154.webp",
+    "archivo_id": "ARC-015154",
+    "original": "PINTURA\\_DSC3569.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015154.webp",
+    "archivo_id": "ARC-015154",
+    "original": "PINTURA\\_DSC3569.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015155.webp",
+    "archivo_id": "ARC-015155",
+    "original": "PINTURA\\_DSC3571.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015155.webp",
+    "archivo_id": "ARC-015155",
+    "original": "PINTURA\\_DSC3571.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015156.webp",
+    "archivo_id": "ARC-015156",
+    "original": "PINTURA\\_DSC3572.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015156.webp",
+    "archivo_id": "ARC-015156",
+    "original": "PINTURA\\_DSC3572.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015157.webp",
+    "archivo_id": "ARC-015157",
+    "original": "PINTURA\\_DSC3573.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015157.webp",
+    "archivo_id": "ARC-015157",
+    "original": "PINTURA\\_DSC3573.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015158.webp",
+    "archivo_id": "ARC-015158",
+    "original": "PINTURA\\_DSC3574.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015158.webp",
+    "archivo_id": "ARC-015158",
+    "original": "PINTURA\\_DSC3574.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015159.webp",
+    "archivo_id": "ARC-015159",
+    "original": "PINTURA\\_DSC3575.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015159.webp",
+    "archivo_id": "ARC-015159",
+    "original": "PINTURA\\_DSC3575.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015160.webp",
+    "archivo_id": "ARC-015160",
+    "original": "PINTURA\\_DSC3576.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015160.webp",
+    "archivo_id": "ARC-015160",
+    "original": "PINTURA\\_DSC3576.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015161.webp",
+    "archivo_id": "ARC-015161",
+    "original": "PINTURA\\_DSC3577.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015161.webp",
+    "archivo_id": "ARC-015161",
+    "original": "PINTURA\\_DSC3577.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015162.webp",
+    "archivo_id": "ARC-015162",
+    "original": "PINTURA\\_DSC3578.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015162.webp",
+    "archivo_id": "ARC-015162",
+    "original": "PINTURA\\_DSC3578.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015163.webp",
+    "archivo_id": "ARC-015163",
+    "original": "PINTURA\\_DSC3579.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015163.webp",
+    "archivo_id": "ARC-015163",
+    "original": "PINTURA\\_DSC3579.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015164.webp",
+    "archivo_id": "ARC-015164",
+    "original": "PINTURA\\_DSC3580.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015164.webp",
+    "archivo_id": "ARC-015164",
+    "original": "PINTURA\\_DSC3580.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015165.webp",
+    "archivo_id": "ARC-015165",
+    "original": "PINTURA\\_DSC3581.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015165.webp",
+    "archivo_id": "ARC-015165",
+    "original": "PINTURA\\_DSC3581.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015167.webp",
+    "archivo_id": "ARC-015167",
+    "original": "PINTURA\\_DSC3583.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015167.webp",
+    "archivo_id": "ARC-015167",
+    "original": "PINTURA\\_DSC3583.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015168.webp",
+    "archivo_id": "ARC-015168",
+    "original": "PINTURA\\_DSC3584.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015168.webp",
+    "archivo_id": "ARC-015168",
+    "original": "PINTURA\\_DSC3584.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015169.webp",
+    "archivo_id": "ARC-015169",
+    "original": "PINTURA\\_DSC3585.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015169.webp",
+    "archivo_id": "ARC-015169",
+    "original": "PINTURA\\_DSC3585.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015172.webp",
+    "archivo_id": "ARC-015172",
+    "original": "PINTURA\\_DSC3588.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015172.webp",
+    "archivo_id": "ARC-015172",
+    "original": "PINTURA\\_DSC3588.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015173.webp",
+    "archivo_id": "ARC-015173",
+    "original": "PINTURA\\_DSC3589.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015173.webp",
+    "archivo_id": "ARC-015173",
+    "original": "PINTURA\\_DSC3589.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015176.webp",
+    "archivo_id": "ARC-015176",
+    "original": "PINTURA\\_DSC3593.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015176.webp",
+    "archivo_id": "ARC-015176",
+    "original": "PINTURA\\_DSC3593.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015178.webp",
+    "archivo_id": "ARC-015178",
+    "original": "PINTURA\\_DSC3595.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015178.webp",
+    "archivo_id": "ARC-015178",
+    "original": "PINTURA\\_DSC3595.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015181.webp",
+    "archivo_id": "ARC-015181",
+    "original": "PINTURA\\_DSC3598.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015181.webp",
+    "archivo_id": "ARC-015181",
+    "original": "PINTURA\\_DSC3598.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015182.webp",
+    "archivo_id": "ARC-015182",
+    "original": "PINTURA\\_DSC3599.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015182.webp",
+    "archivo_id": "ARC-015182",
+    "original": "PINTURA\\_DSC3599.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015183.webp",
+    "archivo_id": "ARC-015183",
+    "original": "PINTURA\\_DSC3600.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015183.webp",
+    "archivo_id": "ARC-015183",
+    "original": "PINTURA\\_DSC3600.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015185.webp",
+    "archivo_id": "ARC-015185",
+    "original": "PINTURA\\_DSC3609.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015185.webp",
+    "archivo_id": "ARC-015185",
+    "original": "PINTURA\\_DSC3609.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015186.webp",
+    "archivo_id": "ARC-015186",
+    "original": "PINTURA\\_DSC3610.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015186.webp",
+    "archivo_id": "ARC-015186",
+    "original": "PINTURA\\_DSC3610.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015187.webp",
+    "archivo_id": "ARC-015187",
+    "original": "PINTURA\\_DSC3613.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015187.webp",
+    "archivo_id": "ARC-015187",
+    "original": "PINTURA\\_DSC3613.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015199.webp",
+    "archivo_id": "ARC-015199",
+    "original": "PINTURA\\_DSC3649.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015199.webp",
+    "archivo_id": "ARC-015199",
+    "original": "PINTURA\\_DSC3649.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015200.webp",
+    "archivo_id": "ARC-015200",
+    "original": "PINTURA\\_DSC3651.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015200.webp",
+    "archivo_id": "ARC-015200",
+    "original": "PINTURA\\_DSC3651.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015202.webp",
+    "archivo_id": "ARC-015202",
+    "original": "PINTURA\\_DSC3653.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015202.webp",
+    "archivo_id": "ARC-015202",
+    "original": "PINTURA\\_DSC3653.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015204.webp",
+    "archivo_id": "ARC-015204",
+    "original": "PINTURA\\_DSC3662.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015204.webp",
+    "archivo_id": "ARC-015204",
+    "original": "PINTURA\\_DSC3662.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015206.webp",
+    "archivo_id": "ARC-015206",
+    "original": "PINTURA\\_DSC3715.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015206.webp",
+    "archivo_id": "ARC-015206",
+    "original": "PINTURA\\_DSC3715.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015211.webp",
+    "archivo_id": "ARC-015211",
+    "original": "PINTURA\\_DSC3724.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015211.webp",
+    "archivo_id": "ARC-015211",
+    "original": "PINTURA\\_DSC3724.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015213.webp",
+    "archivo_id": "ARC-015213",
+    "original": "PINTURA\\_DSC3726.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015213.webp",
+    "archivo_id": "ARC-015213",
+    "original": "PINTURA\\_DSC3726.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015218.webp",
+    "archivo_id": "ARC-015218",
+    "original": "PINTURA\\_DSC3731.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015218.webp",
+    "archivo_id": "ARC-015218",
+    "original": "PINTURA\\_DSC3731.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015221.webp",
+    "archivo_id": "ARC-015221",
+    "original": "PINTURA\\_DSC3734.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015221.webp",
+    "archivo_id": "ARC-015221",
+    "original": "PINTURA\\_DSC3734.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015223.webp",
+    "archivo_id": "ARC-015223",
+    "original": "PINTURA\\_DSC3736.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015223.webp",
+    "archivo_id": "ARC-015223",
+    "original": "PINTURA\\_DSC3736.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015226.webp",
+    "archivo_id": "ARC-015226",
+    "original": "PINTURA\\_DSC3739.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015226.webp",
+    "archivo_id": "ARC-015226",
+    "original": "PINTURA\\_DSC3739.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015228.webp",
+    "archivo_id": "ARC-015228",
+    "original": "PINTURA\\_DSC3741.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015228.webp",
+    "archivo_id": "ARC-015228",
+    "original": "PINTURA\\_DSC3741.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015234.webp",
+    "archivo_id": "ARC-015234",
+    "original": "PINTURA\\_DSC3748.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015234.webp",
+    "archivo_id": "ARC-015234",
+    "original": "PINTURA\\_DSC3748.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015236.webp",
+    "archivo_id": "ARC-015236",
+    "original": "PINTURA\\_DSC3752.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015236.webp",
+    "archivo_id": "ARC-015236",
+    "original": "PINTURA\\_DSC3752.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/arc-015240.webp",
+    "archivo_id": "ARC-015240",
+    "original": "PINTURA\\_DSC3756.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015240.webp",
+    "archivo_id": "ARC-015240",
+    "original": "PINTURA\\_DSC3756.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015243.webp",
+    "archivo_id": "ARC-015243",
+    "original": "PINTURA\\_DSC3759.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "asset": "assets/thumb-015243.webp",
+    "archivo_id": "ARC-015243",
+    "original": "PINTURA\\_DSC3759.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 560,
+    "height": 373
+  },
+  {
+    "asset": "assets/arc-015245.webp",
+    "archivo_id": "ARC-015245",
+    "original": "PINTURA\\_DSC7893.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-015245.webp",
+    "archivo_id": "ARC-015245",
+    "original": "PINTURA\\_DSC7893.ARW",
+    "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
+    "width": 373,
+    "height": 560
   }
 ]

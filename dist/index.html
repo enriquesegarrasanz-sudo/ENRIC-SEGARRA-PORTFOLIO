@@ -19,7 +19,7 @@
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f4f1eb'/%3E%3Ctext x='13' y='47' font-family='Georgia,serif' font-size='46' fill='%239e412c'%3Ee%3C/text%3E%3C/svg%3E"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" /><link rel="stylesheet" href="editorial.css" />
     <script type="module" src="app.js"></script>
   </head>
   <body>
@@ -57,7 +57,7 @@
       <button class="close-image" aria-label="Cerrar imagen">
         Cerrar <span aria-hidden="true">×</span></button
       ><img id="large-image" alt="" />
-      <p id="image-caption"></p>
+      <div class="dialog-bottom"><button data-step="-1" aria-label="Fotografía anterior">← Anterior</button><p id="image-caption" aria-live="polite"></p><button data-step="1" aria-label="Fotografía siguiente">Siguiente →</button></div>
     </dialog>
     <noscript
       ><p>

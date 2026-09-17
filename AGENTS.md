@@ -28,7 +28,7 @@ El presente se centra en móviles y esculturas suspendidas. La trayectoria y mem
 
 ## Desarrollo
 
-Web estática sin dependencias de ejecución, autenticación, formularios ni base de datos. No añadir servicios externos sin necesidad. Los datos editables están en `dist/content.js`.
+Web estática sin dependencias de ejecución, autenticación, formularios ni base de datos. No añadir servicios externos sin necesidad. Los datos editables están en `dist/content.js` (textos) y `dist/catalogue.js` (fichas, galerías y álbumes). Conservar las referencias de catálogo y los IDs ARC. Consultar `docs/CATALOGO.md` antes de ampliar la selección.
 
 Preservar los IDs y enlaces de fichas y capítulos. Escapar contenido al generar HTML. No introducir datos de usuario mediante HTML sin escapar. Mantener accesibilidad de teclado, texto legible, navegación móvil y fotografías completas.
 

@@ -1,13 +1,13 @@
 # Enric Segarra — Obra y memoria
 
-Primera estructura navegable del portfolio y de la memoria artística. Versión **0.1.0**, preparada el 17 de septiembre de 2026.
+Portfolio, catálogo visual y memoria artística. Versión **0.2.0**, preparada el 17 de septiembre de 2026.
 
 ## Qué contiene
 
 - Inicio con el trabajo actual y acceso destacado a la trayectoria.
-- Obra: 11 fichas y filtros de móviles, escultura, pintura y dibujo.
+- Obra: 177 fichas, cuatro colecciones, series, búsqueda y galerías por pieza.
 - Proceso y entorno.
-- Trayectoria y memoria: siete capítulos, cronología inicial y dos documentos visuales.
+- Trayectoria y memoria: siete capítulos visuales, cronología inicial y nueve álbumes documentales.
 - Artista y contacto pendiente de completar con datos profesionales aprobados.
 - Ampliación de imágenes, navegación móvil y enlaces entre obras y capítulos.
 
@@ -29,7 +29,9 @@ También puede alojarse `dist/` en un servidor de archivos estáticos. La navega
 
 | Archivo | Contenido |
 |---|---|
-| `dist/content.js` | Identidad, contacto, fichas, categorías, capítulos y documentos. |
+| `dist/content.js` | Identidad, contacto, capítulos y documentos iniciales. |
+| `dist/catalogue.js` | Fichas, galerías, álbumes y equivalencias de enlaces. |
+| `dist/editorial.css` | Composición del catálogo y de la memoria visual. |
 | `dist/app.js` | Estructura de las páginas, portada, enlaces e interacciones. |
 | `dist/styles.css` | Colores, tipografía, márgenes y adaptación a pantallas. |
 | `dist/assets/` | Copias ligeras para la web. |
@@ -38,7 +40,7 @@ También puede alojarse `dist/` en un servidor de archivos estáticos. La navega
 | `docs/ESTADO.md` | Comprobaciones y trabajo pendiente. |
 | `AGENTS.md` | Instrucciones de continuidad y guardado para futuras sesiones. |
 
-Para añadir una obra, crear un registro en `works` de `content.js`, asignar un `id` único, una categoría, una imagen y un capítulo existente. La galería y la ficha se generan a partir de ese registro. El nombre de la imagen se escribe sin extensión.
+Para añadir una obra, crear un registro en `catalogue` de `catalogue.js`, con ID y referencia estables, categoría, serie, capítulo y galería de fotografías. Cada foto incluye imagen, miniatura, referencia ARC, nombre de archivo y descripción. Registrar su procedencia y agrupación. Consultar `docs/CATALOGO.md`. El nombre de la imagen se escribe sin extensión.
 
 Para incorporar contacto, definir `site.contactEmail` con el correo profesional aprobado. Hasta entonces no hay formulario ni dirección ficticia. La sección no recoge datos personales.
 
@@ -56,7 +58,7 @@ La comprobación valida relaciones entre obras y capítulos, identificadores y a
 
 Repositorio de destino: https://github.com/enriquesegarrasanz-sudo/ENRIC-SEGARRA-PORTFOLIO
 
-El punto inicial se identifica con la etiqueta `v0.1.0`. Los guardados posteriores deben describir qué cambió. Para cada bloque de trabajo terminado: comprobar, revisar los archivos, crear un commit y subirlo al repositorio. Antes de cambios grandes se conserva primero el estado existente. No hay un proceso de guardado continuo ejecutándose en segundo plano.
+El punto inicial se identifica con `v0.1.0`; la ampliación del catálogo y la memoria, con `v0.2.0`. Los guardados posteriores deben describir qué cambió. Para cada bloque de trabajo terminado: comprobar, revisar los archivos, crear un commit y subirlo al repositorio. Antes de cambios grandes se conserva primero el estado existente. No hay un proceso de guardado continuo ejecutándose en segundo plano.
 
 ```sh
 git status

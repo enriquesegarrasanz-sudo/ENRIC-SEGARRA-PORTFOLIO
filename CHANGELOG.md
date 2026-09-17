@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 0.2.0 — 2026-09-17
+
+- Ampliación a 177 fichas y 329 fotografías seleccionadas entre obras y nueve álbumes.
+- Separación visual de móviles, escultura, pintura y dibujo; series, búsqueda y paginación.
+- Una ficha por obra con vistas agrupadas, referencias y galería ampliable.
+- Portada editorial, siete recorridos visuales de memoria y álbumes históricos, educativos y de proceso.
+- Inventario privado completo, detección de 7.540 copias exactas y revisión visual de 1.499 referencias.
+- Trazabilidad de originales y pruebas de galerías, navegación y adaptación móvil.
+
+
 ## 0.1.0 — 2026-09-17
 
 - Primera estructura navegable de seis apartados.

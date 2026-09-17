@@ -1,96 +1,47 @@
-import { site, categories, works, chapters, documents } from "./content.js";
-const main = document.querySelector("main");
-const headerNav = document.querySelector("#nav");
-const menu = document.querySelector("#menu-toggle");
-menu.addEventListener("click", () => {
-  const open = menu.getAttribute("aria-expanded") !== "true";
-  menu.setAttribute("aria-expanded", String(open));
-  headerNav.classList.toggle("open", open);
-});
-function home() {
-  return `<div class="wrap"><section class="hero"><div class="hero-copy"><span class="eyebrow">Escultura · materia · movimiento</span><h1>La forma<br>sigue <em>viva.</em></h1><p>Encontrar, transformar, volver a mirar. La obra de Enric Segarra y una vida dedicada a explorar las posibilidades de la materia.</p><div class="hero-links"><a class="text-link" href="#/obra">Explorar la obra <span aria-hidden="true">↗</span></a><a class="text-link secondary" href="#/memoria">Recorrer su historia <span aria-hidden="true">↗</span></a></div></div><figure class="hero-image"><img src="assets/movil-naturaleza.webp" alt="Escultura suspendida de formas curvas y colores vivos entre las ramas de un árbol" fetchpriority="high" width="1600" height="1067"><figcaption><span>El presente, en movimiento</span><span>En el entorno del artista</span></figcaption></figure></section><section class="intro-line"><span class="eyebrow">Una búsqueda que continúa</span><p>Del trazo al volumen. De la pintura al objeto encontrado. Del taller a las ramas de un árbol.</p></section><section class="section"><div class="section-head"><h2>Obra en el presente</h2><a class="text-link" href="#/obra">Ver la selección <span aria-hidden="true">↗</span></a></div><div class="art-grid"><a class="art-card" href="#/obra"><div class="art-image"><img src="assets/movil-rosa.webp" alt="Escultura suspendida de elementos rosas" loading="lazy"></div><div class="card-meta"><h3>Formas suspendidas</h3><span>↗</span></div><p>Móviles y esculturas suspendidas</p></a><a class="art-card" href="#/obra"><div class="art-image"><img src="assets/movil-aros.webp" alt="Escultura suspendida compuesta por aros" loading="lazy"></div><div class="card-meta"><h3>Materia y equilibrio</h3><span>↗</span></div><p>Móviles y esculturas suspendidas</p></a><a class="art-card" href="#/proceso"><div class="art-image"><img src="assets/artista-entorno.webp" alt="El artista junto a una pieza suspendida en un árbol" loading="lazy"></div><div class="card-meta"><h3>Entre los árboles</h3><span>↗</span></div><p>Proceso y entorno</p></a></div></section><section class="section memory-feature"><img src="assets/retrato.webp" alt="Retrato del artista junto a una de sus esculturas" loading="lazy"><div><span class="eyebrow">Trayectoria y memoria</span><h2>Una vida.<br>Muchos caminos.</h2><p>El oficio de escultor, los mundos de la pintura, la libertad de crear con otros. Una historia hecha de obras, encuentros, aprendizajes y nuevos comienzos.</p><a class="text-link" href="#/memoria">Entrar en la memoria <span aria-hidden="true">↗</span></a></div></section></div>`;
+import { site, categories, works, chapters, documents, albums } from "./content.js";
+import { redirects } from "./catalogue.js";
+const main=document.querySelector('main'), menu=document.querySelector('#menu-toggle'), headerNav=document.querySelector('#nav');
+const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const photo=(name,alt,classes='',eager=false)=>`<img src="assets/${esc(name)}.webp" alt="${esc(alt)}" class="${esc(classes)}" loading="${eager?'eager':'lazy'}" decoding="async">`;
+const link=(href,label)=>`<a class="text-link" href="${esc(href)}">${esc(label)} <span aria-hidden="true">↗</span></a>`;
+const heading=(label,title,desc='')=>`<div class="page-head"><span class="eyebrow">${esc(label)}</span><h1>${esc(title)}</h1>${desc?`<p>${esc(desc)}</p>`:''}</div>`;
+const quote=q=>q?`<blockquote class="quote">«${esc(q.text)}»<cite>${esc(q.source)}</cite></blockquote>`:'';
+const notFound=()=>`<div class="wrap empty"><h1>Este camino no existe.</h1>${link('#/obra','Explorar la obra')}</div>`;
+const countPhotos=list=>new Set(list.flatMap(w=>w.gallery.map(p=>p.archiveId))).size;
+const disciplines=[
+ {id:'moviles',label:'Móviles',subtitle:'La forma en movimiento',intro:'Equilibrios, líneas suspendidas y color. Piezas que encuentran su lugar en el aire, entre los árboles y en el espacio expositivo.',images:['suspension-rosa','aros','ramas-y-color']},
+ {id:'escultura',label:'Escultura',subtitle:'Pensar con la materia',intro:'Del volumen tallado a los planos, relieves y objetos ensamblados. Un recorrido por las muchas maneras de construir una presencia.',images:['volumen-veta','escultura-014533','volumen-abierto']},
+ {id:'pintura',label:'Pintura',subtitle:'Un mundo dentro de otro',intro:'Gatos, arcas, rostros y relatos. El color abre una colección de imaginarios que conserva cada una de sus diferencias.',images:['gato','arca','ruedo']},
+ {id:'dibujo',label:'Dibujo',subtitle:'El espacio empieza en una línea',intro:'Líneas, planos, sombras y gestos de color. Un espacio propio para el dibujo y sus encuentros con la escultura.',images:['trazo-rojo','trazo-negro','dibujo-015087']}
+];
+const workById=id=>works.find(w=>w.id===(redirects[id]||id));
+function card(w){return `<a class="art-card" href="#/obra/${esc(w.id)}"><div class="art-image">${photo(w.thumb||w.image,w.alt)}<span class="photo-badge">${w.gallery.length} ${w.gallery.length===1?'imagen':'vistas'}</span></div><div class="card-meta"><h3>${esc(w.label)}</h3><span aria-hidden="true">↗</span></div><p>${esc(w.series)} <span class="reference">${esc(w.reference)}</span></p></a>`;}
+function room(c,i){const list=works.filter(w=>w.category===c.id);return `<a class="room room-${c.id}" href="#/obra/${c.id}"><div class="room-images">${c.images.map(id=>{const w=workById(id);return w?photo(w.thumb,w.alt):'';}).join('')}</div><div class="room-heading"><span class="room-number">0${i+1}</span><div><h2>${c.label}</h2><p>${c.subtitle}</p></div><span class="room-arrow" aria-hidden="true">↗</span></div><div class="room-bottom"><span>${list.length} obras · ${countPhotos(list)} fotografías</span><span>Entrar en la colección</span></div></a>`;}
+function home(){return `<div class="wrap"><section class="editorial-hero"><div class="hero-intro"><span class="eyebrow">Enric Segarra · Obra y memoria</span><h1>La forma<br>sigue <em>viva.</em></h1><p>Una vida explorando la materia.<br>Una mirada que sigue en movimiento.</p>${link('#/obra/moviles','Descubrir los móviles')}</div><a class="hero-art" href="#/obra/ramas-y-color">${photo('arc-014847','Una escultura de colores suspendida entre las ramas','',true)}<span>EN EL PRESENTE <span aria-hidden="true">↗</span></span></a><a class="hero-inset" href="#/obra/aros">${photo('thumb-014774','Composición de aros suspendidos')}<span>Forma, vacío, equilibrio.</span></a></section><div class="editorial-caption"><span>El presente se mueve. La memoria permanece.</span><a href="#/memoria">Recorrer una vida dedicada a crear ↗</a></div><section class="section"><div class="section-head"><div><span class="eyebrow">Cuatro maneras de mirar</span><h2>El universo de la obra.</h2></div><p>${works.length} obras reunidas por disciplinas. Cada pieza, sus imágenes y su lugar en el recorrido.</p></div><div class="rooms">${disciplines.map(room).join('')}</div></section><section class="section"><div class="section-head"><div><span class="eyebrow">Una investigación que continúa</span><h2>Habitar el aire.</h2></div>${link('#/obra/moviles','Todos los móviles')}</div><div class="art-grid featured-grid">${['suspension-rosa','moviles-014659','forma-verde'].map(id=>card(workById(id))).join('')}</div></section><section class="section memory-editorial"><div class="memory-montage">${photo('retrato','El artista junto a una escultura')}${photo('arc-009962','Vista de una exposición del archivo histórico')}${photo('thumb-012514','Exposición de trabajos de participantes en talleres')}</div><div><span class="eyebrow">El archivo de una vida</span><h2>Obras.<br>Encuentros.<br>Memoria.</h2><p>El oficio, la pintura, los talleres y los espacios compartidos. Un recorrido visual por lo vivido y por lo que todavía está por venir.</p>${link('#/memoria','Entrar en su historia')}</div></section><section class="section process-strip">${photo('arc-014876','El artista y las piezas en el entorno natural')}<div><span class="eyebrow">Proceso y entorno</span><h2>El taller se abre al paisaje.</h2><p>Mirar una rama, reunir fragmentos, colgar una pieza. La creación continúa también fuera del taller.</p>${link('#/proceso','Acercarse al proceso')}</div></section></div>`;}
+function workIndex(){return `<div class="wrap">${heading('La colección','Distintos lenguajes. Una mirada.','Cuatro recorridos para entrar en la obra de Enric Segarra. Del movimiento de las piezas suspendidas al volumen, el color y el trazo.')}<div class="collection-stats"><span>${works.length} obras</span><span>${countPhotos(works)} fotografías</span><span>Una ficha por obra · Distintas vistas en su interior</span></div><div class="rooms">${disciplines.map(room).join('')}</div><p class="editorial-note">Las denominaciones describen las piezas. Los títulos originales, las fechas y las técnicas se incorporan a medida que se documentan.</p>${link('#/memoria?vista=archivo','Fotografías, exposiciones y memoria')}</div>`;}
+const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+function categoryPage(id,params){const c=disciplines.find(c=>c.id===id);if(!c)return notFound();const all=works.filter(w=>w.category===id),series=[...new Set(all.map(w=>w.series))];const selected=series.includes(params.get('serie'))?params.get('serie'):'';const search=params.get('buscar')||'';const filtered=all.filter(w=>(!selected||w.series===selected)&&normalize([w.label,w.reference,w.series,...w.gallery.map(p=>p.archiveId)].join(' ')).includes(normalize(search)));const pages=Math.max(1,Math.ceil(filtered.length/24));const page=Math.min(pages,Math.max(1,parseInt(params.get('pagina'))||1));const href=(p)=>{const q=new URLSearchParams(params);q.set('pagina',p);return '#/obra/'+id+'?'+q;};
+ return `<div class="wrap"><div class="breadcrumbs"><a href="#/obra">Obra</a> / ${c.label}</div><section class="collection-hero"><div><span class="eyebrow">${c.subtitle}</span><h1>${c.label}<span class="sup-count">${all.length}</span></h1><p>${c.intro}</p><div class="discipline-links">${disciplines.map(d=>`<a href="#/obra/${d.id}" ${d.id===id?'aria-current="page"':''}>${d.label}</a>`).join('')}</div></div><div class="collection-preview">${c.images.slice(0,2).map(wid=>{const w=workById(wid);return `<a href="#/obra/${w.id}">${photo(w.thumb,w.alt)}</a>`;}).join('')}</div></section><form class="catalog-tools" id="catalog-search" data-type="${id}"><label>Recorrido<select name="serie"><option value="">Todas las series (${all.length})</option>${series.map(s=>`<option ${s===selected?'selected':''} value="${esc(s)}">${esc(s)} (${all.filter(w=>w.series===s).length})</option>`).join('')}</select></label><label>Encontrar una obra<input type="search" name="buscar" value="${esc(search)}" placeholder="Nombre, referencia o fotografía"></label><button class="solid-button" type="submit">Buscar <span aria-hidden="true">↗</span></button>${selected||search?`<a href="#/obra/${id}">Ver todo</a>`:''}</form><div class="results-line" aria-live="polite"><span>${filtered.length} ${filtered.length===1?'obra':'obras'}${filtered.length?' · '+countPhotos(filtered)+' fotografías':''}</span><span>Una ficha reúne todas las vistas seleccionadas</span></div>${filtered.length?`<div class="art-grid catalog-grid">${filtered.slice((page-1)*24,page*24).map(card).join('')}</div>`:`<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${link('#/obra/'+id,'Ver la colección completa')}</div>`}${pages>1?`<nav class="pagination" aria-label="Páginas de la colección">${Array.from({length:pages},(_,i)=>`<a href="${esc(href(i+1))}" ${page===i+1?'aria-current="page"':''}>${i+1}</a>`).join('')}<span>Página ${page} de ${pages}</span></nav>`:''}<p class="editorial-note">Denominaciones descriptivas · Archivo familiar · Documentación en desarrollo</p></div>`;
 }
-const esc = (value) =>
-  String(value ?? "").replace(
-    /[&<>"']/g,
-    (c) =>
-      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
-        c
-      ],
-  );
-const photo = (name, alt, classes = "", eager = false) =>
-  `<img src="assets/${esc(name)}.webp" alt="${esc(alt)}" class="${esc(classes)}" loading="${eager ? "eager" : "lazy"}">`;
-const link = (href, label) =>
-  `<a class="text-link" href="${esc(href)}">${esc(label)} <span aria-hidden="true">↗</span></a>`;
-const heading = (label, title, desc = "") =>
-  `<div class="page-head"><span class="eyebrow">${esc(label)}</span><h1>${esc(title)}</h1>${desc ? `<p>${esc(desc)}</p>` : ""}</div>`;
-const card = (w) =>
-  `<a class="art-card" href="#/obra/${w.id}"><div class="art-image">${photo(w.image, w.alt)}</div><div class="card-meta"><h3>${esc(w.label)}</h3><span aria-hidden="true">↗</span></div><p>${esc(w.series)}</p></a>`;
-const quote = (q) =>
-  q
-    ? `<blockquote class="quote">«${esc(q.text)}»<cite>${esc(q.source)}</cite></blockquote>`
-    : "";
-const notFound = () =>
-  `<div class="wrap empty"><span class="eyebrow">Obra y memoria</span><h1>Este camino no existe.</h1><p>Puedes volver a la selección de obra o recorrer la memoria del artista.</p>${link("#/", "Volver al inicio")}</div>`;
-
-function fullHome() {
-  let html = home();
-  html = html.replace(
-    'href="#/obra"><div class="art-image"><img src="assets/movil-rosa.webp"',
-    'href="#/obra/suspension-rosa"><div class="art-image"><img src="assets/movil-rosa.webp"',
-  );
-  html = html.replace(
-    'href="#/obra"><div class="art-image"><img src="assets/movil-aros.webp"',
-    'href="#/obra/aros"><div class="art-image"><img src="assets/movil-aros.webp"',
-  );
-  return (
-    html.slice(0, -6) +
-    `<section class="section"><div class="section-head"><div><span class="eyebrow">Otros caminos</span><h2>Un universo de formas</h2></div><p>La obra se extiende entre disciplinas. Cada una conserva su manera de mirar.</p></div><div class="category-row">${[
-      {
-        type: "escultura",
-        name: "Escultura",
-        image: "escultura-clara",
-        alt: "Volumen claro con aberturas",
-      },
-      {
-        type: "pintura",
-        name: "Pintura",
-        image: "gatos",
-        alt: "Pintura con figura de gato",
-      },
-      {
-        type: "dibujo",
-        name: "Dibujo",
-        image: "dibujo",
-        alt: "Dibujo de formas rojas sobre papel",
-      },
-    ]
-      .map(
-        (c) =>
-          `<a class="category-card" href="#/obra?tipo=${c.type}">${photo(c.image, c.alt)}<h3>${c.name} <span aria-hidden="true">↗</span></h3></a>`,
-      )
-      .join(
-        "",
-      )}</div></section><section class="section process-strip">${photo("naturaleza-conjunto", "Piezas de colores suspendidas de un árbol en el entorno del artista")}<div><span class="eyebrow">Proceso y entorno</span><h2>El taller se abre<br>al paisaje.</h2><p>Encontrar materiales, construir una forma y observarla en el lugar. La naturaleza acompaña la creación.</p>${link("#/proceso", "Acercarse al proceso")}</div></section></div>`
-  );
-}
-
-function workIndex(params) {
-  const type = categories.some((c) => c.id === params.get("tipo"))
-    ? params.get("tipo")
-    : "todas";
-  const list = works.filter((w) => type === "todas" || w.category === type);
-  return `<div class="wrap">${heading("Una selección de obra", "La materia, en sus formas.", "Móviles, escultura, pintura y dibujo. Distintos caminos de una misma búsqueda, reunidos en una selección abierta.")}<div class="tabs" role="group" aria-label="Filtrar por disciplina">${categories.map((c) => `<button data-category="${c.id}" aria-pressed="${c.id === type}">${c.label}</button>`).join("")}</div><p class="count" aria-live="polite">${list.length} piezas en esta selección · Las denominaciones son descriptivas</p><div class="art-grid">${list.map(card).join("")}</div></div>`;
-}
-function workDetail(id) {
-  const w = works.find((w) => w.id === id);
-  if (!w) return notFound();
-  const related = works
-    .filter((x) => x.category === w.category && x.id !== id)
-    .slice(0, 3);
-  return `<div class="wrap"><div class="breadcrumbs"><a href="#/obra">Obra</a> / <a href="#/obra?tipo=${w.category}">${categories.find((c) => c.id === w.category).label}</a></div><article class="detail"><div><button class="primary-image" data-enlarge="${w.image}" data-alt="${esc(w.alt)}" data-caption="${esc(w.label)}" aria-label="Ampliar imagen: ${esc(w.label)}">${photo(w.image, w.alt, "", true)}<span class="zoom-label">Ver imagen completa +</span></button></div><div class="detail-copy"><span class="eyebrow">${esc(w.series)}</span><h1>${esc(w.label)}</h1><p>${esc(w.text)}</p><dl><div><dt>Título original</dt><dd>Por documentar</dd></div><div><dt>Fecha</dt><dd>Por documentar</dd></div><div><dt>Imagen</dt><dd>Archivo familiar</dd></div></dl><p class="caption-note">La denominación de esta ficha describe la imagen. El título, los materiales y las dimensiones se incorporarán cuando estén identificados.</p>${link("#/memoria/" + w.chapter, "Su lugar en la trayectoria")}</div></article>${related.length ? `<section class="section"><div class="section-head"><h2>Continuar mirando</h2></div><div class="art-grid">${related.map(card).join("")}</div></section>` : ""}</div>`;
-}
-function memory(params) {
+function imageButton(p,owner,index){return `<button class="album-photo" data-gallery="${esc(owner)}" data-index="${index}" aria-label="Ampliar: ${esc(p.alt)}">${photo(p.thumb||p.image,p.alt)}<span>${esc(p.archiveId)} <span aria-hidden="true">+</span></span></button>`;}
+function workDetail(id){const w=workById(id);if(!w)return notFound();const peers=works.filter(x=>x.category===w.category),index=peers.indexOf(w);const p=w.gallery[0];return `<div class="wrap"><div class="breadcrumbs"><a href="#/obra">Obra</a> / <a href="#/obra/${w.category}">${disciplines.find(c=>c.id===w.category).label}</a> / ${w.reference}</div><article class="detail"><div class="work-gallery"><button class="primary-image" id="work-main" data-gallery="${w.id}" data-index="0" aria-label="Ampliar imagen de ${esc(w.label)}">${photo(p.image,p.alt,'',true)}<span class="zoom-label">Ver imagen completa +</span></button><div class="gallery-status"><span id="selected-photo" aria-live="polite">1 / ${w.gallery.length} · ${p.archiveId}</span><span>Fotografías de la misma obra</span></div><div class="thumbnails" aria-label="Vistas de la obra">${w.gallery.map((p,i)=>`<button data-view="${i}" data-work="${w.id}" aria-pressed="${i===0}" aria-label="Vista ${i+1}: ${esc(p.archiveId)}">${photo(p.thumb,p.alt)}<span>${i+1}</span></button>`).join('')}</div></div><div class="detail-copy"><span class="eyebrow">${esc(w.series)} · ${w.reference}</span><h1>${esc(w.label)}</h1><p>${esc(w.text)}</p><dl><div><dt>Colección</dt><dd>${disciplines.find(c=>c.id===w.category).label}</dd></div><div><dt>Fotografías</dt><dd>${w.gallery.length} ${w.gallery.length===1?'imagen':'vistas seleccionadas'}</dd></div></dl><details class="documentation"><summary>Datos de la obra y fotografías</summary><p>Denominación descriptiva. Título original, fecha, técnica y dimensiones por documentar.</p><ul>${w.gallery.map(p=>`<li><strong>${p.archiveId}</strong><br>${esc(p.sourceName)}</li>`).join('')}</ul></details>${link('#/memoria/'+w.chapter,'Su lugar en la trayectoria')}</div></article><nav class="work-nav" aria-label="Recorrer las obras">${index>0?link('#/obra/'+peers[index-1].id,'← Obra anterior'):'<span></span>'}${link('#/obra/'+w.category,'Volver a la colección')}${index<peers.length-1?link('#/obra/'+peers[index+1].id,'Siguiente obra →'):'<span></span>'}</nav><section class="section"><div class="section-head"><h2>Continuar mirando</h2></div><div class="art-grid">${peers.filter(x=>x.id!==id).slice(Math.max(0,index-1),Math.max(0,index-1)+3).map(card).join('')}</div></section></div>`;}
+const chapterVisuals={
+ 'aprender-oficio':['retrato','thumb-014516','thumb-015099'],
+ 'construir-formas':['thumb-014528','thumb-014533','thumb-015081'],
+ 'pintar-mundos':['thumb-015106','thumb-015127','thumb-015245'],
+ 'crear-con-otros':['thumb-012514','thumb-012177','thumb-012509'],
+ 'proyectos-compartidos':['thumb-009962','thumb-015223','thumb-008492'],
+ 'exponer-abrir-espacios':['thumb-009086','thumb-009246','thumb-009072'],
+ 'seguir-creando':['thumb-014847','thumb-014774','thumb-014616']
+};
+// La portada de cada capítulo es un collage temático, no una datación de las imágenes.
+function chapterCard(c,i){return `<a class="memory-card" href="#/memoria/${c.id}"><div class="chapter-collage">${chapterVisuals[c.id].map((p,j)=>photo(p,j===0?c.title:'Detalle del recorrido: '+c.title)).join('')}</div><div class="chapter-title"><span>0${i+1}</span><h2>${esc(c.title)}</h2><span aria-hidden="true">↗</span></div><p>${esc(c.short)}</p></a>`;}
+function albumCard(a){return `<a class="album-card" href="#/archivo/${a.id}">${photo(a.gallery[0].thumb,a.title)}<span class="eyebrow">${esc(a.type)} · ${a.gallery.length} fotografías</span><h3>${esc(a.title)} <span aria-hidden="true">↗</span></h3></a>`;}
+function memory(params){if(params.get('vista')==='cronologia')return legacyMemory(params);const archive=params.get('vista')==='archivo';return `<div class="wrap">${heading('Trayectoria y memoria','Una vida dedicada a crear.','Obras, lugares y encuentros. Siete capítulos para recorrer su historia y un archivo de imágenes para conservarla.')}<div class="memory-tabs"><a href="#/memoria?vista=capitulos" ${!archive?'aria-current="page"':''}>Recorridos visuales</a><a href="#/memoria?vista=cronologia">Recorrer los años</a><a href="#/memoria?vista=archivo" ${archive?'aria-current="page"':''}>Álbumes del archivo</a></div>${archive?`<div class="results-line"><span>${albums.length} álbumes · ${countPhotos(albums)} fotografías</span><span>Exposiciones, educación y proceso</span></div><div class="album-grid">${albums.map(albumCard).join('')}</div>`:`<div class="memory-grid">${chapters.map(chapterCard).join('')}</div>`}<p class="editorial-note">Los capítulos reúnen líneas de trabajo que pueden convivir en el tiempo. Cada álbum conserva el contexto y distingue la obra propia de las actividades y las creaciones de otros participantes.</p></div>`;}
+function chapter(id){const i=chapters.findIndex(c=>c.id===id);if(i<0)return notFound();const c=chapters[i],related=works.filter(w=>w.chapter===id),aa=albums.filter(a=>a.chapter===id);return `<div class="wrap"><div class="breadcrumbs"><a href="#/memoria">Trayectoria y memoria</a> / Capítulo 0${i+1}</div>${heading('Capítulo 0'+(i+1),c.title,c.short)}<div class="chapter-panorama">${chapterVisuals[id].map(p=>photo(p,c.title)).join('')}</div><article class="chapter-reading"><div><span class="eyebrow">El relato</span><p class="image-note">${id==='aprender-oficio'?'Retrato actual y piezas que acompañan el relato del oficio; no son documentos fechados de formación.':'Imágenes del recorrido temático. Las fechas de las obras están por documentar.'}</p></div><div class="chapter-text">${c.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}</div></article>${aa.length?`<section class="section"><div class="section-head"><div><span class="eyebrow">El archivo, en imágenes</span><h2>Escenas de este recorrido.</h2></div></div><div class="album-grid">${aa.map(albumCard).join('')}</div></section>`:''}${related.length?`<section class="section"><div class="section-head"><h2>Las obras del recorrido.</h2><p>${related.length} obras vinculadas a este capítulo</p></div><div class="art-grid">${related.slice(0,9).map(card).join('')}</div>${related.length>9?`<div class="chapter-more">${[...new Set(related.map(w=>w.category))].map(cat=>link('#/obra/'+cat,'Explorar '+disciplines.find(c=>c.id===cat).label.toLowerCase())).join('')}</div>`:''}</section>`:''}${quote(c.quote)}<div class="chapter-nav">${link(i>0?'#/memoria/'+chapters[i-1].id:'#/memoria',i>0?'Capítulo anterior':'Todos los capítulos')}${link(i<chapters.length-1?'#/memoria/'+chapters[i+1].id:'#/memoria',i<chapters.length-1?'Siguiente capítulo':'Todos los capítulos')}</div></div>`;}
+function albumPage(id){const a=albums.find(a=>a.id===id);if(!a)return notFound();return `<div class="wrap"><div class="breadcrumbs"><a href="#/memoria?vista=archivo">Álbumes del archivo</a> / ${esc(a.type)}</div>${heading(a.type,a.title,a.text)}<p class="count">${a.gallery.length} fotografías · Archivo familiar · Pulsa una imagen para recorrer el álbum</p><div class="album-gallery">${a.gallery.map((p,i)=>imageButton(p,'album:'+id,i)).join('')}</div><div class="chapter-nav">${link('#/memoria/'+a.chapter,'Leer el capítulo relacionado')}${link('#/memoria?vista=archivo','Todos los álbumes')}</div></div>`;}
+function processPage(){return `<div class="wrap">${heading('Proceso y entorno','La creación también sucede aquí.','Entre los materiales y el paisaje. Un cuaderno visual sobre las formas que se encuentran, las que se construyen y las que cambian al mirar.')}<section class="process-opening">${photo('arc-014876','El artista y las esculturas entre los árboles','',true)}<div><span class="eyebrow">Observar el lugar</span><h2>El aire forma parte de la obra.</h2><p>Colgar una pieza, alejarse y volver a mirarla. La escala del árbol, la luz y las distintas posiciones abren nuevas relaciones.</p>${link('#/archivo/arboles','Ver la secuencia completa')}</div></section><section class="section"><div class="section-head"><h2>El cuaderno del proceso.</h2></div><div class="album-grid">${albums.filter(a=>['Proceso y entorno','Cuaderno visual'].includes(a.type)).map(albumCard).join('')}</div></section><section class="section"><div class="section-head"><h2>De cerca, otras formas.</h2>${link('#/obra/moviles','Explorar los móviles')}</div><div class="art-grid">${['moviles-014748','escultura-008907','moviles-008911'].map(id=>card(workById(id))).join('')}</div></section>${quote({text:'Es una forma de ir experimentando y ver el efecto que puede causar.',source:'Enrique · entrevista familiar, apartado Móviles'})}</div>`;}
+function legacyMemory(params) {
   const view = ["capitulos", "cronologia", "archivo"].includes(
     params.get("vista"),
   )
@@ -114,17 +65,7 @@ function memory(params) {
     )
     .join("")}</div>${inner}</div>`;
 }
-function chapter(id) {
-  const index = chapters.findIndex((c) => c.id === id);
-  if (index < 0) return notFound();
-  const c = chapters[index];
-  const related = works.filter((w) => w.chapter === id).slice(0, 3);
-  const body = `<div class="chapter-text">${c.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("")}</div>`;
-  return `<div class="wrap"><div class="breadcrumbs"><a href="#/memoria">Trayectoria y memoria</a> / Capítulo ${String(index + 1).padStart(2, "0")}</div>${heading("Capítulo " + String(index + 1).padStart(2, "0"), c.title, c.short)}<article>${c.image ? `<div class="chapter-layout"><figure>${photo(c.image, c.imageAlt, "", true)}<figcaption class="image-note">${esc(c.caption)}</figcaption></figure>${body}</div>` : `<div class="chapter-layout">${body}<aside class="notice">Este capítulo se ampliará con documentos identificados del archivo familiar. El relato actual procede de la entrevista con el artista.</aside></div>`}${quote(c.quote)}<p class="small-label">Relato editado a partir de la entrevista familiar. Identificaciones y cronología en desarrollo.</p></article>${related.length ? `<section class="section"><div class="section-head"><h2>Obras para seguir el relato</h2></div><div class="art-grid">${related.map(card).join("")}</div></section>` : ""}<div class="chapter-nav">${link(index > 0 ? "#/memoria/" + chapters[index - 1].id : "#/memoria", index > 0 ? "Capítulo anterior" : "Todos los capítulos")}${link(index < chapters.length - 1 ? "#/memoria/" + chapters[index + 1].id : "#/obra", index < chapters.length - 1 ? "Siguiente capítulo" : "Volver a la obra")}</div></div>`;
-}
-function processPage() {
-  return `<div class="wrap">${heading("Proceso y entorno", "Encontrar. Transformar. Observar.", "La creación comienza en la atención a lo que nos rodea. Una forma, un material o un objeto pueden abrir un nuevo camino.")}<div class="process-pair"><article>${photo("movil-verde", "Vista de una escultura suspendida en interior")}<h3>La posibilidad de un material</h3><p>Enrique describe el ensamblaje y la reutilización como procedimientos recurrentes. Combinar elementos, probar una unión y observar el resultado forman parte de esa exploración.</p></article><article>${photo("movil-naturaleza", "Pieza suspendida entre ramas")}<h3>La obra encuentra un lugar</h3><p>Las piezas suspendidas se relacionan con los árboles, los espacios y la luz. En su casa, colgar y mirar las obras es también una manera de seguir experimentando.</p></article></div><section class="section process-strip">${photo("naturaleza-conjunto", "Conjunto de piezas suspendidas de un árbol")}<div><span class="eyebrow">Creación al aire libre</span><h2>Un paisaje<br>en proceso.</h2><p>El artista cuenta que está desarrollando poco a poco un parque escultórico en un terreno rural. Las imágenes y los relatos permitirán documentar este proyecto y distinguirlo del jardín de su casa.</p>${link("#/memoria/seguir-creando", "Leer el capítulo del presente")}</div></section>${quote({ text: "Es una forma de ir experimentando y ver el efecto que puede causar.", source: "Enrique · entrevista familiar, apartado Móviles" })}</div>`;
-}
+
 function artist() {
   return `<div class="wrap">${heading("El artista", site.name, site.intro)}<div class="chapter-layout"><figure>${photo("retrato", "Retrato de Enric Segarra junto a una escultura", "", true)}<figcaption class="image-note">Retrato del archivo familiar.</figcaption></figure><div class="chapter-text"><p>Enrique nació en Barcelona en 1959 y realizó su formación en Valencia, incluida la carrera de Bellas Artes, según relata en la entrevista familiar.</p><p>La escultura es un punto de referencia en su trayectoria. A ella se suman el dibujo, la pintura, la educación artística y una dedicación prolongada a la exposición y promoción de la obra de otros artistas.</p><p>La naturaleza, los materiales encontrados y la construcción de formas reaparecen en distintas etapas. Hoy, los móviles y las esculturas suspendidas abren nuevas posibilidades de experimentación.</p><p>Esta web reúne una selección de su obra y una memoria de su recorrido, para conservar lo vivido y acompañar lo que continúa creando.</p>${link("#/memoria", "Conocer su recorrido completo")}</div></div>${quote({ text: "Era pues la sensación esa de ir buscando nuevas formas.", source: "Enrique · entrevista familiar, apartado Arte infantil" })}</div>`;
 }
@@ -132,86 +73,38 @@ function contact() {
   return `<div class="wrap">${heading("Contacto", "Una conversación<br>sobre la obra.".replace("<br>", " "))}<div class="contact-block"><p>Para conversaciones sobre la obra, proyectos expositivos y colaboraciones.</p>${site.contactEmail ? `<p>${link("mailto:" + site.contactEmail, site.contactEmail)}</p>` : `<p class="notice">${esc(site.contactText)}</p>`}${link("#/obra", "Seguir explorando la obra")}</div></div>`;
 }
 
-let previousRoute = "";
-function render() {
-  if (location.hash === "#contenido") return;
-  const [path, query = ""] = (location.hash.slice(1) || "/").split("?");
-  const parts = path.split("/").filter(Boolean),
-    section = parts[0] || "inicio",
-    id = parts[1];
-  const params = new URLSearchParams(query);
-  const base = parts.join("/");
-  const builders = {
-    inicio: () => fullHome(),
-    obra: () => (id ? workDetail(id) : workIndex(params)),
-    memoria: () => (id ? chapter(id) : memory(params)),
-    proceso: processPage,
-    artista: artist,
-    contacto: contact,
-  };
-  main.innerHTML = (builders[section] || notFound)();
-  document.querySelectorAll("[data-nav]").forEach((a) => {
-    if (a.dataset.nav === section) a.setAttribute("aria-current", "page");
-    else a.removeAttribute("aria-current");
-  });
-  const titles = {
-    inicio: "Obra y memoria",
-    obra: id ? works.find((w) => w.id === id)?.label || "Obra" : "Obra",
-    memoria: id
-      ? chapters.find((c) => c.id === id)?.title || "Memoria"
-      : "Trayectoria y memoria",
-    proceso: "Proceso y entorno",
-    artista: "El artista",
-    contacto: "Contacto",
-  };
-  document.title = `${titles[section] || "Página no encontrada"} — ${site.name}`;
-  headerNav.classList.remove("open");
-  menu.setAttribute("aria-expanded", "false");
-  if (previousRoute !== base) {
-    window.scrollTo({ top: 0, behavior: "instant" });
-    main.focus({ preventScroll: true });
-  }
-  previousRoute = base;
+
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));headerNav.classList.toggle('open',open);});
+let previousRoute='';
+const dialog=document.querySelector('#image-dialog');
+let activeGallery=[],activeIndex=0,activeLabel='';
+function showPhoto(){const p=activeGallery[activeIndex];document.querySelector('#large-image').src='assets/'+p.image+'.webp';document.querySelector('#large-image').alt=p.alt;document.querySelector('#image-caption').textContent=`${activeLabel} · ${activeIndex+1} / ${activeGallery.length} · ${p.archiveId||'Archivo familiar'}`;document.querySelectorAll('[data-step]').forEach(b=>b.disabled=activeGallery.length<2);}
+function render(){if(location.hash==='#contenido')return;const [path,query='']=(location.hash.slice(1)||'/').split('?');const parts=path.split('/').filter(Boolean),section=parts[0]||'inicio',id=parts[1],params=new URLSearchParams(query);const base=parts.join('/');let title='',html='';
+ if(dialog.open)dialog.close();
+ if(section==='inicio'){html=home();title='Obra y memoria';}
+ else if(section==='obra'){const type=id||params.get('tipo');if(disciplines.some(c=>c.id===type)){html=categoryPage(type,params);title=disciplines.find(c=>c.id===type).label;}else if(id){html=workDetail(id);title=workById(id)?.label||'Obra';}else{html=workIndex();title='Obra';}}
+ else if(section==='memoria'){html=id?chapter(id):memory(params);title=id?chapters.find(c=>c.id===id)?.title:'Trayectoria y memoria';}
+ else if(section==='archivo'){html=albumPage(id);title=albums.find(a=>a.id===id)?.title;}
+ else if(section==='proceso'){html=processPage();title='Proceso y entorno';}
+ else if(section==='artista'){html=artist();title='El artista';}
+ else if(section==='contacto'){html=contact();title='Contacto';}
+ main.innerHTML=html||notFound();document.title=`${title||'Página no encontrada'} — ${site.name}`;
+ document.querySelectorAll('[data-nav]').forEach(a=>{if(a.dataset.nav===(section==='archivo'?'memoria':section))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+ headerNav.classList.remove('open');menu.setAttribute('aria-expanded','false');
+ if(previousRoute!==base){window.scrollTo({top:0,behavior:'instant'});main.focus({preventScroll:true});}else if(section==='obra'){document.querySelector('.catalog-tools')?.scrollIntoView({block:'start'});}
+ previousRoute=base;
 }
-window.addEventListener("hashchange", render);
-const dialog = document.querySelector("#image-dialog");
-document.addEventListener("click", (event) => {
-  const category = event.target.closest("[data-category]");
-  if (category) {
-    location.hash = "/obra?tipo=" + category.dataset.category;
-    return;
-  }
-  const memoryButton = event.target.closest("[data-memory]");
-  if (memoryButton) {
-    location.hash = "/memoria?vista=" + memoryButton.dataset.memory;
-    return;
-  }
-  const button = event.target.closest("[data-enlarge]");
-  if (button) {
-    const img = document.querySelector("#large-image");
-    img.src = "assets/" + button.dataset.enlarge + ".webp";
-    img.alt = button.dataset.alt;
-    document.querySelector("#image-caption").textContent =
-      button.dataset.caption;
-    dialog.showModal();
-  }
-  if (event.target.closest(".close-image")) dialog.close();
-  if (event.target === dialog) {
-    const r = dialog.getBoundingClientRect();
-    if (
-      event.clientX < r.left ||
-      event.clientX > r.right ||
-      event.clientY < r.top ||
-      event.clientY > r.bottom
-    )
-      dialog.close();
-  }
+window.addEventListener('hashchange',render);
+document.addEventListener('submit',e=>{if(e.target.id!=='catalog-search')return;e.preventDefault();const data=new FormData(e.target),q=new URLSearchParams();for(const [k,v] of data)if(v.trim())q.set(k,v.trim());location.hash='/obra/'+e.target.dataset.type+(q.size?'?'+q:'');});
+document.addEventListener('change',e=>{if(e.target.matches('#catalog-search select'))e.target.form.requestSubmit();});
+document.addEventListener('click',e=>{
+ const view=e.target.closest('[data-view]');if(view){const w=workById(view.dataset.work),i=Number(view.dataset.view),p=w.gallery[i],button=document.querySelector('#work-main');button.querySelector('img').src='assets/'+p.image+'.webp';button.querySelector('img').alt=p.alt;button.dataset.index=i;document.querySelector('#selected-photo').textContent=`${i+1} / ${w.gallery.length} · ${p.archiveId}`;document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===view)));return;}
+ const memoryButton=e.target.closest('[data-memory]');if(memoryButton){location.hash='/memoria?vista='+memoryButton.dataset.memory;return;}
+ const gallery=e.target.closest('[data-gallery]');if(gallery){const id=gallery.dataset.gallery;const item=id.startsWith('album:')?albums.find(a=>a.id===id.slice(6)):workById(id);activeGallery=item.gallery;activeLabel=item.label||item.title;activeIndex=Number(gallery.dataset.index);showPhoto();dialog.showModal();return;}
+ const enlarge=e.target.closest('[data-enlarge]');if(enlarge){activeGallery=[{image:enlarge.dataset.enlarge,alt:enlarge.dataset.alt}];activeLabel=enlarge.dataset.caption;activeIndex=0;showPhoto();dialog.showModal();return;}
+ const step=e.target.closest('[data-step]');if(step){activeIndex=(activeIndex+Number(step.dataset.step)+activeGallery.length)%activeGallery.length;showPhoto();}
+ if(e.target.closest('.close-image'))dialog.close();
+ if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}
 });
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && menu.getAttribute("aria-expanded") === "true") {
-    headerNav.classList.remove("open");
-    menu.setAttribute("aria-expanded", "false");
-    menu.focus();
-  }
-});
+document.addEventListener('keydown',e=>{if(dialog.open&&['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();activeIndex=(activeIndex+(e.key==='ArrowLeft'?-1:1)+activeGallery.length)%activeGallery.length;showPhoto();}if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){headerNav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();}});
 render();

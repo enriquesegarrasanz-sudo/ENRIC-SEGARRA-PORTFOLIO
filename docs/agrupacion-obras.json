@@ -1,0 +1,2637 @@
+[
+  {
+    "ficha": "suspension-rosa",
+    "identificados": [
+      "ARC-014590",
+      "ARC-014591",
+      "ARC-014592",
+      "ARC-014593",
+      "ARC-014594",
+      "ARC-014595",
+      "ARC-014596",
+      "ARC-014597",
+      "ARC-014598",
+      "ARC-014599",
+      "ARC-014600",
+      "ARC-014601",
+      "ARC-014602"
+    ],
+    "publicados": [
+      "ARC-014590",
+      "ARC-014596",
+      "ARC-014600"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014603",
+    "identificados": [
+      "ARC-014603",
+      "ARC-014604",
+      "ARC-014605",
+      "ARC-014606",
+      "ARC-014607",
+      "ARC-014608",
+      "ARC-014609",
+      "ARC-014610",
+      "ARC-014611",
+      "ARC-014612",
+      "ARC-014613"
+    ],
+    "publicados": [
+      "ARC-014605",
+      "ARC-014608",
+      "ARC-014613"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014614",
+    "identificados": [
+      "ARC-014614",
+      "ARC-014615",
+      "ARC-014616",
+      "ARC-014617",
+      "ARC-014618",
+      "ARC-014619",
+      "ARC-014620",
+      "ARC-014621",
+      "ARC-014622"
+    ],
+    "publicados": [
+      "ARC-014616",
+      "ARC-014619",
+      "ARC-014622"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014624",
+    "identificados": [
+      "ARC-014624",
+      "ARC-014625",
+      "ARC-014626",
+      "ARC-014627",
+      "ARC-014628",
+      "ARC-014629",
+      "ARC-014630",
+      "ARC-014631",
+      "ARC-014632",
+      "ARC-014633",
+      "ARC-014634"
+    ],
+    "publicados": [
+      "ARC-014625",
+      "ARC-014629",
+      "ARC-014633"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "forma-verde",
+    "identificados": [
+      "ARC-014635",
+      "ARC-014636",
+      "ARC-014637",
+      "ARC-014638",
+      "ARC-014639",
+      "ARC-014640",
+      "ARC-014641",
+      "ARC-014642",
+      "ARC-014643",
+      "ARC-014644",
+      "ARC-014645",
+      "ARC-014646",
+      "ARC-014647",
+      "ARC-014648",
+      "ARC-014649",
+      "ARC-014650",
+      "ARC-014651",
+      "ARC-014652",
+      "ARC-014653",
+      "ARC-014654",
+      "ARC-014655",
+      "ARC-014656",
+      "ARC-014657",
+      "ARC-014658",
+      "ARC-009167",
+      "ARC-009168",
+      "ARC-009169",
+      "ARC-009170",
+      "ARC-009171",
+      "ARC-009172",
+      "ARC-009173",
+      "ARC-009174",
+      "ARC-009175",
+      "ARC-008847",
+      "ARC-008848",
+      "ARC-008849",
+      "ARC-008850"
+    ],
+    "publicados": [
+      "ARC-014646",
+      "ARC-014639",
+      "ARC-014650",
+      "ARC-014656",
+      "ARC-009174"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014659",
+    "identificados": [
+      "ARC-014659",
+      "ARC-014660",
+      "ARC-014661",
+      "ARC-014662",
+      "ARC-014663",
+      "ARC-014664",
+      "ARC-014665",
+      "ARC-014666",
+      "ARC-014667",
+      "ARC-014668",
+      "ARC-014669",
+      "ARC-014670",
+      "ARC-014671",
+      "ARC-014672",
+      "ARC-014673",
+      "ARC-014674",
+      "ARC-014675",
+      "ARC-014676",
+      "ARC-014677",
+      "ARC-009201",
+      "ARC-009202",
+      "ARC-009203",
+      "ARC-009204",
+      "ARC-009205",
+      "ARC-009206",
+      "ARC-009207",
+      "ARC-009208",
+      "ARC-009209",
+      "ARC-009210",
+      "ARC-009211",
+      "ARC-009212",
+      "ARC-009213",
+      "ARC-009214",
+      "ARC-009215",
+      "ARC-009216",
+      "ARC-009217",
+      "ARC-009218",
+      "ARC-009219",
+      "ARC-009220",
+      "ARC-009221",
+      "ARC-009222",
+      "ARC-009223",
+      "ARC-009224",
+      "ARC-009229",
+      "ARC-009230",
+      "ARC-009231",
+      "ARC-009232",
+      "ARC-009233",
+      "ARC-009234",
+      "ARC-009235",
+      "ARC-009236",
+      "ARC-009237",
+      "ARC-009238",
+      "ARC-009239",
+      "ARC-009240",
+      "ARC-009245",
+      "ARC-009246",
+      "ARC-009247",
+      "ARC-009248",
+      "ARC-009255",
+      "ARC-009256",
+      "ARC-009257",
+      "ARC-009258",
+      "ARC-009259",
+      "ARC-009260",
+      "ARC-009261",
+      "ARC-009262",
+      "ARC-009263",
+      "ARC-009264",
+      "ARC-008851",
+      "ARC-008937",
+      "ARC-009165",
+      "ARC-009166",
+      "ARC-009177"
+    ],
+    "publicados": [
+      "ARC-009204",
+      "ARC-014666",
+      "ARC-014673",
+      "ARC-009220",
+      "ARC-009246"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014678",
+    "identificados": [
+      "ARC-014678",
+      "ARC-014679",
+      "ARC-014680",
+      "ARC-014681",
+      "ARC-014682",
+      "ARC-014683",
+      "ARC-014684",
+      "ARC-014685",
+      "ARC-014686",
+      "ARC-014687",
+      "ARC-014688",
+      "ARC-014689",
+      "ARC-014690"
+    ],
+    "publicados": [
+      "ARC-014680",
+      "ARC-014685",
+      "ARC-014689"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014691",
+    "identificados": [
+      "ARC-014691",
+      "ARC-014692",
+      "ARC-014693",
+      "ARC-014694",
+      "ARC-014695",
+      "ARC-014696",
+      "ARC-014697",
+      "ARC-014698",
+      "ARC-014699",
+      "ARC-014700",
+      "ARC-014701",
+      "ARC-014702",
+      "ARC-014703",
+      "ARC-014704",
+      "ARC-014705",
+      "ARC-014706",
+      "ARC-014707",
+      "ARC-014708",
+      "ARC-014709",
+      "ARC-014710",
+      "ARC-014711",
+      "ARC-014712"
+    ],
+    "publicados": [
+      "ARC-014696",
+      "ARC-014701",
+      "ARC-014707",
+      "ARC-014712"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014713",
+    "identificados": [
+      "ARC-014713",
+      "ARC-014714",
+      "ARC-014715",
+      "ARC-014716",
+      "ARC-014717",
+      "ARC-014718",
+      "ARC-014719"
+    ],
+    "publicados": [
+      "ARC-014715",
+      "ARC-014718"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014720",
+    "identificados": [
+      "ARC-014720",
+      "ARC-014721",
+      "ARC-014722",
+      "ARC-014723",
+      "ARC-014724",
+      "ARC-014725"
+    ],
+    "publicados": [
+      "ARC-014722",
+      "ARC-014725"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014726",
+    "identificados": [
+      "ARC-014726",
+      "ARC-014727",
+      "ARC-014728",
+      "ARC-014729",
+      "ARC-014730",
+      "ARC-014731",
+      "ARC-014732",
+      "ARC-014733",
+      "ARC-014734",
+      "ARC-014735",
+      "ARC-014736",
+      "ARC-014737",
+      "ARC-014738",
+      "ARC-014739",
+      "ARC-014740",
+      "ARC-014741",
+      "ARC-014742",
+      "ARC-014743",
+      "ARC-014744",
+      "ARC-014745",
+      "ARC-014746",
+      "ARC-014747"
+    ],
+    "publicados": [
+      "ARC-014728",
+      "ARC-014734",
+      "ARC-014740",
+      "ARC-014746"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014748",
+    "identificados": [
+      "ARC-014748",
+      "ARC-014749",
+      "ARC-014750",
+      "ARC-014751",
+      "ARC-014752",
+      "ARC-014753",
+      "ARC-014754",
+      "ARC-014755",
+      "ARC-014756",
+      "ARC-014757",
+      "ARC-014758",
+      "ARC-014759",
+      "ARC-014760",
+      "ARC-014761",
+      "ARC-014762",
+      "ARC-014763"
+    ],
+    "publicados": [
+      "ARC-014750",
+      "ARC-014755",
+      "ARC-014761"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014764",
+    "identificados": [
+      "ARC-014764",
+      "ARC-014765",
+      "ARC-014766",
+      "ARC-014767",
+      "ARC-014768",
+      "ARC-014769",
+      "ARC-014770",
+      "ARC-014771",
+      "ARC-014772"
+    ],
+    "publicados": [
+      "ARC-014765",
+      "ARC-014768",
+      "ARC-014771"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "aros",
+    "identificados": [
+      "ARC-014773",
+      "ARC-014774",
+      "ARC-014775",
+      "ARC-014776",
+      "ARC-014777",
+      "ARC-014778",
+      "ARC-014779",
+      "ARC-014780",
+      "ARC-014781",
+      "ARC-014782",
+      "ARC-014783",
+      "ARC-014784",
+      "ARC-014785",
+      "ARC-014786",
+      "ARC-014787",
+      "ARC-014788",
+      "ARC-014789",
+      "ARC-014790",
+      "ARC-014791",
+      "ARC-014792",
+      "ARC-014793",
+      "ARC-014794",
+      "ARC-014795",
+      "ARC-014796",
+      "ARC-014797",
+      "ARC-014798",
+      "ARC-014799",
+      "ARC-014800",
+      "ARC-014801",
+      "ARC-014802",
+      "ARC-014803",
+      "ARC-014804",
+      "ARC-014805",
+      "ARC-014806",
+      "ARC-014807",
+      "ARC-014808",
+      "ARC-014809",
+      "ARC-014810",
+      "ARC-014811",
+      "ARC-014812",
+      "ARC-014813",
+      "ARC-014814",
+      "ARC-014815",
+      "ARC-014816",
+      "ARC-014817",
+      "ARC-014818",
+      "ARC-014819",
+      "ARC-014820",
+      "ARC-014623"
+    ],
+    "publicados": [
+      "ARC-014774",
+      "ARC-014783",
+      "ARC-014793",
+      "ARC-014801",
+      "ARC-014812",
+      "ARC-014819"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014821",
+    "identificados": [
+      "ARC-014821",
+      "ARC-014822",
+      "ARC-014823",
+      "ARC-014824",
+      "ARC-014825",
+      "ARC-014826",
+      "ARC-014827",
+      "ARC-014828",
+      "ARC-014829",
+      "ARC-014830",
+      "ARC-014831",
+      "ARC-014832",
+      "ARC-014833",
+      "ARC-014834",
+      "ARC-014835",
+      "ARC-014836",
+      "ARC-014837",
+      "ARC-014838",
+      "ARC-014580",
+      "ARC-014581"
+    ],
+    "publicados": [
+      "ARC-014821",
+      "ARC-014825",
+      "ARC-014831",
+      "ARC-014837",
+      "ARC-014581"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "ramas-y-color",
+    "identificados": [
+      "ARC-014847",
+      "ARC-014848",
+      "ARC-014849",
+      "ARC-014854",
+      "ARC-014855",
+      "ARC-014856",
+      "ARC-014857",
+      "ARC-014858",
+      "ARC-014859",
+      "ARC-014860",
+      "ARC-014861",
+      "ARC-014862",
+      "ARC-014863",
+      "ARC-014864",
+      "ARC-014865",
+      "ARC-014866",
+      "ARC-014896",
+      "ARC-014897",
+      "ARC-014898",
+      "ARC-014899",
+      "ARC-014900",
+      "ARC-014901",
+      "ARC-014902",
+      "ARC-014903",
+      "ARC-014904",
+      "ARC-014905",
+      "ARC-014906",
+      "ARC-014907",
+      "ARC-014908"
+    ],
+    "publicados": [
+      "ARC-014847",
+      "ARC-014856",
+      "ARC-014863",
+      "ARC-014901"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014850",
+    "identificados": [
+      "ARC-014850",
+      "ARC-014851",
+      "ARC-014852",
+      "ARC-014853",
+      "ARC-014867",
+      "ARC-014868",
+      "ARC-014869",
+      "ARC-014870",
+      "ARC-014871",
+      "ARC-014872"
+    ],
+    "publicados": [
+      "ARC-014851",
+      "ARC-014869",
+      "ARC-014872"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014879",
+    "identificados": [
+      "ARC-014879",
+      "ARC-014880",
+      "ARC-014881",
+      "ARC-014882",
+      "ARC-014883",
+      "ARC-014884",
+      "ARC-014885",
+      "ARC-014886"
+    ],
+    "publicados": [
+      "ARC-014880",
+      "ARC-014883",
+      "ARC-014886"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-014887",
+    "identificados": [
+      "ARC-014887",
+      "ARC-014888",
+      "ARC-014889",
+      "ARC-014890",
+      "ARC-014891",
+      "ARC-014892",
+      "ARC-014893",
+      "ARC-014894",
+      "ARC-014895",
+      "ARC-014909"
+    ],
+    "publicados": [
+      "ARC-014890",
+      "ARC-014894",
+      "ARC-014909"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-008941",
+    "identificados": [
+      "ARC-008941",
+      "ARC-008942",
+      "ARC-008943",
+      "ARC-008944",
+      "ARC-008945",
+      "ARC-008844",
+      "ARC-008845",
+      "ARC-008949"
+    ],
+    "publicados": [
+      "ARC-008941",
+      "ARC-008943",
+      "ARC-008949"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "moviles-008911",
+    "identificados": [
+      "ARC-008911",
+      "ARC-008912",
+      "ARC-008913",
+      "ARC-008914",
+      "ARC-008915",
+      "ARC-008916",
+      "ARC-008917",
+      "ARC-008918",
+      "ARC-008919",
+      "ARC-008920",
+      "ARC-008921",
+      "ARC-008922",
+      "ARC-008923",
+      "ARC-008924",
+      "ARC-008925",
+      "ARC-008926",
+      "ARC-008927",
+      "ARC-008928",
+      "ARC-008929",
+      "ARC-008930",
+      "ARC-008931",
+      "ARC-008932",
+      "ARC-008933",
+      "ARC-008934",
+      "ARC-008935",
+      "ARC-008936",
+      "ARC-008952",
+      "ARC-008953",
+      "ARC-008954",
+      "ARC-008955"
+    ],
+    "publicados": [
+      "ARC-008954",
+      "ARC-008914",
+      "ARC-008924",
+      "ARC-008934",
+      "ARC-008952"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014490",
+    "identificados": [
+      "ARC-014490",
+      "ARC-014491"
+    ],
+    "publicados": [
+      "ARC-014490"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014492",
+    "identificados": [
+      "ARC-014492",
+      "ARC-014493",
+      "ARC-008519"
+    ],
+    "publicados": [
+      "ARC-014492"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014494",
+    "identificados": [
+      "ARC-014494",
+      "ARC-014495",
+      "ARC-008521"
+    ],
+    "publicados": [
+      "ARC-014494"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014496",
+    "identificados": [
+      "ARC-014496",
+      "ARC-014497",
+      "ARC-014498",
+      "ARC-008520"
+    ],
+    "publicados": [
+      "ARC-014496"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014502",
+    "identificados": [
+      "ARC-014502",
+      "ARC-014503",
+      "ARC-014504"
+    ],
+    "publicados": [
+      "ARC-014502"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014505",
+    "identificados": [
+      "ARC-014505",
+      "ARC-014506",
+      "ARC-008513",
+      "ARC-008514",
+      "ARC-008515",
+      "ARC-008516",
+      "ARC-008517",
+      "ARC-008518",
+      "ARC-008618"
+    ],
+    "publicados": [
+      "ARC-008513",
+      "ARC-008515",
+      "ARC-008517"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014507",
+    "identificados": [
+      "ARC-014507",
+      "ARC-014508",
+      "ARC-008552",
+      "ARC-008553"
+    ],
+    "publicados": [
+      "ARC-014507",
+      "ARC-008552"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014509",
+    "identificados": [
+      "ARC-014509",
+      "ARC-014510",
+      "ARC-014511",
+      "ARC-014512",
+      "ARC-014513",
+      "ARC-014514"
+    ],
+    "publicados": [
+      "ARC-014509",
+      "ARC-014512",
+      "ARC-014514"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "volumen-veta",
+    "identificados": [
+      "ARC-014515",
+      "ARC-014516",
+      "ARC-014517",
+      "ARC-014518",
+      "ARC-014519",
+      "ARC-014520",
+      "ARC-014521",
+      "ARC-014522"
+    ],
+    "publicados": [
+      "ARC-014516",
+      "ARC-014519",
+      "ARC-014522"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014523",
+    "identificados": [
+      "ARC-014523",
+      "ARC-014524",
+      "ARC-014525",
+      "ARC-014526",
+      "ARC-014527"
+    ],
+    "publicados": [
+      "ARC-014523",
+      "ARC-014525",
+      "ARC-014527"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "volumen-abierto",
+    "identificados": [
+      "ARC-014528",
+      "ARC-014529",
+      "ARC-014530",
+      "ARC-014531",
+      "ARC-014532"
+    ],
+    "publicados": [
+      "ARC-014528",
+      "ARC-014530",
+      "ARC-014532"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014533",
+    "identificados": [
+      "ARC-014533",
+      "ARC-014534",
+      "ARC-014535",
+      "ARC-014536",
+      "ARC-014537",
+      "ARC-014538",
+      "ARC-014539",
+      "ARC-008538",
+      "ARC-008539",
+      "ARC-008540",
+      "ARC-008541",
+      "ARC-008542"
+    ],
+    "publicados": [
+      "ARC-014533",
+      "ARC-014536",
+      "ARC-014539",
+      "ARC-008541"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014540",
+    "identificados": [
+      "ARC-014540",
+      "ARC-014541",
+      "ARC-014542",
+      "ARC-014543",
+      "ARC-014544",
+      "ARC-014545",
+      "ARC-014546"
+    ],
+    "publicados": [
+      "ARC-014540",
+      "ARC-014543",
+      "ARC-014546"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014547",
+    "identificados": [
+      "ARC-014547",
+      "ARC-014548",
+      "ARC-014549",
+      "ARC-014550",
+      "ARC-014551"
+    ],
+    "publicados": [
+      "ARC-014547",
+      "ARC-014549",
+      "ARC-014551"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014552",
+    "identificados": [
+      "ARC-014552",
+      "ARC-014553",
+      "ARC-014554",
+      "ARC-014555",
+      "ARC-014556",
+      "ARC-014557",
+      "ARC-014558"
+    ],
+    "publicados": [
+      "ARC-014552",
+      "ARC-014555",
+      "ARC-014558"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014560",
+    "identificados": [
+      "ARC-014560",
+      "ARC-014561",
+      "ARC-008939",
+      "ARC-009179"
+    ],
+    "publicados": [
+      "ARC-014560"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014562",
+    "identificados": [
+      "ARC-014562",
+      "ARC-014563",
+      "ARC-007113",
+      "ARC-007118",
+      "ARC-007119",
+      "ARC-007120",
+      "ARC-007132",
+      "ARC-007581",
+      "ARC-007762",
+      "ARC-007763"
+    ],
+    "publicados": [
+      "ARC-014562"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014564",
+    "identificados": [
+      "ARC-014564",
+      "ARC-007764",
+      "ARC-008841",
+      "ARC-008869",
+      "ARC-008938",
+      "ARC-009101",
+      "ARC-009103",
+      "ARC-009164",
+      "ARC-009178",
+      "ARC-007004",
+      "ARC-007068",
+      "ARC-007069",
+      "ARC-007070",
+      "ARC-007071",
+      "ARC-007072",
+      "ARC-007073",
+      "ARC-007074",
+      "ARC-007075",
+      "ARC-007076",
+      "ARC-007077",
+      "ARC-007078",
+      "ARC-007079",
+      "ARC-007080",
+      "ARC-007081",
+      "ARC-007082",
+      "ARC-007083",
+      "ARC-007115",
+      "ARC-007123",
+      "ARC-007124",
+      "ARC-007127"
+    ],
+    "publicados": [
+      "ARC-014564",
+      "ARC-007764",
+      "ARC-009178"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014565",
+    "identificados": [
+      "ARC-014565"
+    ],
+    "publicados": [
+      "ARC-014565"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014566",
+    "identificados": [
+      "ARC-014566",
+      "ARC-014567"
+    ],
+    "publicados": [
+      "ARC-014566"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014568",
+    "identificados": [
+      "ARC-014568",
+      "ARC-014569"
+    ],
+    "publicados": [
+      "ARC-014568"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014570",
+    "identificados": [
+      "ARC-014570"
+    ],
+    "publicados": [
+      "ARC-014570"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014571",
+    "identificados": [
+      "ARC-014571"
+    ],
+    "publicados": [
+      "ARC-014571"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014572",
+    "identificados": [
+      "ARC-014572"
+    ],
+    "publicados": [
+      "ARC-014572"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014573",
+    "identificados": [
+      "ARC-014573"
+    ],
+    "publicados": [
+      "ARC-014573"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014574",
+    "identificados": [
+      "ARC-014574"
+    ],
+    "publicados": [
+      "ARC-014574"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014575",
+    "identificados": [
+      "ARC-014575"
+    ],
+    "publicados": [
+      "ARC-014575"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014576",
+    "identificados": [
+      "ARC-014576",
+      "ARC-008940",
+      "ARC-009095",
+      "ARC-009180"
+    ],
+    "publicados": [
+      "ARC-014576"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014577",
+    "identificados": [
+      "ARC-014577"
+    ],
+    "publicados": [
+      "ARC-014577"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-014578",
+    "identificados": [
+      "ARC-014578",
+      "ARC-014579"
+    ],
+    "publicados": [
+      "ARC-014578"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008507",
+    "identificados": [
+      "ARC-008507",
+      "ARC-008508",
+      "ARC-008509",
+      "ARC-008510",
+      "ARC-008511",
+      "ARC-008512",
+      "ARC-008613",
+      "ARC-007144",
+      "ARC-007145",
+      "ARC-007146",
+      "ARC-007147",
+      "ARC-007148",
+      "ARC-007149",
+      "ARC-007150",
+      "ARC-007151",
+      "ARC-007152",
+      "ARC-007153",
+      "ARC-007154",
+      "ARC-007155",
+      "ARC-007156",
+      "ARC-007157",
+      "ARC-007592",
+      "ARC-007593",
+      "ARC-007594",
+      "ARC-007595",
+      "ARC-007596",
+      "ARC-007597",
+      "ARC-007598",
+      "ARC-007599",
+      "ARC-007600",
+      "ARC-007601",
+      "ARC-007602",
+      "ARC-007603",
+      "ARC-007604",
+      "ARC-007605"
+    ],
+    "publicados": [
+      "ARC-008507",
+      "ARC-008512",
+      "ARC-007147"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008523",
+    "identificados": [
+      "ARC-008523",
+      "ARC-008524"
+    ],
+    "publicados": [
+      "ARC-008523"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008525",
+    "identificados": [
+      "ARC-008525",
+      "ARC-008526"
+    ],
+    "publicados": [
+      "ARC-008525"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008529",
+    "identificados": [
+      "ARC-008529",
+      "ARC-008530",
+      "ARC-008531"
+    ],
+    "publicados": [
+      "ARC-008529",
+      "ARC-008531"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008532",
+    "identificados": [
+      "ARC-008532",
+      "ARC-008533",
+      "ARC-008534"
+    ],
+    "publicados": [
+      "ARC-008532",
+      "ARC-008534"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008535",
+    "identificados": [
+      "ARC-008535",
+      "ARC-008536",
+      "ARC-008537"
+    ],
+    "publicados": [
+      "ARC-008535",
+      "ARC-008537"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008543",
+    "identificados": [
+      "ARC-008543",
+      "ARC-008544"
+    ],
+    "publicados": [
+      "ARC-008543",
+      "ARC-008544"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008768",
+    "identificados": [
+      "ARC-008768",
+      "ARC-008777",
+      "ARC-008778",
+      "ARC-008780"
+    ],
+    "publicados": [
+      "ARC-008768",
+      "ARC-008777"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008788",
+    "identificados": [
+      "ARC-008788",
+      "ARC-008789",
+      "ARC-008790",
+      "ARC-008791",
+      "ARC-008792",
+      "ARC-008793",
+      "ARC-008794",
+      "ARC-008795",
+      "ARC-008796",
+      "ARC-008797",
+      "ARC-008798",
+      "ARC-008799",
+      "ARC-008800",
+      "ARC-008801",
+      "ARC-008802",
+      "ARC-008803",
+      "ARC-008804",
+      "ARC-008805",
+      "ARC-008806",
+      "ARC-008807",
+      "ARC-008808",
+      "ARC-008809"
+    ],
+    "publicados": [
+      "ARC-008788",
+      "ARC-008792",
+      "ARC-008803",
+      "ARC-008807"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008810",
+    "identificados": [
+      "ARC-008810",
+      "ARC-008811",
+      "ARC-008812",
+      "ARC-008813",
+      "ARC-008814",
+      "ARC-008815",
+      "ARC-008842"
+    ],
+    "publicados": [
+      "ARC-008810",
+      "ARC-008812",
+      "ARC-008814"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008816",
+    "identificados": [
+      "ARC-008816",
+      "ARC-008817",
+      "ARC-008818",
+      "ARC-008819",
+      "ARC-008820",
+      "ARC-008821",
+      "ARC-008822",
+      "ARC-008823",
+      "ARC-008824",
+      "ARC-008825",
+      "ARC-008826",
+      "ARC-008827",
+      "ARC-008828",
+      "ARC-008829",
+      "ARC-008830",
+      "ARC-008719",
+      "ARC-008720",
+      "ARC-008721",
+      "ARC-008722",
+      "ARC-008723",
+      "ARC-008724",
+      "ARC-008725",
+      "ARC-008726",
+      "ARC-008727"
+    ],
+    "publicados": [
+      "ARC-008826",
+      "ARC-008816",
+      "ARC-008825",
+      "ARC-008829"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008907",
+    "identificados": [
+      "ARC-008907",
+      "ARC-008908",
+      "ARC-008909",
+      "ARC-008910"
+    ],
+    "publicados": [
+      "ARC-008907",
+      "ARC-008909"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-011828",
+    "identificados": [
+      "ARC-011828",
+      "ARC-011829",
+      "ARC-011830",
+      "ARC-011831",
+      "ARC-011832",
+      "ARC-011833",
+      "ARC-011834",
+      "ARC-011835",
+      "ARC-011836",
+      "ARC-011837",
+      "ARC-011838",
+      "ARC-011839",
+      "ARC-011840",
+      "ARC-011841",
+      "ARC-011842",
+      "ARC-011843",
+      "ARC-011844",
+      "ARC-011845",
+      "ARC-011846"
+    ],
+    "publicados": [
+      "ARC-011828",
+      "ARC-011832",
+      "ARC-011834",
+      "ARC-011838"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-007134",
+    "identificados": [
+      "ARC-007134",
+      "ARC-007135",
+      "ARC-007136",
+      "ARC-007137",
+      "ARC-007138",
+      "ARC-007139",
+      "ARC-007140",
+      "ARC-007141",
+      "ARC-007142",
+      "ARC-007143",
+      "ARC-007582",
+      "ARC-007583",
+      "ARC-007584",
+      "ARC-007585",
+      "ARC-007586",
+      "ARC-007587",
+      "ARC-007588",
+      "ARC-007589",
+      "ARC-007590",
+      "ARC-007591"
+    ],
+    "publicados": [
+      "ARC-007134",
+      "ARC-007137",
+      "ARC-007141"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-007158",
+    "identificados": [
+      "ARC-007158",
+      "ARC-007159",
+      "ARC-007160",
+      "ARC-007161",
+      "ARC-007162",
+      "ARC-007606",
+      "ARC-007607",
+      "ARC-007608",
+      "ARC-007609",
+      "ARC-007610"
+    ],
+    "publicados": [
+      "ARC-007158",
+      "ARC-007161"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "escultura-008728",
+    "identificados": [
+      "ARC-008728",
+      "ARC-008729",
+      "ARC-008730",
+      "ARC-008731",
+      "ARC-008732",
+      "ARC-008733",
+      "ARC-008734",
+      "ARC-008735",
+      "ARC-008736",
+      "ARC-008737",
+      "ARC-008738",
+      "ARC-008739",
+      "ARC-008740",
+      "ARC-008741",
+      "ARC-008742",
+      "ARC-007752",
+      "ARC-007753",
+      "ARC-007754",
+      "ARC-007755",
+      "ARC-007756",
+      "ARC-007757",
+      "ARC-007758",
+      "ARC-007759",
+      "ARC-007760",
+      "ARC-007761",
+      "ARC-006738",
+      "ARC-006756",
+      "ARC-006954",
+      "ARC-006982",
+      "ARC-007114",
+      "ARC-007121",
+      "ARC-007125",
+      "ARC-007126",
+      "ARC-007128",
+      "ARC-007129",
+      "ARC-007130",
+      "ARC-007131",
+      "ARC-008857",
+      "ARC-008858",
+      "ARC-008831",
+      "ARC-008832"
+    ],
+    "publicados": [
+      "ARC-007757",
+      "ARC-008731",
+      "ARC-008738",
+      "ARC-008831"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015079",
+    "identificados": [
+      "ARC-015079",
+      "ARC-015166"
+    ],
+    "publicados": [
+      "ARC-015079"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015080",
+    "identificados": [
+      "ARC-015080",
+      "ARC-015170"
+    ],
+    "publicados": [
+      "ARC-015080"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "trazo-rojo",
+    "identificados": [
+      "ARC-015081",
+      "ARC-015171"
+    ],
+    "publicados": [
+      "ARC-015081"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015082",
+    "identificados": [
+      "ARC-015082"
+    ],
+    "publicados": [
+      "ARC-015082"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015083",
+    "identificados": [
+      "ARC-015083",
+      "ARC-015174"
+    ],
+    "publicados": [
+      "ARC-015083"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015084",
+    "identificados": [
+      "ARC-015084",
+      "ARC-015175"
+    ],
+    "publicados": [
+      "ARC-015084"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015085",
+    "identificados": [
+      "ARC-015085",
+      "ARC-015177"
+    ],
+    "publicados": [
+      "ARC-015085"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015086",
+    "identificados": [
+      "ARC-015086",
+      "ARC-015179"
+    ],
+    "publicados": [
+      "ARC-015086"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015087",
+    "identificados": [
+      "ARC-015087",
+      "ARC-015180"
+    ],
+    "publicados": [
+      "ARC-015087"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015088",
+    "identificados": [
+      "ARC-015088",
+      "ARC-015184"
+    ],
+    "publicados": [
+      "ARC-015088"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015089",
+    "identificados": [
+      "ARC-015089"
+    ],
+    "publicados": [
+      "ARC-015089"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015090",
+    "identificados": [
+      "ARC-015090"
+    ],
+    "publicados": [
+      "ARC-015090"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015091",
+    "identificados": [
+      "ARC-015091"
+    ],
+    "publicados": [
+      "ARC-015091"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015092",
+    "identificados": [
+      "ARC-015092"
+    ],
+    "publicados": [
+      "ARC-015092"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015093",
+    "identificados": [
+      "ARC-015093"
+    ],
+    "publicados": [
+      "ARC-015093"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015094",
+    "identificados": [
+      "ARC-015094"
+    ],
+    "publicados": [
+      "ARC-015094"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015095",
+    "identificados": [
+      "ARC-015095"
+    ],
+    "publicados": [
+      "ARC-015095"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015096",
+    "identificados": [
+      "ARC-015096",
+      "ARC-015097",
+      "ARC-015189"
+    ],
+    "publicados": [
+      "ARC-015096"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015098",
+    "identificados": [
+      "ARC-015098",
+      "ARC-015190"
+    ],
+    "publicados": [
+      "ARC-015098"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "trazo-negro",
+    "identificados": [
+      "ARC-015099",
+      "ARC-015100",
+      "ARC-015101"
+    ],
+    "publicados": [
+      "ARC-015099"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015102",
+    "identificados": [
+      "ARC-015102",
+      "ARC-015191",
+      "ARC-015192",
+      "ARC-015193"
+    ],
+    "publicados": [
+      "ARC-015102"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015103",
+    "identificados": [
+      "ARC-015103",
+      "ARC-015104",
+      "ARC-015194",
+      "ARC-015195",
+      "ARC-015196",
+      "ARC-015197"
+    ],
+    "publicados": [
+      "ARC-015103"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015105",
+    "identificados": [
+      "ARC-015105",
+      "ARC-015198"
+    ],
+    "publicados": [
+      "ARC-015105"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015172",
+    "identificados": [
+      "ARC-015172"
+    ],
+    "publicados": [
+      "ARC-015172"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015173",
+    "identificados": [
+      "ARC-015173"
+    ],
+    "publicados": [
+      "ARC-015173"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015176",
+    "identificados": [
+      "ARC-015176"
+    ],
+    "publicados": [
+      "ARC-015176"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015178",
+    "identificados": [
+      "ARC-015178"
+    ],
+    "publicados": [
+      "ARC-015178"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015181",
+    "identificados": [
+      "ARC-015181"
+    ],
+    "publicados": [
+      "ARC-015181"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015182",
+    "identificados": [
+      "ARC-015182"
+    ],
+    "publicados": [
+      "ARC-015182"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015183",
+    "identificados": [
+      "ARC-015183"
+    ],
+    "publicados": [
+      "ARC-015183"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015185",
+    "identificados": [
+      "ARC-015185"
+    ],
+    "publicados": [
+      "ARC-015185"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015186",
+    "identificados": [
+      "ARC-015186"
+    ],
+    "publicados": [
+      "ARC-015186"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-015187",
+    "identificados": [
+      "ARC-015187"
+    ],
+    "publicados": [
+      "ARC-015187"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-008527",
+    "identificados": [
+      "ARC-008527"
+    ],
+    "publicados": [
+      "ARC-008527"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "dibujo-008528",
+    "identificados": [
+      "ARC-008528"
+    ],
+    "publicados": [
+      "ARC-008528"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "arca",
+    "identificados": [
+      "ARC-015106"
+    ],
+    "publicados": [
+      "ARC-015106"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015107",
+    "identificados": [
+      "ARC-015107"
+    ],
+    "publicados": [
+      "ARC-015107"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015108",
+    "identificados": [
+      "ARC-015108",
+      "ARC-015117"
+    ],
+    "publicados": [
+      "ARC-015108"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015109",
+    "identificados": [
+      "ARC-015109"
+    ],
+    "publicados": [
+      "ARC-015109"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015110",
+    "identificados": [
+      "ARC-015110"
+    ],
+    "publicados": [
+      "ARC-015110"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015111",
+    "identificados": [
+      "ARC-015111"
+    ],
+    "publicados": [
+      "ARC-015111"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015112",
+    "identificados": [
+      "ARC-015112",
+      "ARC-008612"
+    ],
+    "publicados": [
+      "ARC-015112"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015113",
+    "identificados": [
+      "ARC-015113",
+      "ARC-008611"
+    ],
+    "publicados": [
+      "ARC-015113"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015114",
+    "identificados": [
+      "ARC-015114",
+      "ARC-015116"
+    ],
+    "publicados": [
+      "ARC-015114"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015115",
+    "identificados": [
+      "ARC-015115"
+    ],
+    "publicados": [
+      "ARC-015115"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015118",
+    "identificados": [
+      "ARC-015118"
+    ],
+    "publicados": [
+      "ARC-015118"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015119",
+    "identificados": [
+      "ARC-015119"
+    ],
+    "publicados": [
+      "ARC-015119"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015120",
+    "identificados": [
+      "ARC-015120",
+      "ARC-015121"
+    ],
+    "publicados": [
+      "ARC-015120"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015122",
+    "identificados": [
+      "ARC-015122",
+      "ARC-008610"
+    ],
+    "publicados": [
+      "ARC-015122"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015123",
+    "identificados": [
+      "ARC-015123"
+    ],
+    "publicados": [
+      "ARC-015123"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015124",
+    "identificados": [
+      "ARC-015124"
+    ],
+    "publicados": [
+      "ARC-015124"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015125",
+    "identificados": [
+      "ARC-015125"
+    ],
+    "publicados": [
+      "ARC-015125"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015126",
+    "identificados": [
+      "ARC-015126"
+    ],
+    "publicados": [
+      "ARC-015126"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "gato",
+    "identificados": [
+      "ARC-015127"
+    ],
+    "publicados": [
+      "ARC-015127"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015128",
+    "identificados": [
+      "ARC-015128"
+    ],
+    "publicados": [
+      "ARC-015128"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015129",
+    "identificados": [
+      "ARC-015129"
+    ],
+    "publicados": [
+      "ARC-015129"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015130",
+    "identificados": [
+      "ARC-015130"
+    ],
+    "publicados": [
+      "ARC-015130"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015131",
+    "identificados": [
+      "ARC-015131"
+    ],
+    "publicados": [
+      "ARC-015131"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015132",
+    "identificados": [
+      "ARC-015132"
+    ],
+    "publicados": [
+      "ARC-015132"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015133",
+    "identificados": [
+      "ARC-015133"
+    ],
+    "publicados": [
+      "ARC-015133"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015134",
+    "identificados": [
+      "ARC-015134"
+    ],
+    "publicados": [
+      "ARC-015134"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015135",
+    "identificados": [
+      "ARC-015135"
+    ],
+    "publicados": [
+      "ARC-015135"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015136",
+    "identificados": [
+      "ARC-015136"
+    ],
+    "publicados": [
+      "ARC-015136"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015137",
+    "identificados": [
+      "ARC-015137"
+    ],
+    "publicados": [
+      "ARC-015137"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015138",
+    "identificados": [
+      "ARC-015138"
+    ],
+    "publicados": [
+      "ARC-015138"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015139",
+    "identificados": [
+      "ARC-015139",
+      "ARC-015140"
+    ],
+    "publicados": [
+      "ARC-015139"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015141",
+    "identificados": [
+      "ARC-015141"
+    ],
+    "publicados": [
+      "ARC-015141"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015142",
+    "identificados": [
+      "ARC-015142"
+    ],
+    "publicados": [
+      "ARC-015142"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015143",
+    "identificados": [
+      "ARC-015143",
+      "ARC-015144"
+    ],
+    "publicados": [
+      "ARC-015143"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015145",
+    "identificados": [
+      "ARC-015145"
+    ],
+    "publicados": [
+      "ARC-015145"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015146",
+    "identificados": [
+      "ARC-015146"
+    ],
+    "publicados": [
+      "ARC-015146"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015147",
+    "identificados": [
+      "ARC-015147"
+    ],
+    "publicados": [
+      "ARC-015147"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015148",
+    "identificados": [
+      "ARC-015148"
+    ],
+    "publicados": [
+      "ARC-015148"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015149",
+    "identificados": [
+      "ARC-015149"
+    ],
+    "publicados": [
+      "ARC-015149"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015150",
+    "identificados": [
+      "ARC-015150",
+      "ARC-015151"
+    ],
+    "publicados": [
+      "ARC-015150"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015152",
+    "identificados": [
+      "ARC-015152"
+    ],
+    "publicados": [
+      "ARC-015152"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015153",
+    "identificados": [
+      "ARC-015153"
+    ],
+    "publicados": [
+      "ARC-015153"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015154",
+    "identificados": [
+      "ARC-015154"
+    ],
+    "publicados": [
+      "ARC-015154"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015155",
+    "identificados": [
+      "ARC-015155"
+    ],
+    "publicados": [
+      "ARC-015155"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015156",
+    "identificados": [
+      "ARC-015156"
+    ],
+    "publicados": [
+      "ARC-015156"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015157",
+    "identificados": [
+      "ARC-015157"
+    ],
+    "publicados": [
+      "ARC-015157"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015158",
+    "identificados": [
+      "ARC-015158"
+    ],
+    "publicados": [
+      "ARC-015158"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015159",
+    "identificados": [
+      "ARC-015159"
+    ],
+    "publicados": [
+      "ARC-015159"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015160",
+    "identificados": [
+      "ARC-015160"
+    ],
+    "publicados": [
+      "ARC-015160"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015161",
+    "identificados": [
+      "ARC-015161"
+    ],
+    "publicados": [
+      "ARC-015161"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015162",
+    "identificados": [
+      "ARC-015162"
+    ],
+    "publicados": [
+      "ARC-015162"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015163",
+    "identificados": [
+      "ARC-015163"
+    ],
+    "publicados": [
+      "ARC-015163"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015164",
+    "identificados": [
+      "ARC-015164"
+    ],
+    "publicados": [
+      "ARC-015164"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015165",
+    "identificados": [
+      "ARC-015165"
+    ],
+    "publicados": [
+      "ARC-015165"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015167",
+    "identificados": [
+      "ARC-015167"
+    ],
+    "publicados": [
+      "ARC-015167"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015168",
+    "identificados": [
+      "ARC-015168"
+    ],
+    "publicados": [
+      "ARC-015168"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015169",
+    "identificados": [
+      "ARC-015169"
+    ],
+    "publicados": [
+      "ARC-015169"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015199",
+    "identificados": [
+      "ARC-015199",
+      "ARC-014499",
+      "ARC-014500",
+      "ARC-014501"
+    ],
+    "publicados": [
+      "ARC-015199"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015200",
+    "identificados": [
+      "ARC-015200",
+      "ARC-015201"
+    ],
+    "publicados": [
+      "ARC-015200"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015202",
+    "identificados": [
+      "ARC-015202",
+      "ARC-015203"
+    ],
+    "publicados": [
+      "ARC-015202"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015204",
+    "identificados": [
+      "ARC-015204",
+      "ARC-015205"
+    ],
+    "publicados": [
+      "ARC-015204"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015206",
+    "identificados": [
+      "ARC-015206",
+      "ARC-015207",
+      "ARC-015208",
+      "ARC-015209",
+      "ARC-015210"
+    ],
+    "publicados": [
+      "ARC-015206"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015211",
+    "identificados": [
+      "ARC-015211",
+      "ARC-015212"
+    ],
+    "publicados": [
+      "ARC-015211"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015213",
+    "identificados": [
+      "ARC-015213",
+      "ARC-015214",
+      "ARC-015215",
+      "ARC-015216",
+      "ARC-015217"
+    ],
+    "publicados": [
+      "ARC-015213"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015218",
+    "identificados": [
+      "ARC-015218",
+      "ARC-015219",
+      "ARC-015220"
+    ],
+    "publicados": [
+      "ARC-015218"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015221",
+    "identificados": [
+      "ARC-015221",
+      "ARC-015222"
+    ],
+    "publicados": [
+      "ARC-015221"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015223",
+    "identificados": [
+      "ARC-015223",
+      "ARC-015224",
+      "ARC-015225",
+      "ARC-008487"
+    ],
+    "publicados": [
+      "ARC-015223"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015226",
+    "identificados": [
+      "ARC-015226",
+      "ARC-015227"
+    ],
+    "publicados": [
+      "ARC-015226"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015228",
+    "identificados": [
+      "ARC-015228",
+      "ARC-015229",
+      "ARC-015230",
+      "ARC-015231",
+      "ARC-015232",
+      "ARC-015233",
+      "ARC-009009",
+      "ARC-009027",
+      "ARC-009065"
+    ],
+    "publicados": [
+      "ARC-015228"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015234",
+    "identificados": [
+      "ARC-015234",
+      "ARC-015235",
+      "ARC-014559"
+    ],
+    "publicados": [
+      "ARC-015234"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015236",
+    "identificados": [
+      "ARC-015236",
+      "ARC-015237",
+      "ARC-015238",
+      "ARC-015239",
+      "ARC-009008"
+    ],
+    "publicados": [
+      "ARC-015236"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015240",
+    "identificados": [
+      "ARC-015240",
+      "ARC-015241",
+      "ARC-015242"
+    ],
+    "publicados": [
+      "ARC-015240"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-015243",
+    "identificados": [
+      "ARC-015243",
+      "ARC-015244"
+    ],
+    "publicados": [
+      "ARC-015243"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "ruedo",
+    "identificados": [
+      "ARC-015245"
+    ],
+    "publicados": [
+      "ARC-015245"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  },
+  {
+    "ficha": "pintura-008492",
+    "identificados": [
+      "ARC-008492"
+    ],
+    "publicados": [
+      "ARC-008492"
+    ],
+    "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
+  }
+]

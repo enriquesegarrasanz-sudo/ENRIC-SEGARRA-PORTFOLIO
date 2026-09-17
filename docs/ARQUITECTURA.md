@@ -16,7 +16,7 @@ Son registros en archivos de texto, sin base de datos ni cuentas. La estructura 
 
 ## Recorridos
 
-Una pieza tiene una ficha única. Desde Obra se filtra por disciplina y se abre la ficha; desde ella se accede al capítulo correspondiente. La memoria se recorre por capítulos, cronología o documentos.
+Una pieza tiene una ficha única. Desde Obra se entra en una de cuatro colecciones; dentro se filtra por serie y se busca por texto o referencia. La ficha contiene una galería y enlaza al capítulo. La memoria se recorre por capítulos visuales, cronología o álbumes. Las galerías son matrices de imágenes con identificación ARC y miniatura. Los álbumes pertenecen a capítulos y conservan el contexto de autoría.
 
 Capítulos: Aprender el oficio; Construir formas; Pintar otros mundos; Aprender y crear con otros; Proyectos compartidos; Exponer y abrir espacios; Seguir creando.
 
@@ -24,9 +24,9 @@ Capítulos: Aprender el oficio; Construir formas; Pintar otros mundos; Aprender 
 
 Los textos se basan en la entrevista familiar incluida en la base editorial v2 y en las aclaraciones de Enrike. Las descripciones visuales son lecturas editoriales, no títulos oficiales ni declaraciones de intención atribuidas al artista.
 
-Las agrupaciones de pintura son provisionales. Los capítulos sobre proyectos colectivos y gestión cultural tienen texto inicial; aún no se ha atribuido documentación específica a cada episodio. La cronología distingue la fecha de nacimiento recordada en la entrevista del resto de acontecimientos sin fecha contrastada.
+Las agrupaciones de pintura son provisionales. Los capítulos de proyectos y exposiciones enlazan álbumes identificados por sus carpetas de origen, con fechas y participantes pendientes de completar. La cronología distingue la fecha de nacimiento recordada en la entrevista del resto de acontecimientos sin fecha contrastada.
 
-El archivo público empieza con dos documentos visuales; no reproduce el inventario familiar completo. Los siguientes hitos son seleccionar material para desarrollar los episodios históricos y completar las fichas con el artista.
+El archivo público incluye nueve álbumes; no reproduce el inventario familiar completo. El alcance y los criterios están documentados en CATALOGO.md.
 
 ## Dirección visual
 
