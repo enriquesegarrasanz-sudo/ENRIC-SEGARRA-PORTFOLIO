@@ -23,6 +23,7 @@
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Tratamiento fotográfico expositivo aplicado a MOV-001 a MOV-013, con galerías ampliadas y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
+- Completada la presentación expositiva de MOV-014 a MOV-033. Además, MOV-016 a MOV-019 y MOV-022 a MOV-033 incorporan una segunda vista de naturaleza de acabado editorial: la ficha abre con la obra en presentación de galería y continúa con la instalación en árbol o jardín, sin elementos domésticos que distraigan de la pieza.
 - Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.
 - Portada con una introducción más clara al artista y tres recorridos equilibrados. Cabecera horizontal sobre blanco, menú móvil y fotografías completas.
 - 221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. Son 39 fichas más; se conservan las referencias anteriores y se reúnen las distintas perspectivas.
@@ -41,7 +42,7 @@ Los nombres de obras y las familias siguen siendo descripciones editoriales prov
 
 Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. La web se publica mediante GitHub Pages, exclusivamente desde `dist/`.
 
-La edición y mejora individual incluye 49 portadas de Escultura, las 80 imágenes principales y 80 miniaturas revisadas de pintura, el tratamiento expositivo de MOV-001 a MOV-013 y las 16 vistas históricas de «Evolución 1984–2004». Las instalaciones de Escultura fotografiadas en naturaleza conservan su contexto original. El resto de vistas y categorías continúa pendiente para fases posteriores.
+La edición y mejora individual incluye 49 portadas de Escultura, las 80 imágenes principales y 80 miniaturas revisadas de pintura, las 33 portadas expositivas de Móviles, 16 segundas vistas orgánicas de naturaleza de Móviles y las 16 vistas históricas de «Evolución 1984–2004». Las instalaciones de Escultura fotografiadas en naturaleza conservan su contexto original. El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 
