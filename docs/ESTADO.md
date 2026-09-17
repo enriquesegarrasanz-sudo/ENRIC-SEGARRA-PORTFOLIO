@@ -4,6 +4,7 @@
 
 ## Entregado
 
+- Tratamiento de galería aplicado a 49 portadas de Escultura: fondo blanco neutro, luz difusa, formato 1536 × 1024, miniaturas 768 × 512 y grano fotográfico fino. Las instalaciones ESC-047 a ESC-052 mantienen las fotografías originales en naturaleza; no se altera ese contexto.
 - Revisadas de nuevo las 80 fichas de pintura, con 80 imágenes principales y 80 miniaturas de segunda versión. Once fotografías se orientan manualmente según rostros, animales, signos y firmas. El recorte se rehace con criterio conservador: no simplifica ni reconstruye contornos y conserva cualquier píxel dudoso de la fotografía original. Los soportes rectangulares y circulares se delimitan solo por su borde físico exterior; las piezas irregulares mantienen su silueta real. La IA se limita al fondo maestro vacío. Originales y primera versión quedan conservados.
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
@@ -26,7 +27,7 @@ Los nombres de obras y las familias siguen siendo descripciones editoriales prov
 
 Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. La web se publica mediante GitHub Pages, exclusivamente desde `dist/`.
 
-La edición y mejora individual incluye las 80 imágenes principales y 80 miniaturas revisadas de pintura, una primera tanda de seis imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». El resto de vistas y categorías continúa pendiente para fases posteriores.
+La edición y mejora individual incluye 49 portadas de Escultura, las 80 imágenes principales y 80 miniaturas revisadas de pintura, una primera tanda de seis imágenes principales de móviles y las 16 vistas históricas de «Evolución 1984–2004». Las instalaciones de Escultura fotografiadas en naturaleza conservan su contexto original. El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 

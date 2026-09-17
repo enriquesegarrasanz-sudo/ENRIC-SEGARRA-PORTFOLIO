@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Escultura · tratamiento de galería — 2026-09-17
+
+- Renovadas las portadas de 49 fichas de escultura con fondo blanco neutro, iluminación museística, encuadre horizontal 3:2 y grano fotográfico fino. Las seis instalaciones fotografiadas en naturaleza (ESC-047 a ESC-052) conservan sus imágenes originales porque el entorno forma parte de la obra. Originales y referencias ARC intactos; procedencia registrada.
+
 ## Revisión de fidelidad de Pintura — 2026-09-17
 
 - Rehechas las 80 imágenes principales y sus miniaturas desde las fotografías originales. Se corrigen manualmente once orientaciones evidentes y se elimina el recorte que podía confundir pintura clara, huecos o líneas finas con el fondo. La segunda versión conserva geometría, proporciones, marco, firma y píxeles originales; la IA se limita a un fondo maestro vacío y más limpio. Originales y primera versión de estudio permanecen intactos.
