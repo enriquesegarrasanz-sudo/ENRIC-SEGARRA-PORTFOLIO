@@ -1217,16 +1217,16 @@ export const catalogue = [
         "contentKey": "97f3e6af9b3ba2f3a7c3341867ee524adb38b5a89cc1f942d555e4316c7cc667"
       },
       {
-        "image": "arc-008515",
-        "thumb": "thumb-008515",
+        "image": "gallery-esc-006-view-2",
+        "thumb": "thumb-gallery-esc-006-view-2",
         "archiveId": "ARC-008515",
         "alt": "Volumen de planos curvos. Fotografía 2",
         "sourceName": "DSCF0083.JPG",
         "contentKey": "ec990a6f7cf3362d5011201ce2f15e18ab47a33e85e4579b9cb109740d10ec6c"
       },
       {
-        "image": "arc-008517",
-        "thumb": "thumb-008517",
+        "image": "gallery-esc-006-view-3",
+        "thumb": "thumb-gallery-esc-006-view-3",
         "archiveId": "ARC-008517",
         "alt": "Volumen de planos curvos. Fotografía 3",
         "sourceName": "DSCF0085.JPG",
@@ -1285,16 +1285,16 @@ export const catalogue = [
         "contentKey": "ARC-014509"
       },
       {
-        "image": "arc-014512",
-        "thumb": "thumb-014512",
+        "image": "gallery-esc-008-view-2",
+        "thumb": "thumb-gallery-esc-008-view-2",
         "archiveId": "ARC-014512",
         "alt": "Figura clara de perfil orgánico. Fotografía 2",
         "sourceName": "_DSC3667.ARW",
         "contentKey": "ARC-014512"
       },
       {
-        "image": "arc-014514",
-        "thumb": "thumb-014514",
+        "image": "gallery-esc-008-view-3",
+        "thumb": "thumb-gallery-esc-008-view-3",
         "archiveId": "ARC-014514",
         "alt": "Figura clara de perfil orgánico. Fotografía 3",
         "sourceName": "_DSC3669.ARW",
@@ -1323,16 +1323,16 @@ export const catalogue = [
         "contentKey": "ARC-014516"
       },
       {
-        "image": "arc-014519",
-        "thumb": "thumb-014519",
+        "image": "gallery-esc-009-view-2",
+        "thumb": "thumb-gallery-esc-009-view-2",
         "archiveId": "ARC-014519",
         "alt": "Volumen de formas curvas. Fotografía 2",
         "sourceName": "_DSC3674.ARW",
         "contentKey": "ARC-014519"
       },
       {
-        "image": "arc-014522",
-        "thumb": "thumb-014522",
+        "image": "gallery-esc-009-view-3",
+        "thumb": "thumb-gallery-esc-009-view-3",
         "archiveId": "ARC-014522",
         "alt": "Volumen de formas curvas. Fotografía 3",
         "sourceName": "_DSC3677.ARW",
@@ -1361,16 +1361,16 @@ export const catalogue = [
         "contentKey": "ARC-014523"
       },
       {
-        "image": "arc-014525",
-        "thumb": "thumb-014525",
+        "image": "gallery-esc-010-view-2",
+        "thumb": "thumb-gallery-esc-010-view-2",
         "archiveId": "ARC-014525",
         "alt": "Volumen de remate bifurcado. Fotografía 2",
         "sourceName": "_DSC3680.ARW",
         "contentKey": "ARC-014525"
       },
       {
-        "image": "arc-014527",
-        "thumb": "thumb-014527",
+        "image": "gallery-esc-010-view-3",
+        "thumb": "thumb-gallery-esc-010-view-3",
         "archiveId": "ARC-014527",
         "alt": "Volumen de remate bifurcado. Fotografía 3",
         "sourceName": "_DSC3682.ARW",
@@ -1399,16 +1399,16 @@ export const catalogue = [
         "contentKey": "8594fdf84572fc460fce675fb6027d03d9d59cb5bc7df7fb73a57955643dea0e"
       },
       {
-        "image": "arc-014530",
-        "thumb": "thumb-014530",
+        "image": "gallery-esc-011-view-2",
+        "thumb": "thumb-gallery-esc-011-view-2",
         "archiveId": "ARC-014530",
         "alt": "Volumen claro con aberturas. Fotografía 2",
         "sourceName": "_DSC3685.ARW",
         "contentKey": "ARC-014530"
       },
       {
-        "image": "arc-014532",
-        "thumb": "thumb-014532",
+        "image": "gallery-esc-011-view-3",
+        "thumb": "thumb-gallery-esc-011-view-3",
         "archiveId": "ARC-014532",
         "alt": "Volumen claro con aberturas. Fotografía 3",
         "sourceName": "_DSC3687.ARW",
@@ -1437,16 +1437,16 @@ export const catalogue = [
         "contentKey": "ARC-014533"
       },
       {
-        "image": "arc-014536",
-        "thumb": "thumb-014536",
+        "image": "gallery-esc-012-view-2",
+        "thumb": "thumb-gallery-esc-012-view-2",
         "archiveId": "ARC-014536",
         "alt": "Figura de perfiles ascendentes. Fotografía 2",
         "sourceName": "_DSC3691.ARW",
         "contentKey": "ARC-014536"
       },
       {
-        "image": "arc-014539",
-        "thumb": "thumb-014539",
+        "image": "gallery-esc-012-view-3",
+        "thumb": "thumb-gallery-esc-012-view-3",
         "archiveId": "ARC-014539",
         "alt": "Figura de perfiles ascendentes. Fotografía 3",
         "sourceName": "_DSC3695.ARW",
@@ -2335,24 +2335,24 @@ export const catalogue = [
         "contentKey": "ARC-011828"
       },
       {
-        "image": "arc-011832",
-        "thumb": "thumb-011832",
+        "image": "gallery-esc-043-view-2",
+        "thumb": "thumb-gallery-esc-043-view-2",
         "archiveId": "ARC-011832",
         "alt": "Flores de engranajes. Fotografía 2",
         "sourceName": "DSC04194.jpg",
         "contentKey": "ARC-011832"
       },
       {
-        "image": "arc-011834",
-        "thumb": "thumb-011834",
+        "image": "gallery-esc-043-view-3",
+        "thumb": "thumb-gallery-esc-043-view-3",
         "archiveId": "ARC-011834",
         "alt": "Flores de engranajes. Fotografía 3",
         "sourceName": "DSC04196.JPG",
         "contentKey": "ARC-011834"
       },
       {
-        "image": "arc-011838",
-        "thumb": "thumb-011838",
+        "image": "gallery-esc-043-view-4",
+        "thumb": "thumb-gallery-esc-043-view-4",
         "archiveId": "ARC-011838",
         "alt": "Flores de engranajes. Fotografía 4",
         "sourceName": "DSC04200.jpg",

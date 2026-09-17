@@ -2,10 +2,18 @@
 
 17 de septiembre de 2026.
 
+## Ajuste visual · 18 de septiembre de 2026
+
+- El índice de Arte infantil presenta sus cinco apartados mediante bloques con imágenes horizontales grandes, contadores y llamadas a explorar.
+- «Textos y propuestas» muestra una imagen de referencia por lectura antes de entrar al documento, reduciendo la dependencia del texto para orientarse.
+- Se mantienen IDs, galerías, autorías, referencias y enlaces existentes.
+
 ## Entregado
 
 - La web adopta «SEGARRA Y GARIBO» como nombre artístico público en su portada, navegación, créditos, perfil y metadatos. Las referencias archivísticas con la denominación histórica se mantienen para preservar su procedencia.
 
+- En curso la normalización de vistas secundarias de Escultura. La primera tanda incorpora doce versiones de ESC-006, ESC-008, ESC-009, ESC-010, ESC-011 y ESC-012, conservando referencias ARC, proporciones y originales. Las fotografías en contexto de ESC-047 a ESC-052 permanecen documentales.
+- ESC-043 («Flores de engranajes») ya presenta sus cuatro vistas con el mismo fondo blanco cálido-neutro y una luz editorial coherente. Las tres vistas secundarias mantienen sus dimensiones y encuadres originales, se incorporan con nuevas referencias de activo y conservan intactas las fotografías ARC de partida.
 - Índice de exposiciones rediseñado como recorrido horizontal, con acceso a las vistas completas de sala, lugar y fecha cuando constan. La presentación de los dibujos se unifica y se incorporan los recursos de la Sala d’Exposicions de les Belles Arts, conservando sus contextos documentales.
 - Tratamiento de galería aplicado a 49 portadas de Escultura: fondo blanco neutro, luz difusa, formato 1536 × 1024, miniaturas 768 × 512 y grano fotográfico fino. Las instalaciones ESC-047 a ESC-052 mantienen las fotografías originales en naturaleza; no se altera ese contexto.
 - Revisadas de nuevo las 80 fichas de pintura, con 80 imágenes principales y 80 miniaturas de segunda versión. Once fotografías se orientan manualmente según rostros, animales, signos y firmas. El recorte se rehace con criterio conservador: no simplifica ni reconstruye contornos y conserva cualquier píxel dudoso de la fotografía original. Los soportes rectangulares y circulares se delimitan solo por su borde físico exterior; las piezas irregulares mantienen su silueta real. La IA se limita al fondo maestro vacío. Originales y primera versión quedan conservados.
