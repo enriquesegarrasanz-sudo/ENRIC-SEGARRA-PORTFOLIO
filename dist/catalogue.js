@@ -21,16 +21,16 @@ export const catalogue = [
         "contentKey": "ARC-014590"
       },
       {
-        "image": "arc-014596",
-        "thumb": "thumb-014596",
+        "image": "gallery-014596",
+        "thumb": "gallery-014596-thumb",
         "archiveId": "ARC-014596",
         "alt": "Composición suspendida en rosa. Fotografía 2",
         "sourceName": "DSC02380.ARW",
         "contentKey": "ARC-014596"
       },
       {
-        "image": "arc-014600",
-        "thumb": "thumb-014600",
+        "image": "gallery-014600",
+        "thumb": "gallery-014600-thumb",
         "archiveId": "ARC-014600",
         "alt": "Composición suspendida en rosa. Fotografía 3",
         "sourceName": "DSC02384.ARW",

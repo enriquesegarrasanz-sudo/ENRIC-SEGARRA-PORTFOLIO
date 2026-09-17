@@ -18721,7 +18721,7 @@
     "asset": "assets/gallery-014590.webp",
     "archivo_id": "ARC-014590",
     "original": "MÓBIILES\\DSC02374.ARW",
-    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "transformacion": "Versión expositiva 2:3 generada desde la fotografía seleccionada: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería y centrado óptico; obra, color, desgaste y elementos preservados",
     "width": 1024,
     "height": 1536
   },
@@ -18737,7 +18737,7 @@
     "asset": "assets/gallery-014605.webp",
     "archivo_id": "ARC-014605",
     "original": "MÓBIILES\\DSC02389.ARW",
-    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "transformacion": "Versión expositiva 2:3 generada desde la fotografía seleccionada: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería y centrado óptico; obra, color, desgaste y elementos preservados",
     "width": 1024,
     "height": 1536
   },
@@ -18753,7 +18753,7 @@
     "asset": "assets/gallery-014616.webp",
     "archivo_id": "ARC-014616",
     "original": "MÓBIILES\\DSC02400.ARW",
-    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "transformacion": "Versión expositiva 2:3 de detalle generada desde la fotografía seleccionada: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería y centrado óptico; recorte, obra, color, desgaste y elementos preservados",
     "width": 1024,
     "height": 1536
   },
@@ -18769,7 +18769,7 @@
     "asset": "assets/gallery-014625.webp",
     "archivo_id": "ARC-014625",
     "original": "MÓBIILES\\DSC02409.ARW",
-    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "transformacion": "Versión expositiva 2:3 generada desde la fotografía seleccionada: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería y centrado óptico; obra, color, desgaste y elementos preservados",
     "width": 1024,
     "height": 1536
   },
@@ -18785,7 +18785,7 @@
     "asset": "assets/gallery-014646.webp",
     "archivo_id": "ARC-014646",
     "original": "MÓBIILES\\DSC02430.ARW",
-    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
+    "transformacion": "Versión expositiva 2:3 generada desde la fotografía seleccionada: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería y centrado óptico; obra, color, desgaste y elementos preservados",
     "width": 1024,
     "height": 1536
   },
@@ -18801,16 +18801,16 @@
     "asset": "assets/gallery-009204.webp",
     "archivo_id": "ARC-009204",
     "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03779.jpg",
-    "transformacion": "Versión expositiva generada desde la fotografía seleccionada: fondo continuo blanco cálido, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
-    "width": 725,
-    "height": 2170
+    "transformacion": "Versión expositiva 2:3 generada desde la fotografía seleccionada: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería y centrado óptico adaptado a una pieza excepcionalmente alta; obra, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
   },
   {
     "asset": "assets/gallery-009204-thumb.webp",
     "archivo_id": "ARC-009204",
     "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03779.jpg",
     "transformacion": "Miniatura proporcional de la versión expositiva; original y versión sin retoque conservados",
-    "width": 187,
+    "width": 373,
     "height": 560
   },
   {
@@ -19180,6 +19180,38 @@
     "transformacion": "Miniatura proporcional de la versión editorial profesional; original y versión web anterior conservados",
     "width": 560,
     "height": 373
+  },
+  {
+    "asset": "assets/gallery-014596.webp",
+    "archivo_id": "ARC-014596",
+    "original": "MÓBIILES\\DSC02380.ARW",
+    "transformacion": "Vista alternativa MOV-001 en lienzo 2:3: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería, escala y centrado óptico coherentes; ángulo, obra, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014596-thumb.webp",
+    "archivo_id": "ARC-014596",
+    "original": "MÓBIILES\\DSC02380.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original y versión web anterior conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014600.webp",
+    "archivo_id": "ARC-014600",
+    "original": "MÓBIILES\\DSC02384.ARW",
+    "transformacion": "Vista alternativa MOV-001 en lienzo 2:3: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería, escala y centrado óptico coherentes; ángulo, obra, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014600-thumb.webp",
+    "archivo_id": "ARC-014600",
+    "original": "MÓBIILES\\DSC02384.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original y versión web anterior conservados",
+    "width": 373,
+    "height": 560
   },
   {
     "asset": "assets/colomina-009174-focus-professional.webp",
