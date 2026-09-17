@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Palacio Colomina · edición fotográfica profesional — 2026-09-17
+
+- Sustituidas las siete vistas del álbum por versiones de presentación profesional con luz, color, perspectiva, nitidez y composición revisados. La vista frontal se reencuadró con criterio editorial y la escultura negra de alambre se corrigió para aparecer completa, sin extremos cortados. Originales y versiones web anteriores conservados; procedencia registrada.
+
 ## Restauración fotográfica de Evolución 1984–2004 — 2026-09-17
 
 - Las 16 vistas de sala reciben nuevas versiones no generativas con balance de blancos, rango tonal recuperado, ruido reducido, ampliación proporcional, enfoque moderado y grano fino. Se conservan encuadre, geometría, obras, originales y versiones web anteriores.

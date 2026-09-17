@@ -4,6 +4,7 @@
 
 ## Entregado
 
+- Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
 - Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.

@@ -6806,59 +6806,59 @@ export const albums = [
     "chapter": "exponer-abrir-espacios",
     "text": "Vistas conservadas en la carpeta «Expo Palacio Colomina». La selección recorre la presencia de los móviles y los relieves de Enric en el espacio expositivo. Otras obras visibles forman parte del contexto de la exposición.",
     "type": "Exposiciones",
-    "image": "arc-009086",
+    "image": "colomina-009086-professional",
     "gallery": [
       {
-        "image": "arc-009086",
-        "thumb": "thumb-009086",
+        "image": "colomina-009086-professional",
+        "thumb": "thumb-colomina-009086-professional",
         "archiveId": "ARC-009086",
         "alt": "La escultura en la sala. Fotografía 1",
         "sourceName": "_DX_6993.jpeg",
         "contentKey": "ARC-009086"
       },
       {
-        "image": "arc-009160",
-        "thumb": "thumb-009160",
+        "image": "colomina-009160-professional",
+        "thumb": "thumb-colomina-009160-professional",
         "archiveId": "ARC-009160",
         "alt": "La escultura en la sala. Fotografía 2",
         "sourceName": "IMG_20180321_113148.jpg",
         "contentKey": "6f9d4cc50697720addc63e372d1c65d44851b0a1f0d5789bc3e6c8205b0cf7a9"
       },
       {
-        "image": "arc-009176",
-        "thumb": "thumb-009176",
+        "image": "colomina-009176-professional",
+        "thumb": "thumb-colomina-009176-professional",
         "archiveId": "ARC-009176",
         "alt": "La escultura en la sala. Fotografía 3",
         "sourceName": "IMG_20180321_113617.jpg",
         "contentKey": "5fb5e1d6d372c37679a477a706c5e79496bf2107bd7db625de4b4d2e829328aa"
       },
       {
-        "image": "arc-009174",
-        "thumb": "thumb-009174",
+        "image": "colomina-009174-professional",
+        "thumb": "thumb-colomina-009174-professional",
         "archiveId": "ARC-009174",
         "alt": "La escultura en la sala. Fotografía 4",
         "sourceName": "IMG_20180321_113546.jpg",
         "contentKey": "90963c1bb5ced9fb36e8f302be1632a2c01d4294fb04897af39590c7a5dba32c"
       },
       {
-        "image": "arc-009181",
-        "thumb": "thumb-009181",
+        "image": "colomina-009181-professional",
+        "thumb": "thumb-colomina-009181-professional",
         "archiveId": "ARC-009181",
         "alt": "La escultura en la sala. Fotografía 5",
         "sourceName": "IMG_20180411_085832.jpg",
         "contentKey": "f3c9d4954c07b7a1983d701dc9faba38f71c88b4355121c0344d8b28bc733c72"
       },
       {
-        "image": "arc-008954",
-        "thumb": "thumb-008954",
+        "image": "colomina-008954-professional",
+        "thumb": "thumb-colomina-008954-professional",
         "archiveId": "ARC-008954",
         "alt": "La escultura en la sala. Fotografía 6",
         "sourceName": "IMG_20180324_120243.jpg",
         "contentKey": "9d15389f181f3fcbbdeeb63fdb40cf2cec666f0217459cb4b7bf8ceb0e437f15"
       },
       {
-        "image": "arc-009085",
-        "thumb": "thumb-009085",
+        "image": "colomina-009085-professional",
+        "thumb": "thumb-colomina-009085-professional",
         "archiveId": "ARC-009085",
         "alt": "La escultura en la sala. Fotografía 7",
         "sourceName": "_DX_6987.jpeg",
