@@ -4,6 +4,7 @@
 
 ## Ajuste visual · 18 de septiembre de 2026
 
+- La portada se concentra en una selección de obra, sin retrato: un móvil suspendido, dos esculturas, una pintura y la relación de la obra con la naturaleza forman una única composición. El nombre del artista y los accesos permanecen deliberadamente secundarios. Los recorridos inferiores conservan imágenes grandes y rótulos breves.
 - El índice de Arte infantil se presenta como un mosaico de cinco accesos, con fotografías horizontales y la misma jerarquía editorial del índice de Exposiciones. La imagen inicial es ahora una composición colectiva; «Textos y propuestas» se muestra como «Ideas para crear», sin retirar los documentos vinculados.
 - Rehechas las fotografías de catálogo de dibujo que presentaban cortes demasiado ajustados. Las nuevas versiones muestran la hoja o el marco completos, respetan las piezas verticales y corrigen la iluminación de forma global, sin alterar los trazos, firmas ni originales.
 - El índice de Arte infantil presenta sus cinco apartados mediante bloques con imágenes horizontales grandes, contadores y llamadas a explorar.

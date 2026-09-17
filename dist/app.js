@@ -81,52 +81,16 @@ let currentGallery = [],
   routeKey = "";
 
 function home() {
-  const hero =
-    works.find((w) => w.id === "moviles-015028") ||
-    works.find((w) => w.id === "moviles-015000");
-  const doors = [
-    [
-      "Obra",
-      "/obra",
-      "Escultura, móviles, pintura y dibujo. Familias de obras y perspectivas reunidas en cada ficha.",
-      "arc-013430",
-      `${works.length} fichas`,
-    ],
-    [
-      "Arte infantil",
-      "/arte-infantil",
-      "Las obras de los participantes, el trabajo en el aula y la experiencia de aprender con las manos.",
-      "arc-014341",
-      `${educationAlbums().length} colecciones y álbumes`,
-    ],
-    [
-      "Trayectoria",
-      "/memoria",
-      "Los comienzos, las exposiciones y la educación artística. Un recorrido por las imágenes y la memoria.",
-      "arc-009490",
-      "Vida y obra",
-    ],
+  const routes = [
+    ["Obra", "/obra", "movil-naturaleza", "Móviles, escultura, pintura y dibujo"],
+    ["Arte infantil", "/arte-infantil", "arc-014341", "Crear y aprender con otros"],
+    ["Exposiciones", "/exposiciones", "evolucion-013392-restored", "Obras en diálogo con un espacio"],
+    ["Trayectoria", "/memoria", "naturaleza-conjunto", "Una obra entre los árboles"],
+    ["Archivo visual", "/imagenes", "gatos", "Pintura de la colección"],
   ];
-  return `<section class="welcome"><div class="welcome-copy"><p class="eyebrow">Obra y memoria</p><h1>Enric Segarra</h1><p class="welcome-role">Escultura, pintura y dibujo.<br>Creación y educación artística.</p><p>Una práctica que nace del oficio y de la curiosidad por las formas. El volumen, la línea y el color abren caminos entre los materiales, la naturaleza y la imaginación.</p><p>Este archivo reúne la obra personal, las exposiciones y una trayectoria dedicada también a acompañar la creación de otros. En el presente, los móviles y las esculturas suspendidas continúan esa búsqueda.</p><div class="welcome-links">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div></div>${a("/obra/" + hero.id, `<figure class="welcome-image">${img(hero.image, hero.alt, true)}<figcaption><span>${esc(hero.label)}</span><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</section><section class="home-doors" aria-label="Recorridos principales">${doors.map(([title, path, text, image, meta], i) => `<article>${a(path, `<div class="door-image">${img(image, title)}</div><div class="door-title"><span class="reference">${num(i + 1)}</span><h2>${title}</h2>${arrow}</div>`)}<p>${text}</p><span class="reference">${meta}</span></article>`).join("")}</section><section class="section">${sectionHead("Cuatro maneras de construir una imagen", "/obra", "Todo el catálogo")}<div class="category-index">${categories
-    .slice(1)
-    .map((c, i) => {
-      const w = works.find((w) => w.category === c.id);
-      return a(
-        "/obra/" + c.id,
-        `<span class="reference">${num(i + 1)}</span><h3>${esc(c.label)}</h3><span>${works.filter((w) => w.category === c.id).length} obras ${arrow}</span>${img(w.thumb, w.alt)}`,
-      );
-    })
-    .join(
-      "",
-    )}</div></section><section class="archive-invitation"><div><p class="eyebrow">Archivo visual</p><h2>Todas las imágenes,<br>muchas formas de mirar.</h2><p>Busca una pieza, recorre una exposición o reúne las imágenes de un taller. Cada fotografía conserva el acceso a su contexto.</p>${a("/imagenes", "Abrir el archivo de imágenes " + arrow, "text-link")}</div><div class="archive-links">${[
-    [
-      "Exposiciones",
-      "/exposiciones",
-      "Obra propia, muestras colectivas y educación.",
-    ],
-  ]
-    .map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`))
-    .join("")}</div></section>`;
+  const tile = (path, cls, image, alt, label) =>
+    a(path, `<figure class="cover-tile">${img(image, alt, true)}<figcaption>${esc(label)} <span aria-hidden="true">↗</span></figcaption></figure>`, cls);
+  return `<section class="home-cover" aria-labelledby="home-title"><header class="home-cover-copy"><p class="eyebrow">Archivo de obra y memoria</p><h1 id="home-title">Enric Segarra</h1><p>Escultura, móviles, pintura y dibujo.</p>${a("/obra", "Entrar en la obra " + arrow, "home-cover-link")}</header><div class="cover-mosaic" aria-label="Selección de obras de Enric Segarra">${tile("/obra/moviles", "cover-mobile", "movil-rosa", "Móvil suspendido con elementos rosas", "Móviles")}${tile("/obra/escultura", "cover-sculpture", "escultura-madera", "Escultura vertical de madera", "Escultura")}${tile("/obra/pintura", "cover-painting", "arcas", "Pintura circular con figuras y arquitectura", "Pintura")}${tile("/memoria", "cover-landscape", "naturaleza-conjunto", "Intervención de móviles de colores en un árbol", "Obra y naturaleza")}${tile("/obra/escultura", "cover-structure", "escultura-clara", "Escultura clara sobre fondo neutro", "Forma y materia")}</div></section><section class="home-routes" aria-labelledby="routes-title"><header><p class="eyebrow">Entrar en el archivo</p><h2 id="routes-title">Recorridos</h2></header><div class="route-grid">${routes.map(([title, path, image, alt], i) => a(path, `<article class="route-card route-${i + 1}">${img(image, alt)}<div><span class="reference">${num(i + 1)}</span><h3>${esc(title)}</h3><span aria-hidden="true">↗</span></div></article>`)).join("")}</div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {

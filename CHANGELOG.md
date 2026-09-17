@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Portada · selección de obra — 2026-09-18
+
+- La portada deja de apoyarse en un retrato o una sola pieza: presenta una selección visual de móviles, escultura de madera, escultura clara, pintura y una intervención en la naturaleza.
+- El nombre y la entrada al catálogo se reducen a una cabecera discreta para que las obras sean el primer elemento de lectura.
+- Los accesos a los recorridos mantienen una presentación fotográfica y reducen los textos de orientación a lo imprescindible.
+
 ## Arte infantil · mosaico editorial — 2026-09-18
 
 - El índice de Arte infantil adopta el mismo mosaico editorial de Exposiciones: cinco accesos con imágenes apaisadas, contexto breve y llamadas a recorrer cada apartado.
