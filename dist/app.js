@@ -87,7 +87,6 @@ function home() {
     ["Arte infantil", "/arte-infantil", `${educationAlbums().length} colecciones`],
     ["Exposiciones", "/exposiciones", "Archivo de muestras"],
     ["Trayectoria", "/memoria", "Vida y obra"],
-    ["Proyectos", "/proyectos", "Trabajo compartido"],
     ["Archivo visual", "/imagenes", "1.226 imágenes"],
     ["Artista", "/artista", "Perfil y práctica"],
     ["Contacto", "/contacto", "Información profesional"],
@@ -99,7 +98,7 @@ function home() {
       `<article class="home-category-card"><div class="home-category-art">${img(w.thumb, w.alt)}</div><div class="home-category-meta"><span class="reference">${num(i + 1)}</span><h2>${esc(c.label)}</h2><span>${works.filter((work) => work.category === c.id).length} obras ${arrow}</span></div></article>`,
     );
   }).join("");
-  return `<section class="home-cover"><div class="cover-art">${a("/obra/" + hero.id, `<figure class="cover-image"><div class="cover-image-wrap">${img(hero.image, hero.alt, true)}<span class="cover-index">01 / ${works.length}</span></div><figcaption><div><span class="cover-caption-label">Obra destacada</span><strong>${esc(hero.label)}</strong></div><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</div><div class="cover-copy"><p class="eyebrow">Archivo vivo · 1959 — presente</p><h1>SEGARRA<span>Y GARIBO</span></h1><p class="cover-lead">Escultura, pintura, dibujo y educación artística.</p><p class="cover-note">Una obra hecha de formas, materiales, color y curiosidad. Un archivo familiar para mirar, recordar y seguir descubriendo.</p><div class="cover-actions">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div><div class="home-index"><div class="home-index-head"><span>Entrar en el archivo</span><span>08 apartados</span></div><div class="home-index-grid">${homeSections.map(([title, path, meta], i) => a(path, `<span class="reference">${num(i + 1)}</span><span class="home-index-title">${title}</span><span class="home-index-meta">${meta}</span>${arrow}`, "home-index-link")).join("")}</div></div></div></section><section class="home-disciplines"><div class="home-disciplines-head"><div><p class="eyebrow">La obra, por dentro</p><h2>Cuatro maneras de construir una imagen.</h2></div>${a("/obra", "Ver todo el catálogo " + arrow, "text-link")}</div><div class="home-category-grid">${disciplines}</div></section><section class="archive-invitation"><div><p class="eyebrow">Archivo visual</p><h2>Todas las imágenes,<br>muchas formas de mirar.</h2><p>Busca una pieza, recorre una exposición o reúne las imágenes de un taller. Cada fotografía conserva el acceso a su contexto.</p>${a("/imagenes", "Abrir el archivo de imágenes " + arrow, "text-link")}</div><div class="archive-links">${[["Exposiciones", "/exposiciones", "Obra propia, muestras colectivas y educación."], ["Proyectos compartidos", "/proyectos", "El agua, el dragón y los encuentros."]].map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`)).join("")}</div></section>`;
+  return `<section class="home-cover"><div class="cover-art">${a("/obra/" + hero.id, `<figure class="cover-image"><div class="cover-image-wrap">${img(hero.image, hero.alt, true)}<span class="cover-index">01 / ${works.length}</span></div><figcaption><div><span class="cover-caption-label">Obra destacada</span><strong>${esc(hero.label)}</strong></div><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</div><div class="cover-copy"><p class="eyebrow">Archivo vivo · 1959 — presente</p><h1>SEGARRA<span>Y GARIBO</span></h1><p class="cover-lead">Escultura, pintura, dibujo y educación artística.</p><p class="cover-note">Una obra hecha de formas, materiales, color y curiosidad. Un archivo familiar para mirar, recordar y seguir descubriendo.</p><div class="cover-actions">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div><div class="home-index"><div class="home-index-head"><span>Entrar en el archivo</span><span>07 apartados</span></div><div class="home-index-grid">${homeSections.map(([title, path, meta], i) => a(path, `<span class="reference">${num(i + 1)}</span><span class="home-index-title">${title}</span><span class="home-index-meta">${meta}</span>${arrow}`, "home-index-link")).join("")}</div></div></div></section><section class="home-disciplines"><div class="home-disciplines-head"><div><p class="eyebrow">La obra, por dentro</p><h2>Cuatro maneras de construir una imagen.</h2></div>${a("/obra", "Ver todo el catálogo " + arrow, "text-link")}</div><div class="home-category-grid">${disciplines}</div></section><section class="archive-invitation"><div><p class="eyebrow">Archivo visual</p><h2>Todas las imágenes,<br>muchas formas de mirar.</h2><p>Busca una pieza, recorre una exposición o reúne las imágenes de un taller. Cada fotografía conserva el acceso a su contexto.</p>${a("/imagenes", "Abrir el archivo de imágenes " + arrow, "text-link")}</div><div class="archive-links">${[["Exposiciones", "/exposiciones", "Obra propia, muestras colectivas y educación."]].map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`)).join("")}</div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -244,7 +243,7 @@ function education(params) {
     talleres: "arc-005506",
     exposiciones: "arc-002472",
     formacion: "arc-005944",
-    textos: readings[0].image,
+    textos: "arc-000043",
   };
   return (
     head(
@@ -273,7 +272,7 @@ function readingIndex() {
 }
 function readingPage(r) {
   return (
-    trail("/arte-infantil?seccion=textos", "Textos y propuestas", r.kind) +
+    trail("/arte-infantil?seccion=textos", "Ideas para crear", r.kind) +
     head(r.kind, r.title, r.subtitle) +
     `<div class="article-layout"><aside>${img(r.image, r.title)}<p>${esc(r.authors)}</p><p class="reference">Documento ${esc(r.reference)}</p><p class="note">Síntesis editorial del documento conservado en el archivo. No es una transcripción.</p></aside><article class="reading-body"><p class="article-intro">${esc(r.intro)}</p>${r.sections.map(([t, p]) => `<section><h2>${esc(t)}</h2><p>${esc(p)}</p></section>`).join("")}${a("/archivo/" + r.related, "Ver las imágenes relacionadas " + arrow, "text-link")}</article></div>`
   );
@@ -283,7 +282,6 @@ const chapterImages = {
   "construir-formas": "escultura-madera",
   "pintar-mundos": "gatos",
   "crear-con-otros": "arc-002472",
-  "proyectos-compartidos": "arc-009962",
   "exponer-abrir-espacios": "arc-009086",
   "seguir-creando": "arc-014873",
 };
@@ -544,17 +542,10 @@ function attachJourneyEvents() {
   );
 }
 
-function projects() {
-  const c = chapters.find((x) => x.id === "proyectos-compartidos");
-  return (
-    head("Crear con otros", "Proyectos compartidos", c.short) +
-    `<section class="feature"><div>${img("arc-009962", "Archivo expositivo de Signo de Agua", true)}</div><div><p class="eyebrow">Agua · creación · educación</p><h2>El agua como<br>punto de encuentro.</h2><p>${esc(c.paragraphs[0])}</p>${a("/archivo/signo-agua", "Ver el archivo de Signo de Agua " + arrow, "text-link")}</div></section><div class="prose"><h2>Signo de Agua y la memoria del proyecto</h2><p>Las fotografías conservadas bajo el nombre Signo de Agua muestran una exposición y sus encuentros. La denominación Propósito del Agua procede del relato del artista. Ambas referencias se mantienen visibles mientras se documenta su relación exacta.</p><h2>Dragonians</h2><p>${esc(c.paragraphs[1])}</p><p>Las piezas del catálogo vinculadas a dragones y relatos se reúnen a continuación. Los materiales de otros participantes se conservan como documentación del proyecto y no se atribuyen a Enric.</p></div><section class="section">${sectionHead("Dragonians en las salas")}${albumGrid(albums.filter((al) => ["dragonians-casa-libro", "sant-jordi-estivella"].includes(al.id)))}</section><section class="section">${sectionHead("Obras del catálogo")}${workGrid(works.filter((w) => w.series === "Dragones y relatos"))}</section><div class="end-link">${a("/memoria/exponer-abrir-espacios", "Exponer y abrir espacios " + arrow)}</div>`
-  );
-}
 function artist() {
   return (
     head("El artista", "SEGARRA Y GARIBO", site.intro) +
-    `<section class="artist-layout">${img("retrato", "SEGARRA Y GARIBO con una de sus esculturas", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, SEGARRA Y GARIBO desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística, los proyectos compartidos y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones y proyectos"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
+    `<section class="artist-layout">${img("retrato", "SEGARRA Y GARIBO con una de sus esculturas", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, SEGARRA Y GARIBO desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
   );
 }
 function contact() {
@@ -632,9 +623,6 @@ function render({ keepScroll = false } = {}) {
   } else if (section === "exposiciones") {
     html = exhibitions(params);
     title = "Exposiciones";
-  } else if (section === "proyectos") {
-    html = projects();
-    title = "Proyectos";
   } else if (section === "artista") {
     html = artist();
     title = "Artista";

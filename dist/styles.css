@@ -2595,6 +2595,60 @@ main {
   .reading-image { height: 190px; }
 }
 /* Ajustes comprobados en la revisión móvil. */
+.education-opening > figure {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #f4f3ef url("assets/arc-000043.webp") center / cover no-repeat;
+}
+.education-opening > figure img {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+}
+.education-directory {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px 22px;
+  padding: 26px 0 18px;
+}
+.education-directory > a {
+  display: block;
+  min-width: 0;
+  padding: 0 0 18px;
+}
+.education-directory-image {
+  min-height: 0;
+  aspect-ratio: 16 / 10;
+}
+.education-directory-image img {
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+}
+.education-directory-copy {
+  padding: 15px 0 0;
+}
+.education-directory-copy .reference {
+  margin-bottom: 13px;
+}
+.education-directory-copy h2 {
+  font-size: clamp(21px, 1.7vw, 29px);
+  margin-bottom: 12px;
+}
+.education-directory-copy p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.education-directory-copy .directory-link {
+  margin-top: 16px;
+}
+@media (max-width: 760px) {
+  .education-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 16px; }
+}
+@media (max-width: 520px) {
+  .education-directory { grid-template-columns: 1fr; gap: 26px; }
+}
 .education-opening {
   grid-template-columns: 1fr 1.35fr;
   gap: 8%;

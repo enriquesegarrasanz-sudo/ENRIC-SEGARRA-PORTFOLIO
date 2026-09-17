@@ -5,7 +5,7 @@ export const educationSections = [
   { id: "talleres", label: "Talleres" },
   { id: "formacion", label: "Formación docente" },
   { id: "exposiciones", label: "Exposiciones" },
-  { id: "textos", label: "Textos y propuestas" },
+  { id: "textos", label: "Ideas para crear" },
 ];
 export const educationIntro = [
   "La educación artística ocupa un lugar propio en la trayectoria de SEGARRA Y GARIBO. Su experiencia como escultor se traslada al aula a través del volumen, la experimentación y el encuentro con materiales cotidianos. El trabajo empieza en las manos: tocar, juntar, modelar, pintar y descubrir lo que una forma puede llegar a ser.",
@@ -40,7 +40,7 @@ export const educationDescriptions = {
   exposiciones:
     "La obra sale del taller. Salas, centros educativos y muestras que permiten mirar las producciones en relación con otras piezas y con el espacio.",
   textos:
-    "Ideas y propuestas conservadas en el fondo educativo. Estas lecturas son síntesis editoriales de los documentos, con sus autorías y referencias.",
+    "Ideas, materiales y propuestas que acompañan la creación. Estas lecturas conservan el origen documental y reúnen caminos para seguir imaginando.",
 };
 export const readings = [
   {

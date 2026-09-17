@@ -4,7 +4,7 @@ Sitio estático sin dependencias de ejecución. Navegación por fragmentos, recu
 
 ## Navegación
 
-Inicio; Obra; Arte infantil; Exposiciones; Trayectoria; Proyectos; Archivo visual; Artista; Contacto.
+Inicio; Obra; Arte infantil; Exposiciones; Trayectoria; Archivo visual; Artista; Contacto.
 
 Obra contiene cuatro disciplinas y familias editoriales. Los filtros se conservan en la dirección: `q`, `serie` y `vista=recorrido`. Una ficha reúne las perspectivas de una pieza. El catálogo carga bloques de 24 fichas; los álbumes, bloques de 36 fotografías. El visor puede recorrer la galería completa aunque todavía no se hayan añadido todas sus miniaturas a la página.
 

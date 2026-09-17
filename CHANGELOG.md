@@ -4,6 +4,12 @@
 
 - Renovada la etiqueta de versión de la aplicación, el catálogo y los recursos de imagen para que la página pública cargue las vistas secundarias actualizadas y no reutilice fotografías almacenadas en caché de la versión anterior.
 
+## Arte infantil · mosaico editorial — 2026-09-18
+
+- El índice de Arte infantil adopta el mismo mosaico editorial de Exposiciones: cinco accesos con imágenes apaisadas, contexto breve y llamadas a recorrer cada apartado.
+- La imagen de apertura se sustituye por una composición colectiva del archivo, en lugar del relieve con forma de calavera.
+- «Textos y propuestas» pasa a llamarse «Ideas para crear». Se conservan los documentos y enlaces ya publicados bajo el nuevo título.
+
 ## Dibujo · encuadre y luz — 2026-09-18
 
 - Rehechas las versiones de catálogo de las fotografías de dibujo que tenían un encuadre demasiado cerrado: ahora se conserva completa la hoja o el marco, incluida la firma cuando es visible.
