@@ -19228,5 +19228,789 @@
     "transformacion": "Miniatura proporcional del reencuadre centrado en la escultura verde; original y versiones anteriores conservados",
     "width": 420,
     "height": 560
+  },
+  {
+    "asset": "assets/gallery-esc-001.webp",
+    "archivo_id": "ARC-014490",
+    "original": "ESCULTURA\\_DSC3636.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-001.webp",
+    "archivo_id": "ARC-014490",
+    "original": "ESCULTURA\\_DSC3636.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-002.webp",
+    "archivo_id": "ARC-014492",
+    "original": "ESCULTURA\\_DSC3638.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-002.webp",
+    "archivo_id": "ARC-014492",
+    "original": "ESCULTURA\\_DSC3638.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-003.webp",
+    "archivo_id": "ARC-014494",
+    "original": "ESCULTURA\\_DSC3640.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-003.webp",
+    "archivo_id": "ARC-014494",
+    "original": "ESCULTURA\\_DSC3640.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-004.webp",
+    "archivo_id": "ARC-014496",
+    "original": "ESCULTURA\\_DSC3642.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-004.webp",
+    "archivo_id": "ARC-014496",
+    "original": "ESCULTURA\\_DSC3642.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-005.webp",
+    "archivo_id": "ARC-014502",
+    "original": "ESCULTURA\\_DSC3655.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-005.webp",
+    "archivo_id": "ARC-014502",
+    "original": "ESCULTURA\\_DSC3655.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-006.webp",
+    "archivo_id": "ARC-008513",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0081.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-006.webp",
+    "archivo_id": "ARC-008513",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0081.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-007.webp",
+    "archivo_id": "ARC-014507",
+    "original": "ESCULTURA\\_DSC3660.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-007.webp",
+    "archivo_id": "ARC-014507",
+    "original": "ESCULTURA\\_DSC3660.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-008.webp",
+    "archivo_id": "ARC-014509",
+    "original": "ESCULTURA\\_DSC3664.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-008.webp",
+    "archivo_id": "ARC-014509",
+    "original": "ESCULTURA\\_DSC3664.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-009.webp",
+    "archivo_id": "ARC-014516",
+    "original": "ESCULTURA\\_DSC3671.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-009.webp",
+    "archivo_id": "ARC-014516",
+    "original": "ESCULTURA\\_DSC3671.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-010.webp",
+    "archivo_id": "ARC-014523",
+    "original": "ESCULTURA\\_DSC3678.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-010.webp",
+    "archivo_id": "ARC-014523",
+    "original": "ESCULTURA\\_DSC3678.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-011.webp",
+    "archivo_id": "ARC-014528",
+    "original": "ESCULTURA\\_DSC3683.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-011.webp",
+    "archivo_id": "ARC-014528",
+    "original": "ESCULTURA\\_DSC3683.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-012.webp",
+    "archivo_id": "ARC-014533",
+    "original": "ESCULTURA\\_DSC3688.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-012.webp",
+    "archivo_id": "ARC-014533",
+    "original": "ESCULTURA\\_DSC3688.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-013.webp",
+    "archivo_id": "ARC-014540",
+    "original": "ESCULTURA\\_DSC3696.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-013.webp",
+    "archivo_id": "ARC-014540",
+    "original": "ESCULTURA\\_DSC3696.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-014.webp",
+    "archivo_id": "ARC-014547",
+    "original": "ESCULTURA\\_DSC3703.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-014.webp",
+    "archivo_id": "ARC-014547",
+    "original": "ESCULTURA\\_DSC3703.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-015.webp",
+    "archivo_id": "ARC-014552",
+    "original": "ESCULTURA\\_DSC3708.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-015.webp",
+    "archivo_id": "ARC-014552",
+    "original": "ESCULTURA\\_DSC3708.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-016.webp",
+    "archivo_id": "ARC-014560",
+    "original": "ESCULTURA\\_DSC7867.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-016.webp",
+    "archivo_id": "ARC-014560",
+    "original": "ESCULTURA\\_DSC7867.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-017.webp",
+    "archivo_id": "ARC-014562",
+    "original": "ESCULTURA\\_DSC7870.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-017.webp",
+    "archivo_id": "ARC-014562",
+    "original": "ESCULTURA\\_DSC7870.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-018.webp",
+    "archivo_id": "ARC-014564",
+    "original": "ESCULTURA\\_DSC7872.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-018.webp",
+    "archivo_id": "ARC-014564",
+    "original": "ESCULTURA\\_DSC7872.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-019.webp",
+    "archivo_id": "ARC-014565",
+    "original": "ESCULTURA\\_DSC7873.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-019.webp",
+    "archivo_id": "ARC-014565",
+    "original": "ESCULTURA\\_DSC7873.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-020.webp",
+    "archivo_id": "ARC-014566",
+    "original": "ESCULTURA\\_DSC7874.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-020.webp",
+    "archivo_id": "ARC-014566",
+    "original": "ESCULTURA\\_DSC7874.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-021.webp",
+    "archivo_id": "ARC-014568",
+    "original": "ESCULTURA\\_DSC7877.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-021.webp",
+    "archivo_id": "ARC-014568",
+    "original": "ESCULTURA\\_DSC7877.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-022.webp",
+    "archivo_id": "ARC-014570",
+    "original": "ESCULTURA\\_DSC7880.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-022.webp",
+    "archivo_id": "ARC-014570",
+    "original": "ESCULTURA\\_DSC7880.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-023.webp",
+    "archivo_id": "ARC-014571",
+    "original": "ESCULTURA\\_DSC7881.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-023.webp",
+    "archivo_id": "ARC-014571",
+    "original": "ESCULTURA\\_DSC7881.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-024.webp",
+    "archivo_id": "ARC-014572",
+    "original": "ESCULTURA\\_DSC7882.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-024.webp",
+    "archivo_id": "ARC-014572",
+    "original": "ESCULTURA\\_DSC7882.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-025.webp",
+    "archivo_id": "ARC-014573",
+    "original": "ESCULTURA\\_DSC7883.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-025.webp",
+    "archivo_id": "ARC-014573",
+    "original": "ESCULTURA\\_DSC7883.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-026.webp",
+    "archivo_id": "ARC-014574",
+    "original": "ESCULTURA\\_DSC7884.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-026.webp",
+    "archivo_id": "ARC-014574",
+    "original": "ESCULTURA\\_DSC7884.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-027.webp",
+    "archivo_id": "ARC-014575",
+    "original": "ESCULTURA\\_DSC7886.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-027.webp",
+    "archivo_id": "ARC-014575",
+    "original": "ESCULTURA\\_DSC7886.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-028.webp",
+    "archivo_id": "ARC-014576",
+    "original": "ESCULTURA\\_DSC7887.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-028.webp",
+    "archivo_id": "ARC-014576",
+    "original": "ESCULTURA\\_DSC7887.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-029.webp",
+    "archivo_id": "ARC-014577",
+    "original": "ESCULTURA\\_DSC7888.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-029.webp",
+    "archivo_id": "ARC-014577",
+    "original": "ESCULTURA\\_DSC7888.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-030.webp",
+    "archivo_id": "ARC-014578",
+    "original": "ESCULTURA\\_DSC7889.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente: extracción exacta de la obra, fondo blanco neutro, sombra de montaje, lienzo 1536 × 1024 y grano fotográfico fino; sin regeneración de la pieza.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-030.webp",
+    "archivo_id": "ARC-014578",
+    "original": "ESCULTURA\\_DSC7889.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-031.webp",
+    "archivo_id": "ARC-008507",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0071.jpg",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-031.webp",
+    "archivo_id": "ARC-008507",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0071.jpg",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-032.webp",
+    "archivo_id": "ARC-008523",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P1010005.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-032.webp",
+    "archivo_id": "ARC-008523",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P1010005.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-033.webp",
+    "archivo_id": "ARC-008525",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P10100xa11A.jpg",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-033.webp",
+    "archivo_id": "ARC-008525",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\P10100xa11A.jpg",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-034.webp",
+    "archivo_id": "ARC-008529",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1036.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-034.webp",
+    "archivo_id": "ARC-008529",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1036.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-035.webp",
+    "archivo_id": "ARC-008532",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1039.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-035.webp",
+    "archivo_id": "ARC-008532",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1039.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-036.webp",
+    "archivo_id": "ARC-008535",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1042.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-036.webp",
+    "archivo_id": "ARC-008535",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1042.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-037.webp",
+    "archivo_id": "ARC-008543",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1050.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-037.webp",
+    "archivo_id": "ARC-008543",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1050.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-038.webp",
+    "archivo_id": "ARC-008768",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2680.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-038.webp",
+    "archivo_id": "ARC-008768",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2680.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-039.webp",
+    "archivo_id": "ARC-008788",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2852.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-039.webp",
+    "archivo_id": "ARC-008788",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2852.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-040.webp",
+    "archivo_id": "ARC-008810",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2942.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-040.webp",
+    "archivo_id": "ARC-008810",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2942.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-041.webp",
+    "archivo_id": "ARC-008826",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3029.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-041.webp",
+    "archivo_id": "ARC-008826",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3029.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-042.webp",
+    "archivo_id": "ARC-008907",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04224.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-042.webp",
+    "archivo_id": "ARC-008907",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04224.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-043.webp",
+    "archivo_id": "ARC-011828",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04190.jpg",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-043.webp",
+    "archivo_id": "ARC-011828",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04190.jpg",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-044.webp",
+    "archivo_id": "ARC-007134",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193038.jpg",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-044.webp",
+    "archivo_id": "ARC-007134",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193038.jpg",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-045.webp",
+    "archivo_id": "ARC-007158",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194010.jpg",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-045.webp",
+    "archivo_id": "ARC-007158",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194010.jpg",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-046.webp",
+    "archivo_id": "ARC-007757",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04018.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-046.webp",
+    "archivo_id": "ARC-007757",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04018.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-053.webp",
+    "archivo_id": "ARC-008659",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\008_6.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-053.webp",
+    "archivo_id": "ARC-008659",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\008_6.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-054.webp",
+    "archivo_id": "ARC-008704",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA1.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-054.webp",
+    "archivo_id": "ARC-008704",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA1.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-055.webp",
+    "archivo_id": "ARC-009729",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3052.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa de fondo, iluminación y encuadre; obra preservada, fondo blanco neutro, lienzo 1536 × 1024 y grano fotográfico fino.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-055.webp",
+    "archivo_id": "ARC-009729",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3052.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial de galería; lienzo 768 × 512 y grano fotográfico fino.",
+    "width": 768,
+    "height": 512
   }
 ]

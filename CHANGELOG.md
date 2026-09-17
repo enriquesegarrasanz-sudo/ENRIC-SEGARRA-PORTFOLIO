@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Escultura · tratamiento de galería — 2026-09-17
+
+- Renovadas las portadas de 49 fichas de escultura con fondo blanco neutro, iluminación museística, encuadre horizontal 3:2 y grano fotográfico fino. Las seis instalaciones fotografiadas en naturaleza (ESC-047 a ESC-052) conservan sus imágenes originales por formar el entorno parte de la obra. Originales y referencias ARC intactos; procedencia registrada.
+
 ## Palacio Colomina · edición fotográfica profesional — 2026-09-17
 
 - Sustituidas las siete vistas del álbum por versiones de presentación profesional con luz, color, perspectiva, nitidez y composición revisados. La vista frontal se reencuadró con criterio editorial y la escultura negra de alambre se corrigió para aparecer completa, sin extremos cortados. Originales y versiones web anteriores conservados; procedencia registrada.
