@@ -2335,24 +2335,24 @@ export const catalogue = [
         "contentKey": "ARC-011828"
       },
       {
-        "image": "arc-011832",
-        "thumb": "thumb-011832",
+        "image": "gallery-esc-043-view-2",
+        "thumb": "thumb-gallery-esc-043-view-2",
         "archiveId": "ARC-011832",
         "alt": "Flores de engranajes. Fotografía 2",
         "sourceName": "DSC04194.jpg",
         "contentKey": "ARC-011832"
       },
       {
-        "image": "arc-011834",
-        "thumb": "thumb-011834",
+        "image": "gallery-esc-043-view-3",
+        "thumb": "thumb-gallery-esc-043-view-3",
         "archiveId": "ARC-011834",
         "alt": "Flores de engranajes. Fotografía 3",
         "sourceName": "DSC04196.JPG",
         "contentKey": "ARC-011834"
       },
       {
-        "image": "arc-011838",
-        "thumb": "thumb-011838",
+        "image": "gallery-esc-043-view-4",
+        "thumb": "thumb-gallery-esc-043-view-4",
         "archiveId": "ARC-011838",
         "alt": "Flores de engranajes. Fotografía 4",
         "sourceName": "DSC04200.jpg",

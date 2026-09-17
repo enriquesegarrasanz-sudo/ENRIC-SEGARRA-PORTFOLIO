@@ -25186,5 +25186,53 @@
     "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
     "width": 768,
     "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-043-view-2.webp",
+    "archivo_id": "ARC-011832",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04194.jpg",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 987,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-043-view-2.webp",
+    "archivo_id": "ARC-011832",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04194.jpg",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 316,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-043-view-3.webp",
+    "archivo_id": "ARC-011834",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04196.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1482,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-043-view-3.webp",
+    "archivo_id": "ARC-011834",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04196.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 474,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-043-view-4.webp",
+    "archivo_id": "ARC-011838",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04200.jpg",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-043-view-4.webp",
+    "archivo_id": "ARC-011838",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04200.jpg",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 384,
+    "height": 512
   }
 ]
