@@ -41,6 +41,7 @@ const server = http.createServer(async (req, res) => {
     res.end("Página no encontrada");
   }
 });
-server.listen(4173, "127.0.0.1", () =>
-  console.log("Local: http://127.0.0.1:4173"),
+const port = Number(process.env.PORT || 4173);
+server.listen(port, "127.0.0.1", () =>
+  console.log(`Local: http://127.0.0.1:${port}`),
 );
