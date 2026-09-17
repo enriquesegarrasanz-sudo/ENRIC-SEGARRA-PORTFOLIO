@@ -102,12 +102,12 @@ function home() {
     [
       "Trayectoria",
       "/memoria",
-      "Los comienzos, las exposiciones y los proyectos compartidos. Un recorrido por las imágenes y la memoria.",
+      "Los comienzos, las exposiciones y la educación artística. Un recorrido por las imágenes y la memoria.",
       "arc-009490",
       "Vida y obra",
     ],
   ];
-  return `<section class="welcome"><div class="welcome-copy"><p class="eyebrow">Obra y memoria</p><h1>Enric Segarra</h1><p class="welcome-role">Escultura, pintura y dibujo.<br>Creación y educación artística.</p><p>Una práctica que nace del oficio y de la curiosidad por las formas. El volumen, la línea y el color abren caminos entre los materiales, la naturaleza y la imaginación.</p><p>Este archivo reúne la obra personal, los proyectos compartidos y una trayectoria dedicada también a acompañar la creación de otros. En el presente, los móviles y las esculturas suspendidas continúan esa búsqueda.</p><div class="welcome-links">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div></div>${a("/obra/" + hero.id, `<figure class="welcome-image">${img(hero.image, hero.alt, true)}<figcaption><span>${esc(hero.label)}</span><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</section><section class="home-doors" aria-label="Recorridos principales">${doors.map(([title, path, text, image, meta], i) => `<article>${a(path, `<div class="door-image">${img(image, title)}</div><div class="door-title"><span class="reference">${num(i + 1)}</span><h2>${title}</h2>${arrow}</div>`)}<p>${text}</p><span class="reference">${meta}</span></article>`).join("")}</section><section class="section">${sectionHead("Cuatro maneras de construir una imagen", "/obra", "Todo el catálogo")}<div class="category-index">${categories
+  return `<section class="welcome"><div class="welcome-copy"><p class="eyebrow">Obra y memoria</p><h1>Enric Segarra</h1><p class="welcome-role">Escultura, pintura y dibujo.<br>Creación y educación artística.</p><p>Una práctica que nace del oficio y de la curiosidad por las formas. El volumen, la línea y el color abren caminos entre los materiales, la naturaleza y la imaginación.</p><p>Este archivo reúne la obra personal, las exposiciones y una trayectoria dedicada también a acompañar la creación de otros. En el presente, los móviles y las esculturas suspendidas continúan esa búsqueda.</p><div class="welcome-links">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div></div>${a("/obra/" + hero.id, `<figure class="welcome-image">${img(hero.image, hero.alt, true)}<figcaption><span>${esc(hero.label)}</span><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</section><section class="home-doors" aria-label="Recorridos principales">${doors.map(([title, path, text, image, meta], i) => `<article>${a(path, `<div class="door-image">${img(image, title)}</div><div class="door-title"><span class="reference">${num(i + 1)}</span><h2>${title}</h2>${arrow}</div>`)}<p>${text}</p><span class="reference">${meta}</span></article>`).join("")}</section><section class="section">${sectionHead("Cuatro maneras de construir una imagen", "/obra", "Todo el catálogo")}<div class="category-index">${categories
     .slice(1)
     .map((c, i) => {
       const w = works.find((w) => w.category === c.id);
@@ -123,11 +123,6 @@ function home() {
       "Exposiciones",
       "/exposiciones",
       "Obra propia, muestras colectivas y educación.",
-    ],
-    [
-      "Proyectos compartidos",
-      "/proyectos",
-      "El agua, el dragón y los encuentros.",
     ],
   ]
     .map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`))
@@ -276,7 +271,7 @@ function education(params) {
     talleres: "arc-005506",
     exposiciones: "arc-002472",
     formacion: "arc-005944",
-    textos: readings[0].image,
+    textos: "arc-000043",
   };
   return (
     head(
@@ -305,7 +300,7 @@ function readingIndex() {
 }
 function readingPage(r) {
   return (
-    trail("/arte-infantil?seccion=textos", "Textos y propuestas", r.kind) +
+    trail("/arte-infantil?seccion=textos", "Ideas para crear", r.kind) +
     head(r.kind, r.title, r.subtitle) +
     `<div class="article-layout"><aside>${img(r.image, r.title)}<p>${esc(r.authors)}</p><p class="reference">Documento ${esc(r.reference)}</p><p class="note">Síntesis editorial del documento conservado en el archivo. No es una transcripción.</p></aside><article class="reading-body"><p class="article-intro">${esc(r.intro)}</p>${r.sections.map(([t, p]) => `<section><h2>${esc(t)}</h2><p>${esc(p)}</p></section>`).join("")}${a("/archivo/" + r.related, "Ver las imágenes relacionadas " + arrow, "text-link")}</article></div>`
   );
@@ -315,7 +310,6 @@ const chapterImages = {
   "construir-formas": "escultura-madera",
   "pintar-mundos": "gatos",
   "crear-con-otros": "arc-002472",
-  "proyectos-compartidos": "arc-009962",
   "exponer-abrir-espacios": "arc-009086",
   "seguir-creando": "arc-014873",
 };
@@ -576,17 +570,10 @@ function attachJourneyEvents() {
   );
 }
 
-function projects() {
-  const c = chapters.find((x) => x.id === "proyectos-compartidos");
-  return (
-    head("Crear con otros", "Proyectos compartidos", c.short) +
-    `<section class="feature"><div>${img("arc-009962", "Archivo expositivo de Signo de Agua", true)}</div><div><p class="eyebrow">Agua · creación · educación</p><h2>El agua como<br>punto de encuentro.</h2><p>${esc(c.paragraphs[0])}</p>${a("/archivo/signo-agua", "Ver el archivo de Signo de Agua " + arrow, "text-link")}</div></section><div class="prose"><h2>Signo de Agua y la memoria del proyecto</h2><p>Las fotografías conservadas bajo el nombre Signo de Agua muestran una exposición y sus encuentros. La denominación Propósito del Agua procede del relato del artista. Ambas referencias se mantienen visibles mientras se documenta su relación exacta.</p><h2>Dragonians</h2><p>${esc(c.paragraphs[1])}</p><p>Las piezas del catálogo vinculadas a dragones y relatos se reúnen a continuación. Los materiales de otros participantes se conservan como documentación del proyecto y no se atribuyen a Enric.</p></div><section class="section">${sectionHead("Dragonians en las salas")}${albumGrid(albums.filter((al) => ["dragonians-casa-libro", "sant-jordi-estivella"].includes(al.id)))}</section><section class="section">${sectionHead("Obras del catálogo")}${workGrid(works.filter((w) => w.series === "Dragones y relatos"))}</section><div class="end-link">${a("/memoria/exponer-abrir-espacios", "Exponer y abrir espacios " + arrow)}</div>`
-  );
-}
 function artist() {
   return (
     head("El artista", "Enric Segarra", site.intro) +
-    `<section class="artist-layout">${img("retrato", "Enric Segarra con una de sus esculturas", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, Enric Segarra desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística, los proyectos compartidos y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones y proyectos"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
+    `<section class="artist-layout">${img("retrato", "Enric Segarra con una de sus esculturas", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, Enric Segarra desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
   );
 }
 function contact() {
@@ -664,9 +651,6 @@ function render({ keepScroll = false } = {}) {
   } else if (section === "exposiciones") {
     html = exhibitions(params);
     title = "Exposiciones";
-  } else if (section === "proyectos") {
-    html = projects();
-    title = "Proyectos";
   } else if (section === "artista") {
     html = artist();
     title = "Artista";

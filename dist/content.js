@@ -132,18 +132,6 @@ export const chapters = [
     },
   },
   {
-    id: "proyectos-compartidos",
-    title: "Proyectos compartidos",
-    short: "El agua, el dragón y la experiencia de trabajar en colectivo.",
-    image: null,
-    paragraphs: [
-      "Enric recuerda Propósito del Agua como una experiencia que reunió creación y educación. Su fascinación por el agua dio lugar a obra gráfica, talleres y composiciones escultóricas, con la intención de compartir su importancia en la vida.",
-      "Dragonians aparece en la entrevista como un proyecto compartido alrededor de San Jorge y el dragón. El grupo realizó exposiciones sobre ese imaginario y exploró sus posibilidades desde las obras de distintos participantes.",
-      "El fondo familiar conserva materiales relacionados con ambos temas. Se están distinguiendo las obras propias, las de otros artistas, los documentos de las actividades y las referencias utilizadas. Esa identificación permitirá ampliar cada proyecto con sus participantes, lugares y fechas.",
-    ],
-    quote: null,
-  },
-  {
     id: "exponer-abrir-espacios",
     title: "Exponer y abrir espacios",
     short: "Mostrar la obra propia y acompañar la de otros artistas.",
