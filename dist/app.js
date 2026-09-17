@@ -81,57 +81,25 @@ let currentGallery = [],
   routeKey = "";
 
 function home() {
-  const hero =
-    works.find((w) => w.id === "moviles-015028") ||
-    works.find((w) => w.id === "moviles-015000");
-  const doors = [
-    [
-      "Obra",
-      "/obra",
-      "Escultura, móviles, pintura y dibujo. Familias de obras y perspectivas reunidas en cada ficha.",
-      "arc-013430",
-      `${works.length} fichas`,
-    ],
-    [
-      "Arte infantil",
-      "/arte-infantil",
-      "Las obras de los participantes, el trabajo en el aula y la experiencia de aprender con las manos.",
-      "arc-014341",
-      `${educationAlbums().length} colecciones y álbumes`,
-    ],
-    [
-      "Trayectoria",
-      "/memoria",
-      "Los comienzos, las exposiciones y los proyectos compartidos. Un recorrido por las imágenes y la memoria.",
-      "arc-009490",
-      "Vida y obra",
-    ],
+  const hero = works.find((w) => w.id === "suspension-rosa") || works[0];
+  const homeSections = [
+    ["Obra", "/obra", `${works.length} fichas`],
+    ["Arte infantil", "/arte-infantil", `${educationAlbums().length} colecciones`],
+    ["Exposiciones", "/exposiciones", "Archivo de muestras"],
+    ["Trayectoria", "/memoria", "Vida y obra"],
+    ["Proyectos", "/proyectos", "Trabajo compartido"],
+    ["Archivo visual", "/imagenes", "1.226 imágenes"],
+    ["Artista", "/artista", "Perfil y práctica"],
+    ["Contacto", "/contacto", "Información profesional"],
   ];
-  return `<section class="welcome"><div class="welcome-copy"><p class="eyebrow">Obra y memoria</p><h1>SEGARRA Y GARIBO</h1><p class="welcome-role">Escultura, pintura y dibujo.<br>Creación y educación artística.</p><p>Una práctica que nace del oficio y de la curiosidad por las formas. El volumen, la línea y el color abren caminos entre los materiales, la naturaleza y la imaginación.</p><p>Este archivo reúne la obra personal, los proyectos compartidos y una trayectoria dedicada también a acompañar la creación de otros. En el presente, los móviles y las esculturas suspendidas continúan esa búsqueda.</p><div class="welcome-links">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div></div>${a("/obra/" + hero.id, `<figure class="welcome-image">${img(hero.image, hero.alt, true)}<figcaption><span>${esc(hero.label)}</span><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</section><section class="home-doors" aria-label="Recorridos principales">${doors.map(([title, path, text, image, meta], i) => `<article>${a(path, `<div class="door-image">${img(image, title)}</div><div class="door-title"><span class="reference">${num(i + 1)}</span><h2>${title}</h2>${arrow}</div>`)}<p>${text}</p><span class="reference">${meta}</span></article>`).join("")}</section><section class="section">${sectionHead("Cuatro maneras de construir una imagen", "/obra", "Todo el catálogo")}<div class="category-index">${categories
-    .slice(1)
-    .map((c, i) => {
-      const w = works.find((w) => w.category === c.id);
-      return a(
-        "/obra/" + c.id,
-        `<span class="reference">${num(i + 1)}</span><h3>${esc(c.label)}</h3><span>${works.filter((w) => w.category === c.id).length} obras ${arrow}</span>${img(w.thumb, w.alt)}`,
-      );
-    })
-    .join(
-      "",
-    )}</div></section><section class="archive-invitation"><div><p class="eyebrow">Archivo visual</p><h2>Todas las imágenes,<br>muchas formas de mirar.</h2><p>Busca una pieza, recorre una exposición o reúne las imágenes de un taller. Cada fotografía conserva el acceso a su contexto.</p>${a("/imagenes", "Abrir el archivo de imágenes " + arrow, "text-link")}</div><div class="archive-links">${[
-    [
-      "Exposiciones",
-      "/exposiciones",
-      "Obra propia, muestras colectivas y educación.",
-    ],
-    [
-      "Proyectos compartidos",
-      "/proyectos",
-      "El agua, el dragón y los encuentros.",
-    ],
-  ]
-    .map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`))
-    .join("")}</div></section>`;
+  const disciplines = categories.slice(1).map((c, i) => {
+    const w = works.find((work) => work.category === c.id);
+    return a(
+      "/obra/" + c.id,
+      `<article class="home-category-card"><div class="home-category-art">${img(w.thumb, w.alt)}</div><div class="home-category-meta"><span class="reference">${num(i + 1)}</span><h2>${esc(c.label)}</h2><span>${works.filter((work) => work.category === c.id).length} obras ${arrow}</span></div></article>`,
+    );
+  }).join("");
+  return `<section class="home-cover"><div class="cover-art">${a("/obra/" + hero.id, `<figure class="cover-image"><div class="cover-image-wrap">${img(hero.image, hero.alt, true)}<span class="cover-index">01 / ${works.length}</span></div><figcaption><div><span class="cover-caption-label">Obra destacada</span><strong>${esc(hero.label)}</strong></div><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</div><div class="cover-copy"><p class="eyebrow">Archivo vivo · 1959 — presente</p><h1>SEGARRA<span>Y GARIBO</span></h1><p class="cover-lead">Escultura, pintura, dibujo y educación artística.</p><p class="cover-note">Una obra hecha de formas, materiales, color y curiosidad. Un archivo familiar para mirar, recordar y seguir descubriendo.</p><div class="cover-actions">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div><div class="home-index"><div class="home-index-head"><span>Entrar en el archivo</span><span>08 apartados</span></div><div class="home-index-grid">${homeSections.map(([title, path, meta], i) => a(path, `<span class="reference">${num(i + 1)}</span><span class="home-index-title">${title}</span><span class="home-index-meta">${meta}</span>${arrow}`, "home-index-link")).join("")}</div></div></div></section><section class="home-disciplines"><div class="home-disciplines-head"><div><p class="eyebrow">La obra, por dentro</p><h2>Cuatro maneras de construir una imagen.</h2></div>${a("/obra", "Ver todo el catálogo " + arrow, "text-link")}</div><div class="home-category-grid">${disciplines}</div></section><section class="archive-invitation"><div><p class="eyebrow">Archivo visual</p><h2>Todas las imágenes,<br>muchas formas de mirar.</h2><p>Busca una pieza, recorre una exposición o reúne las imágenes de un taller. Cada fotografía conserva el acceso a su contexto.</p>${a("/imagenes", "Abrir el archivo de imágenes " + arrow, "text-link")}</div><div class="archive-links">${[["Exposiciones", "/exposiciones", "Obra propia, muestras colectivas y educación."], ["Proyectos compartidos", "/proyectos", "El agua, el dragón y los encuentros."]].map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`)).join("")}</div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
