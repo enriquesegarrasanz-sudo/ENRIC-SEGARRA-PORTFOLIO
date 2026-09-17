@@ -5,8 +5,8 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js";
-import { redirects } from "./catalogue.js";
+} from "./content.js?v=20260918-escultura-vistas";
+import { redirects } from "./catalogue.js?v=20260918-escultura-vistas";
 import {
   buildPhotoIndex,
   filterPhotos,
@@ -36,7 +36,7 @@ const num = (n) => String(n).padStart(2, "0"),
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
 const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260917-moviles`;
+  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-vistas`;
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
