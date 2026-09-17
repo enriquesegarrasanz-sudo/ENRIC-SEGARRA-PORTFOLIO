@@ -81,13 +81,7 @@ let currentGallery = [],
   routeKey = "";
 
 function home() {
-  const slides = [
-    ["Móviles", "/obra/suspension-rosa", "gallery-014590", "Composición suspendida en rosa", "01"],
-    ["Escultura", "/exposiciones", "colomina-009174-focus-professional", "Escultura verde suspendida en una sala", "02"],
-    ["Pintura", "/exposiciones", "colomina-009176-professional", "Obras de pintura y escultura instaladas en sala", "03"],
-    ["Dibujo", "/obra/dibujo", "drawing-015082-catalogue", "Dibujo abstracto sobre papel", "04"],
-  ];
-  return `<section class="home-opening" aria-labelledby="home-title">${a("/artista", `<figure class="opening-photo">${img("artista-entorno", "Enric Segarra junto a una composición circular suspendida", true)}<figcaption>El artista y una obra actual <span aria-hidden="true">↗</span></figcaption></figure>`, "opening-photo-link")}<header class="opening-title"><p class="eyebrow">Obra y memoria</p><h1 id="home-title">Segarra<br>y Garibo</h1><p>Escultura, pintura, dibujo y móviles.</p>${a("/obra", "Explorar la obra " + arrow, "home-opening-link")}</header></section><section class="home-carousel" aria-labelledby="carousel-title"><header class="home-carousel-head"><div><p class="eyebrow">Una selección editada</p><h2 id="carousel-title">La obra, en movimiento</h2></div><div class="carousel-controls"><button type="button" data-home-carousel="previous" aria-label="Obra anterior">←</button><button type="button" data-home-carousel="next" aria-label="Obra siguiente">→</button></div></header><div class="carousel-viewport" id="home-carousel" tabindex="0" aria-label="Carrusel de obras seleccionadas"><div class="carousel-track">${slides.map(([category, path, image, alt, number]) => a(path, `<article class="carousel-slide">${img(image, alt)}<div class="carousel-caption"><span class="reference">${number}</span><h3>${esc(category)}</h3><span aria-hidden="true">↗</span></div></article>`)).join("")}</div></div></section>`;
+  return `<section class="portrait-cover" aria-label="Retrato de Enric Segarra con una escultura"><img src="assets/retrato-portada-bordes-v1.png" alt="Enric Segarra sostiene una escultura de madera" loading="eager" decoding="async"></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -663,16 +657,6 @@ function updateFilters(view) {
     (p.size ? "?" + p.toString() : "");
 }
 function attachPageEvents() {
-  const carousel = document.querySelector("#home-carousel");
-  document.querySelectorAll("[data-home-carousel]").forEach((button) =>
-    button.addEventListener("click", () => {
-      if (!carousel) return;
-      carousel.scrollBy({
-        left: (button.dataset.homeCarousel === "next" ? 1 : -1) * carousel.clientWidth * 0.82,
-        behavior: "smooth",
-      });
-    }),
-  );
   document.querySelector("#exhibition-search")?.addEventListener("submit", (e) => {
     e.preventDefault();
     const data = new FormData(e.currentTarget), p = new URLSearchParams();

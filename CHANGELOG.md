@@ -5,11 +5,10 @@
 - Revisadas las siete vistas de la ficha ESC-054 con una iluminación editorial coherente y fondo de exposición blanco cálido.
 - La pátina irregular del metal, la textura de la pared y el desgaste de la peana permanecen visibles, sin homogeneizarlos ni idealizarlos.
 
-## Portada · artista y carrusel de obra — 2026-09-18
+## Portada · retrato único — 2026-09-18
 
-- La portada se presenta como «Segarra y Garibo» y abre con una fotografía horizontal de Enric junto a una obra actual, en lugar de un mosaico de imágenes.
-- Tras la fotografía inicial, un carrusel horizontal permite recorrer una selección de imágenes ya editadas: móvil, escultura, instalación de pintura y escultura, y dibujo de catálogo.
-- Las flechas desplazan el carrusel sin ocultar las piezas siguientes; cada imagen conserva el acceso a su apartado correspondiente.
+- La portada queda deliberadamente reducida a un único retrato de Enric Segarra con una escultura de madera, a gran formato y sin textos ni carrusel.
+- Se ha preparado una versión de portada con una depuración localizada del borde de la figura, preservando la persona, la obra, su forma orgánica, la veta, el color y el encuadre del original.
 
 ## Arte infantil · mosaico editorial — 2026-09-18
 

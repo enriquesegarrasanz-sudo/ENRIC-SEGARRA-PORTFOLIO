@@ -21266,5 +21266,13 @@
     "transformacion": "Miniatura proporcional de la versión de catálogo; original y versión sin retoque conservados",
     "width": 768,
     "height": 512
+  },
+  {
+    "asset": "assets/retrato-portada-bordes-v1.png",
+    "archivo_id": "ARC-014584",
+    "original": "FOTOS ENRIC SEGARRA\\_DSC1856.jpg",
+    "transformacion": "Versión de portada a partir del retrato original: depuración localizada del contorno de la figura de madera; se conservan encuadre, persona, gesto, obra, veta, color y fondo. Original intacto",
+    "width": 1024,
+    "height": 1536
   }
 ]

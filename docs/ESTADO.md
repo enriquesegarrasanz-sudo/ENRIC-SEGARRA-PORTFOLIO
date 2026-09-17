@@ -5,7 +5,7 @@
 ## Ajuste visual · 18 de septiembre de 2026
 
 - Las siete vistas de «Forma articulada dentro de un círculo» (ESC-054) comparten ahora luz, balance de color y fondo de exposición blanco cálido. Se ha mantenido la pátina y la peana como rasgos materiales de la obra.
-- La portada se presenta bajo el nombre «Segarra y Garibo»: abre con una fotografía horizontal del artista junto a una pieza actual y continúa con un carrusel de imágenes ya editadas de móviles, escultura, obra instalada y dibujo. Las flechas permiten recorrer la selección hacia la derecha; cada vista enlaza con su apartado.
+- La portada se presenta bajo el nombre «Segarra y Garibo» con un único retrato de Enric Segarra junto a una escultura de madera, mostrado a gran formato. Se ha depurado únicamente el contorno de la figura de madera; por ahora no incluye textos ni carrusel.
 - El índice de Arte infantil se presenta como un mosaico de cinco accesos, con fotografías horizontales y la misma jerarquía editorial del índice de Exposiciones. La imagen inicial es ahora una composición colectiva; «Textos y propuestas» se muestra como «Ideas para crear», sin retirar los documentos vinculados.
 - Rehechas las fotografías de catálogo de dibujo que presentaban cortes demasiado ajustados. Las nuevas versiones muestran la hoja o el marco completos, respetan las piezas verticales y corrigen la iluminación de forma global, sin alterar los trazos, firmas ni originales.
 - El índice de Arte infantil presenta sus cinco apartados mediante bloques con imágenes horizontales grandes, contadores y llamadas a explorar.

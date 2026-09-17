@@ -3176,3 +3176,28 @@ main {
 @media (max-width: 380px) {
   .cover-mosaic { grid-template-rows: 255px 165px 150px; }
 }
+
+/* Portada en pausa: un único retrato, sin elementos editoriales alrededor. */
+.portrait-cover {
+  display: grid;
+  min-height: 82svh;
+  place-items: start center;
+  padding: 0 0 clamp(44px, 6vw, 88px);
+}
+.portrait-cover img {
+  width: auto;
+  max-width: 100%;
+  height: min(82svh, 980px);
+  max-height: 980px;
+  object-fit: contain;
+}
+@media (max-width: 760px) {
+  .portrait-cover {
+    min-height: calc(100svh - 126px);
+    padding-bottom: 34px;
+  }
+  .portrait-cover img {
+    width: 100%;
+    height: calc(100svh - 126px);
+  }
+}
