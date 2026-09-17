@@ -21756,5 +21756,613 @@
     "transformacion": "Segunda versión del fondo maestro vacío generada con IA: blanco cálido, gradación radial suave y superficie limpia sin textura visible",
     "width": 1536,
     "height": 1024
+  },
+  {
+    "asset": "assets/gallery-014596.webp",
+    "archivo_id": "ARC-014596",
+    "original": "MÓBIILES\\DSC02380.ARW",
+    "transformacion": "Vista alternativa MOV-001 en lienzo 2:3: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería, escala y centrado óptico coherentes; ángulo, obra, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014596-thumb.webp",
+    "archivo_id": "ARC-014596",
+    "original": "MÓBIILES\\DSC02380.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original y versión web anterior conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014600.webp",
+    "archivo_id": "ARC-014600",
+    "original": "MÓBIILES\\DSC02384.ARW",
+    "transformacion": "Vista alternativa MOV-001 en lienzo 2:3: fondo de referencia calibrado a blanco frío-neutro #F5F6F7, iluminación difusa de galería, escala y centrado óptico coherentes; ángulo, obra, color, desgaste y elementos preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014600-thumb.webp",
+    "archivo_id": "ARC-014600",
+    "original": "MÓBIILES\\DSC02384.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original y versión web anterior conservados",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/colomina-009174-focus-professional.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Segundo reencuadre profesional asistido por generación: la escultura verde completa ocupa el plano principal sobre pared neutra y se eliminan del encuadre la vista profunda, el proyector, el suelo y las obras competidoras; geometría, uniones, tensores, color y textura de la pieza preservados; original y versión profesional anterior intactos",
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "asset": "assets/thumb-colomina-009174-focus-professional.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Miniatura proporcional del reencuadre centrado en la escultura verde; original y versiones anteriores conservados",
+    "width": 420,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014608.webp",
+    "archivo_id": "ARC-014608",
+    "original": "MÓBIILES\\DSC02392.ARW",
+    "transformacion": "Vista alternativa MOV-002 en lienzo 2:3 con fondo #F5F6F7, iluminación difusa, escala y centrado óptico coherentes; geometría, remaches, suspensión y pátina preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014608-thumb.webp",
+    "archivo_id": "ARC-014608",
+    "original": "MÓBIILES\\DSC02392.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014613.webp",
+    "archivo_id": "ARC-014613",
+    "original": "MÓBIILES\\DSC02397.ARW",
+    "transformacion": "Vista alternativa MOV-002 en lienzo 2:3 con fondo #F5F6F7, iluminación difusa, escala y centrado óptico coherentes; geometría, remaches, suspensión y pátina preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014613-thumb.webp",
+    "archivo_id": "ARC-014613",
+    "original": "MÓBIILES\\DSC02397.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014619.webp",
+    "archivo_id": "ARC-014619",
+    "original": "MÓBIILES\\DSC02403.ARW",
+    "transformacion": "Vista completa MOV-003 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; rama, tubos, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014619-thumb.webp",
+    "archivo_id": "ARC-014619",
+    "original": "MÓBIILES\\DSC02403.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014622.webp",
+    "archivo_id": "ARC-014622",
+    "original": "MÓBIILES\\DSC02406.ARW",
+    "transformacion": "Detalle MOV-003 conservado en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; recorte, tubos, textura y escala relativa preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014622-thumb.webp",
+    "archivo_id": "ARC-014622",
+    "original": "MÓBIILES\\DSC02406.ARW",
+    "transformacion": "Miniatura proporcional del detalle expositivo; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014629.webp",
+    "archivo_id": "ARC-014629",
+    "original": "MÓBIILES\\DSC02413.ARW",
+    "transformacion": "Vista alternativa MOV-004 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; figuras, barra, piezas metálicas y suspensión preservadas",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014629-thumb.webp",
+    "archivo_id": "ARC-014629",
+    "original": "MÓBIILES\\DSC02413.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014633.webp",
+    "archivo_id": "ARC-014633",
+    "original": "MÓBIILES\\DSC02417.ARW",
+    "transformacion": "Vista alternativa MOV-004 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; figuras, barra, piezas metálicas y suspensión preservadas",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014633-thumb.webp",
+    "archivo_id": "ARC-014633",
+    "original": "MÓBIILES\\DSC02417.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014639.webp",
+    "archivo_id": "ARC-014639",
+    "original": "MÓBIILES\\DSC02423.ARW",
+    "transformacion": "Detalle MOV-005 conservado en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; recorte, tubos, uniones y textura preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014639-thumb.webp",
+    "archivo_id": "ARC-014639",
+    "original": "MÓBIILES\\DSC02423.ARW",
+    "transformacion": "Miniatura proporcional del detalle expositivo; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014650.webp",
+    "archivo_id": "ARC-014650",
+    "original": "MÓBIILES\\DSC02434.ARW",
+    "transformacion": "Vista alternativa MOV-005 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; tubos, varillas, uniones, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014650-thumb.webp",
+    "archivo_id": "ARC-014650",
+    "original": "MÓBIILES\\DSC02434.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014656.webp",
+    "archivo_id": "ARC-014656",
+    "original": "MÓBIILES\\DSC02440.ARW",
+    "transformacion": "Vista alternativa MOV-005 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; tubos, varillas, uniones, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014656-thumb.webp",
+    "archivo_id": "ARC-014656",
+    "original": "MÓBIILES\\DSC02440.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-009174.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Vista de instalación MOV-005 aislada en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; ángulo, geometría visible, tubos, varillas y uniones preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-009174-thumb.webp",
+    "archivo_id": "ARC-009174",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113546.jpg",
+    "transformacion": "Miniatura proporcional de la vista expositiva aislada; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014666.webp",
+    "archivo_id": "ARC-014666",
+    "original": "MÓBIILES\\DSC02450.ARW",
+    "transformacion": "Detalle MOV-006 conservado en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; recorte, tubos corrugados, aberturas, cordones y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014666-thumb.webp",
+    "archivo_id": "ARC-014666",
+    "original": "MÓBIILES\\DSC02450.ARW",
+    "transformacion": "Miniatura proporcional del detalle expositivo; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014673.webp",
+    "archivo_id": "ARC-014673",
+    "original": "MÓBIILES\\DSC02457.ARW",
+    "transformacion": "Vista alternativa MOV-006 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; tubos, aberturas, cordones, suspensión y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014673-thumb.webp",
+    "archivo_id": "ARC-014673",
+    "original": "MÓBIILES\\DSC02457.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-009220.webp",
+    "archivo_id": "ARC-009220",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03783.jpg",
+    "transformacion": "Vista frontal MOV-006 en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; disposición, tubos, aberturas, cordones y desgaste preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-009220-thumb.webp",
+    "archivo_id": "ARC-009220",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\DSC03783.jpg",
+    "transformacion": "Miniatura proporcional de la vista expositiva; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-009246.webp",
+    "archivo_id": "ARC-009246",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\IMG_20150512_114051.jpg",
+    "transformacion": "Vista de instalación MOV-006 aislada en lienzo 2:3 con fondo #F5F6F7 e iluminación de galería; ángulo, disposición visible, tubos y cordones preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-009246-thumb.webp",
+    "archivo_id": "ARC-009246",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALAU DE PINEDA\\IMG_20150512_114051.jpg",
+    "transformacion": "Miniatura proporcional de la vista expositiva aislada; original intacto",
+    "width": 373,
+    "height": 560
+  },
+  {
+    "asset": "assets/gallery-014680.webp",
+    "archivo_id": "ARC-014680",
+    "original": "MÓBIILES\\DSC02464.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014680-thumb.webp",
+    "archivo_id": "ARC-014680",
+    "original": "MÓBIILES\\DSC02464.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014685.webp",
+    "archivo_id": "ARC-014685",
+    "original": "MÓBIILES\\DSC02469.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014685-thumb.webp",
+    "archivo_id": "ARC-014685",
+    "original": "MÓBIILES\\DSC02469.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014689.webp",
+    "archivo_id": "ARC-014689",
+    "original": "MÓBIILES\\DSC02473.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014689-thumb.webp",
+    "archivo_id": "ARC-014689",
+    "original": "MÓBIILES\\DSC02473.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014696.webp",
+    "archivo_id": "ARC-014696",
+    "original": "MÓBIILES\\DSC02480.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014696-thumb.webp",
+    "archivo_id": "ARC-014696",
+    "original": "MÓBIILES\\DSC02480.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014701.webp",
+    "archivo_id": "ARC-014701",
+    "original": "MÓBIILES\\DSC02485.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014701-thumb.webp",
+    "archivo_id": "ARC-014701",
+    "original": "MÓBIILES\\DSC02485.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014707.webp",
+    "archivo_id": "ARC-014707",
+    "original": "MÓBIILES\\DSC02491.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014707-thumb.webp",
+    "archivo_id": "ARC-014707",
+    "original": "MÓBIILES\\DSC02491.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014712.webp",
+    "archivo_id": "ARC-014712",
+    "original": "MÓBIILES\\DSC02496.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014712-thumb.webp",
+    "archivo_id": "ARC-014712",
+    "original": "MÓBIILES\\DSC02496.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014715.webp",
+    "archivo_id": "ARC-014715",
+    "original": "MÓBIILES\\DSC02499.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014715-thumb.webp",
+    "archivo_id": "ARC-014715",
+    "original": "MÓBIILES\\DSC02499.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014718.webp",
+    "archivo_id": "ARC-014718",
+    "original": "MÓBIILES\\DSC02502.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014718-thumb.webp",
+    "archivo_id": "ARC-014718",
+    "original": "MÓBIILES\\DSC02502.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014722.webp",
+    "archivo_id": "ARC-014722",
+    "original": "MÓBIILES\\DSC02506.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014722-thumb.webp",
+    "archivo_id": "ARC-014722",
+    "original": "MÓBIILES\\DSC02506.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014725.webp",
+    "archivo_id": "ARC-014725",
+    "original": "MÓBIILES\\DSC02509.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014725-thumb.webp",
+    "archivo_id": "ARC-014725",
+    "original": "MÓBIILES\\DSC02509.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014728.webp",
+    "archivo_id": "ARC-014728",
+    "original": "MÓBIILES\\DSC02512.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014728-thumb.webp",
+    "archivo_id": "ARC-014728",
+    "original": "MÓBIILES\\DSC02512.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014734.webp",
+    "archivo_id": "ARC-014734",
+    "original": "MÓBIILES\\DSC02518.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014734-thumb.webp",
+    "archivo_id": "ARC-014734",
+    "original": "MÓBIILES\\DSC02518.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014740.webp",
+    "archivo_id": "ARC-014740",
+    "original": "MÓBIILES\\DSC02524.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014740-thumb.webp",
+    "archivo_id": "ARC-014740",
+    "original": "MÓBIILES\\DSC02524.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014746.webp",
+    "archivo_id": "ARC-014746",
+    "original": "MÓBIILES\\DSC02530.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014746-thumb.webp",
+    "archivo_id": "ARC-014746",
+    "original": "MÓBIILES\\DSC02530.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014750.webp",
+    "archivo_id": "ARC-014750",
+    "original": "MÓBIILES\\DSC02534.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014750-thumb.webp",
+    "archivo_id": "ARC-014750",
+    "original": "MÓBIILES\\DSC02534.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014755.webp",
+    "archivo_id": "ARC-014755",
+    "original": "MÓBIILES\\DSC02539.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014755-thumb.webp",
+    "archivo_id": "ARC-014755",
+    "original": "MÓBIILES\\DSC02539.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014761.webp",
+    "archivo_id": "ARC-014761",
+    "original": "MÓBIILES\\DSC02545.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014761-thumb.webp",
+    "archivo_id": "ARC-014761",
+    "original": "MÓBIILES\\DSC02545.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014765.webp",
+    "archivo_id": "ARC-014765",
+    "original": "MÓBIILES\\DSC02549.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014765-thumb.webp",
+    "archivo_id": "ARC-014765",
+    "original": "MÓBIILES\\DSC02549.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014768.webp",
+    "archivo_id": "ARC-014768",
+    "original": "MÓBIILES\\DSC02552.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014768-thumb.webp",
+    "archivo_id": "ARC-014768",
+    "original": "MÓBIILES\\DSC02552.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
+  },
+  {
+    "asset": "assets/gallery-014771.webp",
+    "archivo_id": "ARC-014771",
+    "original": "MÓBIILES\\DSC02555.ARW",
+    "transformacion": "Edición GPT Images: fondo de galería #F5F6F7, iluminación difusa profesional, encuadre 2:3 y punto de vista original preservado",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-014771-thumb.webp",
+    "archivo_id": "ARC-014771",
+    "original": "MÓBIILES\\DSC02555.ARW",
+    "transformacion": "Miniatura proporcional de la vista expositiva editada; original intacto",
+    "width": 256,
+    "height": 384
   }
 ]

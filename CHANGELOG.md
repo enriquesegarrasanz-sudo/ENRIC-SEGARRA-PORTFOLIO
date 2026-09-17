@@ -11,6 +11,7 @@
 ## Palacio Colomina · edición fotográfica profesional — 2026-09-17
 
 - Sustituidas las siete vistas del álbum por versiones de presentación profesional con luz, color, perspectiva, nitidez y composición revisados. La vista frontal se reencuadró con criterio editorial y la escultura negra de alambre se corrigió para aparecer completa, sin extremos cortados. Originales y versiones web anteriores conservados; procedencia registrada.
+- La fotografía 4 se reencuadra de nuevo para aislar la escultura tubular verde, eliminar elementos competidores y convertirla en el único foco visual.
 
 ## Restauración fotográfica de Evolución 1984–2004 — 2026-09-17
 
@@ -18,7 +19,7 @@
 
 ## Tratamiento fotográfico de móviles — 2026-09-17
 
-- Primera tanda de tratamiento expositivo: seis imágenes principales con fondo continuo blanco cálido, iluminación de galería coherente y originales intactos. Procedencia y transformaciones registradas.
+- Primera tanda completa de tratamiento expositivo: las 22 imágenes de MOV-001 a MOV-006 quedan normalizadas en lienzo 2:3, centrado óptico y fondo frío-neutro calibrado al blanco de referencia `#F5F6F7`. Vistas completas, giros y detalles comparten iluminación y presentación de galería; originales intactos y procedencia registrada.
 
 ## Ajuste posterior — 2026-09-17
 

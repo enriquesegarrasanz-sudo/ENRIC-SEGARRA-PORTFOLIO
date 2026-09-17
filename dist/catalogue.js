@@ -21,16 +21,16 @@ export const catalogue = [
         "contentKey": "ARC-014590"
       },
       {
-        "image": "arc-014596",
-        "thumb": "thumb-014596",
+        "image": "gallery-014596",
+        "thumb": "gallery-014596-thumb",
         "archiveId": "ARC-014596",
         "alt": "Composición suspendida en rosa. Fotografía 2",
         "sourceName": "DSC02380.ARW",
         "contentKey": "ARC-014596"
       },
       {
-        "image": "arc-014600",
-        "thumb": "thumb-014600",
+        "image": "gallery-014600",
+        "thumb": "gallery-014600-thumb",
         "archiveId": "ARC-014600",
         "alt": "Composición suspendida en rosa. Fotografía 3",
         "sourceName": "DSC02384.ARW",
@@ -59,16 +59,16 @@ export const catalogue = [
         "contentKey": "da0bc654eba30b804b7ceb53b9a6eaa12ad2e72a2bcced5cc4cbb4860328c8dd"
       },
       {
-        "image": "arc-014608",
-        "thumb": "thumb-014608",
+        "image": "gallery-014608",
+        "thumb": "gallery-014608-thumb",
         "archiveId": "ARC-014608",
         "alt": "Una línea en suspensión. Fotografía 2",
         "sourceName": "DSC02392.ARW",
         "contentKey": "43b848b68d3277601f46d3788dec47265464563186456320c286a53d1754cea2"
       },
       {
-        "image": "arc-014613",
-        "thumb": "thumb-014613",
+        "image": "gallery-014613",
+        "thumb": "gallery-014613-thumb",
         "archiveId": "ARC-014613",
         "alt": "Una línea en suspensión. Fotografía 3",
         "sourceName": "DSC02397.ARW",
@@ -97,16 +97,16 @@ export const catalogue = [
         "contentKey": "ARC-014616"
       },
       {
-        "image": "arc-014619",
-        "thumb": "thumb-014619",
+        "image": "gallery-014619",
+        "thumb": "gallery-014619-thumb",
         "archiveId": "ARC-014619",
         "alt": "Rama oscura, acentos rojos. Fotografía 2",
         "sourceName": "DSC02403.ARW",
         "contentKey": "ARC-014619"
       },
       {
-        "image": "arc-014622",
-        "thumb": "thumb-014622",
+        "image": "gallery-014622",
+        "thumb": "gallery-014622-thumb",
         "archiveId": "ARC-014622",
         "alt": "Rama oscura, acentos rojos. Fotografía 3",
         "sourceName": "DSC02406.ARW",
@@ -135,16 +135,16 @@ export const catalogue = [
         "contentKey": "6de719eb68f5073418729dff2a12abc6accd59f41cc6ffc57ee5038cc0e2231a"
       },
       {
-        "image": "arc-014629",
-        "thumb": "thumb-014629",
+        "image": "gallery-014629",
+        "thumb": "gallery-014629-thumb",
         "archiveId": "ARC-014629",
         "alt": "Figuras sobre una barra roja. Fotografía 2",
         "sourceName": "DSC02413.ARW",
         "contentKey": "ARC-014629"
       },
       {
-        "image": "arc-014633",
-        "thumb": "thumb-014633",
+        "image": "gallery-014633",
+        "thumb": "gallery-014633-thumb",
         "archiveId": "ARC-014633",
         "alt": "Figuras sobre una barra roja. Fotografía 3",
         "sourceName": "DSC02417.ARW",
@@ -173,32 +173,32 @@ export const catalogue = [
         "contentKey": "683191162b5b3412fd14b747deb420a7eef110cacef333757f2d1f5deadbae3f"
       },
       {
-        "image": "arc-014639",
-        "thumb": "thumb-014639",
+        "image": "gallery-014639",
+        "thumb": "gallery-014639-thumb",
         "archiveId": "ARC-014639",
         "alt": "Forma suspendida en verde. Fotografía 2",
         "sourceName": "DSC02423.ARW",
         "contentKey": "ARC-014639"
       },
       {
-        "image": "arc-014650",
-        "thumb": "thumb-014650",
+        "image": "gallery-014650",
+        "thumb": "gallery-014650-thumb",
         "archiveId": "ARC-014650",
         "alt": "Forma suspendida en verde. Fotografía 3",
         "sourceName": "DSC02434.ARW",
         "contentKey": "ARC-014650"
       },
       {
-        "image": "arc-014656",
-        "thumb": "thumb-014656",
+        "image": "gallery-014656",
+        "thumb": "gallery-014656-thumb",
         "archiveId": "ARC-014656",
         "alt": "Forma suspendida en verde. Fotografía 4",
         "sourceName": "DSC02440.ARW",
         "contentKey": "94ae903a7ee7cbad3ae0aa03abbaafc286029f18437031df4396016ff3c252a2"
       },
       {
-        "image": "arc-009174",
-        "thumb": "thumb-009174",
+        "image": "gallery-009174",
+        "thumb": "gallery-009174-thumb",
         "archiveId": "ARC-009174",
         "alt": "Forma suspendida en verde. Fotografía 5",
         "sourceName": "IMG_20180321_113546.jpg",
@@ -227,32 +227,32 @@ export const catalogue = [
         "contentKey": "91e82f94b4fe97800287d0d4974c8469db5227ca3db5c6e0b6af4c3c2aeecd09"
       },
       {
-        "image": "arc-014666",
-        "thumb": "thumb-014666",
+        "image": "gallery-014666",
+        "thumb": "gallery-014666-thumb",
         "archiveId": "ARC-014666",
         "alt": "Tubos rosas sobre un arco. Fotografía 2",
         "sourceName": "DSC02450.ARW",
         "contentKey": "ARC-014666"
       },
       {
-        "image": "arc-014673",
-        "thumb": "thumb-014673",
+        "image": "gallery-014673",
+        "thumb": "gallery-014673-thumb",
         "archiveId": "ARC-014673",
         "alt": "Tubos rosas sobre un arco. Fotografía 3",
         "sourceName": "DSC02457.ARW",
         "contentKey": "55c42b3521d592e970342f35684508d7986b01284bd7fcaa57f0d20a6864e6aa"
       },
       {
-        "image": "arc-009220",
-        "thumb": "thumb-009220",
+        "image": "gallery-009220",
+        "thumb": "gallery-009220-thumb",
         "archiveId": "ARC-009220",
         "alt": "Tubos rosas sobre un arco. Fotografía 4",
         "sourceName": "DSC03783.jpg",
         "contentKey": "b0757c36290e6b4bd4f23909e0d8dcd7aa020338c950cbe7c40a4cf0cd0bdbcb"
       },
       {
-        "image": "arc-009246",
-        "thumb": "thumb-009246",
+        "image": "gallery-009246",
+        "thumb": "gallery-009246-thumb",
         "archiveId": "ARC-009246",
         "alt": "Tubos rosas sobre un arco. Fotografía 5",
         "sourceName": "IMG_20150512_114051.jpg",
@@ -267,30 +267,30 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-007",
-    "image": "arc-014680",
-    "thumb": "thumb-014680",
+    "image": "gallery-014680",
+    "thumb": "gallery-014680-thumb",
     "alt": "Estructura clara y elementos cilíndricos",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014680",
-        "thumb": "thumb-014680",
+        "image": "gallery-014680",
+        "thumb": "gallery-014680-thumb",
         "archiveId": "ARC-014680",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 1",
         "sourceName": "DSC02464.ARW",
         "contentKey": "ARC-014680"
       },
       {
-        "image": "arc-014685",
-        "thumb": "thumb-014685",
+        "image": "gallery-014685",
+        "thumb": "gallery-014685-thumb",
         "archiveId": "ARC-014685",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 2",
         "sourceName": "DSC02469.ARW",
         "contentKey": "0df39977805214a9db4895240b5a50efebfdb3603b8ba3f14ffbe883efc3123d"
       },
       {
-        "image": "arc-014689",
-        "thumb": "thumb-014689",
+        "image": "gallery-014689",
+        "thumb": "gallery-014689-thumb",
         "archiveId": "ARC-014689",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 3",
         "sourceName": "DSC02473.ARW",
@@ -305,38 +305,38 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-008",
-    "image": "arc-014696",
-    "thumb": "thumb-014696",
+    "image": "gallery-014696",
+    "thumb": "gallery-014696-thumb",
     "alt": "Pequeño volumen abierto en rosa",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014696",
-        "thumb": "thumb-014696",
+        "image": "gallery-014696",
+        "thumb": "gallery-014696-thumb",
         "archiveId": "ARC-014696",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 1",
         "sourceName": "DSC02480.ARW",
         "contentKey": "ARC-014696"
       },
       {
-        "image": "arc-014701",
-        "thumb": "thumb-014701",
+        "image": "gallery-014701",
+        "thumb": "gallery-014701-thumb",
         "archiveId": "ARC-014701",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 2",
         "sourceName": "DSC02485.ARW",
         "contentKey": "ARC-014701"
       },
       {
-        "image": "arc-014707",
-        "thumb": "thumb-014707",
+        "image": "gallery-014707",
+        "thumb": "gallery-014707-thumb",
         "archiveId": "ARC-014707",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 3",
         "sourceName": "DSC02491.ARW",
         "contentKey": "ARC-014707"
       },
       {
-        "image": "arc-014712",
-        "thumb": "thumb-014712",
+        "image": "gallery-014712",
+        "thumb": "gallery-014712-thumb",
         "archiveId": "ARC-014712",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 4",
         "sourceName": "DSC02496.ARW",
@@ -351,22 +351,22 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-009",
-    "image": "arc-014715",
-    "thumb": "thumb-014715",
+    "image": "gallery-014715",
+    "thumb": "gallery-014715-thumb",
     "alt": "Una columna de discos rosas",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014715",
-        "thumb": "thumb-014715",
+        "image": "gallery-014715",
+        "thumb": "gallery-014715-thumb",
         "archiveId": "ARC-014715",
         "alt": "Una columna de discos rosas. Fotografía 1",
         "sourceName": "DSC02499.ARW",
         "contentKey": "ARC-014715"
       },
       {
-        "image": "arc-014718",
-        "thumb": "thumb-014718",
+        "image": "gallery-014718",
+        "thumb": "gallery-014718-thumb",
         "archiveId": "ARC-014718",
         "alt": "Una columna de discos rosas. Fotografía 2",
         "sourceName": "DSC02502.ARW",
@@ -381,22 +381,22 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-010",
-    "image": "arc-014722",
-    "thumb": "thumb-014722",
+    "image": "gallery-014722",
+    "thumb": "gallery-014722-thumb",
     "alt": "Escalera de elementos claros",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014722",
-        "thumb": "thumb-014722",
+        "image": "gallery-014722",
+        "thumb": "gallery-014722-thumb",
         "archiveId": "ARC-014722",
         "alt": "Escalera de elementos claros. Fotografía 1",
         "sourceName": "DSC02506.ARW",
         "contentKey": "ARC-014722"
       },
       {
-        "image": "arc-014725",
-        "thumb": "thumb-014725",
+        "image": "gallery-014725",
+        "thumb": "gallery-014725-thumb",
         "archiveId": "ARC-014725",
         "alt": "Escalera de elementos claros. Fotografía 2",
         "sourceName": "DSC02509.ARW",
@@ -411,38 +411,38 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-011",
-    "image": "arc-014728",
-    "thumb": "thumb-014728",
+    "image": "gallery-014728",
+    "thumb": "gallery-014728-thumb",
     "alt": "Líneas rosas ramificadas",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014728",
-        "thumb": "thumb-014728",
+        "image": "gallery-014728",
+        "thumb": "gallery-014728-thumb",
         "archiveId": "ARC-014728",
         "alt": "Líneas rosas ramificadas. Fotografía 1",
         "sourceName": "DSC02512.ARW",
         "contentKey": "83b81532eab122e44ebbf7daff45cc66b16bb2115ef68ddc062cf585dd680fac"
       },
       {
-        "image": "arc-014734",
-        "thumb": "thumb-014734",
+        "image": "gallery-014734",
+        "thumb": "gallery-014734-thumb",
         "archiveId": "ARC-014734",
         "alt": "Líneas rosas ramificadas. Fotografía 2",
         "sourceName": "DSC02518.ARW",
         "contentKey": "ARC-014734"
       },
       {
-        "image": "arc-014740",
-        "thumb": "thumb-014740",
+        "image": "gallery-014740",
+        "thumb": "gallery-014740-thumb",
         "archiveId": "ARC-014740",
         "alt": "Líneas rosas ramificadas. Fotografía 3",
         "sourceName": "DSC02524.ARW",
         "contentKey": "ARC-014740"
       },
       {
-        "image": "arc-014746",
-        "thumb": "thumb-014746",
+        "image": "gallery-014746",
+        "thumb": "gallery-014746-thumb",
         "archiveId": "ARC-014746",
         "alt": "Líneas rosas ramificadas. Fotografía 4",
         "sourceName": "DSC02530.ARW",
@@ -457,30 +457,30 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-012",
-    "image": "arc-014750",
-    "thumb": "thumb-014750",
+    "image": "gallery-014750",
+    "thumb": "gallery-014750-thumb",
     "alt": "Curvas de tubo corrugado",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014750",
-        "thumb": "thumb-014750",
+        "image": "gallery-014750",
+        "thumb": "gallery-014750-thumb",
         "archiveId": "ARC-014750",
         "alt": "Curvas de tubo corrugado. Fotografía 1",
         "sourceName": "DSC02534.ARW",
         "contentKey": "ARC-014750"
       },
       {
-        "image": "arc-014755",
-        "thumb": "thumb-014755",
+        "image": "gallery-014755",
+        "thumb": "gallery-014755-thumb",
         "archiveId": "ARC-014755",
         "alt": "Curvas de tubo corrugado. Fotografía 2",
         "sourceName": "DSC02539.ARW",
         "contentKey": "ARC-014755"
       },
       {
-        "image": "arc-014761",
-        "thumb": "thumb-014761",
+        "image": "gallery-014761",
+        "thumb": "gallery-014761-thumb",
         "archiveId": "ARC-014761",
         "alt": "Curvas de tubo corrugado. Fotografía 3",
         "sourceName": "DSC02545.ARW",
@@ -495,30 +495,30 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-013",
-    "image": "arc-014765",
-    "thumb": "thumb-014765",
+    "image": "gallery-014765",
+    "thumb": "gallery-014765-thumb",
     "alt": "Discos rosas en dos recorridos",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014765",
-        "thumb": "thumb-014765",
+        "image": "gallery-014765",
+        "thumb": "gallery-014765-thumb",
         "archiveId": "ARC-014765",
         "alt": "Discos rosas en dos recorridos. Fotografía 1",
         "sourceName": "DSC02549.ARW",
         "contentKey": "ARC-014765"
       },
       {
-        "image": "arc-014768",
-        "thumb": "thumb-014768",
+        "image": "gallery-014768",
+        "thumb": "gallery-014768-thumb",
         "archiveId": "ARC-014768",
         "alt": "Discos rosas en dos recorridos. Fotografía 2",
         "sourceName": "DSC02552.ARW",
         "contentKey": "ARC-014768"
       },
       {
-        "image": "arc-014771",
-        "thumb": "thumb-014771",
+        "image": "gallery-014771",
+        "thumb": "gallery-014771-thumb",
         "archiveId": "ARC-014771",
         "alt": "Discos rosas en dos recorridos. Fotografía 3",
         "sourceName": "DSC02555.ARW",
@@ -6833,8 +6833,8 @@ export const albums = [
         "contentKey": "5fb5e1d6d372c37679a477a706c5e79496bf2107bd7db625de4b4d2e829328aa"
       },
       {
-        "image": "colomina-009174-professional",
-        "thumb": "thumb-colomina-009174-professional",
+        "image": "colomina-009174-focus-professional",
+        "thumb": "thumb-colomina-009174-focus-professional",
         "archiveId": "ARC-009174",
         "alt": "La escultura en la sala. Fotografía 4",
         "sourceName": "IMG_20180321_113546.jpg",

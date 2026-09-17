@@ -43,35 +43,35 @@ def restore(source: Path) -> Image.Image:
     # Remove only the coarse colour noise typical of the compact camera.
     image = cv2.fastNlMeansDenoisingColored(image, None, 2, 2, 7, 21)
 
-    # Estimate the colour cast from the brightest quarter of the gallery walls.
-    lab = cv2.cvtColor(image, cv2.COLOR_BGR2LAB).astype(np.float32)
-    luminance, channel_a, channel_b = cv2.split(lab)
-    bright = luminance >= np.percentile(luminance, 74)
-    mean_a = float(np.median(channel_a[bright]))
-    mean_b = float(np.median(channel_b[bright]))
-    light_weight = np.power(luminance / 255.0, 0.72)
-    correction_strength = 0.72
-    channel_a -= (mean_a - 128.0) * light_weight * correction_strength
-    channel_b -= (mean_b - 132.0) * light_weight * correction_strength
+    # Use the bright gallery walls as a neutral reference.  This makes the
+    # improvement visible while retaining a slightly warm photographic white.
+    initial_lab = cv2.cvtColor(image, cv2.COLOR_BGR2LAB)
+    initial_luminance = initial_lab[:, :, 0]
+    bright = initial_luminance >= np.percentile(initial_luminance, 75)
+    bright_median = np.median(image[bright], axis=0)
+    target_bgr = np.array([244.0, 244.0, 244.0], dtype=np.float32)
+    gains = np.clip(target_bgr / np.maximum(bright_median, 1.0), 0.82, 2.25)
+    gains = np.power(gains, 0.90)
+    balanced = np.clip(image.astype(np.float32) * gains, 0, 255).astype(np.uint8)
 
-    # Open shadows and control highlights without changing local geometry.
-    luminance_u8 = np.clip(luminance, 0, 255).astype(np.uint8)
-    clahe = cv2.createCLAHE(clipLimit=1.45, tileGridSize=(8, 8))
-    equalized = clahe.apply(luminance_u8)
-    luminance = cv2.addWeighted(luminance_u8, 0.42, equalized, 0.58, 0)
+    # Establish clean black and white points, then brighten the midtones as a
+    # restrained bounced-flash exposure would, without changing local geometry.
+    lab = cv2.cvtColor(balanced, cv2.COLOR_BGR2LAB)
+    luminance, channel_a, channel_b = cv2.split(lab)
+    low = float(np.percentile(luminance, 0.8))
+    high = float(np.percentile(luminance, 99.35))
+    if high - low > 24:
+        luminance = np.clip((luminance.astype(np.float32) - low) * 245.0 / (high - low) + 4.0, 0, 255).astype(np.uint8)
+    clahe = cv2.createCLAHE(clipLimit=1.28, tileGridSize=(8, 8))
+    equalized = clahe.apply(luminance)
+    luminance = cv2.addWeighted(luminance, 0.72, equalized, 0.28, 0)
     curve = np.array(
-        [255.0 * np.power(index / 255.0, 0.93) for index in range(256)],
+        [255.0 * np.power(index / 255.0, 0.88) for index in range(256)],
         dtype=np.uint8,
     )
     luminance = cv2.LUT(luminance, curve)
 
-    corrected_lab = cv2.merge(
-        (
-            luminance,
-            np.clip(channel_a, 0, 255).astype(np.uint8),
-            np.clip(channel_b, 0, 255).astype(np.uint8),
-        )
-    )
+    corrected_lab = cv2.merge((luminance, channel_a, channel_b))
     corrected = cv2.cvtColor(corrected_lab, cv2.COLOR_LAB2BGR)
 
     # Two-times Lanczos enlargement: interpolated pixels only, no invented forms.

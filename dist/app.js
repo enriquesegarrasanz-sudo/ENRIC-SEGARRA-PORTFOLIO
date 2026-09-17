@@ -29,7 +29,7 @@ const num = (n) => String(n).padStart(2, "0"),
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
 const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp`;
+  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260917-moviles`;
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
