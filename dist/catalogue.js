@@ -267,30 +267,30 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-007",
-    "image": "gallery-014680",
-    "thumb": "gallery-014680-thumb",
+    "image": "studio-neutral-014680",
+    "thumb": "studio-neutral-014680-thumb",
     "alt": "Estructura clara y elementos cilíndricos",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-014680",
-        "thumb": "gallery-014680-thumb",
+        "image": "studio-neutral-014680",
+        "thumb": "studio-neutral-014680-thumb",
         "archiveId": "ARC-014680",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 1",
         "sourceName": "DSC02464.ARW",
         "contentKey": "ARC-014680"
       },
       {
-        "image": "gallery-014685",
-        "thumb": "gallery-014685-thumb",
+        "image": "studio-neutral-014685",
+        "thumb": "studio-neutral-014685-thumb",
         "archiveId": "ARC-014685",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 2",
         "sourceName": "DSC02469.ARW",
         "contentKey": "0df39977805214a9db4895240b5a50efebfdb3603b8ba3f14ffbe883efc3123d"
       },
       {
-        "image": "gallery-014689",
-        "thumb": "gallery-014689-thumb",
+        "image": "studio-neutral-014689",
+        "thumb": "studio-neutral-014689-thumb",
         "archiveId": "ARC-014689",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 3",
         "sourceName": "DSC02473.ARW",
@@ -305,38 +305,38 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-008",
-    "image": "gallery-014696",
-    "thumb": "gallery-014696-thumb",
+    "image": "studio-neutral-014696",
+    "thumb": "studio-neutral-014696-thumb",
     "alt": "Pequeño volumen abierto en rosa",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-014696",
-        "thumb": "gallery-014696-thumb",
+        "image": "studio-neutral-014696",
+        "thumb": "studio-neutral-014696-thumb",
         "archiveId": "ARC-014696",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 1",
         "sourceName": "DSC02480.ARW",
         "contentKey": "ARC-014696"
       },
       {
-        "image": "gallery-014701",
-        "thumb": "gallery-014701-thumb",
+        "image": "studio-neutral-014701",
+        "thumb": "studio-neutral-014701-thumb",
         "archiveId": "ARC-014701",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 2",
         "sourceName": "DSC02485.ARW",
         "contentKey": "ARC-014701"
       },
       {
-        "image": "gallery-014707",
-        "thumb": "gallery-014707-thumb",
+        "image": "studio-neutral-014707",
+        "thumb": "studio-neutral-014707-thumb",
         "archiveId": "ARC-014707",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 3",
         "sourceName": "DSC02491.ARW",
         "contentKey": "ARC-014707"
       },
       {
-        "image": "gallery-014712",
-        "thumb": "gallery-014712-thumb",
+        "image": "studio-neutral-014712",
+        "thumb": "studio-neutral-014712-thumb",
         "archiveId": "ARC-014712",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 4",
         "sourceName": "DSC02496.ARW",
@@ -351,22 +351,22 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-009",
-    "image": "gallery-014715",
-    "thumb": "gallery-014715-thumb",
+    "image": "studio-neutral-014715",
+    "thumb": "studio-neutral-014715-thumb",
     "alt": "Una columna de discos rosas",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-014715",
-        "thumb": "gallery-014715-thumb",
+        "image": "studio-neutral-014715",
+        "thumb": "studio-neutral-014715-thumb",
         "archiveId": "ARC-014715",
         "alt": "Una columna de discos rosas. Fotografía 1",
         "sourceName": "DSC02499.ARW",
         "contentKey": "ARC-014715"
       },
       {
-        "image": "gallery-014718",
-        "thumb": "gallery-014718-thumb",
+        "image": "studio-neutral-014718",
+        "thumb": "studio-neutral-014718-thumb",
         "archiveId": "ARC-014718",
         "alt": "Una columna de discos rosas. Fotografía 2",
         "sourceName": "DSC02502.ARW",
@@ -381,22 +381,22 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-010",
-    "image": "gallery-014722",
-    "thumb": "gallery-014722-thumb",
+    "image": "studio-neutral-014722",
+    "thumb": "studio-neutral-014722-thumb",
     "alt": "Escalera de elementos claros",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-014722",
-        "thumb": "gallery-014722-thumb",
+        "image": "studio-neutral-014722",
+        "thumb": "studio-neutral-014722-thumb",
         "archiveId": "ARC-014722",
         "alt": "Escalera de elementos claros. Fotografía 1",
         "sourceName": "DSC02506.ARW",
         "contentKey": "ARC-014722"
       },
       {
-        "image": "gallery-014725",
-        "thumb": "gallery-014725-thumb",
+        "image": "studio-neutral-014725",
+        "thumb": "studio-neutral-014725-thumb",
         "archiveId": "ARC-014725",
         "alt": "Escalera de elementos claros. Fotografía 2",
         "sourceName": "DSC02509.ARW",
@@ -411,38 +411,38 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-011",
-    "image": "gallery-014728",
-    "thumb": "gallery-014728-thumb",
+    "image": "studio-neutral-014728",
+    "thumb": "studio-neutral-014728-thumb",
     "alt": "Líneas rosas ramificadas",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-014728",
-        "thumb": "gallery-014728-thumb",
+        "image": "studio-neutral-014728",
+        "thumb": "studio-neutral-014728-thumb",
         "archiveId": "ARC-014728",
         "alt": "Líneas rosas ramificadas. Fotografía 1",
         "sourceName": "DSC02512.ARW",
         "contentKey": "83b81532eab122e44ebbf7daff45cc66b16bb2115ef68ddc062cf585dd680fac"
       },
       {
-        "image": "gallery-014734",
-        "thumb": "gallery-014734-thumb",
+        "image": "studio-neutral-014734",
+        "thumb": "studio-neutral-014734-thumb",
         "archiveId": "ARC-014734",
         "alt": "Líneas rosas ramificadas. Fotografía 2",
         "sourceName": "DSC02518.ARW",
         "contentKey": "ARC-014734"
       },
       {
-        "image": "gallery-014740",
-        "thumb": "gallery-014740-thumb",
+        "image": "studio-neutral-014740",
+        "thumb": "studio-neutral-014740-thumb",
         "archiveId": "ARC-014740",
         "alt": "Líneas rosas ramificadas. Fotografía 3",
         "sourceName": "DSC02524.ARW",
         "contentKey": "ARC-014740"
       },
       {
-        "image": "gallery-014746",
-        "thumb": "gallery-014746-thumb",
+        "image": "studio-neutral-014746",
+        "thumb": "studio-neutral-014746-thumb",
         "archiveId": "ARC-014746",
         "alt": "Líneas rosas ramificadas. Fotografía 4",
         "sourceName": "DSC02530.ARW",
@@ -457,30 +457,30 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-012",
-    "image": "gallery-014750",
-    "thumb": "gallery-014750-thumb",
+    "image": "studio-neutral-014750",
+    "thumb": "studio-neutral-014750-thumb",
     "alt": "Curvas de tubo corrugado",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-014750",
-        "thumb": "gallery-014750-thumb",
+        "image": "studio-neutral-014750",
+        "thumb": "studio-neutral-014750-thumb",
         "archiveId": "ARC-014750",
         "alt": "Curvas de tubo corrugado. Fotografía 1",
         "sourceName": "DSC02534.ARW",
         "contentKey": "ARC-014750"
       },
       {
-        "image": "gallery-014755",
-        "thumb": "gallery-014755-thumb",
+        "image": "studio-neutral-014755",
+        "thumb": "studio-neutral-014755-thumb",
         "archiveId": "ARC-014755",
         "alt": "Curvas de tubo corrugado. Fotografía 2",
         "sourceName": "DSC02539.ARW",
         "contentKey": "ARC-014755"
       },
       {
-        "image": "gallery-014761",
-        "thumb": "gallery-014761-thumb",
+        "image": "studio-neutral-014761",
+        "thumb": "studio-neutral-014761-thumb",
         "archiveId": "ARC-014761",
         "alt": "Curvas de tubo corrugado. Fotografía 3",
         "sourceName": "DSC02545.ARW",
@@ -495,30 +495,30 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-013",
-    "image": "gallery-014765",
-    "thumb": "gallery-014765-thumb",
+    "image": "studio-neutral-014765",
+    "thumb": "studio-neutral-014765-thumb",
     "alt": "Discos rosas en dos recorridos",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-014765",
-        "thumb": "gallery-014765-thumb",
+        "image": "studio-neutral-014765",
+        "thumb": "studio-neutral-014765-thumb",
         "archiveId": "ARC-014765",
         "alt": "Discos rosas en dos recorridos. Fotografía 1",
         "sourceName": "DSC02549.ARW",
         "contentKey": "ARC-014765"
       },
       {
-        "image": "gallery-014768",
-        "thumb": "gallery-014768-thumb",
+        "image": "studio-neutral-014768",
+        "thumb": "studio-neutral-014768-thumb",
         "archiveId": "ARC-014768",
         "alt": "Discos rosas en dos recorridos. Fotografía 2",
         "sourceName": "DSC02552.ARW",
         "contentKey": "ARC-014768"
       },
       {
-        "image": "gallery-014771",
-        "thumb": "gallery-014771-thumb",
+        "image": "studio-neutral-014771",
+        "thumb": "studio-neutral-014771-thumb",
         "archiveId": "ARC-014771",
         "alt": "Discos rosas en dos recorridos. Fotografía 3",
         "sourceName": "DSC02555.ARW",
@@ -649,59 +649,11 @@ export const catalogue = [
     "series": "En el entorno",
     "chapter": "seguir-creando",
     "reference": "MOV-016",
-    "image": "arc-014847",
-    "thumb": "thumb-014847",
+    "image": "arc-014950",
+    "thumb": "thumb-014950",
     "alt": "Pieza entre las ramas",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
-      {
-        "image": "arc-014847",
-        "thumb": "thumb-014847",
-        "archiveId": "ARC-014847",
-        "alt": "Pieza entre las ramas. Fotografía 1",
-        "sourceName": "DSC02291.ARW",
-        "contentKey": "ARC-014847"
-      },
-      {
-        "image": "arc-014856",
-        "thumb": "thumb-014856",
-        "archiveId": "ARC-014856",
-        "alt": "Pieza entre las ramas. Fotografía 2",
-        "sourceName": "DSC02300.ARW",
-        "contentKey": "ARC-014856"
-      },
-      {
-        "image": "arc-014863",
-        "thumb": "thumb-014863",
-        "archiveId": "ARC-014863",
-        "alt": "Pieza entre las ramas. Fotografía 3",
-        "sourceName": "DSC02307.ARW",
-        "contentKey": "ARC-014863"
-      },
-      {
-        "image": "arc-014901",
-        "thumb": "thumb-014901",
-        "archiveId": "ARC-014901",
-        "alt": "Pieza entre las ramas. Fotografía 4",
-        "sourceName": "DSC02345.ARW",
-        "contentKey": "ARC-014901"
-      },
-      {
-        "image": "arc-014931",
-        "thumb": "thumb-014931",
-        "archiveId": "ARC-014931",
-        "alt": "Pieza entre las ramas · vista del archivo",
-        "sourceName": "IMG20260326123629.jpg",
-        "contentKey": "ARC-014931"
-      },
-      {
-        "image": "arc-014932",
-        "thumb": "thumb-014932",
-        "archiveId": "ARC-014932",
-        "alt": "Pieza entre las ramas · vista del archivo",
-        "sourceName": "IMG20260326123638.jpg",
-        "contentKey": "ARC-014932"
-      },
       {
         "image": "arc-014950",
         "thumb": "thumb-014950",
@@ -709,38 +661,6 @@ export const catalogue = [
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260405201339.jpg",
         "contentKey": "ARC-014950"
-      },
-      {
-        "image": "arc-014951",
-        "thumb": "thumb-014951",
-        "archiveId": "ARC-014951",
-        "alt": "Pieza entre las ramas · vista del archivo",
-        "sourceName": "IMG20260405201357.jpg",
-        "contentKey": "ARC-014951"
-      },
-      {
-        "image": "arc-014952",
-        "thumb": "thumb-014952",
-        "archiveId": "ARC-014952",
-        "alt": "Pieza entre las ramas · vista del archivo",
-        "sourceName": "IMG20260405201405.jpg",
-        "contentKey": "ARC-014952"
-      },
-      {
-        "image": "arc-014953",
-        "thumb": "thumb-014953",
-        "archiveId": "ARC-014953",
-        "alt": "Pieza entre las ramas · vista del archivo",
-        "sourceName": "IMG20260405201427.jpg",
-        "contentKey": "ARC-014953"
-      },
-      {
-        "image": "arc-014954",
-        "thumb": "thumb-014954",
-        "archiveId": "ARC-014954",
-        "alt": "Pieza entre las ramas · vista del archivo",
-        "sourceName": "IMG20260405201520.jpg",
-        "contentKey": "ARC-014954"
       }
     ]
   },
@@ -751,51 +671,11 @@ export const catalogue = [
     "series": "En el entorno",
     "chapter": "seguir-creando",
     "reference": "MOV-017",
-    "image": "arc-014851",
-    "thumb": "thumb-014851",
+    "image": "arc-014930",
+    "thumb": "thumb-014930",
     "alt": "Planos de color entre los árboles",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
-      {
-        "image": "arc-014851",
-        "thumb": "thumb-014851",
-        "archiveId": "ARC-014851",
-        "alt": "Planos de color entre los árboles. Fotografía 1",
-        "sourceName": "DSC02295.ARW",
-        "contentKey": "ARC-014851"
-      },
-      {
-        "image": "arc-014869",
-        "thumb": "thumb-014869",
-        "archiveId": "ARC-014869",
-        "alt": "Planos de color entre los árboles. Fotografía 2",
-        "sourceName": "DSC02313.ARW",
-        "contentKey": "ARC-014869"
-      },
-      {
-        "image": "arc-014872",
-        "thumb": "thumb-014872",
-        "archiveId": "ARC-014872",
-        "alt": "Planos de color entre los árboles. Fotografía 3",
-        "sourceName": "DSC02316.ARW",
-        "contentKey": "ARC-014872"
-      },
-      {
-        "image": "arc-014928",
-        "thumb": "thumb-014928",
-        "archiveId": "ARC-014928",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314120717.jpg",
-        "contentKey": "ARC-014928"
-      },
-      {
-        "image": "arc-014929",
-        "thumb": "thumb-014929",
-        "archiveId": "ARC-014929",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314124357.jpg",
-        "contentKey": "ARC-014929"
-      },
       {
         "image": "arc-014930",
         "thumb": "thumb-014930",
@@ -803,22 +683,6 @@ export const catalogue = [
         "alt": "Planos de color entre los árboles · vista del archivo",
         "sourceName": "IMG20260314124413.jpg",
         "contentKey": "ARC-014930"
-      },
-      {
-        "image": "arc-014942",
-        "thumb": "thumb-014942",
-        "archiveId": "ARC-014942",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260326124123.jpg",
-        "contentKey": "ARC-014942"
-      },
-      {
-        "image": "arc-014943",
-        "thumb": "thumb-014943",
-        "archiveId": "ARC-014943",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260326124141.jpg",
-        "contentKey": "ARC-014943"
       }
     ]
   },
@@ -829,43 +693,11 @@ export const catalogue = [
     "series": "En el entorno",
     "chapter": "seguir-creando",
     "reference": "MOV-018",
-    "image": "arc-014880",
-    "thumb": "thumb-014880",
+    "image": "arc-014935",
+    "thumb": "thumb-014935",
     "alt": "Líneas de color al aire libre",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
-      {
-        "image": "arc-014880",
-        "thumb": "thumb-014880",
-        "archiveId": "ARC-014880",
-        "alt": "Líneas de color al aire libre. Fotografía 1",
-        "sourceName": "DSC02324.ARW",
-        "contentKey": "ARC-014880"
-      },
-      {
-        "image": "arc-014883",
-        "thumb": "thumb-014883",
-        "archiveId": "ARC-014883",
-        "alt": "Líneas de color al aire libre. Fotografía 2",
-        "sourceName": "DSC02327.ARW",
-        "contentKey": "ARC-014883"
-      },
-      {
-        "image": "arc-014886",
-        "thumb": "thumb-014886",
-        "archiveId": "ARC-014886",
-        "alt": "Líneas de color al aire libre. Fotografía 3",
-        "sourceName": "DSC02330.ARW",
-        "contentKey": "ARC-014886"
-      },
-      {
-        "image": "arc-014933",
-        "thumb": "thumb-014933",
-        "archiveId": "ARC-014933",
-        "alt": "Líneas de color al aire libre · vista del archivo",
-        "sourceName": "IMG20260326123734.jpg",
-        "contentKey": "ARC-014933"
-      },
       {
         "image": "arc-014935",
         "thumb": "thumb-014935",
@@ -873,54 +705,6 @@ export const catalogue = [
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260326123802.jpg",
         "contentKey": "ARC-014935"
-      },
-      {
-        "image": "arc-014936",
-        "thumb": "thumb-014936",
-        "archiveId": "ARC-014936",
-        "alt": "Líneas de color al aire libre · vista del archivo",
-        "sourceName": "IMG20260326123815.jpg",
-        "contentKey": "ARC-014936"
-      },
-      {
-        "image": "arc-014937",
-        "thumb": "thumb-014937",
-        "archiveId": "ARC-014937",
-        "alt": "Líneas de color al aire libre · vista del archivo",
-        "sourceName": "IMG20260326123824.jpg",
-        "contentKey": "ARC-014937"
-      },
-      {
-        "image": "arc-014938",
-        "thumb": "thumb-014938",
-        "archiveId": "ARC-014938",
-        "alt": "Líneas de color al aire libre · vista del archivo",
-        "sourceName": "IMG20260326123907.jpg",
-        "contentKey": "ARC-014938"
-      },
-      {
-        "image": "arc-014939",
-        "thumb": "thumb-014939",
-        "archiveId": "ARC-014939",
-        "alt": "Líneas de color al aire libre · vista del archivo",
-        "sourceName": "IMG20260326123935.jpg",
-        "contentKey": "ARC-014939"
-      },
-      {
-        "image": "arc-014948",
-        "thumb": "thumb-014948",
-        "archiveId": "ARC-014948",
-        "alt": "Líneas de color al aire libre · vista del archivo",
-        "sourceName": "IMG20260329122105.jpg",
-        "contentKey": "ARC-014948"
-      },
-      {
-        "image": "arc-014949",
-        "thumb": "thumb-014949",
-        "archiveId": "ARC-014949",
-        "alt": "Líneas de color al aire libre · vista del archivo",
-        "sourceName": "IMG20260329122117.jpg",
-        "contentKey": "ARC-014949"
       }
     ]
   },
@@ -931,43 +715,11 @@ export const catalogue = [
     "series": "En el entorno",
     "chapter": "seguir-creando",
     "reference": "MOV-019",
-    "image": "arc-014890",
-    "thumb": "thumb-014890",
+    "image": "arc-014927",
+    "thumb": "thumb-014927",
     "alt": "Círculo azul y blanco",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
-      {
-        "image": "arc-014890",
-        "thumb": "thumb-014890",
-        "archiveId": "ARC-014890",
-        "alt": "Círculo azul y blanco. Fotografía 1",
-        "sourceName": "DSC02334.ARW",
-        "contentKey": "ARC-014890"
-      },
-      {
-        "image": "arc-014894",
-        "thumb": "thumb-014894",
-        "archiveId": "ARC-014894",
-        "alt": "Círculo azul y blanco. Fotografía 2",
-        "sourceName": "DSC02338.ARW",
-        "contentKey": "ARC-014894"
-      },
-      {
-        "image": "arc-014909",
-        "thumb": "thumb-014909",
-        "archiveId": "ARC-014909",
-        "alt": "Círculo azul y blanco. Fotografía 3",
-        "sourceName": "DSC02353.ARW",
-        "contentKey": "f8ba0eda0e530eaf39f6dd81d592172affef50f1f7112194749d37eedd0a79d9"
-      },
-      {
-        "image": "arc-014926",
-        "thumb": "thumb-014926",
-        "archiveId": "ARC-014926",
-        "alt": "Círculo azul y blanco · vista del archivo",
-        "sourceName": "IMG20260309143114.jpg",
-        "contentKey": "ARC-014926"
-      },
       {
         "image": "arc-014927",
         "thumb": "thumb-014927",
@@ -975,22 +727,6 @@ export const catalogue = [
         "alt": "Círculo azul y blanco · vista del archivo",
         "sourceName": "IMG20260309143134.jpg",
         "contentKey": "ARC-014927"
-      },
-      {
-        "image": "arc-014934",
-        "thumb": "thumb-014934",
-        "archiveId": "ARC-014934",
-        "alt": "Círculo azul y blanco · vista del archivo",
-        "sourceName": "IMG20260326123747.jpg",
-        "contentKey": "ARC-014934"
-      },
-      {
-        "image": "arc-014941",
-        "thumb": "thumb-014941",
-        "archiveId": "ARC-014941",
-        "alt": "Círculo azul y blanco · vista del archivo",
-        "sourceName": "IMG20260326124022.jpg",
-        "contentKey": "ARC-014941"
       }
     ]
   },
@@ -5131,35 +4867,11 @@ export const catalogue = [
     "series": "Líneas y equilibrio",
     "chapter": "seguir-creando",
     "reference": "MOV-022",
-    "image": "arc-014955",
-    "thumb": "thumb-014955",
+    "image": "arc-014958",
+    "thumb": "thumb-014958",
     "alt": "Arcos oscuros y pequeños acentos de color",
     "text": "Arcos oscuros y pequeños acentos de color. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
-      {
-        "image": "arc-014955",
-        "thumb": "thumb-014955",
-        "archiveId": "ARC-014955",
-        "alt": "Arcos oscuros y pequeños acentos de color · vista 1",
-        "sourceName": "IMG20260511110617_BURST001_COVER.jpg",
-        "contentKey": "ARC-014955"
-      },
-      {
-        "image": "arc-014956",
-        "thumb": "thumb-014956",
-        "archiveId": "ARC-014956",
-        "alt": "Arcos oscuros y pequeños acentos de color · vista 2",
-        "sourceName": "IMG20260511110620.jpg",
-        "contentKey": "ARC-014956"
-      },
-      {
-        "image": "arc-014957",
-        "thumb": "thumb-014957",
-        "archiveId": "ARC-014957",
-        "alt": "Arcos oscuros y pequeños acentos de color · vista 3",
-        "sourceName": "IMG20260511110628.jpg",
-        "contentKey": "ARC-014957"
-      },
       {
         "image": "arc-014958",
         "thumb": "thumb-014958",
@@ -5367,70 +5079,6 @@ export const catalogue = [
         "alt": "Círculos rojos entrelazados · vista 1",
         "sourceName": "IMG20260629213021.jpg",
         "contentKey": "ARC-014976"
-      },
-      {
-        "image": "arc-014977",
-        "thumb": "thumb-014977",
-        "archiveId": "ARC-014977",
-        "alt": "Círculos rojos entrelazados · vista 2",
-        "sourceName": "IMG20260629213030.jpg",
-        "contentKey": "ARC-014977"
-      },
-      {
-        "image": "arc-015003",
-        "thumb": "thumb-015003",
-        "archiveId": "ARC-015003",
-        "alt": "Círculos rojos entrelazados · vista 3",
-        "sourceName": "IMG20260809120436.jpg",
-        "contentKey": "ARC-015003"
-      },
-      {
-        "image": "arc-015004",
-        "thumb": "thumb-015004",
-        "archiveId": "ARC-015004",
-        "alt": "Círculos rojos entrelazados · vista 4",
-        "sourceName": "IMG20260809120458.jpg",
-        "contentKey": "ARC-015004"
-      },
-      {
-        "image": "arc-015005",
-        "thumb": "thumb-015005",
-        "archiveId": "ARC-015005",
-        "alt": "Círculos rojos entrelazados · vista 5",
-        "sourceName": "IMG20260809120458~2.jpg",
-        "contentKey": "ARC-015005"
-      },
-      {
-        "image": "arc-015026",
-        "thumb": "thumb-015026",
-        "archiveId": "ARC-015026",
-        "alt": "Círculos rojos entrelazados · vista 6",
-        "sourceName": "IMG20260819142453~2.jpg",
-        "contentKey": "ARC-015026"
-      },
-      {
-        "image": "arc-015035",
-        "thumb": "thumb-015035",
-        "archiveId": "ARC-015035",
-        "alt": "Círculos rojos entrelazados · vista 7",
-        "sourceName": "IMG20260828193341.jpg",
-        "contentKey": "ARC-015035"
-      },
-      {
-        "image": "arc-015036",
-        "thumb": "thumb-015036",
-        "archiveId": "ARC-015036",
-        "alt": "Círculos rojos entrelazados · vista 8",
-        "sourceName": "IMG20260828193341~2.jpg",
-        "contentKey": "ARC-015036"
-      },
-      {
-        "image": "arc-015043",
-        "thumb": "thumb-015043",
-        "archiveId": "ARC-015043",
-        "alt": "Círculos rojos entrelazados · vista 9",
-        "sourceName": "IMG20260907095124~2.jpg",
-        "contentKey": "ARC-015043"
       }
     ]
   },
@@ -5543,27 +5191,11 @@ export const catalogue = [
     "series": "Discos y recorridos",
     "chapter": "seguir-creando",
     "reference": "MOV-024",
-    "image": "arc-015000",
-    "thumb": "thumb-015000",
+    "image": "arc-015028",
+    "thumb": "thumb-015028",
     "alt": "Curvas azules y verdes",
     "text": "Curvas azules y verdes. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
-      {
-        "image": "arc-015000",
-        "thumb": "thumb-015000",
-        "archiveId": "ARC-015000",
-        "alt": "Curvas azules y verdes · vista 1",
-        "sourceName": "IMG20260805133737.jpg",
-        "contentKey": "ARC-015000"
-      },
-      {
-        "image": "arc-015001",
-        "thumb": "thumb-015001",
-        "archiveId": "ARC-015001",
-        "alt": "Curvas azules y verdes · vista 2",
-        "sourceName": "IMG20260805133747.jpg",
-        "contentKey": "ARC-015001"
-      },
       {
         "image": "arc-015028",
         "thumb": "thumb-015028",
@@ -5571,38 +5203,6 @@ export const catalogue = [
         "alt": "Curvas azules y verdes · vista 3",
         "sourceName": "IMG20260820122421~3.jpg",
         "contentKey": "ARC-015028"
-      },
-      {
-        "image": "arc-015029",
-        "thumb": "thumb-015029",
-        "archiveId": "ARC-015029",
-        "alt": "Curvas azules y verdes · vista 4",
-        "sourceName": "IMG20260820122433~3.jpg",
-        "contentKey": "ARC-015029"
-      },
-      {
-        "image": "arc-015030",
-        "thumb": "thumb-015030",
-        "archiveId": "ARC-015030",
-        "alt": "Curvas azules y verdes · vista 5",
-        "sourceName": "IMG20260820122459~3.jpg",
-        "contentKey": "ARC-015030"
-      },
-      {
-        "image": "arc-015046",
-        "thumb": "thumb-015046",
-        "archiveId": "ARC-015046",
-        "alt": "Curvas azules y verdes · vista 6",
-        "sourceName": "IMG20260907095405~2.jpg",
-        "contentKey": "ARC-015046"
-      },
-      {
-        "image": "arc-015049",
-        "thumb": "thumb-015049",
-        "archiveId": "ARC-015049",
-        "alt": "Curvas azules y verdes · vista 7",
-        "sourceName": "IMG20260907095628~2.jpg",
-        "contentKey": "ARC-015049"
       }
     ]
   },
@@ -5635,27 +5235,11 @@ export const catalogue = [
     "series": "Discos y recorridos",
     "chapter": "seguir-creando",
     "reference": "MOV-026",
-    "image": "arc-015006",
-    "thumb": "thumb-015006",
+    "image": "arc-015008",
+    "thumb": "thumb-015008",
     "alt": "Arco rojo y discos azules",
     "text": "Arco rojo y discos azules. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
-      {
-        "image": "arc-015006",
-        "thumb": "thumb-015006",
-        "archiveId": "ARC-015006",
-        "alt": "Arco rojo y discos azules · vista 1",
-        "sourceName": "IMG20260816201736.jpg",
-        "contentKey": "ARC-015006"
-      },
-      {
-        "image": "arc-015007",
-        "thumb": "thumb-015007",
-        "archiveId": "ARC-015007",
-        "alt": "Arco rojo y discos azules · vista 2",
-        "sourceName": "IMG20260816201744.jpg",
-        "contentKey": "ARC-015007"
-      },
       {
         "image": "arc-015008",
         "thumb": "thumb-015008",
@@ -5663,30 +5247,6 @@ export const catalogue = [
         "alt": "Arco rojo y discos azules · vista 3",
         "sourceName": "IMG20260816201758.jpg",
         "contentKey": "ARC-015008"
-      },
-      {
-        "image": "arc-015009",
-        "thumb": "thumb-015009",
-        "archiveId": "ARC-015009",
-        "alt": "Arco rojo y discos azules · vista 4",
-        "sourceName": "IMG20260816201830.jpg",
-        "contentKey": "ARC-015009"
-      },
-      {
-        "image": "arc-015010",
-        "thumb": "thumb-015010",
-        "archiveId": "ARC-015010",
-        "alt": "Arco rojo y discos azules · vista 5",
-        "sourceName": "IMG20260816201858.jpg",
-        "contentKey": "ARC-015010"
-      },
-      {
-        "image": "arc-015044",
-        "thumb": "thumb-015044",
-        "archiveId": "ARC-015044",
-        "alt": "Arco rojo y discos azules · vista 6",
-        "sourceName": "IMG20260907095234~2.jpg",
-        "contentKey": "ARC-015044"
       }
     ]
   },
@@ -5697,35 +5257,11 @@ export const catalogue = [
     "series": "Discos y recorridos",
     "chapter": "seguir-creando",
     "reference": "MOV-027",
-    "image": "arc-015011",
-    "thumb": "thumb-015011",
+    "image": "arc-015014",
+    "thumb": "thumb-015014",
     "alt": "Un recorrido de pequeños discos",
     "text": "Un recorrido de pequeños discos. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
-      {
-        "image": "arc-015011",
-        "thumb": "thumb-015011",
-        "archiveId": "ARC-015011",
-        "alt": "Un recorrido de pequeños discos · vista 1",
-        "sourceName": "IMG20260817161218_BURST001_COVER.jpg",
-        "contentKey": "ARC-015011"
-      },
-      {
-        "image": "arc-015012",
-        "thumb": "thumb-015012",
-        "archiveId": "ARC-015012",
-        "alt": "Un recorrido de pequeños discos · vista 2",
-        "sourceName": "IMG20260817161232_BURST001_COVER.jpg",
-        "contentKey": "ARC-015012"
-      },
-      {
-        "image": "arc-015013",
-        "thumb": "thumb-015013",
-        "archiveId": "ARC-015013",
-        "alt": "Un recorrido de pequeños discos · vista 3",
-        "sourceName": "IMG20260817161252_BURST001_COVER.jpg",
-        "contentKey": "ARC-015013"
-      },
       {
         "image": "arc-015014",
         "thumb": "thumb-015014",
@@ -5733,78 +5269,6 @@ export const catalogue = [
         "alt": "Un recorrido de pequeños discos · vista 4",
         "sourceName": "IMG20260817161318.jpg",
         "contentKey": "ARC-015014"
-      },
-      {
-        "image": "arc-015015",
-        "thumb": "thumb-015015",
-        "archiveId": "ARC-015015",
-        "alt": "Un recorrido de pequeños discos · vista 5",
-        "sourceName": "IMG20260817161454.jpg",
-        "contentKey": "ARC-015015"
-      },
-      {
-        "image": "arc-015016",
-        "thumb": "thumb-015016",
-        "archiveId": "ARC-015016",
-        "alt": "Un recorrido de pequeños discos · vista 6",
-        "sourceName": "IMG20260817161512.jpg",
-        "contentKey": "ARC-015016"
-      },
-      {
-        "image": "arc-015017",
-        "thumb": "thumb-015017",
-        "archiveId": "ARC-015017",
-        "alt": "Un recorrido de pequeños discos · vista 7",
-        "sourceName": "IMG20260817193235.jpg",
-        "contentKey": "ARC-015017"
-      },
-      {
-        "image": "arc-015018",
-        "thumb": "thumb-015018",
-        "archiveId": "ARC-015018",
-        "alt": "Un recorrido de pequeños discos · vista 8",
-        "sourceName": "IMG20260817193256_BURST001_COVER.jpg",
-        "contentKey": "ARC-015018"
-      },
-      {
-        "image": "arc-015019",
-        "thumb": "thumb-015019",
-        "archiveId": "ARC-015019",
-        "alt": "Un recorrido de pequeños discos · vista 9",
-        "sourceName": "IMG20260817193314.jpg",
-        "contentKey": "ARC-015019"
-      },
-      {
-        "image": "arc-015020",
-        "thumb": "thumb-015020",
-        "archiveId": "ARC-015020",
-        "alt": "Un recorrido de pequeños discos · vista 10",
-        "sourceName": "IMG20260817193340.jpg",
-        "contentKey": "ARC-015020"
-      },
-      {
-        "image": "arc-015047",
-        "thumb": "thumb-015047",
-        "archiveId": "ARC-015047",
-        "alt": "Un recorrido de pequeños discos · vista 11",
-        "sourceName": "IMG20260907095551~2.jpg",
-        "contentKey": "ARC-015047"
-      },
-      {
-        "image": "arc-015048",
-        "thumb": "thumb-015048",
-        "archiveId": "ARC-015048",
-        "alt": "Un recorrido de pequeños discos · vista 12",
-        "sourceName": "IMG20260907095610~2.jpg",
-        "contentKey": "ARC-015048"
-      },
-      {
-        "image": "arc-015050",
-        "thumb": "thumb-015050",
-        "archiveId": "ARC-015050",
-        "alt": "Un recorrido de pequeños discos · vista 13",
-        "sourceName": "IMG20260907095645~2.jpg",
-        "contentKey": "ARC-015050"
       }
     ]
   },
@@ -5827,70 +5291,6 @@ export const catalogue = [
         "alt": "Círculo abierto de muchos colores · vista 1",
         "sourceName": "IMG20260819142328~2.jpg",
         "contentKey": "ARC-015021"
-      },
-      {
-        "image": "arc-015022",
-        "thumb": "thumb-015022",
-        "archiveId": "ARC-015022",
-        "alt": "Círculo abierto de muchos colores · vista 2",
-        "sourceName": "IMG20260819142341~2.jpg",
-        "contentKey": "ARC-015022"
-      },
-      {
-        "image": "arc-015023",
-        "thumb": "thumb-015023",
-        "archiveId": "ARC-015023",
-        "alt": "Círculo abierto de muchos colores · vista 3",
-        "sourceName": "IMG20260819142355~2.jpg",
-        "contentKey": "ARC-015023"
-      },
-      {
-        "image": "arc-015024",
-        "thumb": "thumb-015024",
-        "archiveId": "ARC-015024",
-        "alt": "Círculo abierto de muchos colores · vista 4",
-        "sourceName": "IMG20260819142413.jpg",
-        "contentKey": "ARC-015024"
-      },
-      {
-        "image": "arc-015025",
-        "thumb": "thumb-015025",
-        "archiveId": "ARC-015025",
-        "alt": "Círculo abierto de muchos colores · vista 5",
-        "sourceName": "IMG20260819142413~2.jpg",
-        "contentKey": "ARC-015025"
-      },
-      {
-        "image": "arc-015027",
-        "thumb": "thumb-015027",
-        "archiveId": "ARC-015027",
-        "alt": "Círculo abierto de muchos colores · vista 6",
-        "sourceName": "IMG20260819142503~2.jpg",
-        "contentKey": "ARC-015027"
-      },
-      {
-        "image": "arc-015054",
-        "thumb": "thumb-015054",
-        "archiveId": "ARC-015054",
-        "alt": "Círculo abierto de muchos colores · vista 7",
-        "sourceName": "IMG20260910161048.jpg",
-        "contentKey": "ARC-015054"
-      },
-      {
-        "image": "arc-015055",
-        "thumb": "thumb-015055",
-        "archiveId": "ARC-015055",
-        "alt": "Círculo abierto de muchos colores · vista 8",
-        "sourceName": "IMG20260910161056.jpg",
-        "contentKey": "ARC-015055"
-      },
-      {
-        "image": "arc-015056",
-        "thumb": "thumb-015056",
-        "archiveId": "ARC-015056",
-        "alt": "Círculo abierto de muchos colores · vista 9",
-        "sourceName": "IMG20260910161256.jpg",
-        "contentKey": "ARC-015056"
       }
     ]
   },
@@ -5965,22 +5365,6 @@ export const catalogue = [
         "alt": "Columna de discos multicolores · vista 1",
         "sourceName": "IMG20260908120619.jpg",
         "contentKey": "ARC-015051"
-      },
-      {
-        "image": "arc-015052",
-        "thumb": "thumb-015052",
-        "archiveId": "ARC-015052",
-        "alt": "Columna de discos multicolores · vista 2",
-        "sourceName": "IMG20260908120643~2.jpg",
-        "contentKey": "ARC-015052"
-      },
-      {
-        "image": "arc-015053",
-        "thumb": "thumb-015053",
-        "archiveId": "ARC-015053",
-        "alt": "Columna de discos multicolores · vista 3",
-        "sourceName": "IMG20260908120650.jpg",
-        "contentKey": "ARC-015053"
       }
     ]
   },
@@ -5991,27 +5375,11 @@ export const catalogue = [
     "series": "Discos y recorridos",
     "chapter": "seguir-creando",
     "reference": "MOV-031",
-    "image": "arc-015058",
-    "thumb": "thumb-015058",
+    "image": "arc-015060",
+    "thumb": "thumb-015060",
     "alt": "Recipientes rosas, verdes y amarillos",
     "text": "Recipientes rosas, verdes y amarillos. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
-      {
-        "image": "arc-015058",
-        "thumb": "thumb-015058",
-        "archiveId": "ARC-015058",
-        "alt": "Recipientes rosas, verdes y amarillos · vista 1",
-        "sourceName": "IMG_20240511_205553.jpg",
-        "contentKey": "ARC-015058"
-      },
-      {
-        "image": "arc-015059",
-        "thumb": "thumb-015059",
-        "archiveId": "ARC-015059",
-        "alt": "Recipientes rosas, verdes y amarillos · vista 2",
-        "sourceName": "IMG_20240511_205603.jpg",
-        "contentKey": "ARC-015059"
-      },
       {
         "image": "arc-015060",
         "thumb": "thumb-015060",
@@ -6019,38 +5387,6 @@ export const catalogue = [
         "alt": "Recipientes rosas, verdes y amarillos · vista 3",
         "sourceName": "IMG_20240511_205643.jpg",
         "contentKey": "ARC-015060"
-      },
-      {
-        "image": "arc-015061",
-        "thumb": "thumb-015061",
-        "archiveId": "ARC-015061",
-        "alt": "Recipientes rosas, verdes y amarillos · vista 4",
-        "sourceName": "IMG_20240511_205656.jpg",
-        "contentKey": "ARC-015061"
-      },
-      {
-        "image": "arc-015057",
-        "thumb": "thumb-015057",
-        "archiveId": "ARC-015057",
-        "alt": "Recipientes rosas, verdes y amarillos · vista 5",
-        "sourceName": "IMG_20240414_123613.jpg",
-        "contentKey": "ARC-015057"
-      },
-      {
-        "image": "arc-015073",
-        "thumb": "thumb-015073",
-        "archiveId": "ARC-015073",
-        "alt": "Recipientes rosas, verdes y amarillos · vista 6",
-        "sourceName": "IMG_20241115_151145.jpg",
-        "contentKey": "ARC-015073"
-      },
-      {
-        "image": "arc-015074",
-        "thumb": "thumb-015074",
-        "archiveId": "ARC-015074",
-        "alt": "Recipientes rosas, verdes y amarillos · vista 7",
-        "sourceName": "IMG_20241115_151157.jpg",
-        "contentKey": "ARC-015074"
       }
     ]
   },
@@ -6061,27 +5397,11 @@ export const catalogue = [
     "series": "Líneas y equilibrio",
     "chapter": "seguir-creando",
     "reference": "MOV-032",
-    "image": "arc-015062",
-    "thumb": "thumb-015062",
+    "image": "arc-015064",
+    "thumb": "thumb-015064",
     "alt": "Ramas y figuras geométricas",
     "text": "Ramas y figuras geométricas. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
-      {
-        "image": "arc-015062",
-        "thumb": "thumb-015062",
-        "archiveId": "ARC-015062",
-        "alt": "Ramas y figuras geométricas · vista 1",
-        "sourceName": "IMG_20240511_205707.jpg",
-        "contentKey": "ARC-015062"
-      },
-      {
-        "image": "arc-015063",
-        "thumb": "thumb-015063",
-        "archiveId": "ARC-015063",
-        "alt": "Ramas y figuras geométricas · vista 2",
-        "sourceName": "IMG_20240511_205723.jpg",
-        "contentKey": "ARC-015063"
-      },
       {
         "image": "arc-015064",
         "thumb": "thumb-015064",
@@ -6089,46 +5409,6 @@ export const catalogue = [
         "alt": "Ramas y figuras geométricas · vista 3",
         "sourceName": "IMG_20240512_123634.jpg",
         "contentKey": "ARC-015064"
-      },
-      {
-        "image": "arc-015065",
-        "thumb": "thumb-015065",
-        "archiveId": "ARC-015065",
-        "alt": "Ramas y figuras geométricas · vista 4",
-        "sourceName": "IMG_20240512_123639.jpg",
-        "contentKey": "ARC-015065"
-      },
-      {
-        "image": "arc-015066",
-        "thumb": "thumb-015066",
-        "archiveId": "ARC-015066",
-        "alt": "Ramas y figuras geométricas · vista 5",
-        "sourceName": "IMG_20240512_123654.jpg",
-        "contentKey": "ARC-015066"
-      },
-      {
-        "image": "arc-015071",
-        "thumb": "thumb-015071",
-        "archiveId": "ARC-015071",
-        "alt": "Ramas y figuras geométricas · vista 6",
-        "sourceName": "IMG_20241110_151500.jpg",
-        "contentKey": "ARC-015071"
-      },
-      {
-        "image": "arc-015072",
-        "thumb": "thumb-015072",
-        "archiveId": "ARC-015072",
-        "alt": "Ramas y figuras geométricas · vista 7",
-        "sourceName": "IMG_20241110_151505.jpg",
-        "contentKey": "ARC-015072"
-      },
-      {
-        "image": "arc-015075",
-        "thumb": "thumb-015075",
-        "archiveId": "ARC-015075",
-        "alt": "Ramas y figuras geométricas · vista 8",
-        "sourceName": "IMG_20241115_151208.jpg",
-        "contentKey": "ARC-015075"
       }
     ]
   },
@@ -6139,19 +5419,11 @@ export const catalogue = [
     "series": "Discos y recorridos",
     "chapter": "seguir-creando",
     "reference": "MOV-033",
-    "image": "arc-015067",
-    "thumb": "thumb-015067",
+    "image": "arc-015068",
+    "thumb": "thumb-015068",
     "alt": "Pequeños recipientes suspendidos",
     "text": "Pequeños recipientes suspendidos. Una pieza del archivo de Enric Segarra. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
-      {
-        "image": "arc-015067",
-        "thumb": "thumb-015067",
-        "archiveId": "ARC-015067",
-        "alt": "Pequeños recipientes suspendidos · vista 1",
-        "sourceName": "IMG_20240512_123717.jpg",
-        "contentKey": "ARC-015067"
-      },
       {
         "image": "arc-015068",
         "thumb": "thumb-015068",
@@ -6159,22 +5431,6 @@ export const catalogue = [
         "alt": "Pequeños recipientes suspendidos · vista 2",
         "sourceName": "IMG_20240512_123759.jpg",
         "contentKey": "ARC-015068"
-      },
-      {
-        "image": "arc-015069",
-        "thumb": "thumb-015069",
-        "archiveId": "ARC-015069",
-        "alt": "Pequeños recipientes suspendidos · vista 3",
-        "sourceName": "IMG_20241110_151441.jpg",
-        "contentKey": "ARC-015069"
-      },
-      {
-        "image": "arc-015070",
-        "thumb": "thumb-015070",
-        "archiveId": "ARC-015070",
-        "alt": "Pequeños recipientes suspendidos · vista 4",
-        "sourceName": "IMG_20241110_151447.jpg",
-        "contentKey": "ARC-015070"
       }
     ]
   },

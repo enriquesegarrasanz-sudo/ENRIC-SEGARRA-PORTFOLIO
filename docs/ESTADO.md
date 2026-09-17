@@ -4,6 +4,9 @@
 
 ## Entregado
 
+- Móviles MOV-007 a MOV-013 revisados con un blanco de estudio neutro y luminoso común. Se crean versiones no generativas trazables: solo se corrige el campo de fondo de baja saturación, sin reconstruir ni alterar las piezas.
+- Las fichas de móviles fotografiados en vegetación (MOV-016 a MOV-019 y MOV-022 a MOV-033) publican una sola toma exterior real por obra, escogida por su claridad y composición. El resto queda conservado fuera de la presentación pública de cada ficha.
+- No se publican fotografías creadas o reconstruidas con IA. Las vistas de estudio ausentes deberán proceder de una sesión fotográfica real para poder añadirse fielmente.
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Primera tanda fotográfica expositiva aplicada a las seis primeras fichas de móviles (MOV-001 a MOV-006): fondo continuo blanco cálido, luz difusa coherente y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.

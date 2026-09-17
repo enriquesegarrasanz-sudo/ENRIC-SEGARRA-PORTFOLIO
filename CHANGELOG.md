@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Selección y blanco neutro de móviles — 2026-09-18
+
+- Las 21 vistas de estudio de MOV-007 a MOV-013 tienen nuevas versiones no generativas con fondo blanco neutro homogéneo (`#F8F9FA`). El ajuste se limita a píxeles claros y de baja saturación; obras, cables, proporciones y encuadres permanecen intactos.
+- Las fichas exteriores MOV-016 a MOV-019 y MOV-022 a MOV-033 se reducen a una única fotografía real, seleccionada por claridad de la obra y calidad de presentación. Las vistas descartadas siguen preservadas en el archivo y no se borran originales.
+- No se han empleado ni publicado imágenes generativas en esta entrega. Todas las nuevas versiones y sus fuentes quedan registradas en la procedencia de imágenes.
+
 ## Palacio Colomina · edición fotográfica profesional — 2026-09-17
 
 - Sustituidas las siete vistas del álbum por versiones de presentación profesional con luz, color, perspectiva, nitidez y composición revisados. La vista frontal se reencuadró con criterio editorial y la escultura negra de alambre se corrigió para aparecer completa, sin extremos cortados. Originales y versiones web anteriores conservados; procedencia registrada.
