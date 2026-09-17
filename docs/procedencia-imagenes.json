@@ -25234,5 +25234,197 @@
     "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
     "width": 384,
     "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-006-view-2.webp",
+    "archivo_id": "ARC-008515",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0083.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 813,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-006-view-2.webp",
+    "archivo_id": "ARC-008515",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0083.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 260,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-006-view-3.webp",
+    "archivo_id": "ARC-008517",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0085.JPG",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 988,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-006-view-3.webp",
+    "archivo_id": "ARC-008517",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0085.JPG",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 316,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-008-view-2.webp",
+    "archivo_id": "ARC-014512",
+    "original": "ESCULTURA\\_DSC3667.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-008-view-2.webp",
+    "archivo_id": "ARC-014512",
+    "original": "ESCULTURA\\_DSC3667.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-008-view-3.webp",
+    "archivo_id": "ARC-014514",
+    "original": "ESCULTURA\\_DSC3669.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-008-view-3.webp",
+    "archivo_id": "ARC-014514",
+    "original": "ESCULTURA\\_DSC3669.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-009-view-2.webp",
+    "archivo_id": "ARC-014519",
+    "original": "ESCULTURA\\_DSC3674.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-009-view-2.webp",
+    "archivo_id": "ARC-014519",
+    "original": "ESCULTURA\\_DSC3674.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-009-view-3.webp",
+    "archivo_id": "ARC-014522",
+    "original": "ESCULTURA\\_DSC3677.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-009-view-3.webp",
+    "archivo_id": "ARC-014522",
+    "original": "ESCULTURA\\_DSC3677.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-010-view-2.webp",
+    "archivo_id": "ARC-014525",
+    "original": "ESCULTURA\\_DSC3680.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-010-view-2.webp",
+    "archivo_id": "ARC-014525",
+    "original": "ESCULTURA\\_DSC3680.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-010-view-3.webp",
+    "archivo_id": "ARC-014527",
+    "original": "ESCULTURA\\_DSC3682.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-010-view-3.webp",
+    "archivo_id": "ARC-014527",
+    "original": "ESCULTURA\\_DSC3682.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-011-view-2.webp",
+    "archivo_id": "ARC-014530",
+    "original": "ESCULTURA\\_DSC3685.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-011-view-2.webp",
+    "archivo_id": "ARC-014530",
+    "original": "ESCULTURA\\_DSC3685.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-011-view-3.webp",
+    "archivo_id": "ARC-014532",
+    "original": "ESCULTURA\\_DSC3687.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-011-view-3.webp",
+    "archivo_id": "ARC-014532",
+    "original": "ESCULTURA\\_DSC3687.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-012-view-2.webp",
+    "archivo_id": "ARC-014536",
+    "original": "ESCULTURA\\_DSC3691.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-012-view-2.webp",
+    "archivo_id": "ARC-014536",
+    "original": "ESCULTURA\\_DSC3691.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-012-view-3.webp",
+    "archivo_id": "ARC-014539",
+    "original": "ESCULTURA\\_DSC3695.ARW",
+    "transformacion": "Versión editorial derivada de la fotografía fuente mediante edición generativa conservadora de fondo e iluminación; escultura, perspectiva, encuadre y proporciones preservados; fondo blanco cálido-neutro; dimensiones originales conservadas.",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-012-view-3.webp",
+    "archivo_id": "ARC-014539",
+    "original": "ESCULTURA\\_DSC3695.ARW",
+    "transformacion": "Miniatura proporcional de la versión editorial; original y versión sin retoque conservados.",
+    "width": 341,
+    "height": 512
   }
 ]

@@ -5,6 +5,10 @@
 - La identidad pública de la web pasa a ser «Segarra y Garibo»: portada, navegación, créditos de obra, página de artista y metadatos para buscadores. Los nombres que identifican documentos, proyectos o fondos históricos se conservan tal como constan en el archivo.
 - La identidad pública se presenta en mayúsculas: «SEGARRA Y GARIBO».
 
+## Escultura · vistas secundarias, primera tanda — 2026-09-18
+
+- Tratamiento editorial aplicado a doce vistas secundarias de ESC-006, ESC-008 a ESC-012: fondo blanco cálido-neutro, iluminación y sombras coherentes, sin reemplazar ni modificar los originales. Cada nueva vista preserva el encuadre y las dimensiones de su fuente; se generan miniaturas proporcionales y se registra la procedencia.
+
 ## Escultura · Flores de engranajes — 2026-09-18
 
 - Renovadas las tres vistas secundarias de ESC-043 con un fondo blanco cálido-neutro, luz de estudio coherente y miniaturas proporcionales. Se conservan los tres encuadres, las dimensiones de cada fotografía, la pieza completa y los originales ARC; las nuevas versiones quedan registradas por separado.

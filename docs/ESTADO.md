@@ -6,6 +6,7 @@
 
 - La web adopta «SEGARRA Y GARIBO» como nombre artístico público en su portada, navegación, créditos, perfil y metadatos. Las referencias archivísticas con la denominación histórica se mantienen para preservar su procedencia.
 
+- En curso la normalización de vistas secundarias de Escultura. La primera tanda incorpora doce versiones de ESC-006, ESC-008, ESC-009, ESC-010, ESC-011 y ESC-012, conservando referencias ARC, proporciones y originales. Las fotografías en contexto de ESC-047 a ESC-052 permanecen documentales.
 - ESC-043 («Flores de engranajes») ya presenta sus cuatro vistas con el mismo fondo blanco cálido-neutro y una luz editorial coherente. Las tres vistas secundarias mantienen sus dimensiones y encuadres originales, se incorporan con nuevas referencias de activo y conservan intactas las fotografías ARC de partida.
 - Índice de exposiciones rediseñado como recorrido horizontal, con acceso a las vistas completas de sala, lugar y fecha cuando constan. La presentación de los dibujos se unifica y se incorporan los recursos de la Sala d’Exposicions de les Belles Arts, conservando sus contextos documentales.
 - Tratamiento de galería aplicado a 49 portadas de Escultura: fondo blanco neutro, luz difusa, formato 1536 × 1024, miniaturas 768 × 512 y grano fotográfico fino. Las instalaciones ESC-047 a ESC-052 mantienen las fotografías originales en naturaleza; no se altera ese contexto.
