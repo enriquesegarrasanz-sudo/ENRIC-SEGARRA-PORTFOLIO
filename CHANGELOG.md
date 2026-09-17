@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## 0.3.0 — 2026-09-17
+
+- Rediseño completo sobre blanco: navegación lateral, tipografía sin serifas, fotografías completas, pies discretos y adaptación móvil.
+- Catálogo de 182 obras (21 móviles, 46 esculturas, 80 pinturas y 35 dibujos), con cinco pinturas recuperadas de RAW. Cuadrícula y recorrido vertical, filtros y búsqueda.
+- Arte infantil como apartado principal: proyecto, cinco colecciones de obras, cuatro álbumes de talleres, tres de formación docente, ocho de exposiciones y cuatro lecturas documentadas.
+- 27 álbumes en total; 754 registros fotográficos distintos entre fichas y álbumes, incluidos 71 recuperados de páginas de PDF. Otros 108 registros de participantes disponibles solo en la revisión local.
+- Exposiciones con clasificación propia; incorporación de Casa Abadía, El pelèc, Magisterio, Bellas Artes, La Pobla Llarga, Carlet, Cervantes y Los Chopos.
+- Trayectoria de siete capítulos con índice fijo y secuencia de fotografías; proceso y proyectos desarrollados por separado.
+- Revisión adicional de 1.109 referencias en hojas de contacto y de 107 páginas de cuatro dossieres fotográficos completos, además de los textos y las portadas documentales consultadas.
+- Procedencia por archivo y página para los PDF, diferenciación de autorías, galerías progresivas y controles de ampliación por teclado.
+- Sin retoque creativo ni publicación en alojamiento web. Conservación de originales y del estado anterior.
+
 ## 0.2.0 — 2026-09-17
 
 - Ampliación a 177 fichas y 329 fotografías seleccionadas entre obras y nueve álbumes.

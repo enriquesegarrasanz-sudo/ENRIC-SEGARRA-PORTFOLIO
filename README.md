@@ -1,13 +1,15 @@
 # Enric Segarra — Obra y memoria
 
-Portfolio, catálogo visual y memoria artística. Versión **0.2.0**, preparada el 17 de septiembre de 2026.
+Portfolio, catálogo visual y memoria artística. Versión **0.3.0**, preparada el 17 de septiembre de 2026.
 
 ## Qué contiene
 
 - Inicio con el trabajo actual y acceso destacado a la trayectoria.
-- Obra: 177 fichas, cuatro colecciones, series, búsqueda y galerías por pieza.
+- Obra: 182 fichas, cuatro disciplinas, familias, búsqueda, cuadrícula, recorrido vertical y galerías por pieza.
+- Arte infantil: proyecto, obras infantiles, talleres, formación docente, exposiciones y textos.
+- Exposiciones y proyectos compartidos con páginas propias.
 - Proceso y entorno.
-- Trayectoria y memoria: siete capítulos visuales, cronología inicial y nueve álbumes documentales.
+- Trayectoria: siete capítulos visuales con navegación entre imágenes y documentos. El archivo reúne 27 álbumes.
 - Artista y contacto pendiente de completar con datos profesionales aprobados.
 - Ampliación de imágenes, navegación móvil y enlaces entre obras y capítulos.
 
@@ -31,10 +33,11 @@ También puede alojarse `dist/` en un servidor de archivos estáticos. La navega
 |---|---|
 | `dist/content.js` | Identidad, contacto, capítulos y documentos iniciales. |
 | `dist/catalogue.js` | Fichas, galerías, álbumes y equivalencias de enlaces. |
-| `dist/editorial.css` | Composición del catálogo y de la memoria visual. |
+| `dist/education.js` | Apartados educativos, introducción, principios y cuatro lecturas documentadas. |
 | `dist/app.js` | Estructura de las páginas, portada, enlaces e interacciones. |
 | `dist/styles.css` | Colores, tipografía, márgenes y adaptación a pantallas. |
 | `dist/assets/` | Copias ligeras para la web. |
+| `dist/local-gallery.json`, `dist/review/` | Fotografías de participantes para revisión local; ignoradas en Git. |
 | `docs/procedencia-imagenes.json` | Correspondencia de cada imagen con su original y transformación técnica. |
 | `docs/ARQUITECTURA.md` | Modelo de contenido y decisiones. |
 | `docs/ESTADO.md` | Comprobaciones y trabajo pendiente. |
@@ -52,7 +55,7 @@ node --check dist/app.js
 node --check dist/content.js
 ```
 
-La comprobación valida relaciones entre obras y capítulos, identificadores y archivos de imagen. La revisión visual y de navegación debe hacerse también en el navegador.
+La comprobación valida relaciones, identificadores, galerías, lecturas, clasificación educativa y procedencia de cada imagen. Las fotografías extraídas de PDF se identifican mediante ARC y `sourcePage`. La revisión visual y de navegación debe hacerse también en el navegador.
 
 ## Guardado y recuperación
 
@@ -73,7 +76,7 @@ Para volver a consultar la primera versión sin sobrescribir el trabajo actual:
 git worktree add ../ENRIC-SEGARRA-v0.1.0 v0.1.0
 ```
 
-GitHub respalda el código, los textos de la web y las imágenes utilizadas. **Los aproximadamente 45 GB del fondo fotográfico original no están incluidos en esta copia.** Se mantienen en su ubicación de origen. El inventario completo y la entrevista interna tampoco forman parte del sitio público.
+GitHub respalda el código, los textos y los recursos seleccionados para el repositorio. **Los aproximadamente 45 GB del fondo original y las 108 fotografías de participantes de la revisión local no están incluidos en esa copia.** Se mantienen en el ordenador, con respaldo privado del material de revisión. El inventario completo y la entrevista interna tampoco forman parte del sitio público.
 
 ## Autoría y publicación
 

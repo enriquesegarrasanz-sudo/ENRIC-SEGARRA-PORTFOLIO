@@ -15,3 +15,5 @@ test-results/
 *.zip
 *.bundle
 __pycache__/
+dist/review/
+dist/local-gallery.json

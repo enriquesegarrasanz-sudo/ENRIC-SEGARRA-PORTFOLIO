@@ -1,5 +1,19 @@
 # Catálogo y tratamiento del archivo
 
+## Ampliación 0.3.0
+
+182 fichas: 21 móviles, 46 esculturas, 80 pinturas y 35 dibujos. Se recuperan cinco pinturas de los RAW, manteniendo las referencias anteriores y reservando los motivos astrológicos o dudosos. La revisión de los 44 RAW sin ficha distingue imágenes de contexto de piezas ausentes.
+
+27 álbumes, 20 de ellos educativos. El conjunto versionado contiene 754 registros fotográficos distintos entre obras y álbumes, 71 de ellos extraídos de páginas de PDF. Hay 108 registros adicionales de participantes disponibles exclusivamente en la revisión local. No se cuentan las miniaturas como fotos y no se equiparan estas cifras con piezas distintas.
+
+La educación se clasifica en cinco colecciones de obras infantiles, cuatro álbumes de talleres, tres de formación docente y ocho de exposiciones. Los cuatro textos pedagógicos/documentales se editan en `dist/education.js`. El álbum expositivo de La Pobla Llarga identifica trabajos de adultos.
+
+Las fotografías de PDF conservan el ARC del documento y añaden `sourcePage`. Su clave es el par archivo/página. La extracción conserva la fotografía incrustada sin los márgenes del documento y sin retoque creativo. Las tomas de una obra en diferentes salas pueden reaparecer como contexto documental.
+
+La ampliación se apoya en 1.109 referencias revisadas en hojas de contacto, más 107 páginas de cuatro dossieres completos y la consulta de textos/portadas. Hay solapamientos con la revisión de 0.2.0. Esto no implica que todo el fondo haya sido examinado foto por foto.
+
+Los originales, las hojas de contacto y los instrumentos de preparación permanecen fuera del repositorio público. Las imágenes de participantes se guardan en `dist/review/`, con datos en `dist/local-gallery.json` y procedencia en `.local/procedencia-revision.json`; esas rutas están ignoradas en Git y respaldadas localmente.
+
 ## Selección 0.2.0
 
 177 fichas: 21 móviles, 46 esculturas, 75 pinturas y 35 dibujos. Nueve álbumes documentales. Las fichas y los álbumes utilizan 329 fotografías distintas; una imagen puede aparecer en una ficha y en un álbum que explica su contexto. Las miniaturas no cuentan como fotografías adicionales.

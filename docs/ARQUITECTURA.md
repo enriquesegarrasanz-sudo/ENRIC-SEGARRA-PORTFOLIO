@@ -1,33 +1,40 @@
 # Estructura y modelo de contenido
 
-La portada presenta el trabajo actual y abre el acceso a una memoria amplia. El menú es Inicio, Obra, Proceso y entorno, Trayectoria y memoria, Artista y Contacto.
+Sitio estático sin dependencias de ejecución. Navegación por fragmentos, recursos locales, sin servicios externos, cuentas ni formularios.
+
+## Navegación
+
+Inicio; Obra; Arte infantil; Exposiciones; Proceso y entorno; Trayectoria; Proyectos; Artista; Contacto.
+
+Obra contiene cuatro disciplinas y familias editoriales. Los filtros se conservan en la dirección: `q`, `serie` y `vista=recorrido`. Una ficha reúne las perspectivas de una pieza. El catálogo carga bloques de 24 fichas; los álbumes, bloques de 36 fotografías. El visor puede recorrer la galería completa aunque todavía no se hayan añadido todas sus miniaturas a la página.
+
+Arte infantil contiene proyecto, obras, talleres, formación docente, exposiciones y textos. La educación constituye una colección propia; las producciones de sus participantes no aumentan el contador de obra personal de Enric. La formación docente identifica expresamente a sus participantes como adultos.
+
+Trayectoria ofrece siete capítulos temáticos y un índice del archivo. El recorrido usa fotografías amplias, un índice lateral en escritorio y enlaces al desarrollo de cada capítulo. La antigua dirección `?vista=cronologia` sigue abriendo el recorrido. Los IDs anteriores de obras, capítulos y álbumes se conservan; las equivalencias siguen en `redirects`.
 
 ## Modelo editable
 
-| Entidad | Campos principales | Relaciones |
-|---|---|---|
-| Obra | id, denominación descriptiva, categoría, serie, imagen, texto, alt | Pertenece a una categoría y se vincula a un capítulo. |
-| Capítulo | id, título, resumen, párrafos, imagen opcional, cita atribuida | Agrupa piezas vinculadas y puede enlazar documentos. |
-| Documento visual | id, título, imagen, tipo, texto, alt | Se presenta en el archivo con su contexto y autoría. |
-| Imagen | nombre del derivado, ID de archivo, ruta original relativa, transformación, dimensiones | Permite volver al original conservado fuera del repositorio. |
-| Identidad | nombre provisional, correo profesional opcional, presentación | Mantiene datos personales y de contacto bajo control editorial. |
+| Entidad | Datos y relaciones |
+|---|---|
+| Obra | ID, referencia MOV/ESC/PIN/DIB, nombre descriptivo, disciplina, familia, capítulo y galería. |
+| Álbum | ID, título, capítulo, contexto, sección, audiencia, párrafos, lugar y fecha si hay fuente, crédito y galería. |
+| Fotografía | Imagen, miniatura, referencia ARC, descripción y nombre del original. `sourcePage` identifica una página si procede de un PDF. |
+| Capítulo | Título, resumen, párrafos e imagen. Reúne obras y álbumes relacionados. |
+| Lectura | Título, subtítulo, autores, referencia documental, secciones de texto y álbum relacionado. |
+| Procedencia | Derivado, ARC, original relativo, transformación, dimensiones y página cuando procede. |
 
-Son registros en archivos de texto, sin base de datos ni cuentas. La estructura permite trasladarlos a un gestor de contenidos más adelante conservando sus identificadores. En esta fase no hacen falta SQL, Supabase ni una API.
+`dist/content.js` conserva identidad y capítulos. `dist/catalogue.js` conserva fichas y álbumes. `dist/education.js` contiene la presentación educativa y las lecturas. Los textos largos son síntesis editoriales, identificadas como tales; no se presentan como transcripciones del documento o citas del artista.
 
-## Recorridos
+## Revisión local
 
-Una pieza tiene una ficha única. Desde Obra se entra en una de cuatro colecciones; dentro se filtra por serie y se busca por texto o referencia. La ficha contiene una galería y enlaza al capítulo. La memoria se recorre por capítulos visuales, cronología o álbumes. Las galerías son matrices de imágenes con identificación ARC y miniatura. Los álbumes pertenecen a capítulos y conservan el contexto de autoría.
+`dist/local-gallery.json` y `dist/review/` se ignoran en Git. El navegador incorpora esas galerías solo al abrir el sitio en loopback. Los álbumes disponen de imágenes de obras y espacios en el conjunto versionado, de modo que no dependen de las fotografías privadas para funcionar. La procedencia privada está en `.local/procedencia-revision.json`.
 
-Capítulos: Aprender el oficio; Construir formas; Pintar otros mundos; Aprender y crear con otros; Proyectos compartidos; Exponer y abrir espacios; Seguir creando.
-
-## Fuentes y límites
-
-Los textos se basan en la entrevista familiar incluida en la base editorial v2 y en las aclaraciones de Enrike. Las descripciones visuales son lecturas editoriales, no títulos oficiales ni declaraciones de intención atribuidas al artista.
-
-Las agrupaciones de pintura son provisionales. Los capítulos de proyectos y exposiciones enlazan álbumes identificados por sus carpetas de origen, con fechas y participantes pendientes de completar. La cronología distingue la fecha de nacimiento recordada en la entrevista del resto de acontecimientos sin fecha contrastada.
-
-El archivo público incluye nueve álbumes; no reproduce el inventario familiar completo. El alcance y los criterios están documentados en CATALOGO.md.
+Esto es una separación de archivos de revisión, no un control de acceso para un alojamiento. No copiar `dist/review/` ni `local-gallery.json` a un servidor público. El servidor de desarrollo escucha solo en 127.0.0.1. La publicación no forma parte de esta entrega.
 
 ## Dirección visual
 
-Fondo claro cálido, títulos de lectura editorial, texto oscuro y acento terracota. Las obras aportan su propio color. Las imágenes mantienen su proporción; las páginas de memoria alternan relato, fotografías y citas reales. La edición fotográfica de calidad expositiva queda para una fase posterior.
+Blanco, negro suave y grises. Tipografía sin serifas, líneas discretas, espacio alrededor de las piezas y metadatos pequeños. El color lo aportan las obras. Las fotografías conservan sus proporciones con `object-fit: contain`. No hay fondos recreados, recortes estéticos ni efectos sobre las obras.
+
+Referencias aportadas por la familia: [catálogo de Giuseppe Penone](https://giuseppepenone.com/en/works), [apartados de Peter Halley](https://www.peterhalley.com/published-prints) y [cronología de David Hockney](https://www.thedavidhockneyfoundation.org/chronology). Se toman la claridad del catálogo, la separación de ámbitos y la secuencia visual; no se copian textos ni imágenes ajenos.
+
+Las apariciones al desplazarse son suaves, el visor usa un diálogo nativo y la navegación admite teclado. Con movimiento reducido se desactivan transiciones y desplazamientos suaves. El menú se adapta a móvil, con apartados internos desplazables cuando no caben en una línea.

@@ -1,4 +1,4 @@
-// Fichas y galerías revisadas visualmente. Denominaciones descriptivas, no títulos originales.
+// Descripciones y agrupaciones editoriales provisionales. Conservar IDs y referencias.
 export const catalogue = [
   {
     "id": "suspension-rosa",
@@ -4423,12 +4423,117 @@ export const catalogue = [
         "sourceName": "SANT JORDI.tif"
       }
     ]
+  },
+  {
+    "id": "pintura-015249",
+    "label": "Retrato de un hombre con barba",
+    "category": "pintura",
+    "series": "Retratos",
+    "chapter": "pintar-mundos",
+    "reference": "PIN-076",
+    "image": "arc-015249",
+    "thumb": "thumb-015249",
+    "alt": "Retrato de un hombre con barba",
+    "text": "Una pintura del archivo de Enric Segarra, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de retratos. El nombre describe la imagen y es provisional.",
+    "gallery": [
+      {
+        "image": "arc-015249",
+        "thumb": "thumb-015249",
+        "archiveId": "ARC-015249",
+        "alt": "Retrato de un hombre con barba",
+        "sourceName": "_DSC7897.ARW"
+      }
+    ]
+  },
+  {
+    "id": "pintura-015250",
+    "label": "Personajes alrededor de una mesa de juego",
+    "category": "pintura",
+    "series": "Figuras y símbolos",
+    "chapter": "pintar-mundos",
+    "reference": "PIN-077",
+    "image": "arc-015250",
+    "thumb": "thumb-015250",
+    "alt": "Personajes alrededor de una mesa de juego",
+    "text": "Una pintura del archivo de Enric Segarra, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de figuras y símbolos. El nombre describe la imagen y es provisional.",
+    "gallery": [
+      {
+        "image": "arc-015250",
+        "thumb": "thumb-015250",
+        "archiveId": "ARC-015250",
+        "alt": "Personajes alrededor de una mesa de juego",
+        "sourceName": "_DSC7898.ARW"
+      }
+    ]
+  },
+  {
+    "id": "pintura-015251",
+    "label": "Gran gato sobre fondo rosa",
+    "category": "pintura",
+    "series": "Gatos",
+    "chapter": "pintar-mundos",
+    "reference": "PIN-078",
+    "image": "arc-015251",
+    "thumb": "thumb-015251",
+    "alt": "Gran gato sobre fondo rosa",
+    "text": "Una pintura del archivo de Enric Segarra, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "gallery": [
+      {
+        "image": "arc-015251",
+        "thumb": "thumb-015251",
+        "archiveId": "ARC-015251",
+        "alt": "Gran gato sobre fondo rosa",
+        "sourceName": "_DSC7899.ARW"
+      }
+    ]
+  },
+  {
+    "id": "pintura-015257",
+    "label": "Composición de gatos entrelazados",
+    "category": "pintura",
+    "series": "Gatos",
+    "chapter": "pintar-mundos",
+    "reference": "PIN-079",
+    "image": "arc-015257",
+    "thumb": "thumb-015257",
+    "alt": "Composición de gatos entrelazados",
+    "text": "Una pintura del archivo de Enric Segarra, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "gallery": [
+      {
+        "image": "arc-015257",
+        "thumb": "thumb-015257",
+        "archiveId": "ARC-015257",
+        "alt": "Composición de gatos entrelazados",
+        "sourceName": "_DSC7905.ARW"
+      }
+    ]
+  },
+  {
+    "id": "pintura-015263",
+    "label": "Gato amarillo y figura rosa",
+    "category": "pintura",
+    "series": "Gatos",
+    "chapter": "pintar-mundos",
+    "reference": "PIN-080",
+    "image": "arc-015263",
+    "thumb": "thumb-015263",
+    "alt": "Gato amarillo y figura rosa",
+    "text": "Una pintura del archivo de Enric Segarra, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "gallery": [
+      {
+        "image": "arc-015263",
+        "thumb": "thumb-015263",
+        "archiveId": "ARC-015263",
+        "alt": "Gato amarillo y figura rosa",
+        "sourceName": "_DSC7911.ARW"
+      }
+    ]
   }
 ];
 export const albums = [
   {
     "id": "colomina",
-    "title": "La escultura en la sala",
+    "title": "Escultura · Palacio Colomina",
     "chapter": "exponer-abrir-espacios",
     "text": "Vistas conservadas en la carpeta «Expo Palacio Colomina». La selección recorre la presencia de los móviles y los relieves de Enric en el espacio expositivo. Otras obras visibles forman parte del contexto de la exposición.",
     "type": "Exposiciones",
@@ -4483,11 +4588,13 @@ export const albums = [
         "alt": "La escultura en la sala. Fotografía 7",
         "sourceName": "_DX_6987.jpeg"
       }
-    ]
+    ],
+    "section": "exposiciones",
+    "audience": "obra"
   },
   {
     "id": "pineda",
-    "title": "Un móvil en el patio",
+    "title": "Móviles · Palau de Pineda",
     "chapter": "exponer-abrir-espacios",
     "text": "Fotografías de la carpeta «Expo Palau de Pineda»: el patio, la suspensión y distintas posiciones de una misma pieza.",
     "type": "Exposiciones",
@@ -4521,7 +4628,9 @@ export const albums = [
         "alt": "Un móvil en el patio. Fotografía 4",
         "sourceName": "DSC03783.jpg"
       }
-    ]
+    ],
+    "section": "exposiciones",
+    "audience": "obra"
   },
   {
     "id": "signo-agua",
@@ -4559,11 +4668,13 @@ export const albums = [
         "alt": "El archivo de Signo de Agua. Fotografía 4",
         "sourceName": "EXPOSICIÓ EL PELÈC13.jpg"
       }
-    ]
+    ],
+    "section": "exposiciones",
+    "audience": "obra"
   },
   {
     "id": "sala-compartida",
-    "title": "Compartir el espacio expositivo",
+    "title": "Encuentros · Galería d’art",
     "chapter": "exponer-abrir-espacios",
     "text": "Registro de una exposición colectiva conservado en «Expo Galería d’art». Las pinturas y esculturas de otros participantes se muestran como contexto documental, sin atribuirlas a Enric.",
     "type": "Exposiciones",
@@ -4597,11 +4708,13 @@ export const albums = [
         "alt": "Compartir el espacio expositivo. Fotografía 4",
         "sourceName": "P10101M01.JPG"
       }
-    ]
+    ],
+    "section": "exposiciones",
+    "audience": "obra"
   },
   {
     "id": "educacion-salas",
-    "title": "El trabajo sale del taller",
+    "title": "Arte infantil · Sala de Bellas Artes",
     "chapter": "crear-con-otros",
     "text": "Obras de participantes en talleres de educación artística. Enric desarrolló la actividad educativa; la autoría de estas obras corresponde a sus participantes.",
     "type": "Educación artística",
@@ -4656,11 +4769,16 @@ export const albums = [
         "alt": "El trabajo sale del taller. Fotografía 7",
         "sourceName": "P1010010.JPG"
       }
-    ]
+    ],
+    "section": "exposiciones",
+    "audience": "educacion",
+    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a Enric Segarra.",
+    "place": "Valencia",
+    "source": "Identificación de sala apoyada en el documento «SALA EXPO BELLES ARTS VALENCIA» (ARC-004745). Fecha sin documentar."
   },
   {
     "id": "educacion-paneles",
-    "title": "Construir, pintar, exponer",
+    "title": "Arte infantil · Escuela de Magisterio",
     "chapter": "crear-con-otros",
     "text": "Una segunda secuencia del fondo educativo: volúmenes, paneles y composiciones. Se conserva como memoria de los talleres, separada del catálogo de obra propia.",
     "type": "Educación artística",
@@ -4729,7 +4847,13 @@ export const albums = [
         "alt": "Construir, pintar, exponer. Fotografía 9",
         "sourceName": "P1010025.JPG"
       }
-    ]
+    ],
+    "section": "exposiciones",
+    "audience": "educacion",
+    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a Enric Segarra.",
+    "place": "Escuela Universitaria de Magisterio Ausiàs March · Valencia",
+    "date": "24 mayo — 3 junio 2005",
+    "source": "Fechas documentadas en «Nuevas exposiciones» (ARC-004739); imágenes contrastadas con el dossier de la exposición (ARC-004291)."
   },
   {
     "id": "arboles",
@@ -4787,8 +4911,115 @@ export const albums = [
         "archiveId": "ARC-014925",
         "alt": "Las piezas encuentran su lugar. Fotografía 7",
         "sourceName": "DSC02373.ARW"
+      },
+      {
+        "image": "arc-014874",
+        "thumb": "thumb-014874",
+        "archiveId": "ARC-014874",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02318.ARW"
+      },
+      {
+        "image": "arc-014875",
+        "thumb": "thumb-014875",
+        "archiveId": "ARC-014875",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02319.ARW"
+      },
+      {
+        "image": "arc-014877",
+        "thumb": "thumb-014877",
+        "archiveId": "ARC-014877",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02321.ARW"
+      },
+      {
+        "image": "arc-014878",
+        "thumb": "thumb-014878",
+        "archiveId": "ARC-014878",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02322.ARW"
+      },
+      {
+        "image": "arc-014911",
+        "thumb": "thumb-014911",
+        "archiveId": "ARC-014911",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02359.ARW"
+      },
+      {
+        "image": "arc-014912",
+        "thumb": "thumb-014912",
+        "archiveId": "ARC-014912",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02360.ARW"
+      },
+      {
+        "image": "arc-014913",
+        "thumb": "thumb-014913",
+        "archiveId": "ARC-014913",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02361.ARW"
+      },
+      {
+        "image": "arc-014914",
+        "thumb": "thumb-014914",
+        "archiveId": "ARC-014914",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02362.ARW"
+      },
+      {
+        "image": "arc-014916",
+        "thumb": "thumb-014916",
+        "archiveId": "ARC-014916",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02364.ARW"
+      },
+      {
+        "image": "arc-014917",
+        "thumb": "thumb-014917",
+        "archiveId": "ARC-014917",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02365.ARW"
+      },
+      {
+        "image": "arc-014918",
+        "thumb": "thumb-014918",
+        "archiveId": "ARC-014918",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02366.ARW"
+      },
+      {
+        "image": "arc-014920",
+        "thumb": "thumb-014920",
+        "archiveId": "ARC-014920",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02368.ARW"
+      },
+      {
+        "image": "arc-014921",
+        "thumb": "thumb-014921",
+        "archiveId": "ARC-014921",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02369.ARW"
+      },
+      {
+        "image": "arc-014923",
+        "thumb": "thumb-014923",
+        "archiveId": "ARC-014923",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02371.ARW"
+      },
+      {
+        "image": "arc-014924",
+        "thumb": "thumb-014924",
+        "archiveId": "ARC-014924",
+        "alt": "Enric Segarra y sus esculturas suspendidas en el entorno",
+        "sourceName": "DSC02372.ARW"
       }
-    ]
+    ],
+    "section": "proceso",
+    "audience": "obra"
   },
   {
     "id": "mirar-materia",
@@ -4847,7 +5078,9 @@ export const albums = [
         "alt": "Mirar de cerca la materia. Fotografía 7",
         "sourceName": "IMG_20180609_142101.jpg"
       }
-    ]
+    ],
+    "section": "proceso",
+    "audience": "obra"
   },
   {
     "id": "variaciones-fotograficas",
@@ -4906,7 +5139,3269 @@ export const albums = [
         "alt": "Un cuaderno de variaciones. Fotografía 7",
         "sourceName": "2016-02-07 13.55.45 (1).jpg"
       }
-    ]
+    ],
+    "section": "proceso",
+    "audience": "obra"
+  },
+  {
+    "id": "infantil-dibujar",
+    "title": "Dibujar un mundo",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "obras",
+    "audience": "educacion",
+    "text": "Casas, animales, figuras, recorridos y manchas. Un conjunto amplio de dibujos infantiles conservados en el archivo.",
+    "paragraphs": [
+      "Cada dibujo propone una manera de ordenar el espacio. A veces el trazo describe una figura reconocible; otras, el color y el movimiento de la mano ocupan toda la hoja. Se conservan esas diferencias sin imponer un modelo de resultado.",
+      "Esta colección procede del fondo de dibujos de arte infantil. Los títulos de los conjuntos son orientaciones para recorrerlos. No identifican edades, autores o ejercicios que no estén documentados. Las variantes digitales y las copias evidentes se han separado de esta selección."
+    ],
+    "image": "arc-006379",
+    "gallery": [
+      {
+        "image": "arc-006379",
+        "thumb": "thumb-006379",
+        "archiveId": "ARC-006379",
+        "alt": "Dibujar un mundo · fotografía 1",
+        "sourceName": "DSC03926.JPG"
+      },
+      {
+        "image": "arc-006380",
+        "thumb": "thumb-006380",
+        "archiveId": "ARC-006380",
+        "alt": "Dibujar un mundo · fotografía 2",
+        "sourceName": "DSC03930.JPG"
+      },
+      {
+        "image": "arc-006381",
+        "thumb": "thumb-006381",
+        "archiveId": "ARC-006381",
+        "alt": "Dibujar un mundo · fotografía 3",
+        "sourceName": "DSC03933.JPG"
+      },
+      {
+        "image": "arc-006382",
+        "thumb": "thumb-006382",
+        "archiveId": "ARC-006382",
+        "alt": "Dibujar un mundo · fotografía 4",
+        "sourceName": "DSC03934A.JPG"
+      },
+      {
+        "image": "arc-006383",
+        "thumb": "thumb-006383",
+        "archiveId": "ARC-006383",
+        "alt": "Dibujar un mundo · fotografía 5",
+        "sourceName": "DSC03935.JPG"
+      },
+      {
+        "image": "arc-006384",
+        "thumb": "thumb-006384",
+        "archiveId": "ARC-006384",
+        "alt": "Dibujar un mundo · fotografía 6",
+        "sourceName": "DSC03937.JPG"
+      },
+      {
+        "image": "arc-006385",
+        "thumb": "thumb-006385",
+        "archiveId": "ARC-006385",
+        "alt": "Dibujar un mundo · fotografía 7",
+        "sourceName": "DSC03959.JPG"
+      },
+      {
+        "image": "arc-006386",
+        "thumb": "thumb-006386",
+        "archiveId": "ARC-006386",
+        "alt": "Dibujar un mundo · fotografía 8",
+        "sourceName": "DSC03885S.JPG"
+      },
+      {
+        "image": "arc-006387",
+        "thumb": "thumb-006387",
+        "archiveId": "ARC-006387",
+        "alt": "Dibujar un mundo · fotografía 9",
+        "sourceName": "DSC03886R.JPG"
+      },
+      {
+        "image": "arc-006388",
+        "thumb": "thumb-006388",
+        "archiveId": "ARC-006388",
+        "alt": "Dibujar un mundo · fotografía 10",
+        "sourceName": "DSC03887.JPG"
+      },
+      {
+        "image": "arc-006389",
+        "thumb": "thumb-006389",
+        "archiveId": "ARC-006389",
+        "alt": "Dibujar un mundo · fotografía 11",
+        "sourceName": "DSC03888.JPG"
+      },
+      {
+        "image": "arc-006390",
+        "thumb": "thumb-006390",
+        "archiveId": "ARC-006390",
+        "alt": "Dibujar un mundo · fotografía 12",
+        "sourceName": "DSC03889S.JPG"
+      },
+      {
+        "image": "arc-006391",
+        "thumb": "thumb-006391",
+        "archiveId": "ARC-006391",
+        "alt": "Dibujar un mundo · fotografía 13",
+        "sourceName": "DSC03890.JPG"
+      },
+      {
+        "image": "arc-006392",
+        "thumb": "thumb-006392",
+        "archiveId": "ARC-006392",
+        "alt": "Dibujar un mundo · fotografía 14",
+        "sourceName": "DSC03891.JPG"
+      },
+      {
+        "image": "arc-006393",
+        "thumb": "thumb-006393",
+        "archiveId": "ARC-006393",
+        "alt": "Dibujar un mundo · fotografía 15",
+        "sourceName": "DSC03892E 27-10-2015 16-32-26.JPG"
+      },
+      {
+        "image": "arc-006394",
+        "thumb": "thumb-006394",
+        "archiveId": "ARC-006394",
+        "alt": "Dibujar un mundo · fotografía 16",
+        "sourceName": "DSC03893.JPG"
+      },
+      {
+        "image": "arc-006395",
+        "thumb": "thumb-006395",
+        "archiveId": "ARC-006395",
+        "alt": "Dibujar un mundo · fotografía 17",
+        "sourceName": "DSC03894D.JPG"
+      },
+      {
+        "image": "arc-006396",
+        "thumb": "thumb-006396",
+        "archiveId": "ARC-006396",
+        "alt": "Dibujar un mundo · fotografía 18",
+        "sourceName": "DSC03895F 27-10-2015 16-33-23 27-10-2015 16-33-23D 27-10-2015 16-33-23.JPG"
+      },
+      {
+        "image": "arc-006397",
+        "thumb": "thumb-006397",
+        "archiveId": "ARC-006397",
+        "alt": "Dibujar un mundo · fotografía 19",
+        "sourceName": "DSC03896E 27-10-2015 16-33-38.JPG"
+      },
+      {
+        "image": "arc-006398",
+        "thumb": "thumb-006398",
+        "archiveId": "ARC-006398",
+        "alt": "Dibujar un mundo · fotografía 20",
+        "sourceName": "DSC038975 27-10-2015 16-33-54R 27-10-2015 16-33-54.JPG"
+      },
+      {
+        "image": "arc-006399",
+        "thumb": "thumb-006399",
+        "archiveId": "ARC-006399",
+        "alt": "Dibujar un mundo · fotografía 21",
+        "sourceName": "DSC03898D 27-10-2015 16-34-09.JPG"
+      },
+      {
+        "image": "arc-006400",
+        "thumb": "thumb-006400",
+        "archiveId": "ARC-006400",
+        "alt": "Dibujar un mundo · fotografía 22",
+        "sourceName": "DSC03899G 27-10-2015 16-34-23GH 27-10-2015 16-34-23.JPG"
+      },
+      {
+        "image": "arc-006401",
+        "thumb": "thumb-006401",
+        "archiveId": "ARC-006401",
+        "alt": "Dibujar un mundo · fotografía 23",
+        "sourceName": "DSC03900R 27-10-2015 16-34-51J 27-10-2015 16-34-51.JPG"
+      },
+      {
+        "image": "arc-006402",
+        "thumb": "thumb-006402",
+        "archiveId": "ARC-006402",
+        "alt": "Dibujar un mundo · fotografía 24",
+        "sourceName": "DSC03901D 27-10-2015 16-35-05.JPG"
+      },
+      {
+        "image": "arc-006403",
+        "thumb": "thumb-006403",
+        "archiveId": "ARC-006403",
+        "alt": "Dibujar un mundo · fotografía 25",
+        "sourceName": "DSC03902WDF 27-10-2015 16-35-19.JPG"
+      },
+      {
+        "image": "arc-006404",
+        "thumb": "thumb-006404",
+        "archiveId": "ARC-006404",
+        "alt": "Dibujar un mundo · fotografía 26",
+        "sourceName": "DSC03903.JPG"
+      },
+      {
+        "image": "arc-006405",
+        "thumb": "thumb-006405",
+        "archiveId": "ARC-006405",
+        "alt": "Dibujar un mundo · fotografía 27",
+        "sourceName": "DSC03904S 27-10-2015 16-35-47.JPG"
+      },
+      {
+        "image": "arc-006406",
+        "thumb": "thumb-006406",
+        "archiveId": "ARC-006406",
+        "alt": "Dibujar un mundo · fotografía 28",
+        "sourceName": "DSC03905D 27-10-2015 16-36-01S 27-10-2015 16-36-01.JPG"
+      },
+      {
+        "image": "arc-006407",
+        "thumb": "thumb-006407",
+        "archiveId": "ARC-006407",
+        "alt": "Dibujar un mundo · fotografía 29",
+        "sourceName": "DSC03906F 27-10-2015 16-36-15.JPG"
+      },
+      {
+        "image": "arc-006408",
+        "thumb": "thumb-006408",
+        "archiveId": "ARC-006408",
+        "alt": "Dibujar un mundo · fotografía 30",
+        "sourceName": "DSC03907.JPG"
+      },
+      {
+        "image": "arc-006409",
+        "thumb": "thumb-006409",
+        "archiveId": "ARC-006409",
+        "alt": "Dibujar un mundo · fotografía 31",
+        "sourceName": "DSC03908.JPG"
+      },
+      {
+        "image": "arc-006410",
+        "thumb": "thumb-006410",
+        "archiveId": "ARC-006410",
+        "alt": "Dibujar un mundo · fotografía 32",
+        "sourceName": "DSC03909.JPG"
+      },
+      {
+        "image": "arc-006411",
+        "thumb": "thumb-006411",
+        "archiveId": "ARC-006411",
+        "alt": "Dibujar un mundo · fotografía 33",
+        "sourceName": "DSC03910.JPG"
+      },
+      {
+        "image": "arc-006412",
+        "thumb": "thumb-006412",
+        "archiveId": "ARC-006412",
+        "alt": "Dibujar un mundo · fotografía 34",
+        "sourceName": "DSC03911.JPG"
+      },
+      {
+        "image": "arc-006413",
+        "thumb": "thumb-006413",
+        "archiveId": "ARC-006413",
+        "alt": "Dibujar un mundo · fotografía 35",
+        "sourceName": "DSC03912.JPG"
+      },
+      {
+        "image": "arc-006414",
+        "thumb": "thumb-006414",
+        "archiveId": "ARC-006414",
+        "alt": "Dibujar un mundo · fotografía 36",
+        "sourceName": "DSC03913.JPG"
+      },
+      {
+        "image": "arc-006415",
+        "thumb": "thumb-006415",
+        "archiveId": "ARC-006415",
+        "alt": "Dibujar un mundo · fotografía 37",
+        "sourceName": "DSC03914.JPG"
+      },
+      {
+        "image": "arc-006416",
+        "thumb": "thumb-006416",
+        "archiveId": "ARC-006416",
+        "alt": "Dibujar un mundo · fotografía 38",
+        "sourceName": "DSC03915.JPG"
+      },
+      {
+        "image": "arc-006417",
+        "thumb": "thumb-006417",
+        "archiveId": "ARC-006417",
+        "alt": "Dibujar un mundo · fotografía 39",
+        "sourceName": "DSC03916.JPG"
+      },
+      {
+        "image": "arc-006418",
+        "thumb": "thumb-006418",
+        "archiveId": "ARC-006418",
+        "alt": "Dibujar un mundo · fotografía 40",
+        "sourceName": "DSC03917.JPG"
+      },
+      {
+        "image": "arc-006419",
+        "thumb": "thumb-006419",
+        "archiveId": "ARC-006419",
+        "alt": "Dibujar un mundo · fotografía 41",
+        "sourceName": "DSC03918.JPG"
+      },
+      {
+        "image": "arc-006420",
+        "thumb": "thumb-006420",
+        "archiveId": "ARC-006420",
+        "alt": "Dibujar un mundo · fotografía 42",
+        "sourceName": "DSC03919.JPG"
+      },
+      {
+        "image": "arc-006421",
+        "thumb": "thumb-006421",
+        "archiveId": "ARC-006421",
+        "alt": "Dibujar un mundo · fotografía 43",
+        "sourceName": "DSC03920.JPG"
+      },
+      {
+        "image": "arc-006422",
+        "thumb": "thumb-006422",
+        "archiveId": "ARC-006422",
+        "alt": "Dibujar un mundo · fotografía 44",
+        "sourceName": "DSC03921.JPG"
+      },
+      {
+        "image": "arc-006423",
+        "thumb": "thumb-006423",
+        "archiveId": "ARC-006423",
+        "alt": "Dibujar un mundo · fotografía 45",
+        "sourceName": "DSC03922.JPG"
+      },
+      {
+        "image": "arc-006424",
+        "thumb": "thumb-006424",
+        "archiveId": "ARC-006424",
+        "alt": "Dibujar un mundo · fotografía 46",
+        "sourceName": "DSC03923.JPG"
+      },
+      {
+        "image": "arc-006425",
+        "thumb": "thumb-006425",
+        "archiveId": "ARC-006425",
+        "alt": "Dibujar un mundo · fotografía 47",
+        "sourceName": "DSC03924.JPG"
+      },
+      {
+        "image": "arc-006426",
+        "thumb": "thumb-006426",
+        "archiveId": "ARC-006426",
+        "alt": "Dibujar un mundo · fotografía 48",
+        "sourceName": "DSC03925.JPG"
+      },
+      {
+        "image": "arc-006428",
+        "thumb": "thumb-006428",
+        "archiveId": "ARC-006428",
+        "alt": "Dibujar un mundo · fotografía 49",
+        "sourceName": "DSC03927.JPG"
+      },
+      {
+        "image": "arc-006429",
+        "thumb": "thumb-006429",
+        "archiveId": "ARC-006429",
+        "alt": "Dibujar un mundo · fotografía 50",
+        "sourceName": "DSC03928.JPG"
+      },
+      {
+        "image": "arc-006430",
+        "thumb": "thumb-006430",
+        "archiveId": "ARC-006430",
+        "alt": "Dibujar un mundo · fotografía 51",
+        "sourceName": "DSC03929.JPG"
+      },
+      {
+        "image": "arc-006432",
+        "thumb": "thumb-006432",
+        "archiveId": "ARC-006432",
+        "alt": "Dibujar un mundo · fotografía 52",
+        "sourceName": "DSC03931.JPG"
+      },
+      {
+        "image": "arc-006433",
+        "thumb": "thumb-006433",
+        "archiveId": "ARC-006433",
+        "alt": "Dibujar un mundo · fotografía 53",
+        "sourceName": "DSC03932.JPG"
+      },
+      {
+        "image": "arc-006437",
+        "thumb": "thumb-006437",
+        "archiveId": "ARC-006437",
+        "alt": "Dibujar un mundo · fotografía 54",
+        "sourceName": "DSC03936.JPG"
+      },
+      {
+        "image": "arc-006439",
+        "thumb": "thumb-006439",
+        "archiveId": "ARC-006439",
+        "alt": "Dibujar un mundo · fotografía 55",
+        "sourceName": "DSC03938.JPG"
+      },
+      {
+        "image": "arc-006440",
+        "thumb": "thumb-006440",
+        "archiveId": "ARC-006440",
+        "alt": "Dibujar un mundo · fotografía 56",
+        "sourceName": "DSC03940.JPG"
+      },
+      {
+        "image": "arc-006441",
+        "thumb": "thumb-006441",
+        "archiveId": "ARC-006441",
+        "alt": "Dibujar un mundo · fotografía 57",
+        "sourceName": "DSC03941.JPG"
+      },
+      {
+        "image": "arc-006442",
+        "thumb": "thumb-006442",
+        "archiveId": "ARC-006442",
+        "alt": "Dibujar un mundo · fotografía 58",
+        "sourceName": "DSC03942.JPG"
+      },
+      {
+        "image": "arc-006443",
+        "thumb": "thumb-006443",
+        "archiveId": "ARC-006443",
+        "alt": "Dibujar un mundo · fotografía 59",
+        "sourceName": "DSC03943.JPG"
+      },
+      {
+        "image": "arc-006444",
+        "thumb": "thumb-006444",
+        "archiveId": "ARC-006444",
+        "alt": "Dibujar un mundo · fotografía 60",
+        "sourceName": "DSC03944.JPG"
+      },
+      {
+        "image": "arc-006445",
+        "thumb": "thumb-006445",
+        "archiveId": "ARC-006445",
+        "alt": "Dibujar un mundo · fotografía 61",
+        "sourceName": "DSC03945.JPG"
+      },
+      {
+        "image": "arc-006446",
+        "thumb": "thumb-006446",
+        "archiveId": "ARC-006446",
+        "alt": "Dibujar un mundo · fotografía 62",
+        "sourceName": "DSC03946.JPG"
+      },
+      {
+        "image": "arc-006447",
+        "thumb": "thumb-006447",
+        "archiveId": "ARC-006447",
+        "alt": "Dibujar un mundo · fotografía 63",
+        "sourceName": "DSC03947.JPG"
+      },
+      {
+        "image": "arc-006448",
+        "thumb": "thumb-006448",
+        "archiveId": "ARC-006448",
+        "alt": "Dibujar un mundo · fotografía 64",
+        "sourceName": "DSC03948.JPG"
+      },
+      {
+        "image": "arc-006449",
+        "thumb": "thumb-006449",
+        "archiveId": "ARC-006449",
+        "alt": "Dibujar un mundo · fotografía 65",
+        "sourceName": "DSC03949.JPG"
+      },
+      {
+        "image": "arc-006450",
+        "thumb": "thumb-006450",
+        "archiveId": "ARC-006450",
+        "alt": "Dibujar un mundo · fotografía 66",
+        "sourceName": "DSC03950.JPG"
+      },
+      {
+        "image": "arc-006451",
+        "thumb": "thumb-006451",
+        "archiveId": "ARC-006451",
+        "alt": "Dibujar un mundo · fotografía 67",
+        "sourceName": "DSC03951.JPG"
+      },
+      {
+        "image": "arc-006452",
+        "thumb": "thumb-006452",
+        "archiveId": "ARC-006452",
+        "alt": "Dibujar un mundo · fotografía 68",
+        "sourceName": "DSC03952.JPG"
+      },
+      {
+        "image": "arc-006453",
+        "thumb": "thumb-006453",
+        "archiveId": "ARC-006453",
+        "alt": "Dibujar un mundo · fotografía 69",
+        "sourceName": "DSC03953.JPG"
+      },
+      {
+        "image": "arc-006454",
+        "thumb": "thumb-006454",
+        "archiveId": "ARC-006454",
+        "alt": "Dibujar un mundo · fotografía 70",
+        "sourceName": "DSC03954.JPG"
+      },
+      {
+        "image": "arc-006455",
+        "thumb": "thumb-006455",
+        "archiveId": "ARC-006455",
+        "alt": "Dibujar un mundo · fotografía 71",
+        "sourceName": "DSC03955.JPG"
+      },
+      {
+        "image": "arc-006456",
+        "thumb": "thumb-006456",
+        "archiveId": "ARC-006456",
+        "alt": "Dibujar un mundo · fotografía 72",
+        "sourceName": "DSC03956.JPG"
+      },
+      {
+        "image": "arc-006457",
+        "thumb": "thumb-006457",
+        "archiveId": "ARC-006457",
+        "alt": "Dibujar un mundo · fotografía 73",
+        "sourceName": "DSC03957.JPG"
+      },
+      {
+        "image": "arc-006458",
+        "thumb": "thumb-006458",
+        "archiveId": "ARC-006458",
+        "alt": "Dibujar un mundo · fotografía 74",
+        "sourceName": "DSC03958.JPG"
+      },
+      {
+        "image": "arc-006461",
+        "thumb": "thumb-006461",
+        "archiveId": "ARC-006461",
+        "alt": "Dibujar un mundo · fotografía 75",
+        "sourceName": "DSC03960.JPG"
+      },
+      {
+        "image": "arc-006462",
+        "thumb": "thumb-006462",
+        "archiveId": "ARC-006462",
+        "alt": "Dibujar un mundo · fotografía 76",
+        "sourceName": "DSC03961.JPG"
+      },
+      {
+        "image": "arc-006463",
+        "thumb": "thumb-006463",
+        "archiveId": "ARC-006463",
+        "alt": "Dibujar un mundo · fotografía 77",
+        "sourceName": "DSC03962D 27-10-2015 16-52-06S 27-10-2015 16-52-06F 27-10-2015 16-52-06.JPG"
+      },
+      {
+        "image": "arc-006464",
+        "thumb": "thumb-006464",
+        "archiveId": "ARC-006464",
+        "alt": "Dibujar un mundo · fotografía 78",
+        "sourceName": "DSC03963.JPG"
+      },
+      {
+        "image": "arc-006465",
+        "thumb": "thumb-006465",
+        "archiveId": "ARC-006465",
+        "alt": "Dibujar un mundo · fotografía 79",
+        "sourceName": "DSC03964.JPG"
+      },
+      {
+        "image": "arc-006466",
+        "thumb": "thumb-006466",
+        "archiveId": "ARC-006466",
+        "alt": "Dibujar un mundo · fotografía 80",
+        "sourceName": "DSC03965.JPG"
+      },
+      {
+        "image": "arc-006467",
+        "thumb": "thumb-006467",
+        "archiveId": "ARC-006467",
+        "alt": "Dibujar un mundo · fotografía 81",
+        "sourceName": "DSC03966.JPG"
+      },
+      {
+        "image": "arc-006468",
+        "thumb": "thumb-006468",
+        "archiveId": "ARC-006468",
+        "alt": "Dibujar un mundo · fotografía 82",
+        "sourceName": "DSC03967.JPG"
+      },
+      {
+        "image": "arc-006469",
+        "thumb": "thumb-006469",
+        "archiveId": "ARC-006469",
+        "alt": "Dibujar un mundo · fotografía 83",
+        "sourceName": "DSC03968.JPG"
+      },
+      {
+        "image": "arc-006470",
+        "thumb": "thumb-006470",
+        "archiveId": "ARC-006470",
+        "alt": "Dibujar un mundo · fotografía 84",
+        "sourceName": "DSC03969.JPG"
+      },
+      {
+        "image": "arc-006471",
+        "thumb": "thumb-006471",
+        "archiveId": "ARC-006471",
+        "alt": "Dibujar un mundo · fotografía 85",
+        "sourceName": "DSC03970.JPG"
+      },
+      {
+        "image": "arc-006472",
+        "thumb": "thumb-006472",
+        "archiveId": "ARC-006472",
+        "alt": "Dibujar un mundo · fotografía 86",
+        "sourceName": "DSC03971.JPG"
+      },
+      {
+        "image": "arc-006473",
+        "thumb": "thumb-006473",
+        "archiveId": "ARC-006473",
+        "alt": "Dibujar un mundo · fotografía 87",
+        "sourceName": "DSC03972.JPG"
+      },
+      {
+        "image": "arc-006474",
+        "thumb": "thumb-006474",
+        "archiveId": "ARC-006474",
+        "alt": "Dibujar un mundo · fotografía 88",
+        "sourceName": "DSC03973.JPG"
+      },
+      {
+        "image": "arc-006475",
+        "thumb": "thumb-006475",
+        "archiveId": "ARC-006475",
+        "alt": "Dibujar un mundo · fotografía 89",
+        "sourceName": "DSC03974.JPG"
+      },
+      {
+        "image": "arc-006476",
+        "thumb": "thumb-006476",
+        "archiveId": "ARC-006476",
+        "alt": "Dibujar un mundo · fotografía 90",
+        "sourceName": "DSC03975.JPG"
+      },
+      {
+        "image": "arc-006477",
+        "thumb": "thumb-006477",
+        "archiveId": "ARC-006477",
+        "alt": "Dibujar un mundo · fotografía 91",
+        "sourceName": "DSC03976.JPG"
+      },
+      {
+        "image": "arc-006478",
+        "thumb": "thumb-006478",
+        "archiveId": "ARC-006478",
+        "alt": "Dibujar un mundo · fotografía 92",
+        "sourceName": "DSC03977.JPG"
+      },
+      {
+        "image": "arc-006479",
+        "thumb": "thumb-006479",
+        "archiveId": "ARC-006479",
+        "alt": "Dibujar un mundo · fotografía 93",
+        "sourceName": "DSC03978.JPG"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar."
+  },
+  {
+    "id": "infantil-relieves",
+    "title": "Relieves y objetos encontrados",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "obras",
+    "audience": "educacion",
+    "text": "Objetos cotidianos que se convierten en rostros, construcciones y pequeños espacios.",
+    "paragraphs": [
+      "El relieve permite pasar de la superficie al volumen. Piezas de madera, envases, fragmentos y formas recortadas se encuentran en composiciones que se pueden mirar de frente y de lado.",
+      "La actividad parte de reconocer las posibilidades de los materiales: juntar, separar, apoyar, cubrir y transformar. La fotografía recoge tanto piezas individuales como conjuntos. Los detalles se conservan junto a la imagen general cuando aportan otra lectura."
+    ],
+    "image": "arc-014341",
+    "gallery": [
+      {
+        "image": "arc-014341",
+        "thumb": "thumb-014341",
+        "archiveId": "ARC-014341",
+        "alt": "Relieves y objetos encontrados · fotografía 1",
+        "sourceName": "DSC04056.JPG"
+      },
+      {
+        "image": "arc-014342",
+        "thumb": "thumb-014342",
+        "archiveId": "ARC-014342",
+        "alt": "Relieves y objetos encontrados · fotografía 2",
+        "sourceName": "DSC04057.JPG"
+      },
+      {
+        "image": "arc-014339",
+        "thumb": "thumb-014339",
+        "archiveId": "ARC-014339",
+        "alt": "Relieves y objetos encontrados · fotografía 3",
+        "sourceName": "DSC04059.JPG"
+      },
+      {
+        "image": "arc-014345",
+        "thumb": "thumb-014345",
+        "archiveId": "ARC-014345",
+        "alt": "Relieves y objetos encontrados · fotografía 4",
+        "sourceName": "DSC04060.JPG"
+      },
+      {
+        "image": "arc-014346",
+        "thumb": "thumb-014346",
+        "archiveId": "ARC-014346",
+        "alt": "Relieves y objetos encontrados · fotografía 5",
+        "sourceName": "Chopos  -18B.jpg"
+      },
+      {
+        "image": "arc-014350",
+        "thumb": "thumb-014350",
+        "archiveId": "ARC-014350",
+        "alt": "Relieves y objetos encontrados · fotografía 6",
+        "sourceName": "F1000010A.jpg"
+      },
+      {
+        "image": "arc-014352",
+        "thumb": "thumb-014352",
+        "archiveId": "ARC-014352",
+        "alt": "Relieves y objetos encontrados · fotografía 7",
+        "sourceName": "Imagen CAMARA OLYMPUS 004.jpg"
+      },
+      {
+        "image": "arc-014355",
+        "thumb": "thumb-014355",
+        "archiveId": "ARC-014355",
+        "alt": "Relieves y objetos encontrados · fotografía 8",
+        "sourceName": "P1010002.JPG"
+      },
+      {
+        "image": "arc-014363",
+        "thumb": "thumb-014363",
+        "archiveId": "ARC-014363",
+        "alt": "Relieves y objetos encontrados · fotografía 9",
+        "sourceName": "P1010012-1.JPG"
+      },
+      {
+        "image": "arc-014359",
+        "thumb": "thumb-014359",
+        "archiveId": "ARC-014359",
+        "alt": "Relieves y objetos encontrados · fotografía 10",
+        "sourceName": "P1010008-2.JPG"
+      },
+      {
+        "image": "arc-014361",
+        "thumb": "thumb-014361",
+        "archiveId": "ARC-014361",
+        "alt": "Relieves y objetos encontrados · fotografía 11",
+        "sourceName": "P1010009-2.JPG"
+      },
+      {
+        "image": "arc-014362",
+        "thumb": "thumb-014362",
+        "archiveId": "ARC-014362",
+        "alt": "Relieves y objetos encontrados · fotografía 12",
+        "sourceName": "P1010011-2.JPG"
+      },
+      {
+        "image": "arc-014364",
+        "thumb": "thumb-014364",
+        "archiveId": "ARC-014364",
+        "alt": "Relieves y objetos encontrados · fotografía 13",
+        "sourceName": "P1010013-1.JPG"
+      },
+      {
+        "image": "arc-014365",
+        "thumb": "thumb-014365",
+        "archiveId": "ARC-014365",
+        "alt": "Relieves y objetos encontrados · fotografía 14",
+        "sourceName": "P1010014-1.JPG"
+      },
+      {
+        "image": "arc-014367",
+        "thumb": "thumb-014367",
+        "archiveId": "ARC-014367",
+        "alt": "Relieves y objetos encontrados · fotografía 15",
+        "sourceName": "P1010027.JPG"
+      },
+      {
+        "image": "arc-014380",
+        "thumb": "thumb-014380",
+        "archiveId": "ARC-014380",
+        "alt": "Relieves y objetos encontrados · fotografía 16",
+        "sourceName": "P7260002A.jpg"
+      },
+      {
+        "image": "arc-014387",
+        "thumb": "thumb-014387",
+        "archiveId": "ARC-014387",
+        "alt": "Relieves y objetos encontrados · fotografía 17",
+        "sourceName": "PICT1125.JPG"
+      },
+      {
+        "image": "arc-014439",
+        "thumb": "thumb-014439",
+        "archiveId": "ARC-014439",
+        "alt": "Relieves y objetos encontrados · fotografía 18",
+        "sourceName": "UNTITL12-1.JPG"
+      },
+      {
+        "image": "arc-014445",
+        "thumb": "thumb-014445",
+        "archiveId": "ARC-014445",
+        "alt": "Relieves y objetos encontrados · fotografía 19",
+        "sourceName": "UNTITL17.JPG"
+      },
+      {
+        "image": "arc-014447",
+        "thumb": "thumb-014447",
+        "archiveId": "ARC-014447",
+        "alt": "Relieves y objetos encontrados · fotografía 20",
+        "sourceName": "UNTITL20.JPG"
+      },
+      {
+        "image": "arc-014448",
+        "thumb": "thumb-014448",
+        "archiveId": "ARC-014448",
+        "alt": "Relieves y objetos encontrados · fotografía 21",
+        "sourceName": "UNTITL21.JPG"
+      },
+      {
+        "image": "arc-014449",
+        "thumb": "thumb-014449",
+        "archiveId": "ARC-014449",
+        "alt": "Relieves y objetos encontrados · fotografía 22",
+        "sourceName": "UNTITL22.JPG"
+      },
+      {
+        "image": "arc-014451",
+        "thumb": "thumb-014451",
+        "archiveId": "ARC-014451",
+        "alt": "Relieves y objetos encontrados · fotografía 23",
+        "sourceName": "UNTITL24-1.JPG"
+      },
+      {
+        "image": "arc-014453",
+        "thumb": "thumb-014453",
+        "archiveId": "ARC-014453",
+        "alt": "Relieves y objetos encontrados · fotografía 24",
+        "sourceName": "UNTITL25-1.JPG"
+      },
+      {
+        "image": "arc-014454",
+        "thumb": "thumb-014454",
+        "archiveId": "ARC-014454",
+        "alt": "Relieves y objetos encontrados · fotografía 25",
+        "sourceName": "UNTITL26.JPG"
+      },
+      {
+        "image": "arc-014455",
+        "thumb": "thumb-014455",
+        "archiveId": "ARC-014455",
+        "alt": "Relieves y objetos encontrados · fotografía 26",
+        "sourceName": "UNTITL29.JPG"
+      },
+      {
+        "image": "arc-014465",
+        "thumb": "thumb-014465",
+        "archiveId": "ARC-014465",
+        "alt": "Relieves y objetos encontrados · fotografía 27",
+        "sourceName": "UNTITLE2.JPG"
+      },
+      {
+        "image": "arc-014466",
+        "thumb": "thumb-014466",
+        "archiveId": "ARC-014466",
+        "alt": "Relieves y objetos encontrados · fotografía 28",
+        "sourceName": "UNTITLE3-1.JPG"
+      },
+      {
+        "image": "arc-014467",
+        "thumb": "thumb-014467",
+        "archiveId": "ARC-014467",
+        "alt": "Relieves y objetos encontrados · fotografía 29",
+        "sourceName": "UNTITLE3.JPG"
+      },
+      {
+        "image": "arc-014471",
+        "thumb": "thumb-014471",
+        "archiveId": "ARC-014471",
+        "alt": "Relieves y objetos encontrados · fotografía 30",
+        "sourceName": "UNTITLE8.JPG"
+      },
+      {
+        "image": "arc-006527",
+        "thumb": "thumb-006527",
+        "archiveId": "ARC-006527",
+        "alt": "Relieves y objetos encontrados · fotografía 31",
+        "sourceName": "2016-04-22 14.37.08.jpg"
+      },
+      {
+        "image": "arc-006528",
+        "thumb": "thumb-006528",
+        "archiveId": "ARC-006528",
+        "alt": "Relieves y objetos encontrados · fotografía 32",
+        "sourceName": "20160327_115836.jpg"
+      },
+      {
+        "image": "arc-006530",
+        "thumb": "thumb-006530",
+        "archiveId": "ARC-006530",
+        "alt": "Relieves y objetos encontrados · fotografía 33",
+        "sourceName": "20160327_120147.jpg"
+      },
+      {
+        "image": "arc-006531",
+        "thumb": "thumb-006531",
+        "archiveId": "ARC-006531",
+        "alt": "Relieves y objetos encontrados · fotografía 34",
+        "sourceName": "20160327_120223.jpg"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar."
+  },
+  {
+    "id": "infantil-totems",
+    "title": "Columnas, personajes y tótems",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "obras",
+    "audience": "educacion",
+    "text": "La figura se levanta: tubos, columnas y construcciones verticales que ocupan el espacio.",
+    "paragraphs": [
+      "Un soporte alargado puede convertirse en personaje, animal o estructura abstracta. El color recorre sus caras y la pieza cambia al rodearla. La verticalidad propone problemas de equilibrio, apoyo y relación entre las partes.",
+      "El conjunto reúne distintas construcciones del archivo educativo y algunas vistas complementarias. No se presenta como obra escultórica de Enric: las piezas pertenecen a los participantes de las actividades."
+    ],
+    "image": "arc-002663",
+    "gallery": [
+      {
+        "image": "arc-002663",
+        "thumb": "thumb-002663",
+        "archiveId": "ARC-002663",
+        "alt": "Columnas, personajes y tótems · fotografía 1",
+        "sourceName": "careta.JPG"
+      },
+      {
+        "image": "arc-002664",
+        "thumb": "thumb-002664",
+        "archiveId": "ARC-002664",
+        "alt": "Columnas, personajes y tótems · fotografía 2",
+        "sourceName": "SERIE_IN.JPG"
+      },
+      {
+        "image": "arc-002667",
+        "thumb": "thumb-002667",
+        "archiveId": "ARC-002667",
+        "alt": "Columnas, personajes y tótems · fotografía 3",
+        "sourceName": "UNTITLE2.JPG"
+      },
+      {
+        "image": "arc-002668",
+        "thumb": "thumb-002668",
+        "archiveId": "ARC-002668",
+        "alt": "Columnas, personajes y tótems · fotografía 4",
+        "sourceName": "UNTITLE4.JPG"
+      },
+      {
+        "image": "arc-002669",
+        "thumb": "thumb-002669",
+        "archiveId": "ARC-002669",
+        "alt": "Columnas, personajes y tótems · fotografía 5",
+        "sourceName": "UNTITLE5.JPG"
+      },
+      {
+        "image": "arc-002670",
+        "thumb": "thumb-002670",
+        "archiveId": "ARC-002670",
+        "alt": "Columnas, personajes y tótems · fotografía 6",
+        "sourceName": "UNTITLED.JPG"
+      },
+      {
+        "image": "arc-002687",
+        "thumb": "thumb-002687",
+        "archiveId": "ARC-002687",
+        "alt": "Columnas, personajes y tótems · fotografía 7",
+        "sourceName": "SERIE_18.JPG"
+      },
+      {
+        "image": "arc-002692",
+        "thumb": "thumb-002692",
+        "archiveId": "ARC-002692",
+        "alt": "Columnas, personajes y tótems · fotografía 8",
+        "sourceName": "SERIE_23.JPG"
+      },
+      {
+        "image": "arc-002696",
+        "thumb": "thumb-002696",
+        "archiveId": "ARC-002696",
+        "alt": "Columnas, personajes y tótems · fotografía 9",
+        "sourceName": "SERIE_I4.JPG"
+      },
+      {
+        "image": "arc-002698",
+        "thumb": "thumb-002698",
+        "archiveId": "ARC-002698",
+        "alt": "Columnas, personajes y tótems · fotografía 10",
+        "sourceName": "SERIE_I6.JPG"
+      },
+      {
+        "image": "arc-014349",
+        "thumb": "thumb-014349",
+        "archiveId": "ARC-014349",
+        "alt": "Columnas, personajes y tótems · fotografía 11",
+        "sourceName": "F1000007A.jpg"
+      },
+      {
+        "image": "arc-014369",
+        "thumb": "thumb-014369",
+        "archiveId": "ARC-014369",
+        "alt": "Columnas, personajes y tótems · fotografía 12",
+        "sourceName": "P5050010.JPG"
+      },
+      {
+        "image": "arc-014372",
+        "thumb": "thumb-014372",
+        "archiveId": "ARC-014372",
+        "alt": "Columnas, personajes y tótems · fotografía 13",
+        "sourceName": "P5050025.JPG"
+      },
+      {
+        "image": "arc-014373",
+        "thumb": "thumb-014373",
+        "archiveId": "ARC-014373",
+        "alt": "Columnas, personajes y tótems · fotografía 14",
+        "sourceName": "P5050026.JPG"
+      },
+      {
+        "image": "arc-014374",
+        "thumb": "thumb-014374",
+        "archiveId": "ARC-014374",
+        "alt": "Columnas, personajes y tótems · fotografía 15",
+        "sourceName": "P5050027.JPG"
+      },
+      {
+        "image": "arc-014376",
+        "thumb": "thumb-014376",
+        "archiveId": "ARC-014376",
+        "alt": "Columnas, personajes y tótems · fotografía 16",
+        "sourceName": "P5050029.JPG"
+      },
+      {
+        "image": "arc-014378",
+        "thumb": "thumb-014378",
+        "archiveId": "ARC-014378",
+        "alt": "Columnas, personajes y tótems · fotografía 17",
+        "sourceName": "P5050031.JPG"
+      },
+      {
+        "image": "arc-014384",
+        "thumb": "thumb-014384",
+        "archiveId": "ARC-014384",
+        "alt": "Columnas, personajes y tótems · fotografía 18",
+        "sourceName": "PC170045.JPG"
+      },
+      {
+        "image": "arc-014386",
+        "thumb": "thumb-014386",
+        "archiveId": "ARC-014386",
+        "alt": "Columnas, personajes y tótems · fotografía 19",
+        "sourceName": "PICT1123.JPG"
+      },
+      {
+        "image": "arc-014388",
+        "thumb": "thumb-014388",
+        "archiveId": "ARC-014388",
+        "alt": "Columnas, personajes y tótems · fotografía 20",
+        "sourceName": "PICT1128.JPG"
+      },
+      {
+        "image": "arc-014389",
+        "thumb": "thumb-014389",
+        "archiveId": "ARC-014389",
+        "alt": "Columnas, personajes y tótems · fotografía 21",
+        "sourceName": "PICT1129.JPG"
+      },
+      {
+        "image": "arc-014392",
+        "thumb": "thumb-014392",
+        "archiveId": "ARC-014392",
+        "alt": "Columnas, personajes y tótems · fotografía 22",
+        "sourceName": "PICT1153.JPG"
+      },
+      {
+        "image": "arc-014440",
+        "thumb": "thumb-014440",
+        "archiveId": "ARC-014440",
+        "alt": "Columnas, personajes y tótems · fotografía 23",
+        "sourceName": "UNTITL12.JPG"
+      },
+      {
+        "image": "arc-014442",
+        "thumb": "thumb-014442",
+        "archiveId": "ARC-014442",
+        "alt": "Columnas, personajes y tótems · fotografía 24",
+        "sourceName": "UNTITL14.JPG"
+      },
+      {
+        "image": "arc-014450",
+        "thumb": "thumb-014450",
+        "archiveId": "ARC-014450",
+        "alt": "Columnas, personajes y tótems · fotografía 25",
+        "sourceName": "UNTITL23.JPG"
+      },
+      {
+        "image": "arc-014452",
+        "thumb": "thumb-014452",
+        "archiveId": "ARC-014452",
+        "alt": "Columnas, personajes y tótems · fotografía 26",
+        "sourceName": "UNTITL24.JPG"
+      },
+      {
+        "image": "arc-014456",
+        "thumb": "thumb-014456",
+        "archiveId": "ARC-014456",
+        "alt": "Columnas, personajes y tótems · fotografía 27",
+        "sourceName": "UNTITL31.JPG"
+      },
+      {
+        "image": "arc-014457",
+        "thumb": "thumb-014457",
+        "archiveId": "ARC-014457",
+        "alt": "Columnas, personajes y tótems · fotografía 28",
+        "sourceName": "UNTITL32.JPG"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar."
+  },
+  {
+    "id": "infantil-colectivo",
+    "title": "Pintar y construir en común",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "obras",
+    "audience": "educacion",
+    "text": "Manos, figuras, paneles y composiciones compartidas. Una superficie abierta a muchas intervenciones.",
+    "paragraphs": [
+      "En las obras colectivas se superponen gestos y decisiones. El espacio de trabajo se comparte: cada aportación modifica el conjunto y obliga a mirar lo que han hecho los demás.",
+      "Pintura, collage y ensamblaje aparecen juntos en paneles y formas recortadas. El archivo muestra resultados de escala y aspecto diferentes; aquí se agrupan por esa experiencia común, sin atribuirlos a una única sesión."
+    ],
+    "image": "arc-000043",
+    "gallery": [
+      {
+        "image": "arc-000043",
+        "thumb": "thumb-000043",
+        "archiveId": "ARC-000043",
+        "alt": "Pintar y construir en común · fotografía 1",
+        "sourceName": "P5050008.jpg"
+      },
+      {
+        "image": "arc-000044",
+        "thumb": "thumb-000044",
+        "archiveId": "ARC-000044",
+        "alt": "Pintar y construir en común · fotografía 2",
+        "sourceName": "P5050018.JPG"
+      },
+      {
+        "image": "arc-000045",
+        "thumb": "thumb-000045",
+        "archiveId": "ARC-000045",
+        "alt": "Pintar y construir en común · fotografía 3",
+        "sourceName": "P5050042.JPG"
+      },
+      {
+        "image": "arc-002679",
+        "thumb": "thumb-002679",
+        "archiveId": "ARC-002679",
+        "alt": "Pintar y construir en común · fotografía 4",
+        "sourceName": "SERIE_10.JPG"
+      },
+      {
+        "image": "arc-002680",
+        "thumb": "thumb-002680",
+        "archiveId": "ARC-002680",
+        "alt": "Pintar y construir en común · fotografía 5",
+        "sourceName": "SERIE_11.JPG"
+      },
+      {
+        "image": "arc-002681",
+        "thumb": "thumb-002681",
+        "archiveId": "ARC-002681",
+        "alt": "Pintar y construir en común · fotografía 6",
+        "sourceName": "SERIE_12.JPG"
+      },
+      {
+        "image": "arc-002682",
+        "thumb": "thumb-002682",
+        "archiveId": "ARC-002682",
+        "alt": "Pintar y construir en común · fotografía 7",
+        "sourceName": "SERIE_13.JPG"
+      },
+      {
+        "image": "arc-002683",
+        "thumb": "thumb-002683",
+        "archiveId": "ARC-002683",
+        "alt": "Pintar y construir en común · fotografía 8",
+        "sourceName": "SERIE_14.JPG"
+      },
+      {
+        "image": "arc-002684",
+        "thumb": "thumb-002684",
+        "archiveId": "ARC-002684",
+        "alt": "Pintar y construir en común · fotografía 9",
+        "sourceName": "SERIE_15.JPG"
+      },
+      {
+        "image": "arc-002685",
+        "thumb": "thumb-002685",
+        "archiveId": "ARC-002685",
+        "alt": "Pintar y construir en común · fotografía 10",
+        "sourceName": "SERIE_16.JPG"
+      },
+      {
+        "image": "arc-002697",
+        "thumb": "thumb-002697",
+        "archiveId": "ARC-002697",
+        "alt": "Pintar y construir en común · fotografía 11",
+        "sourceName": "SERIE_I5.JPG"
+      },
+      {
+        "image": "arc-002699",
+        "thumb": "thumb-002699",
+        "archiveId": "ARC-002699",
+        "alt": "Pintar y construir en común · fotografía 12",
+        "sourceName": "SERIE_I7.JPG"
+      },
+      {
+        "image": "arc-002700",
+        "thumb": "thumb-002700",
+        "archiveId": "ARC-002700",
+        "alt": "Pintar y construir en común · fotografía 13",
+        "sourceName": "SERIE_I8.JPG"
+      },
+      {
+        "image": "arc-013602",
+        "thumb": "thumb-013602",
+        "archiveId": "ARC-013602",
+        "alt": "Pintar y construir en común · fotografía 14",
+        "sourceName": "CHOPOS___31.JPG"
+      },
+      {
+        "image": "arc-013603",
+        "thumb": "thumb-013603",
+        "archiveId": "ARC-013603",
+        "alt": "Pintar y construir en común · fotografía 15",
+        "sourceName": "CHOPOS___32.JPG"
+      },
+      {
+        "image": "arc-013605",
+        "thumb": "thumb-013605",
+        "archiveId": "ARC-013605",
+        "alt": "Pintar y construir en común · fotografía 16",
+        "sourceName": "CHOPOS___34.JPG"
+      },
+      {
+        "image": "arc-013620",
+        "thumb": "thumb-013620",
+        "archiveId": "ARC-013620",
+        "alt": "Pintar y construir en común · fotografía 17",
+        "sourceName": "Imagen CAMARA OLYMPUS 017.jpg"
+      },
+      {
+        "image": "arc-013621",
+        "thumb": "thumb-013621",
+        "archiveId": "ARC-013621",
+        "alt": "Pintar y construir en común · fotografía 18",
+        "sourceName": "Imagen CAMARA OLYMPUS 019.jpg"
+      },
+      {
+        "image": "arc-013622",
+        "thumb": "thumb-013622",
+        "archiveId": "ARC-013622",
+        "alt": "Pintar y construir en común · fotografía 19",
+        "sourceName": "Imagen CAMARA OLYMPUS 026.jpg"
+      },
+      {
+        "image": "arc-013623",
+        "thumb": "thumb-013623",
+        "archiveId": "ARC-013623",
+        "alt": "Pintar y construir en común · fotografía 20",
+        "sourceName": "Imagen CAMARA OLYMPUS 052.jpg"
+      },
+      {
+        "image": "arc-013625",
+        "thumb": "thumb-013625",
+        "archiveId": "ARC-013625",
+        "alt": "Pintar y construir en común · fotografía 21",
+        "sourceName": "MVC-528F.jpg"
+      },
+      {
+        "image": "arc-013626",
+        "thumb": "thumb-013626",
+        "archiveId": "ARC-013626",
+        "alt": "Pintar y construir en común · fotografía 22",
+        "sourceName": "MVC-529F.jpg"
+      },
+      {
+        "image": "arc-013627",
+        "thumb": "thumb-013627",
+        "archiveId": "ARC-013627",
+        "alt": "Pintar y construir en común · fotografía 23",
+        "sourceName": "MVC-530F.jpg"
+      },
+      {
+        "image": "arc-013628",
+        "thumb": "thumb-013628",
+        "archiveId": "ARC-013628",
+        "alt": "Pintar y construir en común · fotografía 24",
+        "sourceName": "MVC-531F.JPG"
+      },
+      {
+        "image": "arc-013629",
+        "thumb": "thumb-013629",
+        "archiveId": "ARC-013629",
+        "alt": "Pintar y construir en común · fotografía 25",
+        "sourceName": "MVC-532F.JPG"
+      },
+      {
+        "image": "arc-013630",
+        "thumb": "thumb-013630",
+        "archiveId": "ARC-013630",
+        "alt": "Pintar y construir en común · fotografía 26",
+        "sourceName": "MVC-533F.jpg"
+      },
+      {
+        "image": "arc-013631",
+        "thumb": "thumb-013631",
+        "archiveId": "ARC-013631",
+        "alt": "Pintar y construir en común · fotografía 27",
+        "sourceName": "MVC-534F.jpg"
+      },
+      {
+        "image": "arc-013632",
+        "thumb": "thumb-013632",
+        "archiveId": "ARC-013632",
+        "alt": "Pintar y construir en común · fotografía 28",
+        "sourceName": "MVC-535F.jpg"
+      },
+      {
+        "image": "arc-013633",
+        "thumb": "thumb-013633",
+        "archiveId": "ARC-013633",
+        "alt": "Pintar y construir en común · fotografía 29",
+        "sourceName": "MVC-536F.jpg"
+      },
+      {
+        "image": "arc-013634",
+        "thumb": "thumb-013634",
+        "archiveId": "ARC-013634",
+        "alt": "Pintar y construir en común · fotografía 30",
+        "sourceName": "MVC-537F.jpg"
+      },
+      {
+        "image": "arc-013635",
+        "thumb": "thumb-013635",
+        "archiveId": "ARC-013635",
+        "alt": "Pintar y construir en común · fotografía 31",
+        "sourceName": "MVC-538F.jpg"
+      },
+      {
+        "image": "arc-013636",
+        "thumb": "thumb-013636",
+        "archiveId": "ARC-013636",
+        "alt": "Pintar y construir en común · fotografía 32",
+        "sourceName": "MVC-539F.jpg"
+      },
+      {
+        "image": "arc-013637",
+        "thumb": "thumb-013637",
+        "archiveId": "ARC-013637",
+        "alt": "Pintar y construir en común · fotografía 33",
+        "sourceName": "MVC-542F.jpg"
+      },
+      {
+        "image": "arc-013656",
+        "thumb": "thumb-013656",
+        "archiveId": "ARC-013656",
+        "alt": "Pintar y construir en común · fotografía 34",
+        "sourceName": "Untitled-39A.jpg"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar."
+  },
+  {
+    "id": "infantil-suspensiones",
+    "title": "Formas que cuelgan",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "obras",
+    "audience": "educacion",
+    "text": "Móviles, figuras recortadas y composiciones suspendidas del fondo educativo.",
+    "paragraphs": [
+      "Colgar una forma cambia su relación con el espacio. Aparecen el giro, la distancia entre los elementos y las sombras. Las fotografías recogen conjuntos y vistas próximas de sus componentes.",
+      "Este recorrido permite observar una relación entre la experiencia escultórica y la educación artística. Se mantiene separado de los móviles del catálogo personal de Enric."
+    ],
+    "image": "arc-014461",
+    "gallery": [
+      {
+        "image": "arc-014461",
+        "thumb": "thumb-014461",
+        "archiveId": "ARC-014461",
+        "alt": "Formas que cuelgan · fotografía 1",
+        "sourceName": "UNTITL36.JPG"
+      },
+      {
+        "image": "arc-014462",
+        "thumb": "thumb-014462",
+        "archiveId": "ARC-014462",
+        "alt": "Formas que cuelgan · fotografía 2",
+        "sourceName": "UNTITL37.JPG"
+      },
+      {
+        "image": "arc-014463",
+        "thumb": "thumb-014463",
+        "archiveId": "ARC-014463",
+        "alt": "Formas que cuelgan · fotografía 3",
+        "sourceName": "UNTITL38.JPG"
+      },
+      {
+        "image": "arc-014464",
+        "thumb": "thumb-014464",
+        "archiveId": "ARC-014464",
+        "alt": "Formas que cuelgan · fotografía 4",
+        "sourceName": "UNTITL39.JPG"
+      },
+      {
+        "image": "arc-014470",
+        "thumb": "thumb-014470",
+        "archiveId": "ARC-014470",
+        "alt": "Formas que cuelgan · fotografía 5",
+        "sourceName": "UNTITLE7.JPG"
+      },
+      {
+        "image": "arc-013551",
+        "thumb": "thumb-013551",
+        "archiveId": "ARC-013551",
+        "alt": "Formas que cuelgan · fotografía 6",
+        "sourceName": "F1000006.JPG"
+      },
+      {
+        "image": "arc-013554",
+        "thumb": "thumb-013554",
+        "archiveId": "ARC-013554",
+        "alt": "Formas que cuelgan · fotografía 7",
+        "sourceName": "F1000008.JPG"
+      },
+      {
+        "image": "arc-013561",
+        "thumb": "thumb-013561",
+        "archiveId": "ARC-013561",
+        "alt": "Formas que cuelgan · fotografía 8",
+        "sourceName": "F1000013.JPG"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar."
+  },
+  {
+    "id": "taller-aula",
+    "title": "El taller en el aula",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "talleres",
+    "audience": "educacion",
+    "text": "Pintura, modelado y construcción en las fotografías de las actividades escolares.",
+    "paragraphs": [
+      "El aula funciona como un lugar de experimentación: mesas de trabajo, materiales que circulan y obras que se construyen entre varias manos. Las fotografías documentan acciones distintas, desde pintar sobre papel hasta modelar y montar objetos.",
+      "El proceso importa tanto como el resultado. Las imágenes de actividad se conservan junto a las obras para poder reconstruir esa experiencia, sin atribuir una fecha única a todo el conjunto."
+    ],
+    "image": "arc-000043",
+    "gallery": [
+      {
+        "image": "arc-000043",
+        "thumb": "thumb-000043",
+        "archiveId": "ARC-000043",
+        "alt": "El taller en el aula · fotografía 1",
+        "sourceName": "P5050008.jpg"
+      },
+      {
+        "image": "arc-000044",
+        "thumb": "thumb-000044",
+        "archiveId": "ARC-000044",
+        "alt": "El taller en el aula · fotografía 2",
+        "sourceName": "P5050018.JPG"
+      },
+      {
+        "image": "arc-000045",
+        "thumb": "thumb-000045",
+        "archiveId": "ARC-000045",
+        "alt": "El taller en el aula · fotografía 3",
+        "sourceName": "P5050042.JPG"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar.",
+    "source": "Fondo ALUMNOS. Centro, fechas y participantes pendientes de identificación individual."
+  },
+  {
+    "id": "taller-bunol",
+    "title": "De las manos a la exposición",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "talleres",
+    "audience": "educacion",
+    "text": "Texturas, rostros y materiales se transforman en un taller que termina ocupando las paredes del colegio.",
+    "paragraphs": [
+      "La secuencia recorre la preparación, las manos trabajando y las composiciones terminadas. Los materiales se disponen sobre la mesa y cada participante encuentra una manera de darles forma.",
+      "Los resultados se muestran juntos: rostros, relieves y figuras dialogan en la exposición del centro. El dossier del taller permite relacionar este conjunto con el Colegio Cervantes."
+    ],
+    "image": "arc-005501",
+    "gallery": [
+      {
+        "image": "arc-005501",
+        "thumb": "thumb-005501",
+        "archiveId": "ARC-005501",
+        "alt": "De las manos a la exposición · fotografía 1",
+        "sourceName": "buñol 2005 012.jpg"
+      },
+      {
+        "image": "arc-005506",
+        "thumb": "thumb-005506",
+        "archiveId": "ARC-005506",
+        "alt": "De las manos a la exposición · fotografía 2",
+        "sourceName": "buñol 2005 017.jpg"
+      },
+      {
+        "image": "arc-005513",
+        "thumb": "thumb-005513",
+        "archiveId": "ARC-005513",
+        "alt": "De las manos a la exposición · fotografía 3",
+        "sourceName": "buñol 2005 024.jpg"
+      },
+      {
+        "image": "arc-005517",
+        "thumb": "thumb-005517",
+        "archiveId": "ARC-005517",
+        "alt": "De las manos a la exposición · fotografía 4",
+        "sourceName": "buñol 2005 028.jpg"
+      },
+      {
+        "image": "arc-005519",
+        "thumb": "thumb-005519",
+        "archiveId": "ARC-005519",
+        "alt": "De las manos a la exposición · fotografía 5",
+        "sourceName": "buñol 2005 030.jpg"
+      },
+      {
+        "image": "arc-005527",
+        "thumb": "thumb-005527",
+        "archiveId": "ARC-005527",
+        "alt": "De las manos a la exposición · fotografía 6",
+        "sourceName": "buñol 2005 038.jpg"
+      },
+      {
+        "image": "arc-005530",
+        "thumb": "thumb-005530",
+        "archiveId": "ARC-005530",
+        "alt": "De las manos a la exposición · fotografía 7",
+        "sourceName": "buñol 2005 041.jpg"
+      },
+      {
+        "image": "arc-005535",
+        "thumb": "thumb-005535",
+        "archiveId": "ARC-005535",
+        "alt": "De las manos a la exposición · fotografía 8",
+        "sourceName": "buñol 2005 046.jpg"
+      },
+      {
+        "image": "arc-005536",
+        "thumb": "thumb-005536",
+        "archiveId": "ARC-005536",
+        "alt": "De las manos a la exposición · fotografía 9",
+        "sourceName": "buñol 2005 047.jpg"
+      },
+      {
+        "image": "arc-005539",
+        "thumb": "thumb-005539",
+        "archiveId": "ARC-005539",
+        "alt": "De las manos a la exposición · fotografía 10",
+        "sourceName": "buñol 2005 050.jpg"
+      },
+      {
+        "image": "arc-005540",
+        "thumb": "thumb-005540",
+        "archiveId": "ARC-005540",
+        "alt": "De las manos a la exposición · fotografía 11",
+        "sourceName": "buñol 2005 051.jpg"
+      },
+      {
+        "image": "arc-005541",
+        "thumb": "thumb-005541",
+        "archiveId": "ARC-005541",
+        "alt": "De las manos a la exposición · fotografía 12",
+        "sourceName": "buñol 2005 052.jpg"
+      },
+      {
+        "image": "arc-005542",
+        "thumb": "thumb-005542",
+        "archiveId": "ARC-005542",
+        "alt": "De las manos a la exposición · fotografía 13",
+        "sourceName": "buñol 2005 053.jpg"
+      },
+      {
+        "image": "arc-005545",
+        "thumb": "thumb-005545",
+        "archiveId": "ARC-005545",
+        "alt": "De las manos a la exposición · fotografía 14",
+        "sourceName": "buñol 2005 056.jpg"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar.",
+    "place": "Colegio Cervantes · Buñol",
+    "date": "2005 · según carpeta del archivo",
+    "source": "Carpeta Buñol 2005 y dossier «Taller Colegio Cervantes» (ARC-004750)."
+  },
+  {
+    "id": "formacion-gandia",
+    "title": "Aprender a enseñar con las manos",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "formacion",
+    "audience": "educacion",
+    "text": "Materiales, construcciones y experimentación en el fondo de formación docente de Gandia.",
+    "paragraphs": [
+      "Las actividades de formación docente trasladan al profesorado la experiencia de construir. Explorar un material en primera persona permite comprender sus posibilidades antes de acompañar el trabajo de un grupo.",
+      "Estas fotografías corresponden a participantes adultos. Sus ejercicios y producciones se presentan como formación, diferenciados de la colección de arte infantil."
+    ],
+    "image": "arc-005911",
+    "gallery": [
+      {
+        "image": "arc-005911",
+        "thumb": "thumb-005911",
+        "archiveId": "ARC-005911",
+        "alt": "Aprender a enseñar con las manos · fotografía 1",
+        "sourceName": "P1010007.JPG"
+      },
+      {
+        "image": "arc-005914",
+        "thumb": "thumb-005914",
+        "archiveId": "ARC-005914",
+        "alt": "Aprender a enseñar con las manos · fotografía 2",
+        "sourceName": "P1010010.JPG"
+      }
+    ],
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a Enric Segarra.",
+    "place": "CEFIRE · Gandia",
+    "source": "Identificación por carpeta CEFIRE GANDIA; fecha por documentar."
+  },
+  {
+    "id": "formacion-materiales",
+    "title": "Laboratorio de materiales",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "formacion",
+    "audience": "educacion",
+    "text": "De los recipientes de pintura a las construcciones: un archivo de pruebas y ejercicios para docentes.",
+    "paragraphs": [
+      "Las mesas reúnen cartón, papeles, recipientes y elementos recuperados. El trabajo combina color, recorte y ensamblaje. Una misma propuesta produce resultados muy diferentes entre los participantes.",
+      "El archivo permite recorrer el proceso a través de los materiales y de las pequeñas construcciones terminadas. Las imágenes pertenecen al fondo CEFIRE; no se presupone una sede o una fecha común para todas."
+    ],
+    "image": "arc-005683",
+    "gallery": [
+      {
+        "image": "arc-005683",
+        "thumb": "thumb-005683",
+        "archiveId": "ARC-005683",
+        "alt": "Laboratorio de materiales · fotografía 1",
+        "sourceName": "P1010001.JPG"
+      },
+      {
+        "image": "arc-005707",
+        "thumb": "thumb-005707",
+        "archiveId": "ARC-005707",
+        "alt": "Laboratorio de materiales · fotografía 2",
+        "sourceName": "P1010027.JPG"
+      },
+      {
+        "image": "arc-005719",
+        "thumb": "thumb-005719",
+        "archiveId": "ARC-005719",
+        "alt": "Laboratorio de materiales · fotografía 3",
+        "sourceName": "P1010039.JPG"
+      },
+      {
+        "image": "arc-005721",
+        "thumb": "thumb-005721",
+        "archiveId": "ARC-005721",
+        "alt": "Laboratorio de materiales · fotografía 4",
+        "sourceName": "P1010041.JPG"
+      },
+      {
+        "image": "arc-005731",
+        "thumb": "thumb-005731",
+        "archiveId": "ARC-005731",
+        "alt": "Laboratorio de materiales · fotografía 5",
+        "sourceName": "P1010051.JPG"
+      },
+      {
+        "image": "arc-005735",
+        "thumb": "thumb-005735",
+        "archiveId": "ARC-005735",
+        "alt": "Laboratorio de materiales · fotografía 6",
+        "sourceName": "P1010055.JPG"
+      },
+      {
+        "image": "arc-005778",
+        "thumb": "thumb-005778",
+        "archiveId": "ARC-005778",
+        "alt": "Laboratorio de materiales · fotografía 7",
+        "sourceName": "P1010098.JPG"
+      },
+      {
+        "image": "arc-005780",
+        "thumb": "thumb-005780",
+        "archiveId": "ARC-005780",
+        "alt": "Laboratorio de materiales · fotografía 8",
+        "sourceName": "P1010100.JPG"
+      },
+      {
+        "image": "arc-005799",
+        "thumb": "thumb-005799",
+        "archiveId": "ARC-005799",
+        "alt": "Laboratorio de materiales · fotografía 9",
+        "sourceName": "P1010015.JPG"
+      },
+      {
+        "image": "arc-005820",
+        "thumb": "thumb-005820",
+        "archiveId": "ARC-005820",
+        "alt": "Laboratorio de materiales · fotografía 10",
+        "sourceName": "P1010036.JPG"
+      },
+      {
+        "image": "arc-005822",
+        "thumb": "thumb-005822",
+        "archiveId": "ARC-005822",
+        "alt": "Laboratorio de materiales · fotografía 11",
+        "sourceName": "P1010038.JPG"
+      },
+      {
+        "image": "arc-005830",
+        "thumb": "thumb-005830",
+        "archiveId": "ARC-005830",
+        "alt": "Laboratorio de materiales · fotografía 12",
+        "sourceName": "P1010003.JPG"
+      },
+      {
+        "image": "arc-005832",
+        "thumb": "thumb-005832",
+        "archiveId": "ARC-005832",
+        "alt": "Laboratorio de materiales · fotografía 13",
+        "sourceName": "P1010005.JPG"
+      },
+      {
+        "image": "arc-005843",
+        "thumb": "thumb-005843",
+        "archiveId": "ARC-005843",
+        "alt": "Laboratorio de materiales · fotografía 14",
+        "sourceName": "P1010016.JPG"
+      },
+      {
+        "image": "arc-005847",
+        "thumb": "thumb-005847",
+        "archiveId": "ARC-005847",
+        "alt": "Laboratorio de materiales · fotografía 15",
+        "sourceName": "P1010020.JPG"
+      },
+      {
+        "image": "arc-005861",
+        "thumb": "thumb-005861",
+        "archiveId": "ARC-005861",
+        "alt": "Laboratorio de materiales · fotografía 16",
+        "sourceName": "P1010034.JPG"
+      },
+      {
+        "image": "arc-005863",
+        "thumb": "thumb-005863",
+        "archiveId": "ARC-005863",
+        "alt": "Laboratorio de materiales · fotografía 17",
+        "sourceName": "P1010036.JPG"
+      },
+      {
+        "image": "arc-005865",
+        "thumb": "thumb-005865",
+        "archiveId": "ARC-005865",
+        "alt": "Laboratorio de materiales · fotografía 18",
+        "sourceName": "P1010038.JPG"
+      }
+    ],
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a Enric Segarra.",
+    "source": "Fondo CEFIRE FOTOS."
+  },
+  {
+    "id": "formacion-pobla",
+    "title": "Construir el espacio",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "formacion",
+    "audience": "educacion",
+    "text": "Relieves, arquitecturas de cartón, columnas y móviles en las sesiones de formación de La Pobla Llarga.",
+    "paragraphs": [
+      "El recorrido empieza en la mesa y termina en el espacio. Los participantes levantan volúmenes, combinan estructuras y prueban modos de sostener o suspender las piezas.",
+      "Los ejercicios se conservan como una secuencia de transformaciones. Las fotografías de manos, detalles y resultados permiten seguir el trabajo sin confundir cada toma con una obra diferente."
+    ],
+    "image": "arc-005944",
+    "gallery": [
+      {
+        "image": "arc-005944",
+        "thumb": "thumb-005944",
+        "archiveId": "ARC-005944",
+        "alt": "Construir el espacio · fotografía 1",
+        "sourceName": "3.jpg"
+      },
+      {
+        "image": "arc-005945",
+        "thumb": "thumb-005945",
+        "archiveId": "ARC-005945",
+        "alt": "Construir el espacio · fotografía 2",
+        "sourceName": "4.jpg"
+      },
+      {
+        "image": "arc-005947",
+        "thumb": "thumb-005947",
+        "archiveId": "ARC-005947",
+        "alt": "Construir el espacio · fotografía 3",
+        "sourceName": "6.jpg"
+      },
+      {
+        "image": "arc-005957",
+        "thumb": "thumb-005957",
+        "archiveId": "ARC-005957",
+        "alt": "Construir el espacio · fotografía 4",
+        "sourceName": "A7.jpg"
+      },
+      {
+        "image": "arc-005963",
+        "thumb": "thumb-005963",
+        "archiveId": "ARC-005963",
+        "alt": "Construir el espacio · fotografía 5",
+        "sourceName": "B6.jpg"
+      },
+      {
+        "image": "arc-005969",
+        "thumb": "thumb-005969",
+        "archiveId": "ARC-005969",
+        "alt": "Construir el espacio · fotografía 6",
+        "sourceName": "C6.jpg"
+      },
+      {
+        "image": "arc-005989",
+        "thumb": "thumb-005989",
+        "archiveId": "ARC-005989",
+        "alt": "Construir el espacio · fotografía 7",
+        "sourceName": "23.jpg"
+      },
+      {
+        "image": "arc-005991",
+        "thumb": "thumb-005991",
+        "archiveId": "ARC-005991",
+        "alt": "Construir el espacio · fotografía 8",
+        "sourceName": "25.jpg"
+      },
+      {
+        "image": "arc-005997",
+        "thumb": "thumb-005997",
+        "archiveId": "ARC-005997",
+        "alt": "Construir el espacio · fotografía 9",
+        "sourceName": "29A.jpg"
+      },
+      {
+        "image": "arc-006001",
+        "thumb": "thumb-006001",
+        "archiveId": "ARC-006001",
+        "alt": "Construir el espacio · fotografía 10",
+        "sourceName": "31.jpg"
+      },
+      {
+        "image": "arc-006003",
+        "thumb": "thumb-006003",
+        "archiveId": "ARC-006003",
+        "alt": "Construir el espacio · fotografía 11",
+        "sourceName": "33.jpg"
+      },
+      {
+        "image": "arc-006021",
+        "thumb": "thumb-006021",
+        "archiveId": "ARC-006021",
+        "alt": "Construir el espacio · fotografía 12",
+        "sourceName": "47.jpg"
+      },
+      {
+        "image": "arc-006033",
+        "thumb": "thumb-006033",
+        "archiveId": "ARC-006033",
+        "alt": "Construir el espacio · fotografía 13",
+        "sourceName": "54A.jpg"
+      },
+      {
+        "image": "arc-006037",
+        "thumb": "thumb-006037",
+        "archiveId": "ARC-006037",
+        "alt": "Construir el espacio · fotografía 14",
+        "sourceName": "58.jpg"
+      },
+      {
+        "image": "arc-006052",
+        "thumb": "thumb-006052",
+        "archiveId": "ARC-006052",
+        "alt": "Construir el espacio · fotografía 15",
+        "sourceName": "10.jpg"
+      },
+      {
+        "image": "arc-006064",
+        "thumb": "thumb-006064",
+        "archiveId": "ARC-006064",
+        "alt": "Construir el espacio · fotografía 16",
+        "sourceName": "16.jpg"
+      },
+      {
+        "image": "arc-006090",
+        "thumb": "thumb-006090",
+        "archiveId": "ARC-006090",
+        "alt": "Construir el espacio · fotografía 17",
+        "sourceName": "37B.jpg"
+      },
+      {
+        "image": "arc-006096",
+        "thumb": "thumb-006096",
+        "archiveId": "ARC-006096",
+        "alt": "Construir el espacio · fotografía 18",
+        "sourceName": "42.jpg"
+      },
+      {
+        "image": "arc-006116",
+        "thumb": "thumb-006116",
+        "archiveId": "ARC-006116",
+        "alt": "Construir el espacio · fotografía 19",
+        "sourceName": "57.jpg"
+      },
+      {
+        "image": "arc-006121",
+        "thumb": "thumb-006121",
+        "archiveId": "ARC-006121",
+        "alt": "Construir el espacio · fotografía 20",
+        "sourceName": "61.jpg"
+      },
+      {
+        "image": "arc-006125",
+        "thumb": "thumb-006125",
+        "archiveId": "ARC-006125",
+        "alt": "Construir el espacio · fotografía 21",
+        "sourceName": "63.jpg"
+      },
+      {
+        "image": "arc-006146",
+        "thumb": "thumb-006146",
+        "archiveId": "ARC-006146",
+        "alt": "Construir el espacio · fotografía 22",
+        "sourceName": "76.jpg"
+      },
+      {
+        "image": "arc-006152",
+        "thumb": "thumb-006152",
+        "archiveId": "ARC-006152",
+        "alt": "Construir el espacio · fotografía 23",
+        "sourceName": "80.jpg"
+      },
+      {
+        "image": "arc-006156",
+        "thumb": "thumb-006156",
+        "archiveId": "ARC-006156",
+        "alt": "Construir el espacio · fotografía 24",
+        "sourceName": "83A.jpg"
+      },
+      {
+        "image": "arc-006157",
+        "thumb": "thumb-006157",
+        "archiveId": "ARC-006157",
+        "alt": "Construir el espacio · fotografía 25",
+        "sourceName": "84.jpg"
+      },
+      {
+        "image": "arc-006190",
+        "thumb": "thumb-006190",
+        "archiveId": "ARC-006190",
+        "alt": "Construir el espacio · fotografía 26",
+        "sourceName": "31.jpg"
+      },
+      {
+        "image": "arc-006192",
+        "thumb": "thumb-006192",
+        "archiveId": "ARC-006192",
+        "alt": "Construir el espacio · fotografía 27",
+        "sourceName": "33.jpg"
+      },
+      {
+        "image": "arc-006199",
+        "thumb": "thumb-006199",
+        "archiveId": "ARC-006199",
+        "alt": "Construir el espacio · fotografía 28",
+        "sourceName": "38c.jpg"
+      },
+      {
+        "image": "arc-006202",
+        "thumb": "thumb-006202",
+        "archiveId": "ARC-006202",
+        "alt": "Construir el espacio · fotografía 29",
+        "sourceName": "4.jpg"
+      },
+      {
+        "image": "arc-006206",
+        "thumb": "thumb-006206",
+        "archiveId": "ARC-006206",
+        "alt": "Construir el espacio · fotografía 30",
+        "sourceName": "6.jpg"
+      },
+      {
+        "image": "arc-006212",
+        "thumb": "thumb-006212",
+        "archiveId": "ARC-006212",
+        "alt": "Construir el espacio · fotografía 31",
+        "sourceName": "10.jpg"
+      },
+      {
+        "image": "arc-006269",
+        "thumb": "thumb-006269",
+        "archiveId": "ARC-006269",
+        "alt": "Construir el espacio · fotografía 32",
+        "sourceName": "7a.jpg"
+      },
+      {
+        "image": "arc-006271",
+        "thumb": "thumb-006271",
+        "archiveId": "ARC-006271",
+        "alt": "Construir el espacio · fotografía 33",
+        "sourceName": "7d.jpg"
+      },
+      {
+        "image": "arc-006273",
+        "thumb": "thumb-006273",
+        "archiveId": "ARC-006273",
+        "alt": "Construir el espacio · fotografía 34",
+        "sourceName": "7f.jpg"
+      },
+      {
+        "image": "arc-006289",
+        "thumb": "thumb-006289",
+        "archiveId": "ARC-006289",
+        "alt": "Construir el espacio · fotografía 35",
+        "sourceName": "4.jpg"
+      }
+    ],
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a Enric Segarra.",
+    "place": "CEFIRE · La Pobla Llarga",
+    "source": "Fondo CEFIRE-LA POBLA. La fecha del dossier expositivo no se extiende automáticamente a todas las sesiones."
+  },
+  {
+    "id": "exposicion-abadia",
+    "title": "Arte infantil · Casa Abadía",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "exposiciones",
+    "audience": "educacion",
+    "text": "La colección de arte infantil ocupa la sala: dibujos, relieves, construcciones y figuras verticales.",
+    "paragraphs": [
+      "Las vistas de conjunto permiten leer las relaciones entre las piezas y su disposición en el espacio. Las imágenes próximas conservan la diversidad de formas, tamaños y materiales de las obras.",
+      "La señalización fotografiada identifica la muestra como «Arte infantil. Colección Enric Segarra», en la sala de exposiciones Casa Abadía. La denominación de la colección no convierte a Enric en autor de las obras de los participantes."
+    ],
+    "image": "arc-002472",
+    "gallery": [
+      {
+        "image": "arc-002472",
+        "thumb": "thumb-002472",
+        "archiveId": "ARC-002472",
+        "alt": "Arte infantil · Casa Abadía · fotografía 1",
+        "sourceName": "PC170003.JPG"
+      },
+      {
+        "image": "arc-002476",
+        "thumb": "thumb-002476",
+        "archiveId": "ARC-002476",
+        "alt": "Arte infantil · Casa Abadía · fotografía 2",
+        "sourceName": "PC170008.JPG"
+      },
+      {
+        "image": "arc-002479",
+        "thumb": "thumb-002479",
+        "archiveId": "ARC-002479",
+        "alt": "Arte infantil · Casa Abadía · fotografía 3",
+        "sourceName": "PC170011.JPG"
+      },
+      {
+        "image": "arc-002488",
+        "thumb": "thumb-002488",
+        "archiveId": "ARC-002488",
+        "alt": "Arte infantil · Casa Abadía · fotografía 4",
+        "sourceName": "PC170020.JPG"
+      },
+      {
+        "image": "arc-002492",
+        "thumb": "thumb-002492",
+        "archiveId": "ARC-002492",
+        "alt": "Arte infantil · Casa Abadía · fotografía 5",
+        "sourceName": "PC170024.JPG"
+      },
+      {
+        "image": "arc-002494",
+        "thumb": "thumb-002494",
+        "archiveId": "ARC-002494",
+        "alt": "Arte infantil · Casa Abadía · fotografía 6",
+        "sourceName": "PC170026.JPG"
+      },
+      {
+        "image": "arc-002495",
+        "thumb": "thumb-002495",
+        "archiveId": "ARC-002495",
+        "alt": "Arte infantil · Casa Abadía · fotografía 7",
+        "sourceName": "PC170027.JPG"
+      },
+      {
+        "image": "arc-002504",
+        "thumb": "thumb-002504",
+        "archiveId": "ARC-002504",
+        "alt": "Arte infantil · Casa Abadía · fotografía 8",
+        "sourceName": "PC170036.JPG"
+      },
+      {
+        "image": "arc-002506",
+        "thumb": "thumb-002506",
+        "archiveId": "ARC-002506",
+        "alt": "Arte infantil · Casa Abadía · fotografía 9",
+        "sourceName": "PC170043.JPG"
+      },
+      {
+        "image": "arc-002516",
+        "thumb": "thumb-002516",
+        "archiveId": "ARC-002516",
+        "alt": "Arte infantil · Casa Abadía · fotografía 10",
+        "sourceName": "PC170005.JPG"
+      },
+      {
+        "image": "arc-002518",
+        "thumb": "thumb-002518",
+        "archiveId": "ARC-002518",
+        "alt": "Arte infantil · Casa Abadía · fotografía 11",
+        "sourceName": "PC170007.JPG"
+      },
+      {
+        "image": "arc-002519",
+        "thumb": "thumb-002519",
+        "archiveId": "ARC-002519",
+        "alt": "Arte infantil · Casa Abadía · fotografía 12",
+        "sourceName": "PC170008.JPG"
+      },
+      {
+        "image": "arc-002521",
+        "thumb": "thumb-002521",
+        "archiveId": "ARC-002521",
+        "alt": "Arte infantil · Casa Abadía · fotografía 13",
+        "sourceName": "PC170010.JPG"
+      },
+      {
+        "image": "arc-002522",
+        "thumb": "thumb-002522",
+        "archiveId": "ARC-002522",
+        "alt": "Arte infantil · Casa Abadía · fotografía 14",
+        "sourceName": "PC170011.JPG"
+      },
+      {
+        "image": "arc-002523",
+        "thumb": "thumb-002523",
+        "archiveId": "ARC-002523",
+        "alt": "Arte infantil · Casa Abadía · fotografía 15",
+        "sourceName": "PC170012.JPG"
+      },
+      {
+        "image": "arc-002531",
+        "thumb": "thumb-002531",
+        "archiveId": "ARC-002531",
+        "alt": "Arte infantil · Casa Abadía · fotografía 16",
+        "sourceName": "PC170020.JPG"
+      },
+      {
+        "image": "arc-002532",
+        "thumb": "thumb-002532",
+        "archiveId": "ARC-002532",
+        "alt": "Arte infantil · Casa Abadía · fotografía 17",
+        "sourceName": "PC170021.JPG"
+      },
+      {
+        "image": "arc-002535",
+        "thumb": "thumb-002535",
+        "archiveId": "ARC-002535",
+        "alt": "Arte infantil · Casa Abadía · fotografía 18",
+        "sourceName": "PC170024.JPG"
+      },
+      {
+        "image": "arc-002537",
+        "thumb": "thumb-002537",
+        "archiveId": "ARC-002537",
+        "alt": "Arte infantil · Casa Abadía · fotografía 19",
+        "sourceName": "PC170026.JPG"
+      },
+      {
+        "image": "arc-002539",
+        "thumb": "thumb-002539",
+        "archiveId": "ARC-002539",
+        "alt": "Arte infantil · Casa Abadía · fotografía 20",
+        "sourceName": "PC170028.JPG"
+      },
+      {
+        "image": "arc-002540",
+        "thumb": "thumb-002540",
+        "archiveId": "ARC-002540",
+        "alt": "Arte infantil · Casa Abadía · fotografía 21",
+        "sourceName": "PC170029.JPG"
+      },
+      {
+        "image": "arc-002543",
+        "thumb": "thumb-002543",
+        "archiveId": "ARC-002543",
+        "alt": "Arte infantil · Casa Abadía · fotografía 22",
+        "sourceName": "PC170032.JPG"
+      },
+      {
+        "image": "arc-002544",
+        "thumb": "thumb-002544",
+        "archiveId": "ARC-002544",
+        "alt": "Arte infantil · Casa Abadía · fotografía 23",
+        "sourceName": "PC170033.JPG"
+      },
+      {
+        "image": "arc-002545",
+        "thumb": "thumb-002545",
+        "archiveId": "ARC-002545",
+        "alt": "Arte infantil · Casa Abadía · fotografía 24",
+        "sourceName": "PC170034.JPG"
+      },
+      {
+        "image": "arc-002550",
+        "thumb": "thumb-002550",
+        "archiveId": "ARC-002550",
+        "alt": "Arte infantil · Casa Abadía · fotografía 25",
+        "sourceName": "PC170039.JPG"
+      },
+      {
+        "image": "arc-002551",
+        "thumb": "thumb-002551",
+        "archiveId": "ARC-002551",
+        "alt": "Arte infantil · Casa Abadía · fotografía 26",
+        "sourceName": "PC170040.JPG"
+      },
+      {
+        "image": "arc-002552",
+        "thumb": "thumb-002552",
+        "archiveId": "ARC-002552",
+        "alt": "Arte infantil · Casa Abadía · fotografía 27",
+        "sourceName": "PC170042.JPG"
+      },
+      {
+        "image": "arc-002557",
+        "thumb": "thumb-002557",
+        "archiveId": "ARC-002557",
+        "alt": "Arte infantil · Casa Abadía · fotografía 28",
+        "sourceName": "PC170047.JPG"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar.",
+    "place": "Casa Abadía · Fundació Caixa Castelló–Bancaixa",
+    "source": "Cartel fotografiado (ARC-002545) y dossier de sala (ARC-000365). Fecha por documentar."
+  },
+  {
+    "id": "exposicion-pelec",
+    "title": "Mostres d’art · El pelèc",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "exposiciones",
+    "audience": "educacion",
+    "text": "Un recorrido por las salas, las composiciones suspendidas y los conjuntos de escultura del archivo de las Mostres d’art.",
+    "paragraphs": [
+      "La exposición ofrece otra escala de lectura a las obras nacidas en el taller. Las construcciones se agrupan, se separan y se encuentran con el visitante en su recorrido por las salas.",
+      "El archivo conserva carpetas rotuladas 2001 y 2003 que comparten numerosas fotografías idénticas. Se reúnen aquí como un conjunto documental; esas etiquetas no bastan para atribuir cada imagen a una edición concreta."
+    ],
+    "image": "arc-013522",
+    "gallery": [
+      {
+        "image": "arc-013522",
+        "thumb": "thumb-013522",
+        "archiveId": "ARC-013522",
+        "alt": "Mostres d’art · El pelèc · fotografía 1",
+        "sourceName": "Chopos  -10.jpg"
+      },
+      {
+        "image": "arc-013523",
+        "thumb": "thumb-013523",
+        "archiveId": "ARC-013523",
+        "alt": "Mostres d’art · El pelèc · fotografía 2",
+        "sourceName": "Chopos  -11.jpg"
+      },
+      {
+        "image": "arc-013525",
+        "thumb": "thumb-013525",
+        "archiveId": "ARC-013525",
+        "alt": "Mostres d’art · El pelèc · fotografía 3",
+        "sourceName": "Chopos  -12.jpg"
+      },
+      {
+        "image": "arc-013526",
+        "thumb": "thumb-013526",
+        "archiveId": "ARC-013526",
+        "alt": "Mostres d’art · El pelèc · fotografía 4",
+        "sourceName": "Chopos  -13.jpg"
+      },
+      {
+        "image": "arc-013527",
+        "thumb": "thumb-013527",
+        "archiveId": "ARC-013527",
+        "alt": "Mostres d’art · El pelèc · fotografía 5",
+        "sourceName": "Chopos  -14.jpg"
+      },
+      {
+        "image": "arc-013528",
+        "thumb": "thumb-013528",
+        "archiveId": "ARC-013528",
+        "alt": "Mostres d’art · El pelèc · fotografía 6",
+        "sourceName": "Chopos  -15.jpg"
+      },
+      {
+        "image": "arc-013530",
+        "thumb": "thumb-013530",
+        "archiveId": "ARC-013530",
+        "alt": "Mostres d’art · El pelèc · fotografía 7",
+        "sourceName": "Chopos  -19.jpg"
+      },
+      {
+        "image": "arc-013531",
+        "thumb": "thumb-013531",
+        "archiveId": "ARC-013531",
+        "alt": "Mostres d’art · El pelèc · fotografía 8",
+        "sourceName": "Chopos  -2.jpg"
+      },
+      {
+        "image": "arc-013532",
+        "thumb": "thumb-013532",
+        "archiveId": "ARC-013532",
+        "alt": "Mostres d’art · El pelèc · fotografía 9",
+        "sourceName": "Chopos  -20.jpg"
+      },
+      {
+        "image": "arc-013533",
+        "thumb": "thumb-013533",
+        "archiveId": "ARC-013533",
+        "alt": "Mostres d’art · El pelèc · fotografía 10",
+        "sourceName": "Chopos  -21.jpg"
+      },
+      {
+        "image": "arc-013534",
+        "thumb": "thumb-013534",
+        "archiveId": "ARC-013534",
+        "alt": "Mostres d’art · El pelèc · fotografía 11",
+        "sourceName": "Chopos  -22.jpg"
+      },
+      {
+        "image": "arc-013535",
+        "thumb": "thumb-013535",
+        "archiveId": "ARC-013535",
+        "alt": "Mostres d’art · El pelèc · fotografía 12",
+        "sourceName": "Chopos  -23.jpg"
+      },
+      {
+        "image": "arc-013536",
+        "thumb": "thumb-013536",
+        "archiveId": "ARC-013536",
+        "alt": "Mostres d’art · El pelèc · fotografía 13",
+        "sourceName": "Chopos  -24.jpg"
+      },
+      {
+        "image": "arc-013537",
+        "thumb": "thumb-013537",
+        "archiveId": "ARC-013537",
+        "alt": "Mostres d’art · El pelèc · fotografía 14",
+        "sourceName": "Chopos  -25.jpg"
+      },
+      {
+        "image": "arc-013538",
+        "thumb": "thumb-013538",
+        "archiveId": "ARC-013538",
+        "alt": "Mostres d’art · El pelèc · fotografía 15",
+        "sourceName": "Chopos  -3.jpg"
+      },
+      {
+        "image": "arc-013539",
+        "thumb": "thumb-013539",
+        "archiveId": "ARC-013539",
+        "alt": "Mostres d’art · El pelèc · fotografía 16",
+        "sourceName": "Chopos  -4.jpg"
+      },
+      {
+        "image": "arc-013540",
+        "thumb": "thumb-013540",
+        "archiveId": "ARC-013540",
+        "alt": "Mostres d’art · El pelèc · fotografía 17",
+        "sourceName": "Chopos  -5.jpg"
+      },
+      {
+        "image": "arc-013541",
+        "thumb": "thumb-013541",
+        "archiveId": "ARC-013541",
+        "alt": "Mostres d’art · El pelèc · fotografía 18",
+        "sourceName": "Chopos  -6.jpg"
+      },
+      {
+        "image": "arc-013543",
+        "thumb": "thumb-013543",
+        "archiveId": "ARC-013543",
+        "alt": "Mostres d’art · El pelèc · fotografía 19",
+        "sourceName": "Chopos  -7.jpg"
+      },
+      {
+        "image": "arc-013544",
+        "thumb": "thumb-013544",
+        "archiveId": "ARC-013544",
+        "alt": "Mostres d’art · El pelèc · fotografía 20",
+        "sourceName": "Chopos  -8.jpg"
+      },
+      {
+        "image": "arc-013546",
+        "thumb": "thumb-013546",
+        "archiveId": "ARC-013546",
+        "alt": "Mostres d’art · El pelèc · fotografía 21",
+        "sourceName": "F1000001.JPG"
+      },
+      {
+        "image": "arc-013547",
+        "thumb": "thumb-013547",
+        "archiveId": "ARC-013547",
+        "alt": "Mostres d’art · El pelèc · fotografía 22",
+        "sourceName": "F1000002.JPG"
+      },
+      {
+        "image": "arc-013548",
+        "thumb": "thumb-013548",
+        "archiveId": "ARC-013548",
+        "alt": "Mostres d’art · El pelèc · fotografía 23",
+        "sourceName": "F1000003.JPG"
+      },
+      {
+        "image": "arc-013549",
+        "thumb": "thumb-013549",
+        "archiveId": "ARC-013549",
+        "alt": "Mostres d’art · El pelèc · fotografía 24",
+        "sourceName": "F1000004.JPG"
+      },
+      {
+        "image": "arc-013550",
+        "thumb": "thumb-013550",
+        "archiveId": "ARC-013550",
+        "alt": "Mostres d’art · El pelèc · fotografía 25",
+        "sourceName": "F1000005.JPG"
+      },
+      {
+        "image": "arc-013552",
+        "thumb": "thumb-013552",
+        "archiveId": "ARC-013552",
+        "alt": "Mostres d’art · El pelèc · fotografía 26",
+        "sourceName": "F1000007.JPG"
+      },
+      {
+        "image": "arc-013555",
+        "thumb": "thumb-013555",
+        "archiveId": "ARC-013555",
+        "alt": "Mostres d’art · El pelèc · fotografía 27",
+        "sourceName": "F1000009.JPG"
+      },
+      {
+        "image": "arc-013556",
+        "thumb": "thumb-013556",
+        "archiveId": "ARC-013556",
+        "alt": "Mostres d’art · El pelèc · fotografía 28",
+        "sourceName": "F1000010.JPG"
+      },
+      {
+        "image": "arc-013557",
+        "thumb": "thumb-013557",
+        "archiveId": "ARC-013557",
+        "alt": "Mostres d’art · El pelèc · fotografía 29",
+        "sourceName": "F1000011.JPG"
+      },
+      {
+        "image": "arc-013559",
+        "thumb": "thumb-013559",
+        "archiveId": "ARC-013559",
+        "alt": "Mostres d’art · El pelèc · fotografía 30",
+        "sourceName": "F1000012.JPG"
+      },
+      {
+        "image": "arc-013589",
+        "thumb": "thumb-013589",
+        "archiveId": "ARC-013589",
+        "alt": "Mostres d’art · El pelèc · fotografía 31",
+        "sourceName": "SERIE INFANTIL6A.jpg"
+      },
+      {
+        "image": "arc-013594",
+        "thumb": "thumb-013594",
+        "archiveId": "ARC-013594",
+        "alt": "Mostres d’art · El pelèc · fotografía 32",
+        "sourceName": "SERIE234.jpg"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar.",
+    "place": "El pelèc",
+    "source": "Carpetas Mostra Art 2001 y Mostra d’art 2003; correspondencia entre imágenes y ediciones pendiente."
+  },
+  {
+    "id": "exposicion-pobla",
+    "title": "Del curso a la sala",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "exposiciones",
+    "audience": "educacion",
+    "text": "La exposición de las construcciones realizadas en el contexto de formación docente de La Pobla Llarga.",
+    "paragraphs": [
+      "Las piezas pasan de la mesa de trabajo al espacio de exposición. Columnas, relieves y móviles adquieren otras relaciones al reunirse en la sala.",
+      "Este álbum conserva el montaje y las vistas generales como parte del proceso de aprendizaje de los participantes adultos."
+    ],
+    "image": "arc-006296",
+    "gallery": [
+      {
+        "image": "arc-006296",
+        "thumb": "thumb-006296",
+        "archiveId": "ARC-006296",
+        "alt": "Del curso a la sala · fotografía 1",
+        "sourceName": "1.jpg"
+      },
+      {
+        "image": "arc-006300",
+        "thumb": "thumb-006300",
+        "archiveId": "ARC-006300",
+        "alt": "Del curso a la sala · fotografía 2",
+        "sourceName": "13.jpg"
+      },
+      {
+        "image": "arc-006302",
+        "thumb": "thumb-006302",
+        "archiveId": "ARC-006302",
+        "alt": "Del curso a la sala · fotografía 3",
+        "sourceName": "15.jpg"
+      },
+      {
+        "image": "arc-006305",
+        "thumb": "thumb-006305",
+        "archiveId": "ARC-006305",
+        "alt": "Del curso a la sala · fotografía 4",
+        "sourceName": "18.jpg"
+      },
+      {
+        "image": "arc-006307",
+        "thumb": "thumb-006307",
+        "archiveId": "ARC-006307",
+        "alt": "Del curso a la sala · fotografía 5",
+        "sourceName": "2.jpg"
+      }
+    ],
+    "credit": "Trabajos de participantes adultos en formación docente; no son obras infantiles ni piezas del catálogo personal.",
+    "place": "La Pobla Llarga",
+    "date": "Noviembre 2005 · identificación del dossier",
+    "source": "Dossier «CEFIRE Expo curso Pobla Llarga Novembre 2005» (ARC-004284)."
+  },
+  {
+    "id": "infantil-espacios",
+    "title": "El aula como lugar de creación",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "talleres",
+    "audience": "educacion",
+    "text": "Las paredes y los rincones del aula conservan la huella de lo que se ha hecho juntos.",
+    "paragraphs": [
+      "Las obras permanecen cerca de los materiales y de las mesas. Esa convivencia permite volver a mirarlas, relacionarlas con nuevos trabajos y hacer del aula un espacio en transformación.",
+      "Las fotografías muestran el entorno de la actividad. Se incorporan como documentos del taller, sin presentar el conjunto de la pared como una única obra."
+    ],
+    "image": "arc-014381",
+    "gallery": [
+      {
+        "image": "arc-014381",
+        "thumb": "thumb-014381",
+        "archiveId": "ARC-014381",
+        "alt": "El aula como lugar de creación · fotografía 1",
+        "sourceName": "P7260003-1.JPG"
+      },
+      {
+        "image": "arc-014458",
+        "thumb": "thumb-014458",
+        "archiveId": "ARC-014458",
+        "alt": "El aula como lugar de creación · fotografía 2",
+        "sourceName": "UNTITL33.JPG"
+      },
+      {
+        "image": "arc-014459",
+        "thumb": "thumb-014459",
+        "archiveId": "ARC-014459",
+        "alt": "El aula como lugar de creación · fotografía 3",
+        "sourceName": "UNTITL34.JPG"
+      }
+    ],
+    "credit": "Obras de participantes. Actividad educativa vinculada a Enric Segarra. Autorías individuales por documentar."
+  },
+  {
+    "id": "exposicion-carlet",
+    "title": "Arte infantil · Carlet",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "exposiciones",
+    "audience": "educacion",
+    "text": "Relieves, columnas y pinturas colectivas en el dossier de la exposición de arte infantil de Carlet.",
+    "paragraphs": [
+      "Las fotografías conservan la instalación de las obras y sus relaciones dentro de una sala de paredes blancas. Los soportes y las distancias entre piezas permiten observar el volumen desde distintos puntos de vista.",
+      "El documento reúne vistas generales y detalles. Sus fotografías se recuperan del propio dossier, manteniendo la referencia a cada página para que puedan relacionarse después con los originales del archivo."
+    ],
+    "place": "Fundació Caixa Carlet · identificación del dossier",
+    "image": "doc-003505-p008",
+    "gallery": [
+      {
+        "image": "doc-003505-p008",
+        "thumb": "doc-thumb-003505-p008",
+        "archiveId": "ARC-003505",
+        "sourcePage": 8,
+        "alt": "Arte infantil · Carlet · fotografía de la página 8",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p009",
+        "thumb": "doc-thumb-003505-p009",
+        "archiveId": "ARC-003505",
+        "sourcePage": 9,
+        "alt": "Arte infantil · Carlet · fotografía de la página 9",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p010",
+        "thumb": "doc-thumb-003505-p010",
+        "archiveId": "ARC-003505",
+        "sourcePage": 10,
+        "alt": "Arte infantil · Carlet · fotografía de la página 10",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p011",
+        "thumb": "doc-thumb-003505-p011",
+        "archiveId": "ARC-003505",
+        "sourcePage": 11,
+        "alt": "Arte infantil · Carlet · fotografía de la página 11",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p012",
+        "thumb": "doc-thumb-003505-p012",
+        "archiveId": "ARC-003505",
+        "sourcePage": 12,
+        "alt": "Arte infantil · Carlet · fotografía de la página 12",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p018",
+        "thumb": "doc-thumb-003505-p018",
+        "archiveId": "ARC-003505",
+        "sourcePage": 18,
+        "alt": "Arte infantil · Carlet · fotografía de la página 18",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p002",
+        "thumb": "doc-thumb-003505-p002",
+        "archiveId": "ARC-003505",
+        "sourcePage": 2,
+        "alt": "Arte infantil · Carlet · fotografía de la página 2",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p006",
+        "thumb": "doc-thumb-003505-p006",
+        "archiveId": "ARC-003505",
+        "sourcePage": 6,
+        "alt": "Arte infantil · Carlet · fotografía de la página 6",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p013",
+        "thumb": "doc-thumb-003505-p013",
+        "archiveId": "ARC-003505",
+        "sourcePage": 13,
+        "alt": "Arte infantil · Carlet · fotografía de la página 13",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p014",
+        "thumb": "doc-thumb-003505-p014",
+        "archiveId": "ARC-003505",
+        "sourcePage": 14,
+        "alt": "Arte infantil · Carlet · fotografía de la página 14",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p016",
+        "thumb": "doc-thumb-003505-p016",
+        "archiveId": "ARC-003505",
+        "sourcePage": 16,
+        "alt": "Arte infantil · Carlet · fotografía de la página 16",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p017",
+        "thumb": "doc-thumb-003505-p017",
+        "archiveId": "ARC-003505",
+        "sourcePage": 17,
+        "alt": "Arte infantil · Carlet · fotografía de la página 17",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      },
+      {
+        "image": "doc-003505-p019",
+        "thumb": "doc-thumb-003505-p019",
+        "archiveId": "ARC-003505",
+        "sourcePage": 19,
+        "alt": "Arte infantil · Carlet · fotografía de la página 19",
+        "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
+      }
+    ],
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de Enric Segarra.",
+    "source": "Dossier fotográfico ARC-003505. Identificación de la actividad por el documento de origen; fecha por documentar."
+  },
+  {
+    "id": "exposicion-cervantes",
+    "title": "Arte infantil · Colegio Cervantes",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "exposiciones",
+    "audience": "educacion",
+    "text": "El espacio cotidiano del colegio se convierte en lugar de exposición.",
+    "paragraphs": [
+      "Las composiciones se instalan sobre los percheros y a lo largo de las paredes del centro. Relieves, figuras y columnas conviven con el uso habitual del aula.",
+      "Este conjunto documenta la presentación de las obras. Puede recorrerse junto al álbum del taller de Buñol, manteniendo diferenciadas las fotografías de la actividad y las de la exposición."
+    ],
+    "place": "Colegio Cervantes · identificación del dossier",
+    "image": "doc-004289-p007",
+    "gallery": [
+      {
+        "image": "doc-004289-p007",
+        "thumb": "doc-thumb-004289-p007",
+        "archiveId": "ARC-004289",
+        "sourcePage": 7,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 7",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      },
+      {
+        "image": "doc-004289-p002",
+        "thumb": "doc-thumb-004289-p002",
+        "archiveId": "ARC-004289",
+        "sourcePage": 2,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 2",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      },
+      {
+        "image": "doc-004289-p003",
+        "thumb": "doc-thumb-004289-p003",
+        "archiveId": "ARC-004289",
+        "sourcePage": 3,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 3",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      },
+      {
+        "image": "doc-004289-p004",
+        "thumb": "doc-thumb-004289-p004",
+        "archiveId": "ARC-004289",
+        "sourcePage": 4,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 4",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      },
+      {
+        "image": "doc-004289-p005",
+        "thumb": "doc-thumb-004289-p005",
+        "archiveId": "ARC-004289",
+        "sourcePage": 5,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 5",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      },
+      {
+        "image": "doc-004289-p006",
+        "thumb": "doc-thumb-004289-p006",
+        "archiveId": "ARC-004289",
+        "sourcePage": 6,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 6",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      },
+      {
+        "image": "doc-004289-p009",
+        "thumb": "doc-thumb-004289-p009",
+        "archiveId": "ARC-004289",
+        "sourcePage": 9,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 9",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      },
+      {
+        "image": "doc-004289-p010",
+        "thumb": "doc-thumb-004289-p010",
+        "archiveId": "ARC-004289",
+        "sourcePage": 10,
+        "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 10",
+        "sourceName": "EXPO COLEGIO CERVANTES.pdf"
+      }
+    ],
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de Enric Segarra.",
+    "source": "Dossier fotográfico ARC-004289. Identificación de la actividad por el documento de origen; fecha por documentar."
+  },
+  {
+    "id": "exposicion-chopos",
+    "title": "Arte infantil · Colegio Los Chopos",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "exposiciones",
+    "audience": "educacion",
+    "text": "Las obras ocupan las paredes y el exterior del colegio: figuras, paneles y construcciones verticales.",
+    "paragraphs": [
+      "La fachada amarilla del centro reúne composiciones realizadas con materiales y procedimientos distintos. En el exterior, las piezas verticales se leen en relación con el jardín y el cielo.",
+      "El dossier conserva vistas de conjunto, detalles y fotografías con participantes. El nombre del centro está presente en una de las composiciones y en la identificación del documento."
+    ],
+    "place": "Colegio Los Chopos",
+    "image": "doc-004290-p003",
+    "gallery": [
+      {
+        "image": "doc-004290-p003",
+        "thumb": "doc-thumb-004290-p003",
+        "archiveId": "ARC-004290",
+        "sourcePage": 3,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 3",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p004",
+        "thumb": "doc-thumb-004290-p004",
+        "archiveId": "ARC-004290",
+        "sourcePage": 4,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 4",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p005",
+        "thumb": "doc-thumb-004290-p005",
+        "archiveId": "ARC-004290",
+        "sourcePage": 5,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 5",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p007",
+        "thumb": "doc-thumb-004290-p007",
+        "archiveId": "ARC-004290",
+        "sourcePage": 7,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 7",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p008",
+        "thumb": "doc-thumb-004290-p008",
+        "archiveId": "ARC-004290",
+        "sourcePage": 8,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 8",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p009",
+        "thumb": "doc-thumb-004290-p009",
+        "archiveId": "ARC-004290",
+        "sourcePage": 9,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 9",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p010",
+        "thumb": "doc-thumb-004290-p010",
+        "archiveId": "ARC-004290",
+        "sourcePage": 10,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 10",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p011",
+        "thumb": "doc-thumb-004290-p011",
+        "archiveId": "ARC-004290",
+        "sourcePage": 11,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 11",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p020",
+        "thumb": "doc-thumb-004290-p020",
+        "archiveId": "ARC-004290",
+        "sourcePage": 20,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 20",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p021",
+        "thumb": "doc-thumb-004290-p021",
+        "archiveId": "ARC-004290",
+        "sourcePage": 21,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 21",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p022",
+        "thumb": "doc-thumb-004290-p022",
+        "archiveId": "ARC-004290",
+        "sourcePage": 22,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 22",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p023",
+        "thumb": "doc-thumb-004290-p023",
+        "archiveId": "ARC-004290",
+        "sourcePage": 23,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 23",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p024",
+        "thumb": "doc-thumb-004290-p024",
+        "archiveId": "ARC-004290",
+        "sourcePage": 24,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 24",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p025",
+        "thumb": "doc-thumb-004290-p025",
+        "archiveId": "ARC-004290",
+        "sourcePage": 25,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 25",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p027",
+        "thumb": "doc-thumb-004290-p027",
+        "archiveId": "ARC-004290",
+        "sourcePage": 27,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 27",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p029",
+        "thumb": "doc-thumb-004290-p029",
+        "archiveId": "ARC-004290",
+        "sourcePage": 29,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 29",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p030",
+        "thumb": "doc-thumb-004290-p030",
+        "archiveId": "ARC-004290",
+        "sourcePage": 30,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 30",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      },
+      {
+        "image": "doc-004290-p033",
+        "thumb": "doc-thumb-004290-p033",
+        "archiveId": "ARC-004290",
+        "sourcePage": 33,
+        "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 33",
+        "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
+      }
+    ],
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de Enric Segarra.",
+    "source": "Dossier fotográfico ARC-004290. Identificación de la actividad por el documento de origen; fecha por documentar."
+  },
+  {
+    "id": "taller-signo-agua",
+    "title": "Imaginar el agua",
+    "chapter": "crear-con-otros",
+    "type": "Educación artística",
+    "section": "talleres",
+    "audience": "educacion",
+    "text": "Paisajes, peces, lluvia y superficies de materia. Las producciones educativas del dossier de Signo de Agua.",
+    "paragraphs": [
+      "El agua se convierte en una invitación a dibujar y construir imágenes. Papeles recortados, líneas y color dan lugar a mares, cielos, animales y recorridos. Los paneles permiten ver varias respuestas reunidas.",
+      "El dossier continúa con fotografías del taller y composiciones de textura, piedras y materia. Esta secuencia pertenece al archivo educativo de Signo de Agua y se presenta separada de la obra personal y de las vistas de su exposición."
+    ],
+    "place": "Actividad educativa · Signo de Agua",
+    "image": "doc-004747-p001",
+    "gallery": [
+      {
+        "image": "doc-004747-p001",
+        "thumb": "doc-thumb-004747-p001",
+        "archiveId": "ARC-004747",
+        "sourcePage": 1,
+        "alt": "Imaginar el agua · fotografía de la página 1",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p002",
+        "thumb": "doc-thumb-004747-p002",
+        "archiveId": "ARC-004747",
+        "sourcePage": 2,
+        "alt": "Imaginar el agua · fotografía de la página 2",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p003",
+        "thumb": "doc-thumb-004747-p003",
+        "archiveId": "ARC-004747",
+        "sourcePage": 3,
+        "alt": "Imaginar el agua · fotografía de la página 3",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p004",
+        "thumb": "doc-thumb-004747-p004",
+        "archiveId": "ARC-004747",
+        "sourcePage": 4,
+        "alt": "Imaginar el agua · fotografía de la página 4",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p005",
+        "thumb": "doc-thumb-004747-p005",
+        "archiveId": "ARC-004747",
+        "sourcePage": 5,
+        "alt": "Imaginar el agua · fotografía de la página 5",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p006",
+        "thumb": "doc-thumb-004747-p006",
+        "archiveId": "ARC-004747",
+        "sourcePage": 6,
+        "alt": "Imaginar el agua · fotografía de la página 6",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p007",
+        "thumb": "doc-thumb-004747-p007",
+        "archiveId": "ARC-004747",
+        "sourcePage": 7,
+        "alt": "Imaginar el agua · fotografía de la página 7",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p008",
+        "thumb": "doc-thumb-004747-p008",
+        "archiveId": "ARC-004747",
+        "sourcePage": 8,
+        "alt": "Imaginar el agua · fotografía de la página 8",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p009",
+        "thumb": "doc-thumb-004747-p009",
+        "archiveId": "ARC-004747",
+        "sourcePage": 9,
+        "alt": "Imaginar el agua · fotografía de la página 9",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p010",
+        "thumb": "doc-thumb-004747-p010",
+        "archiveId": "ARC-004747",
+        "sourcePage": 10,
+        "alt": "Imaginar el agua · fotografía de la página 10",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p011",
+        "thumb": "doc-thumb-004747-p011",
+        "archiveId": "ARC-004747",
+        "sourcePage": 11,
+        "alt": "Imaginar el agua · fotografía de la página 11",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p012",
+        "thumb": "doc-thumb-004747-p012",
+        "archiveId": "ARC-004747",
+        "sourcePage": 12,
+        "alt": "Imaginar el agua · fotografía de la página 12",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p013",
+        "thumb": "doc-thumb-004747-p013",
+        "archiveId": "ARC-004747",
+        "sourcePage": 13,
+        "alt": "Imaginar el agua · fotografía de la página 13",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p014",
+        "thumb": "doc-thumb-004747-p014",
+        "archiveId": "ARC-004747",
+        "sourcePage": 14,
+        "alt": "Imaginar el agua · fotografía de la página 14",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p015",
+        "thumb": "doc-thumb-004747-p015",
+        "archiveId": "ARC-004747",
+        "sourcePage": 15,
+        "alt": "Imaginar el agua · fotografía de la página 15",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p017",
+        "thumb": "doc-thumb-004747-p017",
+        "archiveId": "ARC-004747",
+        "sourcePage": 17,
+        "alt": "Imaginar el agua · fotografía de la página 17",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p018",
+        "thumb": "doc-thumb-004747-p018",
+        "archiveId": "ARC-004747",
+        "sourcePage": 18,
+        "alt": "Imaginar el agua · fotografía de la página 18",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p019",
+        "thumb": "doc-thumb-004747-p019",
+        "archiveId": "ARC-004747",
+        "sourcePage": 19,
+        "alt": "Imaginar el agua · fotografía de la página 19",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p021",
+        "thumb": "doc-thumb-004747-p021",
+        "archiveId": "ARC-004747",
+        "sourcePage": 21,
+        "alt": "Imaginar el agua · fotografía de la página 21",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p022",
+        "thumb": "doc-thumb-004747-p022",
+        "archiveId": "ARC-004747",
+        "sourcePage": 22,
+        "alt": "Imaginar el agua · fotografía de la página 22",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p024",
+        "thumb": "doc-thumb-004747-p024",
+        "archiveId": "ARC-004747",
+        "sourcePage": 24,
+        "alt": "Imaginar el agua · fotografía de la página 24",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p025",
+        "thumb": "doc-thumb-004747-p025",
+        "archiveId": "ARC-004747",
+        "sourcePage": 25,
+        "alt": "Imaginar el agua · fotografía de la página 25",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p026",
+        "thumb": "doc-thumb-004747-p026",
+        "archiveId": "ARC-004747",
+        "sourcePage": 26,
+        "alt": "Imaginar el agua · fotografía de la página 26",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p030",
+        "thumb": "doc-thumb-004747-p030",
+        "archiveId": "ARC-004747",
+        "sourcePage": 30,
+        "alt": "Imaginar el agua · fotografía de la página 30",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p032",
+        "thumb": "doc-thumb-004747-p032",
+        "archiveId": "ARC-004747",
+        "sourcePage": 32,
+        "alt": "Imaginar el agua · fotografía de la página 32",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p033",
+        "thumb": "doc-thumb-004747-p033",
+        "archiveId": "ARC-004747",
+        "sourcePage": 33,
+        "alt": "Imaginar el agua · fotografía de la página 33",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p034",
+        "thumb": "doc-thumb-004747-p034",
+        "archiveId": "ARC-004747",
+        "sourcePage": 34,
+        "alt": "Imaginar el agua · fotografía de la página 34",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p035",
+        "thumb": "doc-thumb-004747-p035",
+        "archiveId": "ARC-004747",
+        "sourcePage": 35,
+        "alt": "Imaginar el agua · fotografía de la página 35",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p036",
+        "thumb": "doc-thumb-004747-p036",
+        "archiveId": "ARC-004747",
+        "sourcePage": 36,
+        "alt": "Imaginar el agua · fotografía de la página 36",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p038",
+        "thumb": "doc-thumb-004747-p038",
+        "archiveId": "ARC-004747",
+        "sourcePage": 38,
+        "alt": "Imaginar el agua · fotografía de la página 38",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p039",
+        "thumb": "doc-thumb-004747-p039",
+        "archiveId": "ARC-004747",
+        "sourcePage": 39,
+        "alt": "Imaginar el agua · fotografía de la página 39",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      },
+      {
+        "image": "doc-004747-p040",
+        "thumb": "doc-thumb-004747-p040",
+        "archiveId": "ARC-004747",
+        "sourcePage": 40,
+        "alt": "Imaginar el agua · fotografía de la página 40",
+        "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
+      }
+    ],
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de Enric Segarra.",
+    "source": "Dossier fotográfico ARC-004747. Identificación de la actividad por el documento de origen; fecha por documentar."
   }
 ];
-export const redirects = {"moviles-009201": "moviles-014659", "escultura-007764": "escultura-014564"};
+export const redirects = {
+  "moviles-009201": "moviles-014659",
+  "escultura-007764": "escultura-014564"
+};

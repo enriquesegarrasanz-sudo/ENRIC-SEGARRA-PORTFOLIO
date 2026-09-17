@@ -26,7 +26,7 @@ export const chapters = [
     caption:
       "Retrato actual. Los documentos de formación se incorporarán al archivo a medida que se identifiquen.",
     paragraphs: [
-      "Enrique sitúa sus comienzos en Barcelona, donde nació en 1959, y su formación en Valencia, donde estudió Bellas Artes. En su relato, la escultura ocupa un lugar central desde el que se abren otras maneras de trabajar.",
+      "Enric sitúa sus comienzos en Barcelona, donde nació en 1959, y su formación en Valencia, donde estudió Bellas Artes. En su relato, la escultura ocupa un lugar central desde el que se abren otras maneras de trabajar.",
       "Recuerda el aprendizaje junto a otros escultores, especialmente en relación con la talla. El conocimiento del oficio convive con la curiosidad por probar materiales, recoger elementos y encontrar posibilidades en sus formas.",
       "Esta parte de la memoria reunirá los documentos y recuerdos de formación, las primeras obras y las personas que acompañaron esos comienzos. Los nombres y periodos se incorporarán conforme se contrasten.",
     ],
@@ -41,13 +41,13 @@ export const chapters = [
     caption:
       "Una de las piezas de la selección de escultura. Título y fecha por documentar.",
     paragraphs: [
-      "Talla, hierro, piedra, madera y ensamblaje aparecen en la explicación que Enrique hace de su recorrido escultórico. El oficio se combina con la experimentación y con la atención a los elementos que encuentra a su paso.",
+      "Talla, hierro, piedra, madera y ensamblaje aparecen en la explicación que Enric hace de su recorrido escultórico. El oficio se combina con la experimentación y con la atención a los elementos que encuentra a su paso.",
       "Un tronco o una piedra pueden convertirse en el punto de partida de una pieza. La naturaleza aporta formas y materiales, pero también una manera de observar antes de intervenir.",
       "En el dibujo intenta construir una presencia tridimensional. Habla de ceras, carbón y pastel como recursos para dar forma al espacio sobre el papel. Algunas investigaciones se trasladaron después a esculturas; sus relaciones concretas se irán documentando.",
     ],
     quote: {
       text: "Mi obsesión era sobre la naturaleza, las formas que tiene y todos los recursos que puede tener.",
-      source: "Enrique · entrevista familiar, apartado Escultura",
+      source: "Enric · entrevista familiar, apartado Escultura",
     },
   },
   {
@@ -59,13 +59,13 @@ export const chapters = [
     caption:
       "La pintura se presenta por series, conservando las diferencias entre sus imaginarios.",
     paragraphs: [
-      "La pintura abre otros caminos dentro de su obra. Enrique recuerda varias series que conservan un carácter propio: los gatos, las arcas y la tauromaquia.",
+      "La pintura abre otros caminos dentro de su obra. Enric recuerda varias series que conservan un carácter propio: los gatos, las arcas y la tauromaquia.",
       "En los gatos, la relación con los animales se cruza con un imaginario simbólico. Al hablar de esas obras menciona el óleo, los esmaltes y el uso de dorados y plateados. Cada pieza necesitará su ficha individual para precisar la técnica.",
       "Las arcas forman otra etapa vinculada a símbolos y relatos. En la tauromaquia, en cambio, el artista subraya la ironía: toros, toreros y otros personajes protagonizan escenas de humor y desplazamientos de los rituales del ruedo.",
     ],
     quote: {
       text: "Yo me lo pasé bien haciendo, creando todo eso.",
-      source: "Enrique · entrevista familiar, apartado Pintura",
+      source: "Enric · entrevista familiar, apartado Pintura",
     },
   },
   {
@@ -76,15 +76,15 @@ export const chapters = [
     image: "sala-educacion",
     imageAlt: "Vista de una exposición de trabajos de arte infantil",
     caption:
-      "Exposición de trabajos de arte infantil. Obras de participantes; Enrique desarrolló la actividad educativa. Fecha e identificación individual pendientes.",
+      "Exposición de trabajos de arte infantil. Obras de participantes; Enric desarrolló la actividad educativa. Fecha e identificación individual pendientes.",
     paragraphs: [
       "El trabajo educativo comenzó cuando le ofrecieron hacerse cargo del ámbito artístico de un colegio. Su experiencia como escultor orientó los talleres hacia el volumen, la construcción y la experimentación directa.",
       "Cajas, envases, piezas de madera y otros objetos se cortaban, pintaban y ensamblaban para descubrir nuevas formas. Los materiales cotidianos permitían imaginar sin depender de una única solución o de un modelo que copiar.",
-      "La libertad de cada niño ocupaba un lugar central. Esta memoria conservará tanto las obras de los participantes como la experiencia de aprender a hacer, las exposiciones y los documentos pedagógicos. Las autorías se mantendrán diferenciadas.",
+      "La libertad de cada niño ocupaba un lugar central. Esta memoria conserva tanto las obras de los participantes como la experiencia de aprender a hacer, las exposiciones y los documentos pedagógicos. Las autorías se mantendrán diferenciadas.",
     ],
     quote: {
       text: "Era que ellos mismos aportaran cosas y elementos, cosas, desde ideas suyas, de una ensoñación que hayan tenido, cualquier cosa.",
-      source: "Enrique · entrevista familiar, apartado Arte infantil",
+      source: "Enric · entrevista familiar, apartado Arte infantil",
     },
   },
   {
@@ -93,7 +93,7 @@ export const chapters = [
     short: "El agua, el dragón y la experiencia de trabajar en colectivo.",
     image: null,
     paragraphs: [
-      "Enrique recuerda Propósito del Agua como una experiencia que reunió creación y educación. Su fascinación por el agua dio lugar a obra gráfica, talleres y composiciones escultóricas, con la intención de compartir su importancia en la vida.",
+      "Enric recuerda Propósito del Agua como una experiencia que reunió creación y educación. Su fascinación por el agua dio lugar a obra gráfica, talleres y composiciones escultóricas, con la intención de compartir su importancia en la vida.",
       "Dragonians aparece en la entrevista como un proyecto compartido alrededor de San Jorge y el dragón. El grupo realizó exposiciones sobre ese imaginario y exploró sus posibilidades desde las obras de distintos participantes.",
       "El fondo familiar conserva materiales relacionados con ambos temas. Se están distinguiendo las obras propias, las de otros artistas, los documentos de las actividades y las referencias utilizadas. Esa identificación permitirá ampliar cada proyecto con sus participantes, lugares y fechas.",
     ],
@@ -121,13 +121,13 @@ export const chapters = [
     caption:
       "El artista y las piezas al aire libre. La creación actual mantiene abierto el recorrido.",
     paragraphs: [
-      "Los móviles ocupan un lugar especialmente vivo en su presente. Enrique habla de esta etapa con alegría y describe el uso de materiales recuperados, el juego con el color y las posibilidades que surgen al combinar elementos.",
+      "Los móviles ocupan un lugar especialmente vivo en su presente. Enric habla de esta etapa con alegría y describe el uso de materiales recuperados, el juego con el color y las posibilidades que surgen al combinar elementos.",
       "En su casa cuelga piezas de árboles y observa cómo se relacionan con el entorno. Según cuenta, su mujer las compara con pendientes de los árboles: una imagen cercana para una práctica que sigue creciendo.",
       "También está desarrollando poco a poco un parque escultórico en un terreno rural. El jardín y ese proyecto se documentarán por separado cuando se precise la relación entre ambos espacios. Esta memoria permanece abierta a las nuevas obras y a lo que todavía está por venir.",
     ],
     quote: {
       text: "Es una forma de ir experimentando y ver el efecto que puede causar.",
-      source: "Enrique · entrevista familiar, apartado Móviles",
+      source: "Enric · entrevista familiar, apartado Móviles",
     },
   },
 ];

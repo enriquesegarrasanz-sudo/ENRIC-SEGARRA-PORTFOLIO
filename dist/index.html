@@ -17,9 +17,9 @@
     <link
       rel="icon"
       type="image/svg+xml"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f4f1eb'/%3E%3Ctext x='13' y='47' font-family='Georgia,serif' font-size='46' fill='%239e412c'%3Ee%3C/text%3E%3C/svg%3E"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ffffff'/%3E%3Ctext x='13' y='47' font-family='Arial,sans-serif' font-size='46' fill='%23222222'%3Ee%3C/text%3E%3C/svg%3E"
     />
-    <link rel="stylesheet" href="styles.css" /><link rel="stylesheet" href="editorial.css" />
+    <link rel="stylesheet" href="styles.css" />
     <script type="module" src="app.js"></script>
   </head>
   <body>
@@ -39,11 +39,17 @@
       <nav id="nav" aria-label="Navegación principal">
         <a href="#/" data-nav="inicio">Inicio</a
         ><a href="#/obra" data-nav="obra">Obra</a
+        ><a href="#/arte-infantil" data-nav="arte-infantil">Arte infantil</a
+        ><a href="#/exposiciones" data-nav="exposiciones">Exposiciones</a
         ><a href="#/proceso" data-nav="proceso">Proceso y entorno</a
-        ><a href="#/memoria" data-nav="memoria">Trayectoria y memoria</a
+        ><a href="#/memoria" data-nav="memoria">Trayectoria</a
+        ><a href="#/proyectos" data-nav="proyectos">Proyectos</a
         ><a href="#/artista" data-nav="artista">Artista</a
         ><a href="#/contacto" data-nav="contacto">Contacto</a>
       </nav>
+      <p class="sidebar-note">
+        OBRA · VIDA · EDUCACIÓN<br />Un archivo en movimiento.
+      </p>
     </header>
     <main id="contenido" tabindex="-1"></main>
     <footer class="footer">
@@ -57,7 +63,15 @@
       <button class="close-image" aria-label="Cerrar imagen">
         Cerrar <span aria-hidden="true">×</span></button
       ><img id="large-image" alt="" />
-      <div class="dialog-bottom"><button data-step="-1" aria-label="Fotografía anterior">← Anterior</button><p id="image-caption" aria-live="polite"></p><button data-step="1" aria-label="Fotografía siguiente">Siguiente →</button></div>
+      <div class="dialog-bottom">
+        <button data-step="-1" aria-label="Fotografía anterior">
+          ← Anterior
+        </button>
+        <p id="image-caption" aria-live="polite"></p>
+        <button data-step="1" aria-label="Fotografía siguiente">
+          Siguiente →
+        </button>
+      </div>
     </dialog>
     <noscript
       ><p>
