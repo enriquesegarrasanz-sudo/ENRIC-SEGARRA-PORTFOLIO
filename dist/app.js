@@ -37,7 +37,7 @@ const num = (n) => String(n).padStart(2, "0"),
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
 const assetExtension = (name) =>
-  name.endsWith("-cool-neutral-v2")
+  name.endsWith("-cool-neutral-v2") || name.endsWith("-estudio-v3")
     ? ".png"
     : name === "retrato-artista"
       ? ".jpg"

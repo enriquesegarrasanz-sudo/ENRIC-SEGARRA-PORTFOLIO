@@ -11,7 +11,7 @@ import {
 import { readings, educationSections } from "../dist/education.js";
 const root = new URL("../", import.meta.url);
 const assetFile = (name) =>
-  `${name}${name.endsWith("-cool-neutral-v2") ? ".png" : ".webp"}`;
+  `${name}${name.endsWith("-cool-neutral-v2") || name.endsWith("-estudio-v3") ? ".png" : ".webp"}`;
 for (const [name, records] of Object.entries({
   works,
   chapters,

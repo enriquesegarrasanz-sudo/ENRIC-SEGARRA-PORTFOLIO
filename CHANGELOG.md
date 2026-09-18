@@ -1,5 +1,10 @@
 # Historial de cambios
 
+## Pintura · edición de estudio — 2026-09-18
+
+- Las 80 obras de pintura cuentan con una nueva versión pública de estudio: luz uniforme, fondo blanco cálido, color y contraste equilibrados.
+- Cada pieza conserva su orientación, su encuadre completo y todos sus bordes; las fotografías de origen no se sustituyen.
+
 ## Portada · carrusel de obra — 2026-09-18
 
 - La portada reúne el retrato y ocho obras únicas facilitadas para esta selección; se excluyen las imágenes repetidas.

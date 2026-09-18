@@ -1,5 +1,10 @@
 # Estado de la versión 0.4.0
 
+## Pintura · edición de estudio · 18 de septiembre de 2026
+
+- Se publican 80 versiones de presentación de las obras de pintura con fondo de estudio e iluminación uniforme. Se conservan formato vertical, horizontal o cuadrado y el contorno completo de cada obra, sin recortes.
+- Las versiones previas y las fotografías de origen permanecen intactas como respaldo.
+
 ## Portada · carrusel de obra · 18 de septiembre de 2026
 
 - La portada muestra el retrato y ocho obras únicas de la selección facilitada, todas en formato 3:2 y con fondo de galería coherente. Las repeticiones de la estructura de alambre y del dibujo azul-verde no se incorporan.
