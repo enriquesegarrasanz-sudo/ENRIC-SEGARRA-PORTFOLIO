@@ -41,6 +41,8 @@ Object.values(educationDescriptions).forEach((text) => strings.add(text));
   "Una manera de acompañar la creación",
   "Ver las fotografías con filtros",
   "salas",
+  "Archivo educativo",
+  "Relieve realizado en una actividad de arte infantil",
 ].forEach((text) => strings.add(text));
 
 await writeFile(

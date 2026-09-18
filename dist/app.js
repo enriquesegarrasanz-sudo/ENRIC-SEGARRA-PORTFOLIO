@@ -22,7 +22,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20260918-i18n-visible-content-v3";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20260918-i18n-visible-content-v4";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -328,9 +328,12 @@ function education(params) {
       .slice(1)
       .map((item, i) => {
         const als = educationAlbums().filter((al) => al.section === item.id);
+        const count = item.id === "textos"
+          ? `<span>${readings.length} lecturas</span>`
+          : `<span>${als.length} colecciones</span><span aria-hidden="true"> · </span><span>${als.reduce((n, al) => n + al.gallery.length, 0)} fotografías</span>`;
         return a(
           "/arte-infantil?seccion=" + item.id,
-          `<div class="education-directory-image">${img(covers[item.id], item.label)}<span class="directory-count">${item.id === "textos" ? readings.length + " lecturas" : als.length + " colecciones · " + als.reduce((n, al) => n + al.gallery.length, 0) + " fotografías"}</span></div><div class="education-directory-copy"><span class="reference">${num(i + 1)}</span><h2>${item.label}</h2><p>${esc(educationDescriptions[item.id])}</p><span class="directory-link">Explorar ${arrow}</span></div>`,
+          `<div class="education-directory-image">${img(covers[item.id], item.label)}<span class="directory-count">${count}</span></div><div class="education-directory-copy"><span class="reference">${num(i + 1)}</span><h2>${item.label}</h2><p>${esc(educationDescriptions[item.id])}</p><span class="directory-link">Explorar ${arrow}</span></div>`,
         );
       })
       .join(
