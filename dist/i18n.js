@@ -1,3 +1,5 @@
+import { contentTranslations } from "./content-translations.js";
+
 const STORAGE_KEY = "segarra-language";
 const originalText = new WeakMap();
 const originalAttributes = new WeakMap();
@@ -202,8 +204,9 @@ function indexFor(language = current) {
 }
 
 function phrase(value) {
-  const row = copy[value];
-  return row ? row[indexFor()] ?? value : value;
+  const row = copy[value] || contentTranslations[value];
+  if (!row) return value;
+  return Array.isArray(row) ? row[indexFor()] ?? value : row[current] ?? value;
 }
 
 function term(value) {
