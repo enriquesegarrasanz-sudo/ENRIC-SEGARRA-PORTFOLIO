@@ -694,6 +694,7 @@ function render({ keepScroll = false } = {}) {
   if (dialog.open) dialog.close();
   main.innerHTML = html;
   document.title = title === site.name ? site.name : `${title || "Archivo"} — ${site.name}`;
+  document.documentElement.dataset.baseTitle = document.title;
   const al =
       section === "archivo" ? visibleAlbums().find((al) => al.id === id) : null,
     active =
@@ -990,21 +991,8 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeMenu();
 });
 window.addEventListener("hashchange", () => render());
-window.addEventListener("segarra-language-change", () => render({ keepScroll: true }));
 initLanguage();
 render();
-const artistName = "ENRIC SEGARRA I GARIBO";
-const replaceArtistName = () => {
-  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-  while (walker.nextNode()) {
-    walker.currentNode.nodeValue = walker.currentNode.nodeValue.replaceAll("ENRIQUE SEGARRA I GARIBO", artistName);
-  }
-  document.querySelectorAll(".home-carousel-intro h1").forEach((heading) => {
-    heading.innerHTML = "ENRIC SEGARRA<br>I GARIBO";
-  });
-};
-replaceArtistName();
-new MutationObserver(replaceArtistName).observe(document.body, { childList: true, subtree: true });
 // Fotografías de participantes: solo en la revisión local, fuera del repositorio público.
 if (["127.0.0.1", "localhost", "[::1]"].includes(location.hostname)) {
   fetch("local-gallery.json")

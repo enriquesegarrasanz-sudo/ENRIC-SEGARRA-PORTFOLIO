@@ -1,4 +1,6 @@
 const STORAGE_KEY = "segarra-language";
+const originalText = new WeakMap();
+const originalAttributes = new WeakMap();
 
 export const LANGUAGES = [
   { code: "es", label: "Castellano", short: "ES" },
@@ -186,9 +188,8 @@ export function setLanguage(language) {
   if (!LANGUAGES.some((item) => item.code === language)) return;
   if (language === getLanguage()) return;
   localStorage.setItem(STORAGE_KEY, language);
-  window.dispatchEvent(new CustomEvent("segarra-language-change", {
-    detail: { language },
-  }));
+  current = language;
+  applyTranslations(document);
 }
 
 function indexFor(language = current) {
@@ -218,7 +219,13 @@ function translateText(value) {
 }
 
 function translateAttribute(element, name) {
-  const value = element.getAttribute(name);
+  let attributes = originalAttributes.get(element);
+  if (!attributes) {
+    attributes = new Map();
+    originalAttributes.set(element, attributes);
+  }
+  if (!attributes.has(name)) attributes.set(name, element.getAttribute(name));
+  const value = attributes.get(name);
   if (!value) return;
   if (copy[value]) element.setAttribute(name, phrase(value));
   else if (name === "placeholder") element.setAttribute(name, translateText(value));
@@ -229,14 +236,14 @@ export function applyTranslations(root = document) {
   document.documentElement.lang = current === "zh" ? "zh-CN" : current;
   document.querySelectorAll("[data-language-select]").forEach((select) => {
     select.value = current;
-    select.setAttribute("aria-label", phrase("Idioma"));
   });
   const walker = document.createTreeWalker(root.body || root, NodeFilter.SHOW_TEXT);
   const nodes = [];
   while (walker.nextNode()) nodes.push(walker.currentNode);
   nodes.forEach((node) => {
     if (node.parentElement?.closest("script, style, select")) return;
-    node.nodeValue = translateText(node.nodeValue);
+    if (!originalText.has(node)) originalText.set(node, node.nodeValue);
+    node.nodeValue = translateText(originalText.get(node));
   });
   root.querySelectorAll?.("[aria-label], [placeholder], [title]").forEach((element) => {
     translateAttribute(element, "aria-label");
@@ -247,7 +254,8 @@ export function applyTranslations(root = document) {
     if (!option.closest("[data-language-select]")) option.textContent = translateText(option.textContent);
   });
   if (document.title) {
-    const [pageTitle, suffix] = document.title.split(" — ");
+    const baseTitle = document.documentElement.dataset.baseTitle || document.title;
+    const [pageTitle, suffix] = baseTitle.split(" — ");
     document.title = `${translateText(pageTitle)}${suffix ? ` — ${suffix}` : ""}`;
   }
 }
