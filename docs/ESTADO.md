@@ -1,5 +1,10 @@
 # Estado de la versión 0.4.0
 
+## Fichas de obra · edición de sala · 18 de septiembre de 2026
+
+- Las fichas públicas se han simplificado a título, descripción visual y autor.
+- Los códigos, familias, recuentos de imágenes, notas de identificación y avisos documentales se mantienen internamente, pero ya no se muestran al leer una obra.
+
 ## Escultura · ampliación de vistas secundarias · 18 de septiembre de 2026
 
 - Se incorporan 89 vistas secundarias de presentación y sus miniaturas en 34 fichas de escultura. La ficha conserva tanto sus referencias ARC como la procedencia de cada versión; los originales no se reemplazan.

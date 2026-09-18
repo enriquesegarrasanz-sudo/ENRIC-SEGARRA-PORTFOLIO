@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Fichas de obra · edición de sala — 2026-09-18
+
+- Las fichas muestran una única lectura editorial: título, descripción visual y autor.
+- Se retiran de la vista pública referencias, disciplina, familia, avisos provisionales, recuentos de fotografías y campos de identificación; se conservan como datos internos.
+- Los títulos y descripciones se rehacen para cada obra a partir de sus formas, colores y motivos visibles.
+
 ## Móviles · vistas de galería — 2026-09-18
 
 - Se actualizan las vistas interiores de dos galerías de móviles con fondos neutros de exposición. Los originales y la trazabilidad de cada fotografía se conservan.
