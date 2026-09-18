@@ -26,6 +26,23 @@ function visit(value, key = "") {
 [site, categories, works, albums, chapters, documents, educationSections, educationIntro,
   educationPrinciples, educationDescriptions, readings, bellasArtsGallery].forEach((value) => visit(value));
 
+// These two structures are editorial text collections keyed by section rather
+// than by a translatable field name. Include their values explicitly so the
+// public language switch covers the education landing page as well.
+educationIntro.forEach((text) => strings.add(text));
+Object.values(educationDescriptions).forEach((text) => strings.add(text));
+
+// Interface copy assembled directly by the education templates. Keeping it in
+// the same source list prevents these small labels from being left in Spanish.
+[
+  "Crear con las manos, descubrir el volumen y dar espacio a la imaginación.",
+  "La colección: materiales cotidianos, soluciones propias.",
+  "Ver las imágenes de obras infantiles",
+  "Una manera de acompañar la creación",
+  "Ver las fotografías con filtros",
+  "salas",
+].forEach((text) => strings.add(text));
+
 await writeFile(
   new URL("../dist/content-translation-source.json", import.meta.url),
   JSON.stringify([...strings].sort(), null, 2) + "\n",
