@@ -1122,7 +1122,7 @@ main {
 .artist-layout {
   display: grid;
   grid-template-columns: 1fr 1.25fr;
-  gap: 70px;
+  gap: 45px;
   align-items: start;
 }
 .artist-layout > img {

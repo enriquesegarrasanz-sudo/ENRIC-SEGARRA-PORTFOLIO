@@ -39,7 +39,7 @@ const photoRef = (p) =>
 const assetExtension = (name) =>
   name.endsWith("-cool-neutral-v2") ? ".png" : ".webp";
 const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}${assetExtension(name)}?v=20260918-moviles-blanco-frio`;
+  `${local ? "review" : "assets"}/${encodeURIComponent(name)}${name.endsWith("-cool-neutral-v2") ? ".png" : name === "retrato-artista" ? ".jpg" : ".webp"}?v=20260918-moviles-blanco-frio`;
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
@@ -195,7 +195,7 @@ function renderWorks(list, view) {
     : `<div class="work-walk">${list.map((w) => `<article class="walk-item reveal"><div><span class="reference">${esc(w.reference)}</span><h2>${esc(w.label)}</h2><p>${esc(w.series)}</p>${a("/obra/" + w.id, "Ver la obra" + (w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : "") + " " + arrow, "text-link")}</div>${a("/obra/" + w.id, img(w.image, w.alt))}</article>`).join("")}</div>`;
 }
 function setGallery(list, label) {
-  currentGallery = list;
+  currentGallery = list.slice();
   galleryLabel = label;
 }
 function galleryGrid(list, start = 0) {
@@ -606,7 +606,7 @@ function attachJourneyEvents() {
 function artist() {
   return (
     head("El artista", "ENRIQUE SEGARRA I GARIBO", site.intro) +
-    `<section class="artist-layout">${img("retrato", "ENRIQUE SEGARRA I GARIBO con una de sus esculturas", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, ENRIQUE SEGARRA I GARIBO desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística, los proyectos compartidos y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones y proyectos"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
+    `<section class="artist-layout">${img("retrato-artista", "ENRIQUE SEGARRA I GARIBO en un retrato de estudio", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, ENRIQUE SEGARRA I GARIBO desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística, los proyectos compartidos y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones y proyectos"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
   );
 }
 function contact() {
@@ -990,6 +990,18 @@ document.addEventListener("keydown", (e) => {
 });
 window.addEventListener("hashchange", () => render());
 render();
+const artistName = "ENRIC SEGARRA I GARIBO";
+const replaceArtistName = () => {
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  while (walker.nextNode()) {
+    walker.currentNode.nodeValue = walker.currentNode.nodeValue.replaceAll("ENRIQUE SEGARRA I GARIBO", artistName);
+  }
+  document.querySelectorAll(".home-carousel-intro h1").forEach((heading) => {
+    heading.innerHTML = "ENRIC SEGARRA<br>I GARIBO";
+  });
+};
+replaceArtistName();
+new MutationObserver(replaceArtistName).observe(document.body, { childList: true, subtree: true });
 // Fotografías de participantes: solo en la revisión local, fuera del repositorio público.
 if (["127.0.0.1", "localhost", "[::1]"].includes(location.hostname)) {
   fetch("local-gallery.json")
