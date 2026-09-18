@@ -1,4 +1,4 @@
-import { contentTranslations } from "./content-translations.js?v=20260918-i18n-content-fix";
+import { contentTranslations } from "./content-translations.js?v=20260918-i18n-visible-content-v2";
 
 const STORAGE_KEY = "segarra-language";
 const originalText = new WeakMap();

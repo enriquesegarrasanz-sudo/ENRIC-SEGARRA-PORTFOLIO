@@ -22,7 +22,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20260918-i18n-content-fix";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20260918-i18n-visible-content-v2";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
