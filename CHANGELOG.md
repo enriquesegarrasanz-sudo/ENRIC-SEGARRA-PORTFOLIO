@@ -108,3 +108,7 @@
 - Fotografías ligeras y trazables, sin modificación estética de los originales.
 - Navegación adaptable a móvil y ampliación accesible de imágenes.
 - Instrucciones de edición, comprobación y guardado al finalizar futuros cambios.
+
+## Próximo
+
+- Añade selector de idioma persistente para castellano, catalán, inglés, francés y chino simplificado, con traducción de la navegación y de la interfaz principal.

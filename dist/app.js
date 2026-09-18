@@ -21,6 +21,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
+import { applyTranslations, initLanguage } from "./i18n.js";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -657,6 +658,7 @@ function render({ keepScroll = false } = {}) {
   attachPageEvents();
   attachArchiveEvents();
   attachJourneyEvents();
+  applyTranslations(document);
   observe();
 }
 function observe() {}
@@ -822,6 +824,7 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeMenu();
 });
 window.addEventListener("hashchange", () => render());
+initLanguage();
 render();
 // Fotografías de participantes: solo en la revisión local, fuera del repositorio público.
 if (["127.0.0.1", "localhost", "[::1]"].includes(location.hostname)) {
