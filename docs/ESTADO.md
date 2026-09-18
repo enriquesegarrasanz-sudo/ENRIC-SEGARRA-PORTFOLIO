@@ -17,6 +17,8 @@
 
 ## Ajuste visual · 18 de septiembre de 2026
 
+- El álbum «Quatre» abre ahora con la vista de sala `ARC-009286`, indicada para la exposición; se ha retirado la fotografía vertical anterior de la galería.
+
 - Las siete vistas de «Forma articulada dentro de un círculo» (ESC-054) comparten ahora luz, balance de color y fondo de exposición blanco cálido. Se ha mantenido la pátina y la peana como rasgos materiales de la obra.
 - La portada se presenta bajo el nombre «Segarra y Garibo» con un único retrato horizontal de Enric Segarra junto a una escultura de madera, mostrado a gran formato. Se ha depurado únicamente el contorno de la figura de madera y extendido lateralmente el fondo de estudio; por ahora no incluye textos ni carrusel.
 - MOV-012 («Curvas de tubo corrugado») utiliza como portada la segunda fotografía de su galería, manteniendo las tres vistas y sus referencias.

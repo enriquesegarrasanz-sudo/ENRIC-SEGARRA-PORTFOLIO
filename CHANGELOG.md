@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Exposición «Quatre» · portada documental — 2026-09-18
+
+- Se retira la fotografía vertical que abría el álbum y se coloca como portada la vista de sala `ARC-009286`, con las obras de la exposición.
+
 ## Escultura · vistas secundarias normalizadas — 2026-09-18
 
 - Se incorporan 89 vistas secundarias y sus miniaturas para 34 fichas de escultura, con formato de presentación horizontal y sin sustituir los originales documentales.

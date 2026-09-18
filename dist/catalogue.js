@@ -13555,15 +13555,15 @@ export const albums = [
       "Las fotografías reúnen vistas del montaje y relaciones entre obras de distintos artistas. Se conservan como memoria de una exposición compartida, sin trasladar todas las piezas al catálogo de Enric.",
       "La documentación del fondo se titula «Quatre». El álbum da prioridad al recorrido por la sala; las fotografías de encuentros permanecen en la revisión local."
     ],
-    "image": "arc-009327",
+    "image": "arc-009286",
     "gallery": [
       {
-        "image": "arc-009327",
-        "thumb": "thumb-009327",
-        "archiveId": "ARC-009327",
+        "image": "arc-009286",
+        "thumb": "thumb-009286",
+        "archiveId": "ARC-009286",
         "alt": "Quatre · fotografía 1",
-        "sourceName": "PIC_1000.JPG",
-        "contentKey": "ARC-009327"
+        "sourceName": "P1040027.JPG",
+        "contentKey": "ARC-009286"
       },
       {
         "image": "arc-009283",
@@ -13572,14 +13572,6 @@ export const albums = [
         "alt": "Quatre · fotografía 2",
         "sourceName": "P1040024.JPG",
         "contentKey": "ARC-009283"
-      },
-      {
-        "image": "arc-009286",
-        "thumb": "thumb-009286",
-        "archiveId": "ARC-009286",
-        "alt": "Quatre · fotografía 3",
-        "sourceName": "P1040027.JPG",
-        "contentKey": "ARC-009286"
       },
       {
         "image": "arc-011858",
