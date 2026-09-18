@@ -17,6 +17,7 @@ const copy = {
   "Menú": ["Menú", "Menu", "Menu", "菜单"],
   "Navegación principal": ["Navegació principal", "Main navigation", "Navigation principale", "主导航"],
   "SEGARRA Y GARIBO, inicio": ["SEGARRA Y GARIBO, inici", "SEGARRA Y GARIBO, home", "SEGARRA Y GARIBO, accueil", "SEGARRA Y GARIBO，首页"],
+  "ENRIC SEGARRA I GARIBO, inicio": ["ENRIC SEGARRA I GARIBO, inici", "ENRIC SEGARRA I GARIBO, home", "ENRIC SEGARRA I GARIBO, accueil", "ENRIC SEGARRA I GARIBO，首页"],
   "07 apartados": ["07 apartats", "07 sections", "07 sections", "07 个部分"],
   "Archivo de muestras": ["Arxiu de mostres", "Exhibition archive", "Archives d’expositions", "展览档案"],
   "Perfil y práctica": ["Perfil i pràctica", "Profile and practice", "Profil et pratique", "简介与实践"],
@@ -257,10 +258,11 @@ export function applyTranslations(root = document) {
     if (!originalText.has(node)) originalText.set(node, node.nodeValue);
     node.nodeValue = translateText(originalText.get(node));
   });
-  root.querySelectorAll?.("[aria-label], [placeholder], [title]").forEach((element) => {
+  root.querySelectorAll?.("[aria-label], [placeholder], [title], [alt]").forEach((element) => {
     translateAttribute(element, "aria-label");
     translateAttribute(element, "placeholder");
     translateAttribute(element, "title");
+    translateAttribute(element, "alt");
   });
   root.querySelectorAll?.("option:not([data-language-option])").forEach((option) => {
     if (!option.closest("[data-language-select]")) option.textContent = translateText(option.textContent);
