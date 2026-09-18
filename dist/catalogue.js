@@ -715,18 +715,18 @@ export const catalogue = [
     "series": "En el entorno",
     "chapter": "seguir-creando",
     "reference": "MOV-019",
-    "image": "arc-014927",
-    "thumb": "thumb-014927",
+    "image": "arc-014890",
+    "thumb": "thumb-014890",
     "alt": "Círculo azul y blanco",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014927",
-        "thumb": "thumb-014927",
-        "archiveId": "ARC-014927",
+        "image": "arc-014890",
+        "thumb": "thumb-014890",
+        "archiveId": "ARC-014890",
         "alt": "Círculo azul y blanco · vista del archivo",
-        "sourceName": "IMG20260309143134.jpg",
-        "contentKey": "ARC-014927"
+        "sourceName": "DSC02334.ARW",
+        "contentKey": "ARC-014890"
       }
     ]
   },
