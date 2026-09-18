@@ -34,8 +34,10 @@ const num = (n) => String(n).padStart(2, "0"),
   catName = (id) => categories.find((c) => c.id === id)?.label || id;
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
-const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-vistas`;
+const asset = (name, local = false) => {
+  const extension = name.endsWith(".png") ? "" : ".webp";
+  return `${local ? "review" : "assets"}/${encodeURIComponent(name)}${extension}?v=20260918-escultura-vistas`;
+};
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
