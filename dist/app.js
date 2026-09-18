@@ -22,6 +22,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
+import { applyTranslations, initLanguage } from "./i18n.js";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -727,8 +728,8 @@ function render({ keepScroll = false } = {}) {
   routeKey = raw;
   attachPageEvents();
   attachArchiveEvents();
-  attachFamilySlideshows();
-  attachHomeCarousel();
+  attachJourneyEvents();
+  applyTranslations(document);
   observe();
   if (shouldRevealSculptureResults) {
     requestAnimationFrame(() => {
@@ -989,6 +990,7 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeMenu();
 });
 window.addEventListener("hashchange", () => render());
+initLanguage();
 render();
 const artistName = "ENRIC SEGARRA I GARIBO";
 const replaceArtistName = () => {

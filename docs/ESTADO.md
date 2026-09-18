@@ -89,3 +89,9 @@ En navegador se verificaron la portada, acceso a exposición, filtros y carga pr
 ## Guardado
 
 Rama de corrección: fix/pintura-fidelidad, creada sobre la versión pública anterior. Conserva intactos los originales y la primera versión de estudio. Esta entrega se guarda en Git; los archivos de revisión y fotografías privadas continúan fuera del repositorio público.
+
+### Idiomas
+
+- La web permite cambiar entre castellano, catalán, inglés, francés y chino simplificado desde el selector de la cabecera.
+- La preferencia se conserva en el navegador y la interfaz se actualiza al volver a cargar la página.
+- Los nombres descriptivos y textos de archivo que todavía no tienen traducción editorial conservan su redacción original para no alterar la identificación documental.
