@@ -27954,5 +27954,13 @@
     "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2 y fondo de estudio blanco neutro #F8F8F7. Se preservan forma, trazo, color y textura del relieve; no deriva de una versión generada anterior.",
     "width": 1536,
     "height": 1024
+  },
+  {
+    "asset": "assets/retrato-artista.jpg",
+    "archivo_id": "Pendiente de identificación",
+    "original": "Activo de retrato publicado en el repositorio; fotografía de origen pendiente de identificar.",
+    "transformacion": "Fotografía de retrato publicada sin transformación adicional descrita en el registro.",
+    "width": 4672,
+    "height": 7008
   }
 ]
