@@ -798,7 +798,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0071.jpg",
     "contentKey": "ARC-013392",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013393-restored",
@@ -808,7 +808,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0072.jpg",
     "contentKey": "ARC-013393",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013394-restored",
@@ -818,7 +818,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0073.jpg",
     "contentKey": "ARC-013394",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013395-restored",
@@ -828,7 +828,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0074.jpg",
     "contentKey": "ARC-013395",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013396-restored",
@@ -838,7 +838,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0075.jpg",
     "contentKey": "ARC-013396",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013397-restored",
@@ -848,7 +848,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0076.jpg",
     "contentKey": "ARC-013397",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "bellas-arc-013398",
@@ -858,7 +858,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0077.jpg",
     "contentKey": "ARC-013398",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013399-restored",
@@ -868,7 +868,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0079.jpg",
     "contentKey": "ARC-013399",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013400-restored",
@@ -878,7 +878,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0080.jpg",
     "contentKey": "ARC-013400",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013401-restored",
@@ -888,7 +888,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0081.jpg",
     "contentKey": "ARC-013401",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013402-restored",
@@ -898,7 +898,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0082.jpg",
     "contentKey": "ARC-013402",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013403-restored",
@@ -908,7 +908,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0083.jpg",
     "contentKey": "ARC-013403",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013404-restored",
@@ -918,7 +918,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0084.jpg",
     "contentKey": "ARC-013404",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013405-restored",
@@ -928,7 +928,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0085.jpg",
     "contentKey": "ARC-013405",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013406-restored",
@@ -938,7 +938,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0086.jpg",
     "contentKey": "ARC-013406",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "bellas-arc-013408",
@@ -948,7 +948,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0088.jpg",
     "contentKey": "ARC-013408",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "bellas-arc-013409",
@@ -958,7 +958,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0089.jpg",
     "contentKey": "ARC-013409",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "bellas-arc-013410",
@@ -968,7 +968,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0090.jpg",
     "contentKey": "ARC-013410",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "bellas-arc-013411",
@@ -978,7 +978,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0091.jpg",
     "contentKey": "ARC-013411",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "bellas-arc-013412",
@@ -988,7 +988,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0092.jpg",
     "contentKey": "ARC-013412",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013413-restored",
@@ -998,7 +998,7 @@ export const bellasArtsGallery = [
     "sourceName": "100_0093.jpg",
     "contentKey": "ARC-013413",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   },
   {
     "image": "evolucion-013419-restored",
@@ -1008,6 +1008,6 @@ export const bellasArtsGallery = [
     "sourceName": "100_0087.jpg",
     "contentKey": "ARC-013419",
     "galleryGroup": "Evolución 1984–2004 · obra de Enric",
-    "attribution": "Vistas de la exposición de Enric Segarra celebrada en 2005."
+    "attribution": "Vistas de la exposición de Enric Segarra i Garibo celebrada en 2005."
   }
 ];
