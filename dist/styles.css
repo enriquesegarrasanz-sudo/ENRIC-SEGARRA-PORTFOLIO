@@ -3276,8 +3276,9 @@ main {
 .home-carousel-stage {
   position: relative;
   overflow: hidden;
-  background: #f8f8f7;
-  aspect-ratio: 16 / 9;
+  background: #fff;
+  /* La portada usa imágenes 3:2: mantenemos su encuadre completo sin bandas. */
+  aspect-ratio: 3 / 2;
 }
 .home-carousel-slides,
 .home-carousel-slide {
@@ -3300,6 +3301,7 @@ main {
   height: 100%;
   display: block;
   object-fit: contain;
+  background: #fff;
 }
 .home-carousel-intro {
   position: absolute;
