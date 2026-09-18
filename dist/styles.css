@@ -3290,3 +3290,7 @@ main {
     padding-bottom: 34px;
   }
 }
+/* Deja espacio para la cabecera fija al revelar una familia filtrada. */
+#catalogue-results {
+  scroll-margin-top: 110px;
+}

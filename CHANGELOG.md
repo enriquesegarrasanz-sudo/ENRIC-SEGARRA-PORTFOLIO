@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Navegación de familias de escultura · 2026-09-18
+
+- Al seleccionar una familia, la vista baja automáticamente hasta las obras filtradas.
+
 ## Arte infantil · salas de obra — 2026-09-18
 
 - Las obras infantiles se recorren en cinco salas diferenciadas por familias de trabajo, con fotografías completas tanto en formato horizontal como vertical.

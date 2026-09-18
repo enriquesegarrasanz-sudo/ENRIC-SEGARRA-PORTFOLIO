@@ -1,5 +1,9 @@
 # Estado de la versión 0.4.0
 
+## Navegación de familias de escultura · 18 de septiembre de 2026
+
+- Las tarjetas de familias conservan el filtro en la URL y desplazan la vista hasta las obras filtradas después de renderizar la selección.
+
 17 de septiembre de 2026.
 
 ## Ajuste visual · 18 de septiembre de 2026

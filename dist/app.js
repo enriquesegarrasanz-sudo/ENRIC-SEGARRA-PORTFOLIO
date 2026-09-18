@@ -689,7 +689,12 @@ function render({ keepScroll = false } = {}) {
     else el.removeAttribute("aria-current");
   });
   closeMenu();
-  if (!keepScroll) {
+  const shouldRevealSculptureResults =
+    !keepScroll &&
+    section === "obra" &&
+    id === "escultura" &&
+    params.has("serie");
+  if (!keepScroll && !shouldRevealSculptureResults) {
     const root = document.documentElement,
       previousScrollBehavior = root.style.scrollBehavior,
       resetScroll = () =>
@@ -707,6 +712,16 @@ function render({ keepScroll = false } = {}) {
   attachArchiveEvents();
   attachFamilySlideshows();
   observe();
+  if (shouldRevealSculptureResults) {
+    requestAnimationFrame(() => {
+      document.querySelector("#catalogue-results")?.scrollIntoView({
+        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
+        block: "start",
+      });
+    });
+  }
 }
 function observe() {}
 
