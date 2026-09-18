@@ -990,6 +990,7 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeMenu();
 });
 window.addEventListener("hashchange", () => render());
+window.addEventListener("segarra-language-change", () => render({ keepScroll: true }));
 initLanguage();
 render();
 const artistName = "ENRIC SEGARRA I GARIBO";

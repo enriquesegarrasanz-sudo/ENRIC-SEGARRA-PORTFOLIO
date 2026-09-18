@@ -184,8 +184,11 @@ export function getLanguage() {
 
 export function setLanguage(language) {
   if (!LANGUAGES.some((item) => item.code === language)) return;
+  if (language === getLanguage()) return;
   localStorage.setItem(STORAGE_KEY, language);
-  location.reload();
+  window.dispatchEvent(new CustomEvent("segarra-language-change", {
+    detail: { language },
+  }));
 }
 
 function indexFor(language = current) {
