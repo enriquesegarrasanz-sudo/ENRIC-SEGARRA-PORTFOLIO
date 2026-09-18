@@ -74,7 +74,8 @@ assert.deepEqual(fixture[0].references, ["ARC-000001", "ARC-000002"]);
 const entries = journeyEntries(chapters, albums, works);
 assert.equal(new Set(entries.map((e) => e.id)).size, entries.length);
 for (const e of entries) {
-  await access(new URL(`../dist/assets/${e.image}.webp`, import.meta.url));
+  const extension = e.image.endsWith("-cool-neutral-v2") ? ".png" : ".webp";
+  await access(new URL(`../dist/assets/${e.image}${extension}`, import.meta.url));
   const [type, id] = e.path.slice(1).split("/");
   assert(
     type === "memoria"

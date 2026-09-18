@@ -26282,5 +26282,21 @@
     "transformacion": "Edición expositiva desde la fotografía original: fondo continuo blanco frío-neutro #F5F6F7, iluminación difusa de galería y limpieza fotográfica; obra, encuadre, color, desgaste y elementos preservados",
     "width": 1024,
     "height": 1536
+  },
+  {
+    "asset": "assets/educacion-magisterio-portada-cool-neutral-v2.png",
+    "archivo_id": "ARC-012174",
+    "original": "ARTE INFATIL Y PASADO\\EXPO-UNIVERSISDAD\\P1010015.JPG",
+    "transformacion": "Imagen de portada editorial derivada de la fotografía de archivo: fondo blanco frío-neutro e iluminación difusa; contexto y obra conservados.",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/exposicion-pelec-portada-cool-neutral-v2.png",
+    "archivo_id": "ARC-013522",
+    "original": "ARTE INFATIL Y PASADO\\Mostra Art2001 El pelèc\\Chopos  -10.jpg",
+    "transformacion": "Imagen de portada editorial derivada de la fotografía de archivo: fondo blanco frío-neutro e iluminación difusa; contexto y obra conservados.",
+    "width": 1024,
+    "height": 1536
   }
 ]

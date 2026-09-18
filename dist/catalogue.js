@@ -7082,7 +7082,7 @@ export const albums = [
     "chapter": "crear-con-otros",
     "text": "Una segunda secuencia del fondo educativo: volúmenes, paneles y composiciones. Se conserva como memoria de los talleres, separada del catálogo de obra propia.",
     "type": "Educación artística",
-    "image": "arc-012174",
+    "image": "educacion-magisterio-portada-cool-neutral-v2",
     "gallery": [
       {
         "image": "arc-012174",
@@ -10076,7 +10076,7 @@ export const albums = [
       "La exposición ofrece otra escala de lectura a las obras nacidas en el taller. Las construcciones se agrupan, se separan y se encuentran con el visitante en su recorrido por las salas.",
       "El archivo conserva carpetas rotuladas 2001 y 2003 que comparten numerosas fotografías idénticas. Se reúnen aquí como un conjunto documental; esas etiquetas no bastan para atribuir cada imagen a una edición concreta."
     ],
-    "image": "arc-013522",
+    "image": "exposicion-pelec-portada-cool-neutral-v2",
     "gallery": [
       {
         "image": "arc-013522",
