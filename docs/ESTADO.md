@@ -1,5 +1,9 @@
 # Estado de la versión 0.4.0
 
+## Móviles · selección de vistas · 18 de septiembre de 2026
+
+- MOV-024 y MOV-026 muestran dos perspectivas: la presentación de estudio como imagen principal y una única instalación en vegetación. Las variantes adicionales se retiran de las fichas públicas, sin alterar los originales ni sus referencias archivísticas.
+
 ## Navegación de familias de escultura · 18 de septiembre de 2026
 
 - Las tarjetas de familias conservan el filtro en la URL y desplazan la vista hasta las obras filtradas después de renderizar la selección.

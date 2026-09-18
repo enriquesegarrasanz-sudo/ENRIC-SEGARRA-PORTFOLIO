@@ -5549,60 +5549,20 @@ export const catalogue = [
     "text": "Curvas azules y verdes. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "nature-015000",
-        "thumb": "nature-015000-thumb",
+        "image": "gallery-015000-cool-neutral-v2",
+        "thumb": "gallery-015000-thumb",
         "archiveId": "ARC-015000",
-        "alt": "Curvas azules y verdes · vista 1",
+        "alt": "Curvas azules y verdes · vista de estudio",
         "sourceName": "IMG20260805133737.jpg",
         "contentKey": "ARC-015000"
       },
       {
-        "image": "arc-015001",
-        "thumb": "thumb-015001",
-        "archiveId": "ARC-015001",
-        "alt": "Curvas azules y verdes · vista 2",
-        "sourceName": "IMG20260805133747.jpg",
-        "contentKey": "ARC-015001"
-      },
-      {
-        "image": "arc-015028",
-        "thumb": "thumb-015028",
-        "archiveId": "ARC-015028",
-        "alt": "Curvas azules y verdes · vista 3",
-        "sourceName": "IMG20260820122421~3.jpg",
-        "contentKey": "ARC-015028"
-      },
-      {
-        "image": "arc-015029",
-        "thumb": "thumb-015029",
-        "archiveId": "ARC-015029",
-        "alt": "Curvas azules y verdes · vista 4",
-        "sourceName": "IMG20260820122433~3.jpg",
-        "contentKey": "ARC-015029"
-      },
-      {
-        "image": "arc-015030",
-        "thumb": "thumb-015030",
-        "archiveId": "ARC-015030",
-        "alt": "Curvas azules y verdes · vista 5",
-        "sourceName": "IMG20260820122459~3.jpg",
-        "contentKey": "ARC-015030"
-      },
-      {
-        "image": "arc-015046",
-        "thumb": "thumb-015046",
-        "archiveId": "ARC-015046",
-        "alt": "Curvas azules y verdes · vista 6",
-        "sourceName": "IMG20260907095405~2.jpg",
-        "contentKey": "ARC-015046"
-      },
-      {
-        "image": "arc-015049",
-        "thumb": "thumb-015049",
-        "archiveId": "ARC-015049",
-        "alt": "Curvas azules y verdes · vista 7",
-        "sourceName": "IMG20260907095628~2.jpg",
-        "contentKey": "ARC-015049"
+        "image": "nature-015000",
+        "thumb": "nature-015000-thumb",
+        "archiveId": "ARC-015000",
+        "alt": "Curvas azules y verdes · vista en vegetación",
+        "sourceName": "IMG20260805133737.jpg",
+        "contentKey": "ARC-015000"
       }
     ]
   },
@@ -5641,52 +5601,20 @@ export const catalogue = [
     "text": "Arco rojo y discos azules. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
-        "image": "nature-015006",
-        "thumb": "nature-015006-thumb",
+        "image": "gallery-015006-cool-neutral-v2",
+        "thumb": "gallery-015006-thumb",
         "archiveId": "ARC-015006",
-        "alt": "Arco rojo y discos azules · vista 1",
+        "alt": "Arco rojo y discos azules · vista de estudio",
         "sourceName": "IMG20260816201736.jpg",
         "contentKey": "ARC-015006"
       },
       {
-        "image": "arc-015007",
-        "thumb": "thumb-015007",
-        "archiveId": "ARC-015007",
-        "alt": "Arco rojo y discos azules · vista 2",
-        "sourceName": "IMG20260816201744.jpg",
-        "contentKey": "ARC-015007"
-      },
-      {
-        "image": "arc-015008",
-        "thumb": "thumb-015008",
-        "archiveId": "ARC-015008",
-        "alt": "Arco rojo y discos azules · vista 3",
-        "sourceName": "IMG20260816201758.jpg",
-        "contentKey": "ARC-015008"
-      },
-      {
-        "image": "arc-015009",
-        "thumb": "thumb-015009",
-        "archiveId": "ARC-015009",
-        "alt": "Arco rojo y discos azules · vista 4",
-        "sourceName": "IMG20260816201830.jpg",
-        "contentKey": "ARC-015009"
-      },
-      {
-        "image": "arc-015010",
-        "thumb": "thumb-015010",
-        "archiveId": "ARC-015010",
-        "alt": "Arco rojo y discos azules · vista 5",
-        "sourceName": "IMG20260816201858.jpg",
-        "contentKey": "ARC-015010"
-      },
-      {
-        "image": "arc-015044",
-        "thumb": "thumb-015044",
-        "archiveId": "ARC-015044",
-        "alt": "Arco rojo y discos azules · vista 6",
-        "sourceName": "IMG20260907095234~2.jpg",
-        "contentKey": "ARC-015044"
+        "image": "nature-015006",
+        "thumb": "nature-015006-thumb",
+        "archiveId": "ARC-015006",
+        "alt": "Arco rojo y discos azules · vista en vegetación",
+        "sourceName": "IMG20260816201736.jpg",
+        "contentKey": "ARC-015006"
       }
     ]
   },

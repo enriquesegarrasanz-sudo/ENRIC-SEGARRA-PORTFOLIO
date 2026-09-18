@@ -31,7 +31,11 @@ const photoOwners = new Map();
 for (const item of [...works, ...albums]) {
   assert(item.gallery?.length, `Galería vacía: ${item.id}`);
   assert.equal(
-    new Set(item.gallery.map((p) => `${p.archiveId}:${p.sourcePage || ""}`))
+    new Set(
+      item.gallery.map(
+        (p) => `${p.archiveId}:${p.sourcePage || ""}:${p.image}`,
+      ),
+    )
       .size,
     item.gallery.length,
     `Foto repetida: ${item.id}`,
@@ -49,7 +53,7 @@ for (const item of [...works, ...albums]) {
     );
     if (works.includes(item)) {
       assert(
-        !photoOwners.has(p.archiveId),
+        !photoOwners.has(p.archiveId) || photoOwners.get(p.archiveId) === item.id,
         `La misma foto aparece en dos obras: ${p.archiveId}`,
       );
       photoOwners.set(p.archiveId, item.id);

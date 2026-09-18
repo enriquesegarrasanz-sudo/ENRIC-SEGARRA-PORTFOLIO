@@ -1,5 +1,10 @@
 # Historial de cambios
 
+## Móviles · dos vistas seleccionadas · 2026-09-18
+
+- MOV-024 («Curvas azules y verdes») y MOV-026 («Arco rojo y discos azules») abren y amplían su presentación de estudio.
+- Ambas fichas conservan una única segunda vista en vegetación; las demás variantes dejan de mostrarse en sus galerías públicas.
+
 ## Navegación de familias de escultura · 2026-09-18
 
 - Al seleccionar una familia, la vista baja automáticamente hasta las obras filtradas.
