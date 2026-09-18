@@ -539,52 +539,12 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014774",
-        "thumb": "thumb-014774",
+        "image": "gallery-014774-cool-neutral-v2",
+        "thumb": "gallery-014774-cool-neutral-v2",
         "archiveId": "ARC-014774",
-        "alt": "Composición de aros. Fotografía 1",
+        "alt": "Composición de aros. Fotografía de estudio",
         "sourceName": "DSC02558.ARW",
         "contentKey": "00062c3dafc600d1762ddef3b6bddd2545d5a758802e19d293dbb7d748c8e27e"
-      },
-      {
-        "image": "review-014783",
-        "thumb": "thumb-014783",
-        "archiveId": "ARC-014783",
-        "alt": "Composición de aros. Fotografía 2",
-        "sourceName": "DSC02567.ARW",
-        "contentKey": "ARC-014783"
-      },
-      {
-        "image": "review-014793",
-        "thumb": "thumb-014793",
-        "archiveId": "ARC-014793",
-        "alt": "Composición de aros. Fotografía 3",
-        "sourceName": "DSC02577.ARW",
-        "contentKey": "ARC-014793"
-      },
-      {
-        "image": "review-014801",
-        "thumb": "thumb-014801",
-        "archiveId": "ARC-014801",
-        "alt": "Composición de aros. Fotografía 4",
-        "sourceName": "DSC02585.ARW",
-        "contentKey": "ARC-014801"
-      },
-      {
-        "image": "review-014812",
-        "thumb": "thumb-014812",
-        "archiveId": "ARC-014812",
-        "alt": "Composición de aros. Fotografía 5",
-        "sourceName": "DSC02596.ARW",
-        "contentKey": "d2f94d7ee40ed9b8066317f80c1d60e316007763f0595228dad8e1a4da3f1819"
-      },
-      {
-        "image": "arc-014819",
-        "thumb": "thumb-014819",
-        "archiveId": "ARC-014819",
-        "alt": "Composición de aros. Fotografía 6",
-        "sourceName": "DSC02603.ARW",
-        "contentKey": "ARC-014819"
       }
     ]
   },
