@@ -10,8 +10,8 @@ import {
 } from "../dist/content.js";
 import { readings, educationSections } from "../dist/education.js";
 const root = new URL("../", import.meta.url);
-const assetFile = (name) =>
-  `${name}${name.endsWith("-cool-neutral-v2") ? ".png" : ".webp"}`;
+const assetExtension = (name) =>
+  name.endsWith("-estudio-v3") ? ".png" : ".webp";
 for (const [name, records] of Object.entries({
   works,
   chapters,
@@ -25,7 +25,7 @@ for (const [name, records] of Object.entries({
   );
   for (const record of records)
     if (record.image)
-      await access(new URL(`dist/assets/${assetFile(record.image)}`, root));
+      await access(new URL(`dist/assets/${record.image}${assetExtension(record.image)}`, root));
 }
 const photoOwners = new Map();
 for (const item of [...works, ...albums]) {
@@ -46,7 +46,7 @@ for (const item of [...works, ...albums]) {
   );
   for (const p of item.gallery) {
     for (const name of [p.image, p.thumb])
-      await access(new URL(`dist/assets/${assetFile(name)}`, root));
+      await access(new URL(`dist/assets/${name}${assetExtension(name)}`, root));
     assert(
       /^ARC-\d{6}$/.test(p.archiveId) && p.alt && p.sourceName,
       `Foto sin identificar: ${item.id}`,
@@ -138,7 +138,7 @@ for (const item of [...works, ...albums])
   for (const p of item.gallery) {
     for (const name of [p.image, p.thumb])
       assert(
-        manifestNames.has(`assets/${assetFile(name)}`),
+        manifestNames.has(`assets/${name}${assetExtension(name)}`),
         `Imagen sin procedencia: ${name}`,
       );
     if (p.sourcePage)
