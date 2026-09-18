@@ -5,8 +5,8 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js?v=20260918-escultura-navegacion-zoom";
-import { redirects } from "./catalogue.js?v=20260918-escultura-navegacion-zoom";
+} from "./content.js?v=20260918-obra-integrada-5006c21";
+import { redirects } from "./catalogue.js?v=20260918-obra-integrada-5006c21";
 
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 import {
