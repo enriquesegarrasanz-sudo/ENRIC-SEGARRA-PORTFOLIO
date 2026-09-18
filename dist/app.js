@@ -82,7 +82,8 @@ let currentGallery = [],
   selectedPhoto = 0,
   activeFilters = null,
   routeKey = "",
-  familySlideStops = [];
+  familySlideStops = [],
+  homeCarouselStop = null;
 
 // The catalogue keeps the original series names for traceability, while the
 // public-facing sculpture index groups closely related bodies of work together.
@@ -113,7 +114,22 @@ function familyOptions(pool, category) {
 }
 
 function home() {
-  return `<section class="portrait-cover" aria-label="Entrada a la obra de ENRIQUE SEGARRA I GARIBO"><img src="assets/retrato-portada-horizontal-v1.png" alt="ENRIQUE SEGARRA I GARIBO sostiene una escultura de madera" loading="eager" decoding="async"><div class="portrait-cover-copy"><h1>ENRIQUE<br>SEGARRA<br>I GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a class="portrait-cover-link" href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></div></section>`;
+  const slides = [
+    {
+      image: "hero-portrait-warm-neutral.webp",
+      alt: "SEGARRA Y GARIBO sostiene una escultura de madera",
+      kind: "presentación",
+    },
+    { image: "hero-work-circle.webp", alt: "Escultura circular de metal y piezas articuladas", kind: "escultura" },
+    { image: "hero-work-figure.webp", alt: "Escultura vertical de piedra clara", kind: "escultura" },
+    { image: "hero-work-arcs.webp", alt: "Escultura oscura de brazos curvos sobre una peana", kind: "escultura" },
+    { image: "hero-work-corrugated.webp", alt: "Móvil suspendido de tubos corrugados", kind: "móvil" },
+    { image: "hero-work-baskets.webp", alt: "Móvil suspendido compuesto por cestas y elementos de color", kind: "móvil" },
+    { image: "hero-work-wire.webp", alt: "Estructura suspendida de alambre y esferas de madera", kind: "móvil" },
+    { image: "hero-work-blue-green-drawing.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
+    { image: "hero-work-painted-relief.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
+  ];
+  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de SEGARRA Y GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav" aria-label="Controles del carrusel"><button type="button" data-home-carousel-prev aria-label="Obra anterior">←</button><p aria-live="polite"><span data-home-carousel-current>01</span><span aria-hidden="true"> / </span><span>09</span><span class="sr-only">, de nueve</span></p><button type="button" data-home-carousel-next aria-label="Obra siguiente">→</button></div></div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -712,6 +728,7 @@ function render({ keepScroll = false } = {}) {
   attachPageEvents();
   attachArchiveEvents();
   attachFamilySlideshows();
+  attachHomeCarousel();
   observe();
   if (shouldRevealSculptureResults) {
     requestAnimationFrame(() => {
@@ -765,6 +782,54 @@ function attachFamilySlideshows() {
     start();
     familySlideStops.push(stop);
   });
+}
+
+function attachHomeCarousel() {
+  homeCarouselStop?.();
+  homeCarouselStop = null;
+  const carousel = document.querySelector("[data-home-carousel]");
+  if (!carousel) return;
+  const slides = [...carousel.querySelectorAll("[data-home-slide]")];
+  const current = carousel.querySelector("[data-home-carousel-current]");
+  const previous = carousel.querySelector("[data-home-carousel-prev]");
+  const next = carousel.querySelector("[data-home-carousel-next]");
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
+  let index = 0, timer = null, paused = false;
+  const show = (target) => {
+    slides[index].classList.remove("is-active");
+    slides[index].setAttribute("aria-hidden", "true");
+    index = (target + slides.length) % slides.length;
+    slides[index].classList.add("is-active");
+    slides[index].setAttribute("aria-hidden", "false");
+    current.textContent = num(index + 1);
+  };
+  const stop = () => {
+    if (timer) window.clearTimeout(timer);
+    timer = null;
+  };
+  const schedule = () => {
+    stop();
+    if (!paused && !reduceMotion.matches && !document.hidden) {
+      timer = window.setTimeout(() => {
+        show(index + 1);
+        schedule();
+      }, 4800);
+    }
+  };
+  const pause = () => { paused = true; stop(); };
+  const resume = () => { paused = false; schedule(); };
+  previous.addEventListener("click", () => { show(index - 1); schedule(); });
+  next.addEventListener("click", () => { show(index + 1); schedule(); });
+  carousel.addEventListener("mouseenter", pause);
+  carousel.addEventListener("mouseleave", resume);
+  carousel.addEventListener("focusin", pause);
+  carousel.addEventListener("focusout", (event) => {
+    if (!carousel.contains(event.relatedTarget)) resume();
+  });
+  document.addEventListener("visibilitychange", () => document.hidden ? stop() : schedule(), { signal: pageEvents.signal });
+  reduceMotion.addEventListener("change", schedule, { signal: pageEvents.signal });
+  schedule();
+  homeCarouselStop = stop;
 }
 
 function updateFilters(view) {
