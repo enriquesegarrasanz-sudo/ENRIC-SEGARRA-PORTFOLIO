@@ -27802,5 +27802,77 @@
     "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
     "width": 1024,
     "height": 1536
+  },
+  {
+    "asset": "assets/hero-portrait-warm-neutral.webp",
+    "archivo_id": "Retrato de portada",
+    "original": "assets/retrato-portada-horizontal-v1.png",
+    "transformacion": "Versión horizontal 3:2 para la portada; sustitución de fondo de estudio por blanco cálido, conservando retrato y escultura de madera.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-circle.webp",
+    "archivo_id": "ARC-008704",
+    "original": "assets/gallery-esc-054.webp",
+    "transformacion": "Versión horizontal 3:2 para portada, derivada de la fotografía de catálogo de la misma obra; encuadre completo y fondo blanco cálido común.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-figure.webp",
+    "archivo_id": "Pendiente de identificación",
+    "original": "Imagen facilitada por el usuario: codex-clipboard-96aa29d0-afff-4951-868a-a790a14cafa9.png",
+    "transformacion": "Versión horizontal 3:2 para portada; obra completa centrada sobre fondo blanco cálido común.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-arcs.webp",
+    "archivo_id": "ARC-008523",
+    "original": "assets/gallery-esc-032.webp",
+    "transformacion": "Versión horizontal 3:2 para portada, derivada de la fotografía de catálogo de la misma obra; encuadre completo y fondo blanco cálido común.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-corrugated.webp",
+    "archivo_id": "ARC-014755",
+    "original": "assets/gallery-014755.webp",
+    "transformacion": "Versión horizontal 3:2 para portada, derivada de la fotografía de catálogo de la misma obra; encuadre completo y fondo blanco cálido común.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-baskets.webp",
+    "archivo_id": "Pendiente de identificación",
+    "original": "Imagen facilitada por el usuario: codex-clipboard-f568b7c0-75c2-47de-bd65-dc61afcfdacd.png",
+    "transformacion": "Versión horizontal 3:2 para portada; solo se eliminan las bandas externas de captura y se conserva la obra completa.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-wire.webp",
+    "archivo_id": "Pendiente de identificación",
+    "original": "Imagen facilitada por el usuario: codex-clipboard-5dc3189c-8a43-4540-a8b1-864eb6bf263e.png",
+    "transformacion": "Versión horizontal 3:2 para portada; solo se eliminan las bandas externas de captura y se conserva la obra completa.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-blue-green-drawing.webp",
+    "archivo_id": "Pendiente de identificación",
+    "original": "Imagen facilitada por el usuario: codex-clipboard-7075a0f4-9cb8-44fe-977a-b371ff7f4dd3.png",
+    "transformacion": "Restauración de presentación a partir de la imagen facilitada: ampliación, corrección global de luz y limpieza del soporte; versión horizontal 3:2.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "asset": "assets/hero-work-painted-relief.webp",
+    "archivo_id": "Pendiente de identificación",
+    "original": "Imagen facilitada por el usuario: codex-clipboard-34db4a16-fb8f-4c98-b81c-fff4fc13f597.png",
+    "transformacion": "Restauración de presentación a partir de la imagen facilitada: mejora de legibilidad, luz y fondo; versión horizontal 3:2.",
+    "width": 1800,
+    "height": 1200
   }
 ]

@@ -3234,61 +3234,130 @@ main {
   .cover-mosaic { grid-template-rows: 255px 165px 150px; }
 }
 
-/* Portada en pausa: un único retrato, sin elementos editoriales alrededor. */
-.portrait-cover {
+/* Portada: selección de obra en un único formato de galería. */
+.home-carousel-hero {
   position: relative;
-  display: block;
   padding: 0 0 clamp(44px, 6vw, 88px);
+}
+.home-carousel-stage {
+  position: relative;
   overflow: hidden;
+  aspect-ratio: 3 / 2;
+  background: #f8f7f3;
 }
-.portrait-cover img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.portrait-cover-copy {
+.home-carousel-slides,
+.home-carousel-slide {
   position: absolute;
+  inset: 0;
+}
+.home-carousel-slide {
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 900ms ease;
+}
+.home-carousel-slide.is-active {
+  z-index: 1;
+  opacity: 1;
+  pointer-events: auto;
+}
+.home-carousel-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.home-carousel-intro {
+  position: absolute;
+  z-index: 1;
   left: clamp(28px, 5vw, 82px);
   top: 50%;
   transform: translateY(-50%);
   color: #171816;
   max-width: 360px;
 }
-.portrait-cover-copy .eyebrow {
+.home-carousel-intro .eyebrow {
   margin-bottom: 22px;
   color: #4f6871;
 }
-.portrait-cover-copy h1 {
+.home-carousel-intro h1 {
   margin: 0;
   font-size: clamp(42px, 5.5vw, 86px);
   line-height: .86;
   letter-spacing: -.08em;
 }
-.portrait-cover-copy > p:not(.eyebrow) {
+.home-carousel-intro > p:not(.eyebrow) {
   margin: 27px 0 0;
   max-width: 235px;
   font-size: 15px;
   line-height: 1.4;
 }
-.portrait-cover-link {
+.home-carousel-intro a {
   display: inline-block;
   margin-top: 24px;
   border-bottom: 1px solid currentColor;
   padding-bottom: 6px;
   font-size: 12px;
 }
+.home-carousel-label {
+  position: absolute;
+  z-index: 1;
+  left: 18px;
+  bottom: 16px;
+  margin: 0;
+  padding: 7px 9px;
+  background: rgba(248, 247, 243, 0.9);
+  color: #222;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.home-carousel-nav {
+  position: absolute;
+  z-index: 2;
+  right: 18px;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.home-carousel-nav button {
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(28, 28, 25, 0.5);
+  background: rgba(248, 247, 243, 0.92);
+  color: #222;
+  font-size: 18px;
+}
+.home-carousel-nav button:hover,
+.home-carousel-nav button:focus-visible {
+  border-color: #222;
+  background: #fff;
+}
+.home-carousel-nav p {
+  min-width: 58px;
+  margin: 0;
+  padding: 10px 9px;
+  background: rgba(248, 247, 243, 0.92);
+  color: #222;
+  font-size: 11px;
+  text-align: center;
+}
 @media (max-width: 760px) {
-  .portrait-cover-copy {
+  .home-carousel-hero {
+    padding-bottom: 34px;
+  }
+  .home-carousel-intro {
     left: 23px;
     top: 43%;
   }
-  .portrait-cover-copy h1 { font-size: clamp(42px, 14vw, 72px); }
-  .portrait-cover-copy > p:not(.eyebrow) { font-size: 14px; }
+  .home-carousel-intro h1 { font-size: clamp(42px, 14vw, 72px); }
+  .home-carousel-intro > p:not(.eyebrow) { font-size: 14px; }
+  .home-carousel-nav { right: 12px; bottom: 12px; }
+  .home-carousel-label { left: 12px; bottom: 12px; }
 }
-@media (max-width: 760px) {
-  .portrait-cover {
-    padding-bottom: 34px;
-  }
+@media (prefers-reduced-motion: reduce) {
+  .home-carousel-slide { transition: none; }
 }
 /* Deja espacio para la cabecera fija al revelar una familia filtrada. */
 #catalogue-results {
