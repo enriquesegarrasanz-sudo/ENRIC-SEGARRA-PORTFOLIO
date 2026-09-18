@@ -655,36 +655,20 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
+        "image": "gallery-014847",
+        "thumb": "gallery-014847-thumb",
+        "archiveId": "ARC-099999",
+        "alt": "Pieza entre las ramas · vista de exposición",
+        "sourceName": "gallery-014847.webp",
+        "contentKey": "MOV-016-EXPOSICION"
+      },
+      {
         "image": "nature-014847",
         "thumb": "nature-014847-thumb",
         "archiveId": "ARC-014847",
         "alt": "Pieza entre las ramas. Fotografía 1",
         "sourceName": "DSC02291.ARW",
         "contentKey": "ARC-014847"
-      },
-      {
-        "image": "arc-014856",
-        "thumb": "thumb-014856",
-        "archiveId": "ARC-014856",
-        "alt": "Pieza entre las ramas. Fotografía 2",
-        "sourceName": "DSC02300.ARW",
-        "contentKey": "ARC-014856"
-      },
-      {
-        "image": "arc-014863",
-        "thumb": "thumb-014863",
-        "archiveId": "ARC-014863",
-        "alt": "Pieza entre las ramas. Fotografía 3",
-        "sourceName": "DSC02307.ARW",
-        "contentKey": "ARC-014863"
-      },
-      {
-        "image": "arc-014901",
-        "thumb": "thumb-014901",
-        "archiveId": "ARC-014901",
-        "alt": "Pieza entre las ramas. Fotografía 4",
-        "sourceName": "DSC02345.ARW",
-        "contentKey": "ARC-014901"
       },
       {
         "image": "arc-014931",
