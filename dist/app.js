@@ -988,6 +988,18 @@ document.addEventListener("keydown", (e) => {
 });
 window.addEventListener("hashchange", () => render());
 render();
+const artistName = "ENRIC SEGARRA I GARIBO";
+const replaceArtistName = () => {
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  while (walker.nextNode()) {
+    walker.currentNode.nodeValue = walker.currentNode.nodeValue.replaceAll("ENRIQUE SEGARRA I GARIBO", artistName);
+  }
+  document.querySelectorAll(".home-carousel-intro h1").forEach((heading) => {
+    heading.innerHTML = "ENRIC SEGARRA<br>I GARIBO";
+  });
+};
+replaceArtistName();
+new MutationObserver(replaceArtistName).observe(document.body, { childList: true, subtree: true });
 // Fotografías de participantes: solo en la revisión local, fuera del repositorio público.
 if (["127.0.0.1", "localhost", "[::1]"].includes(location.hostname)) {
   fetch("local-gallery.json")
