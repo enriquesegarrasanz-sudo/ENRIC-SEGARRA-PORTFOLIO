@@ -751,8 +751,8 @@ export const catalogue = [
     "series": "En el entorno",
     "chapter": "seguir-creando",
     "reference": "MOV-017",
-    "image": "gallery-014851-cool-neutral-v2",
-    "thumb": "gallery-014851-cool-neutral-v2",
+    "image": "nature-014851",
+    "thumb": "nature-014851-thumb",
     "alt": "Planos de color entre los árboles",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
@@ -763,62 +763,6 @@ export const catalogue = [
         "alt": "Planos de color entre los árboles. Fotografía 1",
         "sourceName": "DSC02295.ARW",
         "contentKey": "ARC-014851"
-      },
-      {
-        "image": "arc-014869",
-        "thumb": "thumb-014869",
-        "archiveId": "ARC-014869",
-        "alt": "Planos de color entre los árboles. Fotografía 2",
-        "sourceName": "DSC02313.ARW",
-        "contentKey": "ARC-014869"
-      },
-      {
-        "image": "arc-014872",
-        "thumb": "thumb-014872",
-        "archiveId": "ARC-014872",
-        "alt": "Planos de color entre los árboles. Fotografía 3",
-        "sourceName": "DSC02316.ARW",
-        "contentKey": "ARC-014872"
-      },
-      {
-        "image": "arc-014928",
-        "thumb": "thumb-014928",
-        "archiveId": "ARC-014928",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314120717.jpg",
-        "contentKey": "ARC-014928"
-      },
-      {
-        "image": "arc-014929",
-        "thumb": "thumb-014929",
-        "archiveId": "ARC-014929",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314124357.jpg",
-        "contentKey": "ARC-014929"
-      },
-      {
-        "image": "arc-014930",
-        "thumb": "thumb-014930",
-        "archiveId": "ARC-014930",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314124413.jpg",
-        "contentKey": "ARC-014930"
-      },
-      {
-        "image": "arc-014942",
-        "thumb": "thumb-014942",
-        "archiveId": "ARC-014942",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260326124123.jpg",
-        "contentKey": "ARC-014942"
-      },
-      {
-        "image": "arc-014943",
-        "thumb": "thumb-014943",
-        "archiveId": "ARC-014943",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260326124141.jpg",
-        "contentKey": "ARC-014943"
       }
     ]
   },
@@ -1007,24 +951,24 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-008941",
-        "thumb": "thumb-008941",
+        "image": "gallery-008941-cool-neutral-v2",
+        "thumb": "gallery-008941-thumb",
         "archiveId": "ARC-008941",
         "alt": "Estructura de líneas oscuras y esferas. Fotografía 1",
         "sourceName": "IMG_20180321_113841.jpg",
         "contentKey": "bf2398e2cb29e820d2cf6d6f16d666a89763b23bcf190bff3a67177eac9bc393"
       },
       {
-        "image": "arc-008943",
-        "thumb": "thumb-008943",
+        "image": "gallery-008943-cool-neutral-v2",
+        "thumb": "gallery-008943-cool-neutral-v2",
         "archiveId": "ARC-008943",
         "alt": "Estructura de líneas oscuras y esferas. Fotografía 2",
         "sourceName": "IMG_20180321_113852.jpg",
         "contentKey": "20d7eaf64f9dfd96069e6efefbc1ce0cbc11eb013440bb55f71e682c67187b3a"
       },
       {
-        "image": "arc-008949",
-        "thumb": "thumb-008949",
+        "image": "gallery-008949-cool-neutral-v2",
+        "thumb": "gallery-008949-cool-neutral-v2",
         "archiveId": "ARC-008949",
         "alt": "Estructura de líneas oscuras y esferas. Fotografía 3",
         "sourceName": "IMG_20180324_120136.jpg",
@@ -1217,16 +1161,16 @@ export const catalogue = [
         "contentKey": "97f3e6af9b3ba2f3a7c3341867ee524adb38b5a89cc1f942d555e4316c7cc667"
       },
       {
-        "image": "gallery-esc-006-view-2",
-        "thumb": "thumb-gallery-esc-006-view-2",
+        "image": "gallery-esc-006-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-006-view-2-horizontal",
         "archiveId": "ARC-008515",
         "alt": "Volumen de planos curvos. Fotografía 2",
         "sourceName": "DSCF0083.JPG",
         "contentKey": "ec990a6f7cf3362d5011201ce2f15e18ab47a33e85e4579b9cb109740d10ec6c"
       },
       {
-        "image": "gallery-esc-006-view-3",
-        "thumb": "thumb-gallery-esc-006-view-3",
+        "image": "gallery-esc-006-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-006-view-3-horizontal",
         "archiveId": "ARC-008517",
         "alt": "Volumen de planos curvos. Fotografía 3",
         "sourceName": "DSCF0085.JPG",
@@ -1255,8 +1199,8 @@ export const catalogue = [
         "contentKey": "ARC-014507"
       },
       {
-        "image": "arc-008552",
-        "thumb": "thumb-008552",
+        "image": "gallery-esc-007-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-007-view-2-horizontal",
         "archiveId": "ARC-008552",
         "alt": "Volumen enrollado. Fotografía 2",
         "sourceName": "TORSO1.TIF",
@@ -1285,16 +1229,16 @@ export const catalogue = [
         "contentKey": "ARC-014509"
       },
       {
-        "image": "gallery-esc-008-view-2",
-        "thumb": "thumb-gallery-esc-008-view-2",
+        "image": "gallery-esc-008-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-008-view-2-horizontal",
         "archiveId": "ARC-014512",
         "alt": "Figura clara de perfil orgánico. Fotografía 2",
         "sourceName": "_DSC3667.ARW",
         "contentKey": "ARC-014512"
       },
       {
-        "image": "gallery-esc-008-view-3",
-        "thumb": "thumb-gallery-esc-008-view-3",
+        "image": "gallery-esc-008-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-008-view-3-horizontal",
         "archiveId": "ARC-014514",
         "alt": "Figura clara de perfil orgánico. Fotografía 3",
         "sourceName": "_DSC3669.ARW",
@@ -1323,16 +1267,16 @@ export const catalogue = [
         "contentKey": "ARC-014516"
       },
       {
-        "image": "gallery-esc-009-view-2",
-        "thumb": "thumb-gallery-esc-009-view-2",
+        "image": "gallery-esc-009-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-009-view-2-horizontal",
         "archiveId": "ARC-014519",
         "alt": "Volumen de formas curvas. Fotografía 2",
         "sourceName": "_DSC3674.ARW",
         "contentKey": "ARC-014519"
       },
       {
-        "image": "gallery-esc-009-view-3",
-        "thumb": "thumb-gallery-esc-009-view-3",
+        "image": "gallery-esc-009-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-009-view-3-horizontal",
         "archiveId": "ARC-014522",
         "alt": "Volumen de formas curvas. Fotografía 3",
         "sourceName": "_DSC3677.ARW",
@@ -1361,16 +1305,16 @@ export const catalogue = [
         "contentKey": "ARC-014523"
       },
       {
-        "image": "gallery-esc-010-view-2",
-        "thumb": "thumb-gallery-esc-010-view-2",
+        "image": "gallery-esc-010-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-010-view-2-horizontal",
         "archiveId": "ARC-014525",
         "alt": "Volumen de remate bifurcado. Fotografía 2",
         "sourceName": "_DSC3680.ARW",
         "contentKey": "ARC-014525"
       },
       {
-        "image": "gallery-esc-010-view-3",
-        "thumb": "thumb-gallery-esc-010-view-3",
+        "image": "gallery-esc-010-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-010-view-3-horizontal",
         "archiveId": "ARC-014527",
         "alt": "Volumen de remate bifurcado. Fotografía 3",
         "sourceName": "_DSC3682.ARW",
@@ -1399,16 +1343,16 @@ export const catalogue = [
         "contentKey": "8594fdf84572fc460fce675fb6027d03d9d59cb5bc7df7fb73a57955643dea0e"
       },
       {
-        "image": "gallery-esc-011-view-2",
-        "thumb": "thumb-gallery-esc-011-view-2",
+        "image": "gallery-esc-011-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-011-view-2-horizontal",
         "archiveId": "ARC-014530",
         "alt": "Volumen claro con aberturas. Fotografía 2",
         "sourceName": "_DSC3685.ARW",
         "contentKey": "ARC-014530"
       },
       {
-        "image": "gallery-esc-011-view-3",
-        "thumb": "thumb-gallery-esc-011-view-3",
+        "image": "gallery-esc-011-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-011-view-3-horizontal",
         "archiveId": "ARC-014532",
         "alt": "Volumen claro con aberturas. Fotografía 3",
         "sourceName": "_DSC3687.ARW",
@@ -1437,24 +1381,24 @@ export const catalogue = [
         "contentKey": "ARC-014533"
       },
       {
-        "image": "gallery-esc-012-view-2",
-        "thumb": "thumb-gallery-esc-012-view-2",
+        "image": "gallery-esc-012-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-012-view-2-horizontal",
         "archiveId": "ARC-014536",
         "alt": "Figura de perfiles ascendentes. Fotografía 2",
         "sourceName": "_DSC3691.ARW",
         "contentKey": "ARC-014536"
       },
       {
-        "image": "gallery-esc-012-view-3",
-        "thumb": "thumb-gallery-esc-012-view-3",
+        "image": "gallery-esc-012-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-012-view-3-horizontal",
         "archiveId": "ARC-014539",
         "alt": "Figura de perfiles ascendentes. Fotografía 3",
         "sourceName": "_DSC3695.ARW",
         "contentKey": "5ac5a24d512c806ec4db33a85816549a78b7e2603cbfdab01a77e9d7bd7eb380"
       },
       {
-        "image": "arc-008541",
-        "thumb": "thumb-008541",
+        "image": "gallery-esc-012-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-012-view-4-horizontal",
         "archiveId": "ARC-008541",
         "alt": "Figura de perfiles ascendentes. Fotografía 4",
         "sourceName": "PICT1048.JPG",
@@ -1483,16 +1427,16 @@ export const catalogue = [
         "contentKey": "ARC-014540"
       },
       {
-        "image": "arc-014543",
-        "thumb": "thumb-014543",
+        "image": "gallery-esc-013-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-013-view-2-horizontal",
         "archiveId": "ARC-014543",
         "alt": "Forma vertical en torsión. Fotografía 2",
         "sourceName": "_DSC3699.ARW",
         "contentKey": "ARC-014543"
       },
       {
-        "image": "arc-014546",
-        "thumb": "thumb-014546",
+        "image": "gallery-esc-013-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-013-view-3-horizontal",
         "archiveId": "ARC-014546",
         "alt": "Forma vertical en torsión. Fotografía 3",
         "sourceName": "_DSC3702.ARW",
@@ -1521,16 +1465,16 @@ export const catalogue = [
         "contentKey": "ARC-014547"
       },
       {
-        "image": "arc-014549",
-        "thumb": "thumb-014549",
+        "image": "gallery-esc-014-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-014-view-2-horizontal",
         "archiveId": "ARC-014549",
         "alt": "Línea vertical sobre una base. Fotografía 2",
         "sourceName": "_DSC3705.ARW",
         "contentKey": "ARC-014549"
       },
       {
-        "image": "arc-014551",
-        "thumb": "thumb-014551",
+        "image": "gallery-esc-014-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-014-view-3-horizontal",
         "archiveId": "ARC-014551",
         "alt": "Línea vertical sobre una base. Fotografía 3",
         "sourceName": "_DSC3707.ARW",
@@ -1559,16 +1503,16 @@ export const catalogue = [
         "contentKey": "5cbfcaec5c77720bc39a2c0005d5f9c46450cccf30a00e2004eaf0faffd79bec"
       },
       {
-        "image": "arc-014555",
-        "thumb": "thumb-014555",
+        "image": "gallery-esc-015-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-015-view-2-horizontal",
         "archiveId": "ARC-014555",
         "alt": "Volumen redondeado. Fotografía 2",
         "sourceName": "_DSC3711.ARW",
         "contentKey": "04768832b8af3b334c64dbfe7f4bd1a93e1064db7200a1e553c2980a5b9f590e"
       },
       {
-        "image": "arc-014558",
-        "thumb": "thumb-014558",
+        "image": "gallery-esc-015-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-015-view-3-horizontal",
         "archiveId": "ARC-014558",
         "alt": "Volumen redondeado. Fotografía 3",
         "sourceName": "_DSC3714.ARW",
@@ -1641,16 +1585,16 @@ export const catalogue = [
         "contentKey": "ARC-014564"
       },
       {
-        "image": "arc-007764",
-        "thumb": "thumb-007764",
+        "image": "gallery-esc-018-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-018-view-2-horizontal",
         "archiveId": "ARC-007764",
         "alt": "Relieve circular de capas y alambre. Fotografía 2",
         "sourceName": "DSC04047.JPG",
         "contentKey": "839d89838141d23b54f144785bd338e0aef0b2596a20e2cd9b31904240a36ad5"
       },
       {
-        "image": "arc-009178",
-        "thumb": "thumb-009178",
+        "image": "gallery-esc-018-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-018-view-3-horizontal",
         "archiveId": "ARC-009178",
         "alt": "Relieve circular de capas y alambre. Fotografía 3",
         "sourceName": "IMG_20180321_113740.jpg",
@@ -1943,16 +1887,16 @@ export const catalogue = [
         "contentKey": "ARC-008507"
       },
       {
-        "image": "arc-008512",
-        "thumb": "thumb-008512",
+        "image": "gallery-esc-031-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-031-view-2-horizontal",
         "archiveId": "ARC-008512",
         "alt": "Volumen de perfiles abiertos. Fotografía 2",
         "sourceName": "DSCF0076.JPG",
         "contentKey": "ARC-008512"
       },
       {
-        "image": "arc-007147",
-        "thumb": "thumb-007147",
+        "image": "gallery-esc-031-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-031-view-3-horizontal",
         "archiveId": "ARC-007147",
         "alt": "Volumen de perfiles abiertos. Fotografía 3",
         "sourceName": "20160529_193648.jpg",
@@ -2025,8 +1969,8 @@ export const catalogue = [
         "contentKey": "a4aca899de84b85528ba7c5c7aafbf7c3a85c9766225ffe5bb791593073114a1"
       },
       {
-        "image": "arc-008531",
-        "thumb": "thumb-008531",
+        "image": "gallery-esc-034-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-034-view-2-horizontal",
         "archiveId": "ARC-008531",
         "alt": "Volumen de dos aberturas. Fotografía 2",
         "sourceName": "PICT1038.JPG",
@@ -2055,8 +1999,8 @@ export const catalogue = [
         "contentKey": "b8f5b0446a53d9947fed4ca5b83fbbc4dfef540c51a96cbb00e56e57a7c8fe37"
       },
       {
-        "image": "arc-008534",
-        "thumb": "thumb-008534",
+        "image": "gallery-esc-035-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-035-view-2-horizontal",
         "archiveId": "ARC-008534",
         "alt": "Planos enfrentados. Fotografía 2",
         "sourceName": "PICT1041.JPG",
@@ -2085,8 +2029,8 @@ export const catalogue = [
         "contentKey": "3181cce74b08da19c21119dca6070e28731208a894f1020458f20c4df68c3927"
       },
       {
-        "image": "arc-008537",
-        "thumb": "thumb-008537",
+        "image": "gallery-esc-036-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-036-view-2-horizontal",
         "archiveId": "ARC-008537",
         "alt": "Volumen con curva interior. Fotografía 2",
         "sourceName": "PICT1044.JPG",
@@ -2115,8 +2059,8 @@ export const catalogue = [
         "contentKey": "fdd485f533609a4c78ce19597ad737ca95dda85b1073adbbfaa9559f1420827b"
       },
       {
-        "image": "arc-008544",
-        "thumb": "thumb-008544",
+        "image": "gallery-esc-037-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-037-view-2-horizontal",
         "archiveId": "ARC-008544",
         "alt": "Retícula y formas claras. Fotografía 2",
         "sourceName": "PICT1051.JPG",
@@ -2145,8 +2089,8 @@ export const catalogue = [
         "contentKey": "4792f6c8386ae868f72f0ea3feee77de631e52b80fdfbb9b5d97360fa35efc37"
       },
       {
-        "image": "arc-008777",
-        "thumb": "thumb-008777",
+        "image": "gallery-esc-038-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-038-view-2-horizontal",
         "archiveId": "ARC-008777",
         "alt": "Materia encontrada sobre soporte. Fotografía 2",
         "sourceName": "DSC_2725.JPG",
@@ -2175,24 +2119,24 @@ export const catalogue = [
         "contentKey": "32c7cbd7cb26162712f67573e10a565da8712e90d7080e403d3a2c6f8d79c92a"
       },
       {
-        "image": "arc-008792",
-        "thumb": "thumb-008792",
+        "image": "gallery-esc-039-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-039-view-2-horizontal",
         "archiveId": "ARC-008792",
         "alt": "Estructura vertical de brazos móviles. Fotografía 2",
         "sourceName": "DSC_2872.JPG",
         "contentKey": "706a9da623616fdf1482888250e5c614519929d2a9cee94ef5f627ac33890520"
       },
       {
-        "image": "arc-008803",
-        "thumb": "thumb-008803",
+        "image": "gallery-esc-039-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-039-view-3-horizontal",
         "archiveId": "ARC-008803",
         "alt": "Estructura vertical de brazos móviles. Fotografía 3",
         "sourceName": "DSC_2907.JPG",
         "contentKey": "75af5e9452486159d894f8ba466b5dab063975c2fb4da11874e9dd5a866ca4cf"
       },
       {
-        "image": "arc-008807",
-        "thumb": "thumb-008807",
+        "image": "gallery-esc-039-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-039-view-4-horizontal",
         "archiveId": "ARC-008807",
         "alt": "Estructura vertical de brazos móviles. Fotografía 4",
         "sourceName": "DSC_2927.JPG",
@@ -2221,16 +2165,16 @@ export const catalogue = [
         "contentKey": "ARC-008810"
       },
       {
-        "image": "arc-008812",
-        "thumb": "thumb-008812",
+        "image": "gallery-esc-040-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-040-view-2-horizontal",
         "archiveId": "ARC-008812",
         "alt": "Planos curvos sobre engranaje. Fotografía 2",
         "sourceName": "DSC_2952.JPG",
         "contentKey": "ARC-008812"
       },
       {
-        "image": "arc-008814",
-        "thumb": "thumb-008814",
+        "image": "gallery-esc-040-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-040-view-3-horizontal",
         "archiveId": "ARC-008814",
         "alt": "Planos curvos sobre engranaje. Fotografía 3",
         "sourceName": "DSC_2965.JPG",
@@ -2259,24 +2203,24 @@ export const catalogue = [
         "contentKey": "ARC-008826"
       },
       {
-        "image": "arc-008816",
-        "thumb": "thumb-008816",
+        "image": "gallery-esc-041-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-041-view-2-horizontal",
         "archiveId": "ARC-008816",
         "alt": "Dos estructuras de espirales. Fotografía 2",
         "sourceName": "DSC_2981.JPG",
         "contentKey": "c8ed0d91f29ddb8c9f023c1d8e1c2afb6e8142dc9ef6f37c6cae2e2da8ad9bb9"
       },
       {
-        "image": "arc-008825",
-        "thumb": "thumb-008825",
+        "image": "gallery-esc-041-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-041-view-3-horizontal",
         "archiveId": "ARC-008825",
         "alt": "Dos estructuras de espirales. Fotografía 3",
         "sourceName": "DSC_3017.JPG",
         "contentKey": "ARC-008825"
       },
       {
-        "image": "arc-008829",
-        "thumb": "thumb-008829",
+        "image": "gallery-esc-041-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-041-view-4-horizontal",
         "archiveId": "ARC-008829",
         "alt": "Dos estructuras de espirales. Fotografía 4",
         "sourceName": "DSC_3049.JPG",
@@ -2305,8 +2249,8 @@ export const catalogue = [
         "contentKey": "ARC-008907"
       },
       {
-        "image": "arc-008909",
-        "thumb": "thumb-008909",
+        "image": "gallery-esc-042-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-042-view-2-horizontal",
         "archiveId": "ARC-008909",
         "alt": "Herramienta sobre un cilindro. Fotografía 2",
         "sourceName": "DSC04226.JPG",
@@ -2335,24 +2279,24 @@ export const catalogue = [
         "contentKey": "ARC-011828"
       },
       {
-        "image": "gallery-esc-043-view-2",
-        "thumb": "thumb-gallery-esc-043-view-2",
+        "image": "gallery-esc-043-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-043-view-2-horizontal",
         "archiveId": "ARC-011832",
         "alt": "Flores de engranajes. Fotografía 2",
         "sourceName": "DSC04194.jpg",
         "contentKey": "ARC-011832"
       },
       {
-        "image": "gallery-esc-043-view-3",
-        "thumb": "thumb-gallery-esc-043-view-3",
+        "image": "gallery-esc-043-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-043-view-3-horizontal",
         "archiveId": "ARC-011834",
         "alt": "Flores de engranajes. Fotografía 3",
         "sourceName": "DSC04196.JPG",
         "contentKey": "ARC-011834"
       },
       {
-        "image": "gallery-esc-043-view-4",
-        "thumb": "thumb-gallery-esc-043-view-4",
+        "image": "gallery-esc-043-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-043-view-4-horizontal",
         "archiveId": "ARC-011838",
         "alt": "Flores de engranajes. Fotografía 4",
         "sourceName": "DSC04200.jpg",
@@ -2381,16 +2325,16 @@ export const catalogue = [
         "contentKey": "f84a223a6da4d5c7d21a3aa6b73cb426281ca2615e184382729f0616cf853c56"
       },
       {
-        "image": "arc-007137",
-        "thumb": "thumb-007137",
+        "image": "gallery-esc-044-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-044-view-2-horizontal",
         "archiveId": "ARC-007137",
         "alt": "Dos planos de perfil ascendente. Fotografía 2",
         "sourceName": "20160529_193228.jpg",
         "contentKey": "7e89f9810fbf7c5333acac03b8497618f7706eb49fa2cf12680ccf2a0c08056c"
       },
       {
-        "image": "arc-007141",
-        "thumb": "thumb-007141",
+        "image": "gallery-esc-044-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-044-view-3-horizontal",
         "archiveId": "ARC-007141",
         "alt": "Dos planos de perfil ascendente. Fotografía 3",
         "sourceName": "20160529_193339.jpg",
@@ -2419,8 +2363,8 @@ export const catalogue = [
         "contentKey": "81fd5243d3459118bf4cd3342e2e4f6171856aa65ce4afa701c45868dbc18dcd"
       },
       {
-        "image": "arc-007161",
-        "thumb": "thumb-007161",
+        "image": "gallery-esc-045-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-045-view-2-horizontal",
         "archiveId": "ARC-007161",
         "alt": "Elementos claros sobre un eje. Fotografía 2",
         "sourceName": "20160529_194049.jpg",
@@ -2449,24 +2393,24 @@ export const catalogue = [
         "contentKey": "7c70a07c25cdbfd786901a594b7c914ef76f748384785671b4c042085078b447"
       },
       {
-        "image": "arc-008731",
-        "thumb": "thumb-008731",
+        "image": "gallery-esc-046-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-046-view-2-horizontal",
         "archiveId": "ARC-008731",
         "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 2",
         "sourceName": "20160131_094014.jpg",
         "contentKey": "ARC-008731"
       },
       {
-        "image": "arc-008738",
-        "thumb": "thumb-008738",
+        "image": "gallery-esc-046-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-046-view-3-horizontal",
         "archiveId": "ARC-008738",
         "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 3",
         "sourceName": "20160131_094301.jpg",
         "contentKey": "3eeb12506ceb378dc833df887994082ecc20efb21a6aa38891d72b6bd338ced4"
       },
       {
-        "image": "arc-008831",
-        "thumb": "thumb-008831",
+        "image": "gallery-esc-046-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-046-view-4-horizontal",
         "archiveId": "ARC-008831",
         "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 4",
         "sourceName": "DSC_3137.JPG",
@@ -5191,56 +5135,56 @@ export const catalogue = [
         "contentKey": "ARC-014959"
       },
       {
-        "image": "arc-014960",
-        "thumb": "thumb-014960",
+        "image": "gallery-esc-047-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-047-view-2-horizontal",
         "archiveId": "ARC-014960",
         "alt": "Recipientes azules entre las ramas · vista 2",
         "sourceName": "IMG20260603195042.jpg",
         "contentKey": "ARC-014960"
       },
       {
-        "image": "arc-014961",
-        "thumb": "thumb-014961",
+        "image": "gallery-esc-047-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-047-view-3-horizontal",
         "archiveId": "ARC-014961",
         "alt": "Recipientes azules entre las ramas · vista 3",
         "sourceName": "IMG20260604193930.jpg",
         "contentKey": "ARC-014961"
       },
       {
-        "image": "arc-014963",
-        "thumb": "thumb-014963",
+        "image": "gallery-esc-047-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-047-view-4-horizontal",
         "archiveId": "ARC-014963",
         "alt": "Recipientes azules entre las ramas · vista 4",
         "sourceName": "IMG20260604193948.jpg",
         "contentKey": "ARC-014963"
       },
       {
-        "image": "arc-014965",
-        "thumb": "thumb-014965",
+        "image": "gallery-esc-047-view-5-horizontal",
+        "thumb": "thumb-gallery-esc-047-view-5-horizontal",
         "archiveId": "ARC-014965",
         "alt": "Recipientes azules entre las ramas · vista 5",
         "sourceName": "IMG20260604194013.jpg",
         "contentKey": "ARC-014965"
       },
       {
-        "image": "arc-014966",
-        "thumb": "thumb-014966",
+        "image": "gallery-esc-047-view-6-horizontal",
+        "thumb": "thumb-gallery-esc-047-view-6-horizontal",
         "archiveId": "ARC-014966",
         "alt": "Recipientes azules entre las ramas · vista 6",
         "sourceName": "IMG20260604194013~2.jpg",
         "contentKey": "ARC-014966"
       },
       {
-        "image": "arc-014989",
-        "thumb": "thumb-014989",
+        "image": "gallery-esc-047-view-7-horizontal",
+        "thumb": "thumb-gallery-esc-047-view-7-horizontal",
         "archiveId": "ARC-014989",
         "alt": "Recipientes azules entre las ramas · vista 7",
         "sourceName": "IMG20260804200417.jpg",
         "contentKey": "ARC-014989"
       },
       {
-        "image": "arc-014991",
-        "thumb": "thumb-014991",
+        "image": "gallery-esc-047-view-8-horizontal",
+        "thumb": "thumb-gallery-esc-047-view-8-horizontal",
         "archiveId": "ARC-014991",
         "alt": "Recipientes azules entre las ramas · vista 8",
         "sourceName": "IMG20260804200510.jpg",
@@ -5269,8 +5213,8 @@ export const catalogue = [
         "contentKey": "ARC-014967"
       },
       {
-        "image": "arc-014970",
-        "thumb": "thumb-014970",
+        "image": "gallery-esc-048-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-048-view-2-horizontal",
         "archiveId": "ARC-014970",
         "alt": "Paneles de color sobre un tronco · vista 2",
         "sourceName": "IMG20260624210545.jpg",
@@ -5299,48 +5243,48 @@ export const catalogue = [
         "contentKey": "ARC-014968"
       },
       {
-        "image": "arc-014969",
-        "thumb": "thumb-014969",
+        "image": "gallery-esc-049-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-049-view-2-horizontal",
         "archiveId": "ARC-014969",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 2",
         "sourceName": "IMG20260624210506_BURST001_COVER.jpg",
         "contentKey": "ARC-014969"
       },
       {
-        "image": "arc-014972",
-        "thumb": "thumb-014972",
+        "image": "gallery-esc-049-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-049-view-3-horizontal",
         "archiveId": "ARC-014972",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 3",
         "sourceName": "IMG20260629212820.jpg",
         "contentKey": "ARC-014972"
       },
       {
-        "image": "arc-014974",
-        "thumb": "thumb-014974",
+        "image": "gallery-esc-049-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-049-view-4-horizontal",
         "archiveId": "ARC-014974",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 4",
         "sourceName": "IMG20260629212955.jpg",
         "contentKey": "ARC-014974"
       },
       {
-        "image": "arc-014990",
-        "thumb": "thumb-014990",
+        "image": "gallery-esc-049-view-5-horizontal",
+        "thumb": "thumb-gallery-esc-049-view-5-horizontal",
         "archiveId": "ARC-014990",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 5",
         "sourceName": "IMG20260804200454.jpg",
         "contentKey": "ARC-014990"
       },
       {
-        "image": "arc-014995",
-        "thumb": "thumb-014995",
+        "image": "gallery-esc-049-view-6-horizontal",
+        "thumb": "thumb-gallery-esc-049-view-6-horizontal",
         "archiveId": "ARC-014995",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 6",
         "sourceName": "IMG20260804200727.jpg",
         "contentKey": "ARC-014995"
       },
       {
-        "image": "arc-014996",
-        "thumb": "thumb-014996",
+        "image": "gallery-esc-049-view-7-horizontal",
+        "thumb": "thumb-gallery-esc-049-view-7-horizontal",
         "archiveId": "ARC-014996",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 7",
         "sourceName": "IMG20260804200738.jpg",
@@ -5455,80 +5399,80 @@ export const catalogue = [
         "contentKey": "ARC-014978"
       },
       {
-        "image": "arc-014979",
-        "thumb": "thumb-014979",
+        "image": "gallery-esc-050-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-2-horizontal",
         "archiveId": "ARC-014979",
         "alt": "Marcos de color en el árbol · vista 2",
         "sourceName": "IMG20260727205646.jpg",
         "contentKey": "ARC-014979"
       },
       {
-        "image": "arc-014980",
-        "thumb": "thumb-014980",
+        "image": "gallery-esc-050-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-3-horizontal",
         "archiveId": "ARC-014980",
         "alt": "Marcos de color en el árbol · vista 3",
         "sourceName": "IMG20260728205357.jpg",
         "contentKey": "ARC-014980"
       },
       {
-        "image": "arc-014981",
-        "thumb": "thumb-014981",
+        "image": "gallery-esc-050-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-4-horizontal",
         "archiveId": "ARC-014981",
         "alt": "Marcos de color en el árbol · vista 4",
         "sourceName": "IMG20260728205409.jpg",
         "contentKey": "ARC-014981"
       },
       {
-        "image": "arc-014982",
-        "thumb": "thumb-014982",
+        "image": "gallery-esc-050-view-5-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-5-horizontal",
         "archiveId": "ARC-014982",
         "alt": "Marcos de color en el árbol · vista 5",
         "sourceName": "IMG20260728205423~2.jpg",
         "contentKey": "ARC-014982"
       },
       {
-        "image": "arc-014983",
-        "thumb": "thumb-014983",
+        "image": "gallery-esc-050-view-6-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-6-horizontal",
         "archiveId": "ARC-014983",
         "alt": "Marcos de color en el árbol · vista 6",
         "sourceName": "IMG20260728205507.jpg",
         "contentKey": "ARC-014983"
       },
       {
-        "image": "arc-014984",
-        "thumb": "thumb-014984",
+        "image": "gallery-esc-050-view-7-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-7-horizontal",
         "archiveId": "ARC-014984",
         "alt": "Marcos de color en el árbol · vista 7",
         "sourceName": "IMG20260728205507~2.jpg",
         "contentKey": "ARC-014984"
       },
       {
-        "image": "arc-014985",
-        "thumb": "thumb-014985",
+        "image": "gallery-esc-050-view-8-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-8-horizontal",
         "archiveId": "ARC-014985",
         "alt": "Marcos de color en el árbol · vista 8",
         "sourceName": "IMG20260728205519.jpg",
         "contentKey": "ARC-014985"
       },
       {
-        "image": "arc-014997",
-        "thumb": "thumb-014997",
+        "image": "gallery-esc-050-view-9-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-9-horizontal",
         "archiveId": "ARC-014997",
         "alt": "Marcos de color en el árbol · vista 9",
         "sourceName": "IMG20260804201122.jpg",
         "contentKey": "ARC-014997"
       },
       {
-        "image": "arc-014998",
-        "thumb": "thumb-014998",
+        "image": "gallery-esc-050-view-10-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-10-horizontal",
         "archiveId": "ARC-014998",
         "alt": "Marcos de color en el árbol · vista 10",
         "sourceName": "IMG20260804201207.jpg",
         "contentKey": "ARC-014998"
       },
       {
-        "image": "arc-014999",
-        "thumb": "thumb-014999",
+        "image": "gallery-esc-050-view-11-horizontal",
+        "thumb": "thumb-gallery-esc-050-view-11-horizontal",
         "archiveId": "ARC-014999",
         "alt": "Marcos de color en el árbol · vista 11",
         "sourceName": "IMG20260804201207~2.jpg",
@@ -5843,8 +5787,8 @@ export const catalogue = [
         "contentKey": "ARC-015032"
       },
       {
-        "image": "arc-015033",
-        "thumb": "thumb-015033",
+        "image": "gallery-esc-051-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-051-view-2-horizontal",
         "archiveId": "ARC-015033",
         "alt": "Círculo blanco de piezas encontradas · vista 2",
         "sourceName": "IMG20260825120912~2.jpg",
@@ -6127,8 +6071,8 @@ export const catalogue = [
         "contentKey": "ARC-015076"
       },
       {
-        "image": "arc-015077",
-        "thumb": "thumb-015077",
+        "image": "gallery-esc-052-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-052-view-2-horizontal",
         "archiveId": "ARC-015077",
         "alt": "Un tronco con formas superpuestas · vista 2",
         "sourceName": "IMG_20241122_164000.jpg",
@@ -6157,32 +6101,32 @@ export const catalogue = [
         "contentKey": "56462c22a76b13d9453da9b86e631820db7fc0c05de51f24607b4f0795672e5b"
       },
       {
-        "image": "arc-008658",
-        "thumb": "thumb-008658",
+        "image": "gallery-esc-053-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-053-view-2-horizontal",
         "archiveId": "ARC-008658",
         "alt": "Una curva que se abre en el espacio · vista 2",
         "sourceName": "007_5.JPG",
         "contentKey": "131f83d10542580efa04307623d7e716f430c609a42e4c12e016a472c4675048"
       },
       {
-        "image": "arc-008660",
-        "thumb": "thumb-008660",
+        "image": "gallery-esc-053-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-053-view-3-horizontal",
         "archiveId": "ARC-008660",
         "alt": "Una curva que se abre en el espacio · vista 3",
         "sourceName": "009_7.JPG",
         "contentKey": "900aad4413e121322e7fa2abd07c4cee7e220c796c149fbdba90721f07b54cad"
       },
       {
-        "image": "arc-008661",
-        "thumb": "thumb-008661",
+        "image": "gallery-esc-053-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-053-view-4-horizontal",
         "archiveId": "ARC-008661",
         "alt": "Una curva que se abre en el espacio · vista 4",
         "sourceName": "010_8.JPG",
         "contentKey": "da163b12ab53e3862f3f0b28e492ed98be86744face24beca252cf3358936b3b"
       },
       {
-        "image": "arc-008662",
-        "thumb": "thumb-008662",
+        "image": "gallery-esc-053-view-5-horizontal",
+        "thumb": "thumb-gallery-esc-053-view-5-horizontal",
         "archiveId": "ARC-008662",
         "alt": "Una curva que se abre en el espacio · vista 5",
         "sourceName": "011_9.JPG",
@@ -6211,48 +6155,48 @@ export const catalogue = [
         "contentKey": "507236d7e8d31260339b75e85768b829bcfba84b9082625b9588ea8abec9fd91"
       },
       {
-        "image": "arc-008706",
-        "thumb": "thumb-008706",
+        "image": "gallery-esc-054-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-054-view-2-horizontal",
         "archiveId": "ARC-008706",
         "alt": "Forma articulada dentro de un círculo · vista 2",
         "sourceName": "SERIE_AGUA2.JPG",
         "contentKey": "7ca1c1e19821713ab08ff60edac7113b53dd9c82002f04d24d73bc61e9610e2f"
       },
       {
-        "image": "arc-008708",
-        "thumb": "thumb-008708",
+        "image": "gallery-esc-054-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-054-view-3-horizontal",
         "archiveId": "ARC-008708",
         "alt": "Forma articulada dentro de un círculo · vista 3",
         "sourceName": "SERIE_AGUA3.JPG",
         "contentKey": "c102469f3f97bfbaefb2159041ac95a17fa333821441692e8896a3db8fdb3fe7"
       },
       {
-        "image": "arc-008710",
-        "thumb": "thumb-008710",
+        "image": "gallery-esc-054-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-054-view-4-horizontal",
         "archiveId": "ARC-008710",
         "alt": "Forma articulada dentro de un círculo · vista 4",
         "sourceName": "SERIE_AGUA4.JPG",
         "contentKey": "3de862d922c27bea0cc23112a59774a9e06b6e9a0dea4d122e81673c4e8a2d27"
       },
       {
-        "image": "arc-008663",
-        "thumb": "thumb-008663",
+        "image": "gallery-esc-054-view-5-horizontal",
+        "thumb": "thumb-gallery-esc-054-view-5-horizontal",
         "archiveId": "ARC-008663",
         "alt": "Forma articulada dentro de un círculo · vista 5",
         "sourceName": "024_22.JPG",
         "contentKey": "4639599be41e1de07f306e74ed289fe70d61125a409efde0a8df3e38e65262ee"
       },
       {
-        "image": "arc-008664",
-        "thumb": "thumb-008664",
+        "image": "gallery-esc-054-view-6-horizontal",
+        "thumb": "thumb-gallery-esc-054-view-6-horizontal",
         "archiveId": "ARC-008664",
         "alt": "Forma articulada dentro de un círculo · vista 6",
         "sourceName": "025_23.JPG",
         "contentKey": "34696017acf9244b6cca996e4b17bfc7eed3a2f35a7bedddb1e9f42969be0917"
       },
       {
-        "image": "arc-008665",
-        "thumb": "thumb-008665",
+        "image": "gallery-esc-054-view-7-horizontal",
+        "thumb": "thumb-gallery-esc-054-view-7-horizontal",
         "archiveId": "ARC-008665",
         "alt": "Forma articulada dentro de un círculo · vista 7",
         "sourceName": "026_24.JPG",
@@ -6281,48 +6225,48 @@ export const catalogue = [
         "contentKey": "ARC-009729"
       },
       {
-        "image": "arc-009730",
-        "thumb": "thumb-009730",
+        "image": "gallery-esc-055-view-2-horizontal",
+        "thumb": "thumb-gallery-esc-055-view-2-horizontal",
         "archiveId": "ARC-009730",
         "alt": "Mesa de varillas y ruedas dentadas · vista 2",
         "sourceName": "DSC_3057.JPG",
         "contentKey": "ARC-009730"
       },
       {
-        "image": "arc-009731",
-        "thumb": "thumb-009731",
+        "image": "gallery-esc-055-view-3-horizontal",
+        "thumb": "thumb-gallery-esc-055-view-3-horizontal",
         "archiveId": "ARC-009731",
         "alt": "Mesa de varillas y ruedas dentadas · vista 3",
         "sourceName": "DSC_3060.JPG",
         "contentKey": "ARC-009731"
       },
       {
-        "image": "arc-009734",
-        "thumb": "thumb-009734",
+        "image": "gallery-esc-055-view-4-horizontal",
+        "thumb": "thumb-gallery-esc-055-view-4-horizontal",
         "archiveId": "ARC-009734",
         "alt": "Mesa de varillas y ruedas dentadas · vista 4",
         "sourceName": "DSC_3077.JPG",
         "contentKey": "ARC-009734"
       },
       {
-        "image": "arc-009737",
-        "thumb": "thumb-009737",
+        "image": "gallery-esc-055-view-5-horizontal",
+        "thumb": "thumb-gallery-esc-055-view-5-horizontal",
         "archiveId": "ARC-009737",
         "alt": "Mesa de varillas y ruedas dentadas · vista 5",
         "sourceName": "DSC_3087.JPG",
         "contentKey": "ARC-009737"
       },
       {
-        "image": "arc-009713",
-        "thumb": "thumb-009713",
+        "image": "gallery-esc-055-view-6-horizontal",
+        "thumb": "thumb-gallery-esc-055-view-6-horizontal",
         "archiveId": "ARC-009713",
         "alt": "Mesa de varillas y ruedas dentadas · vista 6",
         "sourceName": "2015-12-05 13.46.58.jpg",
         "contentKey": "ARC-009713"
       },
       {
-        "image": "arc-009725",
-        "thumb": "thumb-009725",
+        "image": "gallery-esc-055-view-7-horizontal",
+        "thumb": "thumb-gallery-esc-055-view-7-horizontal",
         "archiveId": "ARC-009725",
         "alt": "Mesa de varillas y ruedas dentadas · vista 7",
         "sourceName": "20151205_134348.jpg",

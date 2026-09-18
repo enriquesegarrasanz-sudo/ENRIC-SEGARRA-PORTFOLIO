@@ -26028,6 +26028,22 @@
     "height": 1536
   },
   {
+    "asset": "assets/gallery-008943-cool-neutral-v2.png",
+    "archivo_id": "ARC-008943",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180321_113852.jpg",
+    "transformacion": "Edición expositiva desde la fotografía original: iluminación uniforme, blancos neutros, limpieza del fondo interior y acabado fotográfico editorial; estructura, esferas, encuadre y perspectiva preservados",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "asset": "assets/gallery-008949-cool-neutral-v2.png",
+    "archivo_id": "ARC-008949",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120136.jpg",
+    "transformacion": "Edición expositiva desde la fotografía original: iluminación uniforme, blancos neutros, limpieza del fondo interior y acabado fotográfico editorial; estructura, esferas, encuadre y perspectiva preservados",
+    "width": 1086,
+    "height": 1448
+  },
+  {
     "asset": "assets/gallery-008954-cool-neutral-v2.png",
     "archivo_id": "ARC-008954",
     "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120243.jpg",
@@ -26298,5 +26314,1429 @@
     "transformacion": "Imagen de portada editorial derivada de la fotografía de archivo: fondo blanco frío-neutro e iluminación difusa; contexto y obra conservados.",
     "width": 1024,
     "height": 1536
+  },
+  {
+    "asset": "assets/gallery-esc-006-view-2-horizontal.webp",
+    "archivo_id": "ARC-008515",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0083.JPG",
+    "transformacion": "Versión horizontal de estudio derivada de la fotografía de archivo mediante edición generativa controlada: fondo neutro profesional, luz de estudio uniforme, encuadre 3:2 y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-006-view-2-horizontal.webp",
+    "archivo_id": "ARC-008515",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0083.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-006-view-3-horizontal.webp",
+    "archivo_id": "ARC-008517",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0085.JPG",
+    "transformacion": "Versión horizontal de estudio derivada de la fotografía de archivo mediante edición generativa controlada: fondo neutro profesional, luz de estudio uniforme, encuadre 3:2 y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-006-view-3-horizontal.webp",
+    "archivo_id": "ARC-008517",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0085.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-007-view-2-horizontal.webp",
+    "archivo_id": "ARC-008552",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\TORSO1.TIF",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del entorno; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-007-view-2-horizontal.webp",
+    "archivo_id": "ARC-008552",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\TORSO1.TIF",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-008-view-2-horizontal.webp",
+    "archivo_id": "ARC-014512",
+    "original": "ESCULTURA\\_DSC3667.ARW",
+    "transformacion": "Versión horizontal de estudio derivada de la fotografía de archivo mediante edición generativa controlada: fondo neutro profesional, luz de estudio uniforme, encuadre 3:2 y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-008-view-2-horizontal.webp",
+    "archivo_id": "ARC-014512",
+    "original": "ESCULTURA\\_DSC3667.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-008-view-3-horizontal.webp",
+    "archivo_id": "ARC-014514",
+    "original": "ESCULTURA\\_DSC3669.ARW",
+    "transformacion": "Versión horizontal de estudio derivada de la fotografía de archivo mediante edición generativa controlada: fondo neutro profesional, luz de estudio uniforme, encuadre 3:2 y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-008-view-3-horizontal.webp",
+    "archivo_id": "ARC-014514",
+    "original": "ESCULTURA\\_DSC3669.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-009-view-2-horizontal.webp",
+    "archivo_id": "ARC-014519",
+    "original": "ESCULTURA\\_DSC3674.ARW",
+    "transformacion": "Versión horizontal de estudio derivada de la fotografía de archivo mediante edición generativa controlada: fondo neutro profesional, luz de estudio uniforme, encuadre 3:2 y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-009-view-2-horizontal.webp",
+    "archivo_id": "ARC-014519",
+    "original": "ESCULTURA\\_DSC3674.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-009-view-3-horizontal.webp",
+    "archivo_id": "ARC-014522",
+    "original": "ESCULTURA\\_DSC3677.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-009-view-3-horizontal.webp",
+    "archivo_id": "ARC-014522",
+    "original": "ESCULTURA\\_DSC3677.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-010-view-2-horizontal.webp",
+    "archivo_id": "ARC-014525",
+    "original": "ESCULTURA\\_DSC3680.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-010-view-2-horizontal.webp",
+    "archivo_id": "ARC-014525",
+    "original": "ESCULTURA\\_DSC3680.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-010-view-3-horizontal.webp",
+    "archivo_id": "ARC-014527",
+    "original": "ESCULTURA\\_DSC3682.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-010-view-3-horizontal.webp",
+    "archivo_id": "ARC-014527",
+    "original": "ESCULTURA\\_DSC3682.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-011-view-2-horizontal.webp",
+    "archivo_id": "ARC-014530",
+    "original": "ESCULTURA\\_DSC3685.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-011-view-2-horizontal.webp",
+    "archivo_id": "ARC-014530",
+    "original": "ESCULTURA\\_DSC3685.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-011-view-3-horizontal.webp",
+    "archivo_id": "ARC-014532",
+    "original": "ESCULTURA\\_DSC3687.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-011-view-3-horizontal.webp",
+    "archivo_id": "ARC-014532",
+    "original": "ESCULTURA\\_DSC3687.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-012-view-2-horizontal.webp",
+    "archivo_id": "ARC-014536",
+    "original": "ESCULTURA\\_DSC3691.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-012-view-2-horizontal.webp",
+    "archivo_id": "ARC-014536",
+    "original": "ESCULTURA\\_DSC3691.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-012-view-3-horizontal.webp",
+    "archivo_id": "ARC-014539",
+    "original": "ESCULTURA\\_DSC3695.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-012-view-3-horizontal.webp",
+    "archivo_id": "ARC-014539",
+    "original": "ESCULTURA\\_DSC3695.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-012-view-4-horizontal.webp",
+    "archivo_id": "ARC-008541",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1048.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-012-view-4-horizontal.webp",
+    "archivo_id": "ARC-008541",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1048.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-013-view-2-horizontal.webp",
+    "archivo_id": "ARC-014543",
+    "original": "ESCULTURA\\_DSC3699.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del entorno de estudio; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-013-view-2-horizontal.webp",
+    "archivo_id": "ARC-014543",
+    "original": "ESCULTURA\\_DSC3699.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-013-view-3-horizontal.webp",
+    "archivo_id": "ARC-014546",
+    "original": "ESCULTURA\\_DSC3702.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del entorno de estudio; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-013-view-3-horizontal.webp",
+    "archivo_id": "ARC-014546",
+    "original": "ESCULTURA\\_DSC3702.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-014-view-2-horizontal.webp",
+    "archivo_id": "ARC-014549",
+    "original": "ESCULTURA\\_DSC3705.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del entorno de estudio; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-014-view-2-horizontal.webp",
+    "archivo_id": "ARC-014549",
+    "original": "ESCULTURA\\_DSC3705.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-014-view-3-horizontal.webp",
+    "archivo_id": "ARC-014551",
+    "original": "ESCULTURA\\_DSC3707.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del entorno de estudio; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-014-view-3-horizontal.webp",
+    "archivo_id": "ARC-014551",
+    "original": "ESCULTURA\\_DSC3707.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-015-view-2-horizontal.webp",
+    "archivo_id": "ARC-014555",
+    "original": "ESCULTURA\\_DSC3711.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-015-view-2-horizontal.webp",
+    "archivo_id": "ARC-014555",
+    "original": "ESCULTURA\\_DSC3711.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-015-view-3-horizontal.webp",
+    "archivo_id": "ARC-014558",
+    "original": "ESCULTURA\\_DSC3714.ARW",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del entorno; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-015-view-3-horizontal.webp",
+    "archivo_id": "ARC-014558",
+    "original": "ESCULTURA\\_DSC3714.ARW",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-018-view-2-horizontal.webp",
+    "archivo_id": "ARC-007764",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04047.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-018-view-2-horizontal.webp",
+    "archivo_id": "ARC-007764",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA\\DSC04047.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-018-view-3-horizontal.webp",
+    "archivo_id": "ARC-009178",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113740.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-018-view-3-horizontal.webp",
+    "archivo_id": "ARC-009178",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\EXPO PALACIO COLOMINA CEU\\IMG_20180321_113740.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-031-view-2-horizontal.webp",
+    "archivo_id": "ARC-008512",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0076.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-031-view-2-horizontal.webp",
+    "archivo_id": "ARC-008512",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\DSCF0076.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-031-view-3-horizontal.webp",
+    "archivo_id": "ARC-007147",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193648.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-031-view-3-horizontal.webp",
+    "archivo_id": "ARC-007147",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193648.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-034-view-2-horizontal.webp",
+    "archivo_id": "ARC-008531",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1038.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-034-view-2-horizontal.webp",
+    "archivo_id": "ARC-008531",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1038.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-035-view-2-horizontal.webp",
+    "archivo_id": "ARC-008534",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1041.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-035-view-2-horizontal.webp",
+    "archivo_id": "ARC-008534",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1041.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-036-view-2-horizontal.webp",
+    "archivo_id": "ARC-008537",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1044.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-036-view-2-horizontal.webp",
+    "archivo_id": "ARC-008537",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1044.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-037-view-2-horizontal.webp",
+    "archivo_id": "ARC-008544",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1051.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-037-view-2-horizontal.webp",
+    "archivo_id": "ARC-008544",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\DRAGONIANS CINC FOTOS CASA DEL LIBRO\\SARC 2008\\Nueva carpeta\\ESCULTURAS ENRIC SEGARRA\\ESCULTURAS\\PICT1051.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-038-view-2-horizontal.webp",
+    "archivo_id": "ARC-008777",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2725.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-038-view-2-horizontal.webp",
+    "archivo_id": "ARC-008777",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2725.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-039-view-2-horizontal.webp",
+    "archivo_id": "ARC-008792",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2872.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-039-view-2-horizontal.webp",
+    "archivo_id": "ARC-008792",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2872.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-039-view-3-horizontal.webp",
+    "archivo_id": "ARC-008803",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2907.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-039-view-3-horizontal.webp",
+    "archivo_id": "ARC-008803",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2907.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-039-view-4-horizontal.webp",
+    "archivo_id": "ARC-008807",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2927.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-039-view-4-horizontal.webp",
+    "archivo_id": "ARC-008807",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2927.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-040-view-2-horizontal.webp",
+    "archivo_id": "ARC-008812",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2952.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-040-view-2-horizontal.webp",
+    "archivo_id": "ARC-008812",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2952.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-040-view-3-horizontal.webp",
+    "archivo_id": "ARC-008814",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2965.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-040-view-3-horizontal.webp",
+    "archivo_id": "ARC-008814",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2965.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-041-view-2-horizontal.webp",
+    "archivo_id": "ARC-008816",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2981.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-041-view-2-horizontal.webp",
+    "archivo_id": "ARC-008816",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_2981.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-041-view-3-horizontal.webp",
+    "archivo_id": "ARC-008825",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3017.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-041-view-3-horizontal.webp",
+    "archivo_id": "ARC-008825",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3017.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-041-view-4-horizontal.webp",
+    "archivo_id": "ARC-008829",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3049.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-041-view-4-horizontal.webp",
+    "archivo_id": "ARC-008829",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3049.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-042-view-2-horizontal.webp",
+    "archivo_id": "ARC-008909",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04226.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-042-view-2-horizontal.webp",
+    "archivo_id": "ARC-008909",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\DSC04226.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-043-view-2-horizontal.webp",
+    "archivo_id": "ARC-011832",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04194.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-043-view-2-horizontal.webp",
+    "archivo_id": "ARC-011832",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04194.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-043-view-3-horizontal.webp",
+    "archivo_id": "ARC-011834",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04196.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-043-view-3-horizontal.webp",
+    "archivo_id": "ARC-011834",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04196.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-043-view-4-horizontal.webp",
+    "archivo_id": "ARC-011838",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04200.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-043-view-4-horizontal.webp",
+    "archivo_id": "ARC-011838",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\RODAMENT EN MOVIMENT\\DSC04200.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-044-view-2-horizontal.webp",
+    "archivo_id": "ARC-007137",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193228.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-044-view-2-horizontal.webp",
+    "archivo_id": "ARC-007137",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193228.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-044-view-3-horizontal.webp",
+    "archivo_id": "ARC-007141",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193339.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-044-view-3-horizontal.webp",
+    "archivo_id": "ARC-007141",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_193339.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-045-view-2-horizontal.webp",
+    "archivo_id": "ARC-007161",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194049.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-045-view-2-horizontal.webp",
+    "archivo_id": "ARC-007161",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ARTE-NATURA land art\\20160529_194049.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-046-view-2-horizontal.webp",
+    "archivo_id": "ARC-008731",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094014.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-046-view-2-horizontal.webp",
+    "archivo_id": "ARC-008731",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094014.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-046-view-3-horizontal.webp",
+    "archivo_id": "ARC-008738",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094301.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-046-view-3-horizontal.webp",
+    "archivo_id": "ARC-008738",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\20160131_094301.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-046-view-4-horizontal.webp",
+    "archivo_id": "ARC-008831",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3137.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-046-view-4-horizontal.webp",
+    "archivo_id": "ARC-008831",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA 2\\DSC_3137.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-047-view-2-horizontal.webp",
+    "archivo_id": "ARC-014960",
+    "original": "NATURALEZA MOBILES\\IMG20260603195042.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-047-view-2-horizontal.webp",
+    "archivo_id": "ARC-014960",
+    "original": "NATURALEZA MOBILES\\IMG20260603195042.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-047-view-3-horizontal.webp",
+    "archivo_id": "ARC-014961",
+    "original": "NATURALEZA MOBILES\\IMG20260604193930.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-047-view-3-horizontal.webp",
+    "archivo_id": "ARC-014961",
+    "original": "NATURALEZA MOBILES\\IMG20260604193930.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-047-view-4-horizontal.webp",
+    "archivo_id": "ARC-014963",
+    "original": "NATURALEZA MOBILES\\IMG20260604193948.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-047-view-4-horizontal.webp",
+    "archivo_id": "ARC-014963",
+    "original": "NATURALEZA MOBILES\\IMG20260604193948.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-047-view-5-horizontal.webp",
+    "archivo_id": "ARC-014965",
+    "original": "NATURALEZA MOBILES\\IMG20260604194013.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-047-view-5-horizontal.webp",
+    "archivo_id": "ARC-014965",
+    "original": "NATURALEZA MOBILES\\IMG20260604194013.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-047-view-6-horizontal.webp",
+    "archivo_id": "ARC-014966",
+    "original": "NATURALEZA MOBILES\\IMG20260604194013~2.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-047-view-6-horizontal.webp",
+    "archivo_id": "ARC-014966",
+    "original": "NATURALEZA MOBILES\\IMG20260604194013~2.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-047-view-7-horizontal.webp",
+    "archivo_id": "ARC-014989",
+    "original": "NATURALEZA MOBILES\\IMG20260804200417.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-047-view-7-horizontal.webp",
+    "archivo_id": "ARC-014989",
+    "original": "NATURALEZA MOBILES\\IMG20260804200417.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-047-view-8-horizontal.webp",
+    "archivo_id": "ARC-014991",
+    "original": "NATURALEZA MOBILES\\IMG20260804200510.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-047-view-8-horizontal.webp",
+    "archivo_id": "ARC-014991",
+    "original": "NATURALEZA MOBILES\\IMG20260804200510.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-048-view-2-horizontal.webp",
+    "archivo_id": "ARC-014970",
+    "original": "NATURALEZA MOBILES\\IMG20260624210545.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-048-view-2-horizontal.webp",
+    "archivo_id": "ARC-014970",
+    "original": "NATURALEZA MOBILES\\IMG20260624210545.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-049-view-2-horizontal.webp",
+    "archivo_id": "ARC-014969",
+    "original": "NATURALEZA MOBILES\\IMG20260624210506_BURST001_COVER.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-049-view-2-horizontal.webp",
+    "archivo_id": "ARC-014969",
+    "original": "NATURALEZA MOBILES\\IMG20260624210506_BURST001_COVER.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-049-view-3-horizontal.webp",
+    "archivo_id": "ARC-014972",
+    "original": "NATURALEZA MOBILES\\IMG20260629212820.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-049-view-3-horizontal.webp",
+    "archivo_id": "ARC-014972",
+    "original": "NATURALEZA MOBILES\\IMG20260629212820.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-049-view-4-horizontal.webp",
+    "archivo_id": "ARC-014974",
+    "original": "NATURALEZA MOBILES\\IMG20260629212955.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-049-view-4-horizontal.webp",
+    "archivo_id": "ARC-014974",
+    "original": "NATURALEZA MOBILES\\IMG20260629212955.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-049-view-5-horizontal.webp",
+    "archivo_id": "ARC-014990",
+    "original": "NATURALEZA MOBILES\\IMG20260804200454.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-049-view-5-horizontal.webp",
+    "archivo_id": "ARC-014990",
+    "original": "NATURALEZA MOBILES\\IMG20260804200454.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-049-view-6-horizontal.webp",
+    "archivo_id": "ARC-014995",
+    "original": "NATURALEZA MOBILES\\IMG20260804200727.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-049-view-6-horizontal.webp",
+    "archivo_id": "ARC-014995",
+    "original": "NATURALEZA MOBILES\\IMG20260804200727.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-049-view-7-horizontal.webp",
+    "archivo_id": "ARC-014996",
+    "original": "NATURALEZA MOBILES\\IMG20260804200738.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-049-view-7-horizontal.webp",
+    "archivo_id": "ARC-014996",
+    "original": "NATURALEZA MOBILES\\IMG20260804200738.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-2-horizontal.webp",
+    "archivo_id": "ARC-014979",
+    "original": "NATURALEZA MOBILES\\IMG20260727205646.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-2-horizontal.webp",
+    "archivo_id": "ARC-014979",
+    "original": "NATURALEZA MOBILES\\IMG20260727205646.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-3-horizontal.webp",
+    "archivo_id": "ARC-014980",
+    "original": "NATURALEZA MOBILES\\IMG20260728205357.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-3-horizontal.webp",
+    "archivo_id": "ARC-014980",
+    "original": "NATURALEZA MOBILES\\IMG20260728205357.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-4-horizontal.webp",
+    "archivo_id": "ARC-014981",
+    "original": "NATURALEZA MOBILES\\IMG20260728205409.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-4-horizontal.webp",
+    "archivo_id": "ARC-014981",
+    "original": "NATURALEZA MOBILES\\IMG20260728205409.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-5-horizontal.webp",
+    "archivo_id": "ARC-014982",
+    "original": "NATURALEZA MOBILES\\IMG20260728205423~2.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-5-horizontal.webp",
+    "archivo_id": "ARC-014982",
+    "original": "NATURALEZA MOBILES\\IMG20260728205423~2.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-6-horizontal.webp",
+    "archivo_id": "ARC-014983",
+    "original": "NATURALEZA MOBILES\\IMG20260728205507.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-6-horizontal.webp",
+    "archivo_id": "ARC-014983",
+    "original": "NATURALEZA MOBILES\\IMG20260728205507.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-7-horizontal.webp",
+    "archivo_id": "ARC-014984",
+    "original": "NATURALEZA MOBILES\\IMG20260728205507~2.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-7-horizontal.webp",
+    "archivo_id": "ARC-014984",
+    "original": "NATURALEZA MOBILES\\IMG20260728205507~2.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-8-horizontal.webp",
+    "archivo_id": "ARC-014985",
+    "original": "NATURALEZA MOBILES\\IMG20260728205519.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-8-horizontal.webp",
+    "archivo_id": "ARC-014985",
+    "original": "NATURALEZA MOBILES\\IMG20260728205519.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-9-horizontal.webp",
+    "archivo_id": "ARC-014997",
+    "original": "NATURALEZA MOBILES\\IMG20260804201122.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-9-horizontal.webp",
+    "archivo_id": "ARC-014997",
+    "original": "NATURALEZA MOBILES\\IMG20260804201122.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-10-horizontal.webp",
+    "archivo_id": "ARC-014998",
+    "original": "NATURALEZA MOBILES\\IMG20260804201207.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-10-horizontal.webp",
+    "archivo_id": "ARC-014998",
+    "original": "NATURALEZA MOBILES\\IMG20260804201207.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-050-view-11-horizontal.webp",
+    "archivo_id": "ARC-014999",
+    "original": "NATURALEZA MOBILES\\IMG20260804201207~2.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-050-view-11-horizontal.webp",
+    "archivo_id": "ARC-014999",
+    "original": "NATURALEZA MOBILES\\IMG20260804201207~2.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-051-view-2-horizontal.webp",
+    "archivo_id": "ARC-015033",
+    "original": "NATURALEZA MOBILES\\IMG20260825120912~2.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-051-view-2-horizontal.webp",
+    "archivo_id": "ARC-015033",
+    "original": "NATURALEZA MOBILES\\IMG20260825120912~2.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-052-view-2-horizontal.webp",
+    "archivo_id": "ARC-015077",
+    "original": "NATURALEZA MOBILES\\IMG_20241122_164000.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-052-view-2-horizontal.webp",
+    "archivo_id": "ARC-015077",
+    "original": "NATURALEZA MOBILES\\IMG_20241122_164000.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-053-view-2-horizontal.webp",
+    "archivo_id": "ARC-008658",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\007_5.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del muro y la peana; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-053-view-2-horizontal.webp",
+    "archivo_id": "ARC-008658",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\007_5.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-053-view-3-horizontal.webp",
+    "archivo_id": "ARC-008660",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\009_7.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del muro y la peana; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-053-view-3-horizontal.webp",
+    "archivo_id": "ARC-008660",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\009_7.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-053-view-4-horizontal.webp",
+    "archivo_id": "ARC-008661",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\010_8.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del muro y la peana; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-053-view-4-horizontal.webp",
+    "archivo_id": "ARC-008661",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\010_8.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-053-view-5-horizontal.webp",
+    "archivo_id": "ARC-008662",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\011_9.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo mediante extensión generativa controlada del muro y la peana; encuadre 3:2 y escultura completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-053-view-5-horizontal.webp",
+    "archivo_id": "ARC-008662",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\011_9.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-054-view-2-horizontal.webp",
+    "archivo_id": "ARC-008706",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA2.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-054-view-2-horizontal.webp",
+    "archivo_id": "ARC-008706",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA2.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-054-view-3-horizontal.webp",
+    "archivo_id": "ARC-008708",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA3.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-054-view-3-horizontal.webp",
+    "archivo_id": "ARC-008708",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA3.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-054-view-4-horizontal.webp",
+    "archivo_id": "ARC-008710",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA4.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-054-view-4-horizontal.webp",
+    "archivo_id": "ARC-008710",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\SERIE_AGUA4.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-054-view-5-horizontal.webp",
+    "archivo_id": "ARC-008663",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\024_22.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-054-view-5-horizontal.webp",
+    "archivo_id": "ARC-008663",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\024_22.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-054-view-6-horizontal.webp",
+    "archivo_id": "ARC-008664",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\025_23.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-054-view-6-horizontal.webp",
+    "archivo_id": "ARC-008664",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\025_23.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-054-view-7-horizontal.webp",
+    "archivo_id": "ARC-008665",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\026_24.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-054-view-7-horizontal.webp",
+    "archivo_id": "ARC-008665",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ENRIC SEGARRA ESCULTURES\\026_24.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-055-view-2-horizontal.webp",
+    "archivo_id": "ARC-009730",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3057.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-055-view-2-horizontal.webp",
+    "archivo_id": "ARC-009730",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3057.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-055-view-3-horizontal.webp",
+    "archivo_id": "ARC-009731",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3060.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-055-view-3-horizontal.webp",
+    "archivo_id": "ARC-009731",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3060.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-055-view-4-horizontal.webp",
+    "archivo_id": "ARC-009734",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3077.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-055-view-4-horizontal.webp",
+    "archivo_id": "ARC-009734",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3077.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-055-view-5-horizontal.webp",
+    "archivo_id": "ARC-009737",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3087.JPG",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-055-view-5-horizontal.webp",
+    "archivo_id": "ARC-009737",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\DSC_3087.JPG",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-055-view-6-horizontal.webp",
+    "archivo_id": "ARC-009713",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\2015-12-05 13.46.58.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-055-view-6-horizontal.webp",
+    "archivo_id": "ARC-009713",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\2015-12-05 13.46.58.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "asset": "assets/gallery-esc-055-view-7-horizontal.webp",
+    "archivo_id": "ARC-009725",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\20151205_134348.jpg",
+    "transformacion": "Versión horizontal de presentación derivada de la fotografía de archivo: encuadre 3:2, entorno extendido de forma no destructiva a partir de los bordes de la toma y obra completa preservada.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/thumb-gallery-esc-055-view-7-horizontal.webp",
+    "archivo_id": "ARC-009725",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\Mesa Escultura\\20151205_134348.jpg",
+    "transformacion": "Miniatura horizontal de la versión de presentación; obra y encuadre documental completos preservados.",
+    "width": 768,
+    "height": 512
   }
 ]

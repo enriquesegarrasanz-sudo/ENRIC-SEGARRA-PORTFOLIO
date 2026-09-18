@@ -1,5 +1,10 @@
 # Estado de la versión 0.4.0
 
+## Escultura · ampliación de vistas secundarias · 18 de septiembre de 2026
+
+- Se incorporan 89 vistas secundarias de presentación y sus miniaturas en 34 fichas de escultura. La ficha conserva tanto sus referencias ARC como la procedencia de cada versión; los originales no se reemplazan.
+- La comprobación de publicación confirma que el catálogo apunta a recursos públicos existentes y que el material privado de revisión permanece excluido de Git.
+
 ## Móviles · selección de vistas · 18 de septiembre de 2026
 
 - MOV-024 y MOV-026 muestran dos perspectivas: la presentación de estudio como imagen principal y una única instalación en vegetación. Las variantes adicionales se retiran de las fichas públicas, sin alterar los originales ni sus referencias archivísticas.

@@ -1,5 +1,10 @@
 # Historial de cambios
 
+## Escultura · vistas secundarias normalizadas — 2026-09-18
+
+- Se incorporan 89 vistas secundarias y sus miniaturas para 34 fichas de escultura, con formato de presentación horizontal y sin sustituir los originales documentales.
+- Cada recurso mantiene su referencia ARC, su archivo de origen y la trazabilidad de la transformación en el registro de procedencia.
+
 ## Móviles · dos vistas seleccionadas · 2026-09-18
 
 - MOV-024 («Curvas azules y verdes») y MOV-026 («Arco rojo y discos azules») abren y amplían su presentación de estudio.
