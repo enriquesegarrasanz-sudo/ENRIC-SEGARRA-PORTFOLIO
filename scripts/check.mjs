@@ -10,6 +10,8 @@ import {
 } from "../dist/content.js";
 import { readings, educationSections } from "../dist/education.js";
 const root = new URL("../", import.meta.url);
+const assetFile = (name) =>
+  `${name}${name.endsWith("-cool-neutral-v2") ? ".png" : ".webp"}`;
 for (const [name, records] of Object.entries({
   works,
   chapters,
@@ -23,7 +25,7 @@ for (const [name, records] of Object.entries({
   );
   for (const record of records)
     if (record.image)
-      await access(new URL(`dist/assets/${record.image}.webp`, root));
+      await access(new URL(`dist/assets/${assetFile(record.image)}`, root));
 }
 const photoOwners = new Map();
 for (const item of [...works, ...albums]) {
@@ -40,7 +42,7 @@ for (const item of [...works, ...albums]) {
   );
   for (const p of item.gallery) {
     for (const name of [p.image, p.thumb])
-      await access(new URL(`dist/assets/${name}.webp`, root));
+      await access(new URL(`dist/assets/${assetFile(name)}`, root));
     assert(
       /^ARC-\d{6}$/.test(p.archiveId) && p.alt && p.sourceName,
       `Foto sin identificar: ${item.id}`,
@@ -132,7 +134,7 @@ for (const item of [...works, ...albums])
   for (const p of item.gallery) {
     for (const name of [p.image, p.thumb])
       assert(
-        manifestNames.has(`assets/${name}.webp`),
+        manifestNames.has(`assets/${assetFile(name)}`),
         `Imagen sin procedencia: ${name}`,
       );
     if (p.sourcePage)

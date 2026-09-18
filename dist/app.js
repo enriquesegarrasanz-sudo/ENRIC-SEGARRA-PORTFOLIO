@@ -5,8 +5,8 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js?v=20260918-escultura-interaccion";
-import { redirects } from "./catalogue.js?v=20260918-escultura-interaccion";
+} from "./content.js?v=20260918-escultura-navegacion-zoom";
+import { redirects } from "./catalogue.js?v=20260918-escultura-navegacion-zoom";
 
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 import {
@@ -36,8 +36,10 @@ const num = (n) => String(n).padStart(2, "0"),
   catName = (id) => categories.find((c) => c.id === id)?.label || id;
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
+const assetExtension = (name) =>
+  name.endsWith("-cool-neutral-v2") ? ".png" : ".webp";
 const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-interaccion`;
+  `${local ? "review" : "assets"}/${encodeURIComponent(name)}${assetExtension(name)}?v=20260918-moviles-blanco-frio`;
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
