@@ -7,6 +7,8 @@ import {
   albumRedirects,
 } from "./content.js?v=20260918-escultura-interaccion";
 import { redirects } from "./catalogue.js?v=20260918-escultura-interaccion";
+
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 import {
   buildPhotoIndex,
   filterPhotos,
@@ -686,9 +688,16 @@ function render({ keepScroll = false } = {}) {
   });
   closeMenu();
   if (!keepScroll) {
-    const resetScroll = () => window.scrollTo(0, 0);
+    const root = document.documentElement,
+      previousScrollBehavior = root.style.scrollBehavior,
+      resetScroll = () =>
+        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    root.style.scrollBehavior = "auto";
     resetScroll();
-    requestAnimationFrame(resetScroll);
+    requestAnimationFrame(() => {
+      resetScroll();
+      root.style.scrollBehavior = previousScrollBehavior;
+    });
     if (routeKey) main.focus({ preventScroll: true });
   }
   routeKey = raw;
