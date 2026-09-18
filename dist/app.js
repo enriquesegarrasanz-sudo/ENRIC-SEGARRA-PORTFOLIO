@@ -208,6 +208,7 @@ function educationPhotoIndex(section, list) {
 
 function workDetail(w) {
   setGallery(w.gallery, w.label);
+  return `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><h1>${esc(w.label)}</h1>${prose([w.text])}<dl><div><dt>Autor</dt><dd>SEGARRA Y GARIBO</dd></div></dl></div></section>`;
   const related = works
     .filter(
       (x) =>

@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Fichas de obra · edición de sala — 2026-09-18
+
+- Las fichas muestran una única lectura editorial: título, descripción visual y autor.
+- Se retiran de la vista pública referencias, disciplina, familia, avisos provisionales, recuentos de fotografías y campos de identificación; se conservan como datos internos.
+- Los títulos y descripciones se rehacen para cada obra a partir de sus formas, colores y motivos visibles.
+
 ## Exposición «Quatre» · portada documental — 2026-09-18
 
 - Se retira la fotografía vertical que abría el álbum y se coloca como portada la vista de sala `ARC-009286`, con las obras de la exposición.
