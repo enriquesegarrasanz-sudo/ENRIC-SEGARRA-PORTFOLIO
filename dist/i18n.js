@@ -1,4 +1,4 @@
-import { contentTranslations } from "./content-translations.js";
+import { contentTranslations } from "./content-translations.js?v=20260918-i18n-content-fix";
 
 const STORAGE_KEY = "segarra-language";
 const originalText = new WeakMap();
@@ -130,6 +130,8 @@ const copy = {
   "No hay imágenes con esos filtros.": ["No hi ha imatges amb aquests filtres.", "No images match those filters.", "Aucune image ne correspond à ces filtres.", "没有符合这些筛选条件的图像。"],
   "Tipo de exposición": ["Tipus d’exposició", "Exhibition type", "Type d’exposition", "展览类型"],
   "Encuentros con el público": ["Trobades amb el públic", "Encounters with the public", "Rencontres avec le public", "与公众相遇"],
+  "La obra en las salas y la memoria de los encuentros. Montajes, vistas del espacio y documentos, organizados por el contexto de cada exposición.": ["L’obra a les sales i la memòria de les trobades. Muntatges, vistes de l’espai i documents, organitzats pel context de cada exposició.", "Works in exhibition spaces and the record of these encounters. Installations, views of the space and documents, organised by the context of each exhibition.", "L’œuvre dans les salles et la mémoire des rencontres. Installations, vues de l’espace et documents, organisés selon le contexte de chaque exposition.", "展厅中的作品与相遇的记忆。布展、空间视图和文献资料，均按每场展览的背景整理。"],
+  "Ver todas las fotografías": ["Veure totes les fotografies", "View all photographs", "Voir toutes les photographies", "查看所有照片"],
   "Buscar exposición, lugar o año": ["Cerca exposició, lloc o any", "Search exhibition, place or year", "Rechercher une exposition, un lieu ou une année", "搜索展览、地点或年份"],
   "Buscar exposición": ["Cerca exposició", "Search exhibition", "Rechercher une exposition", "搜索展览"],
   "Mosaico": ["Mosaic", "Mosaic", "Mosaïque", "拼贴"],
@@ -218,7 +220,8 @@ function translateText(value) {
   const trailing = value.match(/\s*$/)?.[0] || "";
   const clean = value.trim();
   if (!clean) return value;
-  if (copy[clean]) return leading + phrase(clean) + trailing;
+  if (copy[clean] || contentTranslations[clean])
+    return leading + phrase(clean) + trailing;
   for (const [pattern, render] of dynamic) {
     const match = clean.match(pattern);
     if (match) return leading + render(...match.slice(1)) + trailing;
@@ -235,7 +238,8 @@ function translateAttribute(element, name) {
   if (!attributes.has(name)) attributes.set(name, element.getAttribute(name));
   const value = attributes.get(name);
   if (!value) return;
-  if (copy[value]) element.setAttribute(name, phrase(value));
+  if (copy[value] || contentTranslations[value])
+    element.setAttribute(name, phrase(value));
   else if (name === "placeholder") element.setAttribute(name, translateText(value));
 }
 
