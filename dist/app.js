@@ -994,6 +994,9 @@ const replaceArtistName = () => {
   while (walker.nextNode()) {
     walker.currentNode.nodeValue = walker.currentNode.nodeValue.replaceAll("ENRIQUE SEGARRA I GARIBO", artistName);
   }
+  document.querySelectorAll(".home-carousel-intro h1").forEach((heading) => {
+    heading.innerHTML = "ENRIC SEGARRA<br>I GARIBO";
+  });
 };
 replaceArtistName();
 new MutationObserver(replaceArtistName).observe(document.body, { childList: true, subtree: true });
