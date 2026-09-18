@@ -632,9 +632,9 @@ function render({ keepScroll = false } = {}) {
       html = w ? workDetail(w) : notFound();
       title = w?.label;
     }
-  } else if (section === "imagenes") {
-    html = imageArchive(params);
-    title = "Archivo visual";
+  } else if (section === "imagenes" || section === "memoria") {
+    html = notFound();
+    title = "Página no encontrada";
   } else if (section === "arte-infantil") {
     html = education(params);
     title = "Arte infantil";
