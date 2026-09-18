@@ -51,7 +51,7 @@ export const albums = [
     place: "Sala d’Exposicions de les Belles Arts · Valencia",
     searchTerms: "Bellas Artes Valencia",
     source:
-      "Reunión de los fondos «Exposición Arte Infantil», «Expo Galería d’art» y «dibujos y pinturas ENRIQUE SEGARRA I GARIBO». La invitación ARC-013418 documenta el título, la sede y las fechas de «Evolución 1984–2004».",
+      "Reunión de los fondos «Exposición Arte Infantil», «Expo Galería d’art» y «dibujos y pinturas ENRIC SEGARRA I GARIBO». La invitación ARC-013418 documenta el título, la sede y las fechas de «Evolución 1984–2004».",
   },
 ];
 export const albumRedirects = {

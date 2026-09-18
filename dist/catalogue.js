@@ -2388,7 +2388,7 @@ export const catalogue = [
     "image": "arc-015079",
     "thumb": "arc-015079",
     "alt": "Signos rojos en recorrido",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015079",
@@ -2410,7 +2410,7 @@ export const catalogue = [
     "image": "arc-015080",
     "thumb": "arc-015080",
     "alt": "Planos de color rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015080",
@@ -2432,7 +2432,7 @@ export const catalogue = [
     "image": "arc-015081",
     "thumb": "arc-015081",
     "alt": "Estudio de formas en rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015081",
@@ -2454,7 +2454,7 @@ export const catalogue = [
     "image": "arc-015082",
     "thumb": "arc-015082",
     "alt": "Planos de sombra cálida",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015082",
@@ -2476,7 +2476,7 @@ export const catalogue = [
     "image": "arc-015083",
     "thumb": "arc-015083",
     "alt": "Líneas y planos en naranja",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015083",
@@ -2498,7 +2498,7 @@ export const catalogue = [
     "image": "arc-015084",
     "thumb": "arc-015084",
     "alt": "Formas rojas y centro circular",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015084",
@@ -2520,7 +2520,7 @@ export const catalogue = [
     "image": "arc-015085",
     "thumb": "arc-015085",
     "alt": "Formas en negro y ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015085",
@@ -2542,7 +2542,7 @@ export const catalogue = [
     "image": "arc-015086",
     "thumb": "arc-015086",
     "alt": "Ritmos de color rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015086",
@@ -2564,7 +2564,7 @@ export const catalogue = [
     "image": "arc-015087",
     "thumb": "arc-015087",
     "alt": "Trazos azules sobre ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015087",
@@ -2586,7 +2586,7 @@ export const catalogue = [
     "image": "arc-015088",
     "thumb": "arc-015088",
     "alt": "Líneas azules y amarillas",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015088",
@@ -2608,7 +2608,7 @@ export const catalogue = [
     "image": "arc-015089",
     "thumb": "arc-015089",
     "alt": "Composición sobre fondo ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015089",
@@ -2630,7 +2630,7 @@ export const catalogue = [
     "image": "arc-015090",
     "thumb": "arc-015090",
     "alt": "Composición verde sobre ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015090",
@@ -2652,7 +2652,7 @@ export const catalogue = [
     "image": "arc-015091",
     "thumb": "arc-015091",
     "alt": "Trazos sobre fondo rosa",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015091",
@@ -2674,7 +2674,7 @@ export const catalogue = [
     "image": "arc-015092",
     "thumb": "arc-015092",
     "alt": "Líneas curvas rojas",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015092",
@@ -2696,7 +2696,7 @@ export const catalogue = [
     "image": "arc-015093",
     "thumb": "arc-015093",
     "alt": "Trazos verdes y naranjas",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015093",
@@ -2726,7 +2726,7 @@ export const catalogue = [
     "image": "arc-015094",
     "thumb": "arc-015094",
     "alt": "Pequeña composición de símbolos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015094",
@@ -2748,7 +2748,7 @@ export const catalogue = [
     "image": "arc-015095",
     "thumb": "arc-015095",
     "alt": "Pequeña composición enmarcada",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015095",
@@ -2770,7 +2770,7 @@ export const catalogue = [
     "image": "arc-015096",
     "thumb": "arc-015096",
     "alt": "Dos figuras en rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015096",
@@ -2816,7 +2816,7 @@ export const catalogue = [
     "image": "arc-015098",
     "thumb": "arc-015098",
     "alt": "Planos azules, verdes y amarillos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015098",
@@ -2846,7 +2846,7 @@ export const catalogue = [
     "image": "arc-015099",
     "thumb": "arc-015099",
     "alt": "Estudio de formas en negro",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015099",
@@ -2876,7 +2876,7 @@ export const catalogue = [
     "image": "arc-015102",
     "thumb": "arc-015102",
     "alt": "Planos negros y rojos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015102",
@@ -2914,7 +2914,7 @@ export const catalogue = [
     "image": "arc-015103",
     "thumb": "arc-015103",
     "alt": "Figura de líneas negras",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015103",
@@ -2936,7 +2936,7 @@ export const catalogue = [
     "image": "arc-015105",
     "thumb": "arc-015105",
     "alt": "Planos de color violeta",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015105",
@@ -2958,7 +2958,7 @@ export const catalogue = [
     "image": "arc-015172",
     "thumb": "arc-015172",
     "alt": "Formas abiertas en azul y amarillo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015172",
@@ -2996,7 +2996,7 @@ export const catalogue = [
     "image": "arc-015173",
     "thumb": "arc-015173",
     "alt": "Curvas y planos cálidos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015173",
@@ -3018,7 +3018,7 @@ export const catalogue = [
     "image": "arc-015176",
     "thumb": "arc-015176",
     "alt": "Ritmos de color carmín",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015176",
@@ -3040,7 +3040,7 @@ export const catalogue = [
     "image": "arc-015178",
     "thumb": "arc-015178",
     "alt": "Planos azules suspendidos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015178",
@@ -3062,7 +3062,7 @@ export const catalogue = [
     "image": "arc-015181",
     "thumb": "arc-015181",
     "alt": "Líneas de color ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015181",
@@ -3084,7 +3084,7 @@ export const catalogue = [
     "image": "arc-015182",
     "thumb": "arc-015182",
     "alt": "Espacio de líneas verdes",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015182",
@@ -3106,7 +3106,7 @@ export const catalogue = [
     "image": "arc-015183",
     "thumb": "arc-015183",
     "alt": "Trazos oscuros y acentos de color",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015183",
@@ -3128,7 +3128,7 @@ export const catalogue = [
     "image": "arc-015185",
     "thumb": "arc-015185",
     "alt": "Símbolos sobre fondo amarillo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015185",
@@ -3150,7 +3150,7 @@ export const catalogue = [
     "image": "arc-015186",
     "thumb": "arc-015186",
     "alt": "Figura con forma de sol",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015186",
@@ -3172,7 +3172,7 @@ export const catalogue = [
     "image": "arc-015187",
     "thumb": "arc-015187",
     "alt": "Figuras y planos enmarcados",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015187",
@@ -3194,7 +3194,7 @@ export const catalogue = [
     "image": "arc-008527",
     "thumb": "arc-008527",
     "alt": "Líneas azules y acentos amarillos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-008527",
@@ -3232,7 +3232,7 @@ export const catalogue = [
     "image": "arc-008528",
     "thumb": "arc-008528",
     "alt": "Figuras de líneas negras",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-008528",
@@ -3278,7 +3278,7 @@ export const catalogue = [
     "image": "arc-015106-studio-v2",
     "thumb": "arc-015106-studio-v2",
     "alt": "Arca en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015106-studio-v2",
@@ -3300,7 +3300,7 @@ export const catalogue = [
     "image": "arc-015107-studio-v2",
     "thumb": "arc-015107-studio-v2",
     "alt": "Sol en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015107-studio-v2",
@@ -3322,7 +3322,7 @@ export const catalogue = [
     "image": "arc-015108-studio-v2",
     "thumb": "arc-015108-studio-v2",
     "alt": "Arca sobre fondo oscuro",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015108-studio-v2",
@@ -3344,7 +3344,7 @@ export const catalogue = [
     "image": "arc-015109-studio-v2",
     "thumb": "arc-015109-studio-v2",
     "alt": "Ojo en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015109-studio-v2",
@@ -3366,7 +3366,7 @@ export const catalogue = [
     "image": "arc-015110-studio-v2",
     "thumb": "arc-015110-studio-v2",
     "alt": "Arca y cielo claro",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015110-studio-v2",
@@ -3388,7 +3388,7 @@ export const catalogue = [
     "image": "arc-015111-studio-v2",
     "thumb": "arc-015111-studio-v2",
     "alt": "Símbolos en círculo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015111-studio-v2",
@@ -3410,7 +3410,7 @@ export const catalogue = [
     "image": "arc-015112-studio-v2",
     "thumb": "arc-015112-studio-v2",
     "alt": "Arca sobre fondo azul",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015112-studio-v2",
@@ -3432,7 +3432,7 @@ export const catalogue = [
     "image": "arc-015113-studio-v2",
     "thumb": "arc-015113-studio-v2",
     "alt": "Arca y formas azules",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015113-studio-v2",
@@ -3454,7 +3454,7 @@ export const catalogue = [
     "image": "arc-015114-studio-v2",
     "thumb": "arc-015114-studio-v2",
     "alt": "Arca, luna y sol",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015114-studio-v2",
@@ -3476,7 +3476,7 @@ export const catalogue = [
     "image": "arc-015115-studio-v2",
     "thumb": "arc-015115-studio-v2",
     "alt": "Árbol en círculo violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015115-studio-v2",
@@ -3498,7 +3498,7 @@ export const catalogue = [
     "image": "arc-015118-studio-v2",
     "thumb": "arc-015118-studio-v2",
     "alt": "Arca sobre aguas rosas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015118-studio-v2",
@@ -3520,7 +3520,7 @@ export const catalogue = [
     "image": "arc-015119-studio-v2",
     "thumb": "arc-015119-studio-v2",
     "alt": "Círculo naranja de figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015119-studio-v2",
@@ -3542,7 +3542,7 @@ export const catalogue = [
     "image": "arc-015120-studio-v2",
     "thumb": "arc-015120-studio-v2",
     "alt": "Figuras enlazadas en rosa",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015120-studio-v2",
@@ -3564,7 +3564,7 @@ export const catalogue = [
     "image": "arc-015122-studio-v2",
     "thumb": "arc-015122-studio-v2",
     "alt": "Arca entre el sol y la luna",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015122-studio-v2",
@@ -3586,7 +3586,7 @@ export const catalogue = [
     "image": "arc-015123-studio-v2",
     "thumb": "arc-015123-studio-v2",
     "alt": "Rostro sobre fondo amarillo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015123-studio-v2",
@@ -3608,7 +3608,7 @@ export const catalogue = [
     "image": "arc-015124-studio-v2",
     "thumb": "arc-015124-studio-v2",
     "alt": "Figuras felinas sobre fondo amarillo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "arc-015124-studio-v2",
@@ -3630,7 +3630,7 @@ export const catalogue = [
     "image": "arc-015125-studio-v2",
     "thumb": "arc-015125-studio-v2",
     "alt": "Figuras sobre fondo violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015125-studio-v2",
@@ -3652,7 +3652,7 @@ export const catalogue = [
     "image": "arc-015126-studio-v2",
     "thumb": "arc-015126-studio-v2",
     "alt": "Dos rostros y vegetación",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015126-studio-v2",
@@ -3674,7 +3674,7 @@ export const catalogue = [
     "image": "arc-015127-studio-v2",
     "thumb": "arc-015127-studio-v2",
     "alt": "Figura de gato",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "arc-015127-studio-v2",
@@ -3696,7 +3696,7 @@ export const catalogue = [
     "image": "arc-015128-studio-v2",
     "thumb": "arc-015128-studio-v2",
     "alt": "Cabeza de toro de perfiles claros",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "arc-015128-studio-v2",
@@ -3718,7 +3718,7 @@ export const catalogue = [
     "image": "arc-015129-studio-v2",
     "thumb": "arc-015129-studio-v2",
     "alt": "Cabeza de toro naranja",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "arc-015129-studio-v2",
@@ -3740,7 +3740,7 @@ export const catalogue = [
     "image": "arc-015130-studio-v2",
     "thumb": "arc-015130-studio-v2",
     "alt": "Cabeza de toro de perfil",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "arc-015130-studio-v2",
@@ -3762,7 +3762,7 @@ export const catalogue = [
     "image": "arc-015131-studio-v2",
     "thumb": "arc-015131-studio-v2",
     "alt": "Gato de cuerpo violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "arc-015131-studio-v2",
@@ -3784,7 +3784,7 @@ export const catalogue = [
     "image": "arc-015132-studio-v2",
     "thumb": "arc-015132-studio-v2",
     "alt": "Forma trilobulada",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015132-studio-v2",
@@ -3806,7 +3806,7 @@ export const catalogue = [
     "image": "arc-015133-studio-v2",
     "thumb": "arc-015133-studio-v2",
     "alt": "Figura azul de perfil",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015133-studio-v2",
@@ -3828,7 +3828,7 @@ export const catalogue = [
     "image": "arc-015134-studio-v2",
     "thumb": "arc-015134-studio-v2",
     "alt": "Dos figuras en naranja y violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015134-studio-v2",
@@ -3850,7 +3850,7 @@ export const catalogue = [
     "image": "arc-015135-studio-v2",
     "thumb": "arc-015135-studio-v2",
     "alt": "Rostro de líneas cálidas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015135-studio-v2",
@@ -3872,7 +3872,7 @@ export const catalogue = [
     "image": "arc-015136-studio-v2",
     "thumb": "arc-015136-studio-v2",
     "alt": "Rostro y formas circulares",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015136-studio-v2",
@@ -3894,7 +3894,7 @@ export const catalogue = [
     "image": "arc-015137-studio-v2",
     "thumb": "arc-015137-studio-v2",
     "alt": "Perfil dorado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015137-studio-v2",
@@ -3916,7 +3916,7 @@ export const catalogue = [
     "image": "arc-015138-studio-v2",
     "thumb": "arc-015138-studio-v2",
     "alt": "Figuras en formato alargado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015138-studio-v2",
@@ -3938,7 +3938,7 @@ export const catalogue = [
     "image": "arc-015139-studio-v2",
     "thumb": "arc-015139-studio-v2",
     "alt": "Rostro naranja y mano azul",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015139-studio-v2",
@@ -3960,7 +3960,7 @@ export const catalogue = [
     "image": "arc-015141-studio-v2",
     "thumb": "arc-015141-studio-v2",
     "alt": "Dos figuras de cuerpo verde",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015141-studio-v2",
@@ -3982,7 +3982,7 @@ export const catalogue = [
     "image": "arc-015142-studio-v2",
     "thumb": "arc-015142-studio-v2",
     "alt": "Figura en rosa y ocre",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015142-studio-v2",
@@ -4004,7 +4004,7 @@ export const catalogue = [
     "image": "arc-015143-studio-v2",
     "thumb": "arc-015143-studio-v2",
     "alt": "Rostro naranja y líneas de color",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015143-studio-v2",
@@ -4026,7 +4026,7 @@ export const catalogue = [
     "image": "arc-015145-studio-v2",
     "thumb": "arc-015145-studio-v2",
     "alt": "Rostro con figuras alrededor",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015145-studio-v2",
@@ -4048,7 +4048,7 @@ export const catalogue = [
     "image": "arc-015146-studio-v2",
     "thumb": "arc-015146-studio-v2",
     "alt": "Grupo de gatos de colores",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "arc-015146-studio-v2",
@@ -4070,7 +4070,7 @@ export const catalogue = [
     "image": "arc-015147-studio-v2",
     "thumb": "arc-015147-studio-v2",
     "alt": "Encuentro de figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015147-studio-v2",
@@ -4092,7 +4092,7 @@ export const catalogue = [
     "image": "arc-015148-studio-v2",
     "thumb": "arc-015148-studio-v2",
     "alt": "Gato sobre fondo dorado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "arc-015148-studio-v2",
@@ -4114,7 +4114,7 @@ export const catalogue = [
     "image": "arc-015149-studio-v2",
     "thumb": "arc-015149-studio-v2",
     "alt": "Gato rosa enmarcado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "arc-015149-studio-v2",
@@ -4136,7 +4136,7 @@ export const catalogue = [
     "image": "arc-015150-studio-v2",
     "thumb": "arc-015150-studio-v2",
     "alt": "Figuras sobre fondo lila",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015150-studio-v2",
@@ -4158,7 +4158,7 @@ export const catalogue = [
     "image": "arc-015152-studio-v2",
     "thumb": "arc-015152-studio-v2",
     "alt": "Líneas y planos sobre naranja",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015152-studio-v2",
@@ -4180,7 +4180,7 @@ export const catalogue = [
     "image": "arc-015153-studio-v2",
     "thumb": "arc-015153-studio-v2",
     "alt": "Curvas blancas sobre naranja",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015153-studio-v2",
@@ -4202,7 +4202,7 @@ export const catalogue = [
     "image": "arc-015154-studio-v2",
     "thumb": "arc-015154-studio-v2",
     "alt": "Remolino de formas claras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015154-studio-v2",
@@ -4224,7 +4224,7 @@ export const catalogue = [
     "image": "arc-015155-studio-v2",
     "thumb": "arc-015155-studio-v2",
     "alt": "Planos de colores suaves",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015155-studio-v2",
@@ -4246,7 +4246,7 @@ export const catalogue = [
     "image": "arc-015156-studio-v2",
     "thumb": "arc-015156-studio-v2",
     "alt": "Planos violetas y ocres",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015156-studio-v2",
@@ -4268,7 +4268,7 @@ export const catalogue = [
     "image": "arc-015157-studio-v2",
     "thumb": "arc-015157-studio-v2",
     "alt": "Giro de formas rojas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015157-studio-v2",
@@ -4290,7 +4290,7 @@ export const catalogue = [
     "image": "arc-015158-studio-v2",
     "thumb": "arc-015158-studio-v2",
     "alt": "Formas entrelazadas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015158-studio-v2",
@@ -4312,7 +4312,7 @@ export const catalogue = [
     "image": "arc-015159-studio-v2",
     "thumb": "arc-015159-studio-v2",
     "alt": "Ritmo rojo y blanco",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015159-studio-v2",
@@ -4334,7 +4334,7 @@ export const catalogue = [
     "image": "arc-015160-studio-v2",
     "thumb": "arc-015160-studio-v2",
     "alt": "Curvas blancas y naranjas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015160-studio-v2",
@@ -4356,7 +4356,7 @@ export const catalogue = [
     "image": "arc-015161-studio-v2",
     "thumb": "arc-015161-studio-v2",
     "alt": "Volúmenes de color",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015161-studio-v2",
@@ -4378,7 +4378,7 @@ export const catalogue = [
     "image": "arc-015162-studio-v2",
     "thumb": "arc-015162-studio-v2",
     "alt": "Encuentro de signos y color",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015162-studio-v2",
@@ -4400,7 +4400,7 @@ export const catalogue = [
     "image": "arc-015163-studio-v2",
     "thumb": "arc-015163-studio-v2",
     "alt": "Recorrido rojo y circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015163-studio-v2",
@@ -4422,7 +4422,7 @@ export const catalogue = [
     "image": "arc-015164-studio-v2",
     "thumb": "arc-015164-studio-v2",
     "alt": "Signos en rojo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015164-studio-v2",
@@ -4444,7 +4444,7 @@ export const catalogue = [
     "image": "arc-015165-studio-v2",
     "thumb": "arc-015165-studio-v2",
     "alt": "Letras y figuras rojas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015165-studio-v2",
@@ -4466,7 +4466,7 @@ export const catalogue = [
     "image": "arc-015167-studio-v2",
     "thumb": "arc-015167-studio-v2",
     "alt": "Composición vertical de signos",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015167-studio-v2",
@@ -4488,7 +4488,7 @@ export const catalogue = [
     "image": "arc-015168-studio-v2",
     "thumb": "arc-015168-studio-v2",
     "alt": "Retrato de perfil ascendente",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
     "gallery": [
       {
         "image": "arc-015168-studio-v2",
@@ -4510,7 +4510,7 @@ export const catalogue = [
     "image": "arc-015169-studio-v2",
     "thumb": "arc-015169-studio-v2",
     "alt": "Signo rojo en círculo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015169-studio-v2",
@@ -4532,7 +4532,7 @@ export const catalogue = [
     "image": "arc-015199-studio-v2",
     "thumb": "arc-015199-studio-v2",
     "alt": "Composición horizontal de tonos claros",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "arc-015199-studio-v2",
@@ -4554,7 +4554,7 @@ export const catalogue = [
     "image": "arc-015200-studio-v2",
     "thumb": "arc-015200-studio-v2",
     "alt": "Retrato de perfil con barba",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
     "gallery": [
       {
         "image": "arc-015200-studio-v2",
@@ -4576,7 +4576,7 @@ export const catalogue = [
     "image": "arc-015202-studio-v2",
     "thumb": "arc-015202-studio-v2",
     "alt": "Composición circular azul",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015202-studio-v2",
@@ -4598,7 +4598,7 @@ export const catalogue = [
     "image": "arc-015204-studio-v2",
     "thumb": "arc-015204-studio-v2",
     "alt": "Rostro de contorno poligonal",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "arc-015204-studio-v2",
@@ -4620,7 +4620,7 @@ export const catalogue = [
     "image": "arc-015206-studio-v2",
     "thumb": "arc-015206-studio-v2",
     "alt": "Arca de contorno recortado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015206-studio-v2",
@@ -4642,7 +4642,7 @@ export const catalogue = [
     "image": "arc-015211-studio-v2",
     "thumb": "arc-015211-studio-v2",
     "alt": "Figuras en composición violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015211-studio-v2",
@@ -4664,7 +4664,7 @@ export const catalogue = [
     "image": "arc-015213-studio-v2",
     "thumb": "arc-015213-studio-v2",
     "alt": "Arquitecturas entre el sol y el agua",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "arc-015213-studio-v2",
@@ -4686,7 +4686,7 @@ export const catalogue = [
     "image": "arc-015218-studio-v2",
     "thumb": "arc-015218-studio-v2",
     "alt": "Figura y dragón sobre fondo verde",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "arc-015218-studio-v2",
@@ -4708,7 +4708,7 @@ export const catalogue = [
     "image": "arc-015221-studio-v2",
     "thumb": "arc-015221-studio-v2",
     "alt": "Figura con espada y dragón",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "arc-015221-studio-v2",
@@ -4730,7 +4730,7 @@ export const catalogue = [
     "image": "arc-015223-studio-v2",
     "thumb": "arc-015223-studio-v2",
     "alt": "Figura, escudo y dragón",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "arc-015223-studio-v2",
@@ -4752,7 +4752,7 @@ export const catalogue = [
     "image": "arc-015226-studio-v2",
     "thumb": "arc-015226-studio-v2",
     "alt": "Figuras bajo un arco",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015226-studio-v2",
@@ -4774,7 +4774,7 @@ export const catalogue = [
     "image": "arc-015228-studio-v2",
     "thumb": "arc-015228-studio-v2",
     "alt": "Toro y figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "arc-015228-studio-v2",
@@ -4796,7 +4796,7 @@ export const catalogue = [
     "image": "arc-015234-studio-v2",
     "thumb": "arc-015234-studio-v2",
     "alt": "Composición en forma de ojo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015234-studio-v2",
@@ -4818,7 +4818,7 @@ export const catalogue = [
     "image": "arc-015236-studio-v2",
     "thumb": "arc-015236-studio-v2",
     "alt": "Figuras del ruedo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "arc-015236-studio-v2",
@@ -4840,7 +4840,7 @@ export const catalogue = [
     "image": "arc-015240-studio-v2",
     "thumb": "arc-015240-studio-v2",
     "alt": "Figura ante una ciudad",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "arc-015240-studio-v2",
@@ -4862,7 +4862,7 @@ export const catalogue = [
     "image": "arc-015243-studio-v2",
     "thumb": "arc-015243-studio-v2",
     "alt": "Composición horizontal de figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "arc-015243-studio-v2",
@@ -4884,7 +4884,7 @@ export const catalogue = [
     "image": "arc-015245-studio-v2",
     "thumb": "arc-015245-studio-v2",
     "alt": "Escena de ruedo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "arc-015245-studio-v2",
@@ -4906,7 +4906,7 @@ export const catalogue = [
     "image": "arc-008492-studio-v2",
     "thumb": "arc-008492-studio-v2",
     "alt": "Figura a caballo y dragón",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "arc-008492-studio-v2",
@@ -4928,7 +4928,7 @@ export const catalogue = [
     "image": "arc-015250-studio-v2",
     "thumb": "arc-015250-studio-v2",
     "alt": "Personajes alrededor de una mesa de juego",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de figuras y símbolos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de figuras y símbolos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "arc-015250-studio-v2",
@@ -4950,7 +4950,7 @@ export const catalogue = [
     "image": "arc-015251-studio-v2",
     "thumb": "arc-015251-studio-v2",
     "alt": "Gran gato sobre fondo rosa",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "arc-015251-studio-v2",
@@ -4972,7 +4972,7 @@ export const catalogue = [
     "image": "arc-015257-studio-v2",
     "thumb": "arc-015257-studio-v2",
     "alt": "Composición de gatos entrelazados",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "arc-015257-studio-v2",
@@ -4994,7 +4994,7 @@ export const catalogue = [
     "image": "arc-015263-studio-v2",
     "thumb": "arc-015263-studio-v2",
     "alt": "Gato amarillo y figura rosa",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "arc-015263-studio-v2",
@@ -5016,7 +5016,7 @@ export const catalogue = [
     "image": "gallery-014955-cool-neutral-v2",
     "thumb": "gallery-014955-cool-neutral-v2",
     "alt": "Arcos oscuros y pequeños acentos de color",
-    "text": "Arcos oscuros y pequeños acentos de color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Arcos oscuros y pequeños acentos de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-014955",
@@ -5062,7 +5062,7 @@ export const catalogue = [
     "image": "arc-014959",
     "thumb": "arc-014959",
     "alt": "Recipientes azules entre las ramas",
-    "text": "Recipientes azules entre las ramas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Recipientes azules entre las ramas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014959",
@@ -5140,7 +5140,7 @@ export const catalogue = [
     "image": "arc-014967",
     "thumb": "arc-014967",
     "alt": "Paneles de color sobre un tronco",
-    "text": "Paneles de color sobre un tronco. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Paneles de color sobre un tronco. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014967",
@@ -5170,7 +5170,7 @@ export const catalogue = [
     "image": "arc-014968",
     "thumb": "arc-014968",
     "alt": "Recipientes blancos y ramificaciones rojas",
-    "text": "Recipientes blancos y ramificaciones rojas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Recipientes blancos y ramificaciones rojas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014968",
@@ -5240,7 +5240,7 @@ export const catalogue = [
     "image": "gallery-014976-cool-neutral-v2",
     "thumb": "gallery-014976-cool-neutral-v2",
     "alt": "Círculos rojos entrelazados",
-    "text": "Círculos rojos entrelazados. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Círculos rojos entrelazados. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-014976",
@@ -5326,7 +5326,7 @@ export const catalogue = [
     "image": "arc-014978",
     "thumb": "arc-014978",
     "alt": "Marcos de color en el árbol",
-    "text": "Marcos de color en el árbol. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Marcos de color en el árbol. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014978",
@@ -5428,7 +5428,7 @@ export const catalogue = [
     "image": "gallery-015000-cool-neutral-v2",
     "thumb": "gallery-015000-cool-neutral-v2",
     "alt": "Curvas azules y verdes",
-    "text": "Curvas azules y verdes. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Curvas azules y verdes. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-015000-cool-neutral-v2",
@@ -5458,7 +5458,7 @@ export const catalogue = [
     "image": "gallery-015002-cool-neutral-v2",
     "thumb": "gallery-015002-cool-neutral-v2",
     "alt": "Trama oscura con flores de color",
-    "text": "Trama oscura con flores de color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Trama oscura con flores de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015002",
@@ -5480,7 +5480,7 @@ export const catalogue = [
     "image": "gallery-015006-cool-neutral-v2",
     "thumb": "gallery-015006-cool-neutral-v2",
     "alt": "Arco rojo y discos azules",
-    "text": "Arco rojo y discos azules. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Arco rojo y discos azules. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-015006-cool-neutral-v2",
@@ -5510,7 +5510,7 @@ export const catalogue = [
     "image": "gallery-015011-cool-neutral-v2",
     "thumb": "gallery-015011-cool-neutral-v2",
     "alt": "Un recorrido de pequeños discos",
-    "text": "Un recorrido de pequeños discos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Un recorrido de pequeños discos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015011",
@@ -5628,7 +5628,7 @@ export const catalogue = [
     "image": "gallery-015021-cool-neutral-v2",
     "thumb": "gallery-015021-cool-neutral-v2",
     "alt": "Círculo abierto de muchos colores",
-    "text": "Círculo abierto de muchos colores. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Círculo abierto de muchos colores. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015021",
@@ -5714,7 +5714,7 @@ export const catalogue = [
     "image": "arc-015032",
     "thumb": "arc-015032",
     "alt": "Círculo blanco de piezas encontradas",
-    "text": "Círculo blanco de piezas encontradas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Círculo blanco de piezas encontradas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-015032",
@@ -5744,7 +5744,7 @@ export const catalogue = [
     "image": "gallery-015045-cool-neutral-v2",
     "thumb": "gallery-015045-cool-neutral-v2",
     "alt": "Estructura abierta y un aro de color",
-    "text": "Estructura abierta y un aro de color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Estructura abierta y un aro de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015045",
@@ -5766,7 +5766,7 @@ export const catalogue = [
     "image": "gallery-015051-cool-neutral-v2",
     "thumb": "gallery-015051-cool-neutral-v2",
     "alt": "Columna de discos multicolores",
-    "text": "Columna de discos multicolores. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Columna de discos multicolores. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015051",
@@ -5804,7 +5804,7 @@ export const catalogue = [
     "image": "gallery-015058-cool-neutral-v2",
     "thumb": "gallery-015058-cool-neutral-v2",
     "alt": "Recipientes rosas, verdes y amarillos",
-    "text": "Recipientes rosas, verdes y amarillos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Recipientes rosas, verdes y amarillos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015058",
@@ -5874,7 +5874,7 @@ export const catalogue = [
     "image": "gallery-015062-cool-neutral-v2",
     "thumb": "gallery-015062-cool-neutral-v2",
     "alt": "Ramas y figuras geométricas",
-    "text": "Ramas y figuras geométricas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Ramas y figuras geométricas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015062",
@@ -5952,7 +5952,7 @@ export const catalogue = [
     "image": "gallery-015067-cool-neutral-v2",
     "thumb": "gallery-015067-cool-neutral-v2",
     "alt": "Pequeños recipientes suspendidos",
-    "text": "Pequeños recipientes suspendidos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Pequeños recipientes suspendidos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015067",
@@ -5998,7 +5998,7 @@ export const catalogue = [
     "image": "arc-015076",
     "thumb": "arc-015076",
     "alt": "Un tronco con formas superpuestas",
-    "text": "Un tronco con formas superpuestas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Un tronco con formas superpuestas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-015076",
@@ -6028,7 +6028,7 @@ export const catalogue = [
     "image": "gallery-esc-053",
     "thumb": "gallery-esc-053",
     "alt": "Una curva que se abre en el espacio",
-    "text": "Una curva que se abre en el espacio. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Una curva que se abre en el espacio. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-esc-053",
@@ -6082,7 +6082,7 @@ export const catalogue = [
     "image": "gallery-esc-054",
     "thumb": "gallery-esc-054",
     "alt": "Forma articulada dentro de un círculo",
-    "text": "Forma articulada dentro de un círculo. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Forma articulada dentro de un círculo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-esc-054",
@@ -6152,7 +6152,7 @@ export const catalogue = [
     "image": "gallery-esc-055",
     "thumb": "gallery-esc-055",
     "alt": "Mesa de varillas y ruedas dentadas",
-    "text": "Mesa de varillas y ruedas dentadas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Mesa de varillas y ruedas dentadas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-esc-055",
@@ -6222,7 +6222,7 @@ export const catalogue = [
     "image": "arc-013422",
     "thumb": "arc-013422",
     "alt": "Curvas entrelazadas en rosa y gris",
-    "text": "Curvas entrelazadas en rosa y gris. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Curvas entrelazadas en rosa y gris. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013422",
@@ -6244,7 +6244,7 @@ export const catalogue = [
     "image": "arc-013423",
     "thumb": "arc-013423",
     "alt": "Planos angulares en gris",
-    "text": "Planos angulares en gris. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Planos angulares en gris. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013423",
@@ -6266,7 +6266,7 @@ export const catalogue = [
     "image": "arc-013426",
     "thumb": "arc-013426",
     "alt": "Formas azules que se encuentran",
-    "text": "Formas azules que se encuentran. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Formas azules que se encuentran. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013426",
@@ -6288,7 +6288,7 @@ export const catalogue = [
     "image": "arc-013427",
     "thumb": "arc-013427",
     "alt": "Un arco amarillo sobre trazos rojos",
-    "text": "Un arco amarillo sobre trazos rojos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Un arco amarillo sobre trazos rojos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013427",
@@ -6310,7 +6310,7 @@ export const catalogue = [
     "image": "arc-013430",
     "thumb": "arc-013430",
     "alt": "Dos formas curvas en azul",
-    "text": "Dos formas curvas en azul. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Dos formas curvas en azul. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013430",
@@ -6332,7 +6332,7 @@ export const catalogue = [
     "image": "arc-013431",
     "thumb": "arc-013431",
     "alt": "Encuentro de amarillos y rojos",
-    "text": "Encuentro de amarillos y rojos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Encuentro de amarillos y rojos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013431",
@@ -6354,7 +6354,7 @@ export const catalogue = [
     "image": "arc-013434",
     "thumb": "arc-013434",
     "alt": "Una construcción de líneas azules y naranjas",
-    "text": "Una construcción de líneas azules y naranjas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una construcción de líneas azules y naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013434",
@@ -6376,7 +6376,7 @@ export const catalogue = [
     "image": "arc-013435",
     "thumb": "arc-013435",
     "alt": "Trama de líneas azules y rojas",
-    "text": "Trama de líneas azules y rojas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Trama de líneas azules y rojas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013435",
@@ -6398,7 +6398,7 @@ export const catalogue = [
     "image": "arc-013436",
     "thumb": "arc-013436",
     "alt": "Una composición abierta en rojo",
-    "text": "Una composición abierta en rojo. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una composición abierta en rojo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013436",
@@ -6420,7 +6420,7 @@ export const catalogue = [
     "image": "arc-013439",
     "thumb": "arc-013439",
     "alt": "Ritmos grises y acentos naranjas",
-    "text": "Ritmos grises y acentos naranjas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Ritmos grises y acentos naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013439",
@@ -6442,7 +6442,7 @@ export const catalogue = [
     "image": "arc-013440",
     "thumb": "arc-013440",
     "alt": "Planos grises atravesados por el amarillo",
-    "text": "Planos grises atravesados por el amarillo. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Planos grises atravesados por el amarillo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013440",
@@ -6464,7 +6464,7 @@ export const catalogue = [
     "image": "arc-013441",
     "thumb": "arc-013441",
     "alt": "Una trama densa de líneas y color",
-    "text": "Una trama densa de líneas y color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una trama densa de líneas y color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013441",
@@ -6486,7 +6486,7 @@ export const catalogue = [
     "image": "arc-013443",
     "thumb": "arc-013443",
     "alt": "Curvas grises sobre el papel",
-    "text": "Curvas grises sobre el papel. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Curvas grises sobre el papel. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013443",
@@ -6508,7 +6508,7 @@ export const catalogue = [
     "image": "arc-013447",
     "thumb": "arc-013447",
     "alt": "Dos curvas y una línea oblicua",
-    "text": "Dos curvas y una línea oblicua. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Dos curvas y una línea oblicua. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013447",
@@ -6530,7 +6530,7 @@ export const catalogue = [
     "image": "arc-013448",
     "thumb": "arc-013448",
     "alt": "Trazos rojos entre planos grises",
-    "text": "Trazos rojos entre planos grises. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Trazos rojos entre planos grises. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013448",
@@ -6552,7 +6552,7 @@ export const catalogue = [
     "image": "arc-013449",
     "thumb": "arc-013449",
     "alt": "Formas superpuestas en marrón",
-    "text": "Formas superpuestas en marrón. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Formas superpuestas en marrón. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013449",
@@ -6574,7 +6574,7 @@ export const catalogue = [
     "image": "arc-013452",
     "thumb": "arc-013452",
     "alt": "Planos azules y naranjas",
-    "text": "Planos azules y naranjas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Planos azules y naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013452",
@@ -6596,7 +6596,7 @@ export const catalogue = [
     "image": "arc-013453",
     "thumb": "arc-013453",
     "alt": "Una forma angular en azul y violeta",
-    "text": "Una forma angular en azul y violeta. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una forma angular en azul y violeta. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013453",
@@ -6888,7 +6888,7 @@ export const albums = [
     ],
     "section": "exposiciones",
     "audience": "educacion",
-    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Valencia",
     "source": "Identificación de sala apoyada en el documento «SALA EXPO BELLES ARTS VALENCIA» (ARC-004745). Fecha sin documentar.",
     "exhibitionKind": "infantil"
@@ -6976,7 +6976,7 @@ export const albums = [
     ],
     "section": "exposiciones",
     "audience": "educacion",
-    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Escuela Universitaria de Magisterio Ausiàs March · Valencia",
     "date": "24 mayo — 3 junio 2005",
     "source": "Fechas documentadas en «Nuevas exposiciones» (ARC-004739); imágenes contrastadas con el dossier de la exposición (ARC-004291).",
@@ -7050,7 +7050,7 @@ export const albums = [
         "image": "arc-014874",
         "thumb": "arc-014874",
         "archiveId": "ARC-014874",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02318.ARW",
         "contentKey": "cf2cb9239c7ffe922f6d37e51aedbc7a61fd94e1b48c0197a7a03063bb2dc5e6"
       },
@@ -7058,7 +7058,7 @@ export const albums = [
         "image": "arc-014875",
         "thumb": "arc-014875",
         "archiveId": "ARC-014875",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02319.ARW",
         "contentKey": "ARC-014875"
       },
@@ -7066,7 +7066,7 @@ export const albums = [
         "image": "arc-014877",
         "thumb": "arc-014877",
         "archiveId": "ARC-014877",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02321.ARW",
         "contentKey": "ARC-014877"
       },
@@ -7074,7 +7074,7 @@ export const albums = [
         "image": "arc-014878",
         "thumb": "arc-014878",
         "archiveId": "ARC-014878",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02322.ARW",
         "contentKey": "ARC-014878"
       },
@@ -7082,7 +7082,7 @@ export const albums = [
         "image": "arc-014911",
         "thumb": "arc-014911",
         "archiveId": "ARC-014911",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02359.ARW",
         "contentKey": "ARC-014911"
       },
@@ -7090,7 +7090,7 @@ export const albums = [
         "image": "arc-014912",
         "thumb": "arc-014912",
         "archiveId": "ARC-014912",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02360.ARW",
         "contentKey": "1dee636ac78947f623f32649b7e242462e4e0b492f0859f613f3c122db6cf54f"
       },
@@ -7098,7 +7098,7 @@ export const albums = [
         "image": "arc-014913",
         "thumb": "arc-014913",
         "archiveId": "ARC-014913",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02361.ARW",
         "contentKey": "ARC-014913"
       },
@@ -7106,7 +7106,7 @@ export const albums = [
         "image": "arc-014914",
         "thumb": "arc-014914",
         "archiveId": "ARC-014914",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02362.ARW",
         "contentKey": "ARC-014914"
       },
@@ -7114,7 +7114,7 @@ export const albums = [
         "image": "arc-014916",
         "thumb": "arc-014916",
         "archiveId": "ARC-014916",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02364.ARW",
         "contentKey": "5bd6b6bf15f6a131324ad6e4cb5f0aad5eea54d719c1cf477dc7414cbbac0d79"
       },
@@ -7122,7 +7122,7 @@ export const albums = [
         "image": "arc-014917",
         "thumb": "arc-014917",
         "archiveId": "ARC-014917",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02365.ARW",
         "contentKey": "ARC-014917"
       },
@@ -7130,7 +7130,7 @@ export const albums = [
         "image": "arc-014918",
         "thumb": "arc-014918",
         "archiveId": "ARC-014918",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02366.ARW",
         "contentKey": "2157367063156148fbffb18c608dd88b79e710620a7783525b5a4f785ed07183"
       },
@@ -7138,7 +7138,7 @@ export const albums = [
         "image": "arc-014920",
         "thumb": "arc-014920",
         "archiveId": "ARC-014920",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02368.ARW",
         "contentKey": "ARC-014920"
       },
@@ -7146,7 +7146,7 @@ export const albums = [
         "image": "arc-014921",
         "thumb": "arc-014921",
         "archiveId": "ARC-014921",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02369.ARW",
         "contentKey": "7614a31be3f9ad7e20fb9326019c2af3f27d4b46f4287488ad3d71ed19100283"
       },
@@ -7154,7 +7154,7 @@ export const albums = [
         "image": "arc-014923",
         "thumb": "arc-014923",
         "archiveId": "ARC-014923",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02371.ARW",
         "contentKey": "ARC-014923"
       },
@@ -7162,7 +7162,7 @@ export const albums = [
         "image": "arc-014924",
         "thumb": "arc-014924",
         "archiveId": "ARC-014924",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02372.ARW",
         "contentKey": "ARC-014924"
       }
@@ -8065,7 +8065,7 @@ export const albums = [
         "contentKey": "ARC-006479"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-relieves",
@@ -8354,7 +8354,7 @@ export const albums = [
         "contentKey": "bb94139f523d8c3bf33061a674ad5e7d4bfc69c3ee7ab04f7540c1f6cb800b1a"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-totems",
@@ -8595,7 +8595,7 @@ export const albums = [
         "contentKey": "e7a93fd773e6ed2d4d3739d64cf6a93d2571bc7130031297f5be6fc9581dbaa1"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-colectivo",
@@ -8884,7 +8884,7 @@ export const albums = [
         "contentKey": "6d470789745994c34c7b3cb8203fd75814d372ab98ef89785e8c9ed366016e42"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-suspensiones",
@@ -8965,7 +8965,7 @@ export const albums = [
         "contentKey": "91cbb68de8e023212b5b448b3892390d8b3c76af8771a9319c267f35741ac9f2"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "taller-aula",
@@ -9006,7 +9006,7 @@ export const albums = [
         "contentKey": "f2e204e35f9a8679935a3d30687f7164112d2cefeab3365f9afd8f32817ac938"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "source": "Fondo ALUMNOS. Centro, fechas y participantes pendientes de identificación individual."
   },
   {
@@ -9136,7 +9136,7 @@ export const albums = [
         "contentKey": "ARC-005545"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "place": "Colegio Cervantes · Buñol",
     "date": "2005 · según carpeta del archivo",
     "source": "Carpeta Buñol 2005 y dossier «Taller Colegio Cervantes» (ARC-004750)."
@@ -9172,7 +9172,7 @@ export const albums = [
         "contentKey": "9e12c6bdd1dc7b591362433c62cab7621fa0eb8d190374328bbfc2800d79b42e"
       }
     ],
-    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIC SEGARRA I GARIBO.",
     "place": "CEFIRE · Gandia",
     "source": "Identificación por carpeta CEFIRE GANDIA; fecha por documentar."
   },
@@ -9335,7 +9335,7 @@ export const albums = [
         "contentKey": "8f8ce5ac026f723b8644b549cb7c8bfb46746df634a862f1e1e9f41bcfdc5b38"
       }
     ],
-    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIC SEGARRA I GARIBO.",
     "source": "Fondo CEFIRE FOTOS."
   },
   {
@@ -9633,7 +9633,7 @@ export const albums = [
         "contentKey": "ARC-006289"
       }
     ],
-    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIC SEGARRA I GARIBO.",
     "place": "CEFIRE · La Pobla Llarga",
     "source": "Fondo CEFIRE-LA POBLA. La fecha del dossier expositivo no se extiende automáticamente a todas las sesiones."
   },
@@ -9647,7 +9647,7 @@ export const albums = [
     "text": "La colección de arte infantil ocupa la sala: dibujos, relieves, construcciones y figuras verticales.",
     "paragraphs": [
       "Las vistas de conjunto permiten leer las relaciones entre las piezas y su disposición en el espacio. Las imágenes próximas conservan la diversidad de formas, tamaños y materiales de las obras.",
-      "La señalización fotografiada identifica la muestra como «Arte infantil. Colección ENRIQUE SEGARRA I GARIBO», en la sala de exposiciones Casa Abadía. La denominación de la colección no convierte a Enric en autor de las obras de los participantes."
+      "La señalización fotografiada identifica la muestra como «Arte infantil. Colección ENRIC SEGARRA I GARIBO», en la sala de exposiciones Casa Abadía. La denominación de la colección no convierte a Enric en autor de las obras de los participantes."
     ],
     "image": "arc-002472",
     "gallery": [
@@ -9876,7 +9876,7 @@ export const albums = [
         "contentKey": "61c94d30a3416638a59edd9abaeef18ddeeda6f8a7947fe0976ae6cad4012906"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "place": "Casa Abadía · Fundació Caixa Castelló–Bancaixa",
     "source": "Cartel fotografiado (ARC-002545) y dossier de sala (ARC-000365). Fecha por documentar.",
     "exhibitionKind": "infantil"
@@ -10152,7 +10152,7 @@ export const albums = [
         "contentKey": "df21e61139e97a0be96d7d7fcbb386bc6dcffb10fd934879fafef2f95fa689ca"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "place": "El pelèc",
     "source": "Carpetas Mostra Art 2001 y Mostra d’art 2003; correspondencia entre imágenes y ediciones pendiente.",
     "exhibitionKind": "infantil"
@@ -10257,7 +10257,7 @@ export const albums = [
         "contentKey": "591fef9a6019ec907f148b037369fd10a33cebae25c60b5e0854ed3e46fd681e"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "exposicion-carlet",
@@ -10379,7 +10379,7 @@ export const albums = [
         "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-003505. Identificación de la actividad por el documento de origen; fecha por documentar.",
     "exhibitionKind": "infantil"
   },
@@ -10463,7 +10463,7 @@ export const albums = [
         "sourceName": "EXPO COLEGIO CERVANTES.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-004289. Identificación de la actividad por el documento de origen; fecha por documentar.",
     "exhibitionKind": "infantil"
   },
@@ -10627,7 +10627,7 @@ export const albums = [
         "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-004290. Identificación de la actividad por el documento de origen; fecha por documentar.",
     "exhibitionKind": "infantil"
   },
@@ -10903,7 +10903,7 @@ export const albums = [
         "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-004747. Identificación de la actividad por el documento de origen; fecha por documentar."
   },
   {
@@ -12818,7 +12818,7 @@ export const albums = [
         "contentKey": "ARC-015077"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "source": "Fondo NATURALEZA MOBILES. 237 registros fotográficos revisados, incluidos originales RAW mediante sus previas incrustadas."
   },
   {
@@ -12965,7 +12965,7 @@ export const albums = [
         "contentKey": "ARC-013413"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "place": "Sala d’Exposicions de les Belles Arts · Valencia",
     "date": "3 febrero — 3 marzo 2005",
     "source": "Título, sede y fechas documentados en la invitación ARC-013418."
@@ -13482,7 +13482,7 @@ export const albums = [
         "contentKey": "ARC-009566"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "place": "Fundació Caixa Castelló–Bancaixa",
     "date": "Octubre 2006 · según carpeta",
     "source": "Fondo FUND CAIXA CASTELLÓ OCT 2006."
@@ -13615,7 +13615,7 @@ export const albums = [
         "contentKey": "15705273d13e5c2a3c2cb719ed05dda355990f88a13bf115d3fb24e7d627bdfe"
       }
     ],
-    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "source": "Fondo EXPO QUATRE; título en la portada ARC-009370. Fecha pendiente de documentación."
   },
   {
@@ -13858,7 +13858,7 @@ export const albums = [
         "contentKey": "8878f3eba89c119b9786e003adc895c28252a31a0609ae5f79136a3efea29c64"
       }
     ],
-    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Estivella",
     "source": "Fondo EXPOSICIÓN DE SANT JORDI I EL DRAC A ESTIVELLA. Fecha sin confirmar."
   },
@@ -13966,7 +13966,7 @@ export const albums = [
         "contentKey": "ARC-008011"
       }
     ],
-    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Casa del Libro",
     "source": "Fondo DRAGONIANS CINC FOTOS CASA DEL LIBRO; título y colectivo en el cartel fotografiado ARC-008012. Fecha de la muestra por contrastar."
   },
@@ -14090,7 +14090,7 @@ export const albums = [
         "contentKey": "ARC-008833"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "source": "Fondos históricos de escultura; selección comparada visualmente."
   }
 ];

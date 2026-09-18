@@ -3242,8 +3242,8 @@ main {
 .home-carousel-stage {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 3 / 2;
   background: #f8f8f7;
+  aspect-ratio: 16 / 9;
 }
 .home-carousel-slides,
 .home-carousel-slide {
@@ -3254,7 +3254,7 @@ main {
   margin: 0;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 900ms ease;
+  transition: opacity 600ms ease;
 }
 .home-carousel-slide.is-active {
   z-index: 1;
@@ -3265,7 +3265,7 @@ main {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 .home-carousel-intro {
   position: absolute;
@@ -3335,6 +3335,9 @@ main {
   text-underline-offset: 5px;
 }
 @media (max-width: 760px) {
+  .home-carousel-stage {
+    aspect-ratio: 4 / 3;
+  }
   .home-carousel-hero {
     padding-bottom: 34px;
   }

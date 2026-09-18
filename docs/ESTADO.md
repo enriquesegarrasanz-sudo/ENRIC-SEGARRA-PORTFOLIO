@@ -7,9 +7,10 @@
 
 ## Portada · carrusel de obra · 18 de septiembre de 2026
 
-- La portada muestra el retrato y ocho obras únicas de la selección facilitada, todas en formato 3:2 y con fondo de galería coherente. Las repeticiones de la estructura de alambre y del dibujo azul-verde no se incorporan.
+- La portada muestra el retrato y ocho obras únicas de la selección facilitada, con formato 16:9 en escritorio y fondo de galería coherente. Las piezas se mantienen completas y centradas; las repeticiones de la estructura de alambre y del dibujo azul-verde no se incorporan.
 - El recorrido se reproduce en bucle y puede controlarse con teclado o botones. Se pausa ante interacción y no avanza automáticamente cuando el sistema solicita reducir el movimiento.
 - Las versiones derivadas se registran en `procedencia-imagenes.json`; los originales siguen intactos.
+- La identidad pública se presenta como «ENRIC SEGARRA I GARIBO», también en la sección Artista y en las autorías visibles.
 
 ## Fichas de obra · edición de sala · 18 de septiembre de 2026
 

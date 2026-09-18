@@ -9,8 +9,9 @@
 ## Portada · carrusel de obra — 2026-09-18
 
 - La portada reúne el retrato y ocho obras únicas facilitadas para esta selección; se excluyen las imágenes repetidas.
-- Todas las diapositivas usan un lienzo horizontal 3:2 y una presentación de galería coherente. El retrato pasa a fondo blanco cálido; las piezas se mantienen completas y centradas.
-- El carrusel avanza en bucle cada 4,8 segundos, ofrece controles manuales, se detiene al interactuar y respeta la preferencia de reducir movimiento.
+- Todas las diapositivas usan un lienzo horizontal 16:9 en escritorio y una presentación de galería coherente. Las piezas se mantienen completas y centradas, sin recortes.
+- El carrusel avanza en bucle cada 4 segundos, ofrece controles manuales, se detiene al interactuar y respeta la preferencia de reducir movimiento; la transición dura 0,6 segundos.
+- La identidad pública se muestra como «ENRIC SEGARRA I GARIBO» en cabecera, metadatos, autorías y sección Artista.
 - Las dos imágenes de menor definición se preparan como restauraciones de presentación separadas y trazables; los originales no se sobrescriben.
 
 ## Fichas de obra · edición de sala — 2026-09-18
