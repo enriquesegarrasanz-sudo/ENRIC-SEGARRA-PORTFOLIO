@@ -4959,28 +4959,6 @@ export const catalogue = [
     ]
   },
   {
-    "id": "pintura-015249",
-    "label": "Retrato de un hombre con barba",
-    "category": "pintura",
-    "series": "Retratos",
-    "chapter": "pintar-mundos",
-    "reference": "PIN-076",
-    "image": "arc-015249-studio-v2",
-    "thumb": "thumb-015249-studio-v2",
-    "alt": "Retrato de un hombre con barba",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de retratos. El nombre describe la imagen y es provisional.",
-    "gallery": [
-      {
-        "image": "arc-015249-studio-v2",
-        "thumb": "thumb-015249-studio-v2",
-        "archiveId": "ARC-015249",
-        "alt": "Retrato de un hombre con barba",
-        "sourceName": "_DSC7897.ARW",
-        "contentKey": "ARC-015249"
-      }
-    ]
-  },
-  {
     "id": "pintura-015250",
     "label": "Personajes alrededor de una mesa de juego",
     "category": "pintura",
