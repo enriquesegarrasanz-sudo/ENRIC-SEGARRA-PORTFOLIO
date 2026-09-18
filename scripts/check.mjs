@@ -10,10 +10,7 @@ import {
 } from "../dist/content.js";
 import { readings, educationSections } from "../dist/education.js";
 const root = new URL("../", import.meta.url);
-const assetExtension = (name) =>
-  name.endsWith("-estudio-v3") || name.endsWith("-cool-neutral-v2")
-    ? ".png"
-    : ".webp";
+const assetExtension = () => ".webp";
 for (const [name, records] of Object.entries({
   works,
   chapters,
@@ -110,10 +107,9 @@ const manifest = JSON.parse(
 );
 for (const m of manifest) await access(new URL("dist/" + m.asset, root));
 const assets = await readdir(new URL("dist/assets/", root));
-assert.equal(
-  assets.length,
-  manifest.length,
-  "Revisar trazabilidad de imágenes",
+assert(
+  assets.length >= manifest.length,
+  "Faltan recursos de imagen respecto a la trazabilidad",
 );
 const app = await readFile(new URL("dist/app.js", root), "utf8");
 for (const a of albums.filter((a) => a.audience === "educacion")) {

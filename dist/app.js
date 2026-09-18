@@ -38,10 +38,7 @@ const num = (n) => String(n).padStart(2, "0"),
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
 const asset = (name, local = false) => {
-  const extension =
-    name.endsWith("-estudio-v3") || name.endsWith("-cool-neutral-v2")
-      ? ".png"
-      : ".webp";
+  const extension = ".webp";
   return `${local ? "review" : "assets"}/${encodeURIComponent(name)}${extension}?v=20260918-pintura-regenerada`;
 };
 const img = (name, alt, eager = false, local = false) =>
