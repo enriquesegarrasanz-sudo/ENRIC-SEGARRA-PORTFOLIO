@@ -5,8 +5,8 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js?v=20260918-escultura-vistas";
-import { redirects } from "./catalogue.js?v=20260918-escultura-vistas";
+} from "./content.js?v=20260918-escultura-interaccion";
+import { redirects } from "./catalogue.js?v=20260918-escultura-interaccion";
 import {
   buildPhotoIndex,
   filterPhotos,
@@ -35,7 +35,7 @@ const num = (n) => String(n).padStart(2, "0"),
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
 const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-vistas`;
+  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-interaccion`;
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
@@ -77,10 +77,11 @@ let currentGallery = [],
   galleryLabel = "",
   selectedPhoto = 0,
   activeFilters = null,
-  routeKey = "";
+  routeKey = "",
+  familySlideStops = [];
 
 function home() {
-  return `<section class="portrait-cover" aria-label="Retrato de Enric Segarra con una escultura"><img src="assets/retrato-portada-horizontal-v1.png" alt="Enric Segarra sostiene una escultura de madera" loading="eager" decoding="async"></section>`;
+  return `<section class="portrait-cover" aria-label="Entrada a la obra de Segarra y Garibo"><img src="assets/retrato-portada-horizontal-v1.png" alt="Enric Segarra sostiene una escultura de madera" loading="eager" decoding="async"><div class="portrait-cover-copy"><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a class="portrait-cover-link" href="#/obra">Entrar en la obra <span aria-hidden="true">↗</span></a></div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -121,7 +122,7 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
   };
   const sculptureFamilies =
     category === "escultura"
-      ? `<section class="sculpture-families" aria-labelledby="sculpture-families-title"><div class="section-head"><div><p class="eyebrow">Clasificación provisional</p><h2 id="sculpture-families-title">Familias de la escultura</h2></div><p class="sculpture-families-note">Una entrada visual a los distintos modos de trabajar el volumen presentes en el archivo.</p></div><div class="family-grid">${seriesList.map((family) => { const familyWorks = pool.filter((w) => w.series === family); const representative = familyWorks[0]; const selected = series === family ? " active" : ""; const countLabel = familyWorks.length === 1 ? "obra" : "obras"; return `<a class="family-card${selected}" href="#/obra/escultura?serie=${encodeURIComponent(family)}" aria-label="Ver ${familyWorks.length} ${countLabel} de ${esc(family)}"><div class="family-image">${img(representative.thumb, representative.alt)}</div><div class="family-copy"><span class="reference">${String(familyWorks.length).padStart(2, "0")} ${countLabel}</span><h3>${esc(family)}</h3><span class="family-link">Explorar <span aria-hidden="true">↗</span></span></div></a>`; }).join("")}</div></section>`
+      ? `<section class="sculpture-families" aria-labelledby="sculpture-families-title"><div class="section-head"><div><p class="eyebrow">Clasificación provisional</p><h2 id="sculpture-families-title">Familias de la escultura</h2></div><p class="sculpture-families-note">Una entrada visual a los distintos modos de trabajar el volumen presentes en el archivo.</p></div><div class="family-grid">${seriesList.map((family) => { const familyWorks = pool.filter((w) => w.series === family); const selected = series === family ? " active" : ""; const countLabel = familyWorks.length === 1 ? "obra" : "obras"; const slides = familyWorks.slice(0, 6); return `<a class="family-card${selected}" href="#/obra/escultura?serie=${encodeURIComponent(family)}" aria-label="Ver ${familyWorks.length} ${countLabel} de ${esc(family)}"><div class="family-image"><div class="family-slideshow" data-family-slideshow aria-label="Imágenes de ${esc(family)}">${slides.map((w, i) => `<span class="family-slide${i === 0 ? " is-visible" : ""}" aria-hidden="${i === 0 ? "false" : "true"}">${img(w.thumb, w.alt, i === 0)}</span>`).join("")}</div></div><div class="family-copy"><span class="reference">${String(familyWorks.length).padStart(2, "0")} ${countLabel}</span><h3>${esc(family)}</h3><span class="family-link">Ver las obras <span aria-hidden="true">↗</span></span></div></a>`; }).join("")}</div></section>`
       : "";
   return (
     head(
@@ -580,7 +581,7 @@ function render({ keepScroll = false } = {}) {
   }
   if (section === "inicio") {
     html = home();
-    title = "Obra y memoria";
+    title = "Segarra y Garibo";
   } else if (section === "obra") {
     if (!id || categories.some((c) => c.id === id)) {
       html = workIndex(id || "todas", params);
@@ -629,7 +630,7 @@ function render({ keepScroll = false } = {}) {
   }
   if (dialog.open) dialog.close();
   main.innerHTML = html;
-  document.title = `${title || "Archivo"} — ${site.name}`;
+  document.title = title === site.name ? site.name : `${title || "Archivo"} — ${site.name}`;
   const al =
       section === "archivo" ? visibleAlbums().find((al) => al.id === id) : null,
     active =
@@ -650,9 +651,51 @@ function render({ keepScroll = false } = {}) {
   routeKey = raw;
   attachPageEvents();
   attachArchiveEvents();
+  attachFamilySlideshows();
   observe();
 }
 function observe() {}
+
+function attachFamilySlideshows() {
+  familySlideStops.forEach((stop) => stop());
+  familySlideStops = [];
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
+  document.querySelectorAll("[data-family-slideshow]").forEach((slideshow) => {
+    const slides = [...slideshow.querySelectorAll(".family-slide")];
+    if (slides.length < 2 || reduceMotion.matches) return;
+    const card = slideshow.closest(".family-card");
+    let index = 0,
+      timer = null;
+    const stop = () => {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+    };
+    const show = (next) => {
+      slides[index].classList.remove("is-visible");
+      slides[index].setAttribute("aria-hidden", "true");
+      slides[next].classList.add("is-visible");
+      slides[next].setAttribute("aria-hidden", "false");
+      index = next;
+    };
+    const start = () => {
+      stop();
+      if (!document.hidden) {
+        timer = window.setInterval(
+          () => show((index + 1) % slides.length),
+          3600,
+        );
+      }
+    };
+    card?.addEventListener("mouseenter", stop);
+    card?.addEventListener("mouseleave", start);
+    card?.addEventListener("focusin", stop);
+    card?.addEventListener("focusout", (event) => {
+      if (!card.contains(event.relatedTarget)) start();
+    });
+    start();
+    familySlideStops.push(stop);
+  });
+}
 
 function updateFilters(view) {
   if (!activeFilters) return;
