@@ -6,7 +6,7 @@ import { bellasArtsGallery } from "../dist/bellas-arts.js";
 const fields = new Set([
   "contactText", "intro", "label", "series", "alt", "text", "title", "type",
   "short", "imageAlt", "caption", "paragraphs", "credit", "place", "source",
-  "authors", "subtitle", "kind", "sections", "galleryGroup", "attribution",
+  "authors", "subtitle", "kind", "sections", "galleryGroup", "attribution", "date",
 ]);
 const strings = new Set();
 

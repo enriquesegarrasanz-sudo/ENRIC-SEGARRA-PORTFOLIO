@@ -48,8 +48,13 @@ def translate_batch(language, values):
 
 def main():
     values = json.loads(SOURCE.read_text(encoding="utf-8"))
-    result = {value: {} for value in values}
-    jobs = [(source, code, batch) for code, source in LANGUAGES.items() for batch in chunks(values)]
+    existing = {}
+    if OUTPUT.exists():
+        source = OUTPUT.read_text(encoding="utf-8")
+        existing = json.loads(source.split("= ", 1)[1].rsplit(";", 1)[0])
+    result = {value: existing.get(value, {}) for value in values}
+    missing = [value for value in values if set(result[value]) != set(LANGUAGES)]
+    jobs = [(source, code, batch) for code, source in LANGUAGES.items() for batch in chunks(missing)]
     with ThreadPoolExecutor(max_workers=6) as executor:
         pending = {executor.submit(translate_batch, source, batch): (code, batch) for source, code, batch in jobs}
         for index, future in enumerate(as_completed(pending), 1):

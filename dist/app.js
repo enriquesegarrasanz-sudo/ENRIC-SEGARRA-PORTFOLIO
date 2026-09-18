@@ -56,8 +56,15 @@ const sectionHead = (label, path, text = "Ver todo") =>
   `<div class="section-head"><h2>${esc(label)}</h2>${path ? a(path, esc(text) + " " + arrow) : ""}</div>`;
 const workCard = (w) =>
   `<article class="work-card reveal">${a("/obra/" + w.id, `<div class="image-space">${img(w.thumb, w.alt)}</div><div class="caption"><span class="reference">${esc(w.reference)}</span><h3>${esc(w.label)}</h3><p>${esc(w.series)}${w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : ""}</p></div>`)}</article>`;
-const albumCard = (al) =>
-  `<article class="album-card reveal">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${esc(al.section === "exposiciones" ? [{ obra: "Obra propia", colectiva: "Colectiva", infantil: "Arte infantil", formacion: "Formación docente", sala: "Archivo de sala" }[al.exhibitionKind], al.date].filter(Boolean).join(" · ") : al.audience === "educacion" ? educationSections.find((s) => s.id === al.section)?.label : al.type)}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`)}</article>`;
+const albumCard = (al) => {
+  const reference = al.section === "exposiciones"
+    ? [{ obra: "Obra propia", colectiva: "Colectiva", infantil: "Arte infantil", formacion: "Formación docente", sala: "Archivo de sala" }[al.exhibitionKind], al.date]
+        .filter(Boolean)
+        .map((value) => `<span>${esc(value)}</span>`)
+        .join('<span aria-hidden="true"> · </span>')
+    : `<span>${esc(al.audience === "educacion" ? educationSections.find((s) => s.id === al.section)?.label : al.type)}</span>`;
+  return `<article class="album-card reveal">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${reference}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`)}</article>`;
+};
 const exhibitionKind = {
   obra: "Obra propia",
   colectiva: "Muestra colectiva",
@@ -66,8 +73,11 @@ const exhibitionKind = {
   sala: "Archivo de sala",
 };
 const exhibitionCard = (al) => {
-  const details = [al.date, al.place].filter(Boolean).join(" · ");
-  return `<article class="exhibition-card reveal">${a("/archivo/" + al.id, `<div class="exhibition-image">${img(al.image, al.title)}<span class="exhibition-count">${al.gallery.length} fotografías</span></div><div class="exhibition-copy"><p class="eyebrow">${esc(exhibitionKind[al.exhibitionKind] || "Exposición")}</p><h2>${esc(al.title)}</h2>${details ? `<p class="exhibition-details">${esc(details)}</p>` : ""}<p class="exhibition-text">${esc(al.text)}</p><span class="exhibition-link">Recorrer el archivo <b aria-hidden="true">${arrow}</b></span></div><span class="exhibition-arrow" aria-hidden="true">${arrow}</span>`)}</article>`;
+  const details = [al.date, al.place]
+    .filter(Boolean)
+    .map((value) => `<span>${esc(value)}</span>`)
+    .join('<span aria-hidden="true"> · </span>');
+  return `<article class="exhibition-card reveal">${a("/archivo/" + al.id, `<div class="exhibition-image">${img(al.image, al.title)}<span class="exhibition-count">${al.gallery.length} fotografías</span></div><div class="exhibition-copy"><p class="eyebrow">${esc(exhibitionKind[al.exhibitionKind] || "Exposición")}</p><h2>${esc(al.title)}</h2>${details ? `<p class="exhibition-details">${details}</p>` : ""}<p class="exhibition-text">${esc(al.text)}</p><span class="exhibition-link">Recorrer el archivo <b aria-hidden="true">${arrow}</b></span></div><span class="exhibition-arrow" aria-hidden="true">${arrow}</span>`)}</article>`;
 };
 const workGrid = (ws) =>
     `<div class="works-grid">${ws.map(workCard).join("")}</div>`,
