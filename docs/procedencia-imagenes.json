@@ -27739,4 +27739,68 @@
     "width": 768,
     "height": 512
   }
+  ,{
+    "asset": "assets/review-014581.webp",
+    "archivo_id": "ARC-014581",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014581.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1536,
+    "height": 1024
+  },{
+    "asset": "assets/review-014783.webp",
+    "archivo_id": "ARC-014783",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014783.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1024,
+    "height": 1536
+  },{
+    "asset": "assets/review-014783-v2.webp",
+    "archivo_id": "ARC-014783",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014783.jpg",
+    "transformacion": "Variante editorial de catálogo con fondo blanco neutro e iluminación de exposición",
+    "width": 1024,
+    "height": 1536
+  },{
+    "asset": "assets/review-014793.webp",
+    "archivo_id": "ARC-014793",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014793.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1024,
+    "height": 1536
+  },{
+    "asset": "assets/review-014801.webp",
+    "archivo_id": "ARC-014801",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014801.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1024,
+    "height": 1536
+  },{
+    "asset": "assets/review-014812.webp",
+    "archivo_id": "ARC-014812",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014812.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1024,
+    "height": 1536
+  },{
+    "asset": "assets/review-014825.webp",
+    "archivo_id": "ARC-014825",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014825.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1536,
+    "height": 1024
+  },{
+    "asset": "assets/review-014831.webp",
+    "archivo_id": "ARC-014831",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014831.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1536,
+    "height": 1024
+  },{
+    "asset": "assets/review-014837.webp",
+    "archivo_id": "ARC-014837",
+    "original": "ARCHIVO_CLASIFICADO\\previas\\ARC-014837.jpg",
+    "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
+    "width": 1024,
+    "height": 1536
+  }
 ]

@@ -547,7 +547,7 @@ export const catalogue = [
         "contentKey": "00062c3dafc600d1762ddef3b6bddd2545d5a758802e19d293dbb7d748c8e27e"
       },
       {
-        "image": "arc-014783",
+        "image": "review-014783",
         "thumb": "thumb-014783",
         "archiveId": "ARC-014783",
         "alt": "Composición de aros. Fotografía 2",
@@ -555,7 +555,7 @@ export const catalogue = [
         "contentKey": "ARC-014783"
       },
       {
-        "image": "arc-014793",
+        "image": "review-014793",
         "thumb": "thumb-014793",
         "archiveId": "ARC-014793",
         "alt": "Composición de aros. Fotografía 3",
@@ -563,7 +563,7 @@ export const catalogue = [
         "contentKey": "ARC-014793"
       },
       {
-        "image": "arc-014801",
+        "image": "review-014801",
         "thumb": "thumb-014801",
         "archiveId": "ARC-014801",
         "alt": "Composición de aros. Fotografía 4",
@@ -571,7 +571,7 @@ export const catalogue = [
         "contentKey": "ARC-014801"
       },
       {
-        "image": "arc-014812",
+        "image": "review-014812",
         "thumb": "thumb-014812",
         "archiveId": "ARC-014812",
         "alt": "Composición de aros. Fotografía 5",
@@ -609,7 +609,7 @@ export const catalogue = [
         "contentKey": "ARC-014821"
       },
       {
-        "image": "arc-014825",
+        "image": "review-014825",
         "thumb": "thumb-014825",
         "archiveId": "ARC-014825",
         "alt": "Una forma articulada. Fotografía 2",
@@ -617,7 +617,7 @@ export const catalogue = [
         "contentKey": "ea37e043a256b949e47891fd3e0b38b541e8d2054dbfc1f65eb32ed3346e8a5d"
       },
       {
-        "image": "arc-014831",
+        "image": "review-014831",
         "thumb": "thumb-014831",
         "archiveId": "ARC-014831",
         "alt": "Una forma articulada. Fotografía 3",
@@ -625,7 +625,7 @@ export const catalogue = [
         "contentKey": "ARC-014831"
       },
       {
-        "image": "arc-014837",
+        "image": "review-014837",
         "thumb": "thumb-014837",
         "archiveId": "ARC-014837",
         "alt": "Una forma articulada. Fotografía 4",
@@ -633,7 +633,7 @@ export const catalogue = [
         "contentKey": "ARC-014837"
       },
       {
-        "image": "arc-014581",
+        "image": "review-014581",
         "thumb": "thumb-014581",
         "archiveId": "ARC-014581",
         "alt": "Una forma articulada. Fotografía 5",
