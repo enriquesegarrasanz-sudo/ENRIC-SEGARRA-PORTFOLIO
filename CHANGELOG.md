@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## Portada · fuentes directas y blanco neutro — 2026-09-18
+
+- Las nueve imágenes del carrusel se vuelven a preparar una sola vez y de forma directa desde sus fotografías de origen, sin encadenar versiones generadas.
+- El retrato parte de `_DSC1856.jpg` y conserva identidad, manos, escultura y detalle fotográfico. Las ocho obras mantienen sus superficies, siluetas y elementos de suspensión.
+- Todas comparten formato horizontal 3:2 y el mismo fondo de estudio blanco neutro `#F8F8F7`. El carrusel conserva el avance automático y muestra solo una flecha discreta para avanzar.
+
 ## Portada · carrusel de obra — 2026-09-18
 
 - La portada reúne el retrato y ocho obras únicas facilitadas para esta selección; se excluyen las imágenes repetidas.
