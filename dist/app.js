@@ -116,20 +116,20 @@ function familyOptions(pool, category) {
 function home() {
   const slides = [
     {
-      image: "hero-portrait-warm-neutral.webp",
+      image: "hero-portrait-real-neutral-v3.webp",
       alt: "SEGARRA Y GARIBO sostiene una escultura de madera",
       kind: "presentación",
     },
-    { image: "hero-work-circle.webp", alt: "Escultura circular de metal y piezas articuladas", kind: "escultura" },
-    { image: "hero-work-figure.webp", alt: "Escultura vertical de piedra clara", kind: "escultura" },
-    { image: "hero-work-arcs.webp", alt: "Escultura oscura de brazos curvos sobre una peana", kind: "escultura" },
-    { image: "hero-work-corrugated.webp", alt: "Móvil suspendido de tubos corrugados", kind: "móvil" },
-    { image: "hero-work-baskets.webp", alt: "Móvil suspendido compuesto por cestas y elementos de color", kind: "móvil" },
-    { image: "hero-work-wire.webp", alt: "Estructura suspendida de alambre y esferas de madera", kind: "móvil" },
-    { image: "hero-work-blue-green-drawing.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
-    { image: "hero-work-painted-relief.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
+    { image: "hero-work-circle-real-neutral-v3.webp", alt: "Escultura circular de metal y piezas articuladas", kind: "escultura" },
+    { image: "hero-work-figure-real-neutral-v3.webp", alt: "Escultura vertical de piedra clara", kind: "escultura" },
+    { image: "hero-work-arcs-real-neutral-v3.webp", alt: "Escultura oscura de brazos curvos sobre una peana", kind: "escultura" },
+    { image: "hero-work-corrugated-real-neutral-v3.webp", alt: "Móvil suspendido de tubos corrugados", kind: "móvil" },
+    { image: "hero-work-baskets-real-neutral-v3.webp", alt: "Móvil suspendido compuesto por cestas y elementos de color", kind: "móvil" },
+    { image: "hero-work-wire-real-neutral-v3.webp", alt: "Estructura suspendida de alambre y esferas de madera", kind: "móvil" },
+    { image: "hero-work-blue-green-drawing-real-neutral-v3.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
+    { image: "hero-work-painted-relief-real-neutral-v3.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
   ];
-  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de SEGARRA Y GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav" aria-label="Controles del carrusel"><button type="button" data-home-carousel-prev aria-label="Obra anterior">←</button><p aria-live="polite"><span data-home-carousel-current>01</span><span aria-hidden="true"> / </span><span>09</span><span class="sr-only">, de nueve</span></p><button type="button" data-home-carousel-next aria-label="Obra siguiente">→</button></div></div></section>`;
+  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de SEGARRA Y GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -790,8 +790,6 @@ function attachHomeCarousel() {
   const carousel = document.querySelector("[data-home-carousel]");
   if (!carousel) return;
   const slides = [...carousel.querySelectorAll("[data-home-slide]")];
-  const current = carousel.querySelector("[data-home-carousel-current]");
-  const previous = carousel.querySelector("[data-home-carousel-prev]");
   const next = carousel.querySelector("[data-home-carousel-next]");
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
   let index = 0, timer = null, paused = false;
@@ -801,7 +799,6 @@ function attachHomeCarousel() {
     index = (target + slides.length) % slides.length;
     slides[index].classList.add("is-active");
     slides[index].setAttribute("aria-hidden", "false");
-    current.textContent = num(index + 1);
   };
   const stop = () => {
     if (timer) window.clearTimeout(timer);
@@ -818,7 +815,6 @@ function attachHomeCarousel() {
   };
   const pause = () => { paused = true; stop(); };
   const resume = () => { paused = false; schedule(); };
-  previous.addEventListener("click", () => { show(index - 1); schedule(); });
   next.addEventListener("click", () => { show(index + 1); schedule(); });
   carousel.addEventListener("mouseenter", pause);
   carousel.addEventListener("mouseleave", resume);
