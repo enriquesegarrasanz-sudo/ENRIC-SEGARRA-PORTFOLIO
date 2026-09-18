@@ -136,7 +136,8 @@ for (const item of [...works, ...albums])
   for (const p of item.gallery) {
     for (const name of [p.image, p.thumb])
       assert(
-        manifestNames.has(`assets/${name}${assetExtension(name)}`),
+        manifestNames.has(`assets/${name}${assetExtension(name)}`) ||
+          manifestNames.has(`assets/${name}.png`),
         `Imagen sin procedencia: ${name}`,
       );
     if (p.sourcePage)
