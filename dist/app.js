@@ -195,7 +195,7 @@ function renderWorks(list, view) {
     : `<div class="work-walk">${list.map((w) => `<article class="walk-item reveal"><div><span class="reference">${esc(w.reference)}</span><h2>${esc(w.label)}</h2><p>${esc(w.series)}</p>${a("/obra/" + w.id, "Ver la obra" + (w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : "") + " " + arrow, "text-link")}</div>${a("/obra/" + w.id, img(w.image, w.alt))}</article>`).join("")}</div>`;
 }
 function setGallery(list, label) {
-  currentGallery = list;
+  currentGallery = list.slice();
   galleryLabel = label;
 }
 function galleryGrid(list, start = 0) {
