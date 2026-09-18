@@ -1122,7 +1122,7 @@ main {
 .artist-layout {
   display: grid;
   grid-template-columns: 1fr 1.25fr;
-  gap: 70px;
+  gap: 45px;
   align-items: start;
 }
 .artist-layout > img {
@@ -3243,7 +3243,7 @@ main {
   position: relative;
   overflow: hidden;
   aspect-ratio: 3 / 2;
-  background: #f8f7f3;
+  background: #f8f8f7;
 }
 .home-carousel-slides,
 .home-carousel-slide {
@@ -3305,8 +3305,8 @@ main {
   left: 18px;
   bottom: 16px;
   margin: 0;
-  padding: 7px 9px;
-  background: rgba(248, 247, 243, 0.9);
+  padding: 0;
+  background: transparent;
   color: #222;
   font-size: 10px;
   text-transform: uppercase;
@@ -3317,31 +3317,22 @@ main {
   z-index: 2;
   right: 18px;
   bottom: 15px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 .home-carousel-nav button {
-  width: 38px;
-  height: 38px;
-  border: 1px solid rgba(28, 28, 25, 0.5);
-  background: rgba(248, 247, 243, 0.92);
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: #222;
-  font-size: 18px;
+  font-size: 24px;
+  line-height: 1;
 }
 .home-carousel-nav button:hover,
 .home-carousel-nav button:focus-visible {
-  border-color: #222;
-  background: #fff;
-}
-.home-carousel-nav p {
-  min-width: 58px;
-  margin: 0;
-  padding: 10px 9px;
-  background: rgba(248, 247, 243, 0.92);
-  color: #222;
-  font-size: 11px;
-  text-align: center;
+  transform: translateX(3px);
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 @media (max-width: 760px) {
   .home-carousel-hero {

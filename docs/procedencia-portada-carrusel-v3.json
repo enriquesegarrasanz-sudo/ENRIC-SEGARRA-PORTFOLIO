@@ -1,0 +1,74 @@
+[
+  {
+    "asset": "assets/hero-portrait-real-neutral-v3.webp",
+    "archivo_id": null,
+    "original": "FOTOS ENRIC SEGARRA\\_DSC1856.jpg",
+    "transformacion": "Versión directa única para portada, generada exclusivamente desde la fotografía original: lienzo horizontal 3:2 y fondo de estudio blanco neutro #F8F8F7. Se preservan identidad, rostro, manos, ropa, pose, escultura y detalle fotográfico; no deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-circle-real-neutral-v3.webp",
+    "archivo_id": "ARC-008704",
+    "original": "assets/gallery-esc-054.webp",
+    "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2, fondo de estudio blanco neutro #F8F8F7 y luz suave. Se preservan íntegramente la escultura, su pátina, estructura circular y peana; no deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-figure-real-neutral-v3.webp",
+    "archivo_id": null,
+    "original": "codex-clipboard-96aa29d0-afff-4951-868a-a790a14cafa9.png (fotografía facilitada)",
+    "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2 y fondo de estudio blanco neutro #F8F8F7. Se conservan silueta, piedra, textura y volumen de la escultura; no deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-arcs-real-neutral-v3.webp",
+    "archivo_id": "ARC-008523",
+    "original": "assets/gallery-esc-032.webp",
+    "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2 y fondo de estudio blanco neutro #F8F8F7. Se preservan geometría, metal oxidado y peana; no deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-corrugated-real-neutral-v3.webp",
+    "archivo_id": "ARC-014755",
+    "original": "assets/gallery-014755.webp",
+    "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2, fondo de estudio blanco neutro #F8F8F7 y suspensión preservada desde el borde superior. No deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-baskets-real-neutral-v3.webp",
+    "archivo_id": null,
+    "original": "codex-clipboard-f568b7c0-75c2-47de-bd65-dc61afcfdacd.png (fotografía facilitada)",
+    "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2, fondo de estudio blanco neutro #F8F8F7 y suspensión preservada desde el borde superior. No deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-wire-real-neutral-v3.webp",
+    "archivo_id": null,
+    "original": "codex-clipboard-5dc3189c-8a43-4540-a8b1-864eb6bf263e.png (fotografía facilitada)",
+    "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2, fondo de estudio blanco neutro #F8F8F7 y suspensión preservada desde el borde superior. No deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-blue-green-drawing-real-neutral-v3.webp",
+    "archivo_id": null,
+    "original": "codex-clipboard-6c3cf709-6dd4-446d-b576-4162309f6eab.png (imagen completa facilitada)",
+    "transformacion": "Copia de presentación directa y completa de la imagen facilitada, sin recorte ni reinterpretación; formato horizontal 3:2 y fondo blanco neutro #F8F8F7.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "asset": "assets/hero-work-painted-relief-real-neutral-v3.webp",
+    "archivo_id": null,
+    "original": "codex-clipboard-34db4a16-fb8f-4c98-b81c-fff4fc13f597.png (fotografía facilitada)",
+    "transformacion": "Versión directa única desde la fotografía original: lienzo horizontal 3:2 y fondo de estudio blanco neutro #F8F8F7. Se preservan forma, trazo, color y textura del relieve; no deriva de una versión generada anterior.",
+    "width": 1536,
+    "height": 1024
+  }
+]
