@@ -1,5 +1,10 @@
 # Estado de la versión 0.4.0
 
+## Portada · dibujo completo y avance continuo · 18 de septiembre de 2026
+
+- Se incorpora como diapositiva el dibujo azul y verde completo facilitado para la portada, sin recorte ni reinterpretación.
+- El bucle permanece activo mientras la página está visible, incluso al situar el cursor sobre el carrusel. Se conserva la pausa para navegación con teclado y la preferencia de reducir movimiento.
+
 ## Portada · fuentes directas y blanco neutro · 18 de septiembre de 2026
 
 - El carrusel utiliza nueve versiones nuevas de presentación, cada una obtenida directamente de su fotografía de origen y sin volver a procesar una imagen ya generada. La procedencia específica de esta selección queda en `procedencia-portada-carrusel-v3.json`.

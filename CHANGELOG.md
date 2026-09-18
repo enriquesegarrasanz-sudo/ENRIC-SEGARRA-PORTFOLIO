@@ -1,5 +1,10 @@
 # Historial de cambios
 
+## Portada · dibujo completo y avance continuo — 2026-09-18
+
+- El dibujo azul y verde se sustituye por la imagen completa facilitada, sin recorte ni reinterpretación.
+- El carrusel continúa avanzando automáticamente aunque el cursor esté sobre la imagen; se mantiene la pausa al navegar con teclado y el respeto por reducir movimiento.
+
 ## Portada · fuentes directas y blanco neutro — 2026-09-18
 
 - Las nueve imágenes del carrusel se vuelven a preparar una sola vez y de forma directa desde sus fotografías de origen, sin encadenar versiones generadas.

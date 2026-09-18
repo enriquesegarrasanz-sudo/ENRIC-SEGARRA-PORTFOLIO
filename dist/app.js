@@ -816,8 +816,6 @@ function attachHomeCarousel() {
   const pause = () => { paused = true; stop(); };
   const resume = () => { paused = false; schedule(); };
   next.addEventListener("click", () => { show(index + 1); schedule(); });
-  carousel.addEventListener("mouseenter", pause);
-  carousel.addEventListener("mouseleave", resume);
   carousel.addEventListener("focusin", pause);
   carousel.addEventListener("focusout", (event) => {
     if (!carousel.contains(event.relatedTarget)) resume();
