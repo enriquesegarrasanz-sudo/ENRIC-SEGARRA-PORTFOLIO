@@ -4,6 +4,7 @@
 
 ## Ajuste visual · 18 de septiembre de 2026
 
+- MOV-012 («Curvas de tubo corrugado») utiliza como portada la segunda fotografía de su galería, manteniendo las tres vistas y sus referencias.
 - Obras infantiles, Talleres y Formación docente agrupan ahora todas las fotografías de cada apartado en un único archivo visual, con divisiones discretas por colección y miniaturas apaisadas. Exposiciones mantiene los álbumes organizados por contexto.
 - El índice de Arte infantil se presenta como un mosaico de cinco accesos, con fotografías horizontales y la misma jerarquía editorial del índice de Exposiciones. La imagen inicial es ahora una composición colectiva; «Textos y propuestas» se muestra como «Ideas para crear», sin retirar los documentos vinculados.
 - Rehechas las fotografías de catálogo de dibujo que presentaban cortes demasiado ajustados. Las nuevas versiones muestran la hoja o el marco completos, respetan las piezas verticales y corrigen la iluminación de forma global, sin alterar los trazos, firmas ni originales.
