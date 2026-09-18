@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Móviles · vistas de galería — 2026-09-18
+
+- Se actualizan las vistas interiores de dos galerías de móviles con fondos neutros de exposición. Los originales y la trazabilidad de cada fotografía se conservan.
+
 ## Exposición «Quatre» · portada documental — 2026-09-18
 
 - Se retira la fotografía vertical que abría el álbum y se coloca como portada la vista de sala `ARC-009286`, con las obras de la exposición.
