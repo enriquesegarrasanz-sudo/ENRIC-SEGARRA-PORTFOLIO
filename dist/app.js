@@ -22,6 +22,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
+import { applyTranslations, initLanguage } from "./i18n.js";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -36,14 +37,13 @@ const num = (n) => String(n).padStart(2, "0"),
   catName = (id) => categories.find((c) => c.id === id)?.label || id;
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
-const assetExtension = (name) =>
-  name.endsWith("-cool-neutral-v2") || name.endsWith("-estudio-v3")
-    ? ".png"
-    : name === "retrato-artista"
-      ? ".jpg"
+const asset = (name, local = false) => {
+  const extension =
+    name.endsWith("-estudio-v3") || name.endsWith("-cool-neutral-v2")
+      ? ".png"
       : ".webp";
-const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}${assetExtension(name)}?v=20260918-moviles-blanco-frio`;
+  return `${local ? "review" : "assets"}/${encodeURIComponent(name)}${extension}?v=20260918-pintura-regenerada`;
+};
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
@@ -120,20 +120,20 @@ function familyOptions(pool, category) {
 function home() {
   const slides = [
     {
-      image: "hero-portrait-warm-neutral.webp",
+      image: "hero-portrait-real-neutral-v3.webp",
       alt: "SEGARRA Y GARIBO sostiene una escultura de madera",
       kind: "presentación",
     },
-    { image: "hero-work-circle.webp", alt: "Escultura circular de metal y piezas articuladas", kind: "escultura" },
-    { image: "hero-work-figure.webp", alt: "Escultura vertical de piedra clara", kind: "escultura" },
-    { image: "hero-work-arcs.webp", alt: "Escultura oscura de brazos curvos sobre una peana", kind: "escultura" },
-    { image: "hero-work-corrugated.webp", alt: "Móvil suspendido de tubos corrugados", kind: "móvil" },
-    { image: "hero-work-baskets.webp", alt: "Móvil suspendido compuesto por cestas y elementos de color", kind: "móvil" },
-    { image: "hero-work-wire.webp", alt: "Estructura suspendida de alambre y esferas de madera", kind: "móvil" },
-    { image: "hero-work-blue-green-drawing.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
-    { image: "hero-work-painted-relief.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
+    { image: "hero-work-circle-real-neutral-v3.webp", alt: "Escultura circular de metal y piezas articuladas", kind: "escultura" },
+    { image: "hero-work-figure-real-neutral-v3.webp", alt: "Escultura vertical de piedra clara", kind: "escultura" },
+    { image: "hero-work-arcs-real-neutral-v3.webp", alt: "Escultura oscura de brazos curvos sobre una peana", kind: "escultura" },
+    { image: "hero-work-corrugated-real-neutral-v3.webp", alt: "Móvil suspendido de tubos corrugados", kind: "móvil" },
+    { image: "hero-work-baskets-real-neutral-v3.webp", alt: "Móvil suspendido compuesto por cestas y elementos de color", kind: "móvil" },
+    { image: "hero-work-wire-real-neutral-v3.webp", alt: "Estructura suspendida de alambre y esferas de madera", kind: "móvil" },
+    { image: "hero-work-blue-green-drawing-real-neutral-v3.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
+    { image: "hero-work-painted-relief-real-neutral-v3.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
   ];
-  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de SEGARRA Y GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav" aria-label="Controles del carrusel"><button type="button" data-home-carousel-prev aria-label="Obra anterior">←</button><p aria-live="polite"><span data-home-carousel-current>01</span><span aria-hidden="true"> / </span><span>09</span><span class="sr-only">, de nueve</span></p><button type="button" data-home-carousel-next aria-label="Obra siguiente">→</button></div></div></section>`;
+  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de SEGARRA Y GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -199,7 +199,7 @@ function renderWorks(list, view) {
     : `<div class="work-walk">${list.map((w) => `<article class="walk-item reveal"><div><span class="reference">${esc(w.reference)}</span><h2>${esc(w.label)}</h2><p>${esc(w.series)}</p>${a("/obra/" + w.id, "Ver la obra" + (w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : "") + " " + arrow, "text-link")}</div>${a("/obra/" + w.id, img(w.image, w.alt))}</article>`).join("")}</div>`;
 }
 function setGallery(list, label) {
-  currentGallery = list;
+  currentGallery = list.slice();
   galleryLabel = label;
 }
 function galleryGrid(list, start = 0) {
@@ -239,7 +239,7 @@ function workDetail(w) {
     .slice(0, 3);
   return (
     trail("/obra/" + w.category, catName(w.category), w.reference) +
-    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.category === "escultura" ? sculptureFamilyFor(w) : w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>ENRIQUE SEGARRA I GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
+    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.category === "escultura" ? sculptureFamilyFor(w) : w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
   );
 }
 function albumPage(al) {
@@ -609,14 +609,14 @@ function attachJourneyEvents() {
 
 function artist() {
   return (
-    head("El artista", "ENRIQUE SEGARRA I GARIBO", site.intro) +
-    `<section class="artist-layout">${img("retrato-artista", "ENRIQUE SEGARRA I GARIBO en un retrato de estudio", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, ENRIQUE SEGARRA I GARIBO desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística, los proyectos compartidos y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones y proyectos"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
+    head("El artista", "ENRIC SEGARRA I GARIBO", site.intro) +
+    `<section class="artist-layout">${img("retrato-artista", "ENRIC SEGARRA I GARIBO en un retrato de estudio", true)}<div>${prose(["Nacido en Barcelona en 1959 y formado en Bellas Artes en Valencia, ENRIC SEGARRA I GARIBO desarrolla una práctica que se mueve entre la escultura, la pintura y el dibujo. El conocimiento del oficio convive con la curiosidad por los materiales y con una atención constante a las formas de la naturaleza.", "Su trayectoria incluye la educación artística, los proyectos compartidos y la actividad expositiva. En los talleres, el volumen y la experimentación se convierten en una manera de acompañar la imaginación de los participantes.", "En su trabajo actual, las esculturas suspendidas mantienen abierta esa búsqueda. Piezas, colores y elementos recuperados se encuentran en composiciones que dialogan con el aire y el entorno."])}${a("/memoria", "Recorrer su trayectoria " + arrow, "text-link")}</div></section><section class="section">${sectionHead("Distintas formas de una misma búsqueda")}<div class="principles">${["Escultura y materia", "Pintura y dibujo", "Educación artística", "Exposiciones y proyectos"].map((t, i) => `<article><span class="reference">${num(i + 1)}</span><h3>${t}</h3>${a(["/obra/escultura", "/obra/pintura", "/arte-infantil", "/exposiciones"][i], "Explorar " + arrow)}</article>`).join("")}</div></section>`
   );
 }
 function contact() {
   return (
     head("Información", "Contacto", site.contactText) +
-    `<div class="prose"><p>Este espacio reúne la obra y la memoria artística de ENRIQUE SEGARRA I GARIBO. El archivo sigue creciendo con la identificación de piezas, documentos y fotografías.</p></div><div class="end-link">${a("/obra", "Volver a la obra " + arrow)}</div>`
+    `<div class="prose"><p>Este espacio reúne la obra y la memoria artística de ENRIC SEGARRA I GARIBO. El archivo sigue creciendo con la identificación de piezas, documentos y fotografías.</p></div><div class="end-link">${a("/obra", "Volver a la obra " + arrow)}</div>`
   );
 }
 function notFound() {
@@ -647,7 +647,7 @@ function render({ keepScroll = false } = {}) {
   }
   if (section === "inicio") {
     html = home();
-    title = "ENRIQUE SEGARRA I GARIBO";
+    title = "ENRIC SEGARRA I GARIBO";
   } else if (section === "obra") {
     if (!id || categories.some((c) => c.id === id)) {
       html = workIndex(id || "todas", params);
@@ -731,8 +731,8 @@ function render({ keepScroll = false } = {}) {
   routeKey = raw;
   attachPageEvents();
   attachArchiveEvents();
-  attachFamilySlideshows();
-  attachHomeCarousel();
+  attachJourneyEvents();
+  applyTranslations(document);
   observe();
   if (shouldRevealSculptureResults) {
     requestAnimationFrame(() => {
@@ -794,8 +794,6 @@ function attachHomeCarousel() {
   const carousel = document.querySelector("[data-home-carousel]");
   if (!carousel) return;
   const slides = [...carousel.querySelectorAll("[data-home-slide]")];
-  const current = carousel.querySelector("[data-home-carousel-current]");
-  const previous = carousel.querySelector("[data-home-carousel-prev]");
   const next = carousel.querySelector("[data-home-carousel-next]");
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
   let index = 0, timer = null, paused = false;
@@ -805,7 +803,6 @@ function attachHomeCarousel() {
     index = (target + slides.length) % slides.length;
     slides[index].classList.add("is-active");
     slides[index].setAttribute("aria-hidden", "false");
-    current.textContent = num(index + 1);
   };
   const stop = () => {
     if (timer) window.clearTimeout(timer);
@@ -817,12 +814,11 @@ function attachHomeCarousel() {
       timer = window.setTimeout(() => {
         show(index + 1);
         schedule();
-      }, 4800);
+      }, 4000);
     }
   };
   const pause = () => { paused = true; stop(); };
   const resume = () => { paused = false; schedule(); };
-  previous.addEventListener("click", () => { show(index - 1); schedule(); });
   next.addEventListener("click", () => { show(index + 1); schedule(); });
   carousel.addEventListener("mouseenter", pause);
   carousel.addEventListener("mouseleave", resume);
@@ -997,7 +993,20 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeMenu();
 });
 window.addEventListener("hashchange", () => render());
+initLanguage();
 render();
+const artistName = "ENRIC SEGARRA I GARIBO";
+const replaceArtistName = () => {
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  while (walker.nextNode()) {
+    walker.currentNode.nodeValue = walker.currentNode.nodeValue.replaceAll("ENRIQUE SEGARRA I GARIBO", artistName);
+  }
+  document.querySelectorAll(".home-carousel-intro h1").forEach((heading) => {
+    heading.innerHTML = "ENRIC SEGARRA<br>I GARIBO";
+  });
+};
+replaceArtistName();
+new MutationObserver(replaceArtistName).observe(document.body, { childList: true, subtree: true });
 // Fotografías de participantes: solo en la revisión local, fuera del repositorio público.
 if (["127.0.0.1", "localhost", "[::1]"].includes(location.hostname)) {
   fetch("local-gallery.json")

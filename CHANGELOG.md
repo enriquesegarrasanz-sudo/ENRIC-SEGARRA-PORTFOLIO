@@ -1,15 +1,17 @@
 # Historial de cambios
 
-## Pintura · edición de estudio — 2026-09-18
+## Portada · fuentes directas y blanco neutro — 2026-09-18
 
-- Las 80 obras de pintura cuentan con una nueva versión pública de estudio: luz uniforme, fondo blanco cálido, color y contraste equilibrados.
-- Cada pieza conserva su orientación, su encuadre completo y todos sus bordes; las fotografías de origen no se sustituyen.
+- Las nueve imágenes del carrusel se vuelven a preparar una sola vez y de forma directa desde sus fotografías de origen, sin encadenar versiones generadas.
+- El retrato parte de `_DSC1856.jpg` y conserva identidad, manos, escultura y detalle fotográfico. Las ocho obras mantienen sus superficies, siluetas y elementos de suspensión.
+- Todas comparten formato horizontal 3:2 y el mismo fondo de estudio blanco neutro `#F8F8F7`. El carrusel conserva el avance automático y muestra solo una flecha discreta para avanzar.
 
 ## Portada · carrusel de obra — 2026-09-18
 
 - La portada reúne el retrato y ocho obras únicas facilitadas para esta selección; se excluyen las imágenes repetidas.
-- Todas las diapositivas usan un lienzo horizontal 3:2 y una presentación de galería coherente. El retrato pasa a fondo blanco cálido; las piezas se mantienen completas y centradas.
-- El carrusel avanza en bucle cada 4,8 segundos, ofrece controles manuales, se detiene al interactuar y respeta la preferencia de reducir movimiento.
+- Todas las diapositivas usan un lienzo horizontal 16:9 en escritorio y una presentación de galería coherente. Las piezas se mantienen completas y centradas, sin recortes.
+- El carrusel avanza en bucle cada 4 segundos, ofrece controles manuales, se detiene al interactuar y respeta la preferencia de reducir movimiento; la transición dura 0,6 segundos.
+- La identidad pública se muestra como «ENRIC SEGARRA I GARIBO» en cabecera, metadatos, autorías y sección Artista.
 - Las dos imágenes de menor definición se preparan como restauraciones de presentación separadas y trazables; los originales no se sobrescriben.
 
 ## Fichas de obra · edición de sala — 2026-09-18
@@ -17,6 +19,10 @@
 - Las fichas muestran una única lectura editorial: título, descripción visual y autor.
 - Se retiran de la vista pública referencias, disciplina, familia, avisos provisionales, recuentos de fotografías y campos de identificación; se conservan como datos internos.
 - Los títulos y descripciones se rehacen para cada obra a partir de sus formas, colores y motivos visibles.
+
+## Móviles · vistas de galería — 2026-09-18
+
+- Se actualizan las vistas interiores de dos galerías de móviles con fondos neutros de exposición. Los originales y la trazabilidad de cada fotografía se conservan.
 
 ## Exposición «Quatre» · portada documental — 2026-09-18
 
@@ -150,6 +156,7 @@
 - Fotografías ligeras y trazables, sin modificación estética de los originales.
 - Navegación adaptable a móvil y ampliación accesible de imágenes.
 - Instrucciones de edición, comprobación y guardado al finalizar futuros cambios.
-## 18 de septiembre de 2026
 
-- MOV-012 («Curvas de tubo corrugado») abre ahora con la segunda fotografía de su galería como imagen de portada.
+## Próximo
+
+- Añade selector de idioma persistente para castellano, catalán, inglés, francés y chino simplificado, con traducción de la navegación y de la interfaz principal.

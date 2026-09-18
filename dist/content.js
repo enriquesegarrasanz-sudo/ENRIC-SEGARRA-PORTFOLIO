@@ -1,7 +1,7 @@
 // Contenido editable. Los nombres de piezas son descripciones provisionales,
 // no títulos del artista. No completar fechas, técnicas o medidas por inferencia.
 export const site = {
-  name: "ENRIQUE SEGARRA I GARIBO",
+  name: "ENRIC SEGARRA I GARIBO",
   contactEmail: null,
   contactText: "El contacto profesional se incorporará próximamente.",
   intro:
@@ -51,7 +51,7 @@ export const albums = [
     place: "Sala d’Exposicions de les Belles Arts · Valencia",
     searchTerms: "Bellas Artes Valencia",
     source:
-      "Reunión de los fondos «Exposición Arte Infantil», «Expo Galería d’art» y «dibujos y pinturas ENRIQUE SEGARRA I GARIBO». La invitación ARC-013418 documenta el título, la sede y las fechas de «Evolución 1984–2004».",
+      "Reunión de los fondos «Exposición Arte Infantil», «Expo Galería d’art» y «dibujos y pinturas ENRIC SEGARRA I GARIBO». La invitación ARC-013418 documenta el título, la sede y las fechas de «Evolución 1984–2004».",
   },
 ];
 export const albumRedirects = {

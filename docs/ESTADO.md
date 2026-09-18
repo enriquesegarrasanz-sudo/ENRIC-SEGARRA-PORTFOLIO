@@ -1,15 +1,16 @@
 # Estado de la versión 0.4.0
 
-## Pintura · edición de estudio · 18 de septiembre de 2026
+## Portada · fuentes directas y blanco neutro · 18 de septiembre de 2026
 
-- Se publican 80 versiones de presentación de las obras de pintura con fondo de estudio e iluminación uniforme. Se conservan formato vertical, horizontal o cuadrado y el contorno completo de cada obra, sin recortes.
-- Las versiones previas y las fotografías de origen permanecen intactas como respaldo.
+- El carrusel utiliza nueve versiones nuevas de presentación, cada una obtenida directamente de su fotografía de origen y sin volver a procesar una imagen ya generada. La procedencia específica de esta selección queda en `procedencia-portada-carrusel-v3.json`.
+- Las nueve entradas comparten fondo de estudio blanco neutro `#F8F8F7`, formato 3:2 y composición de obra completa. La portada conserva el avance automático y un único control de siguiente, de presencia mínima.
 
 ## Portada · carrusel de obra · 18 de septiembre de 2026
 
-- La portada muestra el retrato y ocho obras únicas de la selección facilitada, todas en formato 3:2 y con fondo de galería coherente. Las repeticiones de la estructura de alambre y del dibujo azul-verde no se incorporan.
+- La portada muestra el retrato y ocho obras únicas de la selección facilitada, con formato 16:9 en escritorio y fondo de galería coherente. Las piezas se mantienen completas y centradas; las repeticiones de la estructura de alambre y del dibujo azul-verde no se incorporan.
 - El recorrido se reproduce en bucle y puede controlarse con teclado o botones. Se pausa ante interacción y no avanza automáticamente cuando el sistema solicita reducir el movimiento.
 - Las versiones derivadas se registran en `procedencia-imagenes.json`; los originales siguen intactos.
+- La identidad pública se presenta como «ENRIC SEGARRA I GARIBO», también en la sección Artista y en las autorías visibles.
 
 ## Fichas de obra · edición de sala · 18 de septiembre de 2026
 
@@ -19,6 +20,7 @@
 ## Escultura · ampliación de vistas secundarias · 18 de septiembre de 2026
 
 - Se incorporan 89 vistas secundarias de presentación y sus miniaturas en 34 fichas de escultura. La ficha conserva tanto sus referencias ARC como la procedencia de cada versión; los originales no se reemplazan.
+- Dos galerías de móviles incorporan sus versiones de presentación con fondo neutro, siempre vinculadas a sus referencias de archivo.
 - La comprobación de publicación confirma que el catálogo apunta a recursos públicos existentes y que el material privado de revisión permanece excluido de Git.
 
 ## Móviles · selección de vistas · 18 de septiembre de 2026
@@ -48,7 +50,7 @@
 
 - La web adopta «SEGARRA Y GARIBO» como nombre artístico público en su portada, navegación, créditos, perfil y metadatos. Las referencias archivísticas con la denominación histórica se mantienen para preservar su procedencia.
 
-- En curso la normalización de vistas secundarias de Escultura. La primera tanda incorpora doce versiones de ESC-006, ESC-008, ESC-009, ESC-010, ESC-011 y ESC-012, conservando referencias ARC, proporciones y originales. Las fotografías en contexto de ESC-047 a ESC-052 permanecen documentales.
+- Completada la normalización de las vistas secundarias seleccionadas de Escultura, conservando referencias ARC, proporciones y originales. Las fotografías en contexto de ESC-047 a ESC-052 permanecen documentales.
 - ESC-043 («Flores de engranajes») ya presenta sus cuatro vistas con el mismo fondo blanco cálido-neutro y una luz editorial coherente. Las tres vistas secundarias mantienen sus dimensiones y encuadres originales, se incorporan con nuevas referencias de activo y conservan intactas las fotografías ARC de partida.
 - Índice de exposiciones rediseñado como recorrido horizontal, con acceso a las vistas completas de sala, lugar y fecha cuando constan. La presentación de los dibujos se unifica y se incorporan los recursos de la Sala d’Exposicions de les Belles Arts, conservando sus contextos documentales.
 - Tratamiento de galería aplicado a 49 portadas de Escultura: fondo blanco neutro, luz difusa, formato 1536 × 1024, miniaturas 768 × 512 y grano fotográfico fino. Las instalaciones ESC-047 a ESC-052 mantienen las fotografías originales en naturaleza; no se altera ese contexto.
@@ -87,3 +89,9 @@ En navegador se verificaron la portada, acceso a exposición, filtros y carga pr
 ## Guardado
 
 Rama de corrección: fix/pintura-fidelidad, creada sobre la versión pública anterior. Conserva intactos los originales y la primera versión de estudio. Esta entrega se guarda en Git; los archivos de revisión y fotografías privadas continúan fuera del repositorio público.
+
+### Idiomas
+
+- La web permite cambiar entre castellano, catalán, inglés, francés y chino simplificado desde el selector de la cabecera.
+- La preferencia se conserva en el navegador y la interfaz se actualiza al volver a cargar la página.
+- Los nombres descriptivos y textos de archivo que todavía no tienen traducción editorial conservan su redacción original para no alterar la identificación documental.

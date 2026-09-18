@@ -22,7 +22,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014596",
-        "thumb": "gallery-014596-thumb",
+        "thumb": "gallery-014596",
         "archiveId": "ARC-014596",
         "alt": "Composición suspendida en rosa. Fotografía 2",
         "sourceName": "DSC02380.ARW",
@@ -30,7 +30,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014600",
-        "thumb": "gallery-014600-thumb",
+        "thumb": "gallery-014600",
         "archiveId": "ARC-014600",
         "alt": "Composición suspendida en rosa. Fotografía 3",
         "sourceName": "DSC02384.ARW",
@@ -60,7 +60,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014608",
-        "thumb": "gallery-014608-thumb",
+        "thumb": "gallery-014608",
         "archiveId": "ARC-014608",
         "alt": "Una línea en suspensión. Fotografía 2",
         "sourceName": "DSC02392.ARW",
@@ -68,7 +68,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014613",
-        "thumb": "gallery-014613-thumb",
+        "thumb": "gallery-014613",
         "archiveId": "ARC-014613",
         "alt": "Una línea en suspensión. Fotografía 3",
         "sourceName": "DSC02397.ARW",
@@ -84,7 +84,7 @@ export const catalogue = [
     "chapter": "seguir-creando",
     "reference": "MOV-003",
     "image": "gallery-014616",
-    "thumb": "gallery-014616-thumb",
+    "thumb": "gallery-014616",
     "alt": "Rama oscura, acentos rojos",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
@@ -98,7 +98,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014619",
-        "thumb": "gallery-014619-thumb",
+        "thumb": "gallery-014619",
         "archiveId": "ARC-014619",
         "alt": "Rama oscura, acentos rojos. Fotografía 2",
         "sourceName": "DSC02403.ARW",
@@ -106,7 +106,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014622",
-        "thumb": "gallery-014622-thumb",
+        "thumb": "gallery-014622",
         "archiveId": "ARC-014622",
         "alt": "Rama oscura, acentos rojos. Fotografía 3",
         "sourceName": "DSC02406.ARW",
@@ -136,7 +136,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014629",
-        "thumb": "gallery-014629-thumb",
+        "thumb": "gallery-014629",
         "archiveId": "ARC-014629",
         "alt": "Figuras sobre una barra roja. Fotografía 2",
         "sourceName": "DSC02413.ARW",
@@ -144,7 +144,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014633",
-        "thumb": "gallery-014633-thumb",
+        "thumb": "gallery-014633",
         "archiveId": "ARC-014633",
         "alt": "Figuras sobre una barra roja. Fotografía 3",
         "sourceName": "DSC02417.ARW",
@@ -174,7 +174,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014639",
-        "thumb": "gallery-014639-thumb",
+        "thumb": "gallery-014639",
         "archiveId": "ARC-014639",
         "alt": "Forma suspendida en verde. Fotografía 2",
         "sourceName": "DSC02423.ARW",
@@ -182,7 +182,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014650",
-        "thumb": "gallery-014650-thumb",
+        "thumb": "gallery-014650",
         "archiveId": "ARC-014650",
         "alt": "Forma suspendida en verde. Fotografía 3",
         "sourceName": "DSC02434.ARW",
@@ -190,7 +190,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014656",
-        "thumb": "gallery-014656-thumb",
+        "thumb": "gallery-014656",
         "archiveId": "ARC-014656",
         "alt": "Forma suspendida en verde. Fotografía 4",
         "sourceName": "DSC02440.ARW",
@@ -198,7 +198,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-009174",
-        "thumb": "gallery-009174-thumb",
+        "thumb": "gallery-009174",
         "archiveId": "ARC-009174",
         "alt": "Forma suspendida en verde. Fotografía 5",
         "sourceName": "IMG_20180321_113546.jpg",
@@ -214,13 +214,13 @@ export const catalogue = [
     "chapter": "seguir-creando",
     "reference": "MOV-006",
     "image": "gallery-014666",
-    "thumb": "gallery-014666-thumb",
+    "thumb": "gallery-014666",
     "alt": "Tubos rosas sobre un arco",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
         "image": "gallery-014666",
-        "thumb": "gallery-014666-thumb",
+        "thumb": "gallery-014666",
         "archiveId": "ARC-014666",
         "alt": "Tubos rosas sobre un arco. Fotografía 1",
         "sourceName": "DSC02450.ARW",
@@ -236,7 +236,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014673",
-        "thumb": "gallery-014673-thumb",
+        "thumb": "gallery-014673",
         "archiveId": "ARC-014673",
         "alt": "Tubos rosas sobre un arco. Fotografía 3",
         "sourceName": "DSC02457.ARW",
@@ -244,7 +244,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-009220",
-        "thumb": "gallery-009220-thumb",
+        "thumb": "gallery-009220",
         "archiveId": "ARC-009220",
         "alt": "Tubos rosas sobre un arco. Fotografía 4",
         "sourceName": "DSC03783.jpg",
@@ -252,7 +252,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-009246",
-        "thumb": "gallery-009246-thumb",
+        "thumb": "gallery-009246",
         "archiveId": "ARC-009246",
         "alt": "Tubos rosas sobre un arco. Fotografía 5",
         "sourceName": "IMG_20150512_114051.jpg",
@@ -282,7 +282,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014685",
-        "thumb": "gallery-014685-thumb",
+        "thumb": "gallery-014685",
         "archiveId": "ARC-014685",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 2",
         "sourceName": "DSC02469.ARW",
@@ -290,7 +290,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014689",
-        "thumb": "gallery-014689-thumb",
+        "thumb": "gallery-014689",
         "archiveId": "ARC-014689",
         "alt": "Estructura clara y elementos cilíndricos. Fotografía 3",
         "sourceName": "DSC02473.ARW",
@@ -320,7 +320,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014701",
-        "thumb": "gallery-014701-thumb",
+        "thumb": "gallery-014701",
         "archiveId": "ARC-014701",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 2",
         "sourceName": "DSC02485.ARW",
@@ -328,7 +328,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014707",
-        "thumb": "gallery-014707-thumb",
+        "thumb": "gallery-014707",
         "archiveId": "ARC-014707",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 3",
         "sourceName": "DSC02491.ARW",
@@ -336,7 +336,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014712",
-        "thumb": "gallery-014712-thumb",
+        "thumb": "gallery-014712",
         "archiveId": "ARC-014712",
         "alt": "Pequeño volumen abierto en rosa. Fotografía 4",
         "sourceName": "DSC02496.ARW",
@@ -366,7 +366,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014718",
-        "thumb": "gallery-014718-thumb",
+        "thumb": "gallery-014718",
         "archiveId": "ARC-014718",
         "alt": "Una columna de discos rosas. Fotografía 2",
         "sourceName": "DSC02502.ARW",
@@ -396,7 +396,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014725",
-        "thumb": "gallery-014725-thumb",
+        "thumb": "gallery-014725",
         "archiveId": "ARC-014725",
         "alt": "Escalera de elementos claros. Fotografía 2",
         "sourceName": "DSC02509.ARW",
@@ -426,7 +426,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014734",
-        "thumb": "gallery-014734-thumb",
+        "thumb": "gallery-014734",
         "archiveId": "ARC-014734",
         "alt": "Líneas rosas ramificadas. Fotografía 2",
         "sourceName": "DSC02518.ARW",
@@ -434,7 +434,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014740",
-        "thumb": "gallery-014740-thumb",
+        "thumb": "gallery-014740",
         "archiveId": "ARC-014740",
         "alt": "Líneas rosas ramificadas. Fotografía 3",
         "sourceName": "DSC02524.ARW",
@@ -442,7 +442,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014746",
-        "thumb": "gallery-014746-thumb",
+        "thumb": "gallery-014746",
         "archiveId": "ARC-014746",
         "alt": "Líneas rosas ramificadas. Fotografía 4",
         "sourceName": "DSC02530.ARW",
@@ -458,7 +458,7 @@ export const catalogue = [
     "chapter": "seguir-creando",
     "reference": "MOV-012",
     "image": "gallery-014755",
-    "thumb": "gallery-014755-thumb",
+    "thumb": "gallery-014755",
     "alt": "Curvas de tubo corrugado",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
@@ -472,7 +472,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014755",
-        "thumb": "gallery-014755-thumb",
+        "thumb": "gallery-014755",
         "archiveId": "ARC-014755",
         "alt": "Curvas de tubo corrugado. Fotografía 2",
         "sourceName": "DSC02539.ARW",
@@ -480,7 +480,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014761",
-        "thumb": "gallery-014761-thumb",
+        "thumb": "gallery-014761",
         "archiveId": "ARC-014761",
         "alt": "Curvas de tubo corrugado. Fotografía 3",
         "sourceName": "DSC02545.ARW",
@@ -510,7 +510,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014768",
-        "thumb": "gallery-014768-thumb",
+        "thumb": "gallery-014768",
         "archiveId": "ARC-014768",
         "alt": "Discos rosas en dos recorridos. Fotografía 2",
         "sourceName": "DSC02552.ARW",
@@ -518,7 +518,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-014771",
-        "thumb": "gallery-014771-thumb",
+        "thumb": "gallery-014771",
         "archiveId": "ARC-014771",
         "alt": "Discos rosas en dos recorridos. Fotografía 3",
         "sourceName": "DSC02555.ARW",
@@ -539,52 +539,12 @@ export const catalogue = [
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-014774",
-        "thumb": "thumb-014774",
+        "image": "gallery-014774-cool-neutral-v2",
+        "thumb": "gallery-014774-cool-neutral-v2",
         "archiveId": "ARC-014774",
-        "alt": "Composición de aros. Fotografía 1",
+        "alt": "Composición de aros. Fotografía de estudio",
         "sourceName": "DSC02558.ARW",
         "contentKey": "00062c3dafc600d1762ddef3b6bddd2545d5a758802e19d293dbb7d748c8e27e"
-      },
-      {
-        "image": "review-014783",
-        "thumb": "thumb-014783",
-        "archiveId": "ARC-014783",
-        "alt": "Composición de aros. Fotografía 2",
-        "sourceName": "DSC02567.ARW",
-        "contentKey": "ARC-014783"
-      },
-      {
-        "image": "review-014793",
-        "thumb": "thumb-014793",
-        "archiveId": "ARC-014793",
-        "alt": "Composición de aros. Fotografía 3",
-        "sourceName": "DSC02577.ARW",
-        "contentKey": "ARC-014793"
-      },
-      {
-        "image": "review-014801",
-        "thumb": "thumb-014801",
-        "archiveId": "ARC-014801",
-        "alt": "Composición de aros. Fotografía 4",
-        "sourceName": "DSC02585.ARW",
-        "contentKey": "ARC-014801"
-      },
-      {
-        "image": "review-014812",
-        "thumb": "thumb-014812",
-        "archiveId": "ARC-014812",
-        "alt": "Composición de aros. Fotografía 5",
-        "sourceName": "DSC02596.ARW",
-        "contentKey": "d2f94d7ee40ed9b8066317f80c1d60e316007763f0595228dad8e1a4da3f1819"
-      },
-      {
-        "image": "arc-014819",
-        "thumb": "thumb-014819",
-        "archiveId": "ARC-014819",
-        "alt": "Composición de aros. Fotografía 6",
-        "sourceName": "DSC02603.ARW",
-        "contentKey": "ARC-014819"
       }
     ]
   },
@@ -602,7 +562,7 @@ export const catalogue = [
     "gallery": [
       {
         "image": "arc-014821",
-        "thumb": "thumb-014821",
+        "thumb": "arc-014821",
         "archiveId": "ARC-014821",
         "alt": "Una forma articulada. Fotografía 1",
         "sourceName": "DSC02605.ARW",
@@ -610,7 +570,7 @@ export const catalogue = [
       },
       {
         "image": "review-014825",
-        "thumb": "thumb-014825",
+        "thumb": "review-014825",
         "archiveId": "ARC-014825",
         "alt": "Una forma articulada. Fotografía 2",
         "sourceName": "DSC02609.ARW",
@@ -618,7 +578,7 @@ export const catalogue = [
       },
       {
         "image": "review-014831",
-        "thumb": "thumb-014831",
+        "thumb": "review-014831",
         "archiveId": "ARC-014831",
         "alt": "Una forma articulada. Fotografía 3",
         "sourceName": "DSC02615.ARW",
@@ -626,7 +586,7 @@ export const catalogue = [
       },
       {
         "image": "review-014837",
-        "thumb": "thumb-014837",
+        "thumb": "review-014837",
         "archiveId": "ARC-014837",
         "alt": "Una forma articulada. Fotografía 4",
         "sourceName": "DSC02621.ARW",
@@ -634,7 +594,7 @@ export const catalogue = [
       },
       {
         "image": "review-014581",
-        "thumb": "thumb-014581",
+        "thumb": "review-014581",
         "archiveId": "ARC-014581",
         "alt": "Una forma articulada. Fotografía 5",
         "sourceName": "_DSC7892.ARW",
@@ -656,7 +616,7 @@ export const catalogue = [
     "gallery": [
       {
         "image": "nature-014847",
-        "thumb": "nature-014847-thumb",
+        "thumb": "nature-014847",
         "archiveId": "ARC-014847",
         "alt": "Pieza entre las ramas. Fotografía 1",
         "sourceName": "DSC02291.ARW",
@@ -664,7 +624,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014856",
-        "thumb": "thumb-014856",
+        "thumb": "arc-014856",
         "archiveId": "ARC-014856",
         "alt": "Pieza entre las ramas. Fotografía 2",
         "sourceName": "DSC02300.ARW",
@@ -672,7 +632,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014863",
-        "thumb": "thumb-014863",
+        "thumb": "arc-014863",
         "archiveId": "ARC-014863",
         "alt": "Pieza entre las ramas. Fotografía 3",
         "sourceName": "DSC02307.ARW",
@@ -680,7 +640,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014901",
-        "thumb": "thumb-014901",
+        "thumb": "arc-014901",
         "archiveId": "ARC-014901",
         "alt": "Pieza entre las ramas. Fotografía 4",
         "sourceName": "DSC02345.ARW",
@@ -688,7 +648,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014931",
-        "thumb": "thumb-014931",
+        "thumb": "arc-014931",
         "archiveId": "ARC-014931",
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260326123629.jpg",
@@ -696,7 +656,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014932",
-        "thumb": "thumb-014932",
+        "thumb": "arc-014932",
         "archiveId": "ARC-014932",
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260326123638.jpg",
@@ -704,7 +664,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014950",
-        "thumb": "thumb-014950",
+        "thumb": "arc-014950",
         "archiveId": "ARC-014950",
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260405201339.jpg",
@@ -712,7 +672,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014951",
-        "thumb": "thumb-014951",
+        "thumb": "arc-014951",
         "archiveId": "ARC-014951",
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260405201357.jpg",
@@ -720,7 +680,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014952",
-        "thumb": "thumb-014952",
+        "thumb": "arc-014952",
         "archiveId": "ARC-014952",
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260405201405.jpg",
@@ -728,7 +688,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014953",
-        "thumb": "thumb-014953",
+        "thumb": "arc-014953",
         "archiveId": "ARC-014953",
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260405201427.jpg",
@@ -736,7 +696,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014954",
-        "thumb": "thumb-014954",
+        "thumb": "arc-014954",
         "archiveId": "ARC-014954",
         "alt": "Pieza entre las ramas · vista del archivo",
         "sourceName": "IMG20260405201520.jpg",
@@ -752,13 +712,13 @@ export const catalogue = [
     "chapter": "seguir-creando",
     "reference": "MOV-017",
     "image": "nature-014851",
-    "thumb": "nature-014851-thumb",
+    "thumb": "nature-014851",
     "alt": "Planos de color entre los árboles",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
         "image": "nature-014851",
-        "thumb": "nature-014851-thumb",
+        "thumb": "nature-014851",
         "archiveId": "ARC-014851",
         "alt": "Planos de color entre los árboles. Fotografía 1",
         "sourceName": "DSC02295.ARW",
@@ -780,7 +740,7 @@ export const catalogue = [
     "gallery": [
       {
         "image": "nature-014880",
-        "thumb": "nature-014880-thumb",
+        "thumb": "nature-014880",
         "archiveId": "ARC-014880",
         "alt": "Líneas de color al aire libre. Fotografía 1",
         "sourceName": "DSC02324.ARW",
@@ -788,7 +748,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014883",
-        "thumb": "thumb-014883",
+        "thumb": "arc-014883",
         "archiveId": "ARC-014883",
         "alt": "Líneas de color al aire libre. Fotografía 2",
         "sourceName": "DSC02327.ARW",
@@ -796,7 +756,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014886",
-        "thumb": "thumb-014886",
+        "thumb": "arc-014886",
         "archiveId": "ARC-014886",
         "alt": "Líneas de color al aire libre. Fotografía 3",
         "sourceName": "DSC02330.ARW",
@@ -804,7 +764,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014933",
-        "thumb": "thumb-014933",
+        "thumb": "arc-014933",
         "archiveId": "ARC-014933",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260326123734.jpg",
@@ -812,7 +772,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014935",
-        "thumb": "thumb-014935",
+        "thumb": "arc-014935",
         "archiveId": "ARC-014935",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260326123802.jpg",
@@ -820,7 +780,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014936",
-        "thumb": "thumb-014936",
+        "thumb": "arc-014936",
         "archiveId": "ARC-014936",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260326123815.jpg",
@@ -828,7 +788,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014937",
-        "thumb": "thumb-014937",
+        "thumb": "arc-014937",
         "archiveId": "ARC-014937",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260326123824.jpg",
@@ -836,7 +796,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014938",
-        "thumb": "thumb-014938",
+        "thumb": "arc-014938",
         "archiveId": "ARC-014938",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260326123907.jpg",
@@ -844,7 +804,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014939",
-        "thumb": "thumb-014939",
+        "thumb": "arc-014939",
         "archiveId": "ARC-014939",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260326123935.jpg",
@@ -852,7 +812,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014948",
-        "thumb": "thumb-014948",
+        "thumb": "arc-014948",
         "archiveId": "ARC-014948",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260329122105.jpg",
@@ -860,7 +820,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014949",
-        "thumb": "thumb-014949",
+        "thumb": "arc-014949",
         "archiveId": "ARC-014949",
         "alt": "Líneas de color al aire libre · vista del archivo",
         "sourceName": "IMG20260329122117.jpg",
@@ -882,7 +842,7 @@ export const catalogue = [
     "gallery": [
       {
         "image": "nature-014890",
-        "thumb": "nature-014890-thumb",
+        "thumb": "nature-014890",
         "archiveId": "ARC-014890",
         "alt": "Círculo azul y blanco. Fotografía 1",
         "sourceName": "DSC02334.ARW",
@@ -890,7 +850,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014894",
-        "thumb": "thumb-014894",
+        "thumb": "arc-014894",
         "archiveId": "ARC-014894",
         "alt": "Círculo azul y blanco. Fotografía 2",
         "sourceName": "DSC02338.ARW",
@@ -898,7 +858,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014909",
-        "thumb": "thumb-014909",
+        "thumb": "arc-014909",
         "archiveId": "ARC-014909",
         "alt": "Círculo azul y blanco. Fotografía 3",
         "sourceName": "DSC02353.ARW",
@@ -906,7 +866,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014926",
-        "thumb": "thumb-014926",
+        "thumb": "arc-014926",
         "archiveId": "ARC-014926",
         "alt": "Círculo azul y blanco · vista del archivo",
         "sourceName": "IMG20260309143114.jpg",
@@ -914,7 +874,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014927",
-        "thumb": "thumb-014927",
+        "thumb": "arc-014927",
         "archiveId": "ARC-014927",
         "alt": "Círculo azul y blanco · vista del archivo",
         "sourceName": "IMG20260309143134.jpg",
@@ -922,7 +882,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014934",
-        "thumb": "thumb-014934",
+        "thumb": "arc-014934",
         "archiveId": "ARC-014934",
         "alt": "Círculo azul y blanco · vista del archivo",
         "sourceName": "IMG20260326123747.jpg",
@@ -930,7 +890,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014941",
-        "thumb": "thumb-014941",
+        "thumb": "arc-014941",
         "archiveId": "ARC-014941",
         "alt": "Círculo azul y blanco · vista del archivo",
         "sourceName": "IMG20260326124022.jpg",
@@ -952,7 +912,7 @@ export const catalogue = [
     "gallery": [
       {
         "image": "gallery-008941-cool-neutral-v2",
-        "thumb": "gallery-008941-thumb",
+        "thumb": "gallery-008941-cool-neutral-v2",
         "archiveId": "ARC-008941",
         "alt": "Estructura de líneas oscuras y esferas. Fotografía 1",
         "sourceName": "IMG_20180321_113841.jpg",
@@ -990,7 +950,7 @@ export const catalogue = [
     "gallery": [
       {
         "image": "arc-008954",
-        "thumb": "thumb-008954",
+        "thumb": "arc-008954",
         "archiveId": "ARC-008954",
         "alt": "Fragmentos de color suspendidos. Fotografía 1",
         "sourceName": "IMG_20180324_120243.jpg",
@@ -998,7 +958,7 @@ export const catalogue = [
       },
       {
         "image": "arc-008914",
-        "thumb": "thumb-008914",
+        "thumb": "arc-008914",
         "archiveId": "ARC-008914",
         "alt": "Fragmentos de color suspendidos. Fotografía 2",
         "sourceName": "DSC04231.JPG",
@@ -1006,7 +966,7 @@ export const catalogue = [
       },
       {
         "image": "arc-008924",
-        "thumb": "thumb-008924",
+        "thumb": "arc-008924",
         "archiveId": "ARC-008924",
         "alt": "Fragmentos de color suspendidos. Fotografía 3",
         "sourceName": "DSC04241.JPG",
@@ -1014,7 +974,7 @@ export const catalogue = [
       },
       {
         "image": "arc-008934",
-        "thumb": "thumb-008934",
+        "thumb": "arc-008934",
         "archiveId": "ARC-008934",
         "alt": "Fragmentos de color suspendidos. Fotografía 4",
         "sourceName": "DSC04251.JPG",
@@ -1022,7 +982,7 @@ export const catalogue = [
       },
       {
         "image": "arc-008952",
-        "thumb": "thumb-008952",
+        "thumb": "arc-008952",
         "archiveId": "ARC-008952",
         "alt": "Fragmentos de color suspendidos. Fotografía 5",
         "sourceName": "IMG_20180324_120225.jpg",
@@ -1038,13 +998,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-001",
     "image": "gallery-esc-001",
-    "thumb": "thumb-gallery-esc-001",
+    "thumb": "gallery-esc-001",
     "alt": "Relieve de perfil quebrado",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-001",
-        "thumb": "thumb-gallery-esc-001",
+        "thumb": "gallery-esc-001",
         "archiveId": "ARC-014490",
         "alt": "Relieve de perfil quebrado. Fotografía 1",
         "sourceName": "_DSC3636.ARW",
@@ -1060,13 +1020,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-002",
     "image": "gallery-esc-002",
-    "thumb": "thumb-gallery-esc-002",
+    "thumb": "gallery-esc-002",
     "alt": "Relieve de ondas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-002",
-        "thumb": "thumb-gallery-esc-002",
+        "thumb": "gallery-esc-002",
         "archiveId": "ARC-014492",
         "alt": "Relieve de ondas. Fotografía 1",
         "sourceName": "_DSC3638.ARW",
@@ -1082,13 +1042,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-003",
     "image": "gallery-esc-003",
-    "thumb": "thumb-gallery-esc-003",
+    "thumb": "gallery-esc-003",
     "alt": "Relieve de formas contrapuestas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-003",
-        "thumb": "thumb-gallery-esc-003",
+        "thumb": "gallery-esc-003",
         "archiveId": "ARC-014494",
         "alt": "Relieve de formas contrapuestas. Fotografía 1",
         "sourceName": "_DSC3640.ARW",
@@ -1104,13 +1064,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-004",
     "image": "gallery-esc-004",
-    "thumb": "thumb-gallery-esc-004",
+    "thumb": "gallery-esc-004",
     "alt": "Relieve de contorno angular",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-004",
-        "thumb": "thumb-gallery-esc-004",
+        "thumb": "gallery-esc-004",
         "archiveId": "ARC-014496",
         "alt": "Relieve de contorno angular. Fotografía 1",
         "sourceName": "_DSC3642.ARW",
@@ -1126,13 +1086,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-005",
     "image": "gallery-esc-005",
-    "thumb": "thumb-gallery-esc-005",
+    "thumb": "gallery-esc-005",
     "alt": "Volumen oscuro con aberturas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-005",
-        "thumb": "thumb-gallery-esc-005",
+        "thumb": "gallery-esc-005",
         "archiveId": "ARC-014502",
         "alt": "Volumen oscuro con aberturas. Fotografía 1",
         "sourceName": "_DSC3655.ARW",
@@ -1148,13 +1108,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-006",
     "image": "gallery-esc-006",
-    "thumb": "thumb-gallery-esc-006",
+    "thumb": "gallery-esc-006",
     "alt": "Volumen de planos curvos",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-006",
-        "thumb": "thumb-gallery-esc-006",
+        "thumb": "gallery-esc-006",
         "archiveId": "ARC-008513",
         "alt": "Volumen de planos curvos. Fotografía 1",
         "sourceName": "DSCF0081.JPG",
@@ -1162,7 +1122,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-006-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-006-view-2-horizontal",
+        "thumb": "gallery-esc-006-view-2-horizontal",
         "archiveId": "ARC-008515",
         "alt": "Volumen de planos curvos. Fotografía 2",
         "sourceName": "DSCF0083.JPG",
@@ -1170,7 +1130,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-006-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-006-view-3-horizontal",
+        "thumb": "gallery-esc-006-view-3-horizontal",
         "archiveId": "ARC-008517",
         "alt": "Volumen de planos curvos. Fotografía 3",
         "sourceName": "DSCF0085.JPG",
@@ -1186,13 +1146,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-007",
     "image": "gallery-esc-007",
-    "thumb": "thumb-gallery-esc-007",
+    "thumb": "gallery-esc-007",
     "alt": "Volumen enrollado",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-007",
-        "thumb": "thumb-gallery-esc-007",
+        "thumb": "gallery-esc-007",
         "archiveId": "ARC-014507",
         "alt": "Volumen enrollado. Fotografía 1",
         "sourceName": "_DSC3660.ARW",
@@ -1200,7 +1160,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-007-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-007-view-2-horizontal",
+        "thumb": "gallery-esc-007-view-2-horizontal",
         "archiveId": "ARC-008552",
         "alt": "Volumen enrollado. Fotografía 2",
         "sourceName": "TORSO1.TIF",
@@ -1216,13 +1176,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-008",
     "image": "gallery-esc-008",
-    "thumb": "thumb-gallery-esc-008",
+    "thumb": "gallery-esc-008",
     "alt": "Figura clara de perfil orgánico",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-008",
-        "thumb": "thumb-gallery-esc-008",
+        "thumb": "gallery-esc-008",
         "archiveId": "ARC-014509",
         "alt": "Figura clara de perfil orgánico. Fotografía 1",
         "sourceName": "_DSC3664.ARW",
@@ -1230,7 +1190,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-008-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-008-view-2-horizontal",
+        "thumb": "gallery-esc-008-view-2-horizontal",
         "archiveId": "ARC-014512",
         "alt": "Figura clara de perfil orgánico. Fotografía 2",
         "sourceName": "_DSC3667.ARW",
@@ -1238,7 +1198,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-008-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-008-view-3-horizontal",
+        "thumb": "gallery-esc-008-view-3-horizontal",
         "archiveId": "ARC-014514",
         "alt": "Figura clara de perfil orgánico. Fotografía 3",
         "sourceName": "_DSC3669.ARW",
@@ -1254,13 +1214,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-009",
     "image": "gallery-esc-009",
-    "thumb": "thumb-gallery-esc-009",
+    "thumb": "gallery-esc-009",
     "alt": "Volumen de formas curvas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-009",
-        "thumb": "thumb-gallery-esc-009",
+        "thumb": "gallery-esc-009",
         "archiveId": "ARC-014516",
         "alt": "Volumen de formas curvas. Fotografía 1",
         "sourceName": "_DSC3671.ARW",
@@ -1268,7 +1228,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-009-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-009-view-2-horizontal",
+        "thumb": "gallery-esc-009-view-2-horizontal",
         "archiveId": "ARC-014519",
         "alt": "Volumen de formas curvas. Fotografía 2",
         "sourceName": "_DSC3674.ARW",
@@ -1276,7 +1236,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-009-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-009-view-3-horizontal",
+        "thumb": "gallery-esc-009-view-3-horizontal",
         "archiveId": "ARC-014522",
         "alt": "Volumen de formas curvas. Fotografía 3",
         "sourceName": "_DSC3677.ARW",
@@ -1292,13 +1252,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-010",
     "image": "gallery-esc-010",
-    "thumb": "thumb-gallery-esc-010",
+    "thumb": "gallery-esc-010",
     "alt": "Volumen de remate bifurcado",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-010",
-        "thumb": "thumb-gallery-esc-010",
+        "thumb": "gallery-esc-010",
         "archiveId": "ARC-014523",
         "alt": "Volumen de remate bifurcado. Fotografía 1",
         "sourceName": "_DSC3678.ARW",
@@ -1306,7 +1266,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-010-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-010-view-2-horizontal",
+        "thumb": "gallery-esc-010-view-2-horizontal",
         "archiveId": "ARC-014525",
         "alt": "Volumen de remate bifurcado. Fotografía 2",
         "sourceName": "_DSC3680.ARW",
@@ -1314,7 +1274,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-010-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-010-view-3-horizontal",
+        "thumb": "gallery-esc-010-view-3-horizontal",
         "archiveId": "ARC-014527",
         "alt": "Volumen de remate bifurcado. Fotografía 3",
         "sourceName": "_DSC3682.ARW",
@@ -1330,13 +1290,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-011",
     "image": "gallery-esc-011",
-    "thumb": "thumb-gallery-esc-011",
+    "thumb": "gallery-esc-011",
     "alt": "Volumen claro con aberturas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-011",
-        "thumb": "thumb-gallery-esc-011",
+        "thumb": "gallery-esc-011",
         "archiveId": "ARC-014528",
         "alt": "Volumen claro con aberturas. Fotografía 1",
         "sourceName": "_DSC3683.ARW",
@@ -1344,7 +1304,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-011-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-011-view-2-horizontal",
+        "thumb": "gallery-esc-011-view-2-horizontal",
         "archiveId": "ARC-014530",
         "alt": "Volumen claro con aberturas. Fotografía 2",
         "sourceName": "_DSC3685.ARW",
@@ -1352,7 +1312,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-011-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-011-view-3-horizontal",
+        "thumb": "gallery-esc-011-view-3-horizontal",
         "archiveId": "ARC-014532",
         "alt": "Volumen claro con aberturas. Fotografía 3",
         "sourceName": "_DSC3687.ARW",
@@ -1368,13 +1328,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-012",
     "image": "gallery-esc-012",
-    "thumb": "thumb-gallery-esc-012",
+    "thumb": "gallery-esc-012",
     "alt": "Figura de perfiles ascendentes",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-012",
-        "thumb": "thumb-gallery-esc-012",
+        "thumb": "gallery-esc-012",
         "archiveId": "ARC-014533",
         "alt": "Figura de perfiles ascendentes. Fotografía 1",
         "sourceName": "_DSC3688.ARW",
@@ -1382,7 +1342,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-012-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-012-view-2-horizontal",
+        "thumb": "gallery-esc-012-view-2-horizontal",
         "archiveId": "ARC-014536",
         "alt": "Figura de perfiles ascendentes. Fotografía 2",
         "sourceName": "_DSC3691.ARW",
@@ -1390,7 +1350,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-012-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-012-view-3-horizontal",
+        "thumb": "gallery-esc-012-view-3-horizontal",
         "archiveId": "ARC-014539",
         "alt": "Figura de perfiles ascendentes. Fotografía 3",
         "sourceName": "_DSC3695.ARW",
@@ -1398,7 +1358,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-012-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-012-view-4-horizontal",
+        "thumb": "gallery-esc-012-view-4-horizontal",
         "archiveId": "ARC-008541",
         "alt": "Figura de perfiles ascendentes. Fotografía 4",
         "sourceName": "PICT1048.JPG",
@@ -1414,13 +1374,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-013",
     "image": "gallery-esc-013",
-    "thumb": "thumb-gallery-esc-013",
+    "thumb": "gallery-esc-013",
     "alt": "Forma vertical en torsión",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-013",
-        "thumb": "thumb-gallery-esc-013",
+        "thumb": "gallery-esc-013",
         "archiveId": "ARC-014540",
         "alt": "Forma vertical en torsión. Fotografía 1",
         "sourceName": "_DSC3696.ARW",
@@ -1428,7 +1388,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-013-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-013-view-2-horizontal",
+        "thumb": "gallery-esc-013-view-2-horizontal",
         "archiveId": "ARC-014543",
         "alt": "Forma vertical en torsión. Fotografía 2",
         "sourceName": "_DSC3699.ARW",
@@ -1436,7 +1396,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-013-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-013-view-3-horizontal",
+        "thumb": "gallery-esc-013-view-3-horizontal",
         "archiveId": "ARC-014546",
         "alt": "Forma vertical en torsión. Fotografía 3",
         "sourceName": "_DSC3702.ARW",
@@ -1452,13 +1412,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-014",
     "image": "gallery-esc-014",
-    "thumb": "thumb-gallery-esc-014",
+    "thumb": "gallery-esc-014",
     "alt": "Línea vertical sobre una base",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-014",
-        "thumb": "thumb-gallery-esc-014",
+        "thumb": "gallery-esc-014",
         "archiveId": "ARC-014547",
         "alt": "Línea vertical sobre una base. Fotografía 1",
         "sourceName": "_DSC3703.ARW",
@@ -1466,7 +1426,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-014-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-014-view-2-horizontal",
+        "thumb": "gallery-esc-014-view-2-horizontal",
         "archiveId": "ARC-014549",
         "alt": "Línea vertical sobre una base. Fotografía 2",
         "sourceName": "_DSC3705.ARW",
@@ -1474,7 +1434,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-014-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-014-view-3-horizontal",
+        "thumb": "gallery-esc-014-view-3-horizontal",
         "archiveId": "ARC-014551",
         "alt": "Línea vertical sobre una base. Fotografía 3",
         "sourceName": "_DSC3707.ARW",
@@ -1490,13 +1450,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-015",
     "image": "gallery-esc-015",
-    "thumb": "thumb-gallery-esc-015",
+    "thumb": "gallery-esc-015",
     "alt": "Volumen redondeado",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-015",
-        "thumb": "thumb-gallery-esc-015",
+        "thumb": "gallery-esc-015",
         "archiveId": "ARC-014552",
         "alt": "Volumen redondeado. Fotografía 1",
         "sourceName": "_DSC3708.ARW",
@@ -1504,7 +1464,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-015-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-015-view-2-horizontal",
+        "thumb": "gallery-esc-015-view-2-horizontal",
         "archiveId": "ARC-014555",
         "alt": "Volumen redondeado. Fotografía 2",
         "sourceName": "_DSC3711.ARW",
@@ -1512,7 +1472,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-015-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-015-view-3-horizontal",
+        "thumb": "gallery-esc-015-view-3-horizontal",
         "archiveId": "ARC-014558",
         "alt": "Volumen redondeado. Fotografía 3",
         "sourceName": "_DSC3714.ARW",
@@ -1528,13 +1488,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-016",
     "image": "gallery-esc-016",
-    "thumb": "thumb-gallery-esc-016",
+    "thumb": "gallery-esc-016",
     "alt": "Dos elementos sobre fondo oscuro",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-016",
-        "thumb": "thumb-gallery-esc-016",
+        "thumb": "gallery-esc-016",
         "archiveId": "ARC-014560",
         "alt": "Dos elementos sobre fondo oscuro. Fotografía 1",
         "sourceName": "_DSC7867.ARW",
@@ -1550,13 +1510,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-017",
     "image": "gallery-esc-017",
-    "thumb": "thumb-gallery-esc-017",
+    "thumb": "gallery-esc-017",
     "alt": "Composición dorada y oscura",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-017",
-        "thumb": "thumb-gallery-esc-017",
+        "thumb": "gallery-esc-017",
         "archiveId": "ARC-014562",
         "alt": "Composición dorada y oscura. Fotografía 1",
         "sourceName": "_DSC7870.ARW",
@@ -1572,13 +1532,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-018",
     "image": "gallery-esc-018",
-    "thumb": "thumb-gallery-esc-018",
+    "thumb": "gallery-esc-018",
     "alt": "Relieve circular de capas y alambre",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-018",
-        "thumb": "thumb-gallery-esc-018",
+        "thumb": "gallery-esc-018",
         "archiveId": "ARC-014564",
         "alt": "Relieve circular de capas y alambre. Fotografía 1",
         "sourceName": "_DSC7872.ARW",
@@ -1586,7 +1546,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-018-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-018-view-2-horizontal",
+        "thumb": "gallery-esc-018-view-2-horizontal",
         "archiveId": "ARC-007764",
         "alt": "Relieve circular de capas y alambre. Fotografía 2",
         "sourceName": "DSC04047.JPG",
@@ -1594,7 +1554,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-018-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-018-view-3-horizontal",
+        "thumb": "gallery-esc-018-view-3-horizontal",
         "archiveId": "ARC-009178",
         "alt": "Relieve circular de capas y alambre. Fotografía 3",
         "sourceName": "IMG_20180321_113740.jpg",
@@ -1610,13 +1570,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-019",
     "image": "gallery-esc-019",
-    "thumb": "thumb-gallery-esc-019",
+    "thumb": "gallery-esc-019",
     "alt": "Composición circular con números",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-019",
-        "thumb": "thumb-gallery-esc-019",
+        "thumb": "gallery-esc-019",
         "archiveId": "ARC-014565",
         "alt": "Composición circular con números. Fotografía 1",
         "sourceName": "_DSC7873.ARW",
@@ -1632,13 +1592,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-020",
     "image": "gallery-esc-020",
-    "thumb": "thumb-gallery-esc-020",
+    "thumb": "gallery-esc-020",
     "alt": "Círculos y engranajes",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-020",
-        "thumb": "thumb-gallery-esc-020",
+        "thumb": "gallery-esc-020",
         "archiveId": "ARC-014566",
         "alt": "Círculos y engranajes. Fotografía 1",
         "sourceName": "_DSC7874.ARW",
@@ -1654,13 +1614,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-021",
     "image": "gallery-esc-021",
-    "thumb": "thumb-gallery-esc-021",
+    "thumb": "gallery-esc-021",
     "alt": "Talla vertical de pequeño formato",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-021",
-        "thumb": "thumb-gallery-esc-021",
+        "thumb": "gallery-esc-021",
         "archiveId": "ARC-014568",
         "alt": "Talla vertical de pequeño formato. Fotografía 1",
         "sourceName": "_DSC7877.ARW",
@@ -1676,13 +1636,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-022",
     "image": "gallery-esc-022",
-    "thumb": "thumb-gallery-esc-022",
+    "thumb": "gallery-esc-022",
     "alt": "Relieve cuadrado de superficie quebrada",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-022",
-        "thumb": "thumb-gallery-esc-022",
+        "thumb": "gallery-esc-022",
         "archiveId": "ARC-014570",
         "alt": "Relieve cuadrado de superficie quebrada. Fotografía 1",
         "sourceName": "_DSC7880.ARW",
@@ -1698,13 +1658,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-023",
     "image": "gallery-esc-023",
-    "thumb": "thumb-gallery-esc-023",
+    "thumb": "gallery-esc-023",
     "alt": "Relieve oval de superficie quebrada",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-023",
-        "thumb": "thumb-gallery-esc-023",
+        "thumb": "gallery-esc-023",
         "archiveId": "ARC-014571",
         "alt": "Relieve oval de superficie quebrada. Fotografía 1",
         "sourceName": "_DSC7881.ARW",
@@ -1720,13 +1680,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-024",
     "image": "gallery-esc-024",
-    "thumb": "thumb-gallery-esc-024",
+    "thumb": "gallery-esc-024",
     "alt": "Figura de gato en relieve",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-024",
-        "thumb": "thumb-gallery-esc-024",
+        "thumb": "gallery-esc-024",
         "archiveId": "ARC-014572",
         "alt": "Figura de gato en relieve. Fotografía 1",
         "sourceName": "_DSC7882.ARW",
@@ -1742,13 +1702,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-025",
     "image": "gallery-esc-025",
-    "thumb": "thumb-gallery-esc-025",
+    "thumb": "gallery-esc-025",
     "alt": "Relieve blanco con acentos rosas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-025",
-        "thumb": "thumb-gallery-esc-025",
+        "thumb": "gallery-esc-025",
         "archiveId": "ARC-014573",
         "alt": "Relieve blanco con acentos rosas. Fotografía 1",
         "sourceName": "_DSC7883.ARW",
@@ -1764,13 +1724,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-026",
     "image": "gallery-esc-026",
-    "thumb": "thumb-gallery-esc-026",
+    "thumb": "gallery-esc-026",
     "alt": "Rostro de superficie blanca",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-026",
-        "thumb": "thumb-gallery-esc-026",
+        "thumb": "gallery-esc-026",
         "archiveId": "ARC-014574",
         "alt": "Rostro de superficie blanca. Fotografía 1",
         "sourceName": "_DSC7884.ARW",
@@ -1786,13 +1746,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-027",
     "image": "gallery-esc-027",
-    "thumb": "thumb-gallery-esc-027",
+    "thumb": "gallery-esc-027",
     "alt": "Pez de superficie blanca",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-027",
-        "thumb": "thumb-gallery-esc-027",
+        "thumb": "gallery-esc-027",
         "archiveId": "ARC-014575",
         "alt": "Pez de superficie blanca. Fotografía 1",
         "sourceName": "_DSC7886.ARW",
@@ -1808,13 +1768,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-028",
     "image": "gallery-esc-028",
-    "thumb": "thumb-gallery-esc-028",
+    "thumb": "gallery-esc-028",
     "alt": "Elemento verde de lamas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-028",
-        "thumb": "thumb-gallery-esc-028",
+        "thumb": "gallery-esc-028",
         "archiveId": "ARC-014576",
         "alt": "Elemento verde de lamas. Fotografía 1",
         "sourceName": "_DSC7887.ARW",
@@ -1830,13 +1790,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-029",
     "image": "gallery-esc-029",
-    "thumb": "thumb-gallery-esc-029",
+    "thumb": "gallery-esc-029",
     "alt": "Dos formas en relieve blanco",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-029",
-        "thumb": "thumb-gallery-esc-029",
+        "thumb": "gallery-esc-029",
         "archiveId": "ARC-014577",
         "alt": "Dos formas en relieve blanco. Fotografía 1",
         "sourceName": "_DSC7888.ARW",
@@ -1852,13 +1812,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-030",
     "image": "gallery-esc-030",
-    "thumb": "thumb-gallery-esc-030",
+    "thumb": "gallery-esc-030",
     "alt": "Gato sobre fondo rosa",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-030",
-        "thumb": "thumb-gallery-esc-030",
+        "thumb": "gallery-esc-030",
         "archiveId": "ARC-014578",
         "alt": "Gato sobre fondo rosa. Fotografía 1",
         "sourceName": "_DSC7889.ARW",
@@ -1874,13 +1834,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-031",
     "image": "gallery-esc-031",
-    "thumb": "thumb-gallery-esc-031",
+    "thumb": "gallery-esc-031",
     "alt": "Volumen de perfiles abiertos",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-031",
-        "thumb": "thumb-gallery-esc-031",
+        "thumb": "gallery-esc-031",
         "archiveId": "ARC-008507",
         "alt": "Volumen de perfiles abiertos. Fotografía 1",
         "sourceName": "DSCF0071.jpg",
@@ -1888,7 +1848,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-031-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-031-view-2-horizontal",
+        "thumb": "gallery-esc-031-view-2-horizontal",
         "archiveId": "ARC-008512",
         "alt": "Volumen de perfiles abiertos. Fotografía 2",
         "sourceName": "DSCF0076.JPG",
@@ -1896,7 +1856,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-031-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-031-view-3-horizontal",
+        "thumb": "gallery-esc-031-view-3-horizontal",
         "archiveId": "ARC-007147",
         "alt": "Volumen de perfiles abiertos. Fotografía 3",
         "sourceName": "20160529_193648.jpg",
@@ -1912,13 +1872,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-032",
     "image": "gallery-esc-032",
-    "thumb": "thumb-gallery-esc-032",
+    "thumb": "gallery-esc-032",
     "alt": "Volumen de brazos curvos",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-032",
-        "thumb": "thumb-gallery-esc-032",
+        "thumb": "gallery-esc-032",
         "archiveId": "ARC-008523",
         "alt": "Volumen de brazos curvos. Fotografía 1",
         "sourceName": "P1010005.JPG",
@@ -1934,13 +1894,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-033",
     "image": "gallery-esc-033",
-    "thumb": "thumb-gallery-esc-033",
+    "thumb": "gallery-esc-033",
     "alt": "Forma envolvente",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-033",
-        "thumb": "thumb-gallery-esc-033",
+        "thumb": "gallery-esc-033",
         "archiveId": "ARC-008525",
         "alt": "Forma envolvente. Fotografía 1",
         "sourceName": "P10100xa11A.jpg",
@@ -1956,13 +1916,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-034",
     "image": "gallery-esc-034",
-    "thumb": "thumb-gallery-esc-034",
+    "thumb": "gallery-esc-034",
     "alt": "Volumen de dos aberturas",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-034",
-        "thumb": "thumb-gallery-esc-034",
+        "thumb": "gallery-esc-034",
         "archiveId": "ARC-008529",
         "alt": "Volumen de dos aberturas. Fotografía 1",
         "sourceName": "PICT1036.JPG",
@@ -1970,7 +1930,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-034-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-034-view-2-horizontal",
+        "thumb": "gallery-esc-034-view-2-horizontal",
         "archiveId": "ARC-008531",
         "alt": "Volumen de dos aberturas. Fotografía 2",
         "sourceName": "PICT1038.JPG",
@@ -1986,13 +1946,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-035",
     "image": "gallery-esc-035",
-    "thumb": "thumb-gallery-esc-035",
+    "thumb": "gallery-esc-035",
     "alt": "Planos enfrentados",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-035",
-        "thumb": "thumb-gallery-esc-035",
+        "thumb": "gallery-esc-035",
         "archiveId": "ARC-008532",
         "alt": "Planos enfrentados. Fotografía 1",
         "sourceName": "PICT1039.JPG",
@@ -2000,7 +1960,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-035-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-035-view-2-horizontal",
+        "thumb": "gallery-esc-035-view-2-horizontal",
         "archiveId": "ARC-008534",
         "alt": "Planos enfrentados. Fotografía 2",
         "sourceName": "PICT1041.JPG",
@@ -2016,13 +1976,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-036",
     "image": "gallery-esc-036",
-    "thumb": "thumb-gallery-esc-036",
+    "thumb": "gallery-esc-036",
     "alt": "Volumen con curva interior",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-036",
-        "thumb": "thumb-gallery-esc-036",
+        "thumb": "gallery-esc-036",
         "archiveId": "ARC-008535",
         "alt": "Volumen con curva interior. Fotografía 1",
         "sourceName": "PICT1042.JPG",
@@ -2030,7 +1990,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-036-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-036-view-2-horizontal",
+        "thumb": "gallery-esc-036-view-2-horizontal",
         "archiveId": "ARC-008537",
         "alt": "Volumen con curva interior. Fotografía 2",
         "sourceName": "PICT1044.JPG",
@@ -2046,13 +2006,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-037",
     "image": "gallery-esc-037",
-    "thumb": "thumb-gallery-esc-037",
+    "thumb": "gallery-esc-037",
     "alt": "Retícula y formas claras",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-037",
-        "thumb": "thumb-gallery-esc-037",
+        "thumb": "gallery-esc-037",
         "archiveId": "ARC-008543",
         "alt": "Retícula y formas claras. Fotografía 1",
         "sourceName": "PICT1050.JPG",
@@ -2060,7 +2020,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-037-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-037-view-2-horizontal",
+        "thumb": "gallery-esc-037-view-2-horizontal",
         "archiveId": "ARC-008544",
         "alt": "Retícula y formas claras. Fotografía 2",
         "sourceName": "PICT1051.JPG",
@@ -2076,13 +2036,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-038",
     "image": "gallery-esc-038",
-    "thumb": "thumb-gallery-esc-038",
+    "thumb": "gallery-esc-038",
     "alt": "Materia encontrada sobre soporte",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-038",
-        "thumb": "thumb-gallery-esc-038",
+        "thumb": "gallery-esc-038",
         "archiveId": "ARC-008768",
         "alt": "Materia encontrada sobre soporte. Fotografía 1",
         "sourceName": "DSC_2680.JPG",
@@ -2090,7 +2050,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-038-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-038-view-2-horizontal",
+        "thumb": "gallery-esc-038-view-2-horizontal",
         "archiveId": "ARC-008777",
         "alt": "Materia encontrada sobre soporte. Fotografía 2",
         "sourceName": "DSC_2725.JPG",
@@ -2106,13 +2066,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-039",
     "image": "gallery-esc-039",
-    "thumb": "thumb-gallery-esc-039",
+    "thumb": "gallery-esc-039",
     "alt": "Estructura vertical de brazos móviles",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-039",
-        "thumb": "thumb-gallery-esc-039",
+        "thumb": "gallery-esc-039",
         "archiveId": "ARC-008788",
         "alt": "Estructura vertical de brazos móviles. Fotografía 1",
         "sourceName": "DSC_2852.JPG",
@@ -2120,7 +2080,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-039-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-039-view-2-horizontal",
+        "thumb": "gallery-esc-039-view-2-horizontal",
         "archiveId": "ARC-008792",
         "alt": "Estructura vertical de brazos móviles. Fotografía 2",
         "sourceName": "DSC_2872.JPG",
@@ -2128,7 +2088,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-039-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-039-view-3-horizontal",
+        "thumb": "gallery-esc-039-view-3-horizontal",
         "archiveId": "ARC-008803",
         "alt": "Estructura vertical de brazos móviles. Fotografía 3",
         "sourceName": "DSC_2907.JPG",
@@ -2136,7 +2096,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-039-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-039-view-4-horizontal",
+        "thumb": "gallery-esc-039-view-4-horizontal",
         "archiveId": "ARC-008807",
         "alt": "Estructura vertical de brazos móviles. Fotografía 4",
         "sourceName": "DSC_2927.JPG",
@@ -2152,13 +2112,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-040",
     "image": "gallery-esc-040",
-    "thumb": "thumb-gallery-esc-040",
+    "thumb": "gallery-esc-040",
     "alt": "Planos curvos sobre engranaje",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-040",
-        "thumb": "thumb-gallery-esc-040",
+        "thumb": "gallery-esc-040",
         "archiveId": "ARC-008810",
         "alt": "Planos curvos sobre engranaje. Fotografía 1",
         "sourceName": "DSC_2942.JPG",
@@ -2166,7 +2126,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-040-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-040-view-2-horizontal",
+        "thumb": "gallery-esc-040-view-2-horizontal",
         "archiveId": "ARC-008812",
         "alt": "Planos curvos sobre engranaje. Fotografía 2",
         "sourceName": "DSC_2952.JPG",
@@ -2174,7 +2134,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-040-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-040-view-3-horizontal",
+        "thumb": "gallery-esc-040-view-3-horizontal",
         "archiveId": "ARC-008814",
         "alt": "Planos curvos sobre engranaje. Fotografía 3",
         "sourceName": "DSC_2965.JPG",
@@ -2190,13 +2150,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-041",
     "image": "gallery-esc-041",
-    "thumb": "thumb-gallery-esc-041",
+    "thumb": "gallery-esc-041",
     "alt": "Dos estructuras de espirales",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-041",
-        "thumb": "thumb-gallery-esc-041",
+        "thumb": "gallery-esc-041",
         "archiveId": "ARC-008826",
         "alt": "Dos estructuras de espirales. Fotografía 1",
         "sourceName": "DSC_3029.JPG",
@@ -2204,7 +2164,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-041-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-041-view-2-horizontal",
+        "thumb": "gallery-esc-041-view-2-horizontal",
         "archiveId": "ARC-008816",
         "alt": "Dos estructuras de espirales. Fotografía 2",
         "sourceName": "DSC_2981.JPG",
@@ -2212,7 +2172,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-041-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-041-view-3-horizontal",
+        "thumb": "gallery-esc-041-view-3-horizontal",
         "archiveId": "ARC-008825",
         "alt": "Dos estructuras de espirales. Fotografía 3",
         "sourceName": "DSC_3017.JPG",
@@ -2220,7 +2180,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-041-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-041-view-4-horizontal",
+        "thumb": "gallery-esc-041-view-4-horizontal",
         "archiveId": "ARC-008829",
         "alt": "Dos estructuras de espirales. Fotografía 4",
         "sourceName": "DSC_3049.JPG",
@@ -2236,13 +2196,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-042",
     "image": "gallery-esc-042",
-    "thumb": "thumb-gallery-esc-042",
+    "thumb": "gallery-esc-042",
     "alt": "Herramienta sobre un cilindro",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-042",
-        "thumb": "thumb-gallery-esc-042",
+        "thumb": "gallery-esc-042",
         "archiveId": "ARC-008907",
         "alt": "Herramienta sobre un cilindro. Fotografía 1",
         "sourceName": "DSC04224.JPG",
@@ -2250,7 +2210,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-042-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-042-view-2-horizontal",
+        "thumb": "gallery-esc-042-view-2-horizontal",
         "archiveId": "ARC-008909",
         "alt": "Herramienta sobre un cilindro. Fotografía 2",
         "sourceName": "DSC04226.JPG",
@@ -2266,13 +2226,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-043",
     "image": "gallery-esc-043",
-    "thumb": "thumb-gallery-esc-043",
+    "thumb": "gallery-esc-043",
     "alt": "Flores de engranajes",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-043",
-        "thumb": "thumb-gallery-esc-043",
+        "thumb": "gallery-esc-043",
         "archiveId": "ARC-011828",
         "alt": "Flores de engranajes. Fotografía 1",
         "sourceName": "DSC04190.jpg",
@@ -2280,7 +2240,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-043-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-043-view-2-horizontal",
+        "thumb": "gallery-esc-043-view-2-horizontal",
         "archiveId": "ARC-011832",
         "alt": "Flores de engranajes. Fotografía 2",
         "sourceName": "DSC04194.jpg",
@@ -2288,7 +2248,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-043-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-043-view-3-horizontal",
+        "thumb": "gallery-esc-043-view-3-horizontal",
         "archiveId": "ARC-011834",
         "alt": "Flores de engranajes. Fotografía 3",
         "sourceName": "DSC04196.JPG",
@@ -2296,7 +2256,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-043-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-043-view-4-horizontal",
+        "thumb": "gallery-esc-043-view-4-horizontal",
         "archiveId": "ARC-011838",
         "alt": "Flores de engranajes. Fotografía 4",
         "sourceName": "DSC04200.jpg",
@@ -2312,13 +2272,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-044",
     "image": "gallery-esc-044",
-    "thumb": "thumb-gallery-esc-044",
+    "thumb": "gallery-esc-044",
     "alt": "Dos planos de perfil ascendente",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-044",
-        "thumb": "thumb-gallery-esc-044",
+        "thumb": "gallery-esc-044",
         "archiveId": "ARC-007134",
         "alt": "Dos planos de perfil ascendente. Fotografía 1",
         "sourceName": "20160529_193038.jpg",
@@ -2326,7 +2286,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-044-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-044-view-2-horizontal",
+        "thumb": "gallery-esc-044-view-2-horizontal",
         "archiveId": "ARC-007137",
         "alt": "Dos planos de perfil ascendente. Fotografía 2",
         "sourceName": "20160529_193228.jpg",
@@ -2334,7 +2294,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-044-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-044-view-3-horizontal",
+        "thumb": "gallery-esc-044-view-3-horizontal",
         "archiveId": "ARC-007141",
         "alt": "Dos planos de perfil ascendente. Fotografía 3",
         "sourceName": "20160529_193339.jpg",
@@ -2350,13 +2310,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-045",
     "image": "gallery-esc-045",
-    "thumb": "thumb-gallery-esc-045",
+    "thumb": "gallery-esc-045",
     "alt": "Elementos claros sobre un eje",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-045",
-        "thumb": "thumb-gallery-esc-045",
+        "thumb": "gallery-esc-045",
         "archiveId": "ARC-007158",
         "alt": "Elementos claros sobre un eje. Fotografía 1",
         "sourceName": "20160529_194010.jpg",
@@ -2364,7 +2324,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-045-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-045-view-2-horizontal",
+        "thumb": "gallery-esc-045-view-2-horizontal",
         "archiveId": "ARC-007161",
         "alt": "Elementos claros sobre un eje. Fotografía 2",
         "sourceName": "20160529_194049.jpg",
@@ -2380,13 +2340,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-046",
     "image": "gallery-esc-046",
-    "thumb": "thumb-gallery-esc-046",
+    "thumb": "gallery-esc-046",
     "alt": "Ensamblaje rosa con círculo oscuro",
     "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
     "gallery": [
       {
         "image": "gallery-esc-046",
-        "thumb": "thumb-gallery-esc-046",
+        "thumb": "gallery-esc-046",
         "archiveId": "ARC-007757",
         "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 1",
         "sourceName": "DSC04018.JPG",
@@ -2394,7 +2354,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-046-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-046-view-2-horizontal",
+        "thumb": "gallery-esc-046-view-2-horizontal",
         "archiveId": "ARC-008731",
         "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 2",
         "sourceName": "20160131_094014.jpg",
@@ -2402,7 +2362,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-046-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-046-view-3-horizontal",
+        "thumb": "gallery-esc-046-view-3-horizontal",
         "archiveId": "ARC-008738",
         "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 3",
         "sourceName": "20160131_094301.jpg",
@@ -2410,7 +2370,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-046-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-046-view-4-horizontal",
+        "thumb": "gallery-esc-046-view-4-horizontal",
         "archiveId": "ARC-008831",
         "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 4",
         "sourceName": "DSC_3137.JPG",
@@ -2426,13 +2386,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-001",
     "image": "arc-015079",
-    "thumb": "thumb-015079",
+    "thumb": "arc-015079",
     "alt": "Signos rojos en recorrido",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015079",
-        "thumb": "thumb-015079",
+        "thumb": "arc-015079",
         "archiveId": "ARC-015079",
         "alt": "Signos rojos en recorrido. Fotografía 1",
         "sourceName": "_DSC3582.ARW",
@@ -2448,13 +2408,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-002",
     "image": "arc-015080",
-    "thumb": "thumb-015080",
+    "thumb": "arc-015080",
     "alt": "Planos de color rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015080",
-        "thumb": "thumb-015080",
+        "thumb": "arc-015080",
         "archiveId": "ARC-015080",
         "alt": "Planos de color rojo. Fotografía 1",
         "sourceName": "_DSC3586.ARW",
@@ -2470,13 +2430,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-003",
     "image": "arc-015081",
-    "thumb": "thumb-015081",
+    "thumb": "arc-015081",
     "alt": "Estudio de formas en rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015081",
-        "thumb": "thumb-015081",
+        "thumb": "arc-015081",
         "archiveId": "ARC-015081",
         "alt": "Estudio de formas en rojo. Fotografía 1",
         "sourceName": "_DSC3587.ARW",
@@ -2492,13 +2452,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-004",
     "image": "arc-015082",
-    "thumb": "thumb-015082",
+    "thumb": "arc-015082",
     "alt": "Planos de sombra cálida",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015082",
-        "thumb": "thumb-015082",
+        "thumb": "arc-015082",
         "archiveId": "ARC-015082",
         "alt": "Planos de sombra cálida. Fotografía 1",
         "sourceName": "_DSC3590.ARW",
@@ -2514,13 +2474,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-005",
     "image": "arc-015083",
-    "thumb": "thumb-015083",
+    "thumb": "arc-015083",
     "alt": "Líneas y planos en naranja",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015083",
-        "thumb": "thumb-015083",
+        "thumb": "arc-015083",
         "archiveId": "ARC-015083",
         "alt": "Líneas y planos en naranja. Fotografía 1",
         "sourceName": "_DSC3591.ARW",
@@ -2536,13 +2496,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-006",
     "image": "arc-015084",
-    "thumb": "thumb-015084",
+    "thumb": "arc-015084",
     "alt": "Formas rojas y centro circular",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015084",
-        "thumb": "thumb-015084",
+        "thumb": "arc-015084",
         "archiveId": "ARC-015084",
         "alt": "Formas rojas y centro circular. Fotografía 1",
         "sourceName": "_DSC3592.ARW",
@@ -2558,13 +2518,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-007",
     "image": "arc-015085",
-    "thumb": "thumb-015085",
+    "thumb": "arc-015085",
     "alt": "Formas en negro y ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015085",
-        "thumb": "thumb-015085",
+        "thumb": "arc-015085",
         "archiveId": "ARC-015085",
         "alt": "Formas en negro y ocre. Fotografía 1",
         "sourceName": "_DSC3594.ARW",
@@ -2580,13 +2540,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-008",
     "image": "arc-015086",
-    "thumb": "thumb-015086",
+    "thumb": "arc-015086",
     "alt": "Ritmos de color rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015086",
-        "thumb": "thumb-015086",
+        "thumb": "arc-015086",
         "archiveId": "ARC-015086",
         "alt": "Ritmos de color rojo. Fotografía 1",
         "sourceName": "_DSC3596.ARW",
@@ -2602,13 +2562,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-009",
     "image": "arc-015087",
-    "thumb": "thumb-015087",
+    "thumb": "arc-015087",
     "alt": "Trazos azules sobre ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015087",
-        "thumb": "thumb-015087",
+        "thumb": "arc-015087",
         "archiveId": "ARC-015087",
         "alt": "Trazos azules sobre ocre. Fotografía 1",
         "sourceName": "_DSC3597.ARW",
@@ -2624,13 +2584,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-010",
     "image": "arc-015088",
-    "thumb": "thumb-015088",
+    "thumb": "arc-015088",
     "alt": "Líneas azules y amarillas",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015088",
-        "thumb": "thumb-015088",
+        "thumb": "arc-015088",
         "archiveId": "ARC-015088",
         "alt": "Líneas azules y amarillas. Fotografía 1",
         "sourceName": "_DSC3602.ARW",
@@ -2646,13 +2606,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-011",
     "image": "arc-015089",
-    "thumb": "thumb-015089",
+    "thumb": "arc-015089",
     "alt": "Composición sobre fondo ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015089",
-        "thumb": "thumb-015089",
+        "thumb": "arc-015089",
         "archiveId": "ARC-015089",
         "alt": "Composición sobre fondo ocre. Fotografía 1",
         "sourceName": "_DSC3603.ARW",
@@ -2668,13 +2628,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-012",
     "image": "arc-015090",
-    "thumb": "thumb-015090",
+    "thumb": "arc-015090",
     "alt": "Composición verde sobre ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015090",
-        "thumb": "thumb-015090",
+        "thumb": "arc-015090",
         "archiveId": "ARC-015090",
         "alt": "Composición verde sobre ocre. Fotografía 1",
         "sourceName": "_DSC3604.ARW",
@@ -2690,13 +2650,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-013",
     "image": "arc-015091",
-    "thumb": "thumb-015091",
+    "thumb": "arc-015091",
     "alt": "Trazos sobre fondo rosa",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015091",
-        "thumb": "thumb-015091",
+        "thumb": "arc-015091",
         "archiveId": "ARC-015091",
         "alt": "Trazos sobre fondo rosa. Fotografía 1",
         "sourceName": "_DSC3605.ARW",
@@ -2712,13 +2672,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-014",
     "image": "arc-015092",
-    "thumb": "thumb-015092",
+    "thumb": "arc-015092",
     "alt": "Líneas curvas rojas",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015092",
-        "thumb": "thumb-015092",
+        "thumb": "arc-015092",
         "archiveId": "ARC-015092",
         "alt": "Líneas curvas rojas. Fotografía 1",
         "sourceName": "_DSC3606.ARW",
@@ -2734,13 +2694,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-015",
     "image": "arc-015093",
-    "thumb": "thumb-015093",
+    "thumb": "arc-015093",
     "alt": "Trazos verdes y naranjas",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015093",
-        "thumb": "thumb-015093",
+        "thumb": "arc-015093",
         "archiveId": "ARC-015093",
         "alt": "Trazos verdes y naranjas. Fotografía 1",
         "sourceName": "_DSC3607.ARW",
@@ -2748,7 +2708,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013437",
-        "thumb": "thumb-013437",
+        "thumb": "arc-013437",
         "archiveId": "ARC-013437",
         "alt": "Trazos verdes y naranjas · vista del archivo",
         "sourceName": "P8040016.JPG",
@@ -2764,13 +2724,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-016",
     "image": "arc-015094",
-    "thumb": "thumb-015094",
+    "thumb": "arc-015094",
     "alt": "Pequeña composición de símbolos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015094",
-        "thumb": "thumb-015094",
+        "thumb": "arc-015094",
         "archiveId": "ARC-015094",
         "alt": "Pequeña composición de símbolos. Fotografía 1",
         "sourceName": "_DSC3608.ARW",
@@ -2786,13 +2746,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-017",
     "image": "arc-015095",
-    "thumb": "thumb-015095",
+    "thumb": "arc-015095",
     "alt": "Pequeña composición enmarcada",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015095",
-        "thumb": "thumb-015095",
+        "thumb": "arc-015095",
         "archiveId": "ARC-015095",
         "alt": "Pequeña composición enmarcada. Fotografía 1",
         "sourceName": "_DSC3611.ARW",
@@ -2808,13 +2768,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-018",
     "image": "arc-015096",
-    "thumb": "thumb-015096",
+    "thumb": "arc-015096",
     "alt": "Dos figuras en rojo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015096",
-        "thumb": "thumb-015096",
+        "thumb": "arc-015096",
         "archiveId": "ARC-015096",
         "alt": "Dos figuras en rojo. Fotografía 1",
         "sourceName": "_DSC3618.ARW",
@@ -2822,7 +2782,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013414",
-        "thumb": "thumb-013414",
+        "thumb": "arc-013414",
         "archiveId": "ARC-013414",
         "alt": "Dos figuras en rojo · vista del archivo",
         "sourceName": "ENRIC 7.JPG",
@@ -2830,7 +2790,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013442",
-        "thumb": "thumb-013442",
+        "thumb": "arc-013442",
         "archiveId": "ARC-013442",
         "alt": "Dos figuras en rojo · vista del archivo",
         "sourceName": "P80400307.JPG",
@@ -2838,7 +2798,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013457",
-        "thumb": "thumb-013457",
+        "thumb": "arc-013457",
         "archiveId": "ARC-013457",
         "alt": "Dos figuras en rojo · vista del archivo",
         "sourceName": "PB030004.JPG",
@@ -2854,13 +2814,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-019",
     "image": "arc-015098",
-    "thumb": "thumb-015098",
+    "thumb": "arc-015098",
     "alt": "Planos azules, verdes y amarillos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015098",
-        "thumb": "thumb-015098",
+        "thumb": "arc-015098",
         "archiveId": "ARC-015098",
         "alt": "Planos azules, verdes y amarillos. Fotografía 1",
         "sourceName": "_DSC3621.ARW",
@@ -2868,7 +2828,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013432",
-        "thumb": "thumb-013432",
+        "thumb": "arc-013432",
         "archiveId": "ARC-013432",
         "alt": "Planos azules, verdes y amarillos · vista del archivo",
         "sourceName": "P8040008.JPG",
@@ -2884,13 +2844,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-020",
     "image": "arc-015099",
-    "thumb": "thumb-015099",
+    "thumb": "arc-015099",
     "alt": "Estudio de formas en negro",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015099",
-        "thumb": "thumb-015099",
+        "thumb": "arc-015099",
         "archiveId": "ARC-015099",
         "alt": "Estudio de formas en negro. Fotografía 1",
         "sourceName": "_DSC3623.ARW",
@@ -2898,7 +2858,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013433",
-        "thumb": "thumb-013433",
+        "thumb": "arc-013433",
         "archiveId": "ARC-013433",
         "alt": "Estudio de formas en negro · vista del archivo",
         "sourceName": "P8040009.JPG",
@@ -2914,13 +2874,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-021",
     "image": "arc-015102",
-    "thumb": "thumb-015102",
+    "thumb": "arc-015102",
     "alt": "Planos negros y rojos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015102",
-        "thumb": "thumb-015102",
+        "thumb": "arc-015102",
         "archiveId": "ARC-015102",
         "alt": "Planos negros y rojos. Fotografía 1",
         "sourceName": "_DSC3628.ARW",
@@ -2928,7 +2888,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013446",
-        "thumb": "thumb-013446",
+        "thumb": "arc-013446",
         "archiveId": "ARC-013446",
         "alt": "Planos negros y rojos · vista del archivo",
         "sourceName": "P80403005.JPG",
@@ -2936,7 +2896,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013456",
-        "thumb": "thumb-013456",
+        "thumb": "arc-013456",
         "archiveId": "ARC-013456",
         "alt": "Planos negros y rojos · vista del archivo",
         "sourceName": "PB030003.JPG",
@@ -2952,13 +2912,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-022",
     "image": "arc-015103",
-    "thumb": "thumb-015103",
+    "thumb": "arc-015103",
     "alt": "Figura de líneas negras",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015103",
-        "thumb": "thumb-015103",
+        "thumb": "arc-015103",
         "archiveId": "ARC-015103",
         "alt": "Figura de líneas negras. Fotografía 1",
         "sourceName": "_DSC3631.ARW",
@@ -2974,13 +2934,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-023",
     "image": "arc-015105",
-    "thumb": "thumb-015105",
+    "thumb": "arc-015105",
     "alt": "Planos de color violeta",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015105",
-        "thumb": "thumb-015105",
+        "thumb": "arc-015105",
         "archiveId": "ARC-015105",
         "alt": "Planos de color violeta. Fotografía 1",
         "sourceName": "_DSC3646.ARW",
@@ -2996,13 +2956,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-024",
     "image": "arc-015172",
-    "thumb": "thumb-015172",
+    "thumb": "arc-015172",
     "alt": "Formas abiertas en azul y amarillo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015172",
-        "thumb": "thumb-015172",
+        "thumb": "arc-015172",
         "archiveId": "ARC-015172",
         "alt": "Formas abiertas en azul y amarillo. Fotografía 1",
         "sourceName": "_DSC3588.ARW",
@@ -3010,7 +2970,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013424",
-        "thumb": "thumb-013424",
+        "thumb": "arc-013424",
         "archiveId": "ARC-013424",
         "alt": "Formas abiertas en azul y amarillo · vista del archivo",
         "sourceName": "P80340019.JPG",
@@ -3018,7 +2978,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013459",
-        "thumb": "thumb-013459",
+        "thumb": "arc-013459",
         "archiveId": "ARC-013459",
         "alt": "Formas abiertas en azul y amarillo · vista del archivo",
         "sourceName": "PB030006.JPG",
@@ -3034,13 +2994,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-025",
     "image": "arc-015173",
-    "thumb": "thumb-015173",
+    "thumb": "arc-015173",
     "alt": "Curvas y planos cálidos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015173",
-        "thumb": "thumb-015173",
+        "thumb": "arc-015173",
         "archiveId": "ARC-015173",
         "alt": "Curvas y planos cálidos. Fotografía 1",
         "sourceName": "_DSC3589.ARW",
@@ -3056,13 +3016,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-026",
     "image": "arc-015176",
-    "thumb": "thumb-015176",
+    "thumb": "arc-015176",
     "alt": "Ritmos de color carmín",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015176",
-        "thumb": "thumb-015176",
+        "thumb": "arc-015176",
         "archiveId": "ARC-015176",
         "alt": "Ritmos de color carmín. Fotografía 1",
         "sourceName": "_DSC3593.ARW",
@@ -3078,13 +3038,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-027",
     "image": "arc-015178",
-    "thumb": "thumb-015178",
+    "thumb": "arc-015178",
     "alt": "Planos azules suspendidos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015178",
-        "thumb": "thumb-015178",
+        "thumb": "arc-015178",
         "archiveId": "ARC-015178",
         "alt": "Planos azules suspendidos. Fotografía 1",
         "sourceName": "_DSC3595.ARW",
@@ -3100,13 +3060,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-028",
     "image": "arc-015181",
-    "thumb": "thumb-015181",
+    "thumb": "arc-015181",
     "alt": "Líneas de color ocre",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015181",
-        "thumb": "thumb-015181",
+        "thumb": "arc-015181",
         "archiveId": "ARC-015181",
         "alt": "Líneas de color ocre. Fotografía 1",
         "sourceName": "_DSC3598.ARW",
@@ -3122,13 +3082,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-029",
     "image": "arc-015182",
-    "thumb": "thumb-015182",
+    "thumb": "arc-015182",
     "alt": "Espacio de líneas verdes",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015182",
-        "thumb": "thumb-015182",
+        "thumb": "arc-015182",
         "archiveId": "ARC-015182",
         "alt": "Espacio de líneas verdes. Fotografía 1",
         "sourceName": "_DSC3599.ARW",
@@ -3144,13 +3104,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-030",
     "image": "arc-015183",
-    "thumb": "thumb-015183",
+    "thumb": "arc-015183",
     "alt": "Trazos oscuros y acentos de color",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015183",
-        "thumb": "thumb-015183",
+        "thumb": "arc-015183",
         "archiveId": "ARC-015183",
         "alt": "Trazos oscuros y acentos de color. Fotografía 1",
         "sourceName": "_DSC3600.ARW",
@@ -3166,13 +3126,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-031",
     "image": "arc-015185",
-    "thumb": "thumb-015185",
+    "thumb": "arc-015185",
     "alt": "Símbolos sobre fondo amarillo",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015185",
-        "thumb": "thumb-015185",
+        "thumb": "arc-015185",
         "archiveId": "ARC-015185",
         "alt": "Símbolos sobre fondo amarillo. Fotografía 1",
         "sourceName": "_DSC3609.ARW",
@@ -3188,13 +3148,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-032",
     "image": "arc-015186",
-    "thumb": "thumb-015186",
+    "thumb": "arc-015186",
     "alt": "Figura con forma de sol",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015186",
-        "thumb": "thumb-015186",
+        "thumb": "arc-015186",
         "archiveId": "ARC-015186",
         "alt": "Figura con forma de sol. Fotografía 1",
         "sourceName": "_DSC3610.ARW",
@@ -3210,13 +3170,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-033",
     "image": "arc-015187",
-    "thumb": "thumb-015187",
+    "thumb": "arc-015187",
     "alt": "Figuras y planos enmarcados",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-015187",
-        "thumb": "thumb-015187",
+        "thumb": "arc-015187",
         "archiveId": "ARC-015187",
         "alt": "Figuras y planos enmarcados. Fotografía 1",
         "sourceName": "_DSC3613.ARW",
@@ -3232,13 +3192,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-034",
     "image": "arc-008527",
-    "thumb": "thumb-008527",
+    "thumb": "arc-008527",
     "alt": "Líneas azules y acentos amarillos",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-008527",
-        "thumb": "thumb-008527",
+        "thumb": "arc-008527",
         "archiveId": "ARC-008527",
         "alt": "Líneas azules y acentos amarillos. Fotografía 1",
         "sourceName": "P804300121.JPG",
@@ -3246,7 +3206,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013450",
-        "thumb": "thumb-013450",
+        "thumb": "arc-013450",
         "archiveId": "ARC-013450",
         "alt": "Líneas azules y acentos amarillos · vista del archivo",
         "sourceName": "P80430012-1.JPG",
@@ -3254,7 +3214,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013451",
-        "thumb": "thumb-013451",
+        "thumb": "arc-013451",
         "archiveId": "ARC-013451",
         "alt": "Líneas azules y acentos amarillos · vista del archivo",
         "sourceName": "P80430012.jpg",
@@ -3270,13 +3230,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-035",
     "image": "arc-008528",
-    "thumb": "thumb-008528",
+    "thumb": "arc-008528",
     "alt": "Figuras de líneas negras",
-    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIQUE SEGARRA I GARIBO.",
+    "text": "El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.",
     "gallery": [
       {
         "image": "arc-008528",
-        "thumb": "thumb-008528",
+        "thumb": "arc-008528",
         "archiveId": "ARC-008528",
         "alt": "Figuras de líneas negras. Fotografía 1",
         "sourceName": "PB0300051.JPG",
@@ -3284,7 +3244,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013416",
-        "thumb": "thumb-013416",
+        "thumb": "arc-013416",
         "archiveId": "ARC-013416",
         "alt": "Figuras de líneas negras · vista del archivo",
         "sourceName": "FOTO2.jpg",
@@ -3292,7 +3252,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013444",
-        "thumb": "thumb-013444",
+        "thumb": "arc-013444",
         "archiveId": "ARC-013444",
         "alt": "Figuras de líneas negras · vista del archivo",
         "sourceName": "P80400313.JPG",
@@ -3300,7 +3260,7 @@ export const catalogue = [
       },
       {
         "image": "arc-013458",
-        "thumb": "thumb-013458",
+        "thumb": "arc-013458",
         "archiveId": "ARC-013458",
         "alt": "Figuras de líneas negras · vista del archivo",
         "sourceName": "PB030005.JPG",
@@ -3318,7 +3278,7 @@ export const catalogue = [
     "image": "pin-001-estudio-v3",
     "thumb": "pin-001-estudio-v3",
     "alt": "Arca en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-001-estudio-v3",
@@ -3340,7 +3300,7 @@ export const catalogue = [
     "image": "pin-002-estudio-v3",
     "thumb": "pin-002-estudio-v3",
     "alt": "Sol en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-002-estudio-v3",
@@ -3362,7 +3322,7 @@ export const catalogue = [
     "image": "pin-003-estudio-v3",
     "thumb": "pin-003-estudio-v3",
     "alt": "Arca sobre fondo oscuro",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-003-estudio-v3",
@@ -3384,7 +3344,7 @@ export const catalogue = [
     "image": "pin-004-estudio-v3",
     "thumb": "pin-004-estudio-v3",
     "alt": "Ojo en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-004-estudio-v3",
@@ -3406,7 +3366,7 @@ export const catalogue = [
     "image": "pin-005-estudio-v3",
     "thumb": "pin-005-estudio-v3",
     "alt": "Arca y cielo claro",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-005-estudio-v3",
@@ -3428,7 +3388,7 @@ export const catalogue = [
     "image": "pin-006-estudio-v3",
     "thumb": "pin-006-estudio-v3",
     "alt": "Símbolos en círculo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-006-estudio-v3",
@@ -3450,7 +3410,7 @@ export const catalogue = [
     "image": "pin-007-estudio-v3",
     "thumb": "pin-007-estudio-v3",
     "alt": "Arca sobre fondo azul",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-007-estudio-v3",
@@ -3472,7 +3432,7 @@ export const catalogue = [
     "image": "pin-008-estudio-v3",
     "thumb": "pin-008-estudio-v3",
     "alt": "Arca y formas azules",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-008-estudio-v3",
@@ -3494,7 +3454,7 @@ export const catalogue = [
     "image": "pin-009-estudio-v3",
     "thumb": "pin-009-estudio-v3",
     "alt": "Arca, luna y sol",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-009-estudio-v3",
@@ -3516,7 +3476,7 @@ export const catalogue = [
     "image": "pin-010-estudio-v3",
     "thumb": "pin-010-estudio-v3",
     "alt": "Árbol en círculo violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-010-estudio-v3",
@@ -3538,7 +3498,7 @@ export const catalogue = [
     "image": "pin-011-estudio-v3",
     "thumb": "pin-011-estudio-v3",
     "alt": "Arca sobre aguas rosas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-011-estudio-v3",
@@ -3560,7 +3520,7 @@ export const catalogue = [
     "image": "pin-012-estudio-v3",
     "thumb": "pin-012-estudio-v3",
     "alt": "Círculo naranja de figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-012-estudio-v3",
@@ -3582,7 +3542,7 @@ export const catalogue = [
     "image": "pin-013-estudio-v3",
     "thumb": "pin-013-estudio-v3",
     "alt": "Figuras enlazadas en rosa",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-013-estudio-v3",
@@ -3604,7 +3564,7 @@ export const catalogue = [
     "image": "pin-014-estudio-v3",
     "thumb": "pin-014-estudio-v3",
     "alt": "Arca entre el sol y la luna",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-014-estudio-v3",
@@ -3626,7 +3586,7 @@ export const catalogue = [
     "image": "pin-015-estudio-v3",
     "thumb": "pin-015-estudio-v3",
     "alt": "Rostro sobre fondo amarillo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-015-estudio-v3",
@@ -3648,7 +3608,7 @@ export const catalogue = [
     "image": "pin-016-estudio-v3",
     "thumb": "pin-016-estudio-v3",
     "alt": "Figuras felinas sobre fondo amarillo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "pin-016-estudio-v3",
@@ -3670,7 +3630,7 @@ export const catalogue = [
     "image": "pin-017-estudio-v3",
     "thumb": "pin-017-estudio-v3",
     "alt": "Figuras sobre fondo violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-017-estudio-v3",
@@ -3692,7 +3652,7 @@ export const catalogue = [
     "image": "pin-018-estudio-v3",
     "thumb": "pin-018-estudio-v3",
     "alt": "Dos rostros y vegetación",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-018-estudio-v3",
@@ -3714,7 +3674,7 @@ export const catalogue = [
     "image": "pin-019-estudio-v3",
     "thumb": "pin-019-estudio-v3",
     "alt": "Figura de gato",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "pin-019-estudio-v3",
@@ -3736,7 +3696,7 @@ export const catalogue = [
     "image": "pin-020-estudio-v3",
     "thumb": "pin-020-estudio-v3",
     "alt": "Cabeza de toro de perfiles claros",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "pin-020-estudio-v3",
@@ -3758,7 +3718,7 @@ export const catalogue = [
     "image": "pin-021-estudio-v3",
     "thumb": "pin-021-estudio-v3",
     "alt": "Cabeza de toro naranja",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "pin-021-estudio-v3",
@@ -3780,7 +3740,7 @@ export const catalogue = [
     "image": "pin-022-estudio-v3",
     "thumb": "pin-022-estudio-v3",
     "alt": "Cabeza de toro de perfil",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "pin-022-estudio-v3",
@@ -3802,7 +3762,7 @@ export const catalogue = [
     "image": "pin-023-estudio-v3",
     "thumb": "pin-023-estudio-v3",
     "alt": "Gato de cuerpo violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "pin-023-estudio-v3",
@@ -3824,7 +3784,7 @@ export const catalogue = [
     "image": "pin-024-estudio-v3",
     "thumb": "pin-024-estudio-v3",
     "alt": "Forma trilobulada",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-024-estudio-v3",
@@ -3846,7 +3806,7 @@ export const catalogue = [
     "image": "pin-025-estudio-v3",
     "thumb": "pin-025-estudio-v3",
     "alt": "Figura azul de perfil",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-025-estudio-v3",
@@ -3868,7 +3828,7 @@ export const catalogue = [
     "image": "pin-026-estudio-v3",
     "thumb": "pin-026-estudio-v3",
     "alt": "Dos figuras en naranja y violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-026-estudio-v3",
@@ -3890,7 +3850,7 @@ export const catalogue = [
     "image": "pin-027-estudio-v3",
     "thumb": "pin-027-estudio-v3",
     "alt": "Rostro de líneas cálidas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-027-estudio-v3",
@@ -3912,7 +3872,7 @@ export const catalogue = [
     "image": "pin-028-estudio-v3",
     "thumb": "pin-028-estudio-v3",
     "alt": "Rostro y formas circulares",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-028-estudio-v3",
@@ -3934,7 +3894,7 @@ export const catalogue = [
     "image": "pin-029-estudio-v3",
     "thumb": "pin-029-estudio-v3",
     "alt": "Perfil dorado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-029-estudio-v3",
@@ -3956,7 +3916,7 @@ export const catalogue = [
     "image": "pin-030-estudio-v3",
     "thumb": "pin-030-estudio-v3",
     "alt": "Figuras en formato alargado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-030-estudio-v3",
@@ -3978,7 +3938,7 @@ export const catalogue = [
     "image": "pin-031-estudio-v3",
     "thumb": "pin-031-estudio-v3",
     "alt": "Rostro naranja y mano azul",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-031-estudio-v3",
@@ -4000,7 +3960,7 @@ export const catalogue = [
     "image": "pin-032-estudio-v3",
     "thumb": "pin-032-estudio-v3",
     "alt": "Dos figuras de cuerpo verde",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-032-estudio-v3",
@@ -4022,7 +3982,7 @@ export const catalogue = [
     "image": "pin-033-estudio-v3",
     "thumb": "pin-033-estudio-v3",
     "alt": "Figura en rosa y ocre",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-033-estudio-v3",
@@ -4044,7 +4004,7 @@ export const catalogue = [
     "image": "pin-034-estudio-v3",
     "thumb": "pin-034-estudio-v3",
     "alt": "Rostro naranja y líneas de color",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-034-estudio-v3",
@@ -4066,7 +4026,7 @@ export const catalogue = [
     "image": "pin-035-estudio-v3",
     "thumb": "pin-035-estudio-v3",
     "alt": "Rostro con figuras alrededor",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-035-estudio-v3",
@@ -4088,7 +4048,7 @@ export const catalogue = [
     "image": "pin-036-estudio-v3",
     "thumb": "pin-036-estudio-v3",
     "alt": "Grupo de gatos de colores",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "pin-036-estudio-v3",
@@ -4110,7 +4070,7 @@ export const catalogue = [
     "image": "pin-037-estudio-v3",
     "thumb": "pin-037-estudio-v3",
     "alt": "Encuentro de figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-037-estudio-v3",
@@ -4132,7 +4092,7 @@ export const catalogue = [
     "image": "pin-038-estudio-v3",
     "thumb": "pin-038-estudio-v3",
     "alt": "Gato sobre fondo dorado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "pin-038-estudio-v3",
@@ -4154,7 +4114,7 @@ export const catalogue = [
     "image": "pin-039-estudio-v3",
     "thumb": "pin-039-estudio-v3",
     "alt": "Gato rosa enmarcado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
     "gallery": [
       {
         "image": "pin-039-estudio-v3",
@@ -4176,7 +4136,7 @@ export const catalogue = [
     "image": "pin-040-estudio-v3",
     "thumb": "pin-040-estudio-v3",
     "alt": "Figuras sobre fondo lila",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-040-estudio-v3",
@@ -4198,7 +4158,7 @@ export const catalogue = [
     "image": "pin-041-estudio-v3",
     "thumb": "pin-041-estudio-v3",
     "alt": "Líneas y planos sobre naranja",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-041-estudio-v3",
@@ -4220,7 +4180,7 @@ export const catalogue = [
     "image": "pin-042-estudio-v3",
     "thumb": "pin-042-estudio-v3",
     "alt": "Curvas blancas sobre naranja",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-042-estudio-v3",
@@ -4242,7 +4202,7 @@ export const catalogue = [
     "image": "pin-043-estudio-v3",
     "thumb": "pin-043-estudio-v3",
     "alt": "Remolino de formas claras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-043-estudio-v3",
@@ -4264,7 +4224,7 @@ export const catalogue = [
     "image": "pin-044-estudio-v3",
     "thumb": "pin-044-estudio-v3",
     "alt": "Planos de colores suaves",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-044-estudio-v3",
@@ -4286,7 +4246,7 @@ export const catalogue = [
     "image": "pin-045-estudio-v3",
     "thumb": "pin-045-estudio-v3",
     "alt": "Planos violetas y ocres",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-045-estudio-v3",
@@ -4308,7 +4268,7 @@ export const catalogue = [
     "image": "pin-046-estudio-v3",
     "thumb": "pin-046-estudio-v3",
     "alt": "Giro de formas rojas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-046-estudio-v3",
@@ -4330,7 +4290,7 @@ export const catalogue = [
     "image": "pin-047-estudio-v3",
     "thumb": "pin-047-estudio-v3",
     "alt": "Formas entrelazadas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-047-estudio-v3",
@@ -4352,7 +4312,7 @@ export const catalogue = [
     "image": "pin-048-estudio-v3",
     "thumb": "pin-048-estudio-v3",
     "alt": "Ritmo rojo y blanco",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-048-estudio-v3",
@@ -4374,7 +4334,7 @@ export const catalogue = [
     "image": "pin-049-estudio-v3",
     "thumb": "pin-049-estudio-v3",
     "alt": "Curvas blancas y naranjas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-049-estudio-v3",
@@ -4396,7 +4356,7 @@ export const catalogue = [
     "image": "pin-050-estudio-v3",
     "thumb": "pin-050-estudio-v3",
     "alt": "Volúmenes de color",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-050-estudio-v3",
@@ -4418,7 +4378,7 @@ export const catalogue = [
     "image": "pin-051-estudio-v3",
     "thumb": "pin-051-estudio-v3",
     "alt": "Encuentro de signos y color",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-051-estudio-v3",
@@ -4440,7 +4400,7 @@ export const catalogue = [
     "image": "pin-052-estudio-v3",
     "thumb": "pin-052-estudio-v3",
     "alt": "Recorrido rojo y circular",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-052-estudio-v3",
@@ -4462,7 +4422,7 @@ export const catalogue = [
     "image": "pin-053-estudio-v3",
     "thumb": "pin-053-estudio-v3",
     "alt": "Signos en rojo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-053-estudio-v3",
@@ -4484,7 +4444,7 @@ export const catalogue = [
     "image": "pin-054-estudio-v3",
     "thumb": "pin-054-estudio-v3",
     "alt": "Letras y figuras rojas",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-054-estudio-v3",
@@ -4506,7 +4466,7 @@ export const catalogue = [
     "image": "pin-055-estudio-v3",
     "thumb": "pin-055-estudio-v3",
     "alt": "Composición vertical de signos",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-055-estudio-v3",
@@ -4528,7 +4488,7 @@ export const catalogue = [
     "image": "pin-056-estudio-v3",
     "thumb": "pin-056-estudio-v3",
     "alt": "Retrato de perfil ascendente",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
     "gallery": [
       {
         "image": "pin-056-estudio-v3",
@@ -4550,7 +4510,7 @@ export const catalogue = [
     "image": "pin-057-estudio-v3",
     "thumb": "pin-057-estudio-v3",
     "alt": "Signo rojo en círculo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-057-estudio-v3",
@@ -4572,7 +4532,7 @@ export const catalogue = [
     "image": "pin-058-estudio-v3",
     "thumb": "pin-058-estudio-v3",
     "alt": "Composición horizontal de tonos claros",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
     "gallery": [
       {
         "image": "pin-058-estudio-v3",
@@ -4594,7 +4554,7 @@ export const catalogue = [
     "image": "pin-059-estudio-v3",
     "thumb": "pin-059-estudio-v3",
     "alt": "Retrato de perfil con barba",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
     "gallery": [
       {
         "image": "pin-059-estudio-v3",
@@ -4616,7 +4576,7 @@ export const catalogue = [
     "image": "pin-060-estudio-v3",
     "thumb": "pin-060-estudio-v3",
     "alt": "Composición circular azul",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-060-estudio-v3",
@@ -4638,7 +4598,7 @@ export const catalogue = [
     "image": "pin-061-estudio-v3",
     "thumb": "pin-061-estudio-v3",
     "alt": "Rostro de contorno poligonal",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
     "gallery": [
       {
         "image": "pin-061-estudio-v3",
@@ -4660,7 +4620,7 @@ export const catalogue = [
     "image": "pin-062-estudio-v3",
     "thumb": "pin-062-estudio-v3",
     "alt": "Arca de contorno recortado",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-062-estudio-v3",
@@ -4682,7 +4642,7 @@ export const catalogue = [
     "image": "pin-063-estudio-v3",
     "thumb": "pin-063-estudio-v3",
     "alt": "Figuras en composición violeta",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-063-estudio-v3",
@@ -4704,7 +4664,7 @@ export const catalogue = [
     "image": "pin-064-estudio-v3",
     "thumb": "pin-064-estudio-v3",
     "alt": "Arquitecturas entre el sol y el agua",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
     "gallery": [
       {
         "image": "pin-064-estudio-v3",
@@ -4726,7 +4686,7 @@ export const catalogue = [
     "image": "pin-065-estudio-v3",
     "thumb": "pin-065-estudio-v3",
     "alt": "Figura y dragón sobre fondo verde",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "pin-065-estudio-v3",
@@ -4748,7 +4708,7 @@ export const catalogue = [
     "image": "pin-066-estudio-v3",
     "thumb": "pin-066-estudio-v3",
     "alt": "Figura con espada y dragón",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "pin-066-estudio-v3",
@@ -4770,7 +4730,7 @@ export const catalogue = [
     "image": "pin-067-estudio-v3",
     "thumb": "pin-067-estudio-v3",
     "alt": "Figura, escudo y dragón",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "pin-067-estudio-v3",
@@ -4792,7 +4752,7 @@ export const catalogue = [
     "image": "pin-068-estudio-v3",
     "thumb": "pin-068-estudio-v3",
     "alt": "Figuras bajo un arco",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-068-estudio-v3",
@@ -4814,7 +4774,7 @@ export const catalogue = [
     "image": "pin-069-estudio-v3",
     "thumb": "pin-069-estudio-v3",
     "alt": "Toro y figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "pin-069-estudio-v3",
@@ -4836,7 +4796,7 @@ export const catalogue = [
     "image": "pin-070-estudio-v3",
     "thumb": "pin-070-estudio-v3",
     "alt": "Composición en forma de ojo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-070-estudio-v3",
@@ -4858,7 +4818,7 @@ export const catalogue = [
     "image": "pin-071-estudio-v3",
     "thumb": "pin-071-estudio-v3",
     "alt": "Figuras del ruedo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "pin-071-estudio-v3",
@@ -4880,7 +4840,7 @@ export const catalogue = [
     "image": "pin-072-estudio-v3",
     "thumb": "pin-072-estudio-v3",
     "alt": "Figura ante una ciudad",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "pin-072-estudio-v3",
@@ -4902,7 +4862,7 @@ export const catalogue = [
     "image": "pin-073-estudio-v3",
     "thumb": "pin-073-estudio-v3",
     "alt": "Composición horizontal de figuras",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
     "gallery": [
       {
         "image": "pin-073-estudio-v3",
@@ -4924,7 +4884,7 @@ export const catalogue = [
     "image": "pin-074-estudio-v3",
     "thumb": "pin-074-estudio-v3",
     "alt": "Escena de ruedo",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
     "gallery": [
       {
         "image": "pin-074-estudio-v3",
@@ -4946,7 +4906,7 @@ export const catalogue = [
     "image": "pin-075-estudio-v3",
     "thumb": "pin-075-estudio-v3",
     "alt": "Figura a caballo y dragón",
-    "text": "Una composición del archivo de pintura de ENRIQUE SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
     "gallery": [
       {
         "image": "pin-075-estudio-v3",
@@ -4955,6 +4915,28 @@ export const catalogue = [
         "alt": "Figura a caballo y dragón. Fotografía 1",
         "sourceName": "SANT JORDI.tif",
         "contentKey": "3f615edb5d34be1bd516866ba2f9c01dbdf4a2bb98f1a85e2de66ccdea68a442"
+      }
+    ]
+  },
+  {
+    "id": "pintura-015249",
+    "label": "Retrato de un hombre con barba",
+    "category": "pintura",
+    "series": "Retratos",
+    "chapter": "pintar-mundos",
+    "reference": "PIN-076",
+    "image": "pin-076-estudio-v3",
+    "thumb": "pin-076-estudio-v3",
+    "alt": "Retrato de un hombre con barba",
+    "text": "Una pintura del archivo de Enric Segarra, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de retratos. El nombre describe la imagen y es provisional.",
+    "gallery": [
+      {
+        "image": "pin-076-estudio-v3",
+        "thumb": "pin-076-estudio-v3",
+        "archiveId": "ARC-015249",
+        "alt": "Retrato de un hombre con barba",
+        "sourceName": "_DSC7897.ARW",
+        "contentKey": "ARC-015249"
       }
     ]
   },
@@ -4968,7 +4950,7 @@ export const catalogue = [
     "image": "pin-077-estudio-v3",
     "thumb": "pin-077-estudio-v3",
     "alt": "Personajes alrededor de una mesa de juego",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de figuras y símbolos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de figuras y símbolos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "pin-077-estudio-v3",
@@ -4990,7 +4972,7 @@ export const catalogue = [
     "image": "pin-078-estudio-v3",
     "thumb": "pin-078-estudio-v3",
     "alt": "Gran gato sobre fondo rosa",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "pin-078-estudio-v3",
@@ -5012,7 +4994,7 @@ export const catalogue = [
     "image": "pin-079-estudio-v3",
     "thumb": "pin-079-estudio-v3",
     "alt": "Composición de gatos entrelazados",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "pin-079-estudio-v3",
@@ -5034,7 +5016,7 @@ export const catalogue = [
     "image": "pin-080-estudio-v3",
     "thumb": "pin-080-estudio-v3",
     "alt": "Gato amarillo y figura rosa",
-    "text": "Una pintura del archivo de ENRIQUE SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
     "gallery": [
       {
         "image": "pin-080-estudio-v3",
@@ -5056,11 +5038,11 @@ export const catalogue = [
     "image": "gallery-014955-cool-neutral-v2",
     "thumb": "gallery-014955-cool-neutral-v2",
     "alt": "Arcos oscuros y pequeños acentos de color",
-    "text": "Arcos oscuros y pequeños acentos de color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Arcos oscuros y pequeños acentos de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-014955",
-        "thumb": "nature-014955-thumb",
+        "thumb": "nature-014955",
         "archiveId": "ARC-014955",
         "alt": "Arcos oscuros y pequeños acentos de color · vista 1",
         "sourceName": "IMG20260511110617_BURST001_COVER.jpg",
@@ -5068,7 +5050,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014956",
-        "thumb": "thumb-014956",
+        "thumb": "arc-014956",
         "archiveId": "ARC-014956",
         "alt": "Arcos oscuros y pequeños acentos de color · vista 2",
         "sourceName": "IMG20260511110620.jpg",
@@ -5076,7 +5058,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014957",
-        "thumb": "thumb-014957",
+        "thumb": "arc-014957",
         "archiveId": "ARC-014957",
         "alt": "Arcos oscuros y pequeños acentos de color · vista 3",
         "sourceName": "IMG20260511110628.jpg",
@@ -5084,7 +5066,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014958",
-        "thumb": "thumb-014958",
+        "thumb": "arc-014958",
         "archiveId": "ARC-014958",
         "alt": "Arcos oscuros y pequeños acentos de color · vista 4",
         "sourceName": "IMG20260511140017.jpg",
@@ -5100,13 +5082,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-047",
     "image": "arc-014959",
-    "thumb": "thumb-014959",
+    "thumb": "arc-014959",
     "alt": "Recipientes azules entre las ramas",
-    "text": "Recipientes azules entre las ramas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Recipientes azules entre las ramas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014959",
-        "thumb": "thumb-014959",
+        "thumb": "arc-014959",
         "archiveId": "ARC-014959",
         "alt": "Recipientes azules entre las ramas · vista 1",
         "sourceName": "IMG20260603195026~2.jpg",
@@ -5114,7 +5096,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-047-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-047-view-2-horizontal",
+        "thumb": "gallery-esc-047-view-2-horizontal",
         "archiveId": "ARC-014960",
         "alt": "Recipientes azules entre las ramas · vista 2",
         "sourceName": "IMG20260603195042.jpg",
@@ -5122,7 +5104,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-047-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-047-view-3-horizontal",
+        "thumb": "gallery-esc-047-view-3-horizontal",
         "archiveId": "ARC-014961",
         "alt": "Recipientes azules entre las ramas · vista 3",
         "sourceName": "IMG20260604193930.jpg",
@@ -5130,7 +5112,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-047-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-047-view-4-horizontal",
+        "thumb": "gallery-esc-047-view-4-horizontal",
         "archiveId": "ARC-014963",
         "alt": "Recipientes azules entre las ramas · vista 4",
         "sourceName": "IMG20260604193948.jpg",
@@ -5138,7 +5120,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-047-view-5-horizontal",
-        "thumb": "thumb-gallery-esc-047-view-5-horizontal",
+        "thumb": "gallery-esc-047-view-5-horizontal",
         "archiveId": "ARC-014965",
         "alt": "Recipientes azules entre las ramas · vista 5",
         "sourceName": "IMG20260604194013.jpg",
@@ -5146,7 +5128,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-047-view-6-horizontal",
-        "thumb": "thumb-gallery-esc-047-view-6-horizontal",
+        "thumb": "gallery-esc-047-view-6-horizontal",
         "archiveId": "ARC-014966",
         "alt": "Recipientes azules entre las ramas · vista 6",
         "sourceName": "IMG20260604194013~2.jpg",
@@ -5154,7 +5136,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-047-view-7-horizontal",
-        "thumb": "thumb-gallery-esc-047-view-7-horizontal",
+        "thumb": "gallery-esc-047-view-7-horizontal",
         "archiveId": "ARC-014989",
         "alt": "Recipientes azules entre las ramas · vista 7",
         "sourceName": "IMG20260804200417.jpg",
@@ -5162,7 +5144,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-047-view-8-horizontal",
-        "thumb": "thumb-gallery-esc-047-view-8-horizontal",
+        "thumb": "gallery-esc-047-view-8-horizontal",
         "archiveId": "ARC-014991",
         "alt": "Recipientes azules entre las ramas · vista 8",
         "sourceName": "IMG20260804200510.jpg",
@@ -5178,13 +5160,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-048",
     "image": "arc-014967",
-    "thumb": "thumb-014967",
+    "thumb": "arc-014967",
     "alt": "Paneles de color sobre un tronco",
-    "text": "Paneles de color sobre un tronco. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Paneles de color sobre un tronco. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014967",
-        "thumb": "thumb-014967",
+        "thumb": "arc-014967",
         "archiveId": "ARC-014967",
         "alt": "Paneles de color sobre un tronco · vista 1",
         "sourceName": "IMG20260610200823.jpg",
@@ -5192,7 +5174,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-048-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-048-view-2-horizontal",
+        "thumb": "gallery-esc-048-view-2-horizontal",
         "archiveId": "ARC-014970",
         "alt": "Paneles de color sobre un tronco · vista 2",
         "sourceName": "IMG20260624210545.jpg",
@@ -5208,13 +5190,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-049",
     "image": "arc-014968",
-    "thumb": "thumb-014968",
+    "thumb": "arc-014968",
     "alt": "Recipientes blancos y ramificaciones rojas",
-    "text": "Recipientes blancos y ramificaciones rojas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Recipientes blancos y ramificaciones rojas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014968",
-        "thumb": "thumb-014968",
+        "thumb": "arc-014968",
         "archiveId": "ARC-014968",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 1",
         "sourceName": "IMG20260619212231.jpg",
@@ -5222,7 +5204,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-049-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-049-view-2-horizontal",
+        "thumb": "gallery-esc-049-view-2-horizontal",
         "archiveId": "ARC-014969",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 2",
         "sourceName": "IMG20260624210506_BURST001_COVER.jpg",
@@ -5230,7 +5212,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-049-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-049-view-3-horizontal",
+        "thumb": "gallery-esc-049-view-3-horizontal",
         "archiveId": "ARC-014972",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 3",
         "sourceName": "IMG20260629212820.jpg",
@@ -5238,7 +5220,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-049-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-049-view-4-horizontal",
+        "thumb": "gallery-esc-049-view-4-horizontal",
         "archiveId": "ARC-014974",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 4",
         "sourceName": "IMG20260629212955.jpg",
@@ -5246,7 +5228,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-049-view-5-horizontal",
-        "thumb": "thumb-gallery-esc-049-view-5-horizontal",
+        "thumb": "gallery-esc-049-view-5-horizontal",
         "archiveId": "ARC-014990",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 5",
         "sourceName": "IMG20260804200454.jpg",
@@ -5254,7 +5236,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-049-view-6-horizontal",
-        "thumb": "thumb-gallery-esc-049-view-6-horizontal",
+        "thumb": "gallery-esc-049-view-6-horizontal",
         "archiveId": "ARC-014995",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 6",
         "sourceName": "IMG20260804200727.jpg",
@@ -5262,7 +5244,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-049-view-7-horizontal",
-        "thumb": "thumb-gallery-esc-049-view-7-horizontal",
+        "thumb": "gallery-esc-049-view-7-horizontal",
         "archiveId": "ARC-014996",
         "alt": "Recipientes blancos y ramificaciones rojas · vista 7",
         "sourceName": "IMG20260804200738.jpg",
@@ -5280,11 +5262,11 @@ export const catalogue = [
     "image": "gallery-014976-cool-neutral-v2",
     "thumb": "gallery-014976-cool-neutral-v2",
     "alt": "Círculos rojos entrelazados",
-    "text": "Círculos rojos entrelazados. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Círculos rojos entrelazados. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-014976",
-        "thumb": "nature-014976-thumb",
+        "thumb": "nature-014976",
         "archiveId": "ARC-014976",
         "alt": "Círculos rojos entrelazados · vista 1",
         "sourceName": "IMG20260629213021.jpg",
@@ -5292,7 +5274,7 @@ export const catalogue = [
       },
       {
         "image": "arc-014977",
-        "thumb": "thumb-014977",
+        "thumb": "arc-014977",
         "archiveId": "ARC-014977",
         "alt": "Círculos rojos entrelazados · vista 2",
         "sourceName": "IMG20260629213030.jpg",
@@ -5300,7 +5282,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015003",
-        "thumb": "thumb-015003",
+        "thumb": "arc-015003",
         "archiveId": "ARC-015003",
         "alt": "Círculos rojos entrelazados · vista 3",
         "sourceName": "IMG20260809120436.jpg",
@@ -5308,7 +5290,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015004",
-        "thumb": "thumb-015004",
+        "thumb": "arc-015004",
         "archiveId": "ARC-015004",
         "alt": "Círculos rojos entrelazados · vista 4",
         "sourceName": "IMG20260809120458.jpg",
@@ -5316,7 +5298,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015005",
-        "thumb": "thumb-015005",
+        "thumb": "arc-015005",
         "archiveId": "ARC-015005",
         "alt": "Círculos rojos entrelazados · vista 5",
         "sourceName": "IMG20260809120458~2.jpg",
@@ -5324,7 +5306,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015026",
-        "thumb": "thumb-015026",
+        "thumb": "arc-015026",
         "archiveId": "ARC-015026",
         "alt": "Círculos rojos entrelazados · vista 6",
         "sourceName": "IMG20260819142453~2.jpg",
@@ -5332,7 +5314,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015035",
-        "thumb": "thumb-015035",
+        "thumb": "arc-015035",
         "archiveId": "ARC-015035",
         "alt": "Círculos rojos entrelazados · vista 7",
         "sourceName": "IMG20260828193341.jpg",
@@ -5340,7 +5322,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015036",
-        "thumb": "thumb-015036",
+        "thumb": "arc-015036",
         "archiveId": "ARC-015036",
         "alt": "Círculos rojos entrelazados · vista 8",
         "sourceName": "IMG20260828193341~2.jpg",
@@ -5348,7 +5330,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015043",
-        "thumb": "thumb-015043",
+        "thumb": "arc-015043",
         "archiveId": "ARC-015043",
         "alt": "Círculos rojos entrelazados · vista 9",
         "sourceName": "IMG20260907095124~2.jpg",
@@ -5364,13 +5346,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-050",
     "image": "arc-014978",
-    "thumb": "thumb-014978",
+    "thumb": "arc-014978",
     "alt": "Marcos de color en el árbol",
-    "text": "Marcos de color en el árbol. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Marcos de color en el árbol. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-014978",
-        "thumb": "thumb-014978",
+        "thumb": "arc-014978",
         "archiveId": "ARC-014978",
         "alt": "Marcos de color en el árbol · vista 1",
         "sourceName": "IMG20260727205616.jpg",
@@ -5378,7 +5360,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-2-horizontal",
+        "thumb": "gallery-esc-050-view-2-horizontal",
         "archiveId": "ARC-014979",
         "alt": "Marcos de color en el árbol · vista 2",
         "sourceName": "IMG20260727205646.jpg",
@@ -5386,7 +5368,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-3-horizontal",
+        "thumb": "gallery-esc-050-view-3-horizontal",
         "archiveId": "ARC-014980",
         "alt": "Marcos de color en el árbol · vista 3",
         "sourceName": "IMG20260728205357.jpg",
@@ -5394,7 +5376,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-4-horizontal",
+        "thumb": "gallery-esc-050-view-4-horizontal",
         "archiveId": "ARC-014981",
         "alt": "Marcos de color en el árbol · vista 4",
         "sourceName": "IMG20260728205409.jpg",
@@ -5402,7 +5384,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-5-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-5-horizontal",
+        "thumb": "gallery-esc-050-view-5-horizontal",
         "archiveId": "ARC-014982",
         "alt": "Marcos de color en el árbol · vista 5",
         "sourceName": "IMG20260728205423~2.jpg",
@@ -5410,7 +5392,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-6-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-6-horizontal",
+        "thumb": "gallery-esc-050-view-6-horizontal",
         "archiveId": "ARC-014983",
         "alt": "Marcos de color en el árbol · vista 6",
         "sourceName": "IMG20260728205507.jpg",
@@ -5418,7 +5400,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-7-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-7-horizontal",
+        "thumb": "gallery-esc-050-view-7-horizontal",
         "archiveId": "ARC-014984",
         "alt": "Marcos de color en el árbol · vista 7",
         "sourceName": "IMG20260728205507~2.jpg",
@@ -5426,7 +5408,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-8-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-8-horizontal",
+        "thumb": "gallery-esc-050-view-8-horizontal",
         "archiveId": "ARC-014985",
         "alt": "Marcos de color en el árbol · vista 8",
         "sourceName": "IMG20260728205519.jpg",
@@ -5434,7 +5416,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-9-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-9-horizontal",
+        "thumb": "gallery-esc-050-view-9-horizontal",
         "archiveId": "ARC-014997",
         "alt": "Marcos de color en el árbol · vista 9",
         "sourceName": "IMG20260804201122.jpg",
@@ -5442,7 +5424,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-10-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-10-horizontal",
+        "thumb": "gallery-esc-050-view-10-horizontal",
         "archiveId": "ARC-014998",
         "alt": "Marcos de color en el árbol · vista 10",
         "sourceName": "IMG20260804201207.jpg",
@@ -5450,7 +5432,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-050-view-11-horizontal",
-        "thumb": "thumb-gallery-esc-050-view-11-horizontal",
+        "thumb": "gallery-esc-050-view-11-horizontal",
         "archiveId": "ARC-014999",
         "alt": "Marcos de color en el árbol · vista 11",
         "sourceName": "IMG20260804201207~2.jpg",
@@ -5468,11 +5450,11 @@ export const catalogue = [
     "image": "gallery-015000-cool-neutral-v2",
     "thumb": "gallery-015000-cool-neutral-v2",
     "alt": "Curvas azules y verdes",
-    "text": "Curvas azules y verdes. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Curvas azules y verdes. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-015000-cool-neutral-v2",
-        "thumb": "gallery-015000-thumb",
+        "thumb": "gallery-015000-cool-neutral-v2",
         "archiveId": "ARC-015000",
         "alt": "Curvas azules y verdes · vista de estudio",
         "sourceName": "IMG20260805133737.jpg",
@@ -5480,7 +5462,7 @@ export const catalogue = [
       },
       {
         "image": "nature-015000",
-        "thumb": "nature-015000-thumb",
+        "thumb": "nature-015000",
         "archiveId": "ARC-015000",
         "alt": "Curvas azules y verdes · vista en vegetación",
         "sourceName": "IMG20260805133737.jpg",
@@ -5498,11 +5480,11 @@ export const catalogue = [
     "image": "gallery-015002-cool-neutral-v2",
     "thumb": "gallery-015002-cool-neutral-v2",
     "alt": "Trama oscura con flores de color",
-    "text": "Trama oscura con flores de color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Trama oscura con flores de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015002",
-        "thumb": "nature-015002-thumb",
+        "thumb": "nature-015002",
         "archiveId": "ARC-015002",
         "alt": "Trama oscura con flores de color · vista 1",
         "sourceName": "IMG20260809120427.jpg",
@@ -5520,11 +5502,11 @@ export const catalogue = [
     "image": "gallery-015006-cool-neutral-v2",
     "thumb": "gallery-015006-cool-neutral-v2",
     "alt": "Arco rojo y discos azules",
-    "text": "Arco rojo y discos azules. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Arco rojo y discos azules. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-015006-cool-neutral-v2",
-        "thumb": "gallery-015006-thumb",
+        "thumb": "gallery-015006-cool-neutral-v2",
         "archiveId": "ARC-015006",
         "alt": "Arco rojo y discos azules · vista de estudio",
         "sourceName": "IMG20260816201736.jpg",
@@ -5532,7 +5514,7 @@ export const catalogue = [
       },
       {
         "image": "nature-015006",
-        "thumb": "nature-015006-thumb",
+        "thumb": "nature-015006",
         "archiveId": "ARC-015006",
         "alt": "Arco rojo y discos azules · vista en vegetación",
         "sourceName": "IMG20260816201736.jpg",
@@ -5550,11 +5532,11 @@ export const catalogue = [
     "image": "gallery-015011-cool-neutral-v2",
     "thumb": "gallery-015011-cool-neutral-v2",
     "alt": "Un recorrido de pequeños discos",
-    "text": "Un recorrido de pequeños discos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Un recorrido de pequeños discos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015011",
-        "thumb": "nature-015011-thumb",
+        "thumb": "nature-015011",
         "archiveId": "ARC-015011",
         "alt": "Un recorrido de pequeños discos · vista 1",
         "sourceName": "IMG20260817161218_BURST001_COVER.jpg",
@@ -5562,7 +5544,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015012",
-        "thumb": "thumb-015012",
+        "thumb": "arc-015012",
         "archiveId": "ARC-015012",
         "alt": "Un recorrido de pequeños discos · vista 2",
         "sourceName": "IMG20260817161232_BURST001_COVER.jpg",
@@ -5570,7 +5552,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015013",
-        "thumb": "thumb-015013",
+        "thumb": "arc-015013",
         "archiveId": "ARC-015013",
         "alt": "Un recorrido de pequeños discos · vista 3",
         "sourceName": "IMG20260817161252_BURST001_COVER.jpg",
@@ -5578,7 +5560,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015014",
-        "thumb": "thumb-015014",
+        "thumb": "arc-015014",
         "archiveId": "ARC-015014",
         "alt": "Un recorrido de pequeños discos · vista 4",
         "sourceName": "IMG20260817161318.jpg",
@@ -5586,7 +5568,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015015",
-        "thumb": "thumb-015015",
+        "thumb": "arc-015015",
         "archiveId": "ARC-015015",
         "alt": "Un recorrido de pequeños discos · vista 5",
         "sourceName": "IMG20260817161454.jpg",
@@ -5594,7 +5576,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015016",
-        "thumb": "thumb-015016",
+        "thumb": "arc-015016",
         "archiveId": "ARC-015016",
         "alt": "Un recorrido de pequeños discos · vista 6",
         "sourceName": "IMG20260817161512.jpg",
@@ -5602,7 +5584,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015017",
-        "thumb": "thumb-015017",
+        "thumb": "arc-015017",
         "archiveId": "ARC-015017",
         "alt": "Un recorrido de pequeños discos · vista 7",
         "sourceName": "IMG20260817193235.jpg",
@@ -5610,7 +5592,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015018",
-        "thumb": "thumb-015018",
+        "thumb": "arc-015018",
         "archiveId": "ARC-015018",
         "alt": "Un recorrido de pequeños discos · vista 8",
         "sourceName": "IMG20260817193256_BURST001_COVER.jpg",
@@ -5618,7 +5600,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015019",
-        "thumb": "thumb-015019",
+        "thumb": "arc-015019",
         "archiveId": "ARC-015019",
         "alt": "Un recorrido de pequeños discos · vista 9",
         "sourceName": "IMG20260817193314.jpg",
@@ -5626,7 +5608,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015020",
-        "thumb": "thumb-015020",
+        "thumb": "arc-015020",
         "archiveId": "ARC-015020",
         "alt": "Un recorrido de pequeños discos · vista 10",
         "sourceName": "IMG20260817193340.jpg",
@@ -5634,7 +5616,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015047",
-        "thumb": "thumb-015047",
+        "thumb": "arc-015047",
         "archiveId": "ARC-015047",
         "alt": "Un recorrido de pequeños discos · vista 11",
         "sourceName": "IMG20260907095551~2.jpg",
@@ -5642,7 +5624,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015048",
-        "thumb": "thumb-015048",
+        "thumb": "arc-015048",
         "archiveId": "ARC-015048",
         "alt": "Un recorrido de pequeños discos · vista 12",
         "sourceName": "IMG20260907095610~2.jpg",
@@ -5650,7 +5632,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015050",
-        "thumb": "thumb-015050",
+        "thumb": "arc-015050",
         "archiveId": "ARC-015050",
         "alt": "Un recorrido de pequeños discos · vista 13",
         "sourceName": "IMG20260907095645~2.jpg",
@@ -5668,11 +5650,11 @@ export const catalogue = [
     "image": "gallery-015021-cool-neutral-v2",
     "thumb": "gallery-015021-cool-neutral-v2",
     "alt": "Círculo abierto de muchos colores",
-    "text": "Círculo abierto de muchos colores. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Círculo abierto de muchos colores. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015021",
-        "thumb": "nature-015021-thumb",
+        "thumb": "nature-015021",
         "archiveId": "ARC-015021",
         "alt": "Círculo abierto de muchos colores · vista 1",
         "sourceName": "IMG20260819142328~2.jpg",
@@ -5680,7 +5662,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015022",
-        "thumb": "thumb-015022",
+        "thumb": "arc-015022",
         "archiveId": "ARC-015022",
         "alt": "Círculo abierto de muchos colores · vista 2",
         "sourceName": "IMG20260819142341~2.jpg",
@@ -5688,7 +5670,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015023",
-        "thumb": "thumb-015023",
+        "thumb": "arc-015023",
         "archiveId": "ARC-015023",
         "alt": "Círculo abierto de muchos colores · vista 3",
         "sourceName": "IMG20260819142355~2.jpg",
@@ -5696,7 +5678,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015024",
-        "thumb": "thumb-015024",
+        "thumb": "arc-015024",
         "archiveId": "ARC-015024",
         "alt": "Círculo abierto de muchos colores · vista 4",
         "sourceName": "IMG20260819142413.jpg",
@@ -5704,7 +5686,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015025",
-        "thumb": "thumb-015025",
+        "thumb": "arc-015025",
         "archiveId": "ARC-015025",
         "alt": "Círculo abierto de muchos colores · vista 5",
         "sourceName": "IMG20260819142413~2.jpg",
@@ -5712,7 +5694,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015027",
-        "thumb": "thumb-015027",
+        "thumb": "arc-015027",
         "archiveId": "ARC-015027",
         "alt": "Círculo abierto de muchos colores · vista 6",
         "sourceName": "IMG20260819142503~2.jpg",
@@ -5720,7 +5702,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015054",
-        "thumb": "thumb-015054",
+        "thumb": "arc-015054",
         "archiveId": "ARC-015054",
         "alt": "Círculo abierto de muchos colores · vista 7",
         "sourceName": "IMG20260910161048.jpg",
@@ -5728,7 +5710,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015055",
-        "thumb": "thumb-015055",
+        "thumb": "arc-015055",
         "archiveId": "ARC-015055",
         "alt": "Círculo abierto de muchos colores · vista 8",
         "sourceName": "IMG20260910161056.jpg",
@@ -5736,7 +5718,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015056",
-        "thumb": "thumb-015056",
+        "thumb": "arc-015056",
         "archiveId": "ARC-015056",
         "alt": "Círculo abierto de muchos colores · vista 9",
         "sourceName": "IMG20260910161256.jpg",
@@ -5752,13 +5734,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-051",
     "image": "arc-015032",
-    "thumb": "thumb-015032",
+    "thumb": "arc-015032",
     "alt": "Círculo blanco de piezas encontradas",
-    "text": "Círculo blanco de piezas encontradas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Círculo blanco de piezas encontradas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-015032",
-        "thumb": "thumb-015032",
+        "thumb": "arc-015032",
         "archiveId": "ARC-015032",
         "alt": "Círculo blanco de piezas encontradas · vista 1",
         "sourceName": "IMG20260824190926~2.jpg",
@@ -5766,7 +5748,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-051-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-051-view-2-horizontal",
+        "thumb": "gallery-esc-051-view-2-horizontal",
         "archiveId": "ARC-015033",
         "alt": "Círculo blanco de piezas encontradas · vista 2",
         "sourceName": "IMG20260825120912~2.jpg",
@@ -5784,11 +5766,11 @@ export const catalogue = [
     "image": "gallery-015045-cool-neutral-v2",
     "thumb": "gallery-015045-cool-neutral-v2",
     "alt": "Estructura abierta y un aro de color",
-    "text": "Estructura abierta y un aro de color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Estructura abierta y un aro de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015045",
-        "thumb": "nature-015045-thumb",
+        "thumb": "nature-015045",
         "archiveId": "ARC-015045",
         "alt": "Estructura abierta y un aro de color · vista 1",
         "sourceName": "IMG20260907095349~2.jpg",
@@ -5806,11 +5788,11 @@ export const catalogue = [
     "image": "gallery-015051-cool-neutral-v2",
     "thumb": "gallery-015051-cool-neutral-v2",
     "alt": "Columna de discos multicolores",
-    "text": "Columna de discos multicolores. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Columna de discos multicolores. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015051",
-        "thumb": "nature-015051-thumb",
+        "thumb": "nature-015051",
         "archiveId": "ARC-015051",
         "alt": "Columna de discos multicolores · vista 1",
         "sourceName": "IMG20260908120619.jpg",
@@ -5818,7 +5800,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015052",
-        "thumb": "thumb-015052",
+        "thumb": "arc-015052",
         "archiveId": "ARC-015052",
         "alt": "Columna de discos multicolores · vista 2",
         "sourceName": "IMG20260908120643~2.jpg",
@@ -5826,7 +5808,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015053",
-        "thumb": "thumb-015053",
+        "thumb": "arc-015053",
         "archiveId": "ARC-015053",
         "alt": "Columna de discos multicolores · vista 3",
         "sourceName": "IMG20260908120650.jpg",
@@ -5844,11 +5826,11 @@ export const catalogue = [
     "image": "gallery-015058-cool-neutral-v2",
     "thumb": "gallery-015058-cool-neutral-v2",
     "alt": "Recipientes rosas, verdes y amarillos",
-    "text": "Recipientes rosas, verdes y amarillos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Recipientes rosas, verdes y amarillos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015058",
-        "thumb": "nature-015058-thumb",
+        "thumb": "nature-015058",
         "archiveId": "ARC-015058",
         "alt": "Recipientes rosas, verdes y amarillos · vista 1",
         "sourceName": "IMG_20240511_205553.jpg",
@@ -5856,7 +5838,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015059",
-        "thumb": "thumb-015059",
+        "thumb": "arc-015059",
         "archiveId": "ARC-015059",
         "alt": "Recipientes rosas, verdes y amarillos · vista 2",
         "sourceName": "IMG_20240511_205603.jpg",
@@ -5864,7 +5846,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015060",
-        "thumb": "thumb-015060",
+        "thumb": "arc-015060",
         "archiveId": "ARC-015060",
         "alt": "Recipientes rosas, verdes y amarillos · vista 3",
         "sourceName": "IMG_20240511_205643.jpg",
@@ -5872,7 +5854,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015061",
-        "thumb": "thumb-015061",
+        "thumb": "arc-015061",
         "archiveId": "ARC-015061",
         "alt": "Recipientes rosas, verdes y amarillos · vista 4",
         "sourceName": "IMG_20240511_205656.jpg",
@@ -5880,7 +5862,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015057",
-        "thumb": "thumb-015057",
+        "thumb": "arc-015057",
         "archiveId": "ARC-015057",
         "alt": "Recipientes rosas, verdes y amarillos · vista 5",
         "sourceName": "IMG_20240414_123613.jpg",
@@ -5888,7 +5870,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015073",
-        "thumb": "thumb-015073",
+        "thumb": "arc-015073",
         "archiveId": "ARC-015073",
         "alt": "Recipientes rosas, verdes y amarillos · vista 6",
         "sourceName": "IMG_20241115_151145.jpg",
@@ -5896,7 +5878,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015074",
-        "thumb": "thumb-015074",
+        "thumb": "arc-015074",
         "archiveId": "ARC-015074",
         "alt": "Recipientes rosas, verdes y amarillos · vista 7",
         "sourceName": "IMG_20241115_151157.jpg",
@@ -5914,11 +5896,11 @@ export const catalogue = [
     "image": "gallery-015062-cool-neutral-v2",
     "thumb": "gallery-015062-cool-neutral-v2",
     "alt": "Ramas y figuras geométricas",
-    "text": "Ramas y figuras geométricas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Ramas y figuras geométricas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015062",
-        "thumb": "nature-015062-thumb",
+        "thumb": "nature-015062",
         "archiveId": "ARC-015062",
         "alt": "Ramas y figuras geométricas · vista 1",
         "sourceName": "IMG_20240511_205707.jpg",
@@ -5926,7 +5908,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015063",
-        "thumb": "thumb-015063",
+        "thumb": "arc-015063",
         "archiveId": "ARC-015063",
         "alt": "Ramas y figuras geométricas · vista 2",
         "sourceName": "IMG_20240511_205723.jpg",
@@ -5934,7 +5916,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015064",
-        "thumb": "thumb-015064",
+        "thumb": "arc-015064",
         "archiveId": "ARC-015064",
         "alt": "Ramas y figuras geométricas · vista 3",
         "sourceName": "IMG_20240512_123634.jpg",
@@ -5942,7 +5924,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015065",
-        "thumb": "thumb-015065",
+        "thumb": "arc-015065",
         "archiveId": "ARC-015065",
         "alt": "Ramas y figuras geométricas · vista 4",
         "sourceName": "IMG_20240512_123639.jpg",
@@ -5950,7 +5932,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015066",
-        "thumb": "thumb-015066",
+        "thumb": "arc-015066",
         "archiveId": "ARC-015066",
         "alt": "Ramas y figuras geométricas · vista 5",
         "sourceName": "IMG_20240512_123654.jpg",
@@ -5958,7 +5940,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015071",
-        "thumb": "thumb-015071",
+        "thumb": "arc-015071",
         "archiveId": "ARC-015071",
         "alt": "Ramas y figuras geométricas · vista 6",
         "sourceName": "IMG_20241110_151500.jpg",
@@ -5966,7 +5948,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015072",
-        "thumb": "thumb-015072",
+        "thumb": "arc-015072",
         "archiveId": "ARC-015072",
         "alt": "Ramas y figuras geométricas · vista 7",
         "sourceName": "IMG_20241110_151505.jpg",
@@ -5974,7 +5956,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015075",
-        "thumb": "thumb-015075",
+        "thumb": "arc-015075",
         "archiveId": "ARC-015075",
         "alt": "Ramas y figuras geométricas · vista 8",
         "sourceName": "IMG_20241115_151208.jpg",
@@ -5992,11 +5974,11 @@ export const catalogue = [
     "image": "gallery-015067-cool-neutral-v2",
     "thumb": "gallery-015067-cool-neutral-v2",
     "alt": "Pequeños recipientes suspendidos",
-    "text": "Pequeños recipientes suspendidos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Pequeños recipientes suspendidos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "nature-015067",
-        "thumb": "nature-015067-thumb",
+        "thumb": "nature-015067",
         "archiveId": "ARC-015067",
         "alt": "Pequeños recipientes suspendidos · vista 1",
         "sourceName": "IMG_20240512_123717.jpg",
@@ -6004,7 +5986,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015068",
-        "thumb": "thumb-015068",
+        "thumb": "arc-015068",
         "archiveId": "ARC-015068",
         "alt": "Pequeños recipientes suspendidos · vista 2",
         "sourceName": "IMG_20240512_123759.jpg",
@@ -6012,7 +5994,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015069",
-        "thumb": "thumb-015069",
+        "thumb": "arc-015069",
         "archiveId": "ARC-015069",
         "alt": "Pequeños recipientes suspendidos · vista 3",
         "sourceName": "IMG_20241110_151441.jpg",
@@ -6020,7 +6002,7 @@ export const catalogue = [
       },
       {
         "image": "arc-015070",
-        "thumb": "thumb-015070",
+        "thumb": "arc-015070",
         "archiveId": "ARC-015070",
         "alt": "Pequeños recipientes suspendidos · vista 4",
         "sourceName": "IMG_20241110_151447.jpg",
@@ -6036,13 +6018,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-052",
     "image": "arc-015076",
-    "thumb": "thumb-015076",
+    "thumb": "arc-015076",
     "alt": "Un tronco con formas superpuestas",
-    "text": "Un tronco con formas superpuestas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Un tronco con formas superpuestas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-015076",
-        "thumb": "thumb-015076",
+        "thumb": "arc-015076",
         "archiveId": "ARC-015076",
         "alt": "Un tronco con formas superpuestas · vista 1",
         "sourceName": "IMG_20241122_163944.jpg",
@@ -6050,7 +6032,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-052-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-052-view-2-horizontal",
+        "thumb": "gallery-esc-052-view-2-horizontal",
         "archiveId": "ARC-015077",
         "alt": "Un tronco con formas superpuestas · vista 2",
         "sourceName": "IMG_20241122_164000.jpg",
@@ -6066,13 +6048,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-053",
     "image": "gallery-esc-053",
-    "thumb": "thumb-gallery-esc-053",
+    "thumb": "gallery-esc-053",
     "alt": "Una curva que se abre en el espacio",
-    "text": "Una curva que se abre en el espacio. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Una curva que se abre en el espacio. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-esc-053",
-        "thumb": "thumb-gallery-esc-053",
+        "thumb": "gallery-esc-053",
         "archiveId": "ARC-008659",
         "alt": "Una curva que se abre en el espacio · vista 1",
         "sourceName": "008_6.JPG",
@@ -6080,7 +6062,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-053-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-053-view-2-horizontal",
+        "thumb": "gallery-esc-053-view-2-horizontal",
         "archiveId": "ARC-008658",
         "alt": "Una curva que se abre en el espacio · vista 2",
         "sourceName": "007_5.JPG",
@@ -6088,7 +6070,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-053-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-053-view-3-horizontal",
+        "thumb": "gallery-esc-053-view-3-horizontal",
         "archiveId": "ARC-008660",
         "alt": "Una curva que se abre en el espacio · vista 3",
         "sourceName": "009_7.JPG",
@@ -6096,7 +6078,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-053-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-053-view-4-horizontal",
+        "thumb": "gallery-esc-053-view-4-horizontal",
         "archiveId": "ARC-008661",
         "alt": "Una curva que se abre en el espacio · vista 4",
         "sourceName": "010_8.JPG",
@@ -6104,7 +6086,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-053-view-5-horizontal",
-        "thumb": "thumb-gallery-esc-053-view-5-horizontal",
+        "thumb": "gallery-esc-053-view-5-horizontal",
         "archiveId": "ARC-008662",
         "alt": "Una curva que se abre en el espacio · vista 5",
         "sourceName": "011_9.JPG",
@@ -6120,13 +6102,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-054",
     "image": "gallery-esc-054",
-    "thumb": "thumb-gallery-esc-054",
+    "thumb": "gallery-esc-054",
     "alt": "Forma articulada dentro de un círculo",
-    "text": "Forma articulada dentro de un círculo. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Forma articulada dentro de un círculo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-esc-054",
-        "thumb": "thumb-gallery-esc-054",
+        "thumb": "gallery-esc-054",
         "archiveId": "ARC-008704",
         "alt": "Forma articulada dentro de un círculo · vista 1",
         "sourceName": "SERIE_AGUA1.JPG",
@@ -6134,7 +6116,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-054-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-054-view-2-horizontal",
+        "thumb": "gallery-esc-054-view-2-horizontal",
         "archiveId": "ARC-008706",
         "alt": "Forma articulada dentro de un círculo · vista 2",
         "sourceName": "SERIE_AGUA2.JPG",
@@ -6142,7 +6124,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-054-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-054-view-3-horizontal",
+        "thumb": "gallery-esc-054-view-3-horizontal",
         "archiveId": "ARC-008708",
         "alt": "Forma articulada dentro de un círculo · vista 3",
         "sourceName": "SERIE_AGUA3.JPG",
@@ -6150,7 +6132,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-054-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-054-view-4-horizontal",
+        "thumb": "gallery-esc-054-view-4-horizontal",
         "archiveId": "ARC-008710",
         "alt": "Forma articulada dentro de un círculo · vista 4",
         "sourceName": "SERIE_AGUA4.JPG",
@@ -6158,7 +6140,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-054-view-5-horizontal",
-        "thumb": "thumb-gallery-esc-054-view-5-horizontal",
+        "thumb": "gallery-esc-054-view-5-horizontal",
         "archiveId": "ARC-008663",
         "alt": "Forma articulada dentro de un círculo · vista 5",
         "sourceName": "024_22.JPG",
@@ -6166,7 +6148,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-054-view-6-horizontal",
-        "thumb": "thumb-gallery-esc-054-view-6-horizontal",
+        "thumb": "gallery-esc-054-view-6-horizontal",
         "archiveId": "ARC-008664",
         "alt": "Forma articulada dentro de un círculo · vista 6",
         "sourceName": "025_23.JPG",
@@ -6174,7 +6156,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-054-view-7-horizontal",
-        "thumb": "thumb-gallery-esc-054-view-7-horizontal",
+        "thumb": "gallery-esc-054-view-7-horizontal",
         "archiveId": "ARC-008665",
         "alt": "Forma articulada dentro de un círculo · vista 7",
         "sourceName": "026_24.JPG",
@@ -6190,13 +6172,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "ESC-055",
     "image": "gallery-esc-055",
-    "thumb": "thumb-gallery-esc-055",
+    "thumb": "gallery-esc-055",
     "alt": "Mesa de varillas y ruedas dentadas",
-    "text": "Mesa de varillas y ruedas dentadas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "text": "Mesa de varillas y ruedas dentadas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "gallery-esc-055",
-        "thumb": "thumb-gallery-esc-055",
+        "thumb": "gallery-esc-055",
         "archiveId": "ARC-009729",
         "alt": "Mesa de varillas y ruedas dentadas · vista 1",
         "sourceName": "DSC_3052.JPG",
@@ -6204,7 +6186,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-055-view-2-horizontal",
-        "thumb": "thumb-gallery-esc-055-view-2-horizontal",
+        "thumb": "gallery-esc-055-view-2-horizontal",
         "archiveId": "ARC-009730",
         "alt": "Mesa de varillas y ruedas dentadas · vista 2",
         "sourceName": "DSC_3057.JPG",
@@ -6212,7 +6194,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-055-view-3-horizontal",
-        "thumb": "thumb-gallery-esc-055-view-3-horizontal",
+        "thumb": "gallery-esc-055-view-3-horizontal",
         "archiveId": "ARC-009731",
         "alt": "Mesa de varillas y ruedas dentadas · vista 3",
         "sourceName": "DSC_3060.JPG",
@@ -6220,7 +6202,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-055-view-4-horizontal",
-        "thumb": "thumb-gallery-esc-055-view-4-horizontal",
+        "thumb": "gallery-esc-055-view-4-horizontal",
         "archiveId": "ARC-009734",
         "alt": "Mesa de varillas y ruedas dentadas · vista 4",
         "sourceName": "DSC_3077.JPG",
@@ -6228,7 +6210,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-055-view-5-horizontal",
-        "thumb": "thumb-gallery-esc-055-view-5-horizontal",
+        "thumb": "gallery-esc-055-view-5-horizontal",
         "archiveId": "ARC-009737",
         "alt": "Mesa de varillas y ruedas dentadas · vista 5",
         "sourceName": "DSC_3087.JPG",
@@ -6236,7 +6218,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-055-view-6-horizontal",
-        "thumb": "thumb-gallery-esc-055-view-6-horizontal",
+        "thumb": "gallery-esc-055-view-6-horizontal",
         "archiveId": "ARC-009713",
         "alt": "Mesa de varillas y ruedas dentadas · vista 6",
         "sourceName": "2015-12-05 13.46.58.jpg",
@@ -6244,7 +6226,7 @@ export const catalogue = [
       },
       {
         "image": "gallery-esc-055-view-7-horizontal",
-        "thumb": "thumb-gallery-esc-055-view-7-horizontal",
+        "thumb": "gallery-esc-055-view-7-horizontal",
         "archiveId": "ARC-009725",
         "alt": "Mesa de varillas y ruedas dentadas · vista 7",
         "sourceName": "20151205_134348.jpg",
@@ -6260,13 +6242,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-036",
     "image": "arc-013422",
-    "thumb": "thumb-013422",
+    "thumb": "arc-013422",
     "alt": "Curvas entrelazadas en rosa y gris",
-    "text": "Curvas entrelazadas en rosa y gris. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Curvas entrelazadas en rosa y gris. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013422",
-        "thumb": "thumb-013422",
+        "thumb": "arc-013422",
         "archiveId": "ARC-013422",
         "alt": "Curvas entrelazadas en rosa y gris · vista 1",
         "sourceName": "P80340004.JPG",
@@ -6282,13 +6264,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-037",
     "image": "arc-013423",
-    "thumb": "thumb-013423",
+    "thumb": "arc-013423",
     "alt": "Planos angulares en gris",
-    "text": "Planos angulares en gris. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Planos angulares en gris. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013423",
-        "thumb": "thumb-013423",
+        "thumb": "arc-013423",
         "archiveId": "ARC-013423",
         "alt": "Planos angulares en gris · vista 1",
         "sourceName": "P80340015.JPG",
@@ -6304,13 +6286,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-038",
     "image": "arc-013426",
-    "thumb": "thumb-013426",
+    "thumb": "arc-013426",
     "alt": "Formas azules que se encuentran",
-    "text": "Formas azules que se encuentran. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Formas azules que se encuentran. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013426",
-        "thumb": "thumb-013426",
+        "thumb": "arc-013426",
         "archiveId": "ARC-013426",
         "alt": "Formas azules que se encuentran · vista 1",
         "sourceName": "P8040002.JPG",
@@ -6326,13 +6308,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-039",
     "image": "arc-013427",
-    "thumb": "thumb-013427",
+    "thumb": "arc-013427",
     "alt": "Un arco amarillo sobre trazos rojos",
-    "text": "Un arco amarillo sobre trazos rojos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Un arco amarillo sobre trazos rojos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013427",
-        "thumb": "thumb-013427",
+        "thumb": "arc-013427",
         "archiveId": "ARC-013427",
         "alt": "Un arco amarillo sobre trazos rojos · vista 1",
         "sourceName": "P8040003.JPG",
@@ -6348,13 +6330,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-040",
     "image": "arc-013430",
-    "thumb": "thumb-013430",
+    "thumb": "arc-013430",
     "alt": "Dos formas curvas en azul",
-    "text": "Dos formas curvas en azul. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Dos formas curvas en azul. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013430",
-        "thumb": "thumb-013430",
+        "thumb": "arc-013430",
         "archiveId": "ARC-013430",
         "alt": "Dos formas curvas en azul · vista 1",
         "sourceName": "P8040004.JPG",
@@ -6370,13 +6352,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-041",
     "image": "arc-013431",
-    "thumb": "thumb-013431",
+    "thumb": "arc-013431",
     "alt": "Encuentro de amarillos y rojos",
-    "text": "Encuentro de amarillos y rojos. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Encuentro de amarillos y rojos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013431",
-        "thumb": "thumb-013431",
+        "thumb": "arc-013431",
         "archiveId": "ARC-013431",
         "alt": "Encuentro de amarillos y rojos · vista 1",
         "sourceName": "P8040006.JPG",
@@ -6392,13 +6374,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-042",
     "image": "arc-013434",
-    "thumb": "thumb-013434",
+    "thumb": "arc-013434",
     "alt": "Una construcción de líneas azules y naranjas",
-    "text": "Una construcción de líneas azules y naranjas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una construcción de líneas azules y naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013434",
-        "thumb": "thumb-013434",
+        "thumb": "arc-013434",
         "archiveId": "ARC-013434",
         "alt": "Una construcción de líneas azules y naranjas · vista 1",
         "sourceName": "P8040012.JPG",
@@ -6414,13 +6396,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-043",
     "image": "arc-013435",
-    "thumb": "thumb-013435",
+    "thumb": "arc-013435",
     "alt": "Trama de líneas azules y rojas",
-    "text": "Trama de líneas azules y rojas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Trama de líneas azules y rojas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013435",
-        "thumb": "thumb-013435",
+        "thumb": "arc-013435",
         "archiveId": "ARC-013435",
         "alt": "Trama de líneas azules y rojas · vista 1",
         "sourceName": "P8040013.JPG",
@@ -6436,13 +6418,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-044",
     "image": "arc-013436",
-    "thumb": "thumb-013436",
+    "thumb": "arc-013436",
     "alt": "Una composición abierta en rojo",
-    "text": "Una composición abierta en rojo. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una composición abierta en rojo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013436",
-        "thumb": "thumb-013436",
+        "thumb": "arc-013436",
         "archiveId": "ARC-013436",
         "alt": "Una composición abierta en rojo · vista 1",
         "sourceName": "P8040014.JPG",
@@ -6458,13 +6440,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-045",
     "image": "arc-013439",
-    "thumb": "thumb-013439",
+    "thumb": "arc-013439",
     "alt": "Ritmos grises y acentos naranjas",
-    "text": "Ritmos grises y acentos naranjas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Ritmos grises y acentos naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013439",
-        "thumb": "thumb-013439",
+        "thumb": "arc-013439",
         "archiveId": "ARC-013439",
         "alt": "Ritmos grises y acentos naranjas · vista 1",
         "sourceName": "P8040018.JPG",
@@ -6480,13 +6462,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-046",
     "image": "arc-013440",
-    "thumb": "thumb-013440",
+    "thumb": "arc-013440",
     "alt": "Planos grises atravesados por el amarillo",
-    "text": "Planos grises atravesados por el amarillo. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Planos grises atravesados por el amarillo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013440",
-        "thumb": "thumb-013440",
+        "thumb": "arc-013440",
         "archiveId": "ARC-013440",
         "alt": "Planos grises atravesados por el amarillo · vista 1",
         "sourceName": "P8040020.JPG",
@@ -6502,13 +6484,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-047",
     "image": "arc-013441",
-    "thumb": "thumb-013441",
+    "thumb": "arc-013441",
     "alt": "Una trama densa de líneas y color",
-    "text": "Una trama densa de líneas y color. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una trama densa de líneas y color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013441",
-        "thumb": "thumb-013441",
+        "thumb": "arc-013441",
         "archiveId": "ARC-013441",
         "alt": "Una trama densa de líneas y color · vista 1",
         "sourceName": "P8040021.JPG",
@@ -6524,13 +6506,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-048",
     "image": "arc-013443",
-    "thumb": "thumb-013443",
+    "thumb": "arc-013443",
     "alt": "Curvas grises sobre el papel",
-    "text": "Curvas grises sobre el papel. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Curvas grises sobre el papel. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013443",
-        "thumb": "thumb-013443",
+        "thumb": "arc-013443",
         "archiveId": "ARC-013443",
         "alt": "Curvas grises sobre el papel · vista 1",
         "sourceName": "P80400309.JPG",
@@ -6546,13 +6528,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-049",
     "image": "arc-013447",
-    "thumb": "thumb-013447",
+    "thumb": "arc-013447",
     "alt": "Dos curvas y una línea oblicua",
-    "text": "Dos curvas y una línea oblicua. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Dos curvas y una línea oblicua. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013447",
-        "thumb": "thumb-013447",
+        "thumb": "arc-013447",
         "archiveId": "ARC-013447",
         "alt": "Dos curvas y una línea oblicua · vista 1",
         "sourceName": "P80403006.JPG",
@@ -6568,13 +6550,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-050",
     "image": "arc-013448",
-    "thumb": "thumb-013448",
+    "thumb": "arc-013448",
     "alt": "Trazos rojos entre planos grises",
-    "text": "Trazos rojos entre planos grises. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Trazos rojos entre planos grises. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013448",
-        "thumb": "thumb-013448",
+        "thumb": "arc-013448",
         "archiveId": "ARC-013448",
         "alt": "Trazos rojos entre planos grises · vista 1",
         "sourceName": "P80403014.JPG",
@@ -6590,13 +6572,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-051",
     "image": "arc-013449",
-    "thumb": "thumb-013449",
+    "thumb": "arc-013449",
     "alt": "Formas superpuestas en marrón",
-    "text": "Formas superpuestas en marrón. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Formas superpuestas en marrón. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013449",
-        "thumb": "thumb-013449",
+        "thumb": "arc-013449",
         "archiveId": "ARC-013449",
         "alt": "Formas superpuestas en marrón · vista 1",
         "sourceName": "P80403020.JPG",
@@ -6612,13 +6594,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-052",
     "image": "arc-013452",
-    "thumb": "thumb-013452",
+    "thumb": "arc-013452",
     "alt": "Planos azules y naranjas",
-    "text": "Planos azules y naranjas. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Planos azules y naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013452",
-        "thumb": "thumb-013452",
+        "thumb": "arc-013452",
         "archiveId": "ARC-013452",
         "alt": "Planos azules y naranjas · vista 1",
         "sourceName": "PA260002.JPG",
@@ -6634,13 +6616,13 @@ export const catalogue = [
     "chapter": "construir-formas",
     "reference": "DIB-053",
     "image": "arc-013453",
-    "thumb": "thumb-013453",
+    "thumb": "arc-013453",
     "alt": "Una forma angular en azul y violeta",
-    "text": "Una forma angular en azul y violeta. Una pieza del archivo de ENRIQUE SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
+    "text": "Una forma angular en azul y violeta. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.",
     "gallery": [
       {
         "image": "arc-013453",
-        "thumb": "thumb-013453",
+        "thumb": "arc-013453",
         "archiveId": "ARC-013453",
         "alt": "Una forma angular en azul y violeta · vista 1",
         "sourceName": "PA260003.JPG",
@@ -6667,7 +6649,7 @@ export const albums = [
     "gallery": [
       {
         "image": "colomina-009086-professional",
-        "thumb": "thumb-colomina-009086-professional",
+        "thumb": "colomina-009086-professional",
         "archiveId": "ARC-009086",
         "alt": "La escultura en la sala. Fotografía 1",
         "sourceName": "_DX_6993.jpeg",
@@ -6675,7 +6657,7 @@ export const albums = [
       },
       {
         "image": "colomina-009160-professional",
-        "thumb": "thumb-colomina-009160-professional",
+        "thumb": "colomina-009160-professional",
         "archiveId": "ARC-009160",
         "alt": "La escultura en la sala. Fotografía 2",
         "sourceName": "IMG_20180321_113148.jpg",
@@ -6683,7 +6665,7 @@ export const albums = [
       },
       {
         "image": "colomina-009176-professional",
-        "thumb": "thumb-colomina-009176-professional",
+        "thumb": "colomina-009176-professional",
         "archiveId": "ARC-009176",
         "alt": "La escultura en la sala. Fotografía 3",
         "sourceName": "IMG_20180321_113617.jpg",
@@ -6691,7 +6673,7 @@ export const albums = [
       },
       {
         "image": "colomina-009174-focus-professional",
-        "thumb": "thumb-colomina-009174-focus-professional",
+        "thumb": "colomina-009174-focus-professional",
         "archiveId": "ARC-009174",
         "alt": "La escultura en la sala. Fotografía 4",
         "sourceName": "IMG_20180321_113546.jpg",
@@ -6699,7 +6681,7 @@ export const albums = [
       },
       {
         "image": "colomina-009181-professional",
-        "thumb": "thumb-colomina-009181-professional",
+        "thumb": "colomina-009181-professional",
         "archiveId": "ARC-009181",
         "alt": "La escultura en la sala. Fotografía 5",
         "sourceName": "IMG_20180411_085832.jpg",
@@ -6707,7 +6689,7 @@ export const albums = [
       },
       {
         "image": "colomina-008954-professional",
-        "thumb": "thumb-colomina-008954-professional",
+        "thumb": "colomina-008954-professional",
         "archiveId": "ARC-008954",
         "alt": "La escultura en la sala. Fotografía 6",
         "sourceName": "IMG_20180324_120243.jpg",
@@ -6715,7 +6697,7 @@ export const albums = [
       },
       {
         "image": "colomina-009085-professional",
-        "thumb": "thumb-colomina-009085-professional",
+        "thumb": "colomina-009085-professional",
         "archiveId": "ARC-009085",
         "alt": "La escultura en la sala. Fotografía 7",
         "sourceName": "_DX_6987.jpeg",
@@ -6736,7 +6718,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-009193",
-        "thumb": "thumb-009193",
+        "thumb": "arc-009193",
         "archiveId": "ARC-009193",
         "alt": "Un móvil en el patio. Fotografía 1",
         "sourceName": "1432023180352-001.jpg",
@@ -6744,7 +6726,7 @@ export const albums = [
       },
       {
         "image": "arc-009246",
-        "thumb": "thumb-009246",
+        "thumb": "arc-009246",
         "archiveId": "ARC-009246",
         "alt": "Un móvil en el patio. Fotografía 2",
         "sourceName": "IMG_20150512_114051.jpg",
@@ -6752,7 +6734,7 @@ export const albums = [
       },
       {
         "image": "arc-009204",
-        "thumb": "thumb-009204",
+        "thumb": "arc-009204",
         "archiveId": "ARC-009204",
         "alt": "Un móvil en el patio. Fotografía 3",
         "sourceName": "DSC03779.jpg",
@@ -6760,7 +6742,7 @@ export const albums = [
       },
       {
         "image": "arc-009220",
-        "thumb": "thumb-009220",
+        "thumb": "arc-009220",
         "archiveId": "ARC-009220",
         "alt": "Un móvil en el patio. Fotografía 4",
         "sourceName": "DSC03783.jpg",
@@ -6781,7 +6763,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-009962",
-        "thumb": "thumb-009962",
+        "thumb": "arc-009962",
         "archiveId": "ARC-009962",
         "alt": "El archivo de Signo de Agua. Fotografía 1",
         "sourceName": "EXPOSICIÓ EL PELÈC9.jpg",
@@ -6789,7 +6771,7 @@ export const albums = [
       },
       {
         "image": "arc-009947",
-        "thumb": "thumb-009947",
+        "thumb": "arc-009947",
         "archiveId": "ARC-009947",
         "alt": "El archivo de Signo de Agua. Fotografía 2",
         "sourceName": "EXPOSICIÓ EL PELÈC.jpg",
@@ -6797,7 +6779,7 @@ export const albums = [
       },
       {
         "image": "arc-009957",
-        "thumb": "thumb-009957",
+        "thumb": "arc-009957",
         "archiveId": "ARC-009957",
         "alt": "El archivo de Signo de Agua. Fotografía 3",
         "sourceName": "EXPOSICIÓ EL PELÈC6.jpg",
@@ -6805,7 +6787,7 @@ export const albums = [
       },
       {
         "image": "arc-009951",
-        "thumb": "thumb-009951",
+        "thumb": "arc-009951",
         "archiveId": "ARC-009951",
         "alt": "El archivo de Signo de Agua. Fotografía 4",
         "sourceName": "EXPOSICIÓ EL PELÈC13.jpg",
@@ -6826,7 +6808,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-009072",
-        "thumb": "thumb-009072",
+        "thumb": "arc-009072",
         "archiveId": "ARC-009072",
         "alt": "Compartir el espacio expositivo. Fotografía 1",
         "sourceName": "P10101M10.JPG",
@@ -6834,7 +6816,7 @@ export const albums = [
       },
       {
         "image": "arc-009031",
-        "thumb": "thumb-009031",
+        "thumb": "arc-009031",
         "archiveId": "ARC-009031",
         "alt": "Compartir el espacio expositivo. Fotografía 2",
         "sourceName": "P1010068.JPG",
@@ -6842,7 +6824,7 @@ export const albums = [
       },
       {
         "image": "arc-009068",
-        "thumb": "thumb-009068",
+        "thumb": "arc-009068",
         "archiveId": "ARC-009068",
         "alt": "Compartir el espacio expositivo. Fotografía 3",
         "sourceName": "P101010M7.JPG",
@@ -6850,7 +6832,7 @@ export const albums = [
       },
       {
         "image": "arc-009070",
-        "thumb": "thumb-009070",
+        "thumb": "arc-009070",
         "archiveId": "ARC-009070",
         "alt": "Compartir el espacio expositivo. Fotografía 4",
         "sourceName": "P10101M01.JPG",
@@ -6871,7 +6853,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-012514",
-        "thumb": "thumb-012514",
+        "thumb": "arc-012514",
         "archiveId": "ARC-012514",
         "alt": "El trabajo sale del taller. Fotografía 1",
         "sourceName": "P1010008.JPG",
@@ -6879,7 +6861,7 @@ export const albums = [
       },
       {
         "image": "arc-012507",
-        "thumb": "thumb-012507",
+        "thumb": "arc-012507",
         "archiveId": "ARC-012507",
         "alt": "El trabajo sale del taller. Fotografía 2",
         "sourceName": "P1010001.JPG",
@@ -6887,7 +6869,7 @@ export const albums = [
       },
       {
         "image": "arc-012508",
-        "thumb": "thumb-012508",
+        "thumb": "arc-012508",
         "archiveId": "ARC-012508",
         "alt": "El trabajo sale del taller. Fotografía 3",
         "sourceName": "P1010002.JPG",
@@ -6895,7 +6877,7 @@ export const albums = [
       },
       {
         "image": "arc-012509",
-        "thumb": "thumb-012509",
+        "thumb": "arc-012509",
         "archiveId": "ARC-012509",
         "alt": "El trabajo sale del taller. Fotografía 4",
         "sourceName": "P1010003.JPG",
@@ -6903,7 +6885,7 @@ export const albums = [
       },
       {
         "image": "arc-012511",
-        "thumb": "thumb-012511",
+        "thumb": "arc-012511",
         "archiveId": "ARC-012511",
         "alt": "El trabajo sale del taller. Fotografía 5",
         "sourceName": "P1010005.JPG",
@@ -6911,7 +6893,7 @@ export const albums = [
       },
       {
         "image": "arc-012512",
-        "thumb": "thumb-012512",
+        "thumb": "arc-012512",
         "archiveId": "ARC-012512",
         "alt": "El trabajo sale del taller. Fotografía 6",
         "sourceName": "P1010006.JPG",
@@ -6919,7 +6901,7 @@ export const albums = [
       },
       {
         "image": "arc-012516",
-        "thumb": "thumb-012516",
+        "thumb": "arc-012516",
         "archiveId": "ARC-012516",
         "alt": "El trabajo sale del taller. Fotografía 7",
         "sourceName": "P1010010.JPG",
@@ -6928,7 +6910,7 @@ export const albums = [
     ],
     "section": "exposiciones",
     "audience": "educacion",
-    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Valencia",
     "source": "Identificación de sala apoyada en el documento «SALA EXPO BELLES ARTS VALENCIA» (ARC-004745). Fecha sin documentar.",
     "exhibitionKind": "infantil"
@@ -6943,7 +6925,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-012174",
-        "thumb": "thumb-012174",
+        "thumb": "arc-012174",
         "archiveId": "ARC-012174",
         "alt": "Construir, pintar, exponer. Fotografía 1",
         "sourceName": "P1010015.JPG",
@@ -6951,7 +6933,7 @@ export const albums = [
       },
       {
         "image": "arc-012176",
-        "thumb": "thumb-012176",
+        "thumb": "arc-012176",
         "archiveId": "ARC-012176",
         "alt": "Construir, pintar, exponer. Fotografía 2",
         "sourceName": "P1010017.JPG",
@@ -6959,7 +6941,7 @@ export const albums = [
       },
       {
         "image": "arc-012177",
-        "thumb": "thumb-012177",
+        "thumb": "arc-012177",
         "archiveId": "ARC-012177",
         "alt": "Construir, pintar, exponer. Fotografía 3",
         "sourceName": "P1010018.JPG",
@@ -6967,7 +6949,7 @@ export const albums = [
       },
       {
         "image": "arc-012179",
-        "thumb": "thumb-012179",
+        "thumb": "arc-012179",
         "archiveId": "ARC-012179",
         "alt": "Construir, pintar, exponer. Fotografía 4",
         "sourceName": "P1010020.JPG",
@@ -6975,7 +6957,7 @@ export const albums = [
       },
       {
         "image": "arc-012180",
-        "thumb": "thumb-012180",
+        "thumb": "arc-012180",
         "archiveId": "ARC-012180",
         "alt": "Construir, pintar, exponer. Fotografía 5",
         "sourceName": "P1010021.JPG",
@@ -6983,7 +6965,7 @@ export const albums = [
       },
       {
         "image": "arc-012181",
-        "thumb": "thumb-012181",
+        "thumb": "arc-012181",
         "archiveId": "ARC-012181",
         "alt": "Construir, pintar, exponer. Fotografía 6",
         "sourceName": "P1010022.JPG",
@@ -6991,7 +6973,7 @@ export const albums = [
       },
       {
         "image": "arc-012182",
-        "thumb": "thumb-012182",
+        "thumb": "arc-012182",
         "archiveId": "ARC-012182",
         "alt": "Construir, pintar, exponer. Fotografía 7",
         "sourceName": "P1010023.JPG",
@@ -6999,7 +6981,7 @@ export const albums = [
       },
       {
         "image": "arc-012183",
-        "thumb": "thumb-012183",
+        "thumb": "arc-012183",
         "archiveId": "ARC-012183",
         "alt": "Construir, pintar, exponer. Fotografía 8",
         "sourceName": "P1010024.JPG",
@@ -7007,7 +6989,7 @@ export const albums = [
       },
       {
         "image": "arc-012184",
-        "thumb": "thumb-012184",
+        "thumb": "arc-012184",
         "archiveId": "ARC-012184",
         "alt": "Construir, pintar, exponer. Fotografía 9",
         "sourceName": "P1010025.JPG",
@@ -7016,7 +6998,7 @@ export const albums = [
     ],
     "section": "exposiciones",
     "audience": "educacion",
-    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes en actividades de educación artística; no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Escuela Universitaria de Magisterio Ausiàs March · Valencia",
     "date": "24 mayo — 3 junio 2005",
     "source": "Fechas documentadas en «Nuevas exposiciones» (ARC-004739); imágenes contrastadas con el dossier de la exposición (ARC-004291).",
@@ -7032,7 +7014,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-014873",
-        "thumb": "thumb-014873",
+        "thumb": "arc-014873",
         "archiveId": "ARC-014873",
         "alt": "Las piezas encuentran su lugar. Fotografía 1",
         "sourceName": "DSC02317.ARW",
@@ -7040,7 +7022,7 @@ export const albums = [
       },
       {
         "image": "arc-014876",
-        "thumb": "thumb-014876",
+        "thumb": "arc-014876",
         "archiveId": "ARC-014876",
         "alt": "Las piezas encuentran su lugar. Fotografía 2",
         "sourceName": "DSC02320.ARW",
@@ -7048,7 +7030,7 @@ export const albums = [
       },
       {
         "image": "arc-014910",
-        "thumb": "thumb-014910",
+        "thumb": "arc-014910",
         "archiveId": "ARC-014910",
         "alt": "Las piezas encuentran su lugar. Fotografía 3",
         "sourceName": "DSC02358.ARW",
@@ -7056,7 +7038,7 @@ export const albums = [
       },
       {
         "image": "arc-014915",
-        "thumb": "thumb-014915",
+        "thumb": "arc-014915",
         "archiveId": "ARC-014915",
         "alt": "Las piezas encuentran su lugar. Fotografía 4",
         "sourceName": "DSC02363.ARW",
@@ -7064,7 +7046,7 @@ export const albums = [
       },
       {
         "image": "arc-014919",
-        "thumb": "thumb-014919",
+        "thumb": "arc-014919",
         "archiveId": "ARC-014919",
         "alt": "Las piezas encuentran su lugar. Fotografía 5",
         "sourceName": "DSC02367.ARW",
@@ -7072,7 +7054,7 @@ export const albums = [
       },
       {
         "image": "arc-014922",
-        "thumb": "thumb-014922",
+        "thumb": "arc-014922",
         "archiveId": "ARC-014922",
         "alt": "Las piezas encuentran su lugar. Fotografía 6",
         "sourceName": "DSC02370.ARW",
@@ -7080,7 +7062,7 @@ export const albums = [
       },
       {
         "image": "arc-014925",
-        "thumb": "thumb-014925",
+        "thumb": "arc-014925",
         "archiveId": "ARC-014925",
         "alt": "Las piezas encuentran su lugar. Fotografía 7",
         "sourceName": "DSC02373.ARW",
@@ -7088,121 +7070,121 @@ export const albums = [
       },
       {
         "image": "arc-014874",
-        "thumb": "thumb-014874",
+        "thumb": "arc-014874",
         "archiveId": "ARC-014874",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02318.ARW",
         "contentKey": "cf2cb9239c7ffe922f6d37e51aedbc7a61fd94e1b48c0197a7a03063bb2dc5e6"
       },
       {
         "image": "arc-014875",
-        "thumb": "thumb-014875",
+        "thumb": "arc-014875",
         "archiveId": "ARC-014875",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02319.ARW",
         "contentKey": "ARC-014875"
       },
       {
         "image": "arc-014877",
-        "thumb": "thumb-014877",
+        "thumb": "arc-014877",
         "archiveId": "ARC-014877",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02321.ARW",
         "contentKey": "ARC-014877"
       },
       {
         "image": "arc-014878",
-        "thumb": "thumb-014878",
+        "thumb": "arc-014878",
         "archiveId": "ARC-014878",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02322.ARW",
         "contentKey": "ARC-014878"
       },
       {
         "image": "arc-014911",
-        "thumb": "thumb-014911",
+        "thumb": "arc-014911",
         "archiveId": "ARC-014911",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02359.ARW",
         "contentKey": "ARC-014911"
       },
       {
         "image": "arc-014912",
-        "thumb": "thumb-014912",
+        "thumb": "arc-014912",
         "archiveId": "ARC-014912",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02360.ARW",
         "contentKey": "1dee636ac78947f623f32649b7e242462e4e0b492f0859f613f3c122db6cf54f"
       },
       {
         "image": "arc-014913",
-        "thumb": "thumb-014913",
+        "thumb": "arc-014913",
         "archiveId": "ARC-014913",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02361.ARW",
         "contentKey": "ARC-014913"
       },
       {
         "image": "arc-014914",
-        "thumb": "thumb-014914",
+        "thumb": "arc-014914",
         "archiveId": "ARC-014914",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02362.ARW",
         "contentKey": "ARC-014914"
       },
       {
         "image": "arc-014916",
-        "thumb": "thumb-014916",
+        "thumb": "arc-014916",
         "archiveId": "ARC-014916",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02364.ARW",
         "contentKey": "5bd6b6bf15f6a131324ad6e4cb5f0aad5eea54d719c1cf477dc7414cbbac0d79"
       },
       {
         "image": "arc-014917",
-        "thumb": "thumb-014917",
+        "thumb": "arc-014917",
         "archiveId": "ARC-014917",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02365.ARW",
         "contentKey": "ARC-014917"
       },
       {
         "image": "arc-014918",
-        "thumb": "thumb-014918",
+        "thumb": "arc-014918",
         "archiveId": "ARC-014918",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02366.ARW",
         "contentKey": "2157367063156148fbffb18c608dd88b79e710620a7783525b5a4f785ed07183"
       },
       {
         "image": "arc-014920",
-        "thumb": "thumb-014920",
+        "thumb": "arc-014920",
         "archiveId": "ARC-014920",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02368.ARW",
         "contentKey": "ARC-014920"
       },
       {
         "image": "arc-014921",
-        "thumb": "thumb-014921",
+        "thumb": "arc-014921",
         "archiveId": "ARC-014921",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02369.ARW",
         "contentKey": "7614a31be3f9ad7e20fb9326019c2af3f27d4b46f4287488ad3d71ed19100283"
       },
       {
         "image": "arc-014923",
-        "thumb": "thumb-014923",
+        "thumb": "arc-014923",
         "archiveId": "ARC-014923",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02371.ARW",
         "contentKey": "ARC-014923"
       },
       {
         "image": "arc-014924",
-        "thumb": "thumb-014924",
+        "thumb": "arc-014924",
         "archiveId": "ARC-014924",
-        "alt": "ENRIQUE SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
+        "alt": "ENRIC SEGARRA I GARIBO y sus esculturas suspendidas en el entorno",
         "sourceName": "DSC02372.ARW",
         "contentKey": "ARC-014924"
       }
@@ -7220,7 +7202,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-006741",
-        "thumb": "thumb-006741",
+        "thumb": "arc-006741",
         "archiveId": "ARC-006741",
         "alt": "Mirar de cerca la materia. Fotografía 1",
         "sourceName": "2016-01-30 21.16.52.jpg",
@@ -7228,7 +7210,7 @@ export const albums = [
       },
       {
         "image": "arc-006851",
-        "thumb": "thumb-006851",
+        "thumb": "arc-006851",
         "archiveId": "ARC-006851",
         "alt": "Mirar de cerca la materia. Fotografía 2",
         "sourceName": "2016-01-31 16.58.57 (1).jpg",
@@ -7236,7 +7218,7 @@ export const albums = [
       },
       {
         "image": "arc-006871",
-        "thumb": "thumb-006871",
+        "thumb": "arc-006871",
         "archiveId": "ARC-006871",
         "alt": "Mirar de cerca la materia. Fotografía 3",
         "sourceName": "2016-01-31 17.09.21 (1).jpg",
@@ -7244,7 +7226,7 @@ export const albums = [
       },
       {
         "image": "arc-006881",
-        "thumb": "thumb-006881",
+        "thumb": "arc-006881",
         "archiveId": "ARC-006881",
         "alt": "Mirar de cerca la materia. Fotografía 4",
         "sourceName": "2016-01-31 17.12.04 (1).jpg",
@@ -7252,7 +7234,7 @@ export const albums = [
       },
       {
         "image": "arc-007163",
-        "thumb": "thumb-007163",
+        "thumb": "arc-007163",
         "archiveId": "ARC-007163",
         "alt": "Mirar de cerca la materia. Fotografía 5",
         "sourceName": "20160602_142601.jpg",
@@ -7260,7 +7242,7 @@ export const albums = [
       },
       {
         "image": "arc-007164",
-        "thumb": "thumb-007164",
+        "thumb": "arc-007164",
         "archiveId": "ARC-007164",
         "alt": "Mirar de cerca la materia. Fotografía 6",
         "sourceName": "20160602_142631.jpg",
@@ -7268,7 +7250,7 @@ export const albums = [
       },
       {
         "image": "arc-007167",
-        "thumb": "thumb-007167",
+        "thumb": "arc-007167",
         "archiveId": "ARC-007167",
         "alt": "Mirar de cerca la materia. Fotografía 7",
         "sourceName": "IMG_20180609_142101.jpg",
@@ -7288,7 +7270,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-006819",
-        "thumb": "thumb-006819",
+        "thumb": "arc-006819",
         "archiveId": "ARC-006819",
         "alt": "Un cuaderno de variaciones. Fotografía 1",
         "sourceName": "2016-01-31 16.49.26 (1).jpg",
@@ -7296,7 +7278,7 @@ export const albums = [
       },
       {
         "image": "arc-006829",
-        "thumb": "thumb-006829",
+        "thumb": "arc-006829",
         "archiveId": "ARC-006829",
         "alt": "Un cuaderno de variaciones. Fotografía 2",
         "sourceName": "2016-01-31 16.51.32 (1).jpg",
@@ -7304,7 +7286,7 @@ export const albums = [
       },
       {
         "image": "arc-006855",
-        "thumb": "thumb-006855",
+        "thumb": "arc-006855",
         "archiveId": "ARC-006855",
         "alt": "Un cuaderno de variaciones. Fotografía 3",
         "sourceName": "2016-01-31 16.59.50 (1).jpg",
@@ -7312,7 +7294,7 @@ export const albums = [
       },
       {
         "image": "arc-006875",
-        "thumb": "thumb-006875",
+        "thumb": "arc-006875",
         "archiveId": "ARC-006875",
         "alt": "Un cuaderno de variaciones. Fotografía 4",
         "sourceName": "2016-01-31 17.09.50 (1).jpg",
@@ -7320,7 +7302,7 @@ export const albums = [
       },
       {
         "image": "arc-007013",
-        "thumb": "thumb-007013",
+        "thumb": "arc-007013",
         "archiveId": "ARC-007013",
         "alt": "Un cuaderno de variaciones. Fotografía 5",
         "sourceName": "2016-02-07 13.37.54 (1).jpg",
@@ -7328,7 +7310,7 @@ export const albums = [
       },
       {
         "image": "arc-007025",
-        "thumb": "thumb-007025",
+        "thumb": "arc-007025",
         "archiveId": "ARC-007025",
         "alt": "Un cuaderno de variaciones. Fotografía 6",
         "sourceName": "2016-02-07 13.39.36.jpg",
@@ -7336,7 +7318,7 @@ export const albums = [
       },
       {
         "image": "arc-007045",
-        "thumb": "thumb-007045",
+        "thumb": "arc-007045",
         "archiveId": "ARC-007045",
         "alt": "Un cuaderno de variaciones. Fotografía 7",
         "sourceName": "2016-02-07 13.55.45 (1).jpg",
@@ -7362,7 +7344,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-006379",
-        "thumb": "thumb-006379",
+        "thumb": "arc-006379",
         "archiveId": "ARC-006379",
         "alt": "Dibujar un mundo · fotografía 1",
         "sourceName": "DSC03926.JPG",
@@ -7370,7 +7352,7 @@ export const albums = [
       },
       {
         "image": "arc-006380",
-        "thumb": "thumb-006380",
+        "thumb": "arc-006380",
         "archiveId": "ARC-006380",
         "alt": "Dibujar un mundo · fotografía 2",
         "sourceName": "DSC03930.JPG",
@@ -7378,7 +7360,7 @@ export const albums = [
       },
       {
         "image": "arc-006381",
-        "thumb": "thumb-006381",
+        "thumb": "arc-006381",
         "archiveId": "ARC-006381",
         "alt": "Dibujar un mundo · fotografía 3",
         "sourceName": "DSC03933.JPG",
@@ -7386,7 +7368,7 @@ export const albums = [
       },
       {
         "image": "arc-006382",
-        "thumb": "thumb-006382",
+        "thumb": "arc-006382",
         "archiveId": "ARC-006382",
         "alt": "Dibujar un mundo · fotografía 4",
         "sourceName": "DSC03934A.JPG",
@@ -7394,7 +7376,7 @@ export const albums = [
       },
       {
         "image": "arc-006383",
-        "thumb": "thumb-006383",
+        "thumb": "arc-006383",
         "archiveId": "ARC-006383",
         "alt": "Dibujar un mundo · fotografía 5",
         "sourceName": "DSC03935.JPG",
@@ -7402,7 +7384,7 @@ export const albums = [
       },
       {
         "image": "arc-006384",
-        "thumb": "thumb-006384",
+        "thumb": "arc-006384",
         "archiveId": "ARC-006384",
         "alt": "Dibujar un mundo · fotografía 6",
         "sourceName": "DSC03937.JPG",
@@ -7410,7 +7392,7 @@ export const albums = [
       },
       {
         "image": "arc-006385",
-        "thumb": "thumb-006385",
+        "thumb": "arc-006385",
         "archiveId": "ARC-006385",
         "alt": "Dibujar un mundo · fotografía 7",
         "sourceName": "DSC03959.JPG",
@@ -7418,7 +7400,7 @@ export const albums = [
       },
       {
         "image": "arc-006386",
-        "thumb": "thumb-006386",
+        "thumb": "arc-006386",
         "archiveId": "ARC-006386",
         "alt": "Dibujar un mundo · fotografía 8",
         "sourceName": "DSC03885S.JPG",
@@ -7426,7 +7408,7 @@ export const albums = [
       },
       {
         "image": "arc-006387",
-        "thumb": "thumb-006387",
+        "thumb": "arc-006387",
         "archiveId": "ARC-006387",
         "alt": "Dibujar un mundo · fotografía 9",
         "sourceName": "DSC03886R.JPG",
@@ -7434,7 +7416,7 @@ export const albums = [
       },
       {
         "image": "arc-006388",
-        "thumb": "thumb-006388",
+        "thumb": "arc-006388",
         "archiveId": "ARC-006388",
         "alt": "Dibujar un mundo · fotografía 10",
         "sourceName": "DSC03887.JPG",
@@ -7442,7 +7424,7 @@ export const albums = [
       },
       {
         "image": "arc-006389",
-        "thumb": "thumb-006389",
+        "thumb": "arc-006389",
         "archiveId": "ARC-006389",
         "alt": "Dibujar un mundo · fotografía 11",
         "sourceName": "DSC03888.JPG",
@@ -7450,7 +7432,7 @@ export const albums = [
       },
       {
         "image": "arc-006390",
-        "thumb": "thumb-006390",
+        "thumb": "arc-006390",
         "archiveId": "ARC-006390",
         "alt": "Dibujar un mundo · fotografía 12",
         "sourceName": "DSC03889S.JPG",
@@ -7458,7 +7440,7 @@ export const albums = [
       },
       {
         "image": "arc-006391",
-        "thumb": "thumb-006391",
+        "thumb": "arc-006391",
         "archiveId": "ARC-006391",
         "alt": "Dibujar un mundo · fotografía 13",
         "sourceName": "DSC03890.JPG",
@@ -7466,7 +7448,7 @@ export const albums = [
       },
       {
         "image": "arc-006392",
-        "thumb": "thumb-006392",
+        "thumb": "arc-006392",
         "archiveId": "ARC-006392",
         "alt": "Dibujar un mundo · fotografía 14",
         "sourceName": "DSC03891.JPG",
@@ -7474,7 +7456,7 @@ export const albums = [
       },
       {
         "image": "arc-006393",
-        "thumb": "thumb-006393",
+        "thumb": "arc-006393",
         "archiveId": "ARC-006393",
         "alt": "Dibujar un mundo · fotografía 15",
         "sourceName": "DSC03892E 27-10-2015 16-32-26.JPG",
@@ -7482,7 +7464,7 @@ export const albums = [
       },
       {
         "image": "arc-006394",
-        "thumb": "thumb-006394",
+        "thumb": "arc-006394",
         "archiveId": "ARC-006394",
         "alt": "Dibujar un mundo · fotografía 16",
         "sourceName": "DSC03893.JPG",
@@ -7490,7 +7472,7 @@ export const albums = [
       },
       {
         "image": "arc-006395",
-        "thumb": "thumb-006395",
+        "thumb": "arc-006395",
         "archiveId": "ARC-006395",
         "alt": "Dibujar un mundo · fotografía 17",
         "sourceName": "DSC03894D.JPG",
@@ -7498,7 +7480,7 @@ export const albums = [
       },
       {
         "image": "arc-006396",
-        "thumb": "thumb-006396",
+        "thumb": "arc-006396",
         "archiveId": "ARC-006396",
         "alt": "Dibujar un mundo · fotografía 18",
         "sourceName": "DSC03895F 27-10-2015 16-33-23 27-10-2015 16-33-23D 27-10-2015 16-33-23.JPG",
@@ -7506,7 +7488,7 @@ export const albums = [
       },
       {
         "image": "arc-006397",
-        "thumb": "thumb-006397",
+        "thumb": "arc-006397",
         "archiveId": "ARC-006397",
         "alt": "Dibujar un mundo · fotografía 19",
         "sourceName": "DSC03896E 27-10-2015 16-33-38.JPG",
@@ -7514,7 +7496,7 @@ export const albums = [
       },
       {
         "image": "arc-006398",
-        "thumb": "thumb-006398",
+        "thumb": "arc-006398",
         "archiveId": "ARC-006398",
         "alt": "Dibujar un mundo · fotografía 20",
         "sourceName": "DSC038975 27-10-2015 16-33-54R 27-10-2015 16-33-54.JPG",
@@ -7522,7 +7504,7 @@ export const albums = [
       },
       {
         "image": "arc-006399",
-        "thumb": "thumb-006399",
+        "thumb": "arc-006399",
         "archiveId": "ARC-006399",
         "alt": "Dibujar un mundo · fotografía 21",
         "sourceName": "DSC03898D 27-10-2015 16-34-09.JPG",
@@ -7530,7 +7512,7 @@ export const albums = [
       },
       {
         "image": "arc-006400",
-        "thumb": "thumb-006400",
+        "thumb": "arc-006400",
         "archiveId": "ARC-006400",
         "alt": "Dibujar un mundo · fotografía 22",
         "sourceName": "DSC03899G 27-10-2015 16-34-23GH 27-10-2015 16-34-23.JPG",
@@ -7538,7 +7520,7 @@ export const albums = [
       },
       {
         "image": "arc-006401",
-        "thumb": "thumb-006401",
+        "thumb": "arc-006401",
         "archiveId": "ARC-006401",
         "alt": "Dibujar un mundo · fotografía 23",
         "sourceName": "DSC03900R 27-10-2015 16-34-51J 27-10-2015 16-34-51.JPG",
@@ -7546,7 +7528,7 @@ export const albums = [
       },
       {
         "image": "arc-006402",
-        "thumb": "thumb-006402",
+        "thumb": "arc-006402",
         "archiveId": "ARC-006402",
         "alt": "Dibujar un mundo · fotografía 24",
         "sourceName": "DSC03901D 27-10-2015 16-35-05.JPG",
@@ -7554,7 +7536,7 @@ export const albums = [
       },
       {
         "image": "arc-006403",
-        "thumb": "thumb-006403",
+        "thumb": "arc-006403",
         "archiveId": "ARC-006403",
         "alt": "Dibujar un mundo · fotografía 25",
         "sourceName": "DSC03902WDF 27-10-2015 16-35-19.JPG",
@@ -7562,7 +7544,7 @@ export const albums = [
       },
       {
         "image": "arc-006404",
-        "thumb": "thumb-006404",
+        "thumb": "arc-006404",
         "archiveId": "ARC-006404",
         "alt": "Dibujar un mundo · fotografía 26",
         "sourceName": "DSC03903.JPG",
@@ -7570,7 +7552,7 @@ export const albums = [
       },
       {
         "image": "arc-006405",
-        "thumb": "thumb-006405",
+        "thumb": "arc-006405",
         "archiveId": "ARC-006405",
         "alt": "Dibujar un mundo · fotografía 27",
         "sourceName": "DSC03904S 27-10-2015 16-35-47.JPG",
@@ -7578,7 +7560,7 @@ export const albums = [
       },
       {
         "image": "arc-006406",
-        "thumb": "thumb-006406",
+        "thumb": "arc-006406",
         "archiveId": "ARC-006406",
         "alt": "Dibujar un mundo · fotografía 28",
         "sourceName": "DSC03905D 27-10-2015 16-36-01S 27-10-2015 16-36-01.JPG",
@@ -7586,7 +7568,7 @@ export const albums = [
       },
       {
         "image": "arc-006407",
-        "thumb": "thumb-006407",
+        "thumb": "arc-006407",
         "archiveId": "ARC-006407",
         "alt": "Dibujar un mundo · fotografía 29",
         "sourceName": "DSC03906F 27-10-2015 16-36-15.JPG",
@@ -7594,7 +7576,7 @@ export const albums = [
       },
       {
         "image": "arc-006408",
-        "thumb": "thumb-006408",
+        "thumb": "arc-006408",
         "archiveId": "ARC-006408",
         "alt": "Dibujar un mundo · fotografía 30",
         "sourceName": "DSC03907.JPG",
@@ -7602,7 +7584,7 @@ export const albums = [
       },
       {
         "image": "arc-006409",
-        "thumb": "thumb-006409",
+        "thumb": "arc-006409",
         "archiveId": "ARC-006409",
         "alt": "Dibujar un mundo · fotografía 31",
         "sourceName": "DSC03908.JPG",
@@ -7610,7 +7592,7 @@ export const albums = [
       },
       {
         "image": "arc-006410",
-        "thumb": "thumb-006410",
+        "thumb": "arc-006410",
         "archiveId": "ARC-006410",
         "alt": "Dibujar un mundo · fotografía 32",
         "sourceName": "DSC03909.JPG",
@@ -7618,7 +7600,7 @@ export const albums = [
       },
       {
         "image": "arc-006411",
-        "thumb": "thumb-006411",
+        "thumb": "arc-006411",
         "archiveId": "ARC-006411",
         "alt": "Dibujar un mundo · fotografía 33",
         "sourceName": "DSC03910.JPG",
@@ -7626,7 +7608,7 @@ export const albums = [
       },
       {
         "image": "arc-006412",
-        "thumb": "thumb-006412",
+        "thumb": "arc-006412",
         "archiveId": "ARC-006412",
         "alt": "Dibujar un mundo · fotografía 34",
         "sourceName": "DSC03911.JPG",
@@ -7634,7 +7616,7 @@ export const albums = [
       },
       {
         "image": "arc-006413",
-        "thumb": "thumb-006413",
+        "thumb": "arc-006413",
         "archiveId": "ARC-006413",
         "alt": "Dibujar un mundo · fotografía 35",
         "sourceName": "DSC03912.JPG",
@@ -7642,7 +7624,7 @@ export const albums = [
       },
       {
         "image": "arc-006414",
-        "thumb": "thumb-006414",
+        "thumb": "arc-006414",
         "archiveId": "ARC-006414",
         "alt": "Dibujar un mundo · fotografía 36",
         "sourceName": "DSC03913.JPG",
@@ -7650,7 +7632,7 @@ export const albums = [
       },
       {
         "image": "arc-006415",
-        "thumb": "thumb-006415",
+        "thumb": "arc-006415",
         "archiveId": "ARC-006415",
         "alt": "Dibujar un mundo · fotografía 37",
         "sourceName": "DSC03914.JPG",
@@ -7658,7 +7640,7 @@ export const albums = [
       },
       {
         "image": "arc-006416",
-        "thumb": "thumb-006416",
+        "thumb": "arc-006416",
         "archiveId": "ARC-006416",
         "alt": "Dibujar un mundo · fotografía 38",
         "sourceName": "DSC03915.JPG",
@@ -7666,7 +7648,7 @@ export const albums = [
       },
       {
         "image": "arc-006417",
-        "thumb": "thumb-006417",
+        "thumb": "arc-006417",
         "archiveId": "ARC-006417",
         "alt": "Dibujar un mundo · fotografía 39",
         "sourceName": "DSC03916.JPG",
@@ -7674,7 +7656,7 @@ export const albums = [
       },
       {
         "image": "arc-006418",
-        "thumb": "thumb-006418",
+        "thumb": "arc-006418",
         "archiveId": "ARC-006418",
         "alt": "Dibujar un mundo · fotografía 40",
         "sourceName": "DSC03917.JPG",
@@ -7682,7 +7664,7 @@ export const albums = [
       },
       {
         "image": "arc-006419",
-        "thumb": "thumb-006419",
+        "thumb": "arc-006419",
         "archiveId": "ARC-006419",
         "alt": "Dibujar un mundo · fotografía 41",
         "sourceName": "DSC03918.JPG",
@@ -7690,7 +7672,7 @@ export const albums = [
       },
       {
         "image": "arc-006420",
-        "thumb": "thumb-006420",
+        "thumb": "arc-006420",
         "archiveId": "ARC-006420",
         "alt": "Dibujar un mundo · fotografía 42",
         "sourceName": "DSC03919.JPG",
@@ -7698,7 +7680,7 @@ export const albums = [
       },
       {
         "image": "arc-006421",
-        "thumb": "thumb-006421",
+        "thumb": "arc-006421",
         "archiveId": "ARC-006421",
         "alt": "Dibujar un mundo · fotografía 43",
         "sourceName": "DSC03920.JPG",
@@ -7706,7 +7688,7 @@ export const albums = [
       },
       {
         "image": "arc-006422",
-        "thumb": "thumb-006422",
+        "thumb": "arc-006422",
         "archiveId": "ARC-006422",
         "alt": "Dibujar un mundo · fotografía 44",
         "sourceName": "DSC03921.JPG",
@@ -7714,7 +7696,7 @@ export const albums = [
       },
       {
         "image": "arc-006423",
-        "thumb": "thumb-006423",
+        "thumb": "arc-006423",
         "archiveId": "ARC-006423",
         "alt": "Dibujar un mundo · fotografía 45",
         "sourceName": "DSC03922.JPG",
@@ -7722,7 +7704,7 @@ export const albums = [
       },
       {
         "image": "arc-006424",
-        "thumb": "thumb-006424",
+        "thumb": "arc-006424",
         "archiveId": "ARC-006424",
         "alt": "Dibujar un mundo · fotografía 46",
         "sourceName": "DSC03923.JPG",
@@ -7730,7 +7712,7 @@ export const albums = [
       },
       {
         "image": "arc-006425",
-        "thumb": "thumb-006425",
+        "thumb": "arc-006425",
         "archiveId": "ARC-006425",
         "alt": "Dibujar un mundo · fotografía 47",
         "sourceName": "DSC03924.JPG",
@@ -7738,7 +7720,7 @@ export const albums = [
       },
       {
         "image": "arc-006426",
-        "thumb": "thumb-006426",
+        "thumb": "arc-006426",
         "archiveId": "ARC-006426",
         "alt": "Dibujar un mundo · fotografía 48",
         "sourceName": "DSC03925.JPG",
@@ -7746,7 +7728,7 @@ export const albums = [
       },
       {
         "image": "arc-006428",
-        "thumb": "thumb-006428",
+        "thumb": "arc-006428",
         "archiveId": "ARC-006428",
         "alt": "Dibujar un mundo · fotografía 49",
         "sourceName": "DSC03927.JPG",
@@ -7754,7 +7736,7 @@ export const albums = [
       },
       {
         "image": "arc-006429",
-        "thumb": "thumb-006429",
+        "thumb": "arc-006429",
         "archiveId": "ARC-006429",
         "alt": "Dibujar un mundo · fotografía 50",
         "sourceName": "DSC03928.JPG",
@@ -7762,7 +7744,7 @@ export const albums = [
       },
       {
         "image": "arc-006430",
-        "thumb": "thumb-006430",
+        "thumb": "arc-006430",
         "archiveId": "ARC-006430",
         "alt": "Dibujar un mundo · fotografía 51",
         "sourceName": "DSC03929.JPG",
@@ -7770,7 +7752,7 @@ export const albums = [
       },
       {
         "image": "arc-006432",
-        "thumb": "thumb-006432",
+        "thumb": "arc-006432",
         "archiveId": "ARC-006432",
         "alt": "Dibujar un mundo · fotografía 52",
         "sourceName": "DSC03931.JPG",
@@ -7778,7 +7760,7 @@ export const albums = [
       },
       {
         "image": "arc-006433",
-        "thumb": "thumb-006433",
+        "thumb": "arc-006433",
         "archiveId": "ARC-006433",
         "alt": "Dibujar un mundo · fotografía 53",
         "sourceName": "DSC03932.JPG",
@@ -7786,7 +7768,7 @@ export const albums = [
       },
       {
         "image": "arc-006437",
-        "thumb": "thumb-006437",
+        "thumb": "arc-006437",
         "archiveId": "ARC-006437",
         "alt": "Dibujar un mundo · fotografía 54",
         "sourceName": "DSC03936.JPG",
@@ -7794,7 +7776,7 @@ export const albums = [
       },
       {
         "image": "arc-006439",
-        "thumb": "thumb-006439",
+        "thumb": "arc-006439",
         "archiveId": "ARC-006439",
         "alt": "Dibujar un mundo · fotografía 55",
         "sourceName": "DSC03938.JPG",
@@ -7802,7 +7784,7 @@ export const albums = [
       },
       {
         "image": "arc-006440",
-        "thumb": "thumb-006440",
+        "thumb": "arc-006440",
         "archiveId": "ARC-006440",
         "alt": "Dibujar un mundo · fotografía 56",
         "sourceName": "DSC03940.JPG",
@@ -7810,7 +7792,7 @@ export const albums = [
       },
       {
         "image": "arc-006441",
-        "thumb": "thumb-006441",
+        "thumb": "arc-006441",
         "archiveId": "ARC-006441",
         "alt": "Dibujar un mundo · fotografía 57",
         "sourceName": "DSC03941.JPG",
@@ -7818,7 +7800,7 @@ export const albums = [
       },
       {
         "image": "arc-006442",
-        "thumb": "thumb-006442",
+        "thumb": "arc-006442",
         "archiveId": "ARC-006442",
         "alt": "Dibujar un mundo · fotografía 58",
         "sourceName": "DSC03942.JPG",
@@ -7826,7 +7808,7 @@ export const albums = [
       },
       {
         "image": "arc-006443",
-        "thumb": "thumb-006443",
+        "thumb": "arc-006443",
         "archiveId": "ARC-006443",
         "alt": "Dibujar un mundo · fotografía 59",
         "sourceName": "DSC03943.JPG",
@@ -7834,7 +7816,7 @@ export const albums = [
       },
       {
         "image": "arc-006444",
-        "thumb": "thumb-006444",
+        "thumb": "arc-006444",
         "archiveId": "ARC-006444",
         "alt": "Dibujar un mundo · fotografía 60",
         "sourceName": "DSC03944.JPG",
@@ -7842,7 +7824,7 @@ export const albums = [
       },
       {
         "image": "arc-006445",
-        "thumb": "thumb-006445",
+        "thumb": "arc-006445",
         "archiveId": "ARC-006445",
         "alt": "Dibujar un mundo · fotografía 61",
         "sourceName": "DSC03945.JPG",
@@ -7850,7 +7832,7 @@ export const albums = [
       },
       {
         "image": "arc-006446",
-        "thumb": "thumb-006446",
+        "thumb": "arc-006446",
         "archiveId": "ARC-006446",
         "alt": "Dibujar un mundo · fotografía 62",
         "sourceName": "DSC03946.JPG",
@@ -7858,7 +7840,7 @@ export const albums = [
       },
       {
         "image": "arc-006447",
-        "thumb": "thumb-006447",
+        "thumb": "arc-006447",
         "archiveId": "ARC-006447",
         "alt": "Dibujar un mundo · fotografía 63",
         "sourceName": "DSC03947.JPG",
@@ -7866,7 +7848,7 @@ export const albums = [
       },
       {
         "image": "arc-006448",
-        "thumb": "thumb-006448",
+        "thumb": "arc-006448",
         "archiveId": "ARC-006448",
         "alt": "Dibujar un mundo · fotografía 64",
         "sourceName": "DSC03948.JPG",
@@ -7874,7 +7856,7 @@ export const albums = [
       },
       {
         "image": "arc-006449",
-        "thumb": "thumb-006449",
+        "thumb": "arc-006449",
         "archiveId": "ARC-006449",
         "alt": "Dibujar un mundo · fotografía 65",
         "sourceName": "DSC03949.JPG",
@@ -7882,7 +7864,7 @@ export const albums = [
       },
       {
         "image": "arc-006450",
-        "thumb": "thumb-006450",
+        "thumb": "arc-006450",
         "archiveId": "ARC-006450",
         "alt": "Dibujar un mundo · fotografía 66",
         "sourceName": "DSC03950.JPG",
@@ -7890,7 +7872,7 @@ export const albums = [
       },
       {
         "image": "arc-006451",
-        "thumb": "thumb-006451",
+        "thumb": "arc-006451",
         "archiveId": "ARC-006451",
         "alt": "Dibujar un mundo · fotografía 67",
         "sourceName": "DSC03951.JPG",
@@ -7898,7 +7880,7 @@ export const albums = [
       },
       {
         "image": "arc-006452",
-        "thumb": "thumb-006452",
+        "thumb": "arc-006452",
         "archiveId": "ARC-006452",
         "alt": "Dibujar un mundo · fotografía 68",
         "sourceName": "DSC03952.JPG",
@@ -7906,7 +7888,7 @@ export const albums = [
       },
       {
         "image": "arc-006453",
-        "thumb": "thumb-006453",
+        "thumb": "arc-006453",
         "archiveId": "ARC-006453",
         "alt": "Dibujar un mundo · fotografía 69",
         "sourceName": "DSC03953.JPG",
@@ -7914,7 +7896,7 @@ export const albums = [
       },
       {
         "image": "arc-006454",
-        "thumb": "thumb-006454",
+        "thumb": "arc-006454",
         "archiveId": "ARC-006454",
         "alt": "Dibujar un mundo · fotografía 70",
         "sourceName": "DSC03954.JPG",
@@ -7922,7 +7904,7 @@ export const albums = [
       },
       {
         "image": "arc-006455",
-        "thumb": "thumb-006455",
+        "thumb": "arc-006455",
         "archiveId": "ARC-006455",
         "alt": "Dibujar un mundo · fotografía 71",
         "sourceName": "DSC03955.JPG",
@@ -7930,7 +7912,7 @@ export const albums = [
       },
       {
         "image": "arc-006456",
-        "thumb": "thumb-006456",
+        "thumb": "arc-006456",
         "archiveId": "ARC-006456",
         "alt": "Dibujar un mundo · fotografía 72",
         "sourceName": "DSC03956.JPG",
@@ -7938,7 +7920,7 @@ export const albums = [
       },
       {
         "image": "arc-006457",
-        "thumb": "thumb-006457",
+        "thumb": "arc-006457",
         "archiveId": "ARC-006457",
         "alt": "Dibujar un mundo · fotografía 73",
         "sourceName": "DSC03957.JPG",
@@ -7946,7 +7928,7 @@ export const albums = [
       },
       {
         "image": "arc-006458",
-        "thumb": "thumb-006458",
+        "thumb": "arc-006458",
         "archiveId": "ARC-006458",
         "alt": "Dibujar un mundo · fotografía 74",
         "sourceName": "DSC03958.JPG",
@@ -7954,7 +7936,7 @@ export const albums = [
       },
       {
         "image": "arc-006461",
-        "thumb": "thumb-006461",
+        "thumb": "arc-006461",
         "archiveId": "ARC-006461",
         "alt": "Dibujar un mundo · fotografía 75",
         "sourceName": "DSC03960.JPG",
@@ -7962,7 +7944,7 @@ export const albums = [
       },
       {
         "image": "arc-006462",
-        "thumb": "thumb-006462",
+        "thumb": "arc-006462",
         "archiveId": "ARC-006462",
         "alt": "Dibujar un mundo · fotografía 76",
         "sourceName": "DSC03961.JPG",
@@ -7970,7 +7952,7 @@ export const albums = [
       },
       {
         "image": "arc-006463",
-        "thumb": "thumb-006463",
+        "thumb": "arc-006463",
         "archiveId": "ARC-006463",
         "alt": "Dibujar un mundo · fotografía 77",
         "sourceName": "DSC03962D 27-10-2015 16-52-06S 27-10-2015 16-52-06F 27-10-2015 16-52-06.JPG",
@@ -7978,7 +7960,7 @@ export const albums = [
       },
       {
         "image": "arc-006464",
-        "thumb": "thumb-006464",
+        "thumb": "arc-006464",
         "archiveId": "ARC-006464",
         "alt": "Dibujar un mundo · fotografía 78",
         "sourceName": "DSC03963.JPG",
@@ -7986,7 +7968,7 @@ export const albums = [
       },
       {
         "image": "arc-006465",
-        "thumb": "thumb-006465",
+        "thumb": "arc-006465",
         "archiveId": "ARC-006465",
         "alt": "Dibujar un mundo · fotografía 79",
         "sourceName": "DSC03964.JPG",
@@ -7994,7 +7976,7 @@ export const albums = [
       },
       {
         "image": "arc-006466",
-        "thumb": "thumb-006466",
+        "thumb": "arc-006466",
         "archiveId": "ARC-006466",
         "alt": "Dibujar un mundo · fotografía 80",
         "sourceName": "DSC03965.JPG",
@@ -8002,7 +7984,7 @@ export const albums = [
       },
       {
         "image": "arc-006467",
-        "thumb": "thumb-006467",
+        "thumb": "arc-006467",
         "archiveId": "ARC-006467",
         "alt": "Dibujar un mundo · fotografía 81",
         "sourceName": "DSC03966.JPG",
@@ -8010,7 +7992,7 @@ export const albums = [
       },
       {
         "image": "arc-006468",
-        "thumb": "thumb-006468",
+        "thumb": "arc-006468",
         "archiveId": "ARC-006468",
         "alt": "Dibujar un mundo · fotografía 82",
         "sourceName": "DSC03967.JPG",
@@ -8018,7 +8000,7 @@ export const albums = [
       },
       {
         "image": "arc-006469",
-        "thumb": "thumb-006469",
+        "thumb": "arc-006469",
         "archiveId": "ARC-006469",
         "alt": "Dibujar un mundo · fotografía 83",
         "sourceName": "DSC03968.JPG",
@@ -8026,7 +8008,7 @@ export const albums = [
       },
       {
         "image": "arc-006470",
-        "thumb": "thumb-006470",
+        "thumb": "arc-006470",
         "archiveId": "ARC-006470",
         "alt": "Dibujar un mundo · fotografía 84",
         "sourceName": "DSC03969.JPG",
@@ -8034,7 +8016,7 @@ export const albums = [
       },
       {
         "image": "arc-006471",
-        "thumb": "thumb-006471",
+        "thumb": "arc-006471",
         "archiveId": "ARC-006471",
         "alt": "Dibujar un mundo · fotografía 85",
         "sourceName": "DSC03970.JPG",
@@ -8042,7 +8024,7 @@ export const albums = [
       },
       {
         "image": "arc-006472",
-        "thumb": "thumb-006472",
+        "thumb": "arc-006472",
         "archiveId": "ARC-006472",
         "alt": "Dibujar un mundo · fotografía 86",
         "sourceName": "DSC03971.JPG",
@@ -8050,7 +8032,7 @@ export const albums = [
       },
       {
         "image": "arc-006473",
-        "thumb": "thumb-006473",
+        "thumb": "arc-006473",
         "archiveId": "ARC-006473",
         "alt": "Dibujar un mundo · fotografía 87",
         "sourceName": "DSC03972.JPG",
@@ -8058,7 +8040,7 @@ export const albums = [
       },
       {
         "image": "arc-006474",
-        "thumb": "thumb-006474",
+        "thumb": "arc-006474",
         "archiveId": "ARC-006474",
         "alt": "Dibujar un mundo · fotografía 88",
         "sourceName": "DSC03973.JPG",
@@ -8066,7 +8048,7 @@ export const albums = [
       },
       {
         "image": "arc-006475",
-        "thumb": "thumb-006475",
+        "thumb": "arc-006475",
         "archiveId": "ARC-006475",
         "alt": "Dibujar un mundo · fotografía 89",
         "sourceName": "DSC03974.JPG",
@@ -8074,7 +8056,7 @@ export const albums = [
       },
       {
         "image": "arc-006476",
-        "thumb": "thumb-006476",
+        "thumb": "arc-006476",
         "archiveId": "ARC-006476",
         "alt": "Dibujar un mundo · fotografía 90",
         "sourceName": "DSC03975.JPG",
@@ -8082,7 +8064,7 @@ export const albums = [
       },
       {
         "image": "arc-006477",
-        "thumb": "thumb-006477",
+        "thumb": "arc-006477",
         "archiveId": "ARC-006477",
         "alt": "Dibujar un mundo · fotografía 91",
         "sourceName": "DSC03976.JPG",
@@ -8090,7 +8072,7 @@ export const albums = [
       },
       {
         "image": "arc-006478",
-        "thumb": "thumb-006478",
+        "thumb": "arc-006478",
         "archiveId": "ARC-006478",
         "alt": "Dibujar un mundo · fotografía 92",
         "sourceName": "DSC03977.JPG",
@@ -8098,14 +8080,14 @@ export const albums = [
       },
       {
         "image": "arc-006479",
-        "thumb": "thumb-006479",
+        "thumb": "arc-006479",
         "archiveId": "ARC-006479",
         "alt": "Dibujar un mundo · fotografía 93",
         "sourceName": "DSC03978.JPG",
         "contentKey": "ARC-006479"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-relieves",
@@ -8123,7 +8105,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-014341",
-        "thumb": "thumb-014341",
+        "thumb": "arc-014341",
         "archiveId": "ARC-014341",
         "alt": "Relieves y objetos encontrados · fotografía 1",
         "sourceName": "DSC04056.JPG",
@@ -8131,7 +8113,7 @@ export const albums = [
       },
       {
         "image": "arc-014342",
-        "thumb": "thumb-014342",
+        "thumb": "arc-014342",
         "archiveId": "ARC-014342",
         "alt": "Relieves y objetos encontrados · fotografía 2",
         "sourceName": "DSC04057.JPG",
@@ -8139,7 +8121,7 @@ export const albums = [
       },
       {
         "image": "arc-014339",
-        "thumb": "thumb-014339",
+        "thumb": "arc-014339",
         "archiveId": "ARC-014339",
         "alt": "Relieves y objetos encontrados · fotografía 3",
         "sourceName": "DSC04059.JPG",
@@ -8147,7 +8129,7 @@ export const albums = [
       },
       {
         "image": "arc-014345",
-        "thumb": "thumb-014345",
+        "thumb": "arc-014345",
         "archiveId": "ARC-014345",
         "alt": "Relieves y objetos encontrados · fotografía 4",
         "sourceName": "DSC04060.JPG",
@@ -8155,7 +8137,7 @@ export const albums = [
       },
       {
         "image": "arc-014346",
-        "thumb": "thumb-014346",
+        "thumb": "arc-014346",
         "archiveId": "ARC-014346",
         "alt": "Relieves y objetos encontrados · fotografía 5",
         "sourceName": "Chopos  -18B.jpg",
@@ -8163,7 +8145,7 @@ export const albums = [
       },
       {
         "image": "arc-014350",
-        "thumb": "thumb-014350",
+        "thumb": "arc-014350",
         "archiveId": "ARC-014350",
         "alt": "Relieves y objetos encontrados · fotografía 6",
         "sourceName": "F1000010A.jpg",
@@ -8171,7 +8153,7 @@ export const albums = [
       },
       {
         "image": "arc-014352",
-        "thumb": "thumb-014352",
+        "thumb": "arc-014352",
         "archiveId": "ARC-014352",
         "alt": "Relieves y objetos encontrados · fotografía 7",
         "sourceName": "Imagen CAMARA OLYMPUS 004.jpg",
@@ -8179,7 +8161,7 @@ export const albums = [
       },
       {
         "image": "arc-014355",
-        "thumb": "thumb-014355",
+        "thumb": "arc-014355",
         "archiveId": "ARC-014355",
         "alt": "Relieves y objetos encontrados · fotografía 8",
         "sourceName": "P1010002.JPG",
@@ -8187,7 +8169,7 @@ export const albums = [
       },
       {
         "image": "arc-014363",
-        "thumb": "thumb-014363",
+        "thumb": "arc-014363",
         "archiveId": "ARC-014363",
         "alt": "Relieves y objetos encontrados · fotografía 9",
         "sourceName": "P1010012-1.JPG",
@@ -8195,7 +8177,7 @@ export const albums = [
       },
       {
         "image": "arc-014359",
-        "thumb": "thumb-014359",
+        "thumb": "arc-014359",
         "archiveId": "ARC-014359",
         "alt": "Relieves y objetos encontrados · fotografía 10",
         "sourceName": "P1010008-2.JPG",
@@ -8203,7 +8185,7 @@ export const albums = [
       },
       {
         "image": "arc-014361",
-        "thumb": "thumb-014361",
+        "thumb": "arc-014361",
         "archiveId": "ARC-014361",
         "alt": "Relieves y objetos encontrados · fotografía 11",
         "sourceName": "P1010009-2.JPG",
@@ -8211,7 +8193,7 @@ export const albums = [
       },
       {
         "image": "arc-014362",
-        "thumb": "thumb-014362",
+        "thumb": "arc-014362",
         "archiveId": "ARC-014362",
         "alt": "Relieves y objetos encontrados · fotografía 12",
         "sourceName": "P1010011-2.JPG",
@@ -8219,7 +8201,7 @@ export const albums = [
       },
       {
         "image": "arc-014364",
-        "thumb": "thumb-014364",
+        "thumb": "arc-014364",
         "archiveId": "ARC-014364",
         "alt": "Relieves y objetos encontrados · fotografía 13",
         "sourceName": "P1010013-1.JPG",
@@ -8227,7 +8209,7 @@ export const albums = [
       },
       {
         "image": "arc-014365",
-        "thumb": "thumb-014365",
+        "thumb": "arc-014365",
         "archiveId": "ARC-014365",
         "alt": "Relieves y objetos encontrados · fotografía 14",
         "sourceName": "P1010014-1.JPG",
@@ -8235,7 +8217,7 @@ export const albums = [
       },
       {
         "image": "arc-014367",
-        "thumb": "thumb-014367",
+        "thumb": "arc-014367",
         "archiveId": "ARC-014367",
         "alt": "Relieves y objetos encontrados · fotografía 15",
         "sourceName": "P1010027.JPG",
@@ -8243,7 +8225,7 @@ export const albums = [
       },
       {
         "image": "arc-014380",
-        "thumb": "thumb-014380",
+        "thumb": "arc-014380",
         "archiveId": "ARC-014380",
         "alt": "Relieves y objetos encontrados · fotografía 16",
         "sourceName": "P7260002A.jpg",
@@ -8251,7 +8233,7 @@ export const albums = [
       },
       {
         "image": "arc-014387",
-        "thumb": "thumb-014387",
+        "thumb": "arc-014387",
         "archiveId": "ARC-014387",
         "alt": "Relieves y objetos encontrados · fotografía 17",
         "sourceName": "PICT1125.JPG",
@@ -8259,7 +8241,7 @@ export const albums = [
       },
       {
         "image": "arc-014439",
-        "thumb": "thumb-014439",
+        "thumb": "arc-014439",
         "archiveId": "ARC-014439",
         "alt": "Relieves y objetos encontrados · fotografía 18",
         "sourceName": "UNTITL12-1.JPG",
@@ -8267,7 +8249,7 @@ export const albums = [
       },
       {
         "image": "arc-014445",
-        "thumb": "thumb-014445",
+        "thumb": "arc-014445",
         "archiveId": "ARC-014445",
         "alt": "Relieves y objetos encontrados · fotografía 19",
         "sourceName": "UNTITL17.JPG",
@@ -8275,7 +8257,7 @@ export const albums = [
       },
       {
         "image": "arc-014447",
-        "thumb": "thumb-014447",
+        "thumb": "arc-014447",
         "archiveId": "ARC-014447",
         "alt": "Relieves y objetos encontrados · fotografía 20",
         "sourceName": "UNTITL20.JPG",
@@ -8283,7 +8265,7 @@ export const albums = [
       },
       {
         "image": "arc-014448",
-        "thumb": "thumb-014448",
+        "thumb": "arc-014448",
         "archiveId": "ARC-014448",
         "alt": "Relieves y objetos encontrados · fotografía 21",
         "sourceName": "UNTITL21.JPG",
@@ -8291,7 +8273,7 @@ export const albums = [
       },
       {
         "image": "arc-014449",
-        "thumb": "thumb-014449",
+        "thumb": "arc-014449",
         "archiveId": "ARC-014449",
         "alt": "Relieves y objetos encontrados · fotografía 22",
         "sourceName": "UNTITL22.JPG",
@@ -8299,7 +8281,7 @@ export const albums = [
       },
       {
         "image": "arc-014451",
-        "thumb": "thumb-014451",
+        "thumb": "arc-014451",
         "archiveId": "ARC-014451",
         "alt": "Relieves y objetos encontrados · fotografía 23",
         "sourceName": "UNTITL24-1.JPG",
@@ -8307,7 +8289,7 @@ export const albums = [
       },
       {
         "image": "arc-014453",
-        "thumb": "thumb-014453",
+        "thumb": "arc-014453",
         "archiveId": "ARC-014453",
         "alt": "Relieves y objetos encontrados · fotografía 24",
         "sourceName": "UNTITL25-1.JPG",
@@ -8315,7 +8297,7 @@ export const albums = [
       },
       {
         "image": "arc-014454",
-        "thumb": "thumb-014454",
+        "thumb": "arc-014454",
         "archiveId": "ARC-014454",
         "alt": "Relieves y objetos encontrados · fotografía 25",
         "sourceName": "UNTITL26.JPG",
@@ -8323,7 +8305,7 @@ export const albums = [
       },
       {
         "image": "arc-014455",
-        "thumb": "thumb-014455",
+        "thumb": "arc-014455",
         "archiveId": "ARC-014455",
         "alt": "Relieves y objetos encontrados · fotografía 26",
         "sourceName": "UNTITL29.JPG",
@@ -8331,7 +8313,7 @@ export const albums = [
       },
       {
         "image": "arc-014465",
-        "thumb": "thumb-014465",
+        "thumb": "arc-014465",
         "archiveId": "ARC-014465",
         "alt": "Relieves y objetos encontrados · fotografía 27",
         "sourceName": "UNTITLE2.JPG",
@@ -8339,7 +8321,7 @@ export const albums = [
       },
       {
         "image": "arc-014466",
-        "thumb": "thumb-014466",
+        "thumb": "arc-014466",
         "archiveId": "ARC-014466",
         "alt": "Relieves y objetos encontrados · fotografía 28",
         "sourceName": "UNTITLE3-1.JPG",
@@ -8347,7 +8329,7 @@ export const albums = [
       },
       {
         "image": "arc-014467",
-        "thumb": "thumb-014467",
+        "thumb": "arc-014467",
         "archiveId": "ARC-014467",
         "alt": "Relieves y objetos encontrados · fotografía 29",
         "sourceName": "UNTITLE3.JPG",
@@ -8355,7 +8337,7 @@ export const albums = [
       },
       {
         "image": "arc-014471",
-        "thumb": "thumb-014471",
+        "thumb": "arc-014471",
         "archiveId": "ARC-014471",
         "alt": "Relieves y objetos encontrados · fotografía 30",
         "sourceName": "UNTITLE8.JPG",
@@ -8363,7 +8345,7 @@ export const albums = [
       },
       {
         "image": "arc-006527",
-        "thumb": "thumb-006527",
+        "thumb": "arc-006527",
         "archiveId": "ARC-006527",
         "alt": "Relieves y objetos encontrados · fotografía 31",
         "sourceName": "2016-04-22 14.37.08.jpg",
@@ -8371,7 +8353,7 @@ export const albums = [
       },
       {
         "image": "arc-006528",
-        "thumb": "thumb-006528",
+        "thumb": "arc-006528",
         "archiveId": "ARC-006528",
         "alt": "Relieves y objetos encontrados · fotografía 32",
         "sourceName": "20160327_115836.jpg",
@@ -8379,7 +8361,7 @@ export const albums = [
       },
       {
         "image": "arc-006530",
-        "thumb": "thumb-006530",
+        "thumb": "arc-006530",
         "archiveId": "ARC-006530",
         "alt": "Relieves y objetos encontrados · fotografía 33",
         "sourceName": "20160327_120147.jpg",
@@ -8387,14 +8369,14 @@ export const albums = [
       },
       {
         "image": "arc-006531",
-        "thumb": "thumb-006531",
+        "thumb": "arc-006531",
         "archiveId": "ARC-006531",
         "alt": "Relieves y objetos encontrados · fotografía 34",
         "sourceName": "20160327_120223.jpg",
         "contentKey": "bb94139f523d8c3bf33061a674ad5e7d4bfc69c3ee7ab04f7540c1f6cb800b1a"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-totems",
@@ -8412,7 +8394,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-002663",
-        "thumb": "thumb-002663",
+        "thumb": "arc-002663",
         "archiveId": "ARC-002663",
         "alt": "Columnas, personajes y tótems · fotografía 1",
         "sourceName": "careta.JPG",
@@ -8420,7 +8402,7 @@ export const albums = [
       },
       {
         "image": "arc-002664",
-        "thumb": "thumb-002664",
+        "thumb": "arc-002664",
         "archiveId": "ARC-002664",
         "alt": "Columnas, personajes y tótems · fotografía 2",
         "sourceName": "SERIE_IN.JPG",
@@ -8428,7 +8410,7 @@ export const albums = [
       },
       {
         "image": "arc-002667",
-        "thumb": "thumb-002667",
+        "thumb": "arc-002667",
         "archiveId": "ARC-002667",
         "alt": "Columnas, personajes y tótems · fotografía 3",
         "sourceName": "UNTITLE2.JPG",
@@ -8436,7 +8418,7 @@ export const albums = [
       },
       {
         "image": "arc-002668",
-        "thumb": "thumb-002668",
+        "thumb": "arc-002668",
         "archiveId": "ARC-002668",
         "alt": "Columnas, personajes y tótems · fotografía 4",
         "sourceName": "UNTITLE4.JPG",
@@ -8444,7 +8426,7 @@ export const albums = [
       },
       {
         "image": "arc-002669",
-        "thumb": "thumb-002669",
+        "thumb": "arc-002669",
         "archiveId": "ARC-002669",
         "alt": "Columnas, personajes y tótems · fotografía 5",
         "sourceName": "UNTITLE5.JPG",
@@ -8452,7 +8434,7 @@ export const albums = [
       },
       {
         "image": "arc-002670",
-        "thumb": "thumb-002670",
+        "thumb": "arc-002670",
         "archiveId": "ARC-002670",
         "alt": "Columnas, personajes y tótems · fotografía 6",
         "sourceName": "UNTITLED.JPG",
@@ -8460,7 +8442,7 @@ export const albums = [
       },
       {
         "image": "arc-002687",
-        "thumb": "thumb-002687",
+        "thumb": "arc-002687",
         "archiveId": "ARC-002687",
         "alt": "Columnas, personajes y tótems · fotografía 7",
         "sourceName": "SERIE_18.JPG",
@@ -8468,7 +8450,7 @@ export const albums = [
       },
       {
         "image": "arc-002692",
-        "thumb": "thumb-002692",
+        "thumb": "arc-002692",
         "archiveId": "ARC-002692",
         "alt": "Columnas, personajes y tótems · fotografía 8",
         "sourceName": "SERIE_23.JPG",
@@ -8476,7 +8458,7 @@ export const albums = [
       },
       {
         "image": "arc-002696",
-        "thumb": "thumb-002696",
+        "thumb": "arc-002696",
         "archiveId": "ARC-002696",
         "alt": "Columnas, personajes y tótems · fotografía 9",
         "sourceName": "SERIE_I4.JPG",
@@ -8484,7 +8466,7 @@ export const albums = [
       },
       {
         "image": "arc-002698",
-        "thumb": "thumb-002698",
+        "thumb": "arc-002698",
         "archiveId": "ARC-002698",
         "alt": "Columnas, personajes y tótems · fotografía 10",
         "sourceName": "SERIE_I6.JPG",
@@ -8492,7 +8474,7 @@ export const albums = [
       },
       {
         "image": "arc-014349",
-        "thumb": "thumb-014349",
+        "thumb": "arc-014349",
         "archiveId": "ARC-014349",
         "alt": "Columnas, personajes y tótems · fotografía 11",
         "sourceName": "F1000007A.jpg",
@@ -8500,7 +8482,7 @@ export const albums = [
       },
       {
         "image": "arc-014369",
-        "thumb": "thumb-014369",
+        "thumb": "arc-014369",
         "archiveId": "ARC-014369",
         "alt": "Columnas, personajes y tótems · fotografía 12",
         "sourceName": "P5050010.JPG",
@@ -8508,7 +8490,7 @@ export const albums = [
       },
       {
         "image": "arc-014372",
-        "thumb": "thumb-014372",
+        "thumb": "arc-014372",
         "archiveId": "ARC-014372",
         "alt": "Columnas, personajes y tótems · fotografía 13",
         "sourceName": "P5050025.JPG",
@@ -8516,7 +8498,7 @@ export const albums = [
       },
       {
         "image": "arc-014373",
-        "thumb": "thumb-014373",
+        "thumb": "arc-014373",
         "archiveId": "ARC-014373",
         "alt": "Columnas, personajes y tótems · fotografía 14",
         "sourceName": "P5050026.JPG",
@@ -8524,7 +8506,7 @@ export const albums = [
       },
       {
         "image": "arc-014374",
-        "thumb": "thumb-014374",
+        "thumb": "arc-014374",
         "archiveId": "ARC-014374",
         "alt": "Columnas, personajes y tótems · fotografía 15",
         "sourceName": "P5050027.JPG",
@@ -8532,7 +8514,7 @@ export const albums = [
       },
       {
         "image": "arc-014376",
-        "thumb": "thumb-014376",
+        "thumb": "arc-014376",
         "archiveId": "ARC-014376",
         "alt": "Columnas, personajes y tótems · fotografía 16",
         "sourceName": "P5050029.JPG",
@@ -8540,7 +8522,7 @@ export const albums = [
       },
       {
         "image": "arc-014378",
-        "thumb": "thumb-014378",
+        "thumb": "arc-014378",
         "archiveId": "ARC-014378",
         "alt": "Columnas, personajes y tótems · fotografía 17",
         "sourceName": "P5050031.JPG",
@@ -8548,7 +8530,7 @@ export const albums = [
       },
       {
         "image": "arc-014384",
-        "thumb": "thumb-014384",
+        "thumb": "arc-014384",
         "archiveId": "ARC-014384",
         "alt": "Columnas, personajes y tótems · fotografía 18",
         "sourceName": "PC170045.JPG",
@@ -8556,7 +8538,7 @@ export const albums = [
       },
       {
         "image": "arc-014386",
-        "thumb": "thumb-014386",
+        "thumb": "arc-014386",
         "archiveId": "ARC-014386",
         "alt": "Columnas, personajes y tótems · fotografía 19",
         "sourceName": "PICT1123.JPG",
@@ -8564,7 +8546,7 @@ export const albums = [
       },
       {
         "image": "arc-014388",
-        "thumb": "thumb-014388",
+        "thumb": "arc-014388",
         "archiveId": "ARC-014388",
         "alt": "Columnas, personajes y tótems · fotografía 20",
         "sourceName": "PICT1128.JPG",
@@ -8572,7 +8554,7 @@ export const albums = [
       },
       {
         "image": "arc-014389",
-        "thumb": "thumb-014389",
+        "thumb": "arc-014389",
         "archiveId": "ARC-014389",
         "alt": "Columnas, personajes y tótems · fotografía 21",
         "sourceName": "PICT1129.JPG",
@@ -8580,7 +8562,7 @@ export const albums = [
       },
       {
         "image": "arc-014392",
-        "thumb": "thumb-014392",
+        "thumb": "arc-014392",
         "archiveId": "ARC-014392",
         "alt": "Columnas, personajes y tótems · fotografía 22",
         "sourceName": "PICT1153.JPG",
@@ -8588,7 +8570,7 @@ export const albums = [
       },
       {
         "image": "arc-014440",
-        "thumb": "thumb-014440",
+        "thumb": "arc-014440",
         "archiveId": "ARC-014440",
         "alt": "Columnas, personajes y tótems · fotografía 23",
         "sourceName": "UNTITL12.JPG",
@@ -8596,7 +8578,7 @@ export const albums = [
       },
       {
         "image": "arc-014442",
-        "thumb": "thumb-014442",
+        "thumb": "arc-014442",
         "archiveId": "ARC-014442",
         "alt": "Columnas, personajes y tótems · fotografía 24",
         "sourceName": "UNTITL14.JPG",
@@ -8604,7 +8586,7 @@ export const albums = [
       },
       {
         "image": "arc-014450",
-        "thumb": "thumb-014450",
+        "thumb": "arc-014450",
         "archiveId": "ARC-014450",
         "alt": "Columnas, personajes y tótems · fotografía 25",
         "sourceName": "UNTITL23.JPG",
@@ -8612,7 +8594,7 @@ export const albums = [
       },
       {
         "image": "arc-014452",
-        "thumb": "thumb-014452",
+        "thumb": "arc-014452",
         "archiveId": "ARC-014452",
         "alt": "Columnas, personajes y tótems · fotografía 26",
         "sourceName": "UNTITL24.JPG",
@@ -8620,7 +8602,7 @@ export const albums = [
       },
       {
         "image": "arc-014456",
-        "thumb": "thumb-014456",
+        "thumb": "arc-014456",
         "archiveId": "ARC-014456",
         "alt": "Columnas, personajes y tótems · fotografía 27",
         "sourceName": "UNTITL31.JPG",
@@ -8628,14 +8610,14 @@ export const albums = [
       },
       {
         "image": "arc-014457",
-        "thumb": "thumb-014457",
+        "thumb": "arc-014457",
         "archiveId": "ARC-014457",
         "alt": "Columnas, personajes y tótems · fotografía 28",
         "sourceName": "UNTITL32.JPG",
         "contentKey": "e7a93fd773e6ed2d4d3739d64cf6a93d2571bc7130031297f5be6fc9581dbaa1"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-colectivo",
@@ -8653,7 +8635,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-000043",
-        "thumb": "thumb-000043",
+        "thumb": "arc-000043",
         "archiveId": "ARC-000043",
         "alt": "Pintar y construir en común · fotografía 1",
         "sourceName": "P5050008.jpg",
@@ -8661,7 +8643,7 @@ export const albums = [
       },
       {
         "image": "arc-000044",
-        "thumb": "thumb-000044",
+        "thumb": "arc-000044",
         "archiveId": "ARC-000044",
         "alt": "Pintar y construir en común · fotografía 2",
         "sourceName": "P5050018.JPG",
@@ -8669,7 +8651,7 @@ export const albums = [
       },
       {
         "image": "arc-000045",
-        "thumb": "thumb-000045",
+        "thumb": "arc-000045",
         "archiveId": "ARC-000045",
         "alt": "Pintar y construir en común · fotografía 3",
         "sourceName": "P5050042.JPG",
@@ -8677,7 +8659,7 @@ export const albums = [
       },
       {
         "image": "arc-002679",
-        "thumb": "thumb-002679",
+        "thumb": "arc-002679",
         "archiveId": "ARC-002679",
         "alt": "Pintar y construir en común · fotografía 4",
         "sourceName": "SERIE_10.JPG",
@@ -8685,7 +8667,7 @@ export const albums = [
       },
       {
         "image": "arc-002680",
-        "thumb": "thumb-002680",
+        "thumb": "arc-002680",
         "archiveId": "ARC-002680",
         "alt": "Pintar y construir en común · fotografía 5",
         "sourceName": "SERIE_11.JPG",
@@ -8693,7 +8675,7 @@ export const albums = [
       },
       {
         "image": "arc-002681",
-        "thumb": "thumb-002681",
+        "thumb": "arc-002681",
         "archiveId": "ARC-002681",
         "alt": "Pintar y construir en común · fotografía 6",
         "sourceName": "SERIE_12.JPG",
@@ -8701,7 +8683,7 @@ export const albums = [
       },
       {
         "image": "arc-002682",
-        "thumb": "thumb-002682",
+        "thumb": "arc-002682",
         "archiveId": "ARC-002682",
         "alt": "Pintar y construir en común · fotografía 7",
         "sourceName": "SERIE_13.JPG",
@@ -8709,7 +8691,7 @@ export const albums = [
       },
       {
         "image": "arc-002683",
-        "thumb": "thumb-002683",
+        "thumb": "arc-002683",
         "archiveId": "ARC-002683",
         "alt": "Pintar y construir en común · fotografía 8",
         "sourceName": "SERIE_14.JPG",
@@ -8717,7 +8699,7 @@ export const albums = [
       },
       {
         "image": "arc-002684",
-        "thumb": "thumb-002684",
+        "thumb": "arc-002684",
         "archiveId": "ARC-002684",
         "alt": "Pintar y construir en común · fotografía 9",
         "sourceName": "SERIE_15.JPG",
@@ -8725,7 +8707,7 @@ export const albums = [
       },
       {
         "image": "arc-002685",
-        "thumb": "thumb-002685",
+        "thumb": "arc-002685",
         "archiveId": "ARC-002685",
         "alt": "Pintar y construir en común · fotografía 10",
         "sourceName": "SERIE_16.JPG",
@@ -8733,7 +8715,7 @@ export const albums = [
       },
       {
         "image": "arc-002697",
-        "thumb": "thumb-002697",
+        "thumb": "arc-002697",
         "archiveId": "ARC-002697",
         "alt": "Pintar y construir en común · fotografía 11",
         "sourceName": "SERIE_I5.JPG",
@@ -8741,7 +8723,7 @@ export const albums = [
       },
       {
         "image": "arc-002699",
-        "thumb": "thumb-002699",
+        "thumb": "arc-002699",
         "archiveId": "ARC-002699",
         "alt": "Pintar y construir en común · fotografía 12",
         "sourceName": "SERIE_I7.JPG",
@@ -8749,7 +8731,7 @@ export const albums = [
       },
       {
         "image": "arc-002700",
-        "thumb": "thumb-002700",
+        "thumb": "arc-002700",
         "archiveId": "ARC-002700",
         "alt": "Pintar y construir en común · fotografía 13",
         "sourceName": "SERIE_I8.JPG",
@@ -8757,7 +8739,7 @@ export const albums = [
       },
       {
         "image": "arc-013602",
-        "thumb": "thumb-013602",
+        "thumb": "arc-013602",
         "archiveId": "ARC-013602",
         "alt": "Pintar y construir en común · fotografía 14",
         "sourceName": "CHOPOS___31.JPG",
@@ -8765,7 +8747,7 @@ export const albums = [
       },
       {
         "image": "arc-013603",
-        "thumb": "thumb-013603",
+        "thumb": "arc-013603",
         "archiveId": "ARC-013603",
         "alt": "Pintar y construir en común · fotografía 15",
         "sourceName": "CHOPOS___32.JPG",
@@ -8773,7 +8755,7 @@ export const albums = [
       },
       {
         "image": "arc-013605",
-        "thumb": "thumb-013605",
+        "thumb": "arc-013605",
         "archiveId": "ARC-013605",
         "alt": "Pintar y construir en común · fotografía 16",
         "sourceName": "CHOPOS___34.JPG",
@@ -8781,7 +8763,7 @@ export const albums = [
       },
       {
         "image": "arc-013620",
-        "thumb": "thumb-013620",
+        "thumb": "arc-013620",
         "archiveId": "ARC-013620",
         "alt": "Pintar y construir en común · fotografía 17",
         "sourceName": "Imagen CAMARA OLYMPUS 017.jpg",
@@ -8789,7 +8771,7 @@ export const albums = [
       },
       {
         "image": "arc-013621",
-        "thumb": "thumb-013621",
+        "thumb": "arc-013621",
         "archiveId": "ARC-013621",
         "alt": "Pintar y construir en común · fotografía 18",
         "sourceName": "Imagen CAMARA OLYMPUS 019.jpg",
@@ -8797,7 +8779,7 @@ export const albums = [
       },
       {
         "image": "arc-013622",
-        "thumb": "thumb-013622",
+        "thumb": "arc-013622",
         "archiveId": "ARC-013622",
         "alt": "Pintar y construir en común · fotografía 19",
         "sourceName": "Imagen CAMARA OLYMPUS 026.jpg",
@@ -8805,7 +8787,7 @@ export const albums = [
       },
       {
         "image": "arc-013623",
-        "thumb": "thumb-013623",
+        "thumb": "arc-013623",
         "archiveId": "ARC-013623",
         "alt": "Pintar y construir en común · fotografía 20",
         "sourceName": "Imagen CAMARA OLYMPUS 052.jpg",
@@ -8813,7 +8795,7 @@ export const albums = [
       },
       {
         "image": "arc-013625",
-        "thumb": "thumb-013625",
+        "thumb": "arc-013625",
         "archiveId": "ARC-013625",
         "alt": "Pintar y construir en común · fotografía 21",
         "sourceName": "MVC-528F.jpg",
@@ -8821,7 +8803,7 @@ export const albums = [
       },
       {
         "image": "arc-013626",
-        "thumb": "thumb-013626",
+        "thumb": "arc-013626",
         "archiveId": "ARC-013626",
         "alt": "Pintar y construir en común · fotografía 22",
         "sourceName": "MVC-529F.jpg",
@@ -8829,7 +8811,7 @@ export const albums = [
       },
       {
         "image": "arc-013627",
-        "thumb": "thumb-013627",
+        "thumb": "arc-013627",
         "archiveId": "ARC-013627",
         "alt": "Pintar y construir en común · fotografía 23",
         "sourceName": "MVC-530F.jpg",
@@ -8837,7 +8819,7 @@ export const albums = [
       },
       {
         "image": "arc-013628",
-        "thumb": "thumb-013628",
+        "thumb": "arc-013628",
         "archiveId": "ARC-013628",
         "alt": "Pintar y construir en común · fotografía 24",
         "sourceName": "MVC-531F.JPG",
@@ -8845,7 +8827,7 @@ export const albums = [
       },
       {
         "image": "arc-013629",
-        "thumb": "thumb-013629",
+        "thumb": "arc-013629",
         "archiveId": "ARC-013629",
         "alt": "Pintar y construir en común · fotografía 25",
         "sourceName": "MVC-532F.JPG",
@@ -8853,7 +8835,7 @@ export const albums = [
       },
       {
         "image": "arc-013630",
-        "thumb": "thumb-013630",
+        "thumb": "arc-013630",
         "archiveId": "ARC-013630",
         "alt": "Pintar y construir en común · fotografía 26",
         "sourceName": "MVC-533F.jpg",
@@ -8861,7 +8843,7 @@ export const albums = [
       },
       {
         "image": "arc-013631",
-        "thumb": "thumb-013631",
+        "thumb": "arc-013631",
         "archiveId": "ARC-013631",
         "alt": "Pintar y construir en común · fotografía 27",
         "sourceName": "MVC-534F.jpg",
@@ -8869,7 +8851,7 @@ export const albums = [
       },
       {
         "image": "arc-013632",
-        "thumb": "thumb-013632",
+        "thumb": "arc-013632",
         "archiveId": "ARC-013632",
         "alt": "Pintar y construir en común · fotografía 28",
         "sourceName": "MVC-535F.jpg",
@@ -8877,7 +8859,7 @@ export const albums = [
       },
       {
         "image": "arc-013633",
-        "thumb": "thumb-013633",
+        "thumb": "arc-013633",
         "archiveId": "ARC-013633",
         "alt": "Pintar y construir en común · fotografía 29",
         "sourceName": "MVC-536F.jpg",
@@ -8885,7 +8867,7 @@ export const albums = [
       },
       {
         "image": "arc-013634",
-        "thumb": "thumb-013634",
+        "thumb": "arc-013634",
         "archiveId": "ARC-013634",
         "alt": "Pintar y construir en común · fotografía 30",
         "sourceName": "MVC-537F.jpg",
@@ -8893,7 +8875,7 @@ export const albums = [
       },
       {
         "image": "arc-013635",
-        "thumb": "thumb-013635",
+        "thumb": "arc-013635",
         "archiveId": "ARC-013635",
         "alt": "Pintar y construir en común · fotografía 31",
         "sourceName": "MVC-538F.jpg",
@@ -8901,7 +8883,7 @@ export const albums = [
       },
       {
         "image": "arc-013636",
-        "thumb": "thumb-013636",
+        "thumb": "arc-013636",
         "archiveId": "ARC-013636",
         "alt": "Pintar y construir en común · fotografía 32",
         "sourceName": "MVC-539F.jpg",
@@ -8909,7 +8891,7 @@ export const albums = [
       },
       {
         "image": "arc-013637",
-        "thumb": "thumb-013637",
+        "thumb": "arc-013637",
         "archiveId": "ARC-013637",
         "alt": "Pintar y construir en común · fotografía 33",
         "sourceName": "MVC-542F.jpg",
@@ -8917,14 +8899,14 @@ export const albums = [
       },
       {
         "image": "arc-013656",
-        "thumb": "thumb-013656",
+        "thumb": "arc-013656",
         "archiveId": "ARC-013656",
         "alt": "Pintar y construir en común · fotografía 34",
         "sourceName": "Untitled-39A.jpg",
         "contentKey": "6d470789745994c34c7b3cb8203fd75814d372ab98ef89785e8c9ed366016e42"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "infantil-suspensiones",
@@ -8942,7 +8924,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-014461",
-        "thumb": "thumb-014461",
+        "thumb": "arc-014461",
         "archiveId": "ARC-014461",
         "alt": "Formas que cuelgan · fotografía 1",
         "sourceName": "UNTITL36.JPG",
@@ -8950,7 +8932,7 @@ export const albums = [
       },
       {
         "image": "arc-014462",
-        "thumb": "thumb-014462",
+        "thumb": "arc-014462",
         "archiveId": "ARC-014462",
         "alt": "Formas que cuelgan · fotografía 2",
         "sourceName": "UNTITL37.JPG",
@@ -8958,7 +8940,7 @@ export const albums = [
       },
       {
         "image": "arc-014463",
-        "thumb": "thumb-014463",
+        "thumb": "arc-014463",
         "archiveId": "ARC-014463",
         "alt": "Formas que cuelgan · fotografía 3",
         "sourceName": "UNTITL38.JPG",
@@ -8966,7 +8948,7 @@ export const albums = [
       },
       {
         "image": "arc-014464",
-        "thumb": "thumb-014464",
+        "thumb": "arc-014464",
         "archiveId": "ARC-014464",
         "alt": "Formas que cuelgan · fotografía 4",
         "sourceName": "UNTITL39.JPG",
@@ -8974,7 +8956,7 @@ export const albums = [
       },
       {
         "image": "arc-014470",
-        "thumb": "thumb-014470",
+        "thumb": "arc-014470",
         "archiveId": "ARC-014470",
         "alt": "Formas que cuelgan · fotografía 5",
         "sourceName": "UNTITLE7.JPG",
@@ -8982,7 +8964,7 @@ export const albums = [
       },
       {
         "image": "arc-013551",
-        "thumb": "thumb-013551",
+        "thumb": "arc-013551",
         "archiveId": "ARC-013551",
         "alt": "Formas que cuelgan · fotografía 6",
         "sourceName": "F1000006.JPG",
@@ -8990,7 +8972,7 @@ export const albums = [
       },
       {
         "image": "arc-013554",
-        "thumb": "thumb-013554",
+        "thumb": "arc-013554",
         "archiveId": "ARC-013554",
         "alt": "Formas que cuelgan · fotografía 7",
         "sourceName": "F1000008.JPG",
@@ -8998,14 +8980,14 @@ export const albums = [
       },
       {
         "image": "arc-013561",
-        "thumb": "thumb-013561",
+        "thumb": "arc-013561",
         "archiveId": "ARC-013561",
         "alt": "Formas que cuelgan · fotografía 8",
         "sourceName": "F1000013.JPG",
         "contentKey": "91cbb68de8e023212b5b448b3892390d8b3c76af8771a9319c267f35741ac9f2"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "taller-aula",
@@ -9023,7 +9005,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-000043",
-        "thumb": "thumb-000043",
+        "thumb": "arc-000043",
         "archiveId": "ARC-000043",
         "alt": "El taller en el aula · fotografía 1",
         "sourceName": "P5050008.jpg",
@@ -9031,7 +9013,7 @@ export const albums = [
       },
       {
         "image": "arc-000044",
-        "thumb": "thumb-000044",
+        "thumb": "arc-000044",
         "archiveId": "ARC-000044",
         "alt": "El taller en el aula · fotografía 2",
         "sourceName": "P5050018.JPG",
@@ -9039,14 +9021,14 @@ export const albums = [
       },
       {
         "image": "arc-000045",
-        "thumb": "thumb-000045",
+        "thumb": "arc-000045",
         "archiveId": "ARC-000045",
         "alt": "El taller en el aula · fotografía 3",
         "sourceName": "P5050042.JPG",
         "contentKey": "f2e204e35f9a8679935a3d30687f7164112d2cefeab3365f9afd8f32817ac938"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "source": "Fondo ALUMNOS. Centro, fechas y participantes pendientes de identificación individual."
   },
   {
@@ -9065,7 +9047,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-005501",
-        "thumb": "thumb-005501",
+        "thumb": "arc-005501",
         "archiveId": "ARC-005501",
         "alt": "De las manos a la exposición · fotografía 1",
         "sourceName": "buñol 2005 012.jpg",
@@ -9073,7 +9055,7 @@ export const albums = [
       },
       {
         "image": "arc-005506",
-        "thumb": "thumb-005506",
+        "thumb": "arc-005506",
         "archiveId": "ARC-005506",
         "alt": "De las manos a la exposición · fotografía 2",
         "sourceName": "buñol 2005 017.jpg",
@@ -9081,7 +9063,7 @@ export const albums = [
       },
       {
         "image": "arc-005513",
-        "thumb": "thumb-005513",
+        "thumb": "arc-005513",
         "archiveId": "ARC-005513",
         "alt": "De las manos a la exposición · fotografía 3",
         "sourceName": "buñol 2005 024.jpg",
@@ -9089,7 +9071,7 @@ export const albums = [
       },
       {
         "image": "arc-005517",
-        "thumb": "thumb-005517",
+        "thumb": "arc-005517",
         "archiveId": "ARC-005517",
         "alt": "De las manos a la exposición · fotografía 4",
         "sourceName": "buñol 2005 028.jpg",
@@ -9097,7 +9079,7 @@ export const albums = [
       },
       {
         "image": "arc-005519",
-        "thumb": "thumb-005519",
+        "thumb": "arc-005519",
         "archiveId": "ARC-005519",
         "alt": "De las manos a la exposición · fotografía 5",
         "sourceName": "buñol 2005 030.jpg",
@@ -9105,7 +9087,7 @@ export const albums = [
       },
       {
         "image": "arc-005527",
-        "thumb": "thumb-005527",
+        "thumb": "arc-005527",
         "archiveId": "ARC-005527",
         "alt": "De las manos a la exposición · fotografía 6",
         "sourceName": "buñol 2005 038.jpg",
@@ -9113,7 +9095,7 @@ export const albums = [
       },
       {
         "image": "arc-005530",
-        "thumb": "thumb-005530",
+        "thumb": "arc-005530",
         "archiveId": "ARC-005530",
         "alt": "De las manos a la exposición · fotografía 7",
         "sourceName": "buñol 2005 041.jpg",
@@ -9121,7 +9103,7 @@ export const albums = [
       },
       {
         "image": "arc-005535",
-        "thumb": "thumb-005535",
+        "thumb": "arc-005535",
         "archiveId": "ARC-005535",
         "alt": "De las manos a la exposición · fotografía 8",
         "sourceName": "buñol 2005 046.jpg",
@@ -9129,7 +9111,7 @@ export const albums = [
       },
       {
         "image": "arc-005536",
-        "thumb": "thumb-005536",
+        "thumb": "arc-005536",
         "archiveId": "ARC-005536",
         "alt": "De las manos a la exposición · fotografía 9",
         "sourceName": "buñol 2005 047.jpg",
@@ -9137,7 +9119,7 @@ export const albums = [
       },
       {
         "image": "arc-005539",
-        "thumb": "thumb-005539",
+        "thumb": "arc-005539",
         "archiveId": "ARC-005539",
         "alt": "De las manos a la exposición · fotografía 10",
         "sourceName": "buñol 2005 050.jpg",
@@ -9145,7 +9127,7 @@ export const albums = [
       },
       {
         "image": "arc-005540",
-        "thumb": "thumb-005540",
+        "thumb": "arc-005540",
         "archiveId": "ARC-005540",
         "alt": "De las manos a la exposición · fotografía 11",
         "sourceName": "buñol 2005 051.jpg",
@@ -9153,7 +9135,7 @@ export const albums = [
       },
       {
         "image": "arc-005541",
-        "thumb": "thumb-005541",
+        "thumb": "arc-005541",
         "archiveId": "ARC-005541",
         "alt": "De las manos a la exposición · fotografía 12",
         "sourceName": "buñol 2005 052.jpg",
@@ -9161,7 +9143,7 @@ export const albums = [
       },
       {
         "image": "arc-005542",
-        "thumb": "thumb-005542",
+        "thumb": "arc-005542",
         "archiveId": "ARC-005542",
         "alt": "De las manos a la exposición · fotografía 13",
         "sourceName": "buñol 2005 053.jpg",
@@ -9169,14 +9151,14 @@ export const albums = [
       },
       {
         "image": "arc-005545",
-        "thumb": "thumb-005545",
+        "thumb": "arc-005545",
         "archiveId": "ARC-005545",
         "alt": "De las manos a la exposición · fotografía 14",
         "sourceName": "buñol 2005 056.jpg",
         "contentKey": "ARC-005545"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "place": "Colegio Cervantes · Buñol",
     "date": "2005 · según carpeta del archivo",
     "source": "Carpeta Buñol 2005 y dossier «Taller Colegio Cervantes» (ARC-004750)."
@@ -9197,7 +9179,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-005911",
-        "thumb": "thumb-005911",
+        "thumb": "arc-005911",
         "archiveId": "ARC-005911",
         "alt": "Aprender a enseñar con las manos · fotografía 1",
         "sourceName": "P1010007.JPG",
@@ -9205,14 +9187,14 @@ export const albums = [
       },
       {
         "image": "arc-005914",
-        "thumb": "thumb-005914",
+        "thumb": "arc-005914",
         "archiveId": "ARC-005914",
         "alt": "Aprender a enseñar con las manos · fotografía 2",
         "sourceName": "P1010010.JPG",
         "contentKey": "9e12c6bdd1dc7b591362433c62cab7621fa0eb8d190374328bbfc2800d79b42e"
       }
     ],
-    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIC SEGARRA I GARIBO.",
     "place": "CEFIRE · Gandia",
     "source": "Identificación por carpeta CEFIRE GANDIA; fecha por documentar."
   },
@@ -9232,7 +9214,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-005683",
-        "thumb": "thumb-005683",
+        "thumb": "arc-005683",
         "archiveId": "ARC-005683",
         "alt": "Laboratorio de materiales · fotografía 1",
         "sourceName": "P1010001.JPG",
@@ -9240,7 +9222,7 @@ export const albums = [
       },
       {
         "image": "arc-005707",
-        "thumb": "thumb-005707",
+        "thumb": "arc-005707",
         "archiveId": "ARC-005707",
         "alt": "Laboratorio de materiales · fotografía 2",
         "sourceName": "P1010027.JPG",
@@ -9248,7 +9230,7 @@ export const albums = [
       },
       {
         "image": "arc-005719",
-        "thumb": "thumb-005719",
+        "thumb": "arc-005719",
         "archiveId": "ARC-005719",
         "alt": "Laboratorio de materiales · fotografía 3",
         "sourceName": "P1010039.JPG",
@@ -9256,7 +9238,7 @@ export const albums = [
       },
       {
         "image": "arc-005721",
-        "thumb": "thumb-005721",
+        "thumb": "arc-005721",
         "archiveId": "ARC-005721",
         "alt": "Laboratorio de materiales · fotografía 4",
         "sourceName": "P1010041.JPG",
@@ -9264,7 +9246,7 @@ export const albums = [
       },
       {
         "image": "arc-005731",
-        "thumb": "thumb-005731",
+        "thumb": "arc-005731",
         "archiveId": "ARC-005731",
         "alt": "Laboratorio de materiales · fotografía 5",
         "sourceName": "P1010051.JPG",
@@ -9272,7 +9254,7 @@ export const albums = [
       },
       {
         "image": "arc-005735",
-        "thumb": "thumb-005735",
+        "thumb": "arc-005735",
         "archiveId": "ARC-005735",
         "alt": "Laboratorio de materiales · fotografía 6",
         "sourceName": "P1010055.JPG",
@@ -9280,7 +9262,7 @@ export const albums = [
       },
       {
         "image": "arc-005778",
-        "thumb": "thumb-005778",
+        "thumb": "arc-005778",
         "archiveId": "ARC-005778",
         "alt": "Laboratorio de materiales · fotografía 7",
         "sourceName": "P1010098.JPG",
@@ -9288,7 +9270,7 @@ export const albums = [
       },
       {
         "image": "arc-005780",
-        "thumb": "thumb-005780",
+        "thumb": "arc-005780",
         "archiveId": "ARC-005780",
         "alt": "Laboratorio de materiales · fotografía 8",
         "sourceName": "P1010100.JPG",
@@ -9296,7 +9278,7 @@ export const albums = [
       },
       {
         "image": "arc-005799",
-        "thumb": "thumb-005799",
+        "thumb": "arc-005799",
         "archiveId": "ARC-005799",
         "alt": "Laboratorio de materiales · fotografía 9",
         "sourceName": "P1010015.JPG",
@@ -9304,7 +9286,7 @@ export const albums = [
       },
       {
         "image": "arc-005820",
-        "thumb": "thumb-005820",
+        "thumb": "arc-005820",
         "archiveId": "ARC-005820",
         "alt": "Laboratorio de materiales · fotografía 10",
         "sourceName": "P1010036.JPG",
@@ -9312,7 +9294,7 @@ export const albums = [
       },
       {
         "image": "arc-005822",
-        "thumb": "thumb-005822",
+        "thumb": "arc-005822",
         "archiveId": "ARC-005822",
         "alt": "Laboratorio de materiales · fotografía 11",
         "sourceName": "P1010038.JPG",
@@ -9320,7 +9302,7 @@ export const albums = [
       },
       {
         "image": "arc-005830",
-        "thumb": "thumb-005830",
+        "thumb": "arc-005830",
         "archiveId": "ARC-005830",
         "alt": "Laboratorio de materiales · fotografía 12",
         "sourceName": "P1010003.JPG",
@@ -9328,7 +9310,7 @@ export const albums = [
       },
       {
         "image": "arc-005832",
-        "thumb": "thumb-005832",
+        "thumb": "arc-005832",
         "archiveId": "ARC-005832",
         "alt": "Laboratorio de materiales · fotografía 13",
         "sourceName": "P1010005.JPG",
@@ -9336,7 +9318,7 @@ export const albums = [
       },
       {
         "image": "arc-005843",
-        "thumb": "thumb-005843",
+        "thumb": "arc-005843",
         "archiveId": "ARC-005843",
         "alt": "Laboratorio de materiales · fotografía 14",
         "sourceName": "P1010016.JPG",
@@ -9344,7 +9326,7 @@ export const albums = [
       },
       {
         "image": "arc-005847",
-        "thumb": "thumb-005847",
+        "thumb": "arc-005847",
         "archiveId": "ARC-005847",
         "alt": "Laboratorio de materiales · fotografía 15",
         "sourceName": "P1010020.JPG",
@@ -9352,7 +9334,7 @@ export const albums = [
       },
       {
         "image": "arc-005861",
-        "thumb": "thumb-005861",
+        "thumb": "arc-005861",
         "archiveId": "ARC-005861",
         "alt": "Laboratorio de materiales · fotografía 16",
         "sourceName": "P1010034.JPG",
@@ -9360,7 +9342,7 @@ export const albums = [
       },
       {
         "image": "arc-005863",
-        "thumb": "thumb-005863",
+        "thumb": "arc-005863",
         "archiveId": "ARC-005863",
         "alt": "Laboratorio de materiales · fotografía 17",
         "sourceName": "P1010036.JPG",
@@ -9368,14 +9350,14 @@ export const albums = [
       },
       {
         "image": "arc-005865",
-        "thumb": "thumb-005865",
+        "thumb": "arc-005865",
         "archiveId": "ARC-005865",
         "alt": "Laboratorio de materiales · fotografía 18",
         "sourceName": "P1010038.JPG",
         "contentKey": "8f8ce5ac026f723b8644b549cb7c8bfb46746df634a862f1e1e9f41bcfdc5b38"
       }
     ],
-    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIC SEGARRA I GARIBO.",
     "source": "Fondo CEFIRE FOTOS."
   },
   {
@@ -9394,7 +9376,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-005944",
-        "thumb": "thumb-005944",
+        "thumb": "arc-005944",
         "archiveId": "ARC-005944",
         "alt": "Construir el espacio · fotografía 1",
         "sourceName": "3.jpg",
@@ -9402,7 +9384,7 @@ export const albums = [
       },
       {
         "image": "arc-005945",
-        "thumb": "thumb-005945",
+        "thumb": "arc-005945",
         "archiveId": "ARC-005945",
         "alt": "Construir el espacio · fotografía 2",
         "sourceName": "4.jpg",
@@ -9410,7 +9392,7 @@ export const albums = [
       },
       {
         "image": "arc-005947",
-        "thumb": "thumb-005947",
+        "thumb": "arc-005947",
         "archiveId": "ARC-005947",
         "alt": "Construir el espacio · fotografía 3",
         "sourceName": "6.jpg",
@@ -9418,7 +9400,7 @@ export const albums = [
       },
       {
         "image": "arc-005957",
-        "thumb": "thumb-005957",
+        "thumb": "arc-005957",
         "archiveId": "ARC-005957",
         "alt": "Construir el espacio · fotografía 4",
         "sourceName": "A7.jpg",
@@ -9426,7 +9408,7 @@ export const albums = [
       },
       {
         "image": "arc-005963",
-        "thumb": "thumb-005963",
+        "thumb": "arc-005963",
         "archiveId": "ARC-005963",
         "alt": "Construir el espacio · fotografía 5",
         "sourceName": "B6.jpg",
@@ -9434,7 +9416,7 @@ export const albums = [
       },
       {
         "image": "arc-005969",
-        "thumb": "thumb-005969",
+        "thumb": "arc-005969",
         "archiveId": "ARC-005969",
         "alt": "Construir el espacio · fotografía 6",
         "sourceName": "C6.jpg",
@@ -9442,7 +9424,7 @@ export const albums = [
       },
       {
         "image": "arc-005989",
-        "thumb": "thumb-005989",
+        "thumb": "arc-005989",
         "archiveId": "ARC-005989",
         "alt": "Construir el espacio · fotografía 7",
         "sourceName": "23.jpg",
@@ -9450,7 +9432,7 @@ export const albums = [
       },
       {
         "image": "arc-005991",
-        "thumb": "thumb-005991",
+        "thumb": "arc-005991",
         "archiveId": "ARC-005991",
         "alt": "Construir el espacio · fotografía 8",
         "sourceName": "25.jpg",
@@ -9458,7 +9440,7 @@ export const albums = [
       },
       {
         "image": "arc-005997",
-        "thumb": "thumb-005997",
+        "thumb": "arc-005997",
         "archiveId": "ARC-005997",
         "alt": "Construir el espacio · fotografía 9",
         "sourceName": "29A.jpg",
@@ -9466,7 +9448,7 @@ export const albums = [
       },
       {
         "image": "arc-006001",
-        "thumb": "thumb-006001",
+        "thumb": "arc-006001",
         "archiveId": "ARC-006001",
         "alt": "Construir el espacio · fotografía 10",
         "sourceName": "31.jpg",
@@ -9474,7 +9456,7 @@ export const albums = [
       },
       {
         "image": "arc-006003",
-        "thumb": "thumb-006003",
+        "thumb": "arc-006003",
         "archiveId": "ARC-006003",
         "alt": "Construir el espacio · fotografía 11",
         "sourceName": "33.jpg",
@@ -9482,7 +9464,7 @@ export const albums = [
       },
       {
         "image": "arc-006021",
-        "thumb": "thumb-006021",
+        "thumb": "arc-006021",
         "archiveId": "ARC-006021",
         "alt": "Construir el espacio · fotografía 12",
         "sourceName": "47.jpg",
@@ -9490,7 +9472,7 @@ export const albums = [
       },
       {
         "image": "arc-006033",
-        "thumb": "thumb-006033",
+        "thumb": "arc-006033",
         "archiveId": "ARC-006033",
         "alt": "Construir el espacio · fotografía 13",
         "sourceName": "54A.jpg",
@@ -9498,7 +9480,7 @@ export const albums = [
       },
       {
         "image": "arc-006037",
-        "thumb": "thumb-006037",
+        "thumb": "arc-006037",
         "archiveId": "ARC-006037",
         "alt": "Construir el espacio · fotografía 14",
         "sourceName": "58.jpg",
@@ -9506,7 +9488,7 @@ export const albums = [
       },
       {
         "image": "arc-006052",
-        "thumb": "thumb-006052",
+        "thumb": "arc-006052",
         "archiveId": "ARC-006052",
         "alt": "Construir el espacio · fotografía 15",
         "sourceName": "10.jpg",
@@ -9514,7 +9496,7 @@ export const albums = [
       },
       {
         "image": "arc-006064",
-        "thumb": "thumb-006064",
+        "thumb": "arc-006064",
         "archiveId": "ARC-006064",
         "alt": "Construir el espacio · fotografía 16",
         "sourceName": "16.jpg",
@@ -9522,7 +9504,7 @@ export const albums = [
       },
       {
         "image": "arc-006090",
-        "thumb": "thumb-006090",
+        "thumb": "arc-006090",
         "archiveId": "ARC-006090",
         "alt": "Construir el espacio · fotografía 17",
         "sourceName": "37B.jpg",
@@ -9530,7 +9512,7 @@ export const albums = [
       },
       {
         "image": "arc-006096",
-        "thumb": "thumb-006096",
+        "thumb": "arc-006096",
         "archiveId": "ARC-006096",
         "alt": "Construir el espacio · fotografía 18",
         "sourceName": "42.jpg",
@@ -9538,7 +9520,7 @@ export const albums = [
       },
       {
         "image": "arc-006116",
-        "thumb": "thumb-006116",
+        "thumb": "arc-006116",
         "archiveId": "ARC-006116",
         "alt": "Construir el espacio · fotografía 19",
         "sourceName": "57.jpg",
@@ -9546,7 +9528,7 @@ export const albums = [
       },
       {
         "image": "arc-006121",
-        "thumb": "thumb-006121",
+        "thumb": "arc-006121",
         "archiveId": "ARC-006121",
         "alt": "Construir el espacio · fotografía 20",
         "sourceName": "61.jpg",
@@ -9554,7 +9536,7 @@ export const albums = [
       },
       {
         "image": "arc-006125",
-        "thumb": "thumb-006125",
+        "thumb": "arc-006125",
         "archiveId": "ARC-006125",
         "alt": "Construir el espacio · fotografía 21",
         "sourceName": "63.jpg",
@@ -9562,7 +9544,7 @@ export const albums = [
       },
       {
         "image": "arc-006146",
-        "thumb": "thumb-006146",
+        "thumb": "arc-006146",
         "archiveId": "ARC-006146",
         "alt": "Construir el espacio · fotografía 22",
         "sourceName": "76.jpg",
@@ -9570,7 +9552,7 @@ export const albums = [
       },
       {
         "image": "arc-006152",
-        "thumb": "thumb-006152",
+        "thumb": "arc-006152",
         "archiveId": "ARC-006152",
         "alt": "Construir el espacio · fotografía 23",
         "sourceName": "80.jpg",
@@ -9578,7 +9560,7 @@ export const albums = [
       },
       {
         "image": "arc-006156",
-        "thumb": "thumb-006156",
+        "thumb": "arc-006156",
         "archiveId": "ARC-006156",
         "alt": "Construir el espacio · fotografía 24",
         "sourceName": "83A.jpg",
@@ -9586,7 +9568,7 @@ export const albums = [
       },
       {
         "image": "arc-006157",
-        "thumb": "thumb-006157",
+        "thumb": "arc-006157",
         "archiveId": "ARC-006157",
         "alt": "Construir el espacio · fotografía 25",
         "sourceName": "84.jpg",
@@ -9594,7 +9576,7 @@ export const albums = [
       },
       {
         "image": "arc-006190",
-        "thumb": "thumb-006190",
+        "thumb": "arc-006190",
         "archiveId": "ARC-006190",
         "alt": "Construir el espacio · fotografía 26",
         "sourceName": "31.jpg",
@@ -9602,7 +9584,7 @@ export const albums = [
       },
       {
         "image": "arc-006192",
-        "thumb": "thumb-006192",
+        "thumb": "arc-006192",
         "archiveId": "ARC-006192",
         "alt": "Construir el espacio · fotografía 27",
         "sourceName": "33.jpg",
@@ -9610,7 +9592,7 @@ export const albums = [
       },
       {
         "image": "arc-006199",
-        "thumb": "thumb-006199",
+        "thumb": "arc-006199",
         "archiveId": "ARC-006199",
         "alt": "Construir el espacio · fotografía 28",
         "sourceName": "38c.jpg",
@@ -9618,7 +9600,7 @@ export const albums = [
       },
       {
         "image": "arc-006202",
-        "thumb": "thumb-006202",
+        "thumb": "arc-006202",
         "archiveId": "ARC-006202",
         "alt": "Construir el espacio · fotografía 29",
         "sourceName": "4.jpg",
@@ -9626,7 +9608,7 @@ export const albums = [
       },
       {
         "image": "arc-006206",
-        "thumb": "thumb-006206",
+        "thumb": "arc-006206",
         "archiveId": "ARC-006206",
         "alt": "Construir el espacio · fotografía 30",
         "sourceName": "6.jpg",
@@ -9634,7 +9616,7 @@ export const albums = [
       },
       {
         "image": "arc-006212",
-        "thumb": "thumb-006212",
+        "thumb": "arc-006212",
         "archiveId": "ARC-006212",
         "alt": "Construir el espacio · fotografía 31",
         "sourceName": "10.jpg",
@@ -9642,7 +9624,7 @@ export const albums = [
       },
       {
         "image": "arc-006269",
-        "thumb": "thumb-006269",
+        "thumb": "arc-006269",
         "archiveId": "ARC-006269",
         "alt": "Construir el espacio · fotografía 32",
         "sourceName": "7a.jpg",
@@ -9650,7 +9632,7 @@ export const albums = [
       },
       {
         "image": "arc-006271",
-        "thumb": "thumb-006271",
+        "thumb": "arc-006271",
         "archiveId": "ARC-006271",
         "alt": "Construir el espacio · fotografía 33",
         "sourceName": "7d.jpg",
@@ -9658,7 +9640,7 @@ export const albums = [
       },
       {
         "image": "arc-006273",
-        "thumb": "thumb-006273",
+        "thumb": "arc-006273",
         "archiveId": "ARC-006273",
         "alt": "Construir el espacio · fotografía 34",
         "sourceName": "7f.jpg",
@@ -9666,14 +9648,14 @@ export const albums = [
       },
       {
         "image": "arc-006289",
-        "thumb": "thumb-006289",
+        "thumb": "arc-006289",
         "archiveId": "ARC-006289",
         "alt": "Construir el espacio · fotografía 35",
         "sourceName": "4.jpg",
         "contentKey": "ARC-006289"
       }
     ],
-    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Producciones y ejercicios de participantes adultos en formación docente. Coordinación artística vinculada a ENRIC SEGARRA I GARIBO.",
     "place": "CEFIRE · La Pobla Llarga",
     "source": "Fondo CEFIRE-LA POBLA. La fecha del dossier expositivo no se extiende automáticamente a todas las sesiones."
   },
@@ -9687,13 +9669,13 @@ export const albums = [
     "text": "La colección de arte infantil ocupa la sala: dibujos, relieves, construcciones y figuras verticales.",
     "paragraphs": [
       "Las vistas de conjunto permiten leer las relaciones entre las piezas y su disposición en el espacio. Las imágenes próximas conservan la diversidad de formas, tamaños y materiales de las obras.",
-      "La señalización fotografiada identifica la muestra como «Arte infantil. Colección ENRIQUE SEGARRA I GARIBO», en la sala de exposiciones Casa Abadía. La denominación de la colección no convierte a Enric en autor de las obras de los participantes."
+      "La señalización fotografiada identifica la muestra como «Arte infantil. Colección ENRIC SEGARRA I GARIBO», en la sala de exposiciones Casa Abadía. La denominación de la colección no convierte a Enric en autor de las obras de los participantes."
     ],
     "image": "arc-002472",
     "gallery": [
       {
         "image": "arc-002472",
-        "thumb": "thumb-002472",
+        "thumb": "arc-002472",
         "archiveId": "ARC-002472",
         "alt": "Arte infantil · Casa Abadía · fotografía 1",
         "sourceName": "PC170003.JPG",
@@ -9701,7 +9683,7 @@ export const albums = [
       },
       {
         "image": "arc-002476",
-        "thumb": "thumb-002476",
+        "thumb": "arc-002476",
         "archiveId": "ARC-002476",
         "alt": "Arte infantil · Casa Abadía · fotografía 2",
         "sourceName": "PC170008.JPG",
@@ -9709,7 +9691,7 @@ export const albums = [
       },
       {
         "image": "arc-002479",
-        "thumb": "thumb-002479",
+        "thumb": "arc-002479",
         "archiveId": "ARC-002479",
         "alt": "Arte infantil · Casa Abadía · fotografía 3",
         "sourceName": "PC170011.JPG",
@@ -9717,7 +9699,7 @@ export const albums = [
       },
       {
         "image": "arc-002488",
-        "thumb": "thumb-002488",
+        "thumb": "arc-002488",
         "archiveId": "ARC-002488",
         "alt": "Arte infantil · Casa Abadía · fotografía 4",
         "sourceName": "PC170020.JPG",
@@ -9725,7 +9707,7 @@ export const albums = [
       },
       {
         "image": "arc-002492",
-        "thumb": "thumb-002492",
+        "thumb": "arc-002492",
         "archiveId": "ARC-002492",
         "alt": "Arte infantil · Casa Abadía · fotografía 5",
         "sourceName": "PC170024.JPG",
@@ -9733,7 +9715,7 @@ export const albums = [
       },
       {
         "image": "arc-002494",
-        "thumb": "thumb-002494",
+        "thumb": "arc-002494",
         "archiveId": "ARC-002494",
         "alt": "Arte infantil · Casa Abadía · fotografía 6",
         "sourceName": "PC170026.JPG",
@@ -9741,7 +9723,7 @@ export const albums = [
       },
       {
         "image": "arc-002495",
-        "thumb": "thumb-002495",
+        "thumb": "arc-002495",
         "archiveId": "ARC-002495",
         "alt": "Arte infantil · Casa Abadía · fotografía 7",
         "sourceName": "PC170027.JPG",
@@ -9749,7 +9731,7 @@ export const albums = [
       },
       {
         "image": "arc-002504",
-        "thumb": "thumb-002504",
+        "thumb": "arc-002504",
         "archiveId": "ARC-002504",
         "alt": "Arte infantil · Casa Abadía · fotografía 8",
         "sourceName": "PC170036.JPG",
@@ -9757,7 +9739,7 @@ export const albums = [
       },
       {
         "image": "arc-002506",
-        "thumb": "thumb-002506",
+        "thumb": "arc-002506",
         "archiveId": "ARC-002506",
         "alt": "Arte infantil · Casa Abadía · fotografía 9",
         "sourceName": "PC170043.JPG",
@@ -9765,7 +9747,7 @@ export const albums = [
       },
       {
         "image": "arc-002516",
-        "thumb": "thumb-002516",
+        "thumb": "arc-002516",
         "archiveId": "ARC-002516",
         "alt": "Arte infantil · Casa Abadía · fotografía 10",
         "sourceName": "PC170005.JPG",
@@ -9773,7 +9755,7 @@ export const albums = [
       },
       {
         "image": "arc-002518",
-        "thumb": "thumb-002518",
+        "thumb": "arc-002518",
         "archiveId": "ARC-002518",
         "alt": "Arte infantil · Casa Abadía · fotografía 11",
         "sourceName": "PC170007.JPG",
@@ -9781,7 +9763,7 @@ export const albums = [
       },
       {
         "image": "arc-002519",
-        "thumb": "thumb-002519",
+        "thumb": "arc-002519",
         "archiveId": "ARC-002519",
         "alt": "Arte infantil · Casa Abadía · fotografía 12",
         "sourceName": "PC170008.JPG",
@@ -9789,7 +9771,7 @@ export const albums = [
       },
       {
         "image": "arc-002521",
-        "thumb": "thumb-002521",
+        "thumb": "arc-002521",
         "archiveId": "ARC-002521",
         "alt": "Arte infantil · Casa Abadía · fotografía 13",
         "sourceName": "PC170010.JPG",
@@ -9797,7 +9779,7 @@ export const albums = [
       },
       {
         "image": "arc-002522",
-        "thumb": "thumb-002522",
+        "thumb": "arc-002522",
         "archiveId": "ARC-002522",
         "alt": "Arte infantil · Casa Abadía · fotografía 14",
         "sourceName": "PC170011.JPG",
@@ -9805,7 +9787,7 @@ export const albums = [
       },
       {
         "image": "arc-002523",
-        "thumb": "thumb-002523",
+        "thumb": "arc-002523",
         "archiveId": "ARC-002523",
         "alt": "Arte infantil · Casa Abadía · fotografía 15",
         "sourceName": "PC170012.JPG",
@@ -9813,7 +9795,7 @@ export const albums = [
       },
       {
         "image": "arc-002531",
-        "thumb": "thumb-002531",
+        "thumb": "arc-002531",
         "archiveId": "ARC-002531",
         "alt": "Arte infantil · Casa Abadía · fotografía 16",
         "sourceName": "PC170020.JPG",
@@ -9821,7 +9803,7 @@ export const albums = [
       },
       {
         "image": "arc-002532",
-        "thumb": "thumb-002532",
+        "thumb": "arc-002532",
         "archiveId": "ARC-002532",
         "alt": "Arte infantil · Casa Abadía · fotografía 17",
         "sourceName": "PC170021.JPG",
@@ -9829,7 +9811,7 @@ export const albums = [
       },
       {
         "image": "arc-002535",
-        "thumb": "thumb-002535",
+        "thumb": "arc-002535",
         "archiveId": "ARC-002535",
         "alt": "Arte infantil · Casa Abadía · fotografía 18",
         "sourceName": "PC170024.JPG",
@@ -9837,7 +9819,7 @@ export const albums = [
       },
       {
         "image": "arc-002537",
-        "thumb": "thumb-002537",
+        "thumb": "arc-002537",
         "archiveId": "ARC-002537",
         "alt": "Arte infantil · Casa Abadía · fotografía 19",
         "sourceName": "PC170026.JPG",
@@ -9845,7 +9827,7 @@ export const albums = [
       },
       {
         "image": "arc-002539",
-        "thumb": "thumb-002539",
+        "thumb": "arc-002539",
         "archiveId": "ARC-002539",
         "alt": "Arte infantil · Casa Abadía · fotografía 20",
         "sourceName": "PC170028.JPG",
@@ -9853,7 +9835,7 @@ export const albums = [
       },
       {
         "image": "arc-002540",
-        "thumb": "thumb-002540",
+        "thumb": "arc-002540",
         "archiveId": "ARC-002540",
         "alt": "Arte infantil · Casa Abadía · fotografía 21",
         "sourceName": "PC170029.JPG",
@@ -9861,7 +9843,7 @@ export const albums = [
       },
       {
         "image": "arc-002543",
-        "thumb": "thumb-002543",
+        "thumb": "arc-002543",
         "archiveId": "ARC-002543",
         "alt": "Arte infantil · Casa Abadía · fotografía 22",
         "sourceName": "PC170032.JPG",
@@ -9869,7 +9851,7 @@ export const albums = [
       },
       {
         "image": "arc-002544",
-        "thumb": "thumb-002544",
+        "thumb": "arc-002544",
         "archiveId": "ARC-002544",
         "alt": "Arte infantil · Casa Abadía · fotografía 23",
         "sourceName": "PC170033.JPG",
@@ -9877,7 +9859,7 @@ export const albums = [
       },
       {
         "image": "arc-002545",
-        "thumb": "thumb-002545",
+        "thumb": "arc-002545",
         "archiveId": "ARC-002545",
         "alt": "Arte infantil · Casa Abadía · fotografía 24",
         "sourceName": "PC170034.JPG",
@@ -9885,7 +9867,7 @@ export const albums = [
       },
       {
         "image": "arc-002550",
-        "thumb": "thumb-002550",
+        "thumb": "arc-002550",
         "archiveId": "ARC-002550",
         "alt": "Arte infantil · Casa Abadía · fotografía 25",
         "sourceName": "PC170039.JPG",
@@ -9893,7 +9875,7 @@ export const albums = [
       },
       {
         "image": "arc-002551",
-        "thumb": "thumb-002551",
+        "thumb": "arc-002551",
         "archiveId": "ARC-002551",
         "alt": "Arte infantil · Casa Abadía · fotografía 26",
         "sourceName": "PC170040.JPG",
@@ -9901,7 +9883,7 @@ export const albums = [
       },
       {
         "image": "arc-002552",
-        "thumb": "thumb-002552",
+        "thumb": "arc-002552",
         "archiveId": "ARC-002552",
         "alt": "Arte infantil · Casa Abadía · fotografía 27",
         "sourceName": "PC170042.JPG",
@@ -9909,14 +9891,14 @@ export const albums = [
       },
       {
         "image": "arc-002557",
-        "thumb": "thumb-002557",
+        "thumb": "arc-002557",
         "archiveId": "ARC-002557",
         "alt": "Arte infantil · Casa Abadía · fotografía 28",
         "sourceName": "PC170047.JPG",
         "contentKey": "61c94d30a3416638a59edd9abaeef18ddeeda6f8a7947fe0976ae6cad4012906"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "place": "Casa Abadía · Fundació Caixa Castelló–Bancaixa",
     "source": "Cartel fotografiado (ARC-002545) y dossier de sala (ARC-000365). Fecha por documentar.",
     "exhibitionKind": "infantil"
@@ -9937,7 +9919,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-013522",
-        "thumb": "thumb-013522",
+        "thumb": "arc-013522",
         "archiveId": "ARC-013522",
         "alt": "Mostres d’art · El pelèc · fotografía 1",
         "sourceName": "Chopos  -10.jpg",
@@ -9945,7 +9927,7 @@ export const albums = [
       },
       {
         "image": "arc-013523",
-        "thumb": "thumb-013523",
+        "thumb": "arc-013523",
         "archiveId": "ARC-013523",
         "alt": "Mostres d’art · El pelèc · fotografía 2",
         "sourceName": "Chopos  -11.jpg",
@@ -9953,7 +9935,7 @@ export const albums = [
       },
       {
         "image": "arc-013525",
-        "thumb": "thumb-013525",
+        "thumb": "arc-013525",
         "archiveId": "ARC-013525",
         "alt": "Mostres d’art · El pelèc · fotografía 3",
         "sourceName": "Chopos  -12.jpg",
@@ -9961,7 +9943,7 @@ export const albums = [
       },
       {
         "image": "arc-013526",
-        "thumb": "thumb-013526",
+        "thumb": "arc-013526",
         "archiveId": "ARC-013526",
         "alt": "Mostres d’art · El pelèc · fotografía 4",
         "sourceName": "Chopos  -13.jpg",
@@ -9969,7 +9951,7 @@ export const albums = [
       },
       {
         "image": "arc-013527",
-        "thumb": "thumb-013527",
+        "thumb": "arc-013527",
         "archiveId": "ARC-013527",
         "alt": "Mostres d’art · El pelèc · fotografía 5",
         "sourceName": "Chopos  -14.jpg",
@@ -9977,7 +9959,7 @@ export const albums = [
       },
       {
         "image": "arc-013528",
-        "thumb": "thumb-013528",
+        "thumb": "arc-013528",
         "archiveId": "ARC-013528",
         "alt": "Mostres d’art · El pelèc · fotografía 6",
         "sourceName": "Chopos  -15.jpg",
@@ -9985,7 +9967,7 @@ export const albums = [
       },
       {
         "image": "arc-013530",
-        "thumb": "thumb-013530",
+        "thumb": "arc-013530",
         "archiveId": "ARC-013530",
         "alt": "Mostres d’art · El pelèc · fotografía 7",
         "sourceName": "Chopos  -19.jpg",
@@ -9993,7 +9975,7 @@ export const albums = [
       },
       {
         "image": "arc-013531",
-        "thumb": "thumb-013531",
+        "thumb": "arc-013531",
         "archiveId": "ARC-013531",
         "alt": "Mostres d’art · El pelèc · fotografía 8",
         "sourceName": "Chopos  -2.jpg",
@@ -10001,7 +9983,7 @@ export const albums = [
       },
       {
         "image": "arc-013532",
-        "thumb": "thumb-013532",
+        "thumb": "arc-013532",
         "archiveId": "ARC-013532",
         "alt": "Mostres d’art · El pelèc · fotografía 9",
         "sourceName": "Chopos  -20.jpg",
@@ -10009,7 +9991,7 @@ export const albums = [
       },
       {
         "image": "arc-013533",
-        "thumb": "thumb-013533",
+        "thumb": "arc-013533",
         "archiveId": "ARC-013533",
         "alt": "Mostres d’art · El pelèc · fotografía 10",
         "sourceName": "Chopos  -21.jpg",
@@ -10017,7 +9999,7 @@ export const albums = [
       },
       {
         "image": "arc-013534",
-        "thumb": "thumb-013534",
+        "thumb": "arc-013534",
         "archiveId": "ARC-013534",
         "alt": "Mostres d’art · El pelèc · fotografía 11",
         "sourceName": "Chopos  -22.jpg",
@@ -10025,7 +10007,7 @@ export const albums = [
       },
       {
         "image": "arc-013535",
-        "thumb": "thumb-013535",
+        "thumb": "arc-013535",
         "archiveId": "ARC-013535",
         "alt": "Mostres d’art · El pelèc · fotografía 12",
         "sourceName": "Chopos  -23.jpg",
@@ -10033,7 +10015,7 @@ export const albums = [
       },
       {
         "image": "arc-013536",
-        "thumb": "thumb-013536",
+        "thumb": "arc-013536",
         "archiveId": "ARC-013536",
         "alt": "Mostres d’art · El pelèc · fotografía 13",
         "sourceName": "Chopos  -24.jpg",
@@ -10041,7 +10023,7 @@ export const albums = [
       },
       {
         "image": "arc-013537",
-        "thumb": "thumb-013537",
+        "thumb": "arc-013537",
         "archiveId": "ARC-013537",
         "alt": "Mostres d’art · El pelèc · fotografía 14",
         "sourceName": "Chopos  -25.jpg",
@@ -10049,7 +10031,7 @@ export const albums = [
       },
       {
         "image": "arc-013538",
-        "thumb": "thumb-013538",
+        "thumb": "arc-013538",
         "archiveId": "ARC-013538",
         "alt": "Mostres d’art · El pelèc · fotografía 15",
         "sourceName": "Chopos  -3.jpg",
@@ -10057,7 +10039,7 @@ export const albums = [
       },
       {
         "image": "arc-013539",
-        "thumb": "thumb-013539",
+        "thumb": "arc-013539",
         "archiveId": "ARC-013539",
         "alt": "Mostres d’art · El pelèc · fotografía 16",
         "sourceName": "Chopos  -4.jpg",
@@ -10065,7 +10047,7 @@ export const albums = [
       },
       {
         "image": "arc-013540",
-        "thumb": "thumb-013540",
+        "thumb": "arc-013540",
         "archiveId": "ARC-013540",
         "alt": "Mostres d’art · El pelèc · fotografía 17",
         "sourceName": "Chopos  -5.jpg",
@@ -10073,7 +10055,7 @@ export const albums = [
       },
       {
         "image": "arc-013541",
-        "thumb": "thumb-013541",
+        "thumb": "arc-013541",
         "archiveId": "ARC-013541",
         "alt": "Mostres d’art · El pelèc · fotografía 18",
         "sourceName": "Chopos  -6.jpg",
@@ -10081,7 +10063,7 @@ export const albums = [
       },
       {
         "image": "arc-013543",
-        "thumb": "thumb-013543",
+        "thumb": "arc-013543",
         "archiveId": "ARC-013543",
         "alt": "Mostres d’art · El pelèc · fotografía 19",
         "sourceName": "Chopos  -7.jpg",
@@ -10089,7 +10071,7 @@ export const albums = [
       },
       {
         "image": "arc-013544",
-        "thumb": "thumb-013544",
+        "thumb": "arc-013544",
         "archiveId": "ARC-013544",
         "alt": "Mostres d’art · El pelèc · fotografía 20",
         "sourceName": "Chopos  -8.jpg",
@@ -10097,7 +10079,7 @@ export const albums = [
       },
       {
         "image": "arc-013546",
-        "thumb": "thumb-013546",
+        "thumb": "arc-013546",
         "archiveId": "ARC-013546",
         "alt": "Mostres d’art · El pelèc · fotografía 21",
         "sourceName": "F1000001.JPG",
@@ -10105,7 +10087,7 @@ export const albums = [
       },
       {
         "image": "arc-013547",
-        "thumb": "thumb-013547",
+        "thumb": "arc-013547",
         "archiveId": "ARC-013547",
         "alt": "Mostres d’art · El pelèc · fotografía 22",
         "sourceName": "F1000002.JPG",
@@ -10113,7 +10095,7 @@ export const albums = [
       },
       {
         "image": "arc-013548",
-        "thumb": "thumb-013548",
+        "thumb": "arc-013548",
         "archiveId": "ARC-013548",
         "alt": "Mostres d’art · El pelèc · fotografía 23",
         "sourceName": "F1000003.JPG",
@@ -10121,7 +10103,7 @@ export const albums = [
       },
       {
         "image": "arc-013549",
-        "thumb": "thumb-013549",
+        "thumb": "arc-013549",
         "archiveId": "ARC-013549",
         "alt": "Mostres d’art · El pelèc · fotografía 24",
         "sourceName": "F1000004.JPG",
@@ -10129,7 +10111,7 @@ export const albums = [
       },
       {
         "image": "arc-013550",
-        "thumb": "thumb-013550",
+        "thumb": "arc-013550",
         "archiveId": "ARC-013550",
         "alt": "Mostres d’art · El pelèc · fotografía 25",
         "sourceName": "F1000005.JPG",
@@ -10137,7 +10119,7 @@ export const albums = [
       },
       {
         "image": "arc-013552",
-        "thumb": "thumb-013552",
+        "thumb": "arc-013552",
         "archiveId": "ARC-013552",
         "alt": "Mostres d’art · El pelèc · fotografía 26",
         "sourceName": "F1000007.JPG",
@@ -10145,7 +10127,7 @@ export const albums = [
       },
       {
         "image": "arc-013555",
-        "thumb": "thumb-013555",
+        "thumb": "arc-013555",
         "archiveId": "ARC-013555",
         "alt": "Mostres d’art · El pelèc · fotografía 27",
         "sourceName": "F1000009.JPG",
@@ -10153,7 +10135,7 @@ export const albums = [
       },
       {
         "image": "arc-013556",
-        "thumb": "thumb-013556",
+        "thumb": "arc-013556",
         "archiveId": "ARC-013556",
         "alt": "Mostres d’art · El pelèc · fotografía 28",
         "sourceName": "F1000010.JPG",
@@ -10161,7 +10143,7 @@ export const albums = [
       },
       {
         "image": "arc-013557",
-        "thumb": "thumb-013557",
+        "thumb": "arc-013557",
         "archiveId": "ARC-013557",
         "alt": "Mostres d’art · El pelèc · fotografía 29",
         "sourceName": "F1000011.JPG",
@@ -10169,7 +10151,7 @@ export const albums = [
       },
       {
         "image": "arc-013559",
-        "thumb": "thumb-013559",
+        "thumb": "arc-013559",
         "archiveId": "ARC-013559",
         "alt": "Mostres d’art · El pelèc · fotografía 30",
         "sourceName": "F1000012.JPG",
@@ -10177,7 +10159,7 @@ export const albums = [
       },
       {
         "image": "arc-013589",
-        "thumb": "thumb-013589",
+        "thumb": "arc-013589",
         "archiveId": "ARC-013589",
         "alt": "Mostres d’art · El pelèc · fotografía 31",
         "sourceName": "SERIE INFANTIL6A.jpg",
@@ -10185,14 +10167,14 @@ export const albums = [
       },
       {
         "image": "arc-013594",
-        "thumb": "thumb-013594",
+        "thumb": "arc-013594",
         "archiveId": "ARC-013594",
         "alt": "Mostres d’art · El pelèc · fotografía 32",
         "sourceName": "SERIE234.jpg",
         "contentKey": "df21e61139e97a0be96d7d7fcbb386bc6dcffb10fd934879fafef2f95fa689ca"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar.",
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar.",
     "place": "El pelèc",
     "source": "Carpetas Mostra Art 2001 y Mostra d’art 2003; correspondencia entre imágenes y ediciones pendiente.",
     "exhibitionKind": "infantil"
@@ -10213,7 +10195,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-006296",
-        "thumb": "thumb-006296",
+        "thumb": "arc-006296",
         "archiveId": "ARC-006296",
         "alt": "Del curso a la sala · fotografía 1",
         "sourceName": "1.jpg",
@@ -10221,7 +10203,7 @@ export const albums = [
       },
       {
         "image": "arc-006300",
-        "thumb": "thumb-006300",
+        "thumb": "arc-006300",
         "archiveId": "ARC-006300",
         "alt": "Del curso a la sala · fotografía 2",
         "sourceName": "13.jpg",
@@ -10229,7 +10211,7 @@ export const albums = [
       },
       {
         "image": "arc-006302",
-        "thumb": "thumb-006302",
+        "thumb": "arc-006302",
         "archiveId": "ARC-006302",
         "alt": "Del curso a la sala · fotografía 3",
         "sourceName": "15.jpg",
@@ -10237,7 +10219,7 @@ export const albums = [
       },
       {
         "image": "arc-006305",
-        "thumb": "thumb-006305",
+        "thumb": "arc-006305",
         "archiveId": "ARC-006305",
         "alt": "Del curso a la sala · fotografía 4",
         "sourceName": "18.jpg",
@@ -10245,7 +10227,7 @@ export const albums = [
       },
       {
         "image": "arc-006307",
-        "thumb": "thumb-006307",
+        "thumb": "arc-006307",
         "archiveId": "ARC-006307",
         "alt": "Del curso a la sala · fotografía 5",
         "sourceName": "2.jpg",
@@ -10274,7 +10256,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-014381",
-        "thumb": "thumb-014381",
+        "thumb": "arc-014381",
         "archiveId": "ARC-014381",
         "alt": "El aula como lugar de creación · fotografía 1",
         "sourceName": "P7260003-1.JPG",
@@ -10282,7 +10264,7 @@ export const albums = [
       },
       {
         "image": "arc-014458",
-        "thumb": "thumb-014458",
+        "thumb": "arc-014458",
         "archiveId": "ARC-014458",
         "alt": "El aula como lugar de creación · fotografía 2",
         "sourceName": "UNTITL33.JPG",
@@ -10290,14 +10272,14 @@ export const albums = [
       },
       {
         "image": "arc-014459",
-        "thumb": "thumb-014459",
+        "thumb": "arc-014459",
         "archiveId": "ARC-014459",
         "alt": "El aula como lugar de creación · fotografía 3",
         "sourceName": "UNTITL34.JPG",
         "contentKey": "591fef9a6019ec907f148b037369fd10a33cebae25c60b5e0854ed3e46fd681e"
       }
     ],
-    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIQUE SEGARRA I GARIBO. Autorías individuales por documentar."
+    "credit": "Obras de participantes. Actividad educativa vinculada a ENRIC SEGARRA I GARIBO. Autorías individuales por documentar."
   },
   {
     "id": "exposicion-carlet",
@@ -10316,7 +10298,7 @@ export const albums = [
     "gallery": [
       {
         "image": "doc-003505-p008",
-        "thumb": "doc-thumb-003505-p008",
+        "thumb": "doc-003505-p008",
         "archiveId": "ARC-003505",
         "sourcePage": 8,
         "alt": "Arte infantil · Carlet · fotografía de la página 8",
@@ -10324,7 +10306,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p009",
-        "thumb": "doc-thumb-003505-p009",
+        "thumb": "doc-003505-p009",
         "archiveId": "ARC-003505",
         "sourcePage": 9,
         "alt": "Arte infantil · Carlet · fotografía de la página 9",
@@ -10332,7 +10314,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p010",
-        "thumb": "doc-thumb-003505-p010",
+        "thumb": "doc-003505-p010",
         "archiveId": "ARC-003505",
         "sourcePage": 10,
         "alt": "Arte infantil · Carlet · fotografía de la página 10",
@@ -10340,7 +10322,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p011",
-        "thumb": "doc-thumb-003505-p011",
+        "thumb": "doc-003505-p011",
         "archiveId": "ARC-003505",
         "sourcePage": 11,
         "alt": "Arte infantil · Carlet · fotografía de la página 11",
@@ -10348,7 +10330,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p012",
-        "thumb": "doc-thumb-003505-p012",
+        "thumb": "doc-003505-p012",
         "archiveId": "ARC-003505",
         "sourcePage": 12,
         "alt": "Arte infantil · Carlet · fotografía de la página 12",
@@ -10356,7 +10338,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p018",
-        "thumb": "doc-thumb-003505-p018",
+        "thumb": "doc-003505-p018",
         "archiveId": "ARC-003505",
         "sourcePage": 18,
         "alt": "Arte infantil · Carlet · fotografía de la página 18",
@@ -10364,7 +10346,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p002",
-        "thumb": "doc-thumb-003505-p002",
+        "thumb": "doc-003505-p002",
         "archiveId": "ARC-003505",
         "sourcePage": 2,
         "alt": "Arte infantil · Carlet · fotografía de la página 2",
@@ -10372,7 +10354,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p006",
-        "thumb": "doc-thumb-003505-p006",
+        "thumb": "doc-003505-p006",
         "archiveId": "ARC-003505",
         "sourcePage": 6,
         "alt": "Arte infantil · Carlet · fotografía de la página 6",
@@ -10380,7 +10362,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p013",
-        "thumb": "doc-thumb-003505-p013",
+        "thumb": "doc-003505-p013",
         "archiveId": "ARC-003505",
         "sourcePage": 13,
         "alt": "Arte infantil · Carlet · fotografía de la página 13",
@@ -10388,7 +10370,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p014",
-        "thumb": "doc-thumb-003505-p014",
+        "thumb": "doc-003505-p014",
         "archiveId": "ARC-003505",
         "sourcePage": 14,
         "alt": "Arte infantil · Carlet · fotografía de la página 14",
@@ -10396,7 +10378,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p016",
-        "thumb": "doc-thumb-003505-p016",
+        "thumb": "doc-003505-p016",
         "archiveId": "ARC-003505",
         "sourcePage": 16,
         "alt": "Arte infantil · Carlet · fotografía de la página 16",
@@ -10404,7 +10386,7 @@ export const albums = [
       },
       {
         "image": "doc-003505-p017",
-        "thumb": "doc-thumb-003505-p017",
+        "thumb": "doc-003505-p017",
         "archiveId": "ARC-003505",
         "sourcePage": 17,
         "alt": "Arte infantil · Carlet · fotografía de la página 17",
@@ -10412,14 +10394,14 @@ export const albums = [
       },
       {
         "image": "doc-003505-p019",
-        "thumb": "doc-thumb-003505-p019",
+        "thumb": "doc-003505-p019",
         "archiveId": "ARC-003505",
         "sourcePage": 19,
         "alt": "Arte infantil · Carlet · fotografía de la página 19",
         "sourceName": "CEFIRE_EXPO_ARTE_INFANTIL_FUNDACION_CAIXA_CARLET.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-003505. Identificación de la actividad por el documento de origen; fecha por documentar.",
     "exhibitionKind": "infantil"
   },
@@ -10440,7 +10422,7 @@ export const albums = [
     "gallery": [
       {
         "image": "doc-004289-p007",
-        "thumb": "doc-thumb-004289-p007",
+        "thumb": "doc-004289-p007",
         "archiveId": "ARC-004289",
         "sourcePage": 7,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 7",
@@ -10448,7 +10430,7 @@ export const albums = [
       },
       {
         "image": "doc-004289-p002",
-        "thumb": "doc-thumb-004289-p002",
+        "thumb": "doc-004289-p002",
         "archiveId": "ARC-004289",
         "sourcePage": 2,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 2",
@@ -10456,7 +10438,7 @@ export const albums = [
       },
       {
         "image": "doc-004289-p003",
-        "thumb": "doc-thumb-004289-p003",
+        "thumb": "doc-004289-p003",
         "archiveId": "ARC-004289",
         "sourcePage": 3,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 3",
@@ -10464,7 +10446,7 @@ export const albums = [
       },
       {
         "image": "doc-004289-p004",
-        "thumb": "doc-thumb-004289-p004",
+        "thumb": "doc-004289-p004",
         "archiveId": "ARC-004289",
         "sourcePage": 4,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 4",
@@ -10472,7 +10454,7 @@ export const albums = [
       },
       {
         "image": "doc-004289-p005",
-        "thumb": "doc-thumb-004289-p005",
+        "thumb": "doc-004289-p005",
         "archiveId": "ARC-004289",
         "sourcePage": 5,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 5",
@@ -10480,7 +10462,7 @@ export const albums = [
       },
       {
         "image": "doc-004289-p006",
-        "thumb": "doc-thumb-004289-p006",
+        "thumb": "doc-004289-p006",
         "archiveId": "ARC-004289",
         "sourcePage": 6,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 6",
@@ -10488,7 +10470,7 @@ export const albums = [
       },
       {
         "image": "doc-004289-p009",
-        "thumb": "doc-thumb-004289-p009",
+        "thumb": "doc-004289-p009",
         "archiveId": "ARC-004289",
         "sourcePage": 9,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 9",
@@ -10496,14 +10478,14 @@ export const albums = [
       },
       {
         "image": "doc-004289-p010",
-        "thumb": "doc-thumb-004289-p010",
+        "thumb": "doc-004289-p010",
         "archiveId": "ARC-004289",
         "sourcePage": 10,
         "alt": "Arte infantil · Colegio Cervantes · fotografía de la página 10",
         "sourceName": "EXPO COLEGIO CERVANTES.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-004289. Identificación de la actividad por el documento de origen; fecha por documentar.",
     "exhibitionKind": "infantil"
   },
@@ -10524,7 +10506,7 @@ export const albums = [
     "gallery": [
       {
         "image": "doc-004290-p003",
-        "thumb": "doc-thumb-004290-p003",
+        "thumb": "doc-004290-p003",
         "archiveId": "ARC-004290",
         "sourcePage": 3,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 3",
@@ -10532,7 +10514,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p004",
-        "thumb": "doc-thumb-004290-p004",
+        "thumb": "doc-004290-p004",
         "archiveId": "ARC-004290",
         "sourcePage": 4,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 4",
@@ -10540,7 +10522,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p005",
-        "thumb": "doc-thumb-004290-p005",
+        "thumb": "doc-004290-p005",
         "archiveId": "ARC-004290",
         "sourcePage": 5,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 5",
@@ -10548,7 +10530,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p007",
-        "thumb": "doc-thumb-004290-p007",
+        "thumb": "doc-004290-p007",
         "archiveId": "ARC-004290",
         "sourcePage": 7,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 7",
@@ -10556,7 +10538,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p008",
-        "thumb": "doc-thumb-004290-p008",
+        "thumb": "doc-004290-p008",
         "archiveId": "ARC-004290",
         "sourcePage": 8,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 8",
@@ -10564,7 +10546,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p009",
-        "thumb": "doc-thumb-004290-p009",
+        "thumb": "doc-004290-p009",
         "archiveId": "ARC-004290",
         "sourcePage": 9,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 9",
@@ -10572,7 +10554,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p010",
-        "thumb": "doc-thumb-004290-p010",
+        "thumb": "doc-004290-p010",
         "archiveId": "ARC-004290",
         "sourcePage": 10,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 10",
@@ -10580,7 +10562,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p011",
-        "thumb": "doc-thumb-004290-p011",
+        "thumb": "doc-004290-p011",
         "archiveId": "ARC-004290",
         "sourcePage": 11,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 11",
@@ -10588,7 +10570,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p020",
-        "thumb": "doc-thumb-004290-p020",
+        "thumb": "doc-004290-p020",
         "archiveId": "ARC-004290",
         "sourcePage": 20,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 20",
@@ -10596,7 +10578,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p021",
-        "thumb": "doc-thumb-004290-p021",
+        "thumb": "doc-004290-p021",
         "archiveId": "ARC-004290",
         "sourcePage": 21,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 21",
@@ -10604,7 +10586,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p022",
-        "thumb": "doc-thumb-004290-p022",
+        "thumb": "doc-004290-p022",
         "archiveId": "ARC-004290",
         "sourcePage": 22,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 22",
@@ -10612,7 +10594,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p023",
-        "thumb": "doc-thumb-004290-p023",
+        "thumb": "doc-004290-p023",
         "archiveId": "ARC-004290",
         "sourcePage": 23,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 23",
@@ -10620,7 +10602,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p024",
-        "thumb": "doc-thumb-004290-p024",
+        "thumb": "doc-004290-p024",
         "archiveId": "ARC-004290",
         "sourcePage": 24,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 24",
@@ -10628,7 +10610,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p025",
-        "thumb": "doc-thumb-004290-p025",
+        "thumb": "doc-004290-p025",
         "archiveId": "ARC-004290",
         "sourcePage": 25,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 25",
@@ -10636,7 +10618,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p027",
-        "thumb": "doc-thumb-004290-p027",
+        "thumb": "doc-004290-p027",
         "archiveId": "ARC-004290",
         "sourcePage": 27,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 27",
@@ -10644,7 +10626,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p029",
-        "thumb": "doc-thumb-004290-p029",
+        "thumb": "doc-004290-p029",
         "archiveId": "ARC-004290",
         "sourcePage": 29,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 29",
@@ -10652,7 +10634,7 @@ export const albums = [
       },
       {
         "image": "doc-004290-p030",
-        "thumb": "doc-thumb-004290-p030",
+        "thumb": "doc-004290-p030",
         "archiveId": "ARC-004290",
         "sourcePage": 30,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 30",
@@ -10660,14 +10642,14 @@ export const albums = [
       },
       {
         "image": "doc-004290-p033",
-        "thumb": "doc-thumb-004290-p033",
+        "thumb": "doc-004290-p033",
         "archiveId": "ARC-004290",
         "sourcePage": 33,
         "alt": "Arte infantil · Colegio Los Chopos · fotografía de la página 33",
         "sourceName": "EXPO_ARTE_INFANTIL_COLEGIO_LOS_CHOPOS.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-004290. Identificación de la actividad por el documento de origen; fecha por documentar.",
     "exhibitionKind": "infantil"
   },
@@ -10688,7 +10670,7 @@ export const albums = [
     "gallery": [
       {
         "image": "doc-004747-p001",
-        "thumb": "doc-thumb-004747-p001",
+        "thumb": "doc-004747-p001",
         "archiveId": "ARC-004747",
         "sourcePage": 1,
         "alt": "Imaginar el agua · fotografía de la página 1",
@@ -10696,7 +10678,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p002",
-        "thumb": "doc-thumb-004747-p002",
+        "thumb": "doc-004747-p002",
         "archiveId": "ARC-004747",
         "sourcePage": 2,
         "alt": "Imaginar el agua · fotografía de la página 2",
@@ -10704,7 +10686,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p003",
-        "thumb": "doc-thumb-004747-p003",
+        "thumb": "doc-004747-p003",
         "archiveId": "ARC-004747",
         "sourcePage": 3,
         "alt": "Imaginar el agua · fotografía de la página 3",
@@ -10712,7 +10694,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p004",
-        "thumb": "doc-thumb-004747-p004",
+        "thumb": "doc-004747-p004",
         "archiveId": "ARC-004747",
         "sourcePage": 4,
         "alt": "Imaginar el agua · fotografía de la página 4",
@@ -10720,7 +10702,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p005",
-        "thumb": "doc-thumb-004747-p005",
+        "thumb": "doc-004747-p005",
         "archiveId": "ARC-004747",
         "sourcePage": 5,
         "alt": "Imaginar el agua · fotografía de la página 5",
@@ -10728,7 +10710,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p006",
-        "thumb": "doc-thumb-004747-p006",
+        "thumb": "doc-004747-p006",
         "archiveId": "ARC-004747",
         "sourcePage": 6,
         "alt": "Imaginar el agua · fotografía de la página 6",
@@ -10736,7 +10718,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p007",
-        "thumb": "doc-thumb-004747-p007",
+        "thumb": "doc-004747-p007",
         "archiveId": "ARC-004747",
         "sourcePage": 7,
         "alt": "Imaginar el agua · fotografía de la página 7",
@@ -10744,7 +10726,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p008",
-        "thumb": "doc-thumb-004747-p008",
+        "thumb": "doc-004747-p008",
         "archiveId": "ARC-004747",
         "sourcePage": 8,
         "alt": "Imaginar el agua · fotografía de la página 8",
@@ -10752,7 +10734,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p009",
-        "thumb": "doc-thumb-004747-p009",
+        "thumb": "doc-004747-p009",
         "archiveId": "ARC-004747",
         "sourcePage": 9,
         "alt": "Imaginar el agua · fotografía de la página 9",
@@ -10760,7 +10742,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p010",
-        "thumb": "doc-thumb-004747-p010",
+        "thumb": "doc-004747-p010",
         "archiveId": "ARC-004747",
         "sourcePage": 10,
         "alt": "Imaginar el agua · fotografía de la página 10",
@@ -10768,7 +10750,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p011",
-        "thumb": "doc-thumb-004747-p011",
+        "thumb": "doc-004747-p011",
         "archiveId": "ARC-004747",
         "sourcePage": 11,
         "alt": "Imaginar el agua · fotografía de la página 11",
@@ -10776,7 +10758,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p012",
-        "thumb": "doc-thumb-004747-p012",
+        "thumb": "doc-004747-p012",
         "archiveId": "ARC-004747",
         "sourcePage": 12,
         "alt": "Imaginar el agua · fotografía de la página 12",
@@ -10784,7 +10766,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p013",
-        "thumb": "doc-thumb-004747-p013",
+        "thumb": "doc-004747-p013",
         "archiveId": "ARC-004747",
         "sourcePage": 13,
         "alt": "Imaginar el agua · fotografía de la página 13",
@@ -10792,7 +10774,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p014",
-        "thumb": "doc-thumb-004747-p014",
+        "thumb": "doc-004747-p014",
         "archiveId": "ARC-004747",
         "sourcePage": 14,
         "alt": "Imaginar el agua · fotografía de la página 14",
@@ -10800,7 +10782,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p015",
-        "thumb": "doc-thumb-004747-p015",
+        "thumb": "doc-004747-p015",
         "archiveId": "ARC-004747",
         "sourcePage": 15,
         "alt": "Imaginar el agua · fotografía de la página 15",
@@ -10808,7 +10790,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p017",
-        "thumb": "doc-thumb-004747-p017",
+        "thumb": "doc-004747-p017",
         "archiveId": "ARC-004747",
         "sourcePage": 17,
         "alt": "Imaginar el agua · fotografía de la página 17",
@@ -10816,7 +10798,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p018",
-        "thumb": "doc-thumb-004747-p018",
+        "thumb": "doc-004747-p018",
         "archiveId": "ARC-004747",
         "sourcePage": 18,
         "alt": "Imaginar el agua · fotografía de la página 18",
@@ -10824,7 +10806,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p019",
-        "thumb": "doc-thumb-004747-p019",
+        "thumb": "doc-004747-p019",
         "archiveId": "ARC-004747",
         "sourcePage": 19,
         "alt": "Imaginar el agua · fotografía de la página 19",
@@ -10832,7 +10814,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p021",
-        "thumb": "doc-thumb-004747-p021",
+        "thumb": "doc-004747-p021",
         "archiveId": "ARC-004747",
         "sourcePage": 21,
         "alt": "Imaginar el agua · fotografía de la página 21",
@@ -10840,7 +10822,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p022",
-        "thumb": "doc-thumb-004747-p022",
+        "thumb": "doc-004747-p022",
         "archiveId": "ARC-004747",
         "sourcePage": 22,
         "alt": "Imaginar el agua · fotografía de la página 22",
@@ -10848,7 +10830,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p024",
-        "thumb": "doc-thumb-004747-p024",
+        "thumb": "doc-004747-p024",
         "archiveId": "ARC-004747",
         "sourcePage": 24,
         "alt": "Imaginar el agua · fotografía de la página 24",
@@ -10856,7 +10838,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p025",
-        "thumb": "doc-thumb-004747-p025",
+        "thumb": "doc-004747-p025",
         "archiveId": "ARC-004747",
         "sourcePage": 25,
         "alt": "Imaginar el agua · fotografía de la página 25",
@@ -10864,7 +10846,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p026",
-        "thumb": "doc-thumb-004747-p026",
+        "thumb": "doc-004747-p026",
         "archiveId": "ARC-004747",
         "sourcePage": 26,
         "alt": "Imaginar el agua · fotografía de la página 26",
@@ -10872,7 +10854,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p030",
-        "thumb": "doc-thumb-004747-p030",
+        "thumb": "doc-004747-p030",
         "archiveId": "ARC-004747",
         "sourcePage": 30,
         "alt": "Imaginar el agua · fotografía de la página 30",
@@ -10880,7 +10862,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p032",
-        "thumb": "doc-thumb-004747-p032",
+        "thumb": "doc-004747-p032",
         "archiveId": "ARC-004747",
         "sourcePage": 32,
         "alt": "Imaginar el agua · fotografía de la página 32",
@@ -10888,7 +10870,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p033",
-        "thumb": "doc-thumb-004747-p033",
+        "thumb": "doc-004747-p033",
         "archiveId": "ARC-004747",
         "sourcePage": 33,
         "alt": "Imaginar el agua · fotografía de la página 33",
@@ -10896,7 +10878,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p034",
-        "thumb": "doc-thumb-004747-p034",
+        "thumb": "doc-004747-p034",
         "archiveId": "ARC-004747",
         "sourcePage": 34,
         "alt": "Imaginar el agua · fotografía de la página 34",
@@ -10904,7 +10886,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p035",
-        "thumb": "doc-thumb-004747-p035",
+        "thumb": "doc-004747-p035",
         "archiveId": "ARC-004747",
         "sourcePage": 35,
         "alt": "Imaginar el agua · fotografía de la página 35",
@@ -10912,7 +10894,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p036",
-        "thumb": "doc-thumb-004747-p036",
+        "thumb": "doc-004747-p036",
         "archiveId": "ARC-004747",
         "sourcePage": 36,
         "alt": "Imaginar el agua · fotografía de la página 36",
@@ -10920,7 +10902,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p038",
-        "thumb": "doc-thumb-004747-p038",
+        "thumb": "doc-004747-p038",
         "archiveId": "ARC-004747",
         "sourcePage": 38,
         "alt": "Imaginar el agua · fotografía de la página 38",
@@ -10928,7 +10910,7 @@ export const albums = [
       },
       {
         "image": "doc-004747-p039",
-        "thumb": "doc-thumb-004747-p039",
+        "thumb": "doc-004747-p039",
         "archiveId": "ARC-004747",
         "sourcePage": 39,
         "alt": "Imaginar el agua · fotografía de la página 39",
@@ -10936,14 +10918,14 @@ export const albums = [
       },
       {
         "image": "doc-004747-p040",
-        "thumb": "doc-thumb-004747-p040",
+        "thumb": "doc-004747-p040",
         "archiveId": "ARC-004747",
         "sourcePage": 40,
         "alt": "Imaginar el agua · fotografía de la página 40",
         "sourceName": "SARC_TALLER_EXPO_SIGNO_DE_AGUA.pdf"
       }
     ],
-    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obras de participantes de actividades educativas. No son piezas del catálogo personal de ENRIC SEGARRA I GARIBO.",
     "source": "Dossier fotográfico ARC-004747. Identificación de la actividad por el documento de origen; fecha por documentar."
   },
   {
@@ -10963,7 +10945,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-014839",
-        "thumb": "thumb-014839",
+        "thumb": "arc-014839",
         "archiveId": "ARC-014839",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 1",
         "sourceName": "20241110_161819-COLLAGE.jpg",
@@ -10971,7 +10953,7 @@ export const albums = [
       },
       {
         "image": "arc-014841",
-        "thumb": "thumb-014841",
+        "thumb": "arc-014841",
         "archiveId": "ARC-014841",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 2",
         "sourceName": "20260314_120901-COLLAGE.jpg",
@@ -10979,7 +10961,7 @@ export const albums = [
       },
       {
         "image": "arc-014842",
-        "thumb": "thumb-014842",
+        "thumb": "arc-014842",
         "archiveId": "ARC-014842",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 3",
         "sourceName": "20260328_153917-COLLAGE.jpg",
@@ -10987,7 +10969,7 @@ export const albums = [
       },
       {
         "image": "arc-014843",
-        "thumb": "thumb-014843",
+        "thumb": "arc-014843",
         "archiveId": "ARC-014843",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 4",
         "sourceName": "20260604_211840-COLLAGE.jpg",
@@ -10995,7 +10977,7 @@ export const albums = [
       },
       {
         "image": "arc-014844",
-        "thumb": "thumb-014844",
+        "thumb": "arc-014844",
         "archiveId": "ARC-014844",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 5",
         "sourceName": "20260816_202125-COLLAGE.jpg",
@@ -11003,7 +10985,7 @@ export const albums = [
       },
       {
         "image": "arc-014845",
-        "thumb": "thumb-014845",
+        "thumb": "arc-014845",
         "archiveId": "ARC-014845",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 6",
         "sourceName": "20260817_231839-COLLAGE.jpg",
@@ -11011,7 +10993,7 @@ export const albums = [
       },
       {
         "image": "arc-014847",
-        "thumb": "thumb-014847",
+        "thumb": "arc-014847",
         "archiveId": "ARC-014847",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 7",
         "sourceName": "DSC02291.ARW",
@@ -11019,7 +11001,7 @@ export const albums = [
       },
       {
         "image": "arc-014848",
-        "thumb": "thumb-014848",
+        "thumb": "arc-014848",
         "archiveId": "ARC-014848",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 8",
         "sourceName": "DSC02292.ARW",
@@ -11027,7 +11009,7 @@ export const albums = [
       },
       {
         "image": "arc-014849",
-        "thumb": "thumb-014849",
+        "thumb": "arc-014849",
         "archiveId": "ARC-014849",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 9",
         "sourceName": "DSC02293.ARW",
@@ -11035,7 +11017,7 @@ export const albums = [
       },
       {
         "image": "arc-014850",
-        "thumb": "thumb-014850",
+        "thumb": "arc-014850",
         "archiveId": "ARC-014850",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 10",
         "sourceName": "DSC02294.ARW",
@@ -11043,7 +11025,7 @@ export const albums = [
       },
       {
         "image": "arc-014851",
-        "thumb": "thumb-014851",
+        "thumb": "arc-014851",
         "archiveId": "ARC-014851",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 11",
         "sourceName": "DSC02295.ARW",
@@ -11051,7 +11033,7 @@ export const albums = [
       },
       {
         "image": "arc-014852",
-        "thumb": "thumb-014852",
+        "thumb": "arc-014852",
         "archiveId": "ARC-014852",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 12",
         "sourceName": "DSC02296.ARW",
@@ -11059,7 +11041,7 @@ export const albums = [
       },
       {
         "image": "arc-014853",
-        "thumb": "thumb-014853",
+        "thumb": "arc-014853",
         "archiveId": "ARC-014853",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 13",
         "sourceName": "DSC02297.ARW",
@@ -11067,7 +11049,7 @@ export const albums = [
       },
       {
         "image": "arc-014854",
-        "thumb": "thumb-014854",
+        "thumb": "arc-014854",
         "archiveId": "ARC-014854",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 14",
         "sourceName": "DSC02298.ARW",
@@ -11075,7 +11057,7 @@ export const albums = [
       },
       {
         "image": "arc-014855",
-        "thumb": "thumb-014855",
+        "thumb": "arc-014855",
         "archiveId": "ARC-014855",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 15",
         "sourceName": "DSC02299.ARW",
@@ -11083,7 +11065,7 @@ export const albums = [
       },
       {
         "image": "arc-014856",
-        "thumb": "thumb-014856",
+        "thumb": "arc-014856",
         "archiveId": "ARC-014856",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 16",
         "sourceName": "DSC02300.ARW",
@@ -11091,7 +11073,7 @@ export const albums = [
       },
       {
         "image": "arc-014857",
-        "thumb": "thumb-014857",
+        "thumb": "arc-014857",
         "archiveId": "ARC-014857",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 17",
         "sourceName": "DSC02301.ARW",
@@ -11099,7 +11081,7 @@ export const albums = [
       },
       {
         "image": "arc-014858",
-        "thumb": "thumb-014858",
+        "thumb": "arc-014858",
         "archiveId": "ARC-014858",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 18",
         "sourceName": "DSC02302.ARW",
@@ -11107,7 +11089,7 @@ export const albums = [
       },
       {
         "image": "arc-014859",
-        "thumb": "thumb-014859",
+        "thumb": "arc-014859",
         "archiveId": "ARC-014859",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 19",
         "sourceName": "DSC02303.ARW",
@@ -11115,7 +11097,7 @@ export const albums = [
       },
       {
         "image": "arc-014860",
-        "thumb": "thumb-014860",
+        "thumb": "arc-014860",
         "archiveId": "ARC-014860",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 20",
         "sourceName": "DSC02304.ARW",
@@ -11123,7 +11105,7 @@ export const albums = [
       },
       {
         "image": "arc-014861",
-        "thumb": "thumb-014861",
+        "thumb": "arc-014861",
         "archiveId": "ARC-014861",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 21",
         "sourceName": "DSC02305.ARW",
@@ -11131,7 +11113,7 @@ export const albums = [
       },
       {
         "image": "arc-014862",
-        "thumb": "thumb-014862",
+        "thumb": "arc-014862",
         "archiveId": "ARC-014862",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 22",
         "sourceName": "DSC02306.ARW",
@@ -11139,7 +11121,7 @@ export const albums = [
       },
       {
         "image": "arc-014863",
-        "thumb": "thumb-014863",
+        "thumb": "arc-014863",
         "archiveId": "ARC-014863",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 23",
         "sourceName": "DSC02307.ARW",
@@ -11147,7 +11129,7 @@ export const albums = [
       },
       {
         "image": "arc-014864",
-        "thumb": "thumb-014864",
+        "thumb": "arc-014864",
         "archiveId": "ARC-014864",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 24",
         "sourceName": "DSC02308.ARW",
@@ -11155,7 +11137,7 @@ export const albums = [
       },
       {
         "image": "arc-014865",
-        "thumb": "thumb-014865",
+        "thumb": "arc-014865",
         "archiveId": "ARC-014865",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 25",
         "sourceName": "DSC02309.ARW",
@@ -11163,7 +11145,7 @@ export const albums = [
       },
       {
         "image": "arc-014866",
-        "thumb": "thumb-014866",
+        "thumb": "arc-014866",
         "archiveId": "ARC-014866",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 26",
         "sourceName": "DSC02310.ARW",
@@ -11171,7 +11153,7 @@ export const albums = [
       },
       {
         "image": "arc-014867",
-        "thumb": "thumb-014867",
+        "thumb": "arc-014867",
         "archiveId": "ARC-014867",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 27",
         "sourceName": "DSC02311.ARW",
@@ -11179,7 +11161,7 @@ export const albums = [
       },
       {
         "image": "arc-014868",
-        "thumb": "thumb-014868",
+        "thumb": "arc-014868",
         "archiveId": "ARC-014868",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 28",
         "sourceName": "DSC02312.ARW",
@@ -11187,7 +11169,7 @@ export const albums = [
       },
       {
         "image": "arc-014869",
-        "thumb": "thumb-014869",
+        "thumb": "arc-014869",
         "archiveId": "ARC-014869",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 29",
         "sourceName": "DSC02313.ARW",
@@ -11195,7 +11177,7 @@ export const albums = [
       },
       {
         "image": "arc-014870",
-        "thumb": "thumb-014870",
+        "thumb": "arc-014870",
         "archiveId": "ARC-014870",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 30",
         "sourceName": "DSC02314.ARW",
@@ -11203,7 +11185,7 @@ export const albums = [
       },
       {
         "image": "arc-014871",
-        "thumb": "thumb-014871",
+        "thumb": "arc-014871",
         "archiveId": "ARC-014871",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 31",
         "sourceName": "DSC02315.ARW",
@@ -11211,7 +11193,7 @@ export const albums = [
       },
       {
         "image": "arc-014872",
-        "thumb": "thumb-014872",
+        "thumb": "arc-014872",
         "archiveId": "ARC-014872",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 32",
         "sourceName": "DSC02316.ARW",
@@ -11219,7 +11201,7 @@ export const albums = [
       },
       {
         "image": "arc-014873",
-        "thumb": "thumb-014873",
+        "thumb": "arc-014873",
         "archiveId": "ARC-014873",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 33",
         "sourceName": "DSC02317.ARW",
@@ -11227,7 +11209,7 @@ export const albums = [
       },
       {
         "image": "arc-014874",
-        "thumb": "thumb-014874",
+        "thumb": "arc-014874",
         "archiveId": "ARC-014874",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 34",
         "sourceName": "DSC02318.ARW",
@@ -11235,7 +11217,7 @@ export const albums = [
       },
       {
         "image": "arc-014875",
-        "thumb": "thumb-014875",
+        "thumb": "arc-014875",
         "archiveId": "ARC-014875",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 35",
         "sourceName": "DSC02319.ARW",
@@ -11243,7 +11225,7 @@ export const albums = [
       },
       {
         "image": "arc-014876",
-        "thumb": "thumb-014876",
+        "thumb": "arc-014876",
         "archiveId": "ARC-014876",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 36",
         "sourceName": "DSC02320.ARW",
@@ -11251,7 +11233,7 @@ export const albums = [
       },
       {
         "image": "arc-014877",
-        "thumb": "thumb-014877",
+        "thumb": "arc-014877",
         "archiveId": "ARC-014877",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 37",
         "sourceName": "DSC02321.ARW",
@@ -11259,7 +11241,7 @@ export const albums = [
       },
       {
         "image": "arc-014878",
-        "thumb": "thumb-014878",
+        "thumb": "arc-014878",
         "archiveId": "ARC-014878",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 38",
         "sourceName": "DSC02322.ARW",
@@ -11267,7 +11249,7 @@ export const albums = [
       },
       {
         "image": "arc-014879",
-        "thumb": "thumb-014879",
+        "thumb": "arc-014879",
         "archiveId": "ARC-014879",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 39",
         "sourceName": "DSC02323.ARW",
@@ -11275,7 +11257,7 @@ export const albums = [
       },
       {
         "image": "arc-014880",
-        "thumb": "thumb-014880",
+        "thumb": "arc-014880",
         "archiveId": "ARC-014880",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 40",
         "sourceName": "DSC02324.ARW",
@@ -11283,7 +11265,7 @@ export const albums = [
       },
       {
         "image": "arc-014881",
-        "thumb": "thumb-014881",
+        "thumb": "arc-014881",
         "archiveId": "ARC-014881",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 41",
         "sourceName": "DSC02325.ARW",
@@ -11291,7 +11273,7 @@ export const albums = [
       },
       {
         "image": "arc-014882",
-        "thumb": "thumb-014882",
+        "thumb": "arc-014882",
         "archiveId": "ARC-014882",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 42",
         "sourceName": "DSC02326.ARW",
@@ -11299,7 +11281,7 @@ export const albums = [
       },
       {
         "image": "arc-014883",
-        "thumb": "thumb-014883",
+        "thumb": "arc-014883",
         "archiveId": "ARC-014883",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 43",
         "sourceName": "DSC02327.ARW",
@@ -11307,7 +11289,7 @@ export const albums = [
       },
       {
         "image": "arc-014884",
-        "thumb": "thumb-014884",
+        "thumb": "arc-014884",
         "archiveId": "ARC-014884",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 44",
         "sourceName": "DSC02328.ARW",
@@ -11315,7 +11297,7 @@ export const albums = [
       },
       {
         "image": "arc-014885",
-        "thumb": "thumb-014885",
+        "thumb": "arc-014885",
         "archiveId": "ARC-014885",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 45",
         "sourceName": "DSC02329.ARW",
@@ -11323,7 +11305,7 @@ export const albums = [
       },
       {
         "image": "arc-014886",
-        "thumb": "thumb-014886",
+        "thumb": "arc-014886",
         "archiveId": "ARC-014886",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 46",
         "sourceName": "DSC02330.ARW",
@@ -11331,7 +11313,7 @@ export const albums = [
       },
       {
         "image": "arc-014887",
-        "thumb": "thumb-014887",
+        "thumb": "arc-014887",
         "archiveId": "ARC-014887",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 47",
         "sourceName": "DSC02331.ARW",
@@ -11339,7 +11321,7 @@ export const albums = [
       },
       {
         "image": "arc-014888",
-        "thumb": "thumb-014888",
+        "thumb": "arc-014888",
         "archiveId": "ARC-014888",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 48",
         "sourceName": "DSC02332.ARW",
@@ -11347,7 +11329,7 @@ export const albums = [
       },
       {
         "image": "arc-014889",
-        "thumb": "thumb-014889",
+        "thumb": "arc-014889",
         "archiveId": "ARC-014889",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 49",
         "sourceName": "DSC02333.ARW",
@@ -11355,7 +11337,7 @@ export const albums = [
       },
       {
         "image": "arc-014890",
-        "thumb": "thumb-014890",
+        "thumb": "arc-014890",
         "archiveId": "ARC-014890",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 50",
         "sourceName": "DSC02334.ARW",
@@ -11363,7 +11345,7 @@ export const albums = [
       },
       {
         "image": "arc-014891",
-        "thumb": "thumb-014891",
+        "thumb": "arc-014891",
         "archiveId": "ARC-014891",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 51",
         "sourceName": "DSC02335.ARW",
@@ -11371,7 +11353,7 @@ export const albums = [
       },
       {
         "image": "arc-014892",
-        "thumb": "thumb-014892",
+        "thumb": "arc-014892",
         "archiveId": "ARC-014892",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 52",
         "sourceName": "DSC02336.ARW",
@@ -11379,7 +11361,7 @@ export const albums = [
       },
       {
         "image": "arc-014893",
-        "thumb": "thumb-014893",
+        "thumb": "arc-014893",
         "archiveId": "ARC-014893",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 53",
         "sourceName": "DSC02337.ARW",
@@ -11387,7 +11369,7 @@ export const albums = [
       },
       {
         "image": "arc-014894",
-        "thumb": "thumb-014894",
+        "thumb": "arc-014894",
         "archiveId": "ARC-014894",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 54",
         "sourceName": "DSC02338.ARW",
@@ -11395,7 +11377,7 @@ export const albums = [
       },
       {
         "image": "arc-014895",
-        "thumb": "thumb-014895",
+        "thumb": "arc-014895",
         "archiveId": "ARC-014895",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 55",
         "sourceName": "DSC02339.ARW",
@@ -11403,7 +11385,7 @@ export const albums = [
       },
       {
         "image": "arc-014896",
-        "thumb": "thumb-014896",
+        "thumb": "arc-014896",
         "archiveId": "ARC-014896",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 56",
         "sourceName": "DSC02340.ARW",
@@ -11411,7 +11393,7 @@ export const albums = [
       },
       {
         "image": "arc-014897",
-        "thumb": "thumb-014897",
+        "thumb": "arc-014897",
         "archiveId": "ARC-014897",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 57",
         "sourceName": "DSC02341.ARW",
@@ -11419,7 +11401,7 @@ export const albums = [
       },
       {
         "image": "arc-014898",
-        "thumb": "thumb-014898",
+        "thumb": "arc-014898",
         "archiveId": "ARC-014898",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 58",
         "sourceName": "DSC02342.ARW",
@@ -11427,7 +11409,7 @@ export const albums = [
       },
       {
         "image": "arc-014899",
-        "thumb": "thumb-014899",
+        "thumb": "arc-014899",
         "archiveId": "ARC-014899",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 59",
         "sourceName": "DSC02343.ARW",
@@ -11435,7 +11417,7 @@ export const albums = [
       },
       {
         "image": "arc-014900",
-        "thumb": "thumb-014900",
+        "thumb": "arc-014900",
         "archiveId": "ARC-014900",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 60",
         "sourceName": "DSC02344.ARW",
@@ -11443,7 +11425,7 @@ export const albums = [
       },
       {
         "image": "arc-014901",
-        "thumb": "thumb-014901",
+        "thumb": "arc-014901",
         "archiveId": "ARC-014901",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 61",
         "sourceName": "DSC02345.ARW",
@@ -11451,7 +11433,7 @@ export const albums = [
       },
       {
         "image": "arc-014902",
-        "thumb": "thumb-014902",
+        "thumb": "arc-014902",
         "archiveId": "ARC-014902",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 62",
         "sourceName": "DSC02346.ARW",
@@ -11459,7 +11441,7 @@ export const albums = [
       },
       {
         "image": "arc-014903",
-        "thumb": "thumb-014903",
+        "thumb": "arc-014903",
         "archiveId": "ARC-014903",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 63",
         "sourceName": "DSC02347.ARW",
@@ -11467,7 +11449,7 @@ export const albums = [
       },
       {
         "image": "arc-014904",
-        "thumb": "thumb-014904",
+        "thumb": "arc-014904",
         "archiveId": "ARC-014904",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 64",
         "sourceName": "DSC02348.ARW",
@@ -11475,7 +11457,7 @@ export const albums = [
       },
       {
         "image": "arc-014905",
-        "thumb": "thumb-014905",
+        "thumb": "arc-014905",
         "archiveId": "ARC-014905",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 65",
         "sourceName": "DSC02349.ARW",
@@ -11483,7 +11465,7 @@ export const albums = [
       },
       {
         "image": "arc-014906",
-        "thumb": "thumb-014906",
+        "thumb": "arc-014906",
         "archiveId": "ARC-014906",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 66",
         "sourceName": "DSC02350.ARW",
@@ -11491,7 +11473,7 @@ export const albums = [
       },
       {
         "image": "arc-014907",
-        "thumb": "thumb-014907",
+        "thumb": "arc-014907",
         "archiveId": "ARC-014907",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 67",
         "sourceName": "DSC02351.ARW",
@@ -11499,7 +11481,7 @@ export const albums = [
       },
       {
         "image": "arc-014908",
-        "thumb": "thumb-014908",
+        "thumb": "arc-014908",
         "archiveId": "ARC-014908",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 68",
         "sourceName": "DSC02352.ARW",
@@ -11507,7 +11489,7 @@ export const albums = [
       },
       {
         "image": "arc-014909",
-        "thumb": "thumb-014909",
+        "thumb": "arc-014909",
         "archiveId": "ARC-014909",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 69",
         "sourceName": "DSC02353.ARW",
@@ -11515,7 +11497,7 @@ export const albums = [
       },
       {
         "image": "arc-014910",
-        "thumb": "thumb-014910",
+        "thumb": "arc-014910",
         "archiveId": "ARC-014910",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 70",
         "sourceName": "DSC02358.ARW",
@@ -11523,7 +11505,7 @@ export const albums = [
       },
       {
         "image": "arc-014911",
-        "thumb": "thumb-014911",
+        "thumb": "arc-014911",
         "archiveId": "ARC-014911",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 71",
         "sourceName": "DSC02359.ARW",
@@ -11531,7 +11513,7 @@ export const albums = [
       },
       {
         "image": "arc-014912",
-        "thumb": "thumb-014912",
+        "thumb": "arc-014912",
         "archiveId": "ARC-014912",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 72",
         "sourceName": "DSC02360.ARW",
@@ -11539,7 +11521,7 @@ export const albums = [
       },
       {
         "image": "arc-014913",
-        "thumb": "thumb-014913",
+        "thumb": "arc-014913",
         "archiveId": "ARC-014913",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 73",
         "sourceName": "DSC02361.ARW",
@@ -11547,7 +11529,7 @@ export const albums = [
       },
       {
         "image": "arc-014914",
-        "thumb": "thumb-014914",
+        "thumb": "arc-014914",
         "archiveId": "ARC-014914",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 74",
         "sourceName": "DSC02362.ARW",
@@ -11555,7 +11537,7 @@ export const albums = [
       },
       {
         "image": "arc-014915",
-        "thumb": "thumb-014915",
+        "thumb": "arc-014915",
         "archiveId": "ARC-014915",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 75",
         "sourceName": "DSC02363.ARW",
@@ -11563,7 +11545,7 @@ export const albums = [
       },
       {
         "image": "arc-014916",
-        "thumb": "thumb-014916",
+        "thumb": "arc-014916",
         "archiveId": "ARC-014916",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 76",
         "sourceName": "DSC02364.ARW",
@@ -11571,7 +11553,7 @@ export const albums = [
       },
       {
         "image": "arc-014917",
-        "thumb": "thumb-014917",
+        "thumb": "arc-014917",
         "archiveId": "ARC-014917",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 77",
         "sourceName": "DSC02365.ARW",
@@ -11579,7 +11561,7 @@ export const albums = [
       },
       {
         "image": "arc-014918",
-        "thumb": "thumb-014918",
+        "thumb": "arc-014918",
         "archiveId": "ARC-014918",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 78",
         "sourceName": "DSC02366.ARW",
@@ -11587,7 +11569,7 @@ export const albums = [
       },
       {
         "image": "arc-014919",
-        "thumb": "thumb-014919",
+        "thumb": "arc-014919",
         "archiveId": "ARC-014919",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 79",
         "sourceName": "DSC02367.ARW",
@@ -11595,7 +11577,7 @@ export const albums = [
       },
       {
         "image": "arc-014920",
-        "thumb": "thumb-014920",
+        "thumb": "arc-014920",
         "archiveId": "ARC-014920",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 80",
         "sourceName": "DSC02368.ARW",
@@ -11603,7 +11585,7 @@ export const albums = [
       },
       {
         "image": "arc-014921",
-        "thumb": "thumb-014921",
+        "thumb": "arc-014921",
         "archiveId": "ARC-014921",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 81",
         "sourceName": "DSC02369.ARW",
@@ -11611,7 +11593,7 @@ export const albums = [
       },
       {
         "image": "arc-014922",
-        "thumb": "thumb-014922",
+        "thumb": "arc-014922",
         "archiveId": "ARC-014922",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 82",
         "sourceName": "DSC02370.ARW",
@@ -11619,7 +11601,7 @@ export const albums = [
       },
       {
         "image": "arc-014923",
-        "thumb": "thumb-014923",
+        "thumb": "arc-014923",
         "archiveId": "ARC-014923",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 83",
         "sourceName": "DSC02371.ARW",
@@ -11627,7 +11609,7 @@ export const albums = [
       },
       {
         "image": "arc-014924",
-        "thumb": "thumb-014924",
+        "thumb": "arc-014924",
         "archiveId": "ARC-014924",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 84",
         "sourceName": "DSC02372.ARW",
@@ -11635,7 +11617,7 @@ export const albums = [
       },
       {
         "image": "arc-014925",
-        "thumb": "thumb-014925",
+        "thumb": "arc-014925",
         "archiveId": "ARC-014925",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 85",
         "sourceName": "DSC02373.ARW",
@@ -11643,7 +11625,7 @@ export const albums = [
       },
       {
         "image": "arc-014926",
-        "thumb": "thumb-014926",
+        "thumb": "arc-014926",
         "archiveId": "ARC-014926",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 86",
         "sourceName": "IMG20260309143114.jpg",
@@ -11651,7 +11633,7 @@ export const albums = [
       },
       {
         "image": "arc-014927",
-        "thumb": "thumb-014927",
+        "thumb": "arc-014927",
         "archiveId": "ARC-014927",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 87",
         "sourceName": "IMG20260309143134.jpg",
@@ -11659,7 +11641,7 @@ export const albums = [
       },
       {
         "image": "arc-014928",
-        "thumb": "thumb-014928",
+        "thumb": "arc-014928",
         "archiveId": "ARC-014928",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 88",
         "sourceName": "IMG20260314120717.jpg",
@@ -11667,7 +11649,7 @@ export const albums = [
       },
       {
         "image": "arc-014929",
-        "thumb": "thumb-014929",
+        "thumb": "arc-014929",
         "archiveId": "ARC-014929",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 89",
         "sourceName": "IMG20260314124357.jpg",
@@ -11675,7 +11657,7 @@ export const albums = [
       },
       {
         "image": "arc-014930",
-        "thumb": "thumb-014930",
+        "thumb": "arc-014930",
         "archiveId": "ARC-014930",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 90",
         "sourceName": "IMG20260314124413.jpg",
@@ -11683,7 +11665,7 @@ export const albums = [
       },
       {
         "image": "arc-014931",
-        "thumb": "thumb-014931",
+        "thumb": "arc-014931",
         "archiveId": "ARC-014931",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 91",
         "sourceName": "IMG20260326123629.jpg",
@@ -11691,7 +11673,7 @@ export const albums = [
       },
       {
         "image": "arc-014932",
-        "thumb": "thumb-014932",
+        "thumb": "arc-014932",
         "archiveId": "ARC-014932",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 92",
         "sourceName": "IMG20260326123638.jpg",
@@ -11699,7 +11681,7 @@ export const albums = [
       },
       {
         "image": "arc-014933",
-        "thumb": "thumb-014933",
+        "thumb": "arc-014933",
         "archiveId": "ARC-014933",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 93",
         "sourceName": "IMG20260326123734.jpg",
@@ -11707,7 +11689,7 @@ export const albums = [
       },
       {
         "image": "arc-014934",
-        "thumb": "thumb-014934",
+        "thumb": "arc-014934",
         "archiveId": "ARC-014934",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 94",
         "sourceName": "IMG20260326123747.jpg",
@@ -11715,7 +11697,7 @@ export const albums = [
       },
       {
         "image": "arc-014935",
-        "thumb": "thumb-014935",
+        "thumb": "arc-014935",
         "archiveId": "ARC-014935",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 95",
         "sourceName": "IMG20260326123802.jpg",
@@ -11723,7 +11705,7 @@ export const albums = [
       },
       {
         "image": "arc-014936",
-        "thumb": "thumb-014936",
+        "thumb": "arc-014936",
         "archiveId": "ARC-014936",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 96",
         "sourceName": "IMG20260326123815.jpg",
@@ -11731,7 +11713,7 @@ export const albums = [
       },
       {
         "image": "arc-014937",
-        "thumb": "thumb-014937",
+        "thumb": "arc-014937",
         "archiveId": "ARC-014937",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 97",
         "sourceName": "IMG20260326123824.jpg",
@@ -11739,7 +11721,7 @@ export const albums = [
       },
       {
         "image": "arc-014938",
-        "thumb": "thumb-014938",
+        "thumb": "arc-014938",
         "archiveId": "ARC-014938",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 98",
         "sourceName": "IMG20260326123907.jpg",
@@ -11747,7 +11729,7 @@ export const albums = [
       },
       {
         "image": "arc-014939",
-        "thumb": "thumb-014939",
+        "thumb": "arc-014939",
         "archiveId": "ARC-014939",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 99",
         "sourceName": "IMG20260326123935.jpg",
@@ -11755,7 +11737,7 @@ export const albums = [
       },
       {
         "image": "arc-014940",
-        "thumb": "thumb-014940",
+        "thumb": "arc-014940",
         "archiveId": "ARC-014940",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 100",
         "sourceName": "IMG20260326123956.jpg",
@@ -11763,7 +11745,7 @@ export const albums = [
       },
       {
         "image": "arc-014941",
-        "thumb": "thumb-014941",
+        "thumb": "arc-014941",
         "archiveId": "ARC-014941",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 101",
         "sourceName": "IMG20260326124022.jpg",
@@ -11771,7 +11753,7 @@ export const albums = [
       },
       {
         "image": "arc-014942",
-        "thumb": "thumb-014942",
+        "thumb": "arc-014942",
         "archiveId": "ARC-014942",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 102",
         "sourceName": "IMG20260326124123.jpg",
@@ -11779,7 +11761,7 @@ export const albums = [
       },
       {
         "image": "arc-014943",
-        "thumb": "thumb-014943",
+        "thumb": "arc-014943",
         "archiveId": "ARC-014943",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 103",
         "sourceName": "IMG20260326124141.jpg",
@@ -11787,7 +11769,7 @@ export const albums = [
       },
       {
         "image": "arc-014944",
-        "thumb": "thumb-014944",
+        "thumb": "arc-014944",
         "archiveId": "ARC-014944",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 104",
         "sourceName": "IMG20260328153716.jpg",
@@ -11795,7 +11777,7 @@ export const albums = [
       },
       {
         "image": "arc-014945",
-        "thumb": "thumb-014945",
+        "thumb": "arc-014945",
         "archiveId": "ARC-014945",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 105",
         "sourceName": "IMG20260328153730.jpg",
@@ -11803,7 +11785,7 @@ export const albums = [
       },
       {
         "image": "arc-014946",
-        "thumb": "thumb-014946",
+        "thumb": "arc-014946",
         "archiveId": "ARC-014946",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 106",
         "sourceName": "IMG20260328153737_BURST001_COVER.jpg",
@@ -11811,7 +11793,7 @@ export const albums = [
       },
       {
         "image": "arc-014947",
-        "thumb": "thumb-014947",
+        "thumb": "arc-014947",
         "archiveId": "ARC-014947",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 107",
         "sourceName": "IMG20260328153754.jpg",
@@ -11819,7 +11801,7 @@ export const albums = [
       },
       {
         "image": "arc-014948",
-        "thumb": "thumb-014948",
+        "thumb": "arc-014948",
         "archiveId": "ARC-014948",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 108",
         "sourceName": "IMG20260329122105.jpg",
@@ -11827,7 +11809,7 @@ export const albums = [
       },
       {
         "image": "arc-014949",
-        "thumb": "thumb-014949",
+        "thumb": "arc-014949",
         "archiveId": "ARC-014949",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 109",
         "sourceName": "IMG20260329122117.jpg",
@@ -11835,7 +11817,7 @@ export const albums = [
       },
       {
         "image": "arc-014950",
-        "thumb": "thumb-014950",
+        "thumb": "arc-014950",
         "archiveId": "ARC-014950",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 110",
         "sourceName": "IMG20260405201339.jpg",
@@ -11843,7 +11825,7 @@ export const albums = [
       },
       {
         "image": "arc-014951",
-        "thumb": "thumb-014951",
+        "thumb": "arc-014951",
         "archiveId": "ARC-014951",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 111",
         "sourceName": "IMG20260405201357.jpg",
@@ -11851,7 +11833,7 @@ export const albums = [
       },
       {
         "image": "arc-014952",
-        "thumb": "thumb-014952",
+        "thumb": "arc-014952",
         "archiveId": "ARC-014952",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 112",
         "sourceName": "IMG20260405201405.jpg",
@@ -11859,7 +11841,7 @@ export const albums = [
       },
       {
         "image": "arc-014953",
-        "thumb": "thumb-014953",
+        "thumb": "arc-014953",
         "archiveId": "ARC-014953",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 113",
         "sourceName": "IMG20260405201427.jpg",
@@ -11867,7 +11849,7 @@ export const albums = [
       },
       {
         "image": "arc-014954",
-        "thumb": "thumb-014954",
+        "thumb": "arc-014954",
         "archiveId": "ARC-014954",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 114",
         "sourceName": "IMG20260405201520.jpg",
@@ -11875,7 +11857,7 @@ export const albums = [
       },
       {
         "image": "arc-014955",
-        "thumb": "thumb-014955",
+        "thumb": "arc-014955",
         "archiveId": "ARC-014955",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 115",
         "sourceName": "IMG20260511110617_BURST001_COVER.jpg",
@@ -11883,7 +11865,7 @@ export const albums = [
       },
       {
         "image": "arc-014956",
-        "thumb": "thumb-014956",
+        "thumb": "arc-014956",
         "archiveId": "ARC-014956",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 116",
         "sourceName": "IMG20260511110620.jpg",
@@ -11891,7 +11873,7 @@ export const albums = [
       },
       {
         "image": "arc-014957",
-        "thumb": "thumb-014957",
+        "thumb": "arc-014957",
         "archiveId": "ARC-014957",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 117",
         "sourceName": "IMG20260511110628.jpg",
@@ -11899,7 +11881,7 @@ export const albums = [
       },
       {
         "image": "arc-014958",
-        "thumb": "thumb-014958",
+        "thumb": "arc-014958",
         "archiveId": "ARC-014958",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 118",
         "sourceName": "IMG20260511140017.jpg",
@@ -11907,7 +11889,7 @@ export const albums = [
       },
       {
         "image": "arc-014959",
-        "thumb": "thumb-014959",
+        "thumb": "arc-014959",
         "archiveId": "ARC-014959",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 119",
         "sourceName": "IMG20260603195026~2.jpg",
@@ -11915,7 +11897,7 @@ export const albums = [
       },
       {
         "image": "arc-014960",
-        "thumb": "thumb-014960",
+        "thumb": "arc-014960",
         "archiveId": "ARC-014960",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 120",
         "sourceName": "IMG20260603195042.jpg",
@@ -11923,7 +11905,7 @@ export const albums = [
       },
       {
         "image": "arc-014961",
-        "thumb": "thumb-014961",
+        "thumb": "arc-014961",
         "archiveId": "ARC-014961",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 121",
         "sourceName": "IMG20260604193930.jpg",
@@ -11931,7 +11913,7 @@ export const albums = [
       },
       {
         "image": "arc-014962",
-        "thumb": "thumb-014962",
+        "thumb": "arc-014962",
         "archiveId": "ARC-014962",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 122",
         "sourceName": "IMG20260604193930~2.jpg",
@@ -11939,7 +11921,7 @@ export const albums = [
       },
       {
         "image": "arc-014963",
-        "thumb": "thumb-014963",
+        "thumb": "arc-014963",
         "archiveId": "ARC-014963",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 123",
         "sourceName": "IMG20260604193948.jpg",
@@ -11947,7 +11929,7 @@ export const albums = [
       },
       {
         "image": "arc-014964",
-        "thumb": "thumb-014964",
+        "thumb": "arc-014964",
         "archiveId": "ARC-014964",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 124",
         "sourceName": "IMG20260604193948~2.jpg",
@@ -11955,7 +11937,7 @@ export const albums = [
       },
       {
         "image": "arc-014965",
-        "thumb": "thumb-014965",
+        "thumb": "arc-014965",
         "archiveId": "ARC-014965",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 125",
         "sourceName": "IMG20260604194013.jpg",
@@ -11963,7 +11945,7 @@ export const albums = [
       },
       {
         "image": "arc-014966",
-        "thumb": "thumb-014966",
+        "thumb": "arc-014966",
         "archiveId": "ARC-014966",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 126",
         "sourceName": "IMG20260604194013~2.jpg",
@@ -11971,7 +11953,7 @@ export const albums = [
       },
       {
         "image": "arc-014967",
-        "thumb": "thumb-014967",
+        "thumb": "arc-014967",
         "archiveId": "ARC-014967",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 127",
         "sourceName": "IMG20260610200823.jpg",
@@ -11979,7 +11961,7 @@ export const albums = [
       },
       {
         "image": "arc-014968",
-        "thumb": "thumb-014968",
+        "thumb": "arc-014968",
         "archiveId": "ARC-014968",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 128",
         "sourceName": "IMG20260619212231.jpg",
@@ -11987,7 +11969,7 @@ export const albums = [
       },
       {
         "image": "arc-014969",
-        "thumb": "thumb-014969",
+        "thumb": "arc-014969",
         "archiveId": "ARC-014969",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 129",
         "sourceName": "IMG20260624210506_BURST001_COVER.jpg",
@@ -11995,7 +11977,7 @@ export const albums = [
       },
       {
         "image": "arc-014970",
-        "thumb": "thumb-014970",
+        "thumb": "arc-014970",
         "archiveId": "ARC-014970",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 130",
         "sourceName": "IMG20260624210545.jpg",
@@ -12003,7 +11985,7 @@ export const albums = [
       },
       {
         "image": "arc-014971",
-        "thumb": "thumb-014971",
+        "thumb": "arc-014971",
         "archiveId": "ARC-014971",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 131",
         "sourceName": "IMG20260624210624.jpg",
@@ -12011,7 +11993,7 @@ export const albums = [
       },
       {
         "image": "arc-014972",
-        "thumb": "thumb-014972",
+        "thumb": "arc-014972",
         "archiveId": "ARC-014972",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 132",
         "sourceName": "IMG20260629212820.jpg",
@@ -12019,7 +12001,7 @@ export const albums = [
       },
       {
         "image": "arc-014973",
-        "thumb": "thumb-014973",
+        "thumb": "arc-014973",
         "archiveId": "ARC-014973",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 133",
         "sourceName": "IMG20260629212843.jpg",
@@ -12027,7 +12009,7 @@ export const albums = [
       },
       {
         "image": "arc-014974",
-        "thumb": "thumb-014974",
+        "thumb": "arc-014974",
         "archiveId": "ARC-014974",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 134",
         "sourceName": "IMG20260629212955.jpg",
@@ -12035,7 +12017,7 @@ export const albums = [
       },
       {
         "image": "arc-014975",
-        "thumb": "thumb-014975",
+        "thumb": "arc-014975",
         "archiveId": "ARC-014975",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 135",
         "sourceName": "IMG20260629212955~2.jpg",
@@ -12043,7 +12025,7 @@ export const albums = [
       },
       {
         "image": "arc-014976",
-        "thumb": "thumb-014976",
+        "thumb": "arc-014976",
         "archiveId": "ARC-014976",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 136",
         "sourceName": "IMG20260629213021.jpg",
@@ -12051,7 +12033,7 @@ export const albums = [
       },
       {
         "image": "arc-014977",
-        "thumb": "thumb-014977",
+        "thumb": "arc-014977",
         "archiveId": "ARC-014977",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 137",
         "sourceName": "IMG20260629213030.jpg",
@@ -12059,7 +12041,7 @@ export const albums = [
       },
       {
         "image": "arc-014978",
-        "thumb": "thumb-014978",
+        "thumb": "arc-014978",
         "archiveId": "ARC-014978",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 138",
         "sourceName": "IMG20260727205616.jpg",
@@ -12067,7 +12049,7 @@ export const albums = [
       },
       {
         "image": "arc-014979",
-        "thumb": "thumb-014979",
+        "thumb": "arc-014979",
         "archiveId": "ARC-014979",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 139",
         "sourceName": "IMG20260727205646.jpg",
@@ -12075,7 +12057,7 @@ export const albums = [
       },
       {
         "image": "arc-014980",
-        "thumb": "thumb-014980",
+        "thumb": "arc-014980",
         "archiveId": "ARC-014980",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 140",
         "sourceName": "IMG20260728205357.jpg",
@@ -12083,7 +12065,7 @@ export const albums = [
       },
       {
         "image": "arc-014981",
-        "thumb": "thumb-014981",
+        "thumb": "arc-014981",
         "archiveId": "ARC-014981",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 141",
         "sourceName": "IMG20260728205409.jpg",
@@ -12091,7 +12073,7 @@ export const albums = [
       },
       {
         "image": "arc-014982",
-        "thumb": "thumb-014982",
+        "thumb": "arc-014982",
         "archiveId": "ARC-014982",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 142",
         "sourceName": "IMG20260728205423~2.jpg",
@@ -12099,7 +12081,7 @@ export const albums = [
       },
       {
         "image": "arc-014983",
-        "thumb": "thumb-014983",
+        "thumb": "arc-014983",
         "archiveId": "ARC-014983",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 143",
         "sourceName": "IMG20260728205507.jpg",
@@ -12107,7 +12089,7 @@ export const albums = [
       },
       {
         "image": "arc-014984",
-        "thumb": "thumb-014984",
+        "thumb": "arc-014984",
         "archiveId": "ARC-014984",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 144",
         "sourceName": "IMG20260728205507~2.jpg",
@@ -12115,7 +12097,7 @@ export const albums = [
       },
       {
         "image": "arc-014985",
-        "thumb": "thumb-014985",
+        "thumb": "arc-014985",
         "archiveId": "ARC-014985",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 145",
         "sourceName": "IMG20260728205519.jpg",
@@ -12123,7 +12105,7 @@ export const albums = [
       },
       {
         "image": "arc-014986",
-        "thumb": "thumb-014986",
+        "thumb": "arc-014986",
         "archiveId": "ARC-014986",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 146",
         "sourceName": "IMG20260728212702.jpg",
@@ -12131,7 +12113,7 @@ export const albums = [
       },
       {
         "image": "arc-014987",
-        "thumb": "thumb-014987",
+        "thumb": "arc-014987",
         "archiveId": "ARC-014987",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 147",
         "sourceName": "IMG20260728212712~2.jpg",
@@ -12139,7 +12121,7 @@ export const albums = [
       },
       {
         "image": "arc-014988",
-        "thumb": "thumb-014988",
+        "thumb": "arc-014988",
         "archiveId": "ARC-014988",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 148",
         "sourceName": "IMG20260804200400_BURST001_COVER.jpg",
@@ -12147,7 +12129,7 @@ export const albums = [
       },
       {
         "image": "arc-014989",
-        "thumb": "thumb-014989",
+        "thumb": "arc-014989",
         "archiveId": "ARC-014989",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 149",
         "sourceName": "IMG20260804200417.jpg",
@@ -12155,7 +12137,7 @@ export const albums = [
       },
       {
         "image": "arc-014990",
-        "thumb": "thumb-014990",
+        "thumb": "arc-014990",
         "archiveId": "ARC-014990",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 150",
         "sourceName": "IMG20260804200454.jpg",
@@ -12163,7 +12145,7 @@ export const albums = [
       },
       {
         "image": "arc-014991",
-        "thumb": "thumb-014991",
+        "thumb": "arc-014991",
         "archiveId": "ARC-014991",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 151",
         "sourceName": "IMG20260804200510.jpg",
@@ -12171,7 +12153,7 @@ export const albums = [
       },
       {
         "image": "arc-014992",
-        "thumb": "thumb-014992",
+        "thumb": "arc-014992",
         "archiveId": "ARC-014992",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 152",
         "sourceName": "IMG20260804200530.jpg",
@@ -12179,7 +12161,7 @@ export const albums = [
       },
       {
         "image": "arc-014993",
-        "thumb": "thumb-014993",
+        "thumb": "arc-014993",
         "archiveId": "ARC-014993",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 153",
         "sourceName": "IMG20260804200618.jpg",
@@ -12187,7 +12169,7 @@ export const albums = [
       },
       {
         "image": "arc-014994",
-        "thumb": "thumb-014994",
+        "thumb": "arc-014994",
         "archiveId": "ARC-014994",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 154",
         "sourceName": "IMG20260804200643.jpg",
@@ -12195,7 +12177,7 @@ export const albums = [
       },
       {
         "image": "arc-014995",
-        "thumb": "thumb-014995",
+        "thumb": "arc-014995",
         "archiveId": "ARC-014995",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 155",
         "sourceName": "IMG20260804200727.jpg",
@@ -12203,7 +12185,7 @@ export const albums = [
       },
       {
         "image": "arc-014996",
-        "thumb": "thumb-014996",
+        "thumb": "arc-014996",
         "archiveId": "ARC-014996",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 156",
         "sourceName": "IMG20260804200738.jpg",
@@ -12211,7 +12193,7 @@ export const albums = [
       },
       {
         "image": "arc-014997",
-        "thumb": "thumb-014997",
+        "thumb": "arc-014997",
         "archiveId": "ARC-014997",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 157",
         "sourceName": "IMG20260804201122.jpg",
@@ -12219,7 +12201,7 @@ export const albums = [
       },
       {
         "image": "arc-014998",
-        "thumb": "thumb-014998",
+        "thumb": "arc-014998",
         "archiveId": "ARC-014998",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 158",
         "sourceName": "IMG20260804201207.jpg",
@@ -12227,7 +12209,7 @@ export const albums = [
       },
       {
         "image": "arc-014999",
-        "thumb": "thumb-014999",
+        "thumb": "arc-014999",
         "archiveId": "ARC-014999",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 159",
         "sourceName": "IMG20260804201207~2.jpg",
@@ -12235,7 +12217,7 @@ export const albums = [
       },
       {
         "image": "arc-015000",
-        "thumb": "thumb-015000",
+        "thumb": "arc-015000",
         "archiveId": "ARC-015000",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 160",
         "sourceName": "IMG20260805133737.jpg",
@@ -12243,7 +12225,7 @@ export const albums = [
       },
       {
         "image": "arc-015001",
-        "thumb": "thumb-015001",
+        "thumb": "arc-015001",
         "archiveId": "ARC-015001",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 161",
         "sourceName": "IMG20260805133747.jpg",
@@ -12251,7 +12233,7 @@ export const albums = [
       },
       {
         "image": "arc-015002",
-        "thumb": "thumb-015002",
+        "thumb": "arc-015002",
         "archiveId": "ARC-015002",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 162",
         "sourceName": "IMG20260809120427.jpg",
@@ -12259,7 +12241,7 @@ export const albums = [
       },
       {
         "image": "arc-015003",
-        "thumb": "thumb-015003",
+        "thumb": "arc-015003",
         "archiveId": "ARC-015003",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 163",
         "sourceName": "IMG20260809120436.jpg",
@@ -12267,7 +12249,7 @@ export const albums = [
       },
       {
         "image": "arc-015004",
-        "thumb": "thumb-015004",
+        "thumb": "arc-015004",
         "archiveId": "ARC-015004",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 164",
         "sourceName": "IMG20260809120458.jpg",
@@ -12275,7 +12257,7 @@ export const albums = [
       },
       {
         "image": "arc-015005",
-        "thumb": "thumb-015005",
+        "thumb": "arc-015005",
         "archiveId": "ARC-015005",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 165",
         "sourceName": "IMG20260809120458~2.jpg",
@@ -12283,7 +12265,7 @@ export const albums = [
       },
       {
         "image": "arc-015006",
-        "thumb": "thumb-015006",
+        "thumb": "arc-015006",
         "archiveId": "ARC-015006",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 166",
         "sourceName": "IMG20260816201736.jpg",
@@ -12291,7 +12273,7 @@ export const albums = [
       },
       {
         "image": "arc-015007",
-        "thumb": "thumb-015007",
+        "thumb": "arc-015007",
         "archiveId": "ARC-015007",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 167",
         "sourceName": "IMG20260816201744.jpg",
@@ -12299,7 +12281,7 @@ export const albums = [
       },
       {
         "image": "arc-015008",
-        "thumb": "thumb-015008",
+        "thumb": "arc-015008",
         "archiveId": "ARC-015008",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 168",
         "sourceName": "IMG20260816201758.jpg",
@@ -12307,7 +12289,7 @@ export const albums = [
       },
       {
         "image": "arc-015009",
-        "thumb": "thumb-015009",
+        "thumb": "arc-015009",
         "archiveId": "ARC-015009",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 169",
         "sourceName": "IMG20260816201830.jpg",
@@ -12315,7 +12297,7 @@ export const albums = [
       },
       {
         "image": "arc-015010",
-        "thumb": "thumb-015010",
+        "thumb": "arc-015010",
         "archiveId": "ARC-015010",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 170",
         "sourceName": "IMG20260816201858.jpg",
@@ -12323,7 +12305,7 @@ export const albums = [
       },
       {
         "image": "arc-015011",
-        "thumb": "thumb-015011",
+        "thumb": "arc-015011",
         "archiveId": "ARC-015011",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 171",
         "sourceName": "IMG20260817161218_BURST001_COVER.jpg",
@@ -12331,7 +12313,7 @@ export const albums = [
       },
       {
         "image": "arc-015012",
-        "thumb": "thumb-015012",
+        "thumb": "arc-015012",
         "archiveId": "ARC-015012",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 172",
         "sourceName": "IMG20260817161232_BURST001_COVER.jpg",
@@ -12339,7 +12321,7 @@ export const albums = [
       },
       {
         "image": "arc-015013",
-        "thumb": "thumb-015013",
+        "thumb": "arc-015013",
         "archiveId": "ARC-015013",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 173",
         "sourceName": "IMG20260817161252_BURST001_COVER.jpg",
@@ -12347,7 +12329,7 @@ export const albums = [
       },
       {
         "image": "arc-015014",
-        "thumb": "thumb-015014",
+        "thumb": "arc-015014",
         "archiveId": "ARC-015014",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 174",
         "sourceName": "IMG20260817161318.jpg",
@@ -12355,7 +12337,7 @@ export const albums = [
       },
       {
         "image": "arc-015015",
-        "thumb": "thumb-015015",
+        "thumb": "arc-015015",
         "archiveId": "ARC-015015",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 175",
         "sourceName": "IMG20260817161454.jpg",
@@ -12363,7 +12345,7 @@ export const albums = [
       },
       {
         "image": "arc-015016",
-        "thumb": "thumb-015016",
+        "thumb": "arc-015016",
         "archiveId": "ARC-015016",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 176",
         "sourceName": "IMG20260817161512.jpg",
@@ -12371,7 +12353,7 @@ export const albums = [
       },
       {
         "image": "arc-015017",
-        "thumb": "thumb-015017",
+        "thumb": "arc-015017",
         "archiveId": "ARC-015017",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 177",
         "sourceName": "IMG20260817193235.jpg",
@@ -12379,7 +12361,7 @@ export const albums = [
       },
       {
         "image": "arc-015018",
-        "thumb": "thumb-015018",
+        "thumb": "arc-015018",
         "archiveId": "ARC-015018",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 178",
         "sourceName": "IMG20260817193256_BURST001_COVER.jpg",
@@ -12387,7 +12369,7 @@ export const albums = [
       },
       {
         "image": "arc-015019",
-        "thumb": "thumb-015019",
+        "thumb": "arc-015019",
         "archiveId": "ARC-015019",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 179",
         "sourceName": "IMG20260817193314.jpg",
@@ -12395,7 +12377,7 @@ export const albums = [
       },
       {
         "image": "arc-015020",
-        "thumb": "thumb-015020",
+        "thumb": "arc-015020",
         "archiveId": "ARC-015020",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 180",
         "sourceName": "IMG20260817193340.jpg",
@@ -12403,7 +12385,7 @@ export const albums = [
       },
       {
         "image": "arc-015021",
-        "thumb": "thumb-015021",
+        "thumb": "arc-015021",
         "archiveId": "ARC-015021",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 181",
         "sourceName": "IMG20260819142328~2.jpg",
@@ -12411,7 +12393,7 @@ export const albums = [
       },
       {
         "image": "arc-015022",
-        "thumb": "thumb-015022",
+        "thumb": "arc-015022",
         "archiveId": "ARC-015022",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 182",
         "sourceName": "IMG20260819142341~2.jpg",
@@ -12419,7 +12401,7 @@ export const albums = [
       },
       {
         "image": "arc-015023",
-        "thumb": "thumb-015023",
+        "thumb": "arc-015023",
         "archiveId": "ARC-015023",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 183",
         "sourceName": "IMG20260819142355~2.jpg",
@@ -12427,7 +12409,7 @@ export const albums = [
       },
       {
         "image": "arc-015024",
-        "thumb": "thumb-015024",
+        "thumb": "arc-015024",
         "archiveId": "ARC-015024",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 184",
         "sourceName": "IMG20260819142413.jpg",
@@ -12435,7 +12417,7 @@ export const albums = [
       },
       {
         "image": "arc-015025",
-        "thumb": "thumb-015025",
+        "thumb": "arc-015025",
         "archiveId": "ARC-015025",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 185",
         "sourceName": "IMG20260819142413~2.jpg",
@@ -12443,7 +12425,7 @@ export const albums = [
       },
       {
         "image": "arc-015026",
-        "thumb": "thumb-015026",
+        "thumb": "arc-015026",
         "archiveId": "ARC-015026",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 186",
         "sourceName": "IMG20260819142453~2.jpg",
@@ -12451,7 +12433,7 @@ export const albums = [
       },
       {
         "image": "arc-015027",
-        "thumb": "thumb-015027",
+        "thumb": "arc-015027",
         "archiveId": "ARC-015027",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 187",
         "sourceName": "IMG20260819142503~2.jpg",
@@ -12459,7 +12441,7 @@ export const albums = [
       },
       {
         "image": "arc-015028",
-        "thumb": "thumb-015028",
+        "thumb": "arc-015028",
         "archiveId": "ARC-015028",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 188",
         "sourceName": "IMG20260820122421~3.jpg",
@@ -12467,7 +12449,7 @@ export const albums = [
       },
       {
         "image": "arc-015029",
-        "thumb": "thumb-015029",
+        "thumb": "arc-015029",
         "archiveId": "ARC-015029",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 189",
         "sourceName": "IMG20260820122433~3.jpg",
@@ -12475,7 +12457,7 @@ export const albums = [
       },
       {
         "image": "arc-015030",
-        "thumb": "thumb-015030",
+        "thumb": "arc-015030",
         "archiveId": "ARC-015030",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 190",
         "sourceName": "IMG20260820122459~3.jpg",
@@ -12483,7 +12465,7 @@ export const albums = [
       },
       {
         "image": "arc-015031",
-        "thumb": "thumb-015031",
+        "thumb": "arc-015031",
         "archiveId": "ARC-015031",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 191",
         "sourceName": "IMG20260824175243_BURST001_COVER~2.jpg",
@@ -12491,7 +12473,7 @@ export const albums = [
       },
       {
         "image": "arc-015032",
-        "thumb": "thumb-015032",
+        "thumb": "arc-015032",
         "archiveId": "ARC-015032",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 192",
         "sourceName": "IMG20260824190926~2.jpg",
@@ -12499,7 +12481,7 @@ export const albums = [
       },
       {
         "image": "arc-015033",
-        "thumb": "thumb-015033",
+        "thumb": "arc-015033",
         "archiveId": "ARC-015033",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 193",
         "sourceName": "IMG20260825120912~2.jpg",
@@ -12507,7 +12489,7 @@ export const albums = [
       },
       {
         "image": "arc-015034",
-        "thumb": "thumb-015034",
+        "thumb": "arc-015034",
         "archiveId": "ARC-015034",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 194",
         "sourceName": "IMG20260828140026~2.jpg",
@@ -12515,7 +12497,7 @@ export const albums = [
       },
       {
         "image": "arc-015035",
-        "thumb": "thumb-015035",
+        "thumb": "arc-015035",
         "archiveId": "ARC-015035",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 195",
         "sourceName": "IMG20260828193341.jpg",
@@ -12523,7 +12505,7 @@ export const albums = [
       },
       {
         "image": "arc-015036",
-        "thumb": "thumb-015036",
+        "thumb": "arc-015036",
         "archiveId": "ARC-015036",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 196",
         "sourceName": "IMG20260828193341~2.jpg",
@@ -12531,7 +12513,7 @@ export const albums = [
       },
       {
         "image": "arc-015037",
-        "thumb": "thumb-015037",
+        "thumb": "arc-015037",
         "archiveId": "ARC-015037",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 197",
         "sourceName": "IMG20260906133330~3.jpg",
@@ -12539,7 +12521,7 @@ export const albums = [
       },
       {
         "image": "arc-015038",
-        "thumb": "thumb-015038",
+        "thumb": "arc-015038",
         "archiveId": "ARC-015038",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 198",
         "sourceName": "IMG20260906133353~3.jpg",
@@ -12547,7 +12529,7 @@ export const albums = [
       },
       {
         "image": "arc-015039",
-        "thumb": "thumb-015039",
+        "thumb": "arc-015039",
         "archiveId": "ARC-015039",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 199",
         "sourceName": "IMG20260906133402~3.jpg",
@@ -12555,7 +12537,7 @@ export const albums = [
       },
       {
         "image": "arc-015040",
-        "thumb": "thumb-015040",
+        "thumb": "arc-015040",
         "archiveId": "ARC-015040",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 200",
         "sourceName": "IMG20260906133418~2.jpg",
@@ -12563,7 +12545,7 @@ export const albums = [
       },
       {
         "image": "arc-015041",
-        "thumb": "thumb-015041",
+        "thumb": "arc-015041",
         "archiveId": "ARC-015041",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 201",
         "sourceName": "IMG20260906133435~3.jpg",
@@ -12571,7 +12553,7 @@ export const albums = [
       },
       {
         "image": "arc-015042",
-        "thumb": "thumb-015042",
+        "thumb": "arc-015042",
         "archiveId": "ARC-015042",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 202",
         "sourceName": "IMG20260907095105~2.jpg",
@@ -12579,7 +12561,7 @@ export const albums = [
       },
       {
         "image": "arc-015043",
-        "thumb": "thumb-015043",
+        "thumb": "arc-015043",
         "archiveId": "ARC-015043",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 203",
         "sourceName": "IMG20260907095124~2.jpg",
@@ -12587,7 +12569,7 @@ export const albums = [
       },
       {
         "image": "arc-015044",
-        "thumb": "thumb-015044",
+        "thumb": "arc-015044",
         "archiveId": "ARC-015044",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 204",
         "sourceName": "IMG20260907095234~2.jpg",
@@ -12595,7 +12577,7 @@ export const albums = [
       },
       {
         "image": "arc-015045",
-        "thumb": "thumb-015045",
+        "thumb": "arc-015045",
         "archiveId": "ARC-015045",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 205",
         "sourceName": "IMG20260907095349~2.jpg",
@@ -12603,7 +12585,7 @@ export const albums = [
       },
       {
         "image": "arc-015046",
-        "thumb": "thumb-015046",
+        "thumb": "arc-015046",
         "archiveId": "ARC-015046",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 206",
         "sourceName": "IMG20260907095405~2.jpg",
@@ -12611,7 +12593,7 @@ export const albums = [
       },
       {
         "image": "arc-015047",
-        "thumb": "thumb-015047",
+        "thumb": "arc-015047",
         "archiveId": "ARC-015047",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 207",
         "sourceName": "IMG20260907095551~2.jpg",
@@ -12619,7 +12601,7 @@ export const albums = [
       },
       {
         "image": "arc-015048",
-        "thumb": "thumb-015048",
+        "thumb": "arc-015048",
         "archiveId": "ARC-015048",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 208",
         "sourceName": "IMG20260907095610~2.jpg",
@@ -12627,7 +12609,7 @@ export const albums = [
       },
       {
         "image": "arc-015049",
-        "thumb": "thumb-015049",
+        "thumb": "arc-015049",
         "archiveId": "ARC-015049",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 209",
         "sourceName": "IMG20260907095628~2.jpg",
@@ -12635,7 +12617,7 @@ export const albums = [
       },
       {
         "image": "arc-015050",
-        "thumb": "thumb-015050",
+        "thumb": "arc-015050",
         "archiveId": "ARC-015050",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 210",
         "sourceName": "IMG20260907095645~2.jpg",
@@ -12643,7 +12625,7 @@ export const albums = [
       },
       {
         "image": "arc-015051",
-        "thumb": "thumb-015051",
+        "thumb": "arc-015051",
         "archiveId": "ARC-015051",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 211",
         "sourceName": "IMG20260908120619.jpg",
@@ -12651,7 +12633,7 @@ export const albums = [
       },
       {
         "image": "arc-015052",
-        "thumb": "thumb-015052",
+        "thumb": "arc-015052",
         "archiveId": "ARC-015052",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 212",
         "sourceName": "IMG20260908120643~2.jpg",
@@ -12659,7 +12641,7 @@ export const albums = [
       },
       {
         "image": "arc-015053",
-        "thumb": "thumb-015053",
+        "thumb": "arc-015053",
         "archiveId": "ARC-015053",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 213",
         "sourceName": "IMG20260908120650.jpg",
@@ -12667,7 +12649,7 @@ export const albums = [
       },
       {
         "image": "arc-015054",
-        "thumb": "thumb-015054",
+        "thumb": "arc-015054",
         "archiveId": "ARC-015054",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 214",
         "sourceName": "IMG20260910161048.jpg",
@@ -12675,7 +12657,7 @@ export const albums = [
       },
       {
         "image": "arc-015055",
-        "thumb": "thumb-015055",
+        "thumb": "arc-015055",
         "archiveId": "ARC-015055",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 215",
         "sourceName": "IMG20260910161056.jpg",
@@ -12683,7 +12665,7 @@ export const albums = [
       },
       {
         "image": "arc-015056",
-        "thumb": "thumb-015056",
+        "thumb": "arc-015056",
         "archiveId": "ARC-015056",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 216",
         "sourceName": "IMG20260910161256.jpg",
@@ -12691,7 +12673,7 @@ export const albums = [
       },
       {
         "image": "arc-015057",
-        "thumb": "thumb-015057",
+        "thumb": "arc-015057",
         "archiveId": "ARC-015057",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 217",
         "sourceName": "IMG_20240414_123613.jpg",
@@ -12699,7 +12681,7 @@ export const albums = [
       },
       {
         "image": "arc-015058",
-        "thumb": "thumb-015058",
+        "thumb": "arc-015058",
         "archiveId": "ARC-015058",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 218",
         "sourceName": "IMG_20240511_205553.jpg",
@@ -12707,7 +12689,7 @@ export const albums = [
       },
       {
         "image": "arc-015059",
-        "thumb": "thumb-015059",
+        "thumb": "arc-015059",
         "archiveId": "ARC-015059",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 219",
         "sourceName": "IMG_20240511_205603.jpg",
@@ -12715,7 +12697,7 @@ export const albums = [
       },
       {
         "image": "arc-015060",
-        "thumb": "thumb-015060",
+        "thumb": "arc-015060",
         "archiveId": "ARC-015060",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 220",
         "sourceName": "IMG_20240511_205643.jpg",
@@ -12723,7 +12705,7 @@ export const albums = [
       },
       {
         "image": "arc-015061",
-        "thumb": "thumb-015061",
+        "thumb": "arc-015061",
         "archiveId": "ARC-015061",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 221",
         "sourceName": "IMG_20240511_205656.jpg",
@@ -12731,7 +12713,7 @@ export const albums = [
       },
       {
         "image": "arc-015062",
-        "thumb": "thumb-015062",
+        "thumb": "arc-015062",
         "archiveId": "ARC-015062",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 222",
         "sourceName": "IMG_20240511_205707.jpg",
@@ -12739,7 +12721,7 @@ export const albums = [
       },
       {
         "image": "arc-015063",
-        "thumb": "thumb-015063",
+        "thumb": "arc-015063",
         "archiveId": "ARC-015063",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 223",
         "sourceName": "IMG_20240511_205723.jpg",
@@ -12747,7 +12729,7 @@ export const albums = [
       },
       {
         "image": "arc-015064",
-        "thumb": "thumb-015064",
+        "thumb": "arc-015064",
         "archiveId": "ARC-015064",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 224",
         "sourceName": "IMG_20240512_123634.jpg",
@@ -12755,7 +12737,7 @@ export const albums = [
       },
       {
         "image": "arc-015065",
-        "thumb": "thumb-015065",
+        "thumb": "arc-015065",
         "archiveId": "ARC-015065",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 225",
         "sourceName": "IMG_20240512_123639.jpg",
@@ -12763,7 +12745,7 @@ export const albums = [
       },
       {
         "image": "arc-015066",
-        "thumb": "thumb-015066",
+        "thumb": "arc-015066",
         "archiveId": "ARC-015066",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 226",
         "sourceName": "IMG_20240512_123654.jpg",
@@ -12771,7 +12753,7 @@ export const albums = [
       },
       {
         "image": "arc-015067",
-        "thumb": "thumb-015067",
+        "thumb": "arc-015067",
         "archiveId": "ARC-015067",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 227",
         "sourceName": "IMG_20240512_123717.jpg",
@@ -12779,7 +12761,7 @@ export const albums = [
       },
       {
         "image": "arc-015068",
-        "thumb": "thumb-015068",
+        "thumb": "arc-015068",
         "archiveId": "ARC-015068",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 228",
         "sourceName": "IMG_20240512_123759.jpg",
@@ -12787,7 +12769,7 @@ export const albums = [
       },
       {
         "image": "arc-015069",
-        "thumb": "thumb-015069",
+        "thumb": "arc-015069",
         "archiveId": "ARC-015069",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 229",
         "sourceName": "IMG_20241110_151441.jpg",
@@ -12795,7 +12777,7 @@ export const albums = [
       },
       {
         "image": "arc-015070",
-        "thumb": "thumb-015070",
+        "thumb": "arc-015070",
         "archiveId": "ARC-015070",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 230",
         "sourceName": "IMG_20241110_151447.jpg",
@@ -12803,7 +12785,7 @@ export const albums = [
       },
       {
         "image": "arc-015071",
-        "thumb": "thumb-015071",
+        "thumb": "arc-015071",
         "archiveId": "ARC-015071",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 231",
         "sourceName": "IMG_20241110_151500.jpg",
@@ -12811,7 +12793,7 @@ export const albums = [
       },
       {
         "image": "arc-015072",
-        "thumb": "thumb-015072",
+        "thumb": "arc-015072",
         "archiveId": "ARC-015072",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 232",
         "sourceName": "IMG_20241110_151505.jpg",
@@ -12819,7 +12801,7 @@ export const albums = [
       },
       {
         "image": "arc-015073",
-        "thumb": "thumb-015073",
+        "thumb": "arc-015073",
         "archiveId": "ARC-015073",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 233",
         "sourceName": "IMG_20241115_151145.jpg",
@@ -12827,7 +12809,7 @@ export const albums = [
       },
       {
         "image": "arc-015074",
-        "thumb": "thumb-015074",
+        "thumb": "arc-015074",
         "archiveId": "ARC-015074",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 234",
         "sourceName": "IMG_20241115_151157.jpg",
@@ -12835,7 +12817,7 @@ export const albums = [
       },
       {
         "image": "arc-015075",
-        "thumb": "thumb-015075",
+        "thumb": "arc-015075",
         "archiveId": "ARC-015075",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 235",
         "sourceName": "IMG_20241115_151208.jpg",
@@ -12843,7 +12825,7 @@ export const albums = [
       },
       {
         "image": "arc-015076",
-        "thumb": "thumb-015076",
+        "thumb": "arc-015076",
         "archiveId": "ARC-015076",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 236",
         "sourceName": "IMG_20241122_163944.jpg",
@@ -12851,14 +12833,14 @@ export const albums = [
       },
       {
         "image": "arc-015077",
-        "thumb": "thumb-015077",
+        "thumb": "arc-015077",
         "archiveId": "ARC-015077",
         "alt": "Naturaleza Móviles · El archivo de las tomas · fotografía 237",
         "sourceName": "IMG_20241122_164000.jpg",
         "contentKey": "ARC-015077"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "source": "Fondo NATURALEZA MOBILES. 237 registros fotográficos revisados, incluidos originales RAW mediante sus previas incrustadas."
   },
   {
@@ -12878,7 +12860,7 @@ export const albums = [
     "gallery": [
       {
         "image": "evolucion-013392-restored",
-        "thumb": "thumb-evolucion-013392-restored",
+        "thumb": "evolucion-013392-restored",
         "archiveId": "ARC-013392",
         "alt": "Evolución 1984–2004 · fotografía 1",
         "sourceName": "100_0071.jpg",
@@ -12886,7 +12868,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013393-restored",
-        "thumb": "thumb-evolucion-013393-restored",
+        "thumb": "evolucion-013393-restored",
         "archiveId": "ARC-013393",
         "alt": "Evolución 1984–2004 · fotografía 2",
         "sourceName": "100_0072.jpg",
@@ -12894,7 +12876,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013394-restored",
-        "thumb": "thumb-evolucion-013394-restored",
+        "thumb": "evolucion-013394-restored",
         "archiveId": "ARC-013394",
         "alt": "Evolución 1984–2004 · fotografía 3",
         "sourceName": "100_0073.jpg",
@@ -12902,7 +12884,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013395-restored",
-        "thumb": "thumb-evolucion-013395-restored",
+        "thumb": "evolucion-013395-restored",
         "archiveId": "ARC-013395",
         "alt": "Evolución 1984–2004 · fotografía 4",
         "sourceName": "100_0074.jpg",
@@ -12910,7 +12892,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013396-restored",
-        "thumb": "thumb-evolucion-013396-restored",
+        "thumb": "evolucion-013396-restored",
         "archiveId": "ARC-013396",
         "alt": "Evolución 1984–2004 · fotografía 5",
         "sourceName": "100_0075.jpg",
@@ -12918,7 +12900,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013397-restored",
-        "thumb": "thumb-evolucion-013397-restored",
+        "thumb": "evolucion-013397-restored",
         "archiveId": "ARC-013397",
         "alt": "Evolución 1984–2004 · fotografía 6",
         "sourceName": "100_0076.jpg",
@@ -12926,7 +12908,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013399-restored",
-        "thumb": "thumb-evolucion-013399-restored",
+        "thumb": "evolucion-013399-restored",
         "archiveId": "ARC-013399",
         "alt": "Evolución 1984–2004 · fotografía 7",
         "sourceName": "100_0079.jpg",
@@ -12934,7 +12916,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013400-restored",
-        "thumb": "thumb-evolucion-013400-restored",
+        "thumb": "evolucion-013400-restored",
         "archiveId": "ARC-013400",
         "alt": "Evolución 1984–2004 · fotografía 8",
         "sourceName": "100_0080.jpg",
@@ -12942,7 +12924,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013401-restored",
-        "thumb": "thumb-evolucion-013401-restored",
+        "thumb": "evolucion-013401-restored",
         "archiveId": "ARC-013401",
         "alt": "Evolución 1984–2004 · fotografía 9",
         "sourceName": "100_0081.jpg",
@@ -12950,7 +12932,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013402-restored",
-        "thumb": "thumb-evolucion-013402-restored",
+        "thumb": "evolucion-013402-restored",
         "archiveId": "ARC-013402",
         "alt": "Evolución 1984–2004 · fotografía 10",
         "sourceName": "100_0082.jpg",
@@ -12958,7 +12940,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013403-restored",
-        "thumb": "thumb-evolucion-013403-restored",
+        "thumb": "evolucion-013403-restored",
         "archiveId": "ARC-013403",
         "alt": "Evolución 1984–2004 · fotografía 11",
         "sourceName": "100_0083.jpg",
@@ -12966,7 +12948,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013404-restored",
-        "thumb": "thumb-evolucion-013404-restored",
+        "thumb": "evolucion-013404-restored",
         "archiveId": "ARC-013404",
         "alt": "Evolución 1984–2004 · fotografía 12",
         "sourceName": "100_0084.jpg",
@@ -12974,7 +12956,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013405-restored",
-        "thumb": "thumb-evolucion-013405-restored",
+        "thumb": "evolucion-013405-restored",
         "archiveId": "ARC-013405",
         "alt": "Evolución 1984–2004 · fotografía 13",
         "sourceName": "100_0085.jpg",
@@ -12982,7 +12964,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013406-restored",
-        "thumb": "thumb-evolucion-013406-restored",
+        "thumb": "evolucion-013406-restored",
         "archiveId": "ARC-013406",
         "alt": "Evolución 1984–2004 · fotografía 14",
         "sourceName": "100_0086.jpg",
@@ -12990,7 +12972,7 @@ export const albums = [
       },
       {
         "image": "evolucion-013419-restored",
-        "thumb": "thumb-evolucion-013419-restored",
+        "thumb": "evolucion-013419-restored",
         "archiveId": "ARC-013419",
         "alt": "Evolución 1984–2004 · fotografía 15",
         "sourceName": "100_0087.jpg",
@@ -12998,14 +12980,14 @@ export const albums = [
       },
       {
         "image": "evolucion-013413-restored",
-        "thumb": "thumb-evolucion-013413-restored",
+        "thumb": "evolucion-013413-restored",
         "archiveId": "ARC-013413",
         "alt": "Evolución 1984–2004 · fotografía 16",
         "sourceName": "100_0093.jpg",
         "contentKey": "ARC-013413"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "place": "Sala d’Exposicions de les Belles Arts · Valencia",
     "date": "3 febrero — 3 marzo 2005",
     "source": "Título, sede y fechas documentados en la invitación ARC-013418."
@@ -13027,7 +13009,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-009490",
-        "thumb": "thumb-009490",
+        "thumb": "arc-009490",
         "archiveId": "ARC-009490",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 1",
         "sourceName": "CAIXA CASTELLÓ2 2006-34.JPG",
@@ -13035,7 +13017,7 @@ export const albums = [
       },
       {
         "image": "arc-009486",
-        "thumb": "thumb-009486",
+        "thumb": "arc-009486",
         "archiveId": "ARC-009486",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 2",
         "sourceName": "CAIXA CASTELLÓ2 2006-30.JPG",
@@ -13043,7 +13025,7 @@ export const albums = [
       },
       {
         "image": "arc-009487",
-        "thumb": "thumb-009487",
+        "thumb": "arc-009487",
         "archiveId": "ARC-009487",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 3",
         "sourceName": "CAIXA CASTELLÓ2 2006-31.JPG",
@@ -13051,7 +13033,7 @@ export const albums = [
       },
       {
         "image": "arc-009488",
-        "thumb": "thumb-009488",
+        "thumb": "arc-009488",
         "archiveId": "ARC-009488",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 4",
         "sourceName": "CAIXA CASTELLÓ2 2006-32.JPG",
@@ -13059,7 +13041,7 @@ export const albums = [
       },
       {
         "image": "arc-009489",
-        "thumb": "thumb-009489",
+        "thumb": "arc-009489",
         "archiveId": "ARC-009489",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 5",
         "sourceName": "CAIXA CASTELLÓ2 2006-33.JPG",
@@ -13067,7 +13049,7 @@ export const albums = [
       },
       {
         "image": "arc-009491",
-        "thumb": "thumb-009491",
+        "thumb": "arc-009491",
         "archiveId": "ARC-009491",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 6",
         "sourceName": "CAIXA CASTELLÓ2 2006-35.JPG",
@@ -13075,7 +13057,7 @@ export const albums = [
       },
       {
         "image": "arc-009492",
-        "thumb": "thumb-009492",
+        "thumb": "arc-009492",
         "archiveId": "ARC-009492",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 7",
         "sourceName": "CAIXA CASTELLÓ2 2006-36.JPG",
@@ -13083,7 +13065,7 @@ export const albums = [
       },
       {
         "image": "arc-009493",
-        "thumb": "thumb-009493",
+        "thumb": "arc-009493",
         "archiveId": "ARC-009493",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 8",
         "sourceName": "CAIXA CASTELLÓ2 2006-37.JPG",
@@ -13091,7 +13073,7 @@ export const albums = [
       },
       {
         "image": "arc-009494",
-        "thumb": "thumb-009494",
+        "thumb": "arc-009494",
         "archiveId": "ARC-009494",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 9",
         "sourceName": "CAIXA CASTELLÓ2 2006-38.JPG",
@@ -13099,7 +13081,7 @@ export const albums = [
       },
       {
         "image": "arc-009495",
-        "thumb": "thumb-009495",
+        "thumb": "arc-009495",
         "archiveId": "ARC-009495",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 10",
         "sourceName": "CAIXA CASTELLÓ2 2006-39.JPG",
@@ -13107,7 +13089,7 @@ export const albums = [
       },
       {
         "image": "arc-009496",
-        "thumb": "thumb-009496",
+        "thumb": "arc-009496",
         "archiveId": "ARC-009496",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 11",
         "sourceName": "CAIXA CASTELLÓ2 2006-40.JPG",
@@ -13115,7 +13097,7 @@ export const albums = [
       },
       {
         "image": "arc-009497",
-        "thumb": "thumb-009497",
+        "thumb": "arc-009497",
         "archiveId": "ARC-009497",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 12",
         "sourceName": "CAIXA CASTELLÓ2 2006-41.JPG",
@@ -13123,7 +13105,7 @@ export const albums = [
       },
       {
         "image": "arc-009498",
-        "thumb": "thumb-009498",
+        "thumb": "arc-009498",
         "archiveId": "ARC-009498",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 13",
         "sourceName": "CAIXA CASTELLÓ2 2006-42.JPG",
@@ -13131,7 +13113,7 @@ export const albums = [
       },
       {
         "image": "arc-009499",
-        "thumb": "thumb-009499",
+        "thumb": "arc-009499",
         "archiveId": "ARC-009499",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 14",
         "sourceName": "CAIXA CASTELLÓ2 2006-43.JPG",
@@ -13139,7 +13121,7 @@ export const albums = [
       },
       {
         "image": "arc-009500",
-        "thumb": "thumb-009500",
+        "thumb": "arc-009500",
         "archiveId": "ARC-009500",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 15",
         "sourceName": "CAIXA CASTELLÓ2 2006-44.JPG",
@@ -13147,7 +13129,7 @@ export const albums = [
       },
       {
         "image": "arc-009501",
-        "thumb": "thumb-009501",
+        "thumb": "arc-009501",
         "archiveId": "ARC-009501",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 16",
         "sourceName": "CAIXA CASTELLÓ2 2006-45.JPG",
@@ -13155,7 +13137,7 @@ export const albums = [
       },
       {
         "image": "arc-009502",
-        "thumb": "thumb-009502",
+        "thumb": "arc-009502",
         "archiveId": "ARC-009502",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 17",
         "sourceName": "CAIXA CASTELLÓ2 2006-46.JPG",
@@ -13163,7 +13145,7 @@ export const albums = [
       },
       {
         "image": "arc-009503",
-        "thumb": "thumb-009503",
+        "thumb": "arc-009503",
         "archiveId": "ARC-009503",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 18",
         "sourceName": "CAIXA CASTELLÓ2 2006-47.JPG",
@@ -13171,7 +13153,7 @@ export const albums = [
       },
       {
         "image": "arc-009504",
-        "thumb": "thumb-009504",
+        "thumb": "arc-009504",
         "archiveId": "ARC-009504",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 19",
         "sourceName": "CAIXA CASTELLÓ2 2006-48.JPG",
@@ -13179,7 +13161,7 @@ export const albums = [
       },
       {
         "image": "arc-009505",
-        "thumb": "thumb-009505",
+        "thumb": "arc-009505",
         "archiveId": "ARC-009505",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 20",
         "sourceName": "CAIXA CASTELLÓ2 2006-49.JPG",
@@ -13187,7 +13169,7 @@ export const albums = [
       },
       {
         "image": "arc-009506",
-        "thumb": "thumb-009506",
+        "thumb": "arc-009506",
         "archiveId": "ARC-009506",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 21",
         "sourceName": "CAIXA CASTELLÓ2 2006-50.JPG",
@@ -13195,7 +13177,7 @@ export const albums = [
       },
       {
         "image": "arc-009507",
-        "thumb": "thumb-009507",
+        "thumb": "arc-009507",
         "archiveId": "ARC-009507",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 22",
         "sourceName": "CAIXA CASTELLÓ2 2006-51.JPG",
@@ -13203,7 +13185,7 @@ export const albums = [
       },
       {
         "image": "arc-009508",
-        "thumb": "thumb-009508",
+        "thumb": "arc-009508",
         "archiveId": "ARC-009508",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 23",
         "sourceName": "CAIXA CASTELLÓ2 2006-52.JPG",
@@ -13211,7 +13193,7 @@ export const albums = [
       },
       {
         "image": "arc-009509",
-        "thumb": "thumb-009509",
+        "thumb": "arc-009509",
         "archiveId": "ARC-009509",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 24",
         "sourceName": "CAIXA CASTELLÓ2 2006-53.JPG",
@@ -13219,7 +13201,7 @@ export const albums = [
       },
       {
         "image": "arc-009510",
-        "thumb": "thumb-009510",
+        "thumb": "arc-009510",
         "archiveId": "ARC-009510",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 25",
         "sourceName": "CAIXA CASTELLÓ2 2006-54.JPG",
@@ -13227,7 +13209,7 @@ export const albums = [
       },
       {
         "image": "arc-009511",
-        "thumb": "thumb-009511",
+        "thumb": "arc-009511",
         "archiveId": "ARC-009511",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 26",
         "sourceName": "CAIXA CASTELLÓ2 2006-55.JPG",
@@ -13235,7 +13217,7 @@ export const albums = [
       },
       {
         "image": "arc-009512",
-        "thumb": "thumb-009512",
+        "thumb": "arc-009512",
         "archiveId": "ARC-009512",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 27",
         "sourceName": "CAIXA CASTELLÓ2 2006-56.JPG",
@@ -13243,7 +13225,7 @@ export const albums = [
       },
       {
         "image": "arc-009513",
-        "thumb": "thumb-009513",
+        "thumb": "arc-009513",
         "archiveId": "ARC-009513",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 28",
         "sourceName": "CAIXA CASTELLÓ2 2006-57.JPG",
@@ -13251,7 +13233,7 @@ export const albums = [
       },
       {
         "image": "arc-009514",
-        "thumb": "thumb-009514",
+        "thumb": "arc-009514",
         "archiveId": "ARC-009514",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 29",
         "sourceName": "CAIXA CASTELLÓ2 2006-58.JPG",
@@ -13259,7 +13241,7 @@ export const albums = [
       },
       {
         "image": "arc-009515",
-        "thumb": "thumb-009515",
+        "thumb": "arc-009515",
         "archiveId": "ARC-009515",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 30",
         "sourceName": "CAIXA CASTELLÓ2 2006-59.JPG",
@@ -13267,7 +13249,7 @@ export const albums = [
       },
       {
         "image": "arc-009516",
-        "thumb": "thumb-009516",
+        "thumb": "arc-009516",
         "archiveId": "ARC-009516",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 31",
         "sourceName": "CAIXA CASTELLÓ2 2006-60.JPG",
@@ -13275,7 +13257,7 @@ export const albums = [
       },
       {
         "image": "arc-009517",
-        "thumb": "thumb-009517",
+        "thumb": "arc-009517",
         "archiveId": "ARC-009517",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 32",
         "sourceName": "CAIXA CASTELLÓ2 2006-61.JPG",
@@ -13283,7 +13265,7 @@ export const albums = [
       },
       {
         "image": "arc-009518",
-        "thumb": "thumb-009518",
+        "thumb": "arc-009518",
         "archiveId": "ARC-009518",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 33",
         "sourceName": "CAIXA CASTELLÓ2 2006-62.JPG",
@@ -13291,7 +13273,7 @@ export const albums = [
       },
       {
         "image": "arc-009519",
-        "thumb": "thumb-009519",
+        "thumb": "arc-009519",
         "archiveId": "ARC-009519",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 34",
         "sourceName": "CAIXA CASTELLÓ2 2006-63.JPG",
@@ -13299,7 +13281,7 @@ export const albums = [
       },
       {
         "image": "arc-009520",
-        "thumb": "thumb-009520",
+        "thumb": "arc-009520",
         "archiveId": "ARC-009520",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 35",
         "sourceName": "CAIXA CASTELLÓ2 2006-64.JPG",
@@ -13307,7 +13289,7 @@ export const albums = [
       },
       {
         "image": "arc-009521",
-        "thumb": "thumb-009521",
+        "thumb": "arc-009521",
         "archiveId": "ARC-009521",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 36",
         "sourceName": "CAIXA CASTELLÓ2 2006-65.JPG",
@@ -13315,7 +13297,7 @@ export const albums = [
       },
       {
         "image": "arc-009522",
-        "thumb": "thumb-009522",
+        "thumb": "arc-009522",
         "archiveId": "ARC-009522",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 37",
         "sourceName": "CAIXA CASTELLÓ2 2006-66.JPG",
@@ -13323,7 +13305,7 @@ export const albums = [
       },
       {
         "image": "arc-009523",
-        "thumb": "thumb-009523",
+        "thumb": "arc-009523",
         "archiveId": "ARC-009523",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 38",
         "sourceName": "CAIXA CASTELLÓ2 2006-67.JPG",
@@ -13331,7 +13313,7 @@ export const albums = [
       },
       {
         "image": "arc-009535",
-        "thumb": "thumb-009535",
+        "thumb": "arc-009535",
         "archiveId": "ARC-009535",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 39",
         "sourceName": "CAIXA CASTELLÓ 2006-01.JPG",
@@ -13339,7 +13321,7 @@ export const albums = [
       },
       {
         "image": "arc-009536",
-        "thumb": "thumb-009536",
+        "thumb": "arc-009536",
         "archiveId": "ARC-009536",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 40",
         "sourceName": "CAIXA CASTELLÓ 2006-02.JPG",
@@ -13347,7 +13329,7 @@ export const albums = [
       },
       {
         "image": "arc-009537",
-        "thumb": "thumb-009537",
+        "thumb": "arc-009537",
         "archiveId": "ARC-009537",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 41",
         "sourceName": "CAIXA CASTELLÓ 2006-03.JPG",
@@ -13355,7 +13337,7 @@ export const albums = [
       },
       {
         "image": "arc-009538",
-        "thumb": "thumb-009538",
+        "thumb": "arc-009538",
         "archiveId": "ARC-009538",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 42",
         "sourceName": "CAIXA CASTELLÓ 2006-04.JPG",
@@ -13363,7 +13345,7 @@ export const albums = [
       },
       {
         "image": "arc-009539",
-        "thumb": "thumb-009539",
+        "thumb": "arc-009539",
         "archiveId": "ARC-009539",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 43",
         "sourceName": "CAIXA CASTELLÓ 2006-05.JPG",
@@ -13371,7 +13353,7 @@ export const albums = [
       },
       {
         "image": "arc-009540",
-        "thumb": "thumb-009540",
+        "thumb": "arc-009540",
         "archiveId": "ARC-009540",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 44",
         "sourceName": "CAIXA CASTELLÓ 2006-06.JPG",
@@ -13379,7 +13361,7 @@ export const albums = [
       },
       {
         "image": "arc-009542",
-        "thumb": "thumb-009542",
+        "thumb": "arc-009542",
         "archiveId": "ARC-009542",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 45",
         "sourceName": "CAIXA CASTELLÓ 2006-08.JPG",
@@ -13387,7 +13369,7 @@ export const albums = [
       },
       {
         "image": "arc-009543",
-        "thumb": "thumb-009543",
+        "thumb": "arc-009543",
         "archiveId": "ARC-009543",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 46",
         "sourceName": "CAIXA CASTELLÓ 2006-09.JPG",
@@ -13395,7 +13377,7 @@ export const albums = [
       },
       {
         "image": "arc-009544",
-        "thumb": "thumb-009544",
+        "thumb": "arc-009544",
         "archiveId": "ARC-009544",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 47",
         "sourceName": "CAIXA CASTELLÓ 2006-10.JPG",
@@ -13403,7 +13385,7 @@ export const albums = [
       },
       {
         "image": "arc-009545",
-        "thumb": "thumb-009545",
+        "thumb": "arc-009545",
         "archiveId": "ARC-009545",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 48",
         "sourceName": "CAIXA CASTELLÓ 2006-11.JPG",
@@ -13411,7 +13393,7 @@ export const albums = [
       },
       {
         "image": "arc-009546",
-        "thumb": "thumb-009546",
+        "thumb": "arc-009546",
         "archiveId": "ARC-009546",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 49",
         "sourceName": "CAIXA CASTELLÓ 2006-12.JPG",
@@ -13419,7 +13401,7 @@ export const albums = [
       },
       {
         "image": "arc-009547",
-        "thumb": "thumb-009547",
+        "thumb": "arc-009547",
         "archiveId": "ARC-009547",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 50",
         "sourceName": "CAIXA CASTELLÓ 2006-13.JPG",
@@ -13427,7 +13409,7 @@ export const albums = [
       },
       {
         "image": "arc-009552",
-        "thumb": "thumb-009552",
+        "thumb": "arc-009552",
         "archiveId": "ARC-009552",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 51",
         "sourceName": "CAIXA CASTELLÓ 2006-18.JPG",
@@ -13435,7 +13417,7 @@ export const albums = [
       },
       {
         "image": "arc-009554",
-        "thumb": "thumb-009554",
+        "thumb": "arc-009554",
         "archiveId": "ARC-009554",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 52",
         "sourceName": "CAIXA CASTELLÓ 2006-20.JPG",
@@ -13443,7 +13425,7 @@ export const albums = [
       },
       {
         "image": "arc-009555",
-        "thumb": "thumb-009555",
+        "thumb": "arc-009555",
         "archiveId": "ARC-009555",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 53",
         "sourceName": "CAIXA CASTELLÓ 2006-21.JPG",
@@ -13451,7 +13433,7 @@ export const albums = [
       },
       {
         "image": "arc-009556",
-        "thumb": "thumb-009556",
+        "thumb": "arc-009556",
         "archiveId": "ARC-009556",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 54",
         "sourceName": "CAIXA CASTELLÓ 2006-22.JPG",
@@ -13459,7 +13441,7 @@ export const albums = [
       },
       {
         "image": "arc-009557",
-        "thumb": "thumb-009557",
+        "thumb": "arc-009557",
         "archiveId": "ARC-009557",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 55",
         "sourceName": "CAIXA CASTELLÓ 2006-23.JPG",
@@ -13467,7 +13449,7 @@ export const albums = [
       },
       {
         "image": "arc-009559",
-        "thumb": "thumb-009559",
+        "thumb": "arc-009559",
         "archiveId": "ARC-009559",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 56",
         "sourceName": "CAIXA CASTELLÓ 2006-25.JPG",
@@ -13475,7 +13457,7 @@ export const albums = [
       },
       {
         "image": "arc-009560",
-        "thumb": "thumb-009560",
+        "thumb": "arc-009560",
         "archiveId": "ARC-009560",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 57",
         "sourceName": "CAIXA CASTELLÓ 2006-26.JPG",
@@ -13483,7 +13465,7 @@ export const albums = [
       },
       {
         "image": "arc-009561",
-        "thumb": "thumb-009561",
+        "thumb": "arc-009561",
         "archiveId": "ARC-009561",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 58",
         "sourceName": "CAIXA CASTELLÓ 2006-27.JPG",
@@ -13491,7 +13473,7 @@ export const albums = [
       },
       {
         "image": "arc-009563",
-        "thumb": "thumb-009563",
+        "thumb": "arc-009563",
         "archiveId": "ARC-009563",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 59",
         "sourceName": "CAIXA CASTELLÓ 2006-29.JPG",
@@ -13499,7 +13481,7 @@ export const albums = [
       },
       {
         "image": "arc-009564",
-        "thumb": "thumb-009564",
+        "thumb": "arc-009564",
         "archiveId": "ARC-009564",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 60",
         "sourceName": "CAIXA CASTELLÓ 2006-30.JPG",
@@ -13507,7 +13489,7 @@ export const albums = [
       },
       {
         "image": "arc-009565",
-        "thumb": "thumb-009565",
+        "thumb": "arc-009565",
         "archiveId": "ARC-009565",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 61",
         "sourceName": "CAIXA CASTELLÓ 2006-31.JPG",
@@ -13515,14 +13497,14 @@ export const albums = [
       },
       {
         "image": "arc-009566",
-        "thumb": "thumb-009566",
+        "thumb": "arc-009566",
         "archiveId": "ARC-009566",
         "alt": "Dibujo y escultura · Caixa Castelló · fotografía 62",
         "sourceName": "CAIXA CASTELLÓ 2006-32.JPG",
         "contentKey": "ARC-009566"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "place": "Fundació Caixa Castelló–Bancaixa",
     "date": "Octubre 2006 · según carpeta",
     "source": "Fondo FUND CAIXA CASTELLÓ OCT 2006."
@@ -13544,7 +13526,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-009286",
-        "thumb": "thumb-009286",
+        "thumb": "arc-009286",
         "archiveId": "ARC-009286",
         "alt": "Quatre · fotografía 1",
         "sourceName": "P1040027.JPG",
@@ -13552,7 +13534,7 @@ export const albums = [
       },
       {
         "image": "arc-009283",
-        "thumb": "thumb-009283",
+        "thumb": "arc-009283",
         "archiveId": "ARC-009283",
         "alt": "Quatre · fotografía 2",
         "sourceName": "P1040024.JPG",
@@ -13560,7 +13542,7 @@ export const albums = [
       },
       {
         "image": "arc-011858",
-        "thumb": "thumb-011858",
+        "thumb": "arc-011858",
         "archiveId": "ARC-011858",
         "alt": "Quatre · fotografía 4",
         "sourceName": "P1040028.JPG",
@@ -13568,7 +13550,7 @@ export const albums = [
       },
       {
         "image": "arc-011860",
-        "thumb": "thumb-011860",
+        "thumb": "arc-011860",
         "archiveId": "ARC-011860",
         "alt": "Quatre · fotografía 5",
         "sourceName": "P1040035.JPG",
@@ -13576,7 +13558,7 @@ export const albums = [
       },
       {
         "image": "arc-011861",
-        "thumb": "thumb-011861",
+        "thumb": "arc-011861",
         "archiveId": "ARC-011861",
         "alt": "Quatre · fotografía 6",
         "sourceName": "P1040036.JPG",
@@ -13584,7 +13566,7 @@ export const albums = [
       },
       {
         "image": "arc-009296",
-        "thumb": "thumb-009296",
+        "thumb": "arc-009296",
         "archiveId": "ARC-009296",
         "alt": "Quatre · fotografía 7",
         "sourceName": "P1040037.JPG",
@@ -13592,7 +13574,7 @@ export const albums = [
       },
       {
         "image": "arc-011862",
-        "thumb": "thumb-011862",
+        "thumb": "arc-011862",
         "archiveId": "ARC-011862",
         "alt": "Quatre · fotografía 8",
         "sourceName": "P1040038.JPG",
@@ -13600,7 +13582,7 @@ export const albums = [
       },
       {
         "image": "arc-009301",
-        "thumb": "thumb-009301",
+        "thumb": "arc-009301",
         "archiveId": "ARC-009301",
         "alt": "Quatre · fotografía 9",
         "sourceName": "P1040042.JPG",
@@ -13608,7 +13590,7 @@ export const albums = [
       },
       {
         "image": "arc-009331",
-        "thumb": "thumb-009331",
+        "thumb": "arc-009331",
         "archiveId": "ARC-009331",
         "alt": "Quatre · fotografía 10",
         "sourceName": "PIC_1007.JPG",
@@ -13616,7 +13598,7 @@ export const albums = [
       },
       {
         "image": "arc-009333",
-        "thumb": "thumb-009333",
+        "thumb": "arc-009333",
         "archiveId": "ARC-009333",
         "alt": "Quatre · fotografía 11",
         "sourceName": "PIC_1009.JPG",
@@ -13624,7 +13606,7 @@ export const albums = [
       },
       {
         "image": "arc-011865",
-        "thumb": "thumb-011865",
+        "thumb": "arc-011865",
         "archiveId": "ARC-011865",
         "alt": "Quatre · fotografía 12",
         "sourceName": "PIC_1014.JPG",
@@ -13632,7 +13614,7 @@ export const albums = [
       },
       {
         "image": "arc-009341",
-        "thumb": "thumb-009341",
+        "thumb": "arc-009341",
         "archiveId": "ARC-009341",
         "alt": "Quatre · fotografía 13",
         "sourceName": "PIC_1020.JPG",
@@ -13640,7 +13622,7 @@ export const albums = [
       },
       {
         "image": "arc-011868",
-        "thumb": "thumb-011868",
+        "thumb": "arc-011868",
         "archiveId": "ARC-011868",
         "alt": "Quatre · fotografía 14",
         "sourceName": "PIC_1036.JPG",
@@ -13648,14 +13630,14 @@ export const albums = [
       },
       {
         "image": "arc-011869",
-        "thumb": "thumb-011869",
+        "thumb": "arc-011869",
         "archiveId": "ARC-011869",
         "alt": "Quatre · fotografía 15",
         "sourceName": "PIC_1039.JPG",
         "contentKey": "15705273d13e5c2a3c2cb719ed05dda355990f88a13bf115d3fb24e7d627bdfe"
       }
     ],
-    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "source": "Fondo EXPO QUATRE; título en la portada ARC-009370. Fecha pendiente de documentación."
   },
   {
@@ -13671,11 +13653,11 @@ export const albums = [
       "Las vistas de sala permiten seguir la variedad de interpretaciones reunidas en la exposición: figuras, dragones, composiciones circulares y obras sobre papel.",
       "Se presenta como documentación de una muestra colectiva vinculada al fondo Dragonians. Las fotografías de obras de otros artistas se mantienen dentro del contexto expositivo y no se atribuyen a Enric."
     ],
-    "image": "arc-009425",
+    "image": "arc-009391",
     "gallery": [
       {
         "image": "arc-009425",
-        "thumb": "thumb-009425",
+        "thumb": "arc-009425",
         "archiveId": "ARC-009425",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 1",
         "sourceName": "PIC_0994.JPG",
@@ -13683,7 +13665,7 @@ export const albums = [
       },
       {
         "image": "arc-009388",
-        "thumb": "thumb-009388",
+        "thumb": "arc-009388",
         "archiveId": "ARC-009388",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 2",
         "sourceName": "P1030905.JPG",
@@ -13691,7 +13673,7 @@ export const albums = [
       },
       {
         "image": "arc-009391",
-        "thumb": "thumb-009391",
+        "thumb": "arc-009391",
         "archiveId": "ARC-009391",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 3",
         "sourceName": "P1030919.JPG",
@@ -13699,7 +13681,7 @@ export const albums = [
       },
       {
         "image": "arc-009392",
-        "thumb": "thumb-009392",
+        "thumb": "arc-009392",
         "archiveId": "ARC-009392",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 4",
         "sourceName": "P1030920.JPG",
@@ -13707,7 +13689,7 @@ export const albums = [
       },
       {
         "image": "arc-009393",
-        "thumb": "thumb-009393",
+        "thumb": "arc-009393",
         "archiveId": "ARC-009393",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 5",
         "sourceName": "P1030922.JPG",
@@ -13715,7 +13697,7 @@ export const albums = [
       },
       {
         "image": "arc-009394",
-        "thumb": "thumb-009394",
+        "thumb": "arc-009394",
         "archiveId": "ARC-009394",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 6",
         "sourceName": "P1030923.JPG",
@@ -13723,7 +13705,7 @@ export const albums = [
       },
       {
         "image": "arc-009408",
-        "thumb": "thumb-009408",
+        "thumb": "arc-009408",
         "archiveId": "ARC-009408",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 7",
         "sourceName": "PIC_0974.JPG",
@@ -13731,7 +13713,7 @@ export const albums = [
       },
       {
         "image": "arc-009409",
-        "thumb": "thumb-009409",
+        "thumb": "arc-009409",
         "archiveId": "ARC-009409",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 8",
         "sourceName": "PIC_0975.JPG",
@@ -13739,7 +13721,7 @@ export const albums = [
       },
       {
         "image": "arc-009410",
-        "thumb": "thumb-009410",
+        "thumb": "arc-009410",
         "archiveId": "ARC-009410",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 9",
         "sourceName": "PIC_0976.JPG",
@@ -13747,7 +13729,7 @@ export const albums = [
       },
       {
         "image": "arc-009411",
-        "thumb": "thumb-009411",
+        "thumb": "arc-009411",
         "archiveId": "ARC-009411",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 10",
         "sourceName": "PIC_0977.JPG",
@@ -13755,7 +13737,7 @@ export const albums = [
       },
       {
         "image": "arc-009412",
-        "thumb": "thumb-009412",
+        "thumb": "arc-009412",
         "archiveId": "ARC-009412",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 11",
         "sourceName": "PIC_0978.JPG",
@@ -13763,7 +13745,7 @@ export const albums = [
       },
       {
         "image": "arc-009416",
-        "thumb": "thumb-009416",
+        "thumb": "arc-009416",
         "archiveId": "ARC-009416",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 12",
         "sourceName": "PIC_0982.JPG",
@@ -13771,7 +13753,7 @@ export const albums = [
       },
       {
         "image": "arc-009417",
-        "thumb": "thumb-009417",
+        "thumb": "arc-009417",
         "archiveId": "ARC-009417",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 13",
         "sourceName": "PIC_0983.JPG",
@@ -13779,7 +13761,7 @@ export const albums = [
       },
       {
         "image": "arc-009418",
-        "thumb": "thumb-009418",
+        "thumb": "arc-009418",
         "archiveId": "ARC-009418",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 14",
         "sourceName": "PIC_0985.JPG",
@@ -13787,7 +13769,7 @@ export const albums = [
       },
       {
         "image": "arc-009419",
-        "thumb": "thumb-009419",
+        "thumb": "arc-009419",
         "archiveId": "ARC-009419",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 15",
         "sourceName": "PIC_0986.JPG",
@@ -13795,7 +13777,7 @@ export const albums = [
       },
       {
         "image": "arc-009420",
-        "thumb": "thumb-009420",
+        "thumb": "arc-009420",
         "archiveId": "ARC-009420",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 16",
         "sourceName": "PIC_0987.JPG",
@@ -13803,7 +13785,7 @@ export const albums = [
       },
       {
         "image": "arc-009421",
-        "thumb": "thumb-009421",
+        "thumb": "arc-009421",
         "archiveId": "ARC-009421",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 17",
         "sourceName": "PIC_0988.JPG",
@@ -13811,7 +13793,7 @@ export const albums = [
       },
       {
         "image": "arc-009422",
-        "thumb": "thumb-009422",
+        "thumb": "arc-009422",
         "archiveId": "ARC-009422",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 18",
         "sourceName": "PIC_0991.JPG",
@@ -13819,7 +13801,7 @@ export const albums = [
       },
       {
         "image": "arc-009423",
-        "thumb": "thumb-009423",
+        "thumb": "arc-009423",
         "archiveId": "ARC-009423",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 19",
         "sourceName": "PIC_0992.JPG",
@@ -13827,7 +13809,7 @@ export const albums = [
       },
       {
         "image": "arc-009426",
-        "thumb": "thumb-009426",
+        "thumb": "arc-009426",
         "archiveId": "ARC-009426",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 20",
         "sourceName": "PIC_0995.JPG",
@@ -13835,7 +13817,7 @@ export const albums = [
       },
       {
         "image": "arc-009427",
-        "thumb": "thumb-009427",
+        "thumb": "arc-009427",
         "archiveId": "ARC-009427",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 21",
         "sourceName": "PIC_0996.JPG",
@@ -13843,7 +13825,7 @@ export const albums = [
       },
       {
         "image": "arc-009429",
-        "thumb": "thumb-009429",
+        "thumb": "arc-009429",
         "archiveId": "ARC-009429",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 22",
         "sourceName": "PIC_1051.JPG",
@@ -13851,7 +13833,7 @@ export const albums = [
       },
       {
         "image": "arc-009430",
-        "thumb": "thumb-009430",
+        "thumb": "arc-009430",
         "archiveId": "ARC-009430",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 23",
         "sourceName": "PIC_1052.JPG",
@@ -13859,7 +13841,7 @@ export const albums = [
       },
       {
         "image": "arc-009431",
-        "thumb": "thumb-009431",
+        "thumb": "arc-009431",
         "archiveId": "ARC-009431",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 24",
         "sourceName": "PIC_1053.JPG",
@@ -13867,7 +13849,7 @@ export const albums = [
       },
       {
         "image": "arc-009432",
-        "thumb": "thumb-009432",
+        "thumb": "arc-009432",
         "archiveId": "ARC-009432",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 25",
         "sourceName": "PIC_1056.JPG",
@@ -13875,7 +13857,7 @@ export const albums = [
       },
       {
         "image": "arc-009433",
-        "thumb": "thumb-009433",
+        "thumb": "arc-009433",
         "archiveId": "ARC-009433",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 26",
         "sourceName": "PIC_1058.JPG",
@@ -13883,7 +13865,7 @@ export const albums = [
       },
       {
         "image": "arc-009434",
-        "thumb": "thumb-009434",
+        "thumb": "arc-009434",
         "archiveId": "ARC-009434",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 27",
         "sourceName": "PIC_1059.JPG",
@@ -13891,14 +13873,14 @@ export const albums = [
       },
       {
         "image": "arc-009435",
-        "thumb": "thumb-009435",
+        "thumb": "arc-009435",
         "archiveId": "ARC-009435",
         "alt": "Sant Jordi i el drac · Estivella · fotografía 28",
         "sourceName": "PIC_1060.JPG",
         "contentKey": "8878f3eba89c119b9786e003adc895c28252a31a0609ae5f79136a3efea29c64"
       }
     ],
-    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Estivella",
     "source": "Fondo EXPOSICIÓN DE SANT JORDI I EL DRAC A ESTIVELLA. Fecha sin confirmar."
   },
@@ -13919,7 +13901,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-008004",
-        "thumb": "thumb-008004",
+        "thumb": "arc-008004",
         "archiveId": "ARC-008004",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 1",
         "sourceName": "P1100996.JPG",
@@ -13927,7 +13909,7 @@ export const albums = [
       },
       {
         "image": "arc-007979",
-        "thumb": "thumb-007979",
+        "thumb": "arc-007979",
         "archiveId": "ARC-007979",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 2",
         "sourceName": "P1100969.JPG",
@@ -13935,7 +13917,7 @@ export const albums = [
       },
       {
         "image": "arc-007980",
-        "thumb": "thumb-007980",
+        "thumb": "arc-007980",
         "archiveId": "ARC-007980",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 3",
         "sourceName": "P1100970.JPG",
@@ -13943,7 +13925,7 @@ export const albums = [
       },
       {
         "image": "arc-007981",
-        "thumb": "thumb-007981",
+        "thumb": "arc-007981",
         "archiveId": "ARC-007981",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 4",
         "sourceName": "P1100971.JPG",
@@ -13951,7 +13933,7 @@ export const albums = [
       },
       {
         "image": "arc-007982",
-        "thumb": "thumb-007982",
+        "thumb": "arc-007982",
         "archiveId": "ARC-007982",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 5",
         "sourceName": "P1100972.JPG",
@@ -13959,7 +13941,7 @@ export const albums = [
       },
       {
         "image": "arc-007983",
-        "thumb": "thumb-007983",
+        "thumb": "arc-007983",
         "archiveId": "ARC-007983",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 6",
         "sourceName": "P1100973.JPG",
@@ -13967,7 +13949,7 @@ export const albums = [
       },
       {
         "image": "arc-007989",
-        "thumb": "thumb-007989",
+        "thumb": "arc-007989",
         "archiveId": "ARC-007989",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 7",
         "sourceName": "P1100981.JPG",
@@ -13975,7 +13957,7 @@ export const albums = [
       },
       {
         "image": "arc-007990",
-        "thumb": "thumb-007990",
+        "thumb": "arc-007990",
         "archiveId": "ARC-007990",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 8",
         "sourceName": "P1100982.JPG",
@@ -13983,7 +13965,7 @@ export const albums = [
       },
       {
         "image": "arc-008009",
-        "thumb": "thumb-008009",
+        "thumb": "arc-008009",
         "archiveId": "ARC-008009",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 9",
         "sourceName": "P1110002.JPG",
@@ -13991,7 +13973,7 @@ export const albums = [
       },
       {
         "image": "arc-008010",
-        "thumb": "thumb-008010",
+        "thumb": "arc-008010",
         "archiveId": "ARC-008010",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 10",
         "sourceName": "P1110003.JPG",
@@ -13999,14 +13981,14 @@ export const albums = [
       },
       {
         "image": "arc-008011",
-        "thumb": "thumb-008011",
+        "thumb": "arc-008011",
         "archiveId": "ARC-008011",
         "alt": "Dragonians Cinc · Casa del Libro · fotografía 11",
         "sourceName": "P1110004.JPG",
         "contentKey": "ARC-008011"
       }
     ],
-    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Documentación de una exposición colectiva. Las obras de otros participantes no se atribuyen a ENRIC SEGARRA I GARIBO.",
     "place": "Casa del Libro",
     "source": "Fondo DRAGONIANS CINC FOTOS CASA DEL LIBRO; título y colectivo en el cartel fotografiado ARC-008012. Fecha de la muestra por contrastar."
   },
@@ -14027,7 +14009,7 @@ export const albums = [
     "gallery": [
       {
         "image": "arc-008745",
-        "thumb": "thumb-008745",
+        "thumb": "arc-008745",
         "archiveId": "ARC-008745",
         "alt": "Estudios de formas articuladas · fotografía 1",
         "sourceName": "DSC03737.JPG",
@@ -14035,7 +14017,7 @@ export const albums = [
       },
       {
         "image": "arc-008747",
-        "thumb": "thumb-008747",
+        "thumb": "arc-008747",
         "archiveId": "ARC-008747",
         "alt": "Estudios de formas articuladas · fotografía 2",
         "sourceName": "DSC03739.JPG",
@@ -14043,7 +14025,7 @@ export const albums = [
       },
       {
         "image": "arc-008749",
-        "thumb": "thumb-008749",
+        "thumb": "arc-008749",
         "archiveId": "ARC-008749",
         "alt": "Estudios de formas articuladas · fotografía 3",
         "sourceName": "DSC03742.JPG",
@@ -14051,7 +14033,7 @@ export const albums = [
       },
       {
         "image": "arc-008751",
-        "thumb": "thumb-008751",
+        "thumb": "arc-008751",
         "archiveId": "ARC-008751",
         "alt": "Estudios de formas articuladas · fotografía 4",
         "sourceName": "DSC03744.JPG",
@@ -14059,7 +14041,7 @@ export const albums = [
       },
       {
         "image": "arc-008753",
-        "thumb": "thumb-008753",
+        "thumb": "arc-008753",
         "archiveId": "ARC-008753",
         "alt": "Estudios de formas articuladas · fotografía 5",
         "sourceName": "DSC03746.JPG",
@@ -14067,7 +14049,7 @@ export const albums = [
       },
       {
         "image": "arc-008755",
-        "thumb": "thumb-008755",
+        "thumb": "arc-008755",
         "archiveId": "ARC-008755",
         "alt": "Estudios de formas articuladas · fotografía 6",
         "sourceName": "DSC03750.JPG",
@@ -14075,7 +14057,7 @@ export const albums = [
       },
       {
         "image": "arc-008757",
-        "thumb": "thumb-008757",
+        "thumb": "arc-008757",
         "archiveId": "ARC-008757",
         "alt": "Estudios de formas articuladas · fotografía 7",
         "sourceName": "DSC03753.JPG",
@@ -14083,7 +14065,7 @@ export const albums = [
       },
       {
         "image": "arc-008759",
-        "thumb": "thumb-008759",
+        "thumb": "arc-008759",
         "archiveId": "ARC-008759",
         "alt": "Estudios de formas articuladas · fotografía 8",
         "sourceName": "DSC03755.JPG",
@@ -14091,7 +14073,7 @@ export const albums = [
       },
       {
         "image": "arc-008761",
-        "thumb": "thumb-008761",
+        "thumb": "arc-008761",
         "archiveId": "ARC-008761",
         "alt": "Estudios de formas articuladas · fotografía 9",
         "sourceName": "DSC03757.JPG",
@@ -14099,7 +14081,7 @@ export const albums = [
       },
       {
         "image": "arc-008763",
-        "thumb": "thumb-008763",
+        "thumb": "arc-008763",
         "archiveId": "ARC-008763",
         "alt": "Estudios de formas articuladas · fotografía 10",
         "sourceName": "DSC03759.JPG",
@@ -14107,7 +14089,7 @@ export const albums = [
       },
       {
         "image": "arc-008765",
-        "thumb": "thumb-008765",
+        "thumb": "arc-008765",
         "archiveId": "ARC-008765",
         "alt": "Estudios de formas articuladas · fotografía 11",
         "sourceName": "DSC03761.JPG",
@@ -14115,7 +14097,7 @@ export const albums = [
       },
       {
         "image": "arc-008767",
-        "thumb": "thumb-008767",
+        "thumb": "arc-008767",
         "archiveId": "ARC-008767",
         "alt": "Estudios de formas articuladas · fotografía 12",
         "sourceName": "DSC03763.JPG",
@@ -14123,14 +14105,14 @@ export const albums = [
       },
       {
         "image": "arc-008833",
-        "thumb": "thumb-008833",
+        "thumb": "arc-008833",
         "archiveId": "ARC-008833",
         "alt": "Estudios de formas articuladas · fotografía 13",
         "sourceName": "ESCULTURAS.jpg",
         "contentKey": "ARC-008833"
       }
     ],
-    "credit": "Obra de ENRIQUE SEGARRA I GARIBO.",
+    "credit": "Obra de ENRIC SEGARRA I GARIBO.",
     "source": "Fondos históricos de escultura; selección comparada visualmente."
   }
 ];
