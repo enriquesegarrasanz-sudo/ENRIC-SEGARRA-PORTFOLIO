@@ -4,6 +4,9 @@
 
 ## Ajuste visual · 18 de septiembre de 2026
 
+- Las siete vistas de «Forma articulada dentro de un círculo» (ESC-054) comparten ahora luz, balance de color y fondo de exposición blanco cálido. Se ha mantenido la pátina y la peana como rasgos materiales de la obra.
+- La portada se presenta bajo el nombre «Segarra y Garibo» con un único retrato horizontal de Enric Segarra junto a una escultura de madera, mostrado a gran formato. Se ha depurado únicamente el contorno de la figura de madera y extendido lateralmente el fondo de estudio; por ahora no incluye textos ni carrusel.
+- El índice de Arte infantil se presenta como un mosaico de cinco accesos, con fotografías horizontales y la misma jerarquía editorial del índice de Exposiciones. La imagen inicial es ahora una composición colectiva; «Textos y propuestas» se muestra como «Ideas para crear», sin retirar los documentos vinculados.
 - Rehechas las fotografías de catálogo de dibujo que presentaban cortes demasiado ajustados. Las nuevas versiones muestran la hoja o el marco completos, respetan las piezas verticales y corrigen la iluminación de forma global, sin alterar los trazos, firmas ni originales.
 - El índice de Arte infantil presenta sus cinco apartados mediante bloques con imágenes horizontales grandes, contadores y llamadas a explorar.
 - «Textos y propuestas» muestra una imagen de referencia por lectura antes de entrar al documento, reduciendo la dependencia del texto para orientarse.
@@ -21,6 +24,7 @@
 - Álbum «Escultura · Palacio Colomina» renovado con siete versiones fotográficas profesionales, nuevos encuadres editoriales y miniaturas. Se preservan los archivos ARC originales y queda registrada cada transformación; la escultura negra de alambre se muestra completa.
 - Restauradas las 16 fotografías del álbum «Evolución 1984–2004» mediante un revelado no generativo y reproducible: iluminación y color equilibrados, sombras recuperadas, ruido reducido, ampliación proporcional y grano fino. No se reconstruyen ni alteran las obras fotografiadas.
 - Tratamiento fotográfico expositivo aplicado a MOV-001 a MOV-013, con galerías ampliadas y nuevas miniaturas. Los originales y las versiones previas permanecen conservados y trazables.
+- Completada la presentación expositiva de MOV-014 a MOV-033. Además, MOV-016 a MOV-019 y MOV-022 a MOV-033 incorporan una segunda vista de naturaleza de acabado editorial: la ficha abre con la obra en presentación de galería y continúa con la instalación en árbol o jardín, sin elementos domésticos que distraigan de la pieza.
 - Retirado el apartado «Proceso y entorno» de la navegación, la portada, la trayectoria y el archivo público. Sus agrupaciones editoriales se conservan en los datos de trabajo, sin mostrarse en la web.
 - Portada con una introducción más clara al artista y tres recorridos equilibrados. Cabecera horizontal sobre blanco, menú móvil y fotografías completas.
 - 221 fichas: 33 móviles, 55 esculturas, 80 pinturas y 53 dibujos. Son 39 fichas más; se conservan las referencias anteriores y se reúnen las distintas perspectivas.
@@ -28,6 +32,7 @@
 - Archivo visual general con 1.226 registros versionados y 147 fotografías adicionales en la revisión privada local: 1.373 imágenes disponibles localmente. Filtros de ámbito, disciplina y colección, búsqueda, ampliación y enlaces a todos los contextos.
 - Arte infantil con un directorio visual de obras, talleres, formación docente, exposiciones y textos; cinco colecciones de obras, cuatro álbumes de talleres, tres de formación y ocho de exposiciones. Las exposiciones de participantes adultos se distinguen de las infantiles.
 - Exposiciones clasificadas entre obra propia, colectivas, arte infantil y formación docente, con búsqueda por nombre, lugar o fecha.
+- La sección de obras infantiles se recorre ahora por cinco salas temáticas; sus imágenes mantienen la proporción completa para no perder las piezas verticales.
 - Trayectoria de 16 entradas: imagen fija a la izquierda y lista a la derecha, cambio por desplazamiento o enfoque, búsqueda de etapas/años, controles de anterior/siguiente y acceso al detalle. Los siete capítulos conservan sus enlaces y cuentan con navegación interna.
 - Eliminadas las apariciones de tarjetas con desplazamiento. Sustitución de imágenes sin dejar el panel vacío durante la carga.
 
@@ -39,13 +44,13 @@ Los nombres de obras y las familias siguen siendo descripciones editoriales prov
 
 Las imágenes de participantes añadidas se mantienen en dist/review y dist/local-gallery.json, fuera de Git, con procedencia privada. El repositorio público contiene únicamente los recursos seleccionados para ese ámbito. La web se publica mediante GitHub Pages, exclusivamente desde `dist/`.
 
-La edición y mejora individual incluye 49 portadas de Escultura, las 80 imágenes principales y 80 miniaturas revisadas de pintura, el tratamiento expositivo de MOV-001 a MOV-013 y las 16 vistas históricas de «Evolución 1984–2004». Las instalaciones de Escultura fotografiadas en naturaleza conservan su contexto original. El resto de vistas y categorías continúa pendiente para fases posteriores.
+La edición y mejora individual incluye 49 portadas de Escultura, las 80 imágenes principales y 80 miniaturas revisadas de pintura, las 33 portadas expositivas de Móviles, 16 segundas vistas orgánicas de naturaleza de Móviles y las 16 vistas históricas de «Evolución 1984–2004». Las instalaciones de Escultura fotografiadas en naturaleza conservan su contexto original. El resto de vistas y categorías continúa pendiente para fases posteriores.
 
 ## Comprobaciones
 
 npm run check valida las fichas, agrupaciones, recursos, procedencias, autorías educativas y enlaces, además del archivo visual: copias exactas, páginas PDF distintas, filtros combinados en un mismo contexto y búsqueda sin tildes. Sintaxis comprobada.
 
-En navegador se verificaron la portada, trayectoria y búsqueda por año, acceso a exposición, filtros y carga progresiva de imágenes, visor con flechas y Escape, menú móvil y nueve recorridos a 320 píxeles sin desbordamiento. Se revisaron también escritorio y 390 píxeles.
+En navegador se verificaron la portada, acceso a exposición, filtros y carga progresiva de imágenes, visor con flechas y Escape, menú móvil y recorridos a 320 píxeles sin desbordamiento. Se revisaron también escritorio y 390 píxeles.
 
 ## Guardado
 

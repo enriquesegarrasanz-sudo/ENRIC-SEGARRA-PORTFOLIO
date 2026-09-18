@@ -5,15 +5,16 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js?v=20260918-escultura-vistas";
-import { redirects } from "./catalogue.js?v=20260918-escultura-vistas";
+} from "./content.js?v=20260918-escultura-interaccion";
+import { redirects } from "./catalogue.js?v=20260918-escultura-interaccion";
+
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 import {
   buildPhotoIndex,
   filterPhotos,
   archiveSections,
   normalize,
 } from "./archive.js";
-import { journeyEntries } from "./journey.js";
 import {
   educationSections,
   educationIntro,
@@ -36,7 +37,7 @@ const num = (n) => String(n).padStart(2, "0"),
 const photoRef = (p) =>
   `${p.archiveId}${p.sourcePage ? " · p. " + p.sourcePage : ""}`;
 const asset = (name, local = false) =>
-  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-vistas`;
+  `${local ? "review" : "assets"}/${encodeURIComponent(name)}.webp?v=20260918-escultura-interaccion`;
 const img = (name, alt, eager = false, local = false) =>
   `<img src="${asset(name, local)}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async">`;
 const a = (path, text, cls = "") =>
@@ -78,34 +79,54 @@ let currentGallery = [],
   galleryLabel = "",
   selectedPhoto = 0,
   activeFilters = null,
-  routeKey = "";
+  routeKey = "",
+  familySlideStops = [];
+
+// The catalogue keeps the original series names for traceability, while the
+// public-facing sculpture index groups closely related bodies of work together.
+const sculptureFamilyGroups = [
+  { label: "Relieves y ensamblajes", series: ["Relieves y ensamblajes"] },
+  { label: "Volúmenes", series: ["Volúmenes", "Volúmenes abiertos"] },
+  {
+    label: "Estructuras y ensamblajes",
+    series: ["Archivo de escultura", "Estructuras y ensamblajes"],
+  },
+  { label: "Intervenciones en el entorno", series: ["Intervenciones en el entorno"] },
+];
+
+function sculptureFamilyFor(work) {
+  return (
+    sculptureFamilyGroups.find((group) => group.series.includes(work.series))?.label ||
+    work.series
+  );
+}
+
+function familyOptions(pool, category) {
+  if (category === "escultura") {
+    return sculptureFamilyGroups
+      .filter((group) => pool.some((work) => group.series.includes(work.series)))
+      .map((group) => group.label);
+  }
+  return [...new Set(pool.map((work) => work.series))];
+}
 
 function home() {
-  const hero = works.find((w) => w.id === "suspension-rosa") || works[0];
-  const homeSections = [
-    ["Obra", "/obra", `${works.length} fichas`],
-    ["Arte infantil", "/arte-infantil", `${educationAlbums().length} colecciones`],
-    ["Exposiciones", "/exposiciones", "Archivo de muestras"],
-    ["Proyectos", "/proyectos", "Trabajo compartido"],
-    ["Artista", "/artista", "Perfil y práctica"],
-    ["Contacto", "/contacto", "Información profesional"],
-  ];
-  const disciplines = categories.slice(1).map((c, i) => {
-    const w = works.find((work) => work.category === c.id);
-    return a(
-      "/obra/" + c.id,
-      `<article class="home-category-card"><div class="home-category-art">${img(w.thumb, w.alt)}</div><div class="home-category-meta"><span class="reference">${num(i + 1)}</span><h2>${esc(c.label)}</h2><span>${works.filter((work) => work.category === c.id).length} obras ${arrow}</span></div></article>`,
-    );
-  }).join("");
-  return `<section class="home-cover"><div class="cover-art">${a("/obra/" + hero.id, `<figure class="cover-image"><div class="cover-image-wrap">${img(hero.image, hero.alt, true)}<span class="cover-index">01 / ${works.length}</span></div><figcaption><div><span class="cover-caption-label">Obra destacada</span><strong>${esc(hero.label)}</strong></div><span>${esc(hero.reference)} ${arrow}</span></figcaption></figure>`)}</div><div class="cover-copy"><p class="eyebrow">Archivo vivo · 1959 — presente</p><h1>SEGARRA<span>Y GARIBO</span></h1><p class="cover-lead">Escultura, pintura, dibujo y educación artística.</p><p class="cover-note">Una obra hecha de formas, materiales, color y curiosidad. Un archivo familiar para mirar, recordar y seguir descubriendo.</p><div class="cover-actions">${a("/obra", "Explorar la obra " + arrow)}${a("/artista", "Conocer al artista " + arrow)}</div><div class="home-index"><div class="home-index-head"><span>Entrar en el archivo</span><span>08 apartados</span></div><div class="home-index-grid">${homeSections.map(([title, path, meta], i) => a(path, `<span class="reference">${num(i + 1)}</span><span class="home-index-title">${title}</span><span class="home-index-meta">${meta}</span>${arrow}`, "home-index-link")).join("")}</div></div></div></section><section class="home-disciplines"><div class="home-disciplines-head"><div><p class="eyebrow">La obra, por dentro</p><h2>Cuatro maneras de construir una imagen.</h2></div>${a("/obra", "Ver todo el catálogo " + arrow, "text-link")}</div><div class="home-category-grid">${disciplines}</div></section><section class="archive-invitation"><div><p class="eyebrow">Archivo visual</p><h2>Todas las imágenes,<br>muchas formas de mirar.</h2><p>Busca una pieza, recorre una exposición o reúne las imágenes de un taller. Cada fotografía conserva el acceso a su contexto.</p>${a("/imagenes", "Abrir el archivo de imágenes " + arrow, "text-link")}</div><div class="archive-links">${[["Exposiciones", "/exposiciones", "Obra propia, muestras colectivas y educación."], ["Proyectos compartidos", "/proyectos", "El agua, el dragón y los encuentros."]].map(([t, l, d]) => a(l, `<h3>${t} ${arrow}</h3><p>${d}</p>`)).join("")}</div></section>`;
+  return `<section class="portrait-cover" aria-label="Entrada a la obra de Segarra y Garibo"><img src="assets/retrato-portada-horizontal-v1.png" alt="Enric Segarra sostiene una escultura de madera" loading="eager" decoding="async"><div class="portrait-cover-copy"><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a class="portrait-cover-link" href="#/obra">Entrar en la obra <span aria-hidden="true">↗</span></a></div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
   const query = params.get("q") || "",
-    series = params.get("serie") || "",
     view = params.get("vista") === "recorrido" ? "recorrido" : "catalogo",
     pool = works.filter((w) => category === "todas" || w.category === category),
-    seriesList = [...new Set(pool.map((w) => w.series))];
+    requestedSeries = params.get("serie") || "",
+    series =
+      category === "escultura"
+        ? sculptureFamilyGroups.find(
+            (group) =>
+              group.label === requestedSeries || group.series.includes(requestedSeries),
+          )?.label || requestedSeries
+        : requestedSeries,
+    seriesList = familyOptions(pool, category);
   const norm = (s) =>
     s
       .toLocaleLowerCase("es")
@@ -113,7 +134,8 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
       .replace(/\p{Diacritic}/gu, "");
   const filtered = pool.filter(
     (w) =>
-      (!series || w.series === series) &&
+      (!series ||
+        (category === "escultura" ? sculptureFamilyFor(w) : w.series) === series) &&
       norm(
         [
           w.label,
@@ -136,13 +158,17 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
     dibujo:
       "Líneas, manchas y formas que construyen el espacio sobre el papel.",
   };
+  const sculptureFamilies =
+    category === "escultura"
+      ? `<section class="sculpture-families" aria-labelledby="sculpture-families-title"><div class="section-head"><div><p class="eyebrow">Clasificación provisional</p><h2 id="sculpture-families-title">Familias de la escultura</h2></div><p class="sculpture-families-note">Una entrada visual a los distintos modos de trabajar el volumen presentes en el archivo.</p></div><div class="family-grid">${seriesList.map((family) => { const familyWorks = pool.filter((w) => sculptureFamilyFor(w) === family); const selected = series === family ? " active" : ""; const countLabel = familyWorks.length === 1 ? "obra" : "obras"; const slides = familyWorks.slice(0, 6); return `<a class="family-card${selected}" href="#/obra/escultura?serie=${encodeURIComponent(family)}" aria-label="Ver ${familyWorks.length} ${countLabel} de ${esc(family)}"><div class="family-image"><div class="family-slideshow" data-family-slideshow aria-label="Imágenes de ${esc(family)}">${slides.map((w, i) => `<span class="family-slide${i === 0 ? " is-visible" : ""}" aria-hidden="${i === 0 ? "false" : "true"}">${img(w.thumb, w.alt, i === 0)}</span>`).join("")}</div></div><div class="family-copy"><span class="reference">${String(familyWorks.length).padStart(2, "0")} ${countLabel}</span><h3>${esc(family)}</h3><span class="family-link">Ver las obras <span aria-hidden="true">↗</span></span></div></a>`; }).join("")}</div></section>`
+      : "";
   return (
     head(
       "Catálogo de obra",
       category === "todas" ? "Obra" : catName(category),
       descriptions[category],
     ) +
-    `<nav class="tabs" aria-label="Disciplinas">${categories.map((c) => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter((w) => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav><form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar título, familia o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label><label class="select-label">Familia<select name="serie"><option value="">Todas las familias</option>${seriesList.map((s) => `<option ${s === series ? "selected" : ""} value="${esc(s)}">${esc(s)}</option>`).join("")}</select></label><div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}${series ? " · " + esc(series) : ""}</p><p>Nombres descriptivos provisionales</p></div><div id="catalogue-results">${renderWorks(filtered.slice(0, 24), view)}</div>${filtered.length > 24 ? `<button class="load-more" id="more-works" data-shown="24">Ver más obras <span>24 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`
+    `<nav class="tabs" aria-label="Disciplinas">${categories.map((c) => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter((w) => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>${sculptureFamilies}<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar título, familia o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label><label class="select-label">Familia<select name="serie"><option value="">Todas las familias</option>${seriesList.map((s) => `<option ${s === series ? "selected" : ""} value="${esc(s)}">${esc(s)}</option>`).join("")}</select></label><div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}${series ? " · " + esc(series) : ""}</p><p>Nombres descriptivos provisionales</p></div><div id="catalogue-results">${renderWorks(filtered.slice(0, 24), view)}</div>${filtered.length > 24 ? `<button class="load-more" id="more-works" data-shown="24">Ver más obras <span>24 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`
   );
 }
 function renderWorks(list, view) {
@@ -169,14 +195,29 @@ function galleryGrid(list, start = 0) {
     )
     .join("");
 }
+function educationPhotoIndex(section, list) {
+  const label = educationSections.find((item) => item.id === section)?.label || "Arte infantil";
+  const photos = list.flatMap((album) =>
+    album.gallery.map((photo) => ({ ...photo, galleryGroup: album.title })),
+  );
+  setGallery(photos, label);
+  return `<div class="result-line"><p>${photos.length} fotografías · ${list.length} salas</p>${a("/imagenes?ambito=" + (section === "obras" ? "infantil" : section), "Ver las fotografías con filtros " + arrow)}</div><div class="gallery-grid education-photo-grid">${galleryGrid(photos)}</div>`;
+}
+
 function workDetail(w) {
   setGallery(w.gallery, w.label);
   const related = works
-    .filter((x) => x.series === w.series && x.id !== w.id)
+    .filter(
+      (x) =>
+        (w.category === "escultura"
+          ? sculptureFamilyFor(x) === sculptureFamilyFor(w)
+          : x.series === w.series) && x.id !== w.id,
+    )
     .slice(0, 3);
   return (
     trail("/obra/" + w.category, catName(w.category), w.reference) +
-    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>Enric Segarra i Garibo</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
+    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.category === "escultura" ? sculptureFamilyFor(w) : w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>SEGARRA Y GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
+    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.category === "escultura" ? sculptureFamilyFor(w) : w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>Enric Segarra i Garibo</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
   );
 }
 function albumPage(al) {
@@ -230,10 +271,13 @@ function education(params) {
             )
             .join("")}</nav>`
         : "";
+    if (["obras", "talleres", "formacion"].includes(section)) {
+      return intro + educationPhotoIndex(section, shown);
+    }
     return (
       intro +
       filters +
-      `<div class="result-line"><p>${shown.length} ${section === "obras" ? "colecciones" : "álbumes"}</p>${a("/imagenes?ambito=" + (section === "obras" ? "infantil" : section), "Ver las fotografías con filtros " + arrow)}</div>` +
+      `<div class="result-line"><p>${shown.length} álbumes</p>${a("/imagenes?ambito=exposiciones", "Ver las fotografías con filtros " + arrow)}</div>` +
       albumGrid(shown)
     );
   }
@@ -242,7 +286,7 @@ function education(params) {
     talleres: "arc-005506",
     exposiciones: "arc-002472",
     formacion: "arc-005944",
-    textos: readings[0].image,
+    textos: "arc-000043",
   };
   return (
     head(
@@ -271,7 +315,7 @@ function readingIndex() {
 }
 function readingPage(r) {
   return (
-    trail("/arte-infantil?seccion=textos", "Textos y propuestas", r.kind) +
+    trail("/arte-infantil?seccion=textos", "Ideas para crear", r.kind) +
     head(r.kind, r.title, r.subtitle) +
     `<div class="article-layout"><aside>${img(r.image, r.title)}<p>${esc(r.authors)}</p><p class="reference">Documento ${esc(r.reference)}</p><p class="note">Síntesis editorial del documento conservado en el archivo. No es una transcripción.</p></aside><article class="reading-body"><p class="article-intro">${esc(r.intro)}</p>${r.sections.map(([t, p]) => `<section><h2>${esc(t)}</h2><p>${esc(p)}</p></section>`).join("")}${a("/archivo/" + r.related, "Ver las imágenes relacionadas " + arrow, "text-link")}</article></div>`
   );
@@ -281,7 +325,6 @@ const chapterImages = {
   "construir-formas": "escultura-madera",
   "pintar-mundos": "gatos",
   "crear-con-otros": "arc-002472",
-  "proyectos-compartidos": "arc-009962",
   "exponer-abrir-espacios": "arc-009086",
   "seguir-creando": "arc-014873",
 };
@@ -542,13 +585,6 @@ function attachJourneyEvents() {
   );
 }
 
-function projects() {
-  const c = chapters.find((x) => x.id === "proyectos-compartidos");
-  return (
-    head("Crear con otros", "Proyectos compartidos", c.short) +
-    `<section class="feature"><div>${img("arc-009962", "Archivo expositivo de Signo de Agua", true)}</div><div><p class="eyebrow">Agua · creación · educación</p><h2>El agua como<br>punto de encuentro.</h2><p>${esc(c.paragraphs[0])}</p>${a("/archivo/signo-agua", "Ver el archivo de Signo de Agua " + arrow, "text-link")}</div></section><div class="prose"><h2>Signo de Agua y la memoria del proyecto</h2><p>Las fotografías conservadas bajo el nombre Signo de Agua muestran una exposición y sus encuentros. La denominación Propósito del Agua procede del relato del artista. Ambas referencias se mantienen visibles mientras se documenta su relación exacta.</p><h2>Dragonians</h2><p>${esc(c.paragraphs[1])}</p><p>Las piezas del catálogo vinculadas a dragones y relatos se reúnen a continuación. Los materiales de otros participantes se conservan como documentación del proyecto y no se atribuyen a Enric.</p></div><section class="section">${sectionHead("Dragonians en las salas")}${albumGrid(albums.filter((al) => ["dragonians-casa-libro", "sant-jordi-estivella"].includes(al.id)))}</section><section class="section">${sectionHead("Obras del catálogo")}${workGrid(works.filter((w) => w.series === "Dragones y relatos"))}</section><div class="end-link">${a("/memoria/exponer-abrir-espacios", "Exponer y abrir espacios " + arrow)}</div>`
-  );
-}
 function artist() {
   return (
     head("El artista", "Enric Segarra i Garibo", site.intro) +
@@ -589,7 +625,7 @@ function render({ keepScroll = false } = {}) {
   }
   if (section === "inicio") {
     html = home();
-    title = "Obra y memoria";
+    title = "Segarra y Garibo";
   } else if (section === "obra") {
     if (!id || categories.some((c) => c.id === id)) {
       html = workIndex(id || "todas", params);
@@ -599,9 +635,9 @@ function render({ keepScroll = false } = {}) {
       html = w ? workDetail(w) : notFound();
       title = w?.label;
     }
-  } else if (section === "imagenes") {
-    html = imageArchive(params);
-    title = "Archivo visual";
+  } else if (section === "imagenes" || section === "memoria") {
+    html = notFound();
+    title = "Página no encontrada";
   } else if (section === "arte-infantil") {
     html = education(params);
     title = "Arte infantil";
@@ -623,15 +659,9 @@ function render({ keepScroll = false } = {}) {
     const al = visibleAlbums().find((al) => al.id === id);
     html = al ? albumPage(al) : notFound();
     title = al?.title;
-  } else if (section === "memoria") {
-    html = notFound();
-    title = "Página no encontrada";
   } else if (section === "exposiciones") {
     html = exhibitions(params);
     title = "Exposiciones";
-  } else if (section === "proyectos") {
-    html = projects();
-    title = "Proyectos";
   } else if (section === "artista") {
     html = artist();
     title = "Artista";
@@ -644,7 +674,7 @@ function render({ keepScroll = false } = {}) {
   }
   if (dialog.open) dialog.close();
   main.innerHTML = html;
-  document.title = `${title || "Archivo"} — ${site.name}`;
+  document.title = title === site.name ? site.name : `${title || "Archivo"} — ${site.name}`;
   const al =
       section === "archivo" ? visibleAlbums().find((al) => al.id === id) : null,
     active =
@@ -659,16 +689,66 @@ function render({ keepScroll = false } = {}) {
   });
   closeMenu();
   if (!keepScroll) {
-    window.scrollTo({ top: 0, behavior: "instant" });
+    const root = document.documentElement,
+      previousScrollBehavior = root.style.scrollBehavior,
+      resetScroll = () =>
+        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    root.style.scrollBehavior = "auto";
+    resetScroll();
+    requestAnimationFrame(() => {
+      resetScroll();
+      root.style.scrollBehavior = previousScrollBehavior;
+    });
     if (routeKey) main.focus({ preventScroll: true });
   }
   routeKey = raw;
   attachPageEvents();
   attachArchiveEvents();
-  attachJourneyEvents();
+  attachFamilySlideshows();
   observe();
 }
 function observe() {}
+
+function attachFamilySlideshows() {
+  familySlideStops.forEach((stop) => stop());
+  familySlideStops = [];
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
+  document.querySelectorAll("[data-family-slideshow]").forEach((slideshow) => {
+    const slides = [...slideshow.querySelectorAll(".family-slide")];
+    if (slides.length < 2 || reduceMotion.matches) return;
+    const card = slideshow.closest(".family-card");
+    let index = 0,
+      timer = null;
+    const stop = () => {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+    };
+    const show = (next) => {
+      slides[index].classList.remove("is-visible");
+      slides[index].setAttribute("aria-hidden", "true");
+      slides[next].classList.add("is-visible");
+      slides[next].setAttribute("aria-hidden", "false");
+      index = next;
+    };
+    const start = () => {
+      stop();
+      if (!document.hidden) {
+        timer = window.setInterval(
+          () => show((index + 1) % slides.length),
+          3600,
+        );
+      }
+    };
+    card?.addEventListener("mouseenter", stop);
+    card?.addEventListener("mouseleave", start);
+    card?.addEventListener("focusin", stop);
+    card?.addEventListener("focusout", (event) => {
+      if (!card.contains(event.relatedTarget)) start();
+    });
+    start();
+    familySlideStops.push(stop);
+  });
+}
 
 function updateFilters(view) {
   if (!activeFilters) return;

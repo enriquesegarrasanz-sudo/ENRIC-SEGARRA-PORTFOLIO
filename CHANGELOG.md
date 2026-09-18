@@ -1,8 +1,24 @@
 # Historial de cambios
 
-## Publicación · renovación de recursos de escultura — 2026-09-18
+## Arte infantil · salas de obra — 2026-09-18
 
-- Renovada la etiqueta de versión de la aplicación, el catálogo y los recursos de imagen para que la página pública cargue las vistas secundarias actualizadas y no reutilice fotografías almacenadas en caché de la versión anterior.
+- Las obras infantiles se recorren en cinco salas diferenciadas por familias de trabajo, con fotografías completas tanto en formato horizontal como vertical.
+
+## Escultura · Forma articulada dentro de un círculo — 2026-09-18
+
+- Revisadas las siete vistas de la ficha ESC-054 con una iluminación editorial coherente y fondo de exposición blanco cálido.
+- La pátina irregular del metal, la textura de la pared y el desgaste de la peana permanecen visibles, sin homogeneizarlos ni idealizarlos.
+
+## Portada · retrato único — 2026-09-18
+
+- La portada queda deliberadamente reducida a un único retrato horizontal de Enric Segarra con una escultura de madera, a gran formato y sin textos ni carrusel.
+- Se ha preparado una versión de portada apaisada con una depuración localizada del borde de la figura, preservando la persona, la obra, su forma orgánica, la veta, el color y la luz del original.
+
+## Arte infantil · mosaico editorial — 2026-09-18
+
+- El índice de Arte infantil adopta el mismo mosaico editorial de Exposiciones: cinco accesos con imágenes apaisadas, contexto breve y llamadas a recorrer cada apartado.
+- La imagen de apertura se sustituye por una composición colectiva del archivo, en lugar del relieve con forma de calavera.
+- «Textos y propuestas» pasa a llamarse «Ideas para crear». Se conservan los documentos y enlaces ya publicados bajo el nuevo título.
 
 ## Dibujo · encuadre y luz — 2026-09-18
 
