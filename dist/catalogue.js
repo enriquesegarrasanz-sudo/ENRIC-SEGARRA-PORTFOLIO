@@ -751,8 +751,8 @@ export const catalogue = [
     "series": "En el entorno",
     "chapter": "seguir-creando",
     "reference": "MOV-017",
-    "image": "gallery-014851",
-    "thumb": "gallery-014851-thumb",
+    "image": "nature-014851",
+    "thumb": "nature-014851-thumb",
     "alt": "Planos de color entre los árboles",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
@@ -763,62 +763,6 @@ export const catalogue = [
         "alt": "Planos de color entre los árboles. Fotografía 1",
         "sourceName": "DSC02295.ARW",
         "contentKey": "ARC-014851"
-      },
-      {
-        "image": "arc-014869",
-        "thumb": "thumb-014869",
-        "archiveId": "ARC-014869",
-        "alt": "Planos de color entre los árboles. Fotografía 2",
-        "sourceName": "DSC02313.ARW",
-        "contentKey": "ARC-014869"
-      },
-      {
-        "image": "arc-014872",
-        "thumb": "thumb-014872",
-        "archiveId": "ARC-014872",
-        "alt": "Planos de color entre los árboles. Fotografía 3",
-        "sourceName": "DSC02316.ARW",
-        "contentKey": "ARC-014872"
-      },
-      {
-        "image": "arc-014928",
-        "thumb": "thumb-014928",
-        "archiveId": "ARC-014928",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314120717.jpg",
-        "contentKey": "ARC-014928"
-      },
-      {
-        "image": "arc-014929",
-        "thumb": "thumb-014929",
-        "archiveId": "ARC-014929",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314124357.jpg",
-        "contentKey": "ARC-014929"
-      },
-      {
-        "image": "arc-014930",
-        "thumb": "thumb-014930",
-        "archiveId": "ARC-014930",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260314124413.jpg",
-        "contentKey": "ARC-014930"
-      },
-      {
-        "image": "arc-014942",
-        "thumb": "thumb-014942",
-        "archiveId": "ARC-014942",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260326124123.jpg",
-        "contentKey": "ARC-014942"
-      },
-      {
-        "image": "arc-014943",
-        "thumb": "thumb-014943",
-        "archiveId": "ARC-014943",
-        "alt": "Planos de color entre los árboles · vista del archivo",
-        "sourceName": "IMG20260326124141.jpg",
-        "contentKey": "ARC-014943"
       }
     ]
   },
@@ -1001,30 +945,30 @@ export const catalogue = [
     "series": "En exposición",
     "chapter": "seguir-creando",
     "reference": "MOV-020",
-    "image": "gallery-008941",
-    "thumb": "gallery-008941-thumb",
+    "image": "gallery-008941-cool-neutral-v2",
+    "thumb": "gallery-008941-cool-neutral-v2",
     "alt": "Estructura de líneas oscuras y esferas",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "arc-008941",
-        "thumb": "thumb-008941",
+        "image": "gallery-008941-cool-neutral-v2",
+        "thumb": "gallery-008941-thumb",
         "archiveId": "ARC-008941",
         "alt": "Estructura de líneas oscuras y esferas. Fotografía 1",
         "sourceName": "IMG_20180321_113841.jpg",
         "contentKey": "bf2398e2cb29e820d2cf6d6f16d666a89763b23bcf190bff3a67177eac9bc393"
       },
       {
-        "image": "arc-008943",
-        "thumb": "thumb-008943",
+        "image": "gallery-008943-cool-neutral-v2",
+        "thumb": "gallery-008943-cool-neutral-v2",
         "archiveId": "ARC-008943",
         "alt": "Estructura de líneas oscuras y esferas. Fotografía 2",
         "sourceName": "IMG_20180321_113852.jpg",
         "contentKey": "20d7eaf64f9dfd96069e6efefbc1ce0cbc11eb013440bb55f71e682c67187b3a"
       },
       {
-        "image": "arc-008949",
-        "thumb": "thumb-008949",
+        "image": "gallery-008949-cool-neutral-v2",
+        "thumb": "gallery-008949-cool-neutral-v2",
         "archiveId": "ARC-008949",
         "alt": "Estructura de líneas oscuras y esferas. Fotografía 3",
         "sourceName": "IMG_20180324_120136.jpg",

@@ -26066,5 +26066,26 @@
     "transformacion": "Versión editorial de catálogo con fondo blanco neutro e iluminación de exposición; obra y encuadre preservados",
     "width": 1024,
     "height": 1536
+  },{
+    "asset": "assets/gallery-008941-cool-neutral-v2.png",
+    "archivo_id": "ARC-008941",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180321_113841.jpg",
+    "transformacion": "Edición expositiva desde la fotografía original: fondo continuo blanco neutro, iluminación de estudio uniforme, eliminación de sombras y limpieza visual; estructura, esferas, encuadre y perspectiva preservados",
+    "width": 1024,
+    "height": 1536
+  },{
+    "asset": "assets/gallery-008943-cool-neutral-v2.png",
+    "archivo_id": "ARC-008943",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180321_113852.jpg",
+    "transformacion": "Edición expositiva desde la fotografía original: fondo blanco neutro, iluminación de estudio uniforme, eliminación de sombras y limpieza visual; estructura, esferas, encuadre y perspectiva preservados",
+    "width": 1024,
+    "height": 1536
+  },{
+    "asset": "assets/gallery-008949-cool-neutral-v2.png",
+    "archivo_id": "ARC-008949",
+    "original": "ARTE INFATIL Y PASADO\\ENRIC SEGARRA OBRA\\ESCULTURA MÓVIL\\IMG_20180324_120136.jpg",
+    "transformacion": "Edición expositiva desde la fotografía original: fondo blanco neutro, iluminación de estudio uniforme, eliminación de sombras y limpieza visual; estructura, esferas, encuadre y perspectiva preservados",
+    "width": 1086,
+    "height": 1448
   }
 ]
