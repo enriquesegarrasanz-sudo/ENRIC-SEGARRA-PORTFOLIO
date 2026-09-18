@@ -83,8 +83,8 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-003",
-    "image": "gallery-014616-cool-neutral-v2",
-    "thumb": "gallery-014616-cool-neutral-v2",
+    "image": "gallery-014616",
+    "thumb": "gallery-014616-thumb",
     "alt": "Rama oscura, acentos rojos",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
@@ -213,26 +213,26 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-006",
-    "image": "gallery-009204-cool-neutral-v2",
-    "thumb": "gallery-009204-cool-neutral-v2",
+    "image": "gallery-014666",
+    "thumb": "gallery-014666-thumb",
     "alt": "Tubos rosas sobre un arco",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [
       {
-        "image": "gallery-009204-cool-neutral-v2",
-        "thumb": "gallery-009204-cool-neutral-v2",
-        "archiveId": "ARC-009204",
-        "alt": "Tubos rosas sobre un arco. Fotografía 1",
-        "sourceName": "DSC03779.jpg",
-        "contentKey": "91e82f94b4fe97800287d0d4974c8469db5227ca3db5c6e0b6af4c3c2aeecd09"
-      },
-      {
         "image": "gallery-014666",
         "thumb": "gallery-014666-thumb",
         "archiveId": "ARC-014666",
-        "alt": "Tubos rosas sobre un arco. Fotografía 2",
+        "alt": "Tubos rosas sobre un arco. Fotografía 1",
         "sourceName": "DSC02450.ARW",
         "contentKey": "ARC-014666"
+      },
+      {
+        "image": "gallery-009204-cool-neutral-v2",
+        "thumb": "gallery-009204-cool-neutral-v2",
+        "archiveId": "ARC-009204",
+        "alt": "Tubos rosas sobre un arco. Fotografía 2",
+        "sourceName": "DSC03779.jpg",
+        "contentKey": "91e82f94b4fe97800287d0d4974c8469db5227ca3db5c6e0b6af4c3c2aeecd09"
       },
       {
         "image": "gallery-014673",
