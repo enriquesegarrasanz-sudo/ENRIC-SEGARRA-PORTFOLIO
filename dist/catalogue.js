@@ -13671,7 +13671,7 @@ export const albums = [
       "Las vistas de sala permiten seguir la variedad de interpretaciones reunidas en la exposición: figuras, dragones, composiciones circulares y obras sobre papel.",
       "Se presenta como documentación de una muestra colectiva vinculada al fondo Dragonians. Las fotografías de obras de otros artistas se mantienen dentro del contexto expositivo y no se atribuyen a Enric."
     ],
-    "image": "arc-009425",
+    "image": "arc-009391",
     "gallery": [
       {
         "image": "arc-009425",
