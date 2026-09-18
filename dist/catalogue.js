@@ -457,8 +457,8 @@ export const catalogue = [
     "series": "Formas suspendidas",
     "chapter": "seguir-creando",
     "reference": "MOV-012",
-    "image": "gallery-014750-cool-neutral-v2",
-    "thumb": "gallery-014750-cool-neutral-v2",
+    "image": "gallery-014755",
+    "thumb": "gallery-014755-thumb",
     "alt": "Curvas de tubo corrugado",
     "text": "La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.",
     "gallery": [

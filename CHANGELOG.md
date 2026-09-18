@@ -128,3 +128,6 @@
 - Fotografías ligeras y trazables, sin modificación estética de los originales.
 - Navegación adaptable a móvil y ampliación accesible de imágenes.
 - Instrucciones de edición, comprobación y guardado al finalizar futuros cambios.
+## 18 de septiembre de 2026
+
+- MOV-012 («Curvas de tubo corrugado») abre ahora con la segunda fotografía de su galería como imagen de portada.
