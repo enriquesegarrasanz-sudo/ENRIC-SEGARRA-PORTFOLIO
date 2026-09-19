@@ -128,7 +128,7 @@ function home() {
   const slides = [
     {
       image: "hero-portrait-real-neutral-v3.webp",
-      alt: "SEGARRA Y GARIBO sostiene una escultura de madera",
+      alt: "ENRIC SEGARRA I GARIBO sostiene una escultura de madera",
       kind: "presentación",
     },
     { image: "hero-work-circle-real-neutral-v3.webp", alt: "Escultura circular de metal y piezas articuladas", kind: "escultura" },
@@ -140,7 +140,7 @@ function home() {
     { image: "hero-work-blue-green-drawing-real-neutral-v3.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
     { image: "hero-work-painted-relief-real-neutral-v3.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
   ];
-  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de SEGARRA Y GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="eager" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>SEGARRA<br>Y GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>`;
+  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>ENRIC<br>SEGARRA<br>I GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -235,7 +235,7 @@ function educationPhotoIndex(section, list) {
 
 function workDetail(w) {
   setGallery(w.gallery, w.label);
-  return `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><h1>${esc(w.label)}</h1>${prose([w.text])}<dl><div><dt>Autor</dt><dd>SEGARRA Y GARIBO</dd></div></dl></div></section>`;
+  return `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><h1>${esc(w.label)}</h1>${prose([w.text])}<dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div></dl></div></section>`;
   const related = works
     .filter(
       (x) =>
