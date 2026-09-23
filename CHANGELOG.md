@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## Visibilidad en buscadores · 2026-09-23
+
+- Se elimina el bloqueo de indexación y se añaden la URL canónica, metadatos de presentación y directrices para buscadores.
+- Se incorporan `robots.txt` y `sitemap.xml` con la dirección pública definitiva, para que Google pueda descubrir el portfolio.
 ## Portada · fuentes directas y blanco neutro — 2026-09-18
 
 - Las nueve imágenes del carrusel se vuelven a preparar una sola vez y de forma directa desde sus fotografías de origen, sin encadenar versiones generadas.

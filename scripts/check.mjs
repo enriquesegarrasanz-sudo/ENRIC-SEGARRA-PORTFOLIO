@@ -91,12 +91,12 @@ for (const w of works) {
 }
 const html = await readFile(new URL("dist/index.html", root), "utf8");
 for (const ref of html.matchAll(/(?:src|href)="([^"#][^"]*)"/g)) {
-  if (!ref[1].startsWith("data:"))
+  if (!/^(?:data:|https?:|mailto:|tel:)/.test(ref[1]))
     await access(new URL("dist/" + ref[1], root));
 }
 assert(
   html.includes('name="robots" content="index, follow"'),
-  "La versión pública debe permitir la indexación",
+  "La publicación debe permitir indexación por buscadores",
 );
 assert(
   html.includes("Content-Security-Policy"),

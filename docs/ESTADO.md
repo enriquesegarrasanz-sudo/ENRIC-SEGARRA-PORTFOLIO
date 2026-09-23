@@ -1,5 +1,9 @@
 # Estado de la versión 0.4.0
 
+## Visibilidad en buscadores · 23 de septiembre de 2026
+
+- La publicación pública permite indexación por buscadores. Se incorpora URL canónica, metadatos de presentación, `robots.txt` y `sitemap.xml` para el dominio `enricsegarraigaribo.com`.
+- La siguiente acción externa es verificar el dominio en Google Search Console y enviar el sitemap; ambas tareas son gratuitas.
 ## Portada · fuentes directas y blanco neutro · 18 de septiembre de 2026
 
 - El carrusel utiliza nueve versiones nuevas de presentación, cada una obtenida directamente de su fotografía de origen y sin volver a procesar una imagen ya generada. La procedencia específica de esta selección queda en `procedencia-portada-carrusel-v3.json`.
