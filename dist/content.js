@@ -2,8 +2,9 @@
 // no títulos del artista. No completar fechas, técnicas o medidas por inferencia.
 export const site = {
   name: "ENRIC SEGARRA I GARIBO",
-  contactEmail: null,
-  contactText: "El contacto profesional se incorporará próximamente.",
+  contactEmail: "enric3art@gmail.com",
+  contactPhone: "+34615224258",
+  contactText: "Para consultas sobre la obra y los proyectos, puedes escribir o llamar a Enric.",
   intro:
     "Escultor, pintor y dibujante. Una práctica que atraviesa el oficio, la experimentación con los materiales y la educación artística.",
 };
@@ -26,6 +27,14 @@ const consolidatedBellasArts = new Set([
 ]);
 const hiddenAlbums = new Set(["pineda"]);
 export const albums = [
+  {
+    id: "bellas-artes-infantil", title: "Arte infantil · Sala de Bellas Artes",
+    chapter: "crear-con-otros", type: "Exposición de arte infantil", section: "exposiciones",
+    audience: "educacion", exhibitionKind: "infantil", image: "bellas-arc-012548",
+    text: "Exposición de obras de participantes de las actividades de educación artística.",
+    credit: "Obras de participantes; no pertenecen al catálogo personal de Enric.",
+    gallery: bellasArtsGallery.filter((photo) => photo.galleryGroup.startsWith("Arte infantil")),
+  },
   ...catalogueAlbums.filter(
     (album) =>
       !consolidatedBellasArts.has(album.id) && !hiddenAlbums.has(album.id),
@@ -41,13 +50,13 @@ export const albums = [
     text: "Archivo reunido de las exposiciones conservadas en la Sala d’Exposicions de les Belles Arts, en Valencia.",
     paragraphs: [
       "Las fotografías que antes aparecían como exposiciones separadas se reúnen aquí por su sede común: la Sala d’Exposicions de les Belles Arts.",
-      "El archivo distingue la muestra de arte infantil, la muestra colectiva y «Evolución 1984–2004». Las obras de participantes y de otros artistas se presentan como contexto documental y no se atribuyen a Enric.",
+      "Este archivo reúne la muestra colectiva y «Evolución 1984–2004». La exposición infantil se encuentra en Arte infantil. Las obras de otros artistas conservan su atribución.",
       "La invitación de «Evolución 1984–2004» documenta su celebración entre el 3 de febrero y el 3 de marzo de 2005. Las fechas de los otros conjuntos continúan pendientes de confirmación.",
     ],
     image: "evolucion-013392-restored",
-    gallery: bellasArtsGallery,
+    gallery: bellasArtsGallery.filter((photo) => !photo.galleryGroup.startsWith("Arte infantil")),
     credit:
-      "La autoría se indica en cada bloque: obra de Enric en «Evolución 1984–2004»; obras de participantes en arte infantil; y contexto documental en la muestra colectiva.",
+      "La autoría se indica en cada bloque: obra de Enric en «Evolución 1984–2004» y contexto documental en la muestra colectiva.",
     place: "Sala d’Exposicions de les Belles Arts · Valencia",
     searchTerms: "Bellas Artes Valencia",
     source:
@@ -57,7 +66,7 @@ export const albums = [
 export const albumRedirects = {
   pineda: "/exposiciones",
   "sala-compartida": "sala-bellas-artes",
-  "educacion-salas": "sala-bellas-artes",
+  "educacion-salas": "bellas-artes-infantil",
   "evolucion-belles-arts": "sala-bellas-artes",
 };
 export const chapters = [

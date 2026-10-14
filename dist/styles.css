@@ -3393,3 +3393,38 @@ main {
 #catalogue-results {
   scroll-margin-top: 110px;
 }
+
+/* Reorganización de octubre: la presentación nunca se superpone a las obras. */
+.home-introduction { padding: 18px 0 28px; max-width: 850px; }
+.home-introduction h1 { font-size: clamp(30px, 4.5vw, 64px); line-height: 1.08; margin: 12px 0 18px; }
+.home-introduction p { max-width: 650px; }
+.home-carousel-stage { aspect-ratio: auto; height: 0; padding-bottom: 66.6667%; }
+.home-carousel-nav button { width: 48px; height: 48px; background: #fff; }
+.home-carousel-label { background: #fff; padding: 4px 8px; }
+.section-directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 28px; padding-bottom: 48px; }
+.section-card { display: block; min-width: 0; }
+.section-card .image-space { height: 300px; background: #f7f7f4; margin-bottom: 18px; }
+.section-card img { width: 100%; height: 100%; object-fit: contain; }
+.section-card h2 { font-size: clamp(26px, 3vw, 40px); margin-bottom: 10px; }
+.section-card p { max-width: 500px; }
+#nav a { line-height: 1.35; }
+@media (max-width: 1000px) {
+  .home-introduction h1 { font-size: 38px; }
+  .page-head h1 { overflow-wrap: break-word; }
+  .catalogue-tools { flex-wrap: wrap; }
+  .home-carousel-stage { aspect-ratio: auto; }
+}
+@media (max-width: 600px) {
+  .home-introduction h1 { font-size: 30px; letter-spacing: -.04em; }
+  .section-directory { grid-template-columns: 1fr; gap: 32px; }
+  .section-card .image-space { height: 260px; }
+  .tabs { flex-wrap: wrap; }
+  .tabs a, .subfilters a { min-height: 44px; display: inline-flex; align-items: center; }
+  .dialog-bottom { gap: 8px; }
+  .dialog-bottom button { min-height: 44px; padding: 6px; }
+  .dialog-bottom p { overflow-wrap: anywhere; }
+  input, select { max-width: 100%; min-height: 44px; font-size: 16px; }
+}
+
+.education-directory-image { width: 100%; height: auto; }
+.education-directory-image .directory-count { max-width: calc(100% - 28px); white-space: normal; }

@@ -1,3 +1,17 @@
+## 2026-10-14 — Reorganización según indicaciones del artista
+
+- Menú de seis apartados: Inicio; Escultura y móviles; Jardín de las Lagartijas; Pintura y dibujo; Arte infantil; Trayectoria y contacto.
+- Móviles presentados como una serie común, sin divisiones por lugar de exposición. Se conservan fichas, referencias y clasificación interna para trazabilidad.
+- Jardín de las Lagartijas / Jardí de les Sargantanes: archivo existente de árboles, entorno y móviles, reunido sin duplicados de contenido, con carga progresiva y ampliación. El texto distingue el terreno rústico del jardín de casa, a aproximadamente un kilómetro. No se atribuye una localización individual no documentada a cada fotografía.
+- Entradas visuales a Tauromaquia, Gatos y Arcas de Noé, usando las agrupaciones previamente documentadas del catálogo. Resto de pintura y dibujo accesible.
+- Exposiciones educativas dentro de Arte infantil. Separación del bloque infantil de Bellas Artes del archivo de obra propia/colectiva, conservando fotografías y enlaces antiguos.
+- Trayectoria, exposiciones y contacto reunidos. Correo y teléfono facilitados por el usuario, con enlaces de correo y llamada.
+- Presentación y nombre fuera del carrusel: nunca cubren la fotografía. Ajustes de móvil/tableta y tarjetas infantiles.
+- Recuperados enlaces internos de memoria y archivo visual que antes devolvían página no encontrada. Traducción de los nuevos títulos y textos principales.
+
+Copias previas: `../COPIAS_SEGURIDAD_WEB/web-antes-reorganizacion-20261014.zip` y `../COPIAS_SEGURIDAD_WEB/antes-reorganizacion-20261014.bundle`. Base: `2015959` (coincidía con origin/main al iniciar).
+Los audios y transcripciones se mantienen fuera del repositorio público, en la carpeta local de revisión.
+
 # Historial de cambios
 
 ## Visibilidad en buscadores · 2026-09-23

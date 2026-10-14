@@ -5,7 +5,8 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js?v=20260918-obra-integrada-5006c21";
+} from "./content.js?v=20261014-reorganizacion";
+import { journeyEntries } from "./journey.js";
 import { redirects } from "./catalogue.js?v=20260918-obra-integrada-5006c21";
 
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
@@ -22,7 +23,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20260918-i18n-visible-content-v5";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20261014-reorganizacion";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -55,7 +56,7 @@ const trail = (path, label, current) =>
 const sectionHead = (label, path, text = "Ver todo") =>
   `<div class="section-head"><h2>${esc(label)}</h2>${path ? a(path, esc(text) + " " + arrow) : ""}</div>`;
 const workCard = (w) =>
-  `<article class="work-card reveal">${a("/obra/" + w.id, `<div class="image-space">${img(w.thumb, w.alt)}</div><div class="caption"><span class="reference">${esc(w.reference)}</span><h3>${esc(w.label)}</h3><p>${esc(w.series)}${w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : ""}</p></div>`)}</article>`;
+  `<article class="work-card reveal">${a("/obra/" + w.id, `<div class="image-space">${img(w.thumb, w.alt)}</div><div class="caption"><span class="reference">${esc(w.reference)}</span><h3>${esc(w.label)}</h3><p>${esc(w.category === "moviles" ? "Móviles" : w.series === "Arcas" ? "Arcas de Noé" : w.series)}${w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : ""}</p></div>`)}</article>`;
 const albumCard = (al) => {
   const reference = al.section === "exposiciones"
     ? [{ obra: "Obra propia", colectiva: "Colectiva", infantil: "Arte infantil", formacion: "Formación docente", sala: "Archivo de sala" }[al.exhibitionKind], al.date]
@@ -87,7 +88,7 @@ const workGrid = (ws) =>
     `<div class="exhibition-list">${list.map(exhibitionCard).join("")}</div>`;
 const educationAlbums = () =>
   albums.filter((al) => al.audience === "educacion");
-const visibleAlbums = () => albums.filter((al) => al.section !== "proceso");
+const visibleAlbums = () => albums;
 let currentGallery = [],
   galleryLabel = "",
   selectedPhoto = 0,
@@ -121,7 +122,7 @@ function familyOptions(pool, category) {
       .filter((group) => pool.some((work) => group.series.includes(work.series)))
       .map((group) => group.label);
   }
-  return [...new Set(pool.map((work) => work.series))];
+  return category === "moviles" ? [] : [...new Set(pool.map((work) => work.series))];
 }
 
 function home() {
@@ -140,14 +141,44 @@ function home() {
     { image: "hero-work-blue-green-drawing-real-neutral-v3.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
     { image: "hero-work-painted-relief-real-neutral-v3.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
   ];
-  return `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async">${i === 0 ? `<figcaption class="home-carousel-intro"><p class="eyebrow">Archivo de obra</p><h1>ENRIC<br>SEGARRA<br>I GARIBO</h1><p>Arte, materia y memoria en movimiento.</p><a href="#/obra/escultura">Entrar en la obra <span aria-hidden="true">↗</span></a></figcaption>` : `<figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption>`}</figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>`;
+  return `<section class="home-introduction"><p class="eyebrow">Escultura · Pintura · Dibujo</p><h1>ENRIC SEGARRA I GARIBO</h1><p>${esc(site.intro)}</p></section><section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async"><figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption></figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>${homeDirectory()}`;
+}
+
+
+function directoryCard(path, title, image, description = "") {
+  return a(path, `<div class="image-space">${img(image, title)}</div><h2>${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ""}<span aria-hidden="true">↗</span>`, "section-card");
+}
+function homeDirectory() {
+  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014873", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura-dibujo", "Pintura y dibujo", works.find(w => w.series === "Gatos").thumb)}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}</div>`;
+}
+function sculptureAndMobiles() {
+  return head("Obra", "Escultura y móviles", "Volumen, equilibrio y movimiento. La obra escultórica y las piezas suspendidas, reunidas en un mismo recorrido.") + `<div class="section-directory">${directoryCard("/obra/escultura", "Escultura", "escultura-madera")}${directoryCard("/obra/moviles", "Móviles", works.find(w => w.category === "moviles").thumb, "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.")}</div><div class="end-link">${a("/jardin", "Jardín de las Lagartijas — Jardí de les Sargantanes " + arrow)}</div>`;
+}
+function paintingAndDrawing() {
+  return head("Obra", "Pintura y dibujo", "Series pictóricas y obras sobre papel.") + `<div class="section-directory">${["Tauromaquia", "Gatos", "Arcas"].map(series => directoryCard("/obra/pintura?serie=" + encodeURIComponent(series), series === "Arcas" ? "Arcas de Noé" : series, works.find(w => w.category === "pintura" && w.series === series).thumb)).join("")}${directoryCard("/obra/pintura", "Toda la pintura", works.find(w => w.category === "pintura").thumb)}${directoryCard("/obra/dibujo", "Dibujo", works.find(w => w.category === "dibujo").thumb)}</div>`;
+}
+function garden() {
+  const seen = new Set();
+  const photos = ["arboles", "naturaleza-moviles"].flatMap(id => albums.find(al => al.id === id)?.gallery || []).filter(p => {
+    const key = p.contentKey || p.archiveId + ":" + (p.sourcePage || "");
+    if (seen.has(key)) return false;
+    seen.add(key); return true;
+  });
+  setGallery(photos, "Jardín de las Lagartijas");
+  return head("Espacio escultórico", "Jardín de las Lagartijas", "Jardí de les Sargantanes") + prose([
+    "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
+    "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
+  ]) + `<div class="end-link">${a("/obra/moviles", "Ver la serie de móviles " + arrow)}</div><div class="gallery-grid" id="album-photos">${galleryGrid(photos.slice(0,36))}</div>${photos.length > 36 ? `<button class="load-more" id="more-photos" data-shown="36">Seguir viendo <span>36 / ${photos.length}</span></button>` : ""}`;
+}
+function trajectoryContact() {
+  return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section">${sectionHead("Exposiciones", "/exposiciones", "Ver exposiciones")}${albumGrid(albums.filter(al => al.section === "exposiciones" && al.audience !== "educacion").slice(0,3))}</section><section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
   const query = params.get("q") || "",
     view = params.get("vista") === "recorrido" ? "recorrido" : "catalogo",
     pool = works.filter((w) => category === "todas" || w.category === category),
-    requestedSeries = params.get("serie") || "",
+    requestedSeries = category === "moviles" ? "" : params.get("serie") || "",
     series =
       category === "escultura"
         ? sculptureFamilyGroups.find(
@@ -179,7 +210,7 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
     todas:
       "Móviles, escultura, pintura y dibujo. Un catálogo organizado por familias de obras, con distintas vistas reunidas en cada ficha.",
     moviles:
-      "Equilibrio, color y movimiento. Piezas suspendidas que cambian con el aire, la luz y el lugar que las acoge.",
+      "Una misma serie de esculturas suspendidas, presente en el jardín de casa y en el Jardín de las Lagartijas. Equilibrio, color y materiales recuperados en diálogo con el aire.",
     escultura:
       "El volumen como punto de partida. Tallas, ensamblajes, relieves y construcciones presentes en el archivo.",
     pintura:
@@ -197,7 +228,7 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
       category === "todas" ? "Obra" : catName(category),
       descriptions[category],
     ) +
-    `<nav class="tabs" aria-label="Disciplinas">${categories.map((c) => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter((w) => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>${sculptureFamilies}<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar título, familia o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label><label class="select-label">Familia<select name="serie"><option value="">Todas las familias</option>${seriesList.map((s) => `<option ${s === series ? "selected" : ""} value="${esc(s)}">${esc(s)}</option>`).join("")}</select></label><div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}${series ? " · " + esc(series) : ""}</p><p>Nombres descriptivos provisionales</p></div><div id="catalogue-results">${renderWorks(category === "escultura" ? filtered : filtered.slice(0, 24), view)}</div>${category !== "escultura" && filtered.length > 24 ? `<button class="load-more" id="more-works" data-shown="24">Ver más obras <span>24 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`
+    `<nav class="tabs" aria-label="Disciplinas">${categories.map((c) => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter((w) => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>${sculptureFamilies}<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar título, familia o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${category === "moviles" ? "" : `<label class="select-label">Familia<select name="serie"><option value="">Todas las familias</option>${seriesList.map((s) => `<option ${s === series ? "selected" : ""} value="${esc(s)}">${esc(s)}</option>`).join("")}</select></label>`}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}${series ? " · " + esc(series) : ""}</p><p>Nombres descriptivos provisionales</p></div><div id="catalogue-results">${renderWorks(category === "escultura" ? filtered : filtered.slice(0, 24), view)}</div>${category !== "escultura" && filtered.length > 24 ? `<button class="load-more" id="more-works" data-shown="24">Ver más obras <span>24 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`
   );
 }
 function renderWorks(list, view) {
@@ -254,11 +285,11 @@ function albumPage(al) {
   const parent =
       al.audience === "educacion"
         ? "/arte-infantil?seccion=" + al.section
-        : "/exposiciones",
+        : al.section === "proceso" ? "/jardin" : "/exposiciones",
     label =
       al.audience === "educacion"
         ? "Arte infantil"
-        : "Exposiciones";
+        : al.section === "proceso" ? "Jardín de las Lagartijas" : "Exposiciones";
   return (
     trail(parent, label, al.title) +
     head(al.date || al.type, al.title, al.text) +
@@ -321,7 +352,7 @@ function education(params) {
     head(
       "Educación artística",
       "Arte infantil",
-      "Crear con las manos, descubrir el volumen y dar espacio a la imaginación.",
+      "Una etapa de la trayectoria artística: obras de participantes, talleres, formación y exposiciones infantiles reunidos en un solo lugar.",
     ) +
     tabs +
     `<section class="education-opening"><figure>${img("arc-014341", "Relieve realizado en una actividad de arte infantil", true)}<figcaption>La colección: materiales cotidianos, soluciones propias.</figcaption></figure><div>${prose(educationIntro.slice(0, 2))}${a("/imagenes?ambito=infantil", "Ver las imágenes de obras infantiles " + arrow, "text-link")}</div></section><div class="education-directory">${educationSections
@@ -384,10 +415,15 @@ function chapterPage(c) {
 }
 
 function exhibitions(params) {
+  if (["infantil", "formacion", "educacion"].includes(params.get("tipo"))) {
+    const group = params.get("tipo") === "educacion" ? "todas" : params.get("tipo");
+    location.replace("#/arte-infantil?seccion=exposiciones&grupo=" + group);
+    return "";
+  }
   const f = params.get("tipo") || "todas",
     q = params.get("q") || "",
     view = params.get("vista") === "ampliada" ? "ampliada" : "mosaico",
-    all = albums.filter((al) => al.section === "exposiciones");
+    all = albums.filter((al) => al.section === "exposiciones" && al.audience !== "educacion");
   const list = all.filter(
     (al) =>
       (f === "todas" ||
@@ -401,8 +437,6 @@ function exhibitions(params) {
     ["todas", "Todas"],
     ["obra", "Obra propia"],
     ["colectiva", "Colectivas"],
-    ["infantil", "Arte infantil"],
-    ["formacion", "Formación docente"],
     ["sala", "Sala"],
   ];
   return (
@@ -625,7 +659,7 @@ function artist() {
 }
 function contact() {
   return (
-    head("Información", "Contacto", site.contactText) +
+    head("Información", "Contacto", site.contactText) + `<p><a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a></p><p><a href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` +
     `<div class="prose"><p>Este espacio reúne la obra y la memoria artística de ENRIC SEGARRA I GARIBO. El archivo sigue creciendo con la identificación de piezas, documentos y fotografías.</p></div><div class="end-link">${a("/obra", "Volver a la obra " + arrow)}</div>`
   );
 }
@@ -658,6 +692,14 @@ function render({ keepScroll = false } = {}) {
   if (section === "inicio") {
     html = home();
     title = "ENRIC SEGARRA I GARIBO";
+  } else if (section === "escultura-moviles") {
+    html = sculptureAndMobiles(); title = "Escultura y móviles";
+  } else if (section === "pintura-dibujo") {
+    html = paintingAndDrawing(); title = "Pintura y dibujo";
+  } else if (section === "jardin") {
+    html = garden(); title = "Jardín de las Lagartijas";
+  } else if (section === "trayectoria-contacto") {
+    html = trajectoryContact(); title = "Trayectoria y contacto";
   } else if (section === "obra") {
     if (!id || categories.some((c) => c.id === id)) {
       html = workIndex(id || "todas", params);
@@ -667,9 +709,12 @@ function render({ keepScroll = false } = {}) {
       html = w ? workDetail(w) : notFound();
       title = w?.label;
     }
-  } else if (section === "imagenes" || section === "memoria") {
-    html = notFound();
-    title = "Página no encontrada";
+  } else if (section === "imagenes") {
+    html = imageArchive(params); title = "Archivo visual";
+  } else if (section === "memoria") {
+    const chapter = chapters.find(c => c.id === id);
+    html = id ? (chapter ? chapterPage(chapter) : notFound()) : memory(new URLSearchParams("vista=archivo"));
+    title = chapter?.title || "Trayectoria";
   } else if (section === "arte-infantil") {
     html = education(params);
     title = "Arte infantil";
@@ -717,7 +762,8 @@ function render({ keepScroll = false } = {}) {
           ? "exposiciones"
           : section;
   document.querySelectorAll("[data-nav]").forEach((el) => {
-    if (el.dataset.nav === active) el.setAttribute("aria-current", "page");
+    const group = section === "obra" ? (["pintura", "dibujo"].includes(id) || ["pintura", "dibujo"].includes(works.find(w => w.id === id)?.category) ? "pintura-dibujo" : "escultura-moviles") : ["memoria", "artista", "contacto", "exposiciones"].includes(active) ? "trayectoria-contacto" : active;
+    if (el.dataset.nav === group) el.setAttribute("aria-current", "page");
     else el.removeAttribute("aria-current");
   });
   closeMenu();
