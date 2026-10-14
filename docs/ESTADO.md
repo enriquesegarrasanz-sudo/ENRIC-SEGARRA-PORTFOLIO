@@ -11,7 +11,7 @@
 
 Validación: catálogo completo y archivo visual correctos; sintaxis y diferencias sin errores. Navegador Edge: 85 combinaciones de página y ancho (320, 390, 768, 1024 y 1440 px), sin desbordamientos ni errores JavaScript. Comprobados menú móvil, carga progresiva, ampliación/cierre de imagen, correo/teléfono y navegación en catalán. Capturas revisadas en la carpeta local de revisión. No se ha probado en los dispositivos antiguos físicos del artista.
 
-Entrega preparada en rama independiente; la web pública no se ha desplegado en esta revisión.
+Publicación mediante el flujo de GitHub Pages al incorporar la entrega a `main`.
 
 Copias previas: `../COPIAS_SEGURIDAD_WEB/web-antes-reorganizacion-20261014.zip` y `../COPIAS_SEGURIDAD_WEB/antes-reorganizacion-20261014.bundle`. Base: `2015959` (coincidía con origin/main al iniciar).
 Los audios y transcripciones se mantienen fuera del repositorio público, en la carpeta local de revisión.
