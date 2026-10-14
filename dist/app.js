@@ -5,9 +5,10 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js?v=20261014-reorganizacion";
+} from "./content.js?v=20261014-series";
+import { collections } from "./collections.js?v=20261014-series";
 import { journeyEntries } from "./journey.js";
-import { redirects } from "./catalogue.js?v=20260918-obra-integrada-5006c21";
+import { redirects } from "./catalogue.js?v=20261014-series";
 
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 import {
@@ -23,7 +24,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20261014-reorganizacion";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20261014-series";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -97,32 +98,26 @@ let currentGallery = [],
   familySlideStops = [],
   homeCarouselStop = null;
 
-// The catalogue keeps the original series names for traceability, while the
-// public-facing sculpture index groups closely related bodies of work together.
-const sculptureFamilyGroups = [
-  { label: "Relieves y ensamblajes", series: ["Relieves y ensamblajes"] },
-  { label: "Volúmenes", series: ["Volúmenes", "Volúmenes abiertos"] },
-  {
-    label: "Estructuras y ensamblajes",
-    series: ["Archivo de escultura", "Estructuras y ensamblajes"],
-  },
-  { label: "Intervenciones en el entorno", series: ["Intervenciones en el entorno"] },
-];
-
-function sculptureFamilyFor(work) {
-  return (
-    sculptureFamilyGroups.find((group) => group.series.includes(work.series))?.label ||
-    work.series
-  );
-}
-
+const collectionFor = (category, series) => collections[category]?.find(c => c.series === series);
+const seriesLabel = (category, series) => collectionFor(category, series)?.label || series;
+const sculptureFamilyFor = (work) => work.series;
 function familyOptions(pool, category) {
-  if (category === "escultura") {
-    return sculptureFamilyGroups
-      .filter((group) => pool.some((work) => group.series.includes(work.series)))
-      .map((group) => group.label);
-  }
-  return category === "moviles" ? [] : [...new Set(pool.map((work) => work.series))];
+  if (category === "moviles") return [];
+  return collections[category]?.filter(c => pool.some(w => w.series === c.series)).map(c => c.series) || [...new Set(pool.map(w => w.series))];
+}
+function collectionCards(category) {
+  return `<div class="section-directory collection-directory">${(collections[category] || []).map(c => {
+    const cover = works.find(w => w.reference === c.cover);
+    const count = works.filter(w => w.category === category && w.series === c.series).length;
+    return directoryCard("/obra/" + category + "?serie=" + encodeURIComponent(c.series), c.label, cover.thumb, c.description).replace('</a>', `<small>${count} obras</small></a>`);
+  }).join("")}</div>`;
+}
+function groupedWorks(list, category, view) {
+  const groups = collections[category] || [];
+  return groups.filter(c => list.some(w => w.series === c.series)).map(c => {
+    const items = list.filter(w => w.series === c.series);
+    return `<section class="catalogue-group"><div class="section-head"><h2>${esc(c.label)}</h2><span>${items.length} obras</span></div>${renderWorks(items, view)}</section>`;
+  }).join("");
 }
 
 function home() {
@@ -149,13 +144,13 @@ function directoryCard(path, title, image, description = "") {
   return a(path, `<div class="image-space">${img(image, title)}</div><h2>${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ""}<span aria-hidden="true">↗</span>`, "section-card");
 }
 function homeDirectory() {
-  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014873", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura-dibujo", "Pintura y dibujo", works.find(w => w.series === "Gatos").thumb)}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}</div>`;
+  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014873", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura-dibujo", "Pintura y dibujo", works.find(w => w.reference === "PIN-036").thumb)}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}</div>`;
 }
 function sculptureAndMobiles() {
   return head("Obra", "Escultura y móviles", "Volumen, equilibrio y movimiento. La obra escultórica y las piezas suspendidas, reunidas en un mismo recorrido.") + `<div class="section-directory">${directoryCard("/obra/escultura", "Escultura", "escultura-madera")}${directoryCard("/obra/moviles", "Móviles", works.find(w => w.category === "moviles").thumb, "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.")}</div><div class="end-link">${a("/jardin", "Jardín de las Lagartijas — Jardí de les Sargantanes " + arrow)}</div>`;
 }
 function paintingAndDrawing() {
-  return head("Obra", "Pintura y dibujo", "Series pictóricas y obras sobre papel.") + `<div class="section-directory">${["Tauromaquia", "Gatos", "Arcas"].map(series => directoryCard("/obra/pintura?serie=" + encodeURIComponent(series), series === "Arcas" ? "Arcas de Noé" : series, works.find(w => w.category === "pintura" && w.series === series).thumb)).join("")}${directoryCard("/obra/pintura", "Toda la pintura", works.find(w => w.category === "pintura").thumb)}${directoryCard("/obra/dibujo", "Dibujo", works.find(w => w.category === "dibujo").thumb)}</div>`;
+  return head("Obra", "Pintura y dibujo", "Tauromaquia, Gatos y Arcas de Noé, junto a otros conjuntos de pintura y obra sobre papel.") + collectionCards("pintura") + `<div class="end-link">${a("/obra/pintura", "Ver toda la pintura " + arrow)}</div><section class="section">${sectionHead("Dibujo", "/obra/dibujo", "Ver todos los dibujos")}${collectionCards("dibujo")}</section>`;
 }
 function garden() {
   const seen = new Set();
@@ -175,61 +170,33 @@ function trajectoryContact() {
 }
 
 function workIndex(category = "todas", params = new URLSearchParams()) {
-  const query = params.get("q") || "",
-    view = params.get("vista") === "recorrido" ? "recorrido" : "catalogo",
-    pool = works.filter((w) => category === "todas" || w.category === category),
-    requestedSeries = category === "moviles" ? "" : params.get("serie") || "",
-    series =
-      category === "escultura"
-        ? sculptureFamilyGroups.find(
-            (group) =>
-              group.label === requestedSeries || group.series.includes(requestedSeries),
-          )?.label || requestedSeries
-        : requestedSeries,
-    seriesList = familyOptions(pool, category);
-  const norm = (s) =>
-    s
-      .toLocaleLowerCase("es")
-      .normalize("NFD")
-      .replace(/\p{Diacritic}/gu, "");
-  const filtered = pool.filter(
-    (w) =>
-      (!series ||
-        (category === "escultura" ? sculptureFamilyFor(w) : w.series) === series) &&
-      norm(
-        [
-          w.label,
-          w.series,
-          w.reference,
-          ...w.gallery.map((p) => p.archiveId),
-        ].join(" "),
-      ).includes(norm(query)),
-  );
+  const pool = works.filter(w => category === "todas" || w.category === category);
+  const query = params.get("q") || "";
+  const view = params.get("vista") === "recorrido" ? "recorrido" : "catalogo";
+  const aliases = { "Arcas de Noé": "Arcas", "Rostros": "Rostros y personajes", "Dragones y relatos": "Relatos e iconografía", "Línea y color": "Dibujo y espacio" };
+  const requested = params.get("serie") || "";
+  const seriesList = familyOptions(pool, category);
+  const candidate = aliases[requested] || requested;
+  const series = seriesList.includes(candidate) ? candidate : "";
+  const filtered = pool.filter(w => (!series || w.series === series) && normalize([w.label, w.series, w.reference, ...w.gallery.map(p => p.archiveId)].join(" ")).includes(normalize(query)));
   activeFilters = { category, query, series, view, filtered };
   const descriptions = {
-    todas:
-      "Móviles, escultura, pintura y dibujo. Un catálogo organizado por familias de obras, con distintas vistas reunidas en cada ficha.",
-    moviles:
-      "Una misma serie de esculturas suspendidas, presente en el jardín de casa y en el Jardín de las Lagartijas. Equilibrio, color y materiales recuperados en diálogo con el aire.",
-    escultura:
-      "El volumen como punto de partida. Tallas, ensamblajes, relieves y construcciones presentes en el archivo.",
-    pintura:
-      "Animales, personajes y mundos imaginados. Un recorrido por las distintas familias del archivo de pintura.",
-    dibujo:
-      "Líneas, manchas y formas que construyen el espacio sobre el papel.",
+    todas: "Móviles, escultura, pintura y dibujo.",
+    moviles: "Una misma serie de esculturas suspendidas, presente en el jardín de casa y en el Jardín de las Lagartijas. Equilibrio, color y materiales recuperados en diálogo con el aire.",
+    escultura: "Obras reunidas por su construcción, sus formas y su relación con el espacio.",
+    pintura: "Series y conjuntos de pintura organizados por sus motivos y su lenguaje visual.",
+    dibujo: "Líneas, planos y figuras sobre papel."
   };
-  const sculptureFamilies =
-    category === "escultura"
-      ? `<section class="sculpture-families" aria-labelledby="sculpture-families-title"><div class="section-head"><div><p class="eyebrow">Clasificación provisional</p><h2 id="sculpture-families-title">Familias de la escultura</h2></div><p class="sculpture-families-note">Una entrada visual a los distintos modos de trabajar el volumen presentes en el archivo.</p></div><div class="family-grid">${seriesList.map((family) => { const familyWorks = pool.filter((w) => sculptureFamilyFor(w) === family); const selected = series === family ? " active" : ""; const countLabel = familyWorks.length === 1 ? "obra" : "obras"; const slides = familyWorks.slice(0, 6); return `<a class="family-card${selected}" href="#/obra/escultura?serie=${encodeURIComponent(family)}" aria-label="Ver ${familyWorks.length} ${countLabel} de ${esc(family)}"><div class="family-image"><div class="family-slideshow" data-family-slideshow aria-label="Imágenes de ${esc(family)}">${slides.map((w, i) => `<span class="family-slide${i === 0 ? " is-visible" : ""}" aria-hidden="${i === 0 ? "false" : "true"}">${img(w.thumb, w.alt, i === 0)}</span>`).join("")}</div></div><div class="family-copy"><span class="reference">${String(familyWorks.length).padStart(2, "0")} ${countLabel}</span><h3>${esc(family)}</h3><span class="family-link">Ver las obras <span aria-hidden="true">↗</span></span></div></a>`; }).join("")}</div></section>`
-      : "";
-  return (
-    head(
-      "Catálogo de obra",
-      category === "todas" ? "Obra" : catName(category),
-      descriptions[category],
-    ) +
-    `<nav class="tabs" aria-label="Disciplinas">${categories.map((c) => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter((w) => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>${sculptureFamilies}<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar título, familia o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${category === "moviles" ? "" : `<label class="select-label">Familia<select name="serie"><option value="">Todas las familias</option>${seriesList.map((s) => `<option ${s === series ? "selected" : ""} value="${esc(s)}">${esc(s)}</option>`).join("")}</select></label>`}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}${series ? " · " + esc(series) : ""}</p><p>Nombres descriptivos provisionales</p></div><div id="catalogue-results">${renderWorks(category === "escultura" ? filtered : filtered.slice(0, 24), view)}</div>${category !== "escultura" && filtered.length > 24 ? `<button class="load-more" id="more-works" data-shown="24">Ver más obras <span>24 / ${filtered.length}</span></button>` : ""}${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`
-  );
+  const collection = collectionFor(category, series);
+  const showDirectory = !!collections[category] && !series && !query;
+  const catalogue = category === "todas" ? categories.filter(c => c.id !== "todas").map(c => {
+    const items = filtered.filter(w => w.category === c.id);
+    return items.length ? `<section class="catalogue-group">${sectionHead(c.label, "/obra/" + c.id)}${renderWorks(items, view)}</section>` : "";
+  }).join("") : collections[category] && !series ? groupedWorks(filtered, category, view) : renderWorks(filtered, view);
+  return head(series ? catName(category) : "Catálogo de obra", collection?.label || (category === "todas" ? "Obra" : catName(category)), collection?.description || descriptions[category]) +
+    `<nav class="tabs" aria-label="Disciplinas">${categories.map(c => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter(w => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>` +
+    (showDirectory ? `<section aria-label="Series y conjuntos">${collectionCards(category)}</section>` : "") +
+    `<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar descripción o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${seriesList.length ? `<label class="select-label">Serie o conjunto<select name="serie"><option value="">Todas las obras</option>${seriesList.map(name => `<option value="${esc(name)}" ${name === series ? "selected" : ""}>${esc(seriesLabel(category,name))}</option>`).join("")}</select></label>` : ""}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}</p><p>Descripciones visuales de las obras</p></div><div id="catalogue-results">${catalogue}</div>${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`;
 }
 function renderWorks(list, view) {
   return view === "catalogo"
@@ -266,18 +233,17 @@ function educationPhotoIndex(section, list) {
 
 function workDetail(w) {
   setGallery(w.gallery, w.label);
-  return `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><h1>${esc(w.label)}</h1>${prose([w.text])}<dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div></dl></div></section>`;
   const related = works
     .filter(
       (x) =>
         (w.category === "escultura"
           ? sculptureFamilyFor(x) === sculptureFamilyFor(w)
-          : x.series === w.series) && x.id !== w.id,
+          : x.series === w.series) && x.category === w.category && x.id !== w.id,
     )
     .slice(0, 3);
   return (
     trail("/obra/" + w.category, catName(w.category), w.reference) +
-    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(w.category === "escultura" ? sculptureFamilyFor(w) : w.series)}</p>${prose([w.text])}<dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción provisional</dd></div></dl><p class="note">Título original, fecha, materiales y medidas por documentar.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
+    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(seriesLabel(w.category,w.series))}</p>${w.text && w.text !== w.label + "." ? prose([w.text]) : ""}<dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción visual</dd></div></dl><p class="note">Descripción visual para identificar la pieza. Título, fecha y técnica pendientes de documentación.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
   );
 }
 function albumPage(al) {

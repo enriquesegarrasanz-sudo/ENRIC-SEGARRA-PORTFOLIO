@@ -1,0 +1,3019 @@
+[
+  {
+    "reference": "MOV-001",
+    "id": "suspension-rosa",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Composición suspendida en rosa",
+    "description": "Composición suspendida en rosa",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014590-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-002",
+    "id": "moviles-014603",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Una línea en suspensión",
+    "description": "Una línea en suspensión",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014605-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-003",
+    "id": "moviles-014614",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Rama oscura, acentos rojos",
+    "description": "Rama oscura, acentos rojos",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014616"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-004",
+    "id": "moviles-014624",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Figuras sobre una barra roja",
+    "description": "Figuras sobre una barra roja",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014625-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-005",
+    "id": "forma-verde",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Forma suspendida en verde",
+    "description": "Forma suspendida en verde",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014646-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-006",
+    "id": "moviles-014659",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Tubos rosas sobre un arco",
+    "description": "Tubos rosas sobre un arco",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014666"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-007",
+    "id": "moviles-014678",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Estructura clara y elementos cilíndricos",
+    "description": "Estructura clara y elementos cilíndricos",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014680-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-008",
+    "id": "moviles-014691",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Pequeño volumen abierto en rosa",
+    "description": "Pequeño volumen abierto en rosa",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014696-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-009",
+    "id": "moviles-014713",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Una columna de discos rosas",
+    "description": "Una columna de discos rosas",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014715-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-010",
+    "id": "moviles-014720",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Escalera de elementos claros",
+    "description": "Escalera de elementos claros",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014722-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-011",
+    "id": "moviles-014726",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Líneas rosas ramificadas",
+    "description": "Líneas rosas ramificadas",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014728-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-012",
+    "id": "moviles-014748",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Curvas de tubo corrugado",
+    "description": "Curvas de tubo corrugado",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014755"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-013",
+    "id": "moviles-014764",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Discos rosas en dos recorridos",
+    "description": "Discos rosas en dos recorridos",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014765-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-014",
+    "id": "aros",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Composición de aros",
+    "description": "Composición de aros",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014774-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-015",
+    "id": "moviles-014821",
+    "previousSeries": "Formas suspendidas",
+    "series": "Móviles",
+    "previousDescription": "Una forma articulada",
+    "description": "Una forma articulada",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014821-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-016",
+    "id": "ramas-y-color",
+    "previousSeries": "En el entorno",
+    "series": "Móviles",
+    "previousDescription": "Pieza entre las ramas",
+    "description": "Pieza entre las ramas",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014847-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-017",
+    "id": "moviles-014850",
+    "previousSeries": "En el entorno",
+    "series": "Móviles",
+    "previousDescription": "Planos de color entre los árboles",
+    "description": "Planos de color entre los árboles",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "nature-014851"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-018",
+    "id": "moviles-014879",
+    "previousSeries": "En el entorno",
+    "series": "Móviles",
+    "previousDescription": "Líneas de color al aire libre",
+    "description": "Líneas de color al aire libre",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014880-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-019",
+    "id": "moviles-014887",
+    "previousSeries": "En el entorno",
+    "series": "Móviles",
+    "previousDescription": "Círculo azul y blanco",
+    "description": "Círculo azul y blanco",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014890-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-020",
+    "id": "moviles-008941",
+    "previousSeries": "En exposición",
+    "series": "Móviles",
+    "previousDescription": "Estructura de líneas oscuras y esferas",
+    "description": "Estructura de líneas oscuras y esferas",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-008941-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-021",
+    "id": "moviles-008911",
+    "previousSeries": "En exposición",
+    "series": "Móviles",
+    "previousDescription": "Fragmentos de color suspendidos",
+    "description": "Fragmentos de color suspendidos",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-008954-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-001",
+    "id": "escultura-014490",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
+    "previousDescription": "Relieve de perfil quebrado",
+    "description": "Perfil recortado sobre fondo oscuro",
+    "criterion": "Siluetas y líneas recortadas sobre un plano de fondo.",
+    "reviewedImages": [
+      "gallery-esc-001",
+      "gallery-esc-001"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-002",
+    "id": "escultura-014492",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
+    "previousDescription": "Relieve de ondas",
+    "description": "Relieve de líneas onduladas",
+    "criterion": "Siluetas y líneas recortadas sobre un plano de fondo.",
+    "reviewedImages": [
+      "gallery-esc-002",
+      "gallery-esc-002"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-003",
+    "id": "escultura-014494",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
+    "previousDescription": "Relieve de formas contrapuestas",
+    "description": "Plano recortado en diagonal",
+    "criterion": "Siluetas y líneas recortadas sobre un plano de fondo.",
+    "reviewedImages": [
+      "gallery-esc-003",
+      "gallery-esc-003"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-004",
+    "id": "escultura-014496",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
+    "previousDescription": "Relieve de contorno angular",
+    "description": "Relieve de contornos angulares",
+    "criterion": "Siluetas y líneas recortadas sobre un plano de fondo.",
+    "reviewedImages": [
+      "gallery-esc-004",
+      "gallery-esc-004"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-005",
+    "id": "escultura-014502",
+    "previousSeries": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Volumen oscuro con aberturas",
+    "description": "Volumen vertical de planos abiertos",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-005",
+      "gallery-esc-005"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-006",
+    "id": "escultura-014505",
+    "previousSeries": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Volumen de planos curvos",
+    "description": "Plano curvo con abertura",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-006",
+      "gallery-esc-006",
+      "gallery-esc-006-view-2-horizontal",
+      "gallery-esc-006-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-007",
+    "id": "escultura-014507",
+    "previousSeries": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Volumen enrollado",
+    "description": "Volumen de planos envolventes",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-007",
+      "gallery-esc-007",
+      "gallery-esc-007-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-008",
+    "id": "escultura-014509",
+    "previousSeries": "Volúmenes",
+    "series": "Formas orgánicas",
+    "previousDescription": "Figura clara de perfil orgánico",
+    "description": "Volumen claro de formas onduladas",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-008",
+      "gallery-esc-008",
+      "gallery-esc-008-view-2-horizontal",
+      "gallery-esc-008-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-009",
+    "id": "volumen-veta",
+    "previousSeries": "Volúmenes",
+    "series": "Formas orgánicas",
+    "previousDescription": "Volumen de formas curvas",
+    "description": "Forma curva con veta",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-009",
+      "gallery-esc-009",
+      "gallery-esc-009-view-2-horizontal",
+      "gallery-esc-009-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-010",
+    "id": "escultura-014523",
+    "previousSeries": "Volúmenes",
+    "series": "Formas orgánicas",
+    "previousDescription": "Volumen de remate bifurcado",
+    "description": "Volumen claro con abertura superior",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-010",
+      "gallery-esc-010",
+      "gallery-esc-010-view-2-horizontal",
+      "gallery-esc-010-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-011",
+    "id": "volumen-abierto",
+    "previousSeries": "Volúmenes",
+    "series": "Formas orgánicas",
+    "previousDescription": "Volumen claro con aberturas",
+    "description": "Volumen ovalado con dos huecos",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-011",
+      "gallery-esc-011",
+      "gallery-esc-011-view-2-horizontal",
+      "gallery-esc-011-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-012",
+    "id": "escultura-014533",
+    "previousSeries": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Figura de perfiles ascendentes",
+    "description": "Figura de planos plegados",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-012",
+      "gallery-esc-012",
+      "gallery-esc-012-view-2-horizontal",
+      "gallery-esc-012-view-3-horizontal",
+      "gallery-esc-012-view-4-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-013",
+    "id": "escultura-014540",
+    "previousSeries": "Volúmenes",
+    "series": "Formas orgánicas",
+    "previousDescription": "Forma vertical en torsión",
+    "description": "Forma vertical ondulada",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-013",
+      "gallery-esc-013",
+      "gallery-esc-013-view-2-horizontal",
+      "gallery-esc-013-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-014",
+    "id": "escultura-014547",
+    "previousSeries": "Volúmenes",
+    "series": "Formas orgánicas",
+    "previousDescription": "Línea vertical sobre una base",
+    "description": "Forma alargada sobre peana",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-014",
+      "gallery-esc-014",
+      "gallery-esc-014-view-2-horizontal",
+      "gallery-esc-014-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-015",
+    "id": "escultura-014552",
+    "previousSeries": "Volúmenes",
+    "series": "Formas orgánicas",
+    "previousDescription": "Volumen redondeado",
+    "description": "Volumen redondeado con cavidades",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-015",
+      "gallery-esc-015",
+      "gallery-esc-015-view-2-horizontal",
+      "gallery-esc-015-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-016",
+    "id": "escultura-014560",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Dos elementos sobre fondo oscuro",
+    "description": "Dos paneles con elementos superpuestos",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-016",
+      "gallery-esc-016"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-017",
+    "id": "escultura-014562",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Composición dorada y oscura",
+    "description": "Relieve con forma circular abierta",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-017",
+      "gallery-esc-017"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-018",
+    "id": "escultura-014564",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Relieve circular de capas y alambre",
+    "description": "Relieve circular de capas concéntricas",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-018",
+      "gallery-esc-018",
+      "gallery-esc-018-view-2-horizontal",
+      "gallery-esc-018-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-019",
+    "id": "escultura-014565",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Composición circular con números",
+    "description": "Ensamblaje circular con números",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-019",
+      "gallery-esc-019"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-020",
+    "id": "escultura-014566",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Círculos y engranajes",
+    "description": "Relieve circular con ruedas dentadas",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-020",
+      "gallery-esc-020"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-021",
+    "id": "escultura-014568",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Talla vertical de pequeño formato",
+    "description": "Franja vertical con piezas superpuestas",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-021",
+      "gallery-esc-021"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-022",
+    "id": "escultura-014570",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Relieve cuadrado de superficie quebrada",
+    "description": "Relieve de contornos fragmentados",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-022",
+      "gallery-esc-022"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-023",
+    "id": "escultura-014571",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Relieve oval de superficie quebrada",
+    "description": "Relieve con arco circular",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-023",
+      "gallery-esc-023"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-024",
+    "id": "escultura-014572",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
+    "previousDescription": "Figura de gato en relieve",
+    "description": "Relieve claro con dibujo inciso",
+    "criterion": "Superficies claras con incisiones, huellas y tramas.",
+    "reviewedImages": [
+      "gallery-esc-024",
+      "gallery-esc-024"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-025",
+    "id": "escultura-014573",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
+    "previousDescription": "Relieve blanco con acentos rosas",
+    "description": "Relieve claro con trazos rojizos",
+    "criterion": "Superficies claras con incisiones, huellas y tramas.",
+    "reviewedImages": [
+      "gallery-esc-025",
+      "gallery-esc-025"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-026",
+    "id": "escultura-014574",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
+    "previousDescription": "Rostro de superficie blanca",
+    "description": "Relieve con rostro inciso",
+    "criterion": "Superficies claras con incisiones, huellas y tramas.",
+    "reviewedImages": [
+      "gallery-esc-026",
+      "gallery-esc-026"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-027",
+    "id": "escultura-014575",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
+    "previousDescription": "Pez de superficie blanca",
+    "description": "Relieve circular con tramas",
+    "criterion": "Superficies claras con incisiones, huellas y tramas.",
+    "reviewedImages": [
+      "gallery-esc-027",
+      "gallery-esc-027"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-028",
+    "id": "escultura-014576",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Elemento verde de lamas",
+    "description": "Dos paneles verdes con bandas",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-028",
+      "gallery-esc-028"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-029",
+    "id": "escultura-014577",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
+    "previousDescription": "Dos formas en relieve blanco",
+    "description": "Relieve claro con elementos rectangulares",
+    "criterion": "Superficies claras con incisiones, huellas y tramas.",
+    "reviewedImages": [
+      "gallery-esc-029",
+      "gallery-esc-029"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-030",
+    "id": "escultura-014578",
+    "previousSeries": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Gato sobre fondo rosa",
+    "description": "Relieve rosa con figuras y piezas superpuestas",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-030",
+      "gallery-esc-030"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-031",
+    "id": "escultura-008507",
+    "previousSeries": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Volumen de perfiles abiertos",
+    "description": "Plano abierto con curvas ascendentes",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-031",
+      "gallery-esc-031",
+      "gallery-esc-031-view-2-horizontal",
+      "gallery-esc-031-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-032",
+    "id": "escultura-008523",
+    "previousSeries": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Volumen de brazos curvos",
+    "description": "Plano curvo sobre peana",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-032",
+      "gallery-esc-032"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-033",
+    "id": "escultura-008525",
+    "previousSeries": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Forma envolvente",
+    "description": "Volumen envolvente con abertura",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-033",
+      "gallery-esc-033"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-034",
+    "id": "escultura-008529",
+    "previousSeries": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Volumen de dos aberturas",
+    "description": "Plano curvo con lazo central",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-034",
+      "gallery-esc-034",
+      "gallery-esc-034-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-035",
+    "id": "escultura-008532",
+    "previousSeries": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Planos enfrentados",
+    "description": "Plano abierto de contorno ovalado",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-035",
+      "gallery-esc-035",
+      "gallery-esc-035-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-036",
+    "id": "escultura-008535",
+    "previousSeries": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Volumen con curva interior",
+    "description": "Volumen de curvas en espiral",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-036",
+      "gallery-esc-036",
+      "gallery-esc-036-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-037",
+    "id": "escultura-008543",
+    "previousSeries": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Retícula y formas claras",
+    "description": "Retícula con elementos claros",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-037",
+      "gallery-esc-037",
+      "gallery-esc-037-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-038",
+    "id": "escultura-008768",
+    "previousSeries": "Archivo de escultura",
+    "series": "Formas orgánicas",
+    "previousDescription": "Materia encontrada sobre soporte",
+    "description": "Forma natural sobre soporte",
+    "criterion": "Formas compactas, onduladas o procedentes de elementos naturales.",
+    "reviewedImages": [
+      "gallery-esc-038",
+      "gallery-esc-038",
+      "gallery-esc-038-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-039",
+    "id": "escultura-008788",
+    "previousSeries": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Estructura vertical de brazos móviles",
+    "description": "Estructura vertical con barras y esferas",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-039",
+      "gallery-esc-039",
+      "gallery-esc-039-view-2-horizontal",
+      "gallery-esc-039-view-3-horizontal",
+      "gallery-esc-039-view-4-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-040",
+    "id": "escultura-008810",
+    "previousSeries": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Planos curvos sobre engranaje",
+    "description": "Planos curvos sobre rueda dentada",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-040",
+      "gallery-esc-040",
+      "gallery-esc-040-view-2-horizontal",
+      "gallery-esc-040-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-041",
+    "id": "escultura-008816",
+    "previousSeries": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Dos estructuras de espirales",
+    "description": "Dos estructuras de espirales",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-041",
+      "gallery-esc-041",
+      "gallery-esc-041-view-2-horizontal",
+      "gallery-esc-041-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-042",
+    "id": "escultura-008907",
+    "previousSeries": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Herramienta sobre un cilindro",
+    "description": "Ensamblaje con herramienta y cadena",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-042",
+      "gallery-esc-042",
+      "gallery-esc-042-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-043",
+    "id": "escultura-011828",
+    "previousSeries": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Flores de engranajes",
+    "description": "Estructura con espiral y ruedas dentadas",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-043",
+      "gallery-esc-043",
+      "gallery-esc-043-view-2-horizontal",
+      "gallery-esc-043-view-3-horizontal",
+      "gallery-esc-043-view-4-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-044",
+    "id": "escultura-007134",
+    "previousSeries": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Dos planos de perfil ascendente",
+    "description": "Dos planos curvos ascendentes",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-044",
+      "gallery-esc-044",
+      "gallery-esc-044-view-2-horizontal",
+      "gallery-esc-044-view-3-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-045",
+    "id": "escultura-007158",
+    "previousSeries": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Elementos claros sobre un eje",
+    "description": "Eje vertical con elementos superpuestos",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-045",
+      "gallery-esc-045",
+      "gallery-esc-045-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-046",
+    "id": "escultura-008728",
+    "previousSeries": "Archivo de escultura",
+    "series": "Relieves y ensamblajes murales",
+    "previousDescription": "Ensamblaje rosa con círculo oscuro",
+    "description": "Ensamblaje rosa con círculo oscuro",
+    "criterion": "Composiciones sobre soporte plano con capas y elementos superpuestos.",
+    "reviewedImages": [
+      "gallery-esc-046",
+      "gallery-esc-046",
+      "gallery-esc-046-view-2-horizontal",
+      "gallery-esc-046-view-3-horizontal",
+      "gallery-esc-046-view-4-horizontal"
+    ],
+    "pending": "La última imagen muestra una configuración con centro abierto. Se identifica como variante, sin afirmar que sea otra obra."
+  },
+  {
+    "reference": "DIB-001",
+    "id": "dibujo-015079",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Signos rojos en recorrido",
+    "description": "Signos rojos en recorrido",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "arc-015079"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-002",
+    "id": "dibujo-015080",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos de color rojo",
+    "description": "Planos de color rojo",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015080"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-003",
+    "id": "trazo-rojo",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Estudio de formas en rojo",
+    "description": "Estudio de formas en rojo",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015081"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-004",
+    "id": "dibujo-015082",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos de sombra cálida",
+    "description": "Planos de sombra cálida",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015082"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-005",
+    "id": "dibujo-015083",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Líneas y planos en naranja",
+    "description": "Líneas y planos en naranja",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015083"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-006",
+    "id": "dibujo-015084",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Formas rojas y centro circular",
+    "description": "Formas rojas y centro circular",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015084"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-007",
+    "id": "dibujo-015085",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Formas en negro y ocre",
+    "description": "Formas en negro y ocre",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015085"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-008",
+    "id": "dibujo-015086",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Ritmos de color rojo",
+    "description": "Ritmos de color rojo",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015086"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-009",
+    "id": "dibujo-015087",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Trazos azules sobre ocre",
+    "description": "Trazos azules sobre ocre",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015087"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-010",
+    "id": "dibujo-015088",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Líneas azules y amarillas",
+    "description": "Líneas azules y amarillas",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015088"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-011",
+    "id": "dibujo-015089",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Composición sobre fondo ocre",
+    "description": "Composición sobre fondo ocre",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015089"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-012",
+    "id": "dibujo-015090",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Composición verde sobre ocre",
+    "description": "Composición verde sobre ocre",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015090"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-013",
+    "id": "dibujo-015091",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Trazos sobre fondo rosa",
+    "description": "Trazos sobre fondo rosa",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015091"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-014",
+    "id": "dibujo-015092",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Líneas curvas rojas",
+    "description": "Líneas curvas rojas",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015092"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-015",
+    "id": "dibujo-015093",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Trazos verdes y naranjas",
+    "description": "Trazos verdes y naranjas",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015093"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-016",
+    "id": "dibujo-015094",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Pequeña composición de símbolos",
+    "description": "Pequeña composición de símbolos",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "arc-015094"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-017",
+    "id": "dibujo-015095",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Pequeña composición enmarcada",
+    "description": "Pequeña composición enmarcada",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "arc-015095"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-018",
+    "id": "dibujo-015096",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Dos figuras en rojo",
+    "description": "Dos figuras en rojo",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015096"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-019",
+    "id": "dibujo-015098",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos azules, verdes y amarillos",
+    "description": "Planos azules, verdes y amarillos",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015098"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-020",
+    "id": "trazo-negro",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Estudio de formas en negro",
+    "description": "Estudio de formas en negro",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015099"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-021",
+    "id": "dibujo-015102",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos negros y rojos",
+    "description": "Planos negros y rojos",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015102"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-022",
+    "id": "dibujo-015103",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Figura de líneas negras",
+    "description": "Figura de líneas negras",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015103"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-023",
+    "id": "dibujo-015105",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos de color violeta",
+    "description": "Planos de color violeta",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015105"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-024",
+    "id": "dibujo-015172",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Formas abiertas en azul y amarillo",
+    "description": "Formas abiertas en azul y amarillo",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015172"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-025",
+    "id": "dibujo-015173",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Curvas y planos cálidos",
+    "description": "Curvas y planos cálidos",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015173"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-026",
+    "id": "dibujo-015176",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Ritmos de color carmín",
+    "description": "Ritmos de color carmín",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015176"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-027",
+    "id": "dibujo-015178",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos azules suspendidos",
+    "description": "Planos azules suspendidos",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015178"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-028",
+    "id": "dibujo-015181",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Líneas de color ocre",
+    "description": "Líneas de color ocre",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015181"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-029",
+    "id": "dibujo-015182",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Espacio de líneas verdes",
+    "description": "Espacio de líneas verdes",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015182"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-030",
+    "id": "dibujo-015183",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Trazos oscuros y acentos de color",
+    "description": "Trazos oscuros y acentos de color",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015183"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-031",
+    "id": "dibujo-015185",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Símbolos sobre fondo amarillo",
+    "description": "Símbolos sobre fondo amarillo",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "arc-015185"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-032",
+    "id": "dibujo-015186",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Figura con forma de sol",
+    "description": "Figura con forma de sol",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "arc-015186"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-033",
+    "id": "dibujo-015187",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Figuras y planos enmarcados",
+    "description": "Figuras y planos enmarcados",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-015187"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-034",
+    "id": "dibujo-008527",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Líneas azules y acentos amarillos",
+    "description": "Líneas azules y acentos amarillos",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-008527"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-035",
+    "id": "dibujo-008528",
+    "previousSeries": "Dibujo y espacio",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Figuras de líneas negras",
+    "description": "Figuras de líneas negras",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-008528"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-001",
+    "id": "arca",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca en composición circular",
+    "description": "Arca en composición circular",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-001-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-002",
+    "id": "pintura-015107",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Sol en composición circular",
+    "description": "Sol en composición circular",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-002-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-003",
+    "id": "pintura-015108",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca sobre fondo oscuro",
+    "description": "Arca sobre fondo oscuro",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-003-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-004",
+    "id": "pintura-015109",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Ojo en composición circular",
+    "description": "Ojo en composición circular",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-004-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-005",
+    "id": "pintura-015110",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca y cielo claro",
+    "description": "Arca y cielo claro",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-005-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-006",
+    "id": "pintura-015111",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Símbolos en círculo",
+    "description": "Símbolos en círculo",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-006-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-007",
+    "id": "pintura-015112",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca sobre fondo azul",
+    "description": "Arca sobre fondo azul",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-007-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-008",
+    "id": "pintura-015113",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca y formas azules",
+    "description": "Arca y formas azules",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-008-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-009",
+    "id": "pintura-015114",
+    "previousSeries": "Arcas",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Arca, luna y sol",
+    "description": "Composición circular con sol y montañas",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-009-estudio-v3"
+    ],
+    "pending": "No se distingue un arca inequívoca. Se conserva en Figuras y símbolos; la pertenencia histórica a Arcas requiere confirmación del artista."
+  },
+  {
+    "reference": "PIN-010",
+    "id": "pintura-015115",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Árbol en círculo violeta",
+    "description": "Árbol en círculo violeta",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-010-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-011",
+    "id": "pintura-015118",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca sobre aguas rosas",
+    "description": "Arca sobre aguas rosas",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-011-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-012",
+    "id": "pintura-015119",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Círculo naranja de figuras",
+    "description": "Círculo naranja de figuras",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-012-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-013",
+    "id": "pintura-015120",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Figuras enlazadas en rosa",
+    "description": "Figuras enlazadas en rosa",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-013-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-014",
+    "id": "pintura-015122",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca entre el sol y la luna",
+    "description": "Arca entre el sol y la luna",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-014-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-015",
+    "id": "pintura-015123",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Rostro sobre fondo amarillo",
+    "description": "Rostro sobre fondo amarillo",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-015-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-016",
+    "id": "pintura-015124",
+    "previousSeries": "Gatos",
+    "series": "Rostros y personajes",
+    "previousDescription": "Figuras felinas sobre fondo amarillo",
+    "description": "Rostro coronado sobre fondo dorado",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-016-estudio-v3"
+    ],
+    "pending": "Rostro coronado estilizado. No se atribuye a Gatos por el aspecto de los ojos."
+  },
+  {
+    "reference": "PIN-017",
+    "id": "pintura-015125",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Figuras sobre fondo violeta",
+    "description": "Figuras sobre fondo violeta",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-017-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-018",
+    "id": "pintura-015126",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Dos rostros y vegetación",
+    "description": "Dos rostros y vegetación",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-018-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-019",
+    "id": "gato",
+    "previousSeries": "Gatos",
+    "series": "Gatos",
+    "previousDescription": "Figura de gato",
+    "description": "Rostro junto a un gato violeta",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "reviewedImages": [
+      "pin-019-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-020",
+    "id": "pintura-015128",
+    "previousSeries": "Tauromaquia",
+    "series": "Tauromaquia",
+    "previousDescription": "Cabeza de toro de perfiles claros",
+    "description": "Cabeza de toro de perfiles claros",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-020-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-021",
+    "id": "pintura-015129",
+    "previousSeries": "Tauromaquia",
+    "series": "Tauromaquia",
+    "previousDescription": "Cabeza de toro naranja",
+    "description": "Cabeza de toro naranja",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-021-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-022",
+    "id": "pintura-015130",
+    "previousSeries": "Tauromaquia",
+    "series": "Tauromaquia",
+    "previousDescription": "Cabeza de toro de perfil",
+    "description": "Cabeza de toro de perfil",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-022-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-023",
+    "id": "pintura-015131",
+    "previousSeries": "Gatos",
+    "series": "Gatos",
+    "previousDescription": "Gato de cuerpo violeta",
+    "description": "Gato de cuerpo violeta",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "reviewedImages": [
+      "pin-023-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-024",
+    "id": "pintura-015132",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Forma trilobulada",
+    "description": "Forma trilobulada",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-024-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-025",
+    "id": "pintura-015133",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Figura azul de perfil",
+    "description": "Figura azul de perfil",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-025-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-026",
+    "id": "pintura-015134",
+    "previousSeries": "Rostros",
+    "series": "Tauromaquia",
+    "previousDescription": "Dos figuras en naranja y violeta",
+    "description": "Tres figuras con abanicos",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-026-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-027",
+    "id": "pintura-015135",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Rostro de líneas cálidas",
+    "description": "Rostro de líneas cálidas",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-027-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-028",
+    "id": "pintura-015136",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Rostro y formas circulares",
+    "description": "Rostro y formas circulares",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-028-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-029",
+    "id": "pintura-015137",
+    "previousSeries": "Rostros",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Perfil dorado",
+    "description": "Perfil dorado",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-029-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-030",
+    "id": "pintura-015138",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Figuras en formato alargado",
+    "description": "Figuras en formato alargado",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-030-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-031",
+    "id": "pintura-015139",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Rostro naranja y mano azul",
+    "description": "Rostro naranja y mano azul",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-031-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-032",
+    "id": "pintura-015141",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Dos figuras de cuerpo verde",
+    "description": "Dos personajes vestidos de verde",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-032-estudio-v3"
+    ],
+    "pending": "Personajes vestidos de verde. No se atribuyen al mundo taurino solo por el estilo."
+  },
+  {
+    "reference": "PIN-033",
+    "id": "pintura-015142",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Figura en rosa y ocre",
+    "description": "Figura en rosa y ocre",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-033-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-034",
+    "id": "pintura-015143",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Rostro naranja y líneas de color",
+    "description": "Rostro naranja y líneas de color",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-034-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-035",
+    "id": "pintura-015145",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Rostro con figuras alrededor",
+    "description": "Rostro con figuras alrededor",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-035-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-036",
+    "id": "pintura-015146",
+    "previousSeries": "Gatos",
+    "series": "Gatos",
+    "previousDescription": "Grupo de gatos de colores",
+    "description": "Grupo de gatos de colores",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "reviewedImages": [
+      "pin-036-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-037",
+    "id": "pintura-015147",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Rostros y personajes",
+    "previousDescription": "Encuentro de figuras",
+    "description": "Personaje ante una mesa",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-037-estudio-v3"
+    ],
+    "pending": "Personaje ante mesa. La relación con Tauromaquia no está documentada."
+  },
+  {
+    "reference": "PIN-038",
+    "id": "pintura-015148",
+    "previousSeries": "Gatos",
+    "series": "Rostros y personajes",
+    "previousDescription": "Gato sobre fondo dorado",
+    "description": "Rostro con tocado y símbolos dorados",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-038-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-039",
+    "id": "pintura-015149",
+    "previousSeries": "Gatos",
+    "series": "Tauromaquia",
+    "previousDescription": "Gato rosa enmarcado",
+    "description": "Toro rosa con copa y figura al fondo",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-039-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-040",
+    "id": "pintura-015150",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Figuras sobre fondo lila",
+    "description": "Figuras sobre fondo lila",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-040-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-041",
+    "id": "pintura-015152",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Líneas y planos sobre naranja",
+    "description": "Líneas y planos sobre naranja",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-041-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-042",
+    "id": "pintura-015153",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Curvas blancas sobre naranja",
+    "description": "Curvas blancas sobre naranja",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-042-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-043",
+    "id": "pintura-015154",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Remolino de formas claras",
+    "description": "Remolino de formas claras",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-043-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-044",
+    "id": "pintura-015155",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Planos de colores suaves",
+    "description": "Planos de colores suaves",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-044-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-045",
+    "id": "pintura-015156",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Planos violetas y ocres",
+    "description": "Planos violetas y ocres",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-045-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-046",
+    "id": "pintura-015157",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Giro de formas rojas",
+    "description": "Giro de formas rojas",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-046-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-047",
+    "id": "pintura-015158",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Formas entrelazadas",
+    "description": "Formas entrelazadas",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-047-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-048",
+    "id": "pintura-015159",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Ritmo rojo y blanco",
+    "description": "Ritmo rojo y blanco",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-048-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-049",
+    "id": "pintura-015160",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Curvas blancas y naranjas",
+    "description": "Curvas blancas y naranjas",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-049-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-050",
+    "id": "pintura-015161",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Volúmenes de color",
+    "description": "Volúmenes de color",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-050-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-051",
+    "id": "pintura-015162",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Encuentro de signos y color",
+    "description": "Encuentro de signos y color",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-051-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-052",
+    "id": "pintura-015163",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Recorrido rojo y circular",
+    "description": "Recorrido rojo y circular",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-052-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-053",
+    "id": "pintura-015164",
+    "previousSeries": "Abstracciones",
+    "series": "Letras y signos",
+    "previousDescription": "Signos en rojo",
+    "description": "Signos en rojo",
+    "criterion": "Letras y signos como motivo principal de la composición.",
+    "reviewedImages": [
+      "pin-053-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-054",
+    "id": "pintura-015165",
+    "previousSeries": "Abstracciones",
+    "series": "Letras y signos",
+    "previousDescription": "Letras y figuras rojas",
+    "description": "Letras y figuras rojas",
+    "criterion": "Letras y signos como motivo principal de la composición.",
+    "reviewedImages": [
+      "pin-054-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-055",
+    "id": "pintura-015167",
+    "previousSeries": "Abstracciones",
+    "series": "Letras y signos",
+    "previousDescription": "Composición vertical de signos",
+    "description": "Composición vertical de signos",
+    "criterion": "Letras y signos como motivo principal de la composición.",
+    "reviewedImages": [
+      "pin-055-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-056",
+    "id": "pintura-015168",
+    "previousSeries": "Retratos",
+    "series": "Retratos",
+    "previousDescription": "Retrato de perfil ascendente",
+    "description": "Retrato de perfil ascendente",
+    "criterion": "Retratos de tratamiento figurativo.",
+    "reviewedImages": [
+      "pin-056-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-057",
+    "id": "pintura-015169",
+    "previousSeries": "Abstracciones",
+    "series": "Letras y signos",
+    "previousDescription": "Signo rojo en círculo",
+    "description": "Signo rojo en círculo",
+    "criterion": "Letras y signos como motivo principal de la composición.",
+    "reviewedImages": [
+      "pin-057-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-058",
+    "id": "pintura-015199",
+    "previousSeries": "Abstracciones",
+    "series": "Abstracciones",
+    "previousDescription": "Composición horizontal de tonos claros",
+    "description": "Composición horizontal de tonos claros",
+    "criterion": "Composiciones de planos, curvas y color.",
+    "reviewedImages": [
+      "pin-058-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-059",
+    "id": "pintura-015200",
+    "previousSeries": "Retratos",
+    "series": "Retratos",
+    "previousDescription": "Retrato de perfil con barba",
+    "description": "Retrato de perfil con barba",
+    "criterion": "Retratos de tratamiento figurativo.",
+    "reviewedImages": [
+      "pin-059-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-060",
+    "id": "pintura-015202",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Composición circular azul",
+    "description": "Composición circular azul",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-060-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-061",
+    "id": "pintura-015204",
+    "previousSeries": "Rostros",
+    "series": "Rostros y personajes",
+    "previousDescription": "Rostro de contorno poligonal",
+    "description": "Rostro de contorno poligonal",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-061-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-062",
+    "id": "pintura-015206",
+    "previousSeries": "Arcas",
+    "series": "Arcas",
+    "previousDescription": "Arca de contorno recortado",
+    "description": "Arca de contorno recortado",
+    "criterion": "Arcas y embarcaciones simbólicas.",
+    "reviewedImages": [
+      "pin-062-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-063",
+    "id": "pintura-015211",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Gatos",
+    "previousDescription": "Figuras en composición violeta",
+    "description": "Figura con instrumento y gato violeta",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "reviewedImages": [
+      "pin-063-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-064",
+    "id": "pintura-015213",
+    "previousSeries": "Arcas",
+    "series": "Gatos",
+    "previousDescription": "Arquitecturas entre el sol y el agua",
+    "description": "Dos gatos azules ante una ciudad",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "reviewedImages": [
+      "pin-064-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-065",
+    "id": "pintura-015218",
+    "previousSeries": "Dragones y relatos",
+    "series": "Relatos e iconografía",
+    "previousDescription": "Figura y dragón sobre fondo verde",
+    "description": "Figura y dragón sobre fondo verde",
+    "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
+    "reviewedImages": [
+      "pin-065-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-066",
+    "id": "pintura-015221",
+    "previousSeries": "Dragones y relatos",
+    "series": "Relatos e iconografía",
+    "previousDescription": "Figura con espada y dragón",
+    "description": "Figura con espada y dragón",
+    "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
+    "reviewedImages": [
+      "pin-066-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-067",
+    "id": "pintura-015223",
+    "previousSeries": "Dragones y relatos",
+    "series": "Relatos e iconografía",
+    "previousDescription": "Figura, escudo y dragón",
+    "description": "Figura, escudo y dragón",
+    "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
+    "reviewedImages": [
+      "pin-067-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-068",
+    "id": "pintura-015226",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Gatos",
+    "previousDescription": "Figuras bajo un arco",
+    "description": "Gatos bajo un arco",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "reviewedImages": [
+      "pin-068-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-069",
+    "id": "pintura-015228",
+    "previousSeries": "Tauromaquia",
+    "series": "Tauromaquia",
+    "previousDescription": "Toro y figuras",
+    "description": "Toro y figuras",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-069-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-070",
+    "id": "pintura-015234",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Composición en forma de ojo",
+    "description": "Composición en forma de ojo",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-070-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-071",
+    "id": "pintura-015236",
+    "previousSeries": "Tauromaquia",
+    "series": "Tauromaquia",
+    "previousDescription": "Figuras del ruedo",
+    "description": "Figuras del ruedo",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-071-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-072",
+    "id": "pintura-015240",
+    "previousSeries": "Dragones y relatos",
+    "series": "Relatos e iconografía",
+    "previousDescription": "Figura ante una ciudad",
+    "description": "Figura ante una ciudad",
+    "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
+    "reviewedImages": [
+      "pin-072-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-073",
+    "id": "pintura-015243",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Figuras y símbolos",
+    "previousDescription": "Composición horizontal de figuras",
+    "description": "Composición horizontal de figuras",
+    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "reviewedImages": [
+      "pin-073-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-074",
+    "id": "ruedo",
+    "previousSeries": "Tauromaquia",
+    "series": "Tauromaquia",
+    "previousDescription": "Escena de ruedo",
+    "description": "Escena de ruedo",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-074-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-075",
+    "id": "pintura-008492",
+    "previousSeries": "Dragones y relatos",
+    "series": "Relatos e iconografía",
+    "previousDescription": "Figura a caballo y dragón",
+    "description": "Figura a caballo y dragón",
+    "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
+    "reviewedImages": [
+      "pin-075-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-076",
+    "id": "pintura-015249",
+    "previousSeries": "Retratos",
+    "series": "Retratos",
+    "previousDescription": "Retrato de un hombre con barba",
+    "description": "Retrato de un hombre con barba",
+    "criterion": "Retratos de tratamiento figurativo.",
+    "reviewedImages": [
+      "pin-076-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-077",
+    "id": "pintura-015250",
+    "previousSeries": "Figuras y símbolos",
+    "series": "Relatos e iconografía",
+    "previousDescription": "Personajes alrededor de una mesa de juego",
+    "description": "Personajes alrededor de una mesa y figura a caballo",
+    "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
+    "reviewedImages": [
+      "pin-077-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-078",
+    "id": "pintura-015251",
+    "previousSeries": "Gatos",
+    "series": "Tauromaquia",
+    "previousDescription": "Gran gato sobre fondo rosa",
+    "description": "Cabeza de toro ante espectadores",
+    "criterion": "Toros, figuras del ruedo y manolas con abanicos.",
+    "reviewedImages": [
+      "pin-078-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "PIN-079",
+    "id": "pintura-015257",
+    "previousSeries": "Gatos",
+    "series": "Relatos e iconografía",
+    "previousDescription": "Composición de gatos entrelazados",
+    "description": "Crucifixión con figuras",
+    "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
+    "reviewedImages": [
+      "pin-079-estudio-v3"
+    ],
+    "pending": "La crucifixión es visible; no hay evidencia suficiente para atribuirla a Tauromaquia."
+  },
+  {
+    "reference": "PIN-080",
+    "id": "pintura-015263",
+    "previousSeries": "Gatos",
+    "series": "Rostros y personajes",
+    "previousDescription": "Gato amarillo y figura rosa",
+    "description": "Dos figuras en amarillo y rosa",
+    "criterion": "Rostros estilizados y escenas de personajes.",
+    "reviewedImages": [
+      "pin-080-estudio-v3"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-022",
+    "id": "moviles-014955",
+    "previousSeries": "Líneas y equilibrio",
+    "series": "Móviles",
+    "previousDescription": "Arcos oscuros y pequeños acentos de color",
+    "description": "Arcos oscuros y pequeños acentos de color",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014955-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-047",
+    "id": "escultura-014959",
+    "previousSeries": "Intervenciones en el entorno",
+    "series": "Intervenciones en el entorno",
+    "previousDescription": "Recipientes azules entre las ramas",
+    "description": "Árbol con elementos azules suspendidos",
+    "criterion": "Obras instaladas en árboles y en el espacio exterior.",
+    "reviewedImages": [
+      "arc-014959",
+      "arc-014959",
+      "gallery-esc-047-view-2-horizontal",
+      "gallery-esc-047-view-3-horizontal",
+      "gallery-esc-047-view-4-horizontal",
+      "gallery-esc-047-view-5-horizontal",
+      "gallery-esc-047-view-6-horizontal",
+      "gallery-esc-047-view-7-horizontal",
+      "gallery-esc-047-view-8-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-048",
+    "id": "escultura-014967",
+    "previousSeries": "Intervenciones en el entorno",
+    "series": "Intervenciones en el entorno",
+    "previousDescription": "Paneles de color sobre un tronco",
+    "description": "Tres paneles de círculos de colores",
+    "criterion": "Obras instaladas en árboles y en el espacio exterior.",
+    "reviewedImages": [
+      "arc-014967",
+      "arc-014967",
+      "gallery-esc-048-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-049",
+    "id": "escultura-014968",
+    "previousSeries": "Intervenciones en el entorno",
+    "series": "Intervenciones en el entorno",
+    "previousDescription": "Recipientes blancos y ramificaciones rojas",
+    "description": "Conjunto de cilindros y ramas",
+    "criterion": "Obras instaladas en árboles y en el espacio exterior.",
+    "reviewedImages": [
+      "arc-014968",
+      "arc-014968",
+      "gallery-esc-049-view-2-horizontal",
+      "gallery-esc-049-view-3-horizontal",
+      "gallery-esc-049-view-4-horizontal",
+      "gallery-esc-049-view-5-horizontal",
+      "gallery-esc-049-view-6-horizontal",
+      "gallery-esc-049-view-7-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-023",
+    "id": "moviles-014976",
+    "previousSeries": "Tramas y objetos encontrados",
+    "series": "Móviles",
+    "previousDescription": "Círculos rojos entrelazados",
+    "description": "Círculos rojos entrelazados",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-014976-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-050",
+    "id": "escultura-014978",
+    "previousSeries": "Intervenciones en el entorno",
+    "series": "Intervenciones en el entorno",
+    "previousDescription": "Marcos de color en el árbol",
+    "description": "Árbol con figuras de colores",
+    "criterion": "Obras instaladas en árboles y en el espacio exterior.",
+    "reviewedImages": [
+      "arc-014978",
+      "arc-014978",
+      "gallery-esc-050-view-2-horizontal",
+      "gallery-esc-050-view-3-horizontal",
+      "gallery-esc-050-view-4-horizontal",
+      "gallery-esc-050-view-5-horizontal",
+      "gallery-esc-050-view-6-horizontal",
+      "gallery-esc-050-view-7-horizontal",
+      "gallery-esc-050-view-8-horizontal",
+      "gallery-esc-050-view-9-horizontal",
+      "gallery-esc-050-view-10-horizontal",
+      "gallery-esc-050-view-11-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-024",
+    "id": "moviles-015000",
+    "previousSeries": "Discos y recorridos",
+    "series": "Móviles",
+    "previousDescription": "Curvas azules y verdes",
+    "description": "Curvas azules y verdes",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015000-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-025",
+    "id": "moviles-015002",
+    "previousSeries": "Tramas y objetos encontrados",
+    "series": "Móviles",
+    "previousDescription": "Trama oscura con flores de color",
+    "description": "Trama oscura con flores de color",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015002-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-026",
+    "id": "moviles-015006",
+    "previousSeries": "Discos y recorridos",
+    "series": "Móviles",
+    "previousDescription": "Arco rojo y discos azules",
+    "description": "Arco rojo y discos azules",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015006-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-027",
+    "id": "moviles-015011",
+    "previousSeries": "Discos y recorridos",
+    "series": "Móviles",
+    "previousDescription": "Un recorrido de pequeños discos",
+    "description": "Un recorrido de pequeños discos",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015011-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-028",
+    "id": "moviles-015021",
+    "previousSeries": "Discos y recorridos",
+    "series": "Móviles",
+    "previousDescription": "Círculo abierto de muchos colores",
+    "description": "Círculo abierto de muchos colores",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015021-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-051",
+    "id": "escultura-015032",
+    "previousSeries": "Intervenciones en el entorno",
+    "series": "Intervenciones en el entorno",
+    "previousDescription": "Círculo blanco de piezas encontradas",
+    "description": "Composición circular de piezas ensambladas",
+    "criterion": "Obras instaladas en árboles y en el espacio exterior.",
+    "reviewedImages": [
+      "arc-015032",
+      "arc-015032",
+      "gallery-esc-051-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-029",
+    "id": "moviles-015045",
+    "previousSeries": "Tramas y objetos encontrados",
+    "series": "Móviles",
+    "previousDescription": "Estructura abierta y un aro de color",
+    "description": "Estructura abierta y un aro de color",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015045-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-030",
+    "id": "moviles-015051",
+    "previousSeries": "Discos y recorridos",
+    "series": "Móviles",
+    "previousDescription": "Columna de discos multicolores",
+    "description": "Columna de discos multicolores",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015051-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-031",
+    "id": "moviles-015058",
+    "previousSeries": "Discos y recorridos",
+    "series": "Móviles",
+    "previousDescription": "Recipientes rosas, verdes y amarillos",
+    "description": "Recipientes rosas, verdes y amarillos",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015058-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-032",
+    "id": "moviles-015062",
+    "previousSeries": "Líneas y equilibrio",
+    "series": "Móviles",
+    "previousDescription": "Ramas y figuras geométricas",
+    "description": "Ramas y figuras geométricas",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015062-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "MOV-033",
+    "id": "moviles-015067",
+    "previousSeries": "Discos y recorridos",
+    "series": "Móviles",
+    "previousDescription": "Pequeños recipientes suspendidos",
+    "description": "Pequeños recipientes suspendidos",
+    "criterion": "Una misma serie de piezas suspendidas, presentada sin dividirla por su lugar de instalación.",
+    "reviewedImages": [
+      "gallery-015067-cool-neutral-v2"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-052",
+    "id": "escultura-015076",
+    "previousSeries": "Intervenciones en el entorno",
+    "series": "Intervenciones en el entorno",
+    "previousDescription": "Un tronco con formas superpuestas",
+    "description": "Tronco vertical con elementos superpuestos",
+    "criterion": "Obras instaladas en árboles y en el espacio exterior.",
+    "reviewedImages": [
+      "arc-015076",
+      "arc-015076",
+      "gallery-esc-052-view-2-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-053",
+    "id": "escultura-008659",
+    "previousSeries": "Volúmenes abiertos",
+    "series": "Planos curvos y volúmenes abiertos",
+    "previousDescription": "Una curva que se abre en el espacio",
+    "description": "Volumen abierto de contorno ondulado",
+    "criterion": "Planos que se pliegan o curvan para construir volúmenes y vacíos.",
+    "reviewedImages": [
+      "gallery-esc-053",
+      "gallery-esc-053",
+      "gallery-esc-053-view-2-horizontal",
+      "gallery-esc-053-view-3-horizontal",
+      "gallery-esc-053-view-4-horizontal",
+      "gallery-esc-053-view-5-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "ESC-054",
+    "id": "escultura-008704",
+    "previousSeries": "Estructuras y ensamblajes",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Forma articulada dentro de un círculo",
+    "description": "Forma articulada en un aro",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-054",
+      "gallery-esc-054",
+      "gallery-esc-054-view-2-horizontal",
+      "gallery-esc-054-view-3-horizontal",
+      "gallery-esc-054-view-4-horizontal",
+      "gallery-esc-054-view-5-horizontal",
+      "gallery-esc-054-view-6-horizontal",
+      "gallery-esc-054-view-7-horizontal"
+    ],
+    "pending": "Las configuraciones articuladas guardan relación formal con MOV-015; no se fusionan sin confirmar identidad física."
+  },
+  {
+    "reference": "ESC-055",
+    "id": "escultura-009729",
+    "previousSeries": "Estructuras y ensamblajes",
+    "series": "Estructuras y objetos ensamblados",
+    "previousDescription": "Mesa de varillas y ruedas dentadas",
+    "description": "Estructura de tres ejes y ruedas dentadas",
+    "criterion": "Ejes, retículas, espirales y objetos reunidos en estructuras.",
+    "reviewedImages": [
+      "gallery-esc-055",
+      "gallery-esc-055",
+      "gallery-esc-055-view-2-horizontal",
+      "gallery-esc-055-view-3-horizontal",
+      "gallery-esc-055-view-4-horizontal",
+      "gallery-esc-055-view-5-horizontal",
+      "gallery-esc-055-view-6-horizontal",
+      "gallery-esc-055-view-7-horizontal",
+      "gallery-esc-041-view-4-horizontal"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-036",
+    "id": "dibujo-013422",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Curvas entrelazadas en rosa y gris",
+    "description": "Curvas entrelazadas en rosa y gris",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013422"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-037",
+    "id": "dibujo-013423",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos angulares en gris",
+    "description": "Planos angulares en gris",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013423"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-038",
+    "id": "dibujo-013426",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Formas azules que se encuentran",
+    "description": "Formas azules que se encuentran",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013426"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-039",
+    "id": "dibujo-013427",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Un arco amarillo sobre trazos rojos",
+    "description": "Un arco amarillo sobre trazos rojos",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013427"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-040",
+    "id": "dibujo-013430",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Dos formas curvas en azul",
+    "description": "Dos formas curvas en azul",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013430"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-041",
+    "id": "dibujo-013431",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Encuentro de amarillos y rojos",
+    "description": "Encuentro de amarillos y rojos",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013431"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-042",
+    "id": "dibujo-013434",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Una construcción de líneas azules y naranjas",
+    "description": "Una construcción de líneas azules y naranjas",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013434"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-043",
+    "id": "dibujo-013435",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Trama de líneas azules y rojas",
+    "description": "Trama de líneas azules y rojas",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013435"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-044",
+    "id": "dibujo-013436",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Una composición abierta en rojo",
+    "description": "Una composición abierta en rojo",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013436"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-045",
+    "id": "dibujo-013439",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Ritmos grises y acentos naranjas",
+    "description": "Ritmos grises y acentos naranjas",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013439"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-046",
+    "id": "dibujo-013440",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos grises atravesados por el amarillo",
+    "description": "Planos grises atravesados por el amarillo",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013440"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-047",
+    "id": "dibujo-013441",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Una trama densa de líneas y color",
+    "description": "Una trama densa de líneas y color",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013441"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-048",
+    "id": "dibujo-013443",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Curvas grises sobre el papel",
+    "description": "Curvas grises sobre el papel",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013443"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-049",
+    "id": "dibujo-013447",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Dos curvas y una línea oblicua",
+    "description": "Dos curvas y una línea oblicua",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013447"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-050",
+    "id": "dibujo-013448",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Trazos rojos entre planos grises",
+    "description": "Trazos rojos entre planos grises",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013448"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-051",
+    "id": "dibujo-013449",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Formas superpuestas en marrón",
+    "description": "Formas superpuestas en marrón",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013449"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-052",
+    "id": "dibujo-013452",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Planos azules y naranjas",
+    "description": "Planos azules y naranjas",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013452"
+    ],
+    "pending": null
+  },
+  {
+    "reference": "DIB-053",
+    "id": "dibujo-013453",
+    "previousSeries": "Línea y color",
+    "series": "Dibujo y espacio",
+    "previousDescription": "Una forma angular en azul y violeta",
+    "description": "Una forma angular en azul y violeta",
+    "criterion": "Líneas, planos y curvas que construyen volumen sobre el papel.",
+    "reviewedImages": [
+      "arc-013453"
+    ],
+    "pending": null
+  }
+]

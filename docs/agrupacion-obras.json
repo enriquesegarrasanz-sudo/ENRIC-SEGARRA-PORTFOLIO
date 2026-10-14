@@ -1342,7 +1342,6 @@
       "ARC-008826",
       "ARC-008827",
       "ARC-008828",
-      "ARC-008829",
       "ARC-008830",
       "ARC-008719",
       "ARC-008720",
@@ -1357,8 +1356,7 @@
     "publicados": [
       "ARC-008826",
       "ARC-008816",
-      "ARC-008825",
-      "ARC-008829"
+      "ARC-008825"
     ],
     "criterio": "Comparación visual de forma, composición y detalles; tomas redundantes en reserva"
   },
@@ -3138,7 +3136,8 @@
       "ARC-009734",
       "ARC-009737",
       "ARC-009713",
-      "ARC-009725"
+      "ARC-009725",
+      "ARC-008829"
     ],
     "publicados": [
       "ARC-009729",
@@ -3147,8 +3146,10 @@
       "ARC-009734",
       "ARC-009737",
       "ARC-009713",
-      "ARC-009725"
-    ]
+      "ARC-009725",
+      "ARC-008829"
+    ],
+    "criterio": "Comparación visual de fotografías; ARC-008829 reasignada tras comparar los tres ejes, las barras y las ruedas dentadas."
   },
   {
     "ficha": "dibujo-013422",

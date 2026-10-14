@@ -1,3 +1,20 @@
+## 2026-10-14 — Revisión visual de series y conjuntos
+
+Revisión de las 221 imágenes principales del catálogo: 80 pinturas, 55 esculturas, 53 dibujos y 33 móviles. Se compararon además las 123 imágenes de las galerías de escultura con varias vistas y 23 fotografías de origen de pinturas dudosas. Las hojas de contacto y fotografías de trabajo se conservan fuera del repositorio público. No se afirma haber revisado todo el fondo familiar.
+
+- Pintura: nueve grupos accesibles desde el directorio. Correcciones de motivos: PIN-064 a Gatos; PIN-039 y PIN-078 a Tauromaquia; PIN-079 a Relatos e iconografía; PIN-080 y PIN-038 a Rostros y personajes. Las composiciones tipográficas tienen su propio conjunto Letras y signos.
+- Escultura: siete conjuntos distinguen planos curvos, formas orgánicas, relieves recortados, relieves de textura, ensamblajes murales, estructuras ensambladas e intervenciones exteriores. No se presentan como series oficiales del artista.
+- ARC-008829 se traslada de ESC-041 (pareja de espirales) a ESC-055 (estructura de tres ejes y ruedas dentadas). La configuración con abertura de ESC-046 se identifica como variante sin crear una obra nueva.
+- Móviles: una única serie. Dibujo: conjuntos por lenguaje visual, sin la división previa basada en carpetas de origen.
+- Eliminada la generación mecánica de títulos poéticos. Se conservan descripciones visuales y se indica que los títulos originales, fechas y técnicas requieren documentación.
+- Los índices muestran los grupos completos, con portadas pertenecientes a cada conjunto. Se conservan las 221 fichas, sus referencias y enlaces; las obras relacionadas pertenecen a la misma disciplina y grupo.
+
+Registro de criterios y dudas por ficha: [REVISION-SERIES-20261014.json](docs/REVISION-SERIES-20261014.json). Los conjuntos nuevos son una organización visual editorial. La pertenencia histórica de algunas piezas a las series debe confirmarla el artista; las dudas quedan registradas sin atribuciones nuevas.
+
+Validación: catálogo, archivo visual y comprobación de cobertura/portadas correctos. Edge: 96 combinaciones de página y ancho (320, 390, 768 y 1440 px), nueve fichas con ampliación/cierre y cambio de perspectiva, búsqueda, alias de Arcas, vista de recorrido e idiomas. Sin errores JavaScript ni desbordamiento horizontal. Capturas de pintura y escultura revisadas. Se mantienen los recursos existentes; no se añaden servicios externos ni archivos privados al sitio.
+
+Respaldo previo: rama `backup/antes-revision-series-20261014` en `e5c83e6` y `../COPIAS_SEGURIDAD_WEB/clasificacion-antes-revision-20261014.zip`, además de las copias completas de la entrega anterior. Rama de trabajo: `revision-series-20261014`. Publicación autorizada mediante GitHub Pages desde `main`.
+
 ## 2026-10-14 — Reorganización según indicaciones del artista
 
 - Menú de seis apartados: Inicio; Escultura y móviles; Jardín de las Lagartijas; Pintura y dibujo; Arte infantil; Trayectoria y contacto.

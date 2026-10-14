@@ -4,7 +4,7 @@ export const catalogue = [
     "id": "suspension-rosa",
     "label": "Composición suspendida en rosa",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-001",
     "image": "gallery-014590-cool-neutral-v2",
@@ -42,7 +42,7 @@ export const catalogue = [
     "id": "moviles-014603",
     "label": "Una línea en suspensión",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-002",
     "image": "gallery-014605-cool-neutral-v2",
@@ -80,7 +80,7 @@ export const catalogue = [
     "id": "moviles-014614",
     "label": "Rama oscura, acentos rojos",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-003",
     "image": "gallery-014616",
@@ -118,7 +118,7 @@ export const catalogue = [
     "id": "moviles-014624",
     "label": "Figuras sobre una barra roja",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-004",
     "image": "gallery-014625-cool-neutral-v2",
@@ -156,7 +156,7 @@ export const catalogue = [
     "id": "forma-verde",
     "label": "Forma suspendida en verde",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-005",
     "image": "gallery-014646-cool-neutral-v2",
@@ -210,7 +210,7 @@ export const catalogue = [
     "id": "moviles-014659",
     "label": "Tubos rosas sobre un arco",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-006",
     "image": "gallery-014666",
@@ -264,7 +264,7 @@ export const catalogue = [
     "id": "moviles-014678",
     "label": "Estructura clara y elementos cilíndricos",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-007",
     "image": "gallery-014680-cool-neutral-v2",
@@ -302,7 +302,7 @@ export const catalogue = [
     "id": "moviles-014691",
     "label": "Pequeño volumen abierto en rosa",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-008",
     "image": "gallery-014696-cool-neutral-v2",
@@ -348,7 +348,7 @@ export const catalogue = [
     "id": "moviles-014713",
     "label": "Una columna de discos rosas",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-009",
     "image": "gallery-014715-cool-neutral-v2",
@@ -378,7 +378,7 @@ export const catalogue = [
     "id": "moviles-014720",
     "label": "Escalera de elementos claros",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-010",
     "image": "gallery-014722-cool-neutral-v2",
@@ -408,7 +408,7 @@ export const catalogue = [
     "id": "moviles-014726",
     "label": "Líneas rosas ramificadas",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-011",
     "image": "gallery-014728-cool-neutral-v2",
@@ -454,7 +454,7 @@ export const catalogue = [
     "id": "moviles-014748",
     "label": "Curvas de tubo corrugado",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-012",
     "image": "gallery-014755",
@@ -492,7 +492,7 @@ export const catalogue = [
     "id": "moviles-014764",
     "label": "Discos rosas en dos recorridos",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-013",
     "image": "gallery-014765-cool-neutral-v2",
@@ -530,7 +530,7 @@ export const catalogue = [
     "id": "aros",
     "label": "Composición de aros",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-014",
     "image": "gallery-014774-cool-neutral-v2",
@@ -552,7 +552,7 @@ export const catalogue = [
     "id": "moviles-014821",
     "label": "Una forma articulada",
     "category": "moviles",
-    "series": "Formas suspendidas",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-015",
     "image": "gallery-014821-cool-neutral-v2",
@@ -606,7 +606,7 @@ export const catalogue = [
     "id": "ramas-y-color",
     "label": "Pieza entre las ramas",
     "category": "moviles",
-    "series": "En el entorno",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-016",
     "image": "gallery-014847-cool-neutral-v2",
@@ -708,7 +708,7 @@ export const catalogue = [
     "id": "moviles-014850",
     "label": "Planos de color entre los árboles",
     "category": "moviles",
-    "series": "En el entorno",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-017",
     "image": "nature-014851",
@@ -730,7 +730,7 @@ export const catalogue = [
     "id": "moviles-014879",
     "label": "Líneas de color al aire libre",
     "category": "moviles",
-    "series": "En el entorno",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-018",
     "image": "gallery-014880-cool-neutral-v2",
@@ -832,7 +832,7 @@ export const catalogue = [
     "id": "moviles-014887",
     "label": "Círculo azul y blanco",
     "category": "moviles",
-    "series": "En el entorno",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-019",
     "image": "gallery-014890-cool-neutral-v2",
@@ -902,7 +902,7 @@ export const catalogue = [
     "id": "moviles-008941",
     "label": "Estructura de líneas oscuras y esferas",
     "category": "moviles",
-    "series": "En exposición",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-020",
     "image": "gallery-008941-cool-neutral-v2",
@@ -940,7 +940,7 @@ export const catalogue = [
     "id": "moviles-008911",
     "label": "Fragmentos de color suspendidos",
     "category": "moviles",
-    "series": "En exposición",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-021",
     "image": "gallery-008954-cool-neutral-v2",
@@ -992,21 +992,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014490",
-    "label": "Relieve de perfil quebrado",
+    "label": "Perfil recortado sobre fondo oscuro",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
     "chapter": "construir-formas",
     "reference": "ESC-001",
     "image": "gallery-esc-001",
     "thumb": "gallery-esc-001",
-    "alt": "Relieve de perfil quebrado",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Perfil recortado sobre fondo oscuro",
+    "text": "Perfil recortado sobre fondo oscuro.",
     "gallery": [
       {
         "image": "gallery-esc-001",
         "thumb": "gallery-esc-001",
         "archiveId": "ARC-014490",
-        "alt": "Relieve de perfil quebrado. Fotografía 1",
+        "alt": "Perfil recortado sobre fondo oscuro. Vista 1",
         "sourceName": "_DSC3636.ARW",
         "contentKey": "ARC-014490"
       }
@@ -1014,21 +1014,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014492",
-    "label": "Relieve de ondas",
+    "label": "Relieve de líneas onduladas",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
     "chapter": "construir-formas",
     "reference": "ESC-002",
     "image": "gallery-esc-002",
     "thumb": "gallery-esc-002",
-    "alt": "Relieve de ondas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve de líneas onduladas",
+    "text": "Relieve de líneas onduladas.",
     "gallery": [
       {
         "image": "gallery-esc-002",
         "thumb": "gallery-esc-002",
         "archiveId": "ARC-014492",
-        "alt": "Relieve de ondas. Fotografía 1",
+        "alt": "Relieve de líneas onduladas. Vista 1",
         "sourceName": "_DSC3638.ARW",
         "contentKey": "ARC-014492"
       }
@@ -1036,21 +1036,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014494",
-    "label": "Relieve de formas contrapuestas",
+    "label": "Plano recortado en diagonal",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
     "chapter": "construir-formas",
     "reference": "ESC-003",
     "image": "gallery-esc-003",
     "thumb": "gallery-esc-003",
-    "alt": "Relieve de formas contrapuestas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Plano recortado en diagonal",
+    "text": "Plano recortado en diagonal.",
     "gallery": [
       {
         "image": "gallery-esc-003",
         "thumb": "gallery-esc-003",
         "archiveId": "ARC-014494",
-        "alt": "Relieve de formas contrapuestas. Fotografía 1",
+        "alt": "Plano recortado en diagonal. Vista 1",
         "sourceName": "_DSC3640.ARW",
         "contentKey": "ARC-014494"
       }
@@ -1058,21 +1058,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014496",
-    "label": "Relieve de contorno angular",
+    "label": "Relieve de contornos angulares",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de planos recortados",
     "chapter": "construir-formas",
     "reference": "ESC-004",
     "image": "gallery-esc-004",
     "thumb": "gallery-esc-004",
-    "alt": "Relieve de contorno angular",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve de contornos angulares",
+    "text": "Relieve de contornos angulares.",
     "gallery": [
       {
         "image": "gallery-esc-004",
         "thumb": "gallery-esc-004",
         "archiveId": "ARC-014496",
-        "alt": "Relieve de contorno angular. Fotografía 1",
+        "alt": "Relieve de contornos angulares. Vista 1",
         "sourceName": "_DSC3642.ARW",
         "contentKey": "964033964910a67cd0e0f1495ddfad1e885715b997aa0eb1cf2e27000934f7ad"
       }
@@ -1080,21 +1080,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014502",
-    "label": "Volumen oscuro con aberturas",
+    "label": "Volumen vertical de planos abiertos",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-005",
     "image": "gallery-esc-005",
     "thumb": "gallery-esc-005",
-    "alt": "Volumen oscuro con aberturas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen vertical de planos abiertos",
+    "text": "Volumen vertical de planos abiertos.",
     "gallery": [
       {
         "image": "gallery-esc-005",
         "thumb": "gallery-esc-005",
         "archiveId": "ARC-014502",
-        "alt": "Volumen oscuro con aberturas. Fotografía 1",
+        "alt": "Volumen vertical de planos abiertos. Vista 1",
         "sourceName": "_DSC3655.ARW",
         "contentKey": "ARC-014502"
       }
@@ -1102,21 +1102,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014505",
-    "label": "Volumen de planos curvos",
+    "label": "Plano curvo con abertura",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-006",
     "image": "gallery-esc-006",
     "thumb": "gallery-esc-006",
-    "alt": "Volumen de planos curvos",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Plano curvo con abertura",
+    "text": "Plano curvo con abertura.",
     "gallery": [
       {
         "image": "gallery-esc-006",
         "thumb": "gallery-esc-006",
         "archiveId": "ARC-008513",
-        "alt": "Volumen de planos curvos. Fotografía 1",
+        "alt": "Plano curvo con abertura. Vista 1",
         "sourceName": "DSCF0081.JPG",
         "contentKey": "97f3e6af9b3ba2f3a7c3341867ee524adb38b5a89cc1f942d555e4316c7cc667"
       },
@@ -1124,7 +1124,7 @@ export const catalogue = [
         "image": "gallery-esc-006-view-2-horizontal",
         "thumb": "gallery-esc-006-view-2-horizontal",
         "archiveId": "ARC-008515",
-        "alt": "Volumen de planos curvos. Fotografía 2",
+        "alt": "Plano curvo con abertura. Vista 2",
         "sourceName": "DSCF0083.JPG",
         "contentKey": "ec990a6f7cf3362d5011201ce2f15e18ab47a33e85e4579b9cb109740d10ec6c"
       },
@@ -1132,7 +1132,7 @@ export const catalogue = [
         "image": "gallery-esc-006-view-3-horizontal",
         "thumb": "gallery-esc-006-view-3-horizontal",
         "archiveId": "ARC-008517",
-        "alt": "Volumen de planos curvos. Fotografía 3",
+        "alt": "Plano curvo con abertura. Vista 3",
         "sourceName": "DSCF0085.JPG",
         "contentKey": "22b7a4196e8d2a64ab3b18a56d8d2b76c0a3985c5177e5b1e34a049edff8d2cb"
       }
@@ -1140,21 +1140,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014507",
-    "label": "Volumen enrollado",
+    "label": "Volumen de planos envolventes",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-007",
     "image": "gallery-esc-007",
     "thumb": "gallery-esc-007",
-    "alt": "Volumen enrollado",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen de planos envolventes",
+    "text": "Volumen de planos envolventes.",
     "gallery": [
       {
         "image": "gallery-esc-007",
         "thumb": "gallery-esc-007",
         "archiveId": "ARC-014507",
-        "alt": "Volumen enrollado. Fotografía 1",
+        "alt": "Volumen de planos envolventes. Vista 1",
         "sourceName": "_DSC3660.ARW",
         "contentKey": "ARC-014507"
       },
@@ -1162,7 +1162,7 @@ export const catalogue = [
         "image": "gallery-esc-007-view-2-horizontal",
         "thumb": "gallery-esc-007-view-2-horizontal",
         "archiveId": "ARC-008552",
-        "alt": "Volumen enrollado. Fotografía 2",
+        "alt": "Volumen de planos envolventes. Vista 2",
         "sourceName": "TORSO1.TIF",
         "contentKey": "5a57a761d035ffecb6ee402509e7d4b202ef2720052811313f67fa9a452ead90"
       }
@@ -1170,21 +1170,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014509",
-    "label": "Figura clara de perfil orgánico",
+    "label": "Volumen claro de formas onduladas",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-008",
     "image": "gallery-esc-008",
     "thumb": "gallery-esc-008",
-    "alt": "Figura clara de perfil orgánico",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen claro de formas onduladas",
+    "text": "Volumen claro de formas onduladas.",
     "gallery": [
       {
         "image": "gallery-esc-008",
         "thumb": "gallery-esc-008",
         "archiveId": "ARC-014509",
-        "alt": "Figura clara de perfil orgánico. Fotografía 1",
+        "alt": "Volumen claro de formas onduladas. Vista 1",
         "sourceName": "_DSC3664.ARW",
         "contentKey": "ARC-014509"
       },
@@ -1192,7 +1192,7 @@ export const catalogue = [
         "image": "gallery-esc-008-view-2-horizontal",
         "thumb": "gallery-esc-008-view-2-horizontal",
         "archiveId": "ARC-014512",
-        "alt": "Figura clara de perfil orgánico. Fotografía 2",
+        "alt": "Volumen claro de formas onduladas. Vista 2",
         "sourceName": "_DSC3667.ARW",
         "contentKey": "ARC-014512"
       },
@@ -1200,7 +1200,7 @@ export const catalogue = [
         "image": "gallery-esc-008-view-3-horizontal",
         "thumb": "gallery-esc-008-view-3-horizontal",
         "archiveId": "ARC-014514",
-        "alt": "Figura clara de perfil orgánico. Fotografía 3",
+        "alt": "Volumen claro de formas onduladas. Vista 3",
         "sourceName": "_DSC3669.ARW",
         "contentKey": "ARC-014514"
       }
@@ -1208,21 +1208,21 @@ export const catalogue = [
   },
   {
     "id": "volumen-veta",
-    "label": "Volumen de formas curvas",
+    "label": "Forma curva con veta",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-009",
     "image": "gallery-esc-009",
     "thumb": "gallery-esc-009",
-    "alt": "Volumen de formas curvas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Forma curva con veta",
+    "text": "Forma curva con veta.",
     "gallery": [
       {
         "image": "gallery-esc-009",
         "thumb": "gallery-esc-009",
         "archiveId": "ARC-014516",
-        "alt": "Volumen de formas curvas. Fotografía 1",
+        "alt": "Forma curva con veta. Vista 1",
         "sourceName": "_DSC3671.ARW",
         "contentKey": "ARC-014516"
       },
@@ -1230,7 +1230,7 @@ export const catalogue = [
         "image": "gallery-esc-009-view-2-horizontal",
         "thumb": "gallery-esc-009-view-2-horizontal",
         "archiveId": "ARC-014519",
-        "alt": "Volumen de formas curvas. Fotografía 2",
+        "alt": "Forma curva con veta. Vista 2",
         "sourceName": "_DSC3674.ARW",
         "contentKey": "ARC-014519"
       },
@@ -1238,7 +1238,7 @@ export const catalogue = [
         "image": "gallery-esc-009-view-3-horizontal",
         "thumb": "gallery-esc-009-view-3-horizontal",
         "archiveId": "ARC-014522",
-        "alt": "Volumen de formas curvas. Fotografía 3",
+        "alt": "Forma curva con veta. Vista 3",
         "sourceName": "_DSC3677.ARW",
         "contentKey": "ARC-014522"
       }
@@ -1246,21 +1246,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014523",
-    "label": "Volumen de remate bifurcado",
+    "label": "Volumen claro con abertura superior",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-010",
     "image": "gallery-esc-010",
     "thumb": "gallery-esc-010",
-    "alt": "Volumen de remate bifurcado",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen claro con abertura superior",
+    "text": "Volumen claro con abertura superior.",
     "gallery": [
       {
         "image": "gallery-esc-010",
         "thumb": "gallery-esc-010",
         "archiveId": "ARC-014523",
-        "alt": "Volumen de remate bifurcado. Fotografía 1",
+        "alt": "Volumen claro con abertura superior. Vista 1",
         "sourceName": "_DSC3678.ARW",
         "contentKey": "ARC-014523"
       },
@@ -1268,7 +1268,7 @@ export const catalogue = [
         "image": "gallery-esc-010-view-2-horizontal",
         "thumb": "gallery-esc-010-view-2-horizontal",
         "archiveId": "ARC-014525",
-        "alt": "Volumen de remate bifurcado. Fotografía 2",
+        "alt": "Volumen claro con abertura superior. Vista 2",
         "sourceName": "_DSC3680.ARW",
         "contentKey": "ARC-014525"
       },
@@ -1276,7 +1276,7 @@ export const catalogue = [
         "image": "gallery-esc-010-view-3-horizontal",
         "thumb": "gallery-esc-010-view-3-horizontal",
         "archiveId": "ARC-014527",
-        "alt": "Volumen de remate bifurcado. Fotografía 3",
+        "alt": "Volumen claro con abertura superior. Vista 3",
         "sourceName": "_DSC3682.ARW",
         "contentKey": "ARC-014527"
       }
@@ -1284,21 +1284,21 @@ export const catalogue = [
   },
   {
     "id": "volumen-abierto",
-    "label": "Volumen claro con aberturas",
+    "label": "Volumen ovalado con dos huecos",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-011",
     "image": "gallery-esc-011",
     "thumb": "gallery-esc-011",
-    "alt": "Volumen claro con aberturas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen ovalado con dos huecos",
+    "text": "Volumen ovalado con dos huecos.",
     "gallery": [
       {
         "image": "gallery-esc-011",
         "thumb": "gallery-esc-011",
         "archiveId": "ARC-014528",
-        "alt": "Volumen claro con aberturas. Fotografía 1",
+        "alt": "Volumen ovalado con dos huecos. Vista 1",
         "sourceName": "_DSC3683.ARW",
         "contentKey": "8594fdf84572fc460fce675fb6027d03d9d59cb5bc7df7fb73a57955643dea0e"
       },
@@ -1306,7 +1306,7 @@ export const catalogue = [
         "image": "gallery-esc-011-view-2-horizontal",
         "thumb": "gallery-esc-011-view-2-horizontal",
         "archiveId": "ARC-014530",
-        "alt": "Volumen claro con aberturas. Fotografía 2",
+        "alt": "Volumen ovalado con dos huecos. Vista 2",
         "sourceName": "_DSC3685.ARW",
         "contentKey": "ARC-014530"
       },
@@ -1314,7 +1314,7 @@ export const catalogue = [
         "image": "gallery-esc-011-view-3-horizontal",
         "thumb": "gallery-esc-011-view-3-horizontal",
         "archiveId": "ARC-014532",
-        "alt": "Volumen claro con aberturas. Fotografía 3",
+        "alt": "Volumen ovalado con dos huecos. Vista 3",
         "sourceName": "_DSC3687.ARW",
         "contentKey": "ARC-014532"
       }
@@ -1322,21 +1322,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014533",
-    "label": "Figura de perfiles ascendentes",
+    "label": "Figura de planos plegados",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-012",
     "image": "gallery-esc-012",
     "thumb": "gallery-esc-012",
-    "alt": "Figura de perfiles ascendentes",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Figura de planos plegados",
+    "text": "Figura de planos plegados.",
     "gallery": [
       {
         "image": "gallery-esc-012",
         "thumb": "gallery-esc-012",
         "archiveId": "ARC-014533",
-        "alt": "Figura de perfiles ascendentes. Fotografía 1",
+        "alt": "Figura de planos plegados. Vista 1",
         "sourceName": "_DSC3688.ARW",
         "contentKey": "ARC-014533"
       },
@@ -1344,7 +1344,7 @@ export const catalogue = [
         "image": "gallery-esc-012-view-2-horizontal",
         "thumb": "gallery-esc-012-view-2-horizontal",
         "archiveId": "ARC-014536",
-        "alt": "Figura de perfiles ascendentes. Fotografía 2",
+        "alt": "Figura de planos plegados. Vista 2",
         "sourceName": "_DSC3691.ARW",
         "contentKey": "ARC-014536"
       },
@@ -1352,7 +1352,7 @@ export const catalogue = [
         "image": "gallery-esc-012-view-3-horizontal",
         "thumb": "gallery-esc-012-view-3-horizontal",
         "archiveId": "ARC-014539",
-        "alt": "Figura de perfiles ascendentes. Fotografía 3",
+        "alt": "Figura de planos plegados. Vista 3",
         "sourceName": "_DSC3695.ARW",
         "contentKey": "5ac5a24d512c806ec4db33a85816549a78b7e2603cbfdab01a77e9d7bd7eb380"
       },
@@ -1360,7 +1360,7 @@ export const catalogue = [
         "image": "gallery-esc-012-view-4-horizontal",
         "thumb": "gallery-esc-012-view-4-horizontal",
         "archiveId": "ARC-008541",
-        "alt": "Figura de perfiles ascendentes. Fotografía 4",
+        "alt": "Figura de planos plegados. Vista 4",
         "sourceName": "PICT1048.JPG",
         "contentKey": "838c41fe39be734d433bd82f29e5dc2856cfce9bbd3be0ac625b177149c907a1"
       }
@@ -1368,21 +1368,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014540",
-    "label": "Forma vertical en torsión",
+    "label": "Forma vertical ondulada",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-013",
     "image": "gallery-esc-013",
     "thumb": "gallery-esc-013",
-    "alt": "Forma vertical en torsión",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Forma vertical ondulada",
+    "text": "Forma vertical ondulada.",
     "gallery": [
       {
         "image": "gallery-esc-013",
         "thumb": "gallery-esc-013",
         "archiveId": "ARC-014540",
-        "alt": "Forma vertical en torsión. Fotografía 1",
+        "alt": "Forma vertical ondulada. Vista 1",
         "sourceName": "_DSC3696.ARW",
         "contentKey": "ARC-014540"
       },
@@ -1390,7 +1390,7 @@ export const catalogue = [
         "image": "gallery-esc-013-view-2-horizontal",
         "thumb": "gallery-esc-013-view-2-horizontal",
         "archiveId": "ARC-014543",
-        "alt": "Forma vertical en torsión. Fotografía 2",
+        "alt": "Forma vertical ondulada. Vista 2",
         "sourceName": "_DSC3699.ARW",
         "contentKey": "ARC-014543"
       },
@@ -1398,7 +1398,7 @@ export const catalogue = [
         "image": "gallery-esc-013-view-3-horizontal",
         "thumb": "gallery-esc-013-view-3-horizontal",
         "archiveId": "ARC-014546",
-        "alt": "Forma vertical en torsión. Fotografía 3",
+        "alt": "Forma vertical ondulada. Vista 3",
         "sourceName": "_DSC3702.ARW",
         "contentKey": "ARC-014546"
       }
@@ -1406,21 +1406,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014547",
-    "label": "Línea vertical sobre una base",
+    "label": "Forma alargada sobre peana",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-014",
     "image": "gallery-esc-014",
     "thumb": "gallery-esc-014",
-    "alt": "Línea vertical sobre una base",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Forma alargada sobre peana",
+    "text": "Forma alargada sobre peana.",
     "gallery": [
       {
         "image": "gallery-esc-014",
         "thumb": "gallery-esc-014",
         "archiveId": "ARC-014547",
-        "alt": "Línea vertical sobre una base. Fotografía 1",
+        "alt": "Forma alargada sobre peana. Vista 1",
         "sourceName": "_DSC3703.ARW",
         "contentKey": "ARC-014547"
       },
@@ -1428,7 +1428,7 @@ export const catalogue = [
         "image": "gallery-esc-014-view-2-horizontal",
         "thumb": "gallery-esc-014-view-2-horizontal",
         "archiveId": "ARC-014549",
-        "alt": "Línea vertical sobre una base. Fotografía 2",
+        "alt": "Forma alargada sobre peana. Vista 2",
         "sourceName": "_DSC3705.ARW",
         "contentKey": "ARC-014549"
       },
@@ -1436,7 +1436,7 @@ export const catalogue = [
         "image": "gallery-esc-014-view-3-horizontal",
         "thumb": "gallery-esc-014-view-3-horizontal",
         "archiveId": "ARC-014551",
-        "alt": "Línea vertical sobre una base. Fotografía 3",
+        "alt": "Forma alargada sobre peana. Vista 3",
         "sourceName": "_DSC3707.ARW",
         "contentKey": "eba116d5f94b227dccad8f2f824c50533ac8f12be08d4b44f092efaaff945655"
       }
@@ -1444,21 +1444,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014552",
-    "label": "Volumen redondeado",
+    "label": "Volumen redondeado con cavidades",
     "category": "escultura",
-    "series": "Volúmenes",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-015",
     "image": "gallery-esc-015",
     "thumb": "gallery-esc-015",
-    "alt": "Volumen redondeado",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen redondeado con cavidades",
+    "text": "Volumen redondeado con cavidades.",
     "gallery": [
       {
         "image": "gallery-esc-015",
         "thumb": "gallery-esc-015",
         "archiveId": "ARC-014552",
-        "alt": "Volumen redondeado. Fotografía 1",
+        "alt": "Volumen redondeado con cavidades. Vista 1",
         "sourceName": "_DSC3708.ARW",
         "contentKey": "5cbfcaec5c77720bc39a2c0005d5f9c46450cccf30a00e2004eaf0faffd79bec"
       },
@@ -1466,7 +1466,7 @@ export const catalogue = [
         "image": "gallery-esc-015-view-2-horizontal",
         "thumb": "gallery-esc-015-view-2-horizontal",
         "archiveId": "ARC-014555",
-        "alt": "Volumen redondeado. Fotografía 2",
+        "alt": "Volumen redondeado con cavidades. Vista 2",
         "sourceName": "_DSC3711.ARW",
         "contentKey": "04768832b8af3b334c64dbfe7f4bd1a93e1064db7200a1e553c2980a5b9f590e"
       },
@@ -1474,7 +1474,7 @@ export const catalogue = [
         "image": "gallery-esc-015-view-3-horizontal",
         "thumb": "gallery-esc-015-view-3-horizontal",
         "archiveId": "ARC-014558",
-        "alt": "Volumen redondeado. Fotografía 3",
+        "alt": "Volumen redondeado con cavidades. Vista 3",
         "sourceName": "_DSC3714.ARW",
         "contentKey": "ARC-014558"
       }
@@ -1482,21 +1482,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014560",
-    "label": "Dos elementos sobre fondo oscuro",
+    "label": "Dos paneles con elementos superpuestos",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-016",
     "image": "gallery-esc-016",
     "thumb": "gallery-esc-016",
-    "alt": "Dos elementos sobre fondo oscuro",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Dos paneles con elementos superpuestos",
+    "text": "Dos paneles con elementos superpuestos.",
     "gallery": [
       {
         "image": "gallery-esc-016",
         "thumb": "gallery-esc-016",
         "archiveId": "ARC-014560",
-        "alt": "Dos elementos sobre fondo oscuro. Fotografía 1",
+        "alt": "Dos paneles con elementos superpuestos. Vista 1",
         "sourceName": "_DSC7867.ARW",
         "contentKey": "ARC-014560"
       }
@@ -1504,21 +1504,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014562",
-    "label": "Composición dorada y oscura",
+    "label": "Relieve con forma circular abierta",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-017",
     "image": "gallery-esc-017",
     "thumb": "gallery-esc-017",
-    "alt": "Composición dorada y oscura",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve con forma circular abierta",
+    "text": "Relieve con forma circular abierta.",
     "gallery": [
       {
         "image": "gallery-esc-017",
         "thumb": "gallery-esc-017",
         "archiveId": "ARC-014562",
-        "alt": "Composición dorada y oscura. Fotografía 1",
+        "alt": "Relieve con forma circular abierta. Vista 1",
         "sourceName": "_DSC7870.ARW",
         "contentKey": "5ebdda4aad60315c1e4f6893f1d04fe635a3d0e443b1b7fccecfb18ba72cc10e"
       }
@@ -1526,21 +1526,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014564",
-    "label": "Relieve circular de capas y alambre",
+    "label": "Relieve circular de capas concéntricas",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-018",
     "image": "gallery-esc-018",
     "thumb": "gallery-esc-018",
-    "alt": "Relieve circular de capas y alambre",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve circular de capas concéntricas",
+    "text": "Relieve circular de capas concéntricas.",
     "gallery": [
       {
         "image": "gallery-esc-018",
         "thumb": "gallery-esc-018",
         "archiveId": "ARC-014564",
-        "alt": "Relieve circular de capas y alambre. Fotografía 1",
+        "alt": "Relieve circular de capas concéntricas. Vista 1",
         "sourceName": "_DSC7872.ARW",
         "contentKey": "ARC-014564"
       },
@@ -1548,7 +1548,7 @@ export const catalogue = [
         "image": "gallery-esc-018-view-2-horizontal",
         "thumb": "gallery-esc-018-view-2-horizontal",
         "archiveId": "ARC-007764",
-        "alt": "Relieve circular de capas y alambre. Fotografía 2",
+        "alt": "Relieve circular de capas concéntricas. Vista 2",
         "sourceName": "DSC04047.JPG",
         "contentKey": "839d89838141d23b54f144785bd338e0aef0b2596a20e2cd9b31904240a36ad5"
       },
@@ -1556,7 +1556,7 @@ export const catalogue = [
         "image": "gallery-esc-018-view-3-horizontal",
         "thumb": "gallery-esc-018-view-3-horizontal",
         "archiveId": "ARC-009178",
-        "alt": "Relieve circular de capas y alambre. Fotografía 3",
+        "alt": "Relieve circular de capas concéntricas. Vista 3",
         "sourceName": "IMG_20180321_113740.jpg",
         "contentKey": "685509f38aea8e3495ab5969ce8f1781090560401981eb16bc1b6b8010007043"
       }
@@ -1564,21 +1564,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014565",
-    "label": "Composición circular con números",
+    "label": "Ensamblaje circular con números",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-019",
     "image": "gallery-esc-019",
     "thumb": "gallery-esc-019",
-    "alt": "Composición circular con números",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Ensamblaje circular con números",
+    "text": "Ensamblaje circular con números.",
     "gallery": [
       {
         "image": "gallery-esc-019",
         "thumb": "gallery-esc-019",
         "archiveId": "ARC-014565",
-        "alt": "Composición circular con números. Fotografía 1",
+        "alt": "Ensamblaje circular con números. Vista 1",
         "sourceName": "_DSC7873.ARW",
         "contentKey": "ARC-014565"
       }
@@ -1586,21 +1586,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014566",
-    "label": "Círculos y engranajes",
+    "label": "Relieve circular con ruedas dentadas",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-020",
     "image": "gallery-esc-020",
     "thumb": "gallery-esc-020",
-    "alt": "Círculos y engranajes",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve circular con ruedas dentadas",
+    "text": "Relieve circular con ruedas dentadas.",
     "gallery": [
       {
         "image": "gallery-esc-020",
         "thumb": "gallery-esc-020",
         "archiveId": "ARC-014566",
-        "alt": "Círculos y engranajes. Fotografía 1",
+        "alt": "Relieve circular con ruedas dentadas. Vista 1",
         "sourceName": "_DSC7874.ARW",
         "contentKey": "ARC-014566"
       }
@@ -1608,21 +1608,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014568",
-    "label": "Talla vertical de pequeño formato",
+    "label": "Franja vertical con piezas superpuestas",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-021",
     "image": "gallery-esc-021",
     "thumb": "gallery-esc-021",
-    "alt": "Talla vertical de pequeño formato",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Franja vertical con piezas superpuestas",
+    "text": "Franja vertical con piezas superpuestas.",
     "gallery": [
       {
         "image": "gallery-esc-021",
         "thumb": "gallery-esc-021",
         "archiveId": "ARC-014568",
-        "alt": "Talla vertical de pequeño formato. Fotografía 1",
+        "alt": "Franja vertical con piezas superpuestas. Vista 1",
         "sourceName": "_DSC7877.ARW",
         "contentKey": "ARC-014568"
       }
@@ -1630,21 +1630,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014570",
-    "label": "Relieve cuadrado de superficie quebrada",
+    "label": "Relieve de contornos fragmentados",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-022",
     "image": "gallery-esc-022",
     "thumb": "gallery-esc-022",
-    "alt": "Relieve cuadrado de superficie quebrada",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve de contornos fragmentados",
+    "text": "Relieve de contornos fragmentados.",
     "gallery": [
       {
         "image": "gallery-esc-022",
         "thumb": "gallery-esc-022",
         "archiveId": "ARC-014570",
-        "alt": "Relieve cuadrado de superficie quebrada. Fotografía 1",
+        "alt": "Relieve de contornos fragmentados. Vista 1",
         "sourceName": "_DSC7880.ARW",
         "contentKey": "ARC-014570"
       }
@@ -1652,21 +1652,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014571",
-    "label": "Relieve oval de superficie quebrada",
+    "label": "Relieve con arco circular",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-023",
     "image": "gallery-esc-023",
     "thumb": "gallery-esc-023",
-    "alt": "Relieve oval de superficie quebrada",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve con arco circular",
+    "text": "Relieve con arco circular.",
     "gallery": [
       {
         "image": "gallery-esc-023",
         "thumb": "gallery-esc-023",
         "archiveId": "ARC-014571",
-        "alt": "Relieve oval de superficie quebrada. Fotografía 1",
+        "alt": "Relieve con arco circular. Vista 1",
         "sourceName": "_DSC7881.ARW",
         "contentKey": "ARC-014571"
       }
@@ -1674,21 +1674,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014572",
-    "label": "Figura de gato en relieve",
+    "label": "Relieve claro con dibujo inciso",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
     "chapter": "construir-formas",
     "reference": "ESC-024",
     "image": "gallery-esc-024",
     "thumb": "gallery-esc-024",
-    "alt": "Figura de gato en relieve",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve claro con dibujo inciso",
+    "text": "Relieve claro con dibujo inciso.",
     "gallery": [
       {
         "image": "gallery-esc-024",
         "thumb": "gallery-esc-024",
         "archiveId": "ARC-014572",
-        "alt": "Figura de gato en relieve. Fotografía 1",
+        "alt": "Relieve claro con dibujo inciso. Vista 1",
         "sourceName": "_DSC7882.ARW",
         "contentKey": "ARC-014572"
       }
@@ -1696,21 +1696,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014573",
-    "label": "Relieve blanco con acentos rosas",
+    "label": "Relieve claro con trazos rojizos",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
     "chapter": "construir-formas",
     "reference": "ESC-025",
     "image": "gallery-esc-025",
     "thumb": "gallery-esc-025",
-    "alt": "Relieve blanco con acentos rosas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve claro con trazos rojizos",
+    "text": "Relieve claro con trazos rojizos.",
     "gallery": [
       {
         "image": "gallery-esc-025",
         "thumb": "gallery-esc-025",
         "archiveId": "ARC-014573",
-        "alt": "Relieve blanco con acentos rosas. Fotografía 1",
+        "alt": "Relieve claro con trazos rojizos. Vista 1",
         "sourceName": "_DSC7883.ARW",
         "contentKey": "ARC-014573"
       }
@@ -1718,21 +1718,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014574",
-    "label": "Rostro de superficie blanca",
+    "label": "Relieve con rostro inciso",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
     "chapter": "construir-formas",
     "reference": "ESC-026",
     "image": "gallery-esc-026",
     "thumb": "gallery-esc-026",
-    "alt": "Rostro de superficie blanca",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve con rostro inciso",
+    "text": "Relieve con rostro inciso.",
     "gallery": [
       {
         "image": "gallery-esc-026",
         "thumb": "gallery-esc-026",
         "archiveId": "ARC-014574",
-        "alt": "Rostro de superficie blanca. Fotografía 1",
+        "alt": "Relieve con rostro inciso. Vista 1",
         "sourceName": "_DSC7884.ARW",
         "contentKey": "ARC-014574"
       }
@@ -1740,21 +1740,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014575",
-    "label": "Pez de superficie blanca",
+    "label": "Relieve circular con tramas",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
     "chapter": "construir-formas",
     "reference": "ESC-027",
     "image": "gallery-esc-027",
     "thumb": "gallery-esc-027",
-    "alt": "Pez de superficie blanca",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve circular con tramas",
+    "text": "Relieve circular con tramas.",
     "gallery": [
       {
         "image": "gallery-esc-027",
         "thumb": "gallery-esc-027",
         "archiveId": "ARC-014575",
-        "alt": "Pez de superficie blanca. Fotografía 1",
+        "alt": "Relieve circular con tramas. Vista 1",
         "sourceName": "_DSC7886.ARW",
         "contentKey": "ARC-014575"
       }
@@ -1762,21 +1762,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014576",
-    "label": "Elemento verde de lamas",
+    "label": "Dos paneles verdes con bandas",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-028",
     "image": "gallery-esc-028",
     "thumb": "gallery-esc-028",
-    "alt": "Elemento verde de lamas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Dos paneles verdes con bandas",
+    "text": "Dos paneles verdes con bandas.",
     "gallery": [
       {
         "image": "gallery-esc-028",
         "thumb": "gallery-esc-028",
         "archiveId": "ARC-014576",
-        "alt": "Elemento verde de lamas. Fotografía 1",
+        "alt": "Dos paneles verdes con bandas. Vista 1",
         "sourceName": "_DSC7887.ARW",
         "contentKey": "ARC-014576"
       }
@@ -1784,21 +1784,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014577",
-    "label": "Dos formas en relieve blanco",
+    "label": "Relieve claro con elementos rectangulares",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves de textura",
     "chapter": "construir-formas",
     "reference": "ESC-029",
     "image": "gallery-esc-029",
     "thumb": "gallery-esc-029",
-    "alt": "Dos formas en relieve blanco",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve claro con elementos rectangulares",
+    "text": "Relieve claro con elementos rectangulares.",
     "gallery": [
       {
         "image": "gallery-esc-029",
         "thumb": "gallery-esc-029",
         "archiveId": "ARC-014577",
-        "alt": "Dos formas en relieve blanco. Fotografía 1",
+        "alt": "Relieve claro con elementos rectangulares. Vista 1",
         "sourceName": "_DSC7888.ARW",
         "contentKey": "ARC-014577"
       }
@@ -1806,21 +1806,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014578",
-    "label": "Gato sobre fondo rosa",
+    "label": "Relieve rosa con figuras y piezas superpuestas",
     "category": "escultura",
-    "series": "Relieves y ensamblajes",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-030",
     "image": "gallery-esc-030",
     "thumb": "gallery-esc-030",
-    "alt": "Gato sobre fondo rosa",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Relieve rosa con figuras y piezas superpuestas",
+    "text": "Relieve rosa con figuras y piezas superpuestas.",
     "gallery": [
       {
         "image": "gallery-esc-030",
         "thumb": "gallery-esc-030",
         "archiveId": "ARC-014578",
-        "alt": "Gato sobre fondo rosa. Fotografía 1",
+        "alt": "Relieve rosa con figuras y piezas superpuestas. Vista 1",
         "sourceName": "_DSC7889.ARW",
         "contentKey": "ARC-014578"
       }
@@ -1828,21 +1828,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008507",
-    "label": "Volumen de perfiles abiertos",
+    "label": "Plano abierto con curvas ascendentes",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-031",
     "image": "gallery-esc-031",
     "thumb": "gallery-esc-031",
-    "alt": "Volumen de perfiles abiertos",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Plano abierto con curvas ascendentes",
+    "text": "Plano abierto con curvas ascendentes.",
     "gallery": [
       {
         "image": "gallery-esc-031",
         "thumb": "gallery-esc-031",
         "archiveId": "ARC-008507",
-        "alt": "Volumen de perfiles abiertos. Fotografía 1",
+        "alt": "Plano abierto con curvas ascendentes. Vista 1",
         "sourceName": "DSCF0071.jpg",
         "contentKey": "ARC-008507"
       },
@@ -1850,7 +1850,7 @@ export const catalogue = [
         "image": "gallery-esc-031-view-2-horizontal",
         "thumb": "gallery-esc-031-view-2-horizontal",
         "archiveId": "ARC-008512",
-        "alt": "Volumen de perfiles abiertos. Fotografía 2",
+        "alt": "Plano abierto con curvas ascendentes. Vista 2",
         "sourceName": "DSCF0076.JPG",
         "contentKey": "ARC-008512"
       },
@@ -1858,7 +1858,7 @@ export const catalogue = [
         "image": "gallery-esc-031-view-3-horizontal",
         "thumb": "gallery-esc-031-view-3-horizontal",
         "archiveId": "ARC-007147",
-        "alt": "Volumen de perfiles abiertos. Fotografía 3",
+        "alt": "Plano abierto con curvas ascendentes. Vista 3",
         "sourceName": "20160529_193648.jpg",
         "contentKey": "5f8ec5399c679448d1a0c17951b3c9db869e9dc37316b0398f901f05d49b1505"
       }
@@ -1866,21 +1866,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008523",
-    "label": "Volumen de brazos curvos",
+    "label": "Plano curvo sobre peana",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-032",
     "image": "gallery-esc-032",
     "thumb": "gallery-esc-032",
-    "alt": "Volumen de brazos curvos",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Plano curvo sobre peana",
+    "text": "Plano curvo sobre peana.",
     "gallery": [
       {
         "image": "gallery-esc-032",
         "thumb": "gallery-esc-032",
         "archiveId": "ARC-008523",
-        "alt": "Volumen de brazos curvos. Fotografía 1",
+        "alt": "Plano curvo sobre peana. Vista 1",
         "sourceName": "P1010005.JPG",
         "contentKey": "bae2397f22739a78364687c9c9c250aa7ba39aca31e3532e868857f4dac23736"
       }
@@ -1888,21 +1888,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008525",
-    "label": "Forma envolvente",
+    "label": "Volumen envolvente con abertura",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-033",
     "image": "gallery-esc-033",
     "thumb": "gallery-esc-033",
-    "alt": "Forma envolvente",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen envolvente con abertura",
+    "text": "Volumen envolvente con abertura.",
     "gallery": [
       {
         "image": "gallery-esc-033",
         "thumb": "gallery-esc-033",
         "archiveId": "ARC-008525",
-        "alt": "Forma envolvente. Fotografía 1",
+        "alt": "Volumen envolvente con abertura. Vista 1",
         "sourceName": "P10100xa11A.jpg",
         "contentKey": "08124574b4db380809e0c73242bfe812956f97a105c000f5a20007fdf83c188b"
       }
@@ -1910,21 +1910,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008529",
-    "label": "Volumen de dos aberturas",
+    "label": "Plano curvo con lazo central",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-034",
     "image": "gallery-esc-034",
     "thumb": "gallery-esc-034",
-    "alt": "Volumen de dos aberturas",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Plano curvo con lazo central",
+    "text": "Plano curvo con lazo central.",
     "gallery": [
       {
         "image": "gallery-esc-034",
         "thumb": "gallery-esc-034",
         "archiveId": "ARC-008529",
-        "alt": "Volumen de dos aberturas. Fotografía 1",
+        "alt": "Plano curvo con lazo central. Vista 1",
         "sourceName": "PICT1036.JPG",
         "contentKey": "a4aca899de84b85528ba7c5c7aafbf7c3a85c9766225ffe5bb791593073114a1"
       },
@@ -1932,7 +1932,7 @@ export const catalogue = [
         "image": "gallery-esc-034-view-2-horizontal",
         "thumb": "gallery-esc-034-view-2-horizontal",
         "archiveId": "ARC-008531",
-        "alt": "Volumen de dos aberturas. Fotografía 2",
+        "alt": "Plano curvo con lazo central. Vista 2",
         "sourceName": "PICT1038.JPG",
         "contentKey": "0a1fd813ce55ed380423483979ed215ce918f0e7fc6aafb7e2cf01a35fa0e218"
       }
@@ -1940,21 +1940,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008532",
-    "label": "Planos enfrentados",
+    "label": "Plano abierto de contorno ovalado",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-035",
     "image": "gallery-esc-035",
     "thumb": "gallery-esc-035",
-    "alt": "Planos enfrentados",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Plano abierto de contorno ovalado",
+    "text": "Plano abierto de contorno ovalado.",
     "gallery": [
       {
         "image": "gallery-esc-035",
         "thumb": "gallery-esc-035",
         "archiveId": "ARC-008532",
-        "alt": "Planos enfrentados. Fotografía 1",
+        "alt": "Plano abierto de contorno ovalado. Vista 1",
         "sourceName": "PICT1039.JPG",
         "contentKey": "b8f5b0446a53d9947fed4ca5b83fbbc4dfef540c51a96cbb00e56e57a7c8fe37"
       },
@@ -1962,7 +1962,7 @@ export const catalogue = [
         "image": "gallery-esc-035-view-2-horizontal",
         "thumb": "gallery-esc-035-view-2-horizontal",
         "archiveId": "ARC-008534",
-        "alt": "Planos enfrentados. Fotografía 2",
+        "alt": "Plano abierto de contorno ovalado. Vista 2",
         "sourceName": "PICT1041.JPG",
         "contentKey": "62435a1e42debb29fcd82534d34479e9f979af935157ae4456c78bc6062e186c"
       }
@@ -1970,21 +1970,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008535",
-    "label": "Volumen con curva interior",
+    "label": "Volumen de curvas en espiral",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-036",
     "image": "gallery-esc-036",
     "thumb": "gallery-esc-036",
-    "alt": "Volumen con curva interior",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Volumen de curvas en espiral",
+    "text": "Volumen de curvas en espiral.",
     "gallery": [
       {
         "image": "gallery-esc-036",
         "thumb": "gallery-esc-036",
         "archiveId": "ARC-008535",
-        "alt": "Volumen con curva interior. Fotografía 1",
+        "alt": "Volumen de curvas en espiral. Vista 1",
         "sourceName": "PICT1042.JPG",
         "contentKey": "3181cce74b08da19c21119dca6070e28731208a894f1020458f20c4df68c3927"
       },
@@ -1992,7 +1992,7 @@ export const catalogue = [
         "image": "gallery-esc-036-view-2-horizontal",
         "thumb": "gallery-esc-036-view-2-horizontal",
         "archiveId": "ARC-008537",
-        "alt": "Volumen con curva interior. Fotografía 2",
+        "alt": "Volumen de curvas en espiral. Vista 2",
         "sourceName": "PICT1044.JPG",
         "contentKey": "334ad37c63c9d6a1536b5a554e2b79c49ebec2036c49d981a588762c0eaa86d9"
       }
@@ -2000,21 +2000,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008543",
-    "label": "Retícula y formas claras",
+    "label": "Retícula con elementos claros",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-037",
     "image": "gallery-esc-037",
     "thumb": "gallery-esc-037",
-    "alt": "Retícula y formas claras",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Retícula con elementos claros",
+    "text": "Retícula con elementos claros.",
     "gallery": [
       {
         "image": "gallery-esc-037",
         "thumb": "gallery-esc-037",
         "archiveId": "ARC-008543",
-        "alt": "Retícula y formas claras. Fotografía 1",
+        "alt": "Retícula con elementos claros. Vista 1",
         "sourceName": "PICT1050.JPG",
         "contentKey": "fdd485f533609a4c78ce19597ad737ca95dda85b1073adbbfaa9559f1420827b"
       },
@@ -2022,7 +2022,7 @@ export const catalogue = [
         "image": "gallery-esc-037-view-2-horizontal",
         "thumb": "gallery-esc-037-view-2-horizontal",
         "archiveId": "ARC-008544",
-        "alt": "Retícula y formas claras. Fotografía 2",
+        "alt": "Retícula con elementos claros. Vista 2",
         "sourceName": "PICT1051.JPG",
         "contentKey": "bf32781cbbe339118bceeca1c2d43e3a4ed491170d5b56b44f2c8ec31e2289e1"
       }
@@ -2030,21 +2030,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008768",
-    "label": "Materia encontrada sobre soporte",
+    "label": "Forma natural sobre soporte",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Formas orgánicas",
     "chapter": "construir-formas",
     "reference": "ESC-038",
     "image": "gallery-esc-038",
     "thumb": "gallery-esc-038",
-    "alt": "Materia encontrada sobre soporte",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Forma natural sobre soporte",
+    "text": "Forma natural sobre soporte.",
     "gallery": [
       {
         "image": "gallery-esc-038",
         "thumb": "gallery-esc-038",
         "archiveId": "ARC-008768",
-        "alt": "Materia encontrada sobre soporte. Fotografía 1",
+        "alt": "Forma natural sobre soporte. Vista 1",
         "sourceName": "DSC_2680.JPG",
         "contentKey": "4792f6c8386ae868f72f0ea3feee77de631e52b80fdfbb9b5d97360fa35efc37"
       },
@@ -2052,7 +2052,7 @@ export const catalogue = [
         "image": "gallery-esc-038-view-2-horizontal",
         "thumb": "gallery-esc-038-view-2-horizontal",
         "archiveId": "ARC-008777",
-        "alt": "Materia encontrada sobre soporte. Fotografía 2",
+        "alt": "Forma natural sobre soporte. Vista 2",
         "sourceName": "DSC_2725.JPG",
         "contentKey": "970f4d38a181c5ea18a77a6307c0472c0d6373306f7384a3b160ba1c8edcf6f7"
       }
@@ -2060,21 +2060,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008788",
-    "label": "Estructura vertical de brazos móviles",
+    "label": "Estructura vertical con barras y esferas",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-039",
     "image": "gallery-esc-039",
     "thumb": "gallery-esc-039",
-    "alt": "Estructura vertical de brazos móviles",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Estructura vertical con barras y esferas",
+    "text": "Estructura vertical con barras y esferas.",
     "gallery": [
       {
         "image": "gallery-esc-039",
         "thumb": "gallery-esc-039",
         "archiveId": "ARC-008788",
-        "alt": "Estructura vertical de brazos móviles. Fotografía 1",
+        "alt": "Estructura vertical con barras y esferas. Vista 1",
         "sourceName": "DSC_2852.JPG",
         "contentKey": "32c7cbd7cb26162712f67573e10a565da8712e90d7080e403d3a2c6f8d79c92a"
       },
@@ -2082,7 +2082,7 @@ export const catalogue = [
         "image": "gallery-esc-039-view-2-horizontal",
         "thumb": "gallery-esc-039-view-2-horizontal",
         "archiveId": "ARC-008792",
-        "alt": "Estructura vertical de brazos móviles. Fotografía 2",
+        "alt": "Estructura vertical con barras y esferas. Vista 2",
         "sourceName": "DSC_2872.JPG",
         "contentKey": "706a9da623616fdf1482888250e5c614519929d2a9cee94ef5f627ac33890520"
       },
@@ -2090,7 +2090,7 @@ export const catalogue = [
         "image": "gallery-esc-039-view-3-horizontal",
         "thumb": "gallery-esc-039-view-3-horizontal",
         "archiveId": "ARC-008803",
-        "alt": "Estructura vertical de brazos móviles. Fotografía 3",
+        "alt": "Estructura vertical con barras y esferas. Vista 3",
         "sourceName": "DSC_2907.JPG",
         "contentKey": "75af5e9452486159d894f8ba466b5dab063975c2fb4da11874e9dd5a866ca4cf"
       },
@@ -2098,7 +2098,7 @@ export const catalogue = [
         "image": "gallery-esc-039-view-4-horizontal",
         "thumb": "gallery-esc-039-view-4-horizontal",
         "archiveId": "ARC-008807",
-        "alt": "Estructura vertical de brazos móviles. Fotografía 4",
+        "alt": "Estructura vertical con barras y esferas. Vista 4",
         "sourceName": "DSC_2927.JPG",
         "contentKey": "f7eb3180a87c4a6dfa0f17aa51c9c2c566fe1073d9b4458e79806a254a2d01c8"
       }
@@ -2106,21 +2106,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008810",
-    "label": "Planos curvos sobre engranaje",
+    "label": "Planos curvos sobre rueda dentada",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-040",
     "image": "gallery-esc-040",
     "thumb": "gallery-esc-040",
-    "alt": "Planos curvos sobre engranaje",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Planos curvos sobre rueda dentada",
+    "text": "Planos curvos sobre rueda dentada.",
     "gallery": [
       {
         "image": "gallery-esc-040",
         "thumb": "gallery-esc-040",
         "archiveId": "ARC-008810",
-        "alt": "Planos curvos sobre engranaje. Fotografía 1",
+        "alt": "Planos curvos sobre rueda dentada. Vista 1",
         "sourceName": "DSC_2942.JPG",
         "contentKey": "ARC-008810"
       },
@@ -2128,7 +2128,7 @@ export const catalogue = [
         "image": "gallery-esc-040-view-2-horizontal",
         "thumb": "gallery-esc-040-view-2-horizontal",
         "archiveId": "ARC-008812",
-        "alt": "Planos curvos sobre engranaje. Fotografía 2",
+        "alt": "Planos curvos sobre rueda dentada. Vista 2",
         "sourceName": "DSC_2952.JPG",
         "contentKey": "ARC-008812"
       },
@@ -2136,7 +2136,7 @@ export const catalogue = [
         "image": "gallery-esc-040-view-3-horizontal",
         "thumb": "gallery-esc-040-view-3-horizontal",
         "archiveId": "ARC-008814",
-        "alt": "Planos curvos sobre engranaje. Fotografía 3",
+        "alt": "Planos curvos sobre rueda dentada. Vista 3",
         "sourceName": "DSC_2965.JPG",
         "contentKey": "ARC-008814"
       }
@@ -2146,19 +2146,19 @@ export const catalogue = [
     "id": "escultura-008816",
     "label": "Dos estructuras de espirales",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-041",
     "image": "gallery-esc-041",
     "thumb": "gallery-esc-041",
     "alt": "Dos estructuras de espirales",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "text": "Dos estructuras de espirales.",
     "gallery": [
       {
         "image": "gallery-esc-041",
         "thumb": "gallery-esc-041",
         "archiveId": "ARC-008826",
-        "alt": "Dos estructuras de espirales. Fotografía 1",
+        "alt": "Dos estructuras de espirales. Vista 1",
         "sourceName": "DSC_3029.JPG",
         "contentKey": "ARC-008826"
       },
@@ -2166,7 +2166,7 @@ export const catalogue = [
         "image": "gallery-esc-041-view-2-horizontal",
         "thumb": "gallery-esc-041-view-2-horizontal",
         "archiveId": "ARC-008816",
-        "alt": "Dos estructuras de espirales. Fotografía 2",
+        "alt": "Dos estructuras de espirales. Vista 2",
         "sourceName": "DSC_2981.JPG",
         "contentKey": "c8ed0d91f29ddb8c9f023c1d8e1c2afb6e8142dc9ef6f37c6cae2e2da8ad9bb9"
       },
@@ -2174,37 +2174,29 @@ export const catalogue = [
         "image": "gallery-esc-041-view-3-horizontal",
         "thumb": "gallery-esc-041-view-3-horizontal",
         "archiveId": "ARC-008825",
-        "alt": "Dos estructuras de espirales. Fotografía 3",
+        "alt": "Dos estructuras de espirales. Vista 3",
         "sourceName": "DSC_3017.JPG",
         "contentKey": "ARC-008825"
-      },
-      {
-        "image": "gallery-esc-041-view-4-horizontal",
-        "thumb": "gallery-esc-041-view-4-horizontal",
-        "archiveId": "ARC-008829",
-        "alt": "Dos estructuras de espirales. Fotografía 4",
-        "sourceName": "DSC_3049.JPG",
-        "contentKey": "ARC-008829"
       }
     ]
   },
   {
     "id": "escultura-008907",
-    "label": "Herramienta sobre un cilindro",
+    "label": "Ensamblaje con herramienta y cadena",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-042",
     "image": "gallery-esc-042",
     "thumb": "gallery-esc-042",
-    "alt": "Herramienta sobre un cilindro",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Ensamblaje con herramienta y cadena",
+    "text": "Ensamblaje con herramienta y cadena.",
     "gallery": [
       {
         "image": "gallery-esc-042",
         "thumb": "gallery-esc-042",
         "archiveId": "ARC-008907",
-        "alt": "Herramienta sobre un cilindro. Fotografía 1",
+        "alt": "Ensamblaje con herramienta y cadena. Vista 1",
         "sourceName": "DSC04224.JPG",
         "contentKey": "ARC-008907"
       },
@@ -2212,7 +2204,7 @@ export const catalogue = [
         "image": "gallery-esc-042-view-2-horizontal",
         "thumb": "gallery-esc-042-view-2-horizontal",
         "archiveId": "ARC-008909",
-        "alt": "Herramienta sobre un cilindro. Fotografía 2",
+        "alt": "Ensamblaje con herramienta y cadena. Vista 2",
         "sourceName": "DSC04226.JPG",
         "contentKey": "ARC-008909"
       }
@@ -2220,21 +2212,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-011828",
-    "label": "Flores de engranajes",
+    "label": "Estructura con espiral y ruedas dentadas",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-043",
     "image": "gallery-esc-043",
     "thumb": "gallery-esc-043",
-    "alt": "Flores de engranajes",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Estructura con espiral y ruedas dentadas",
+    "text": "Estructura con espiral y ruedas dentadas.",
     "gallery": [
       {
         "image": "gallery-esc-043",
         "thumb": "gallery-esc-043",
         "archiveId": "ARC-011828",
-        "alt": "Flores de engranajes. Fotografía 1",
+        "alt": "Estructura con espiral y ruedas dentadas. Vista 1",
         "sourceName": "DSC04190.jpg",
         "contentKey": "ARC-011828"
       },
@@ -2242,7 +2234,7 @@ export const catalogue = [
         "image": "gallery-esc-043-view-2-horizontal",
         "thumb": "gallery-esc-043-view-2-horizontal",
         "archiveId": "ARC-011832",
-        "alt": "Flores de engranajes. Fotografía 2",
+        "alt": "Estructura con espiral y ruedas dentadas. Vista 2",
         "sourceName": "DSC04194.jpg",
         "contentKey": "ARC-011832"
       },
@@ -2250,7 +2242,7 @@ export const catalogue = [
         "image": "gallery-esc-043-view-3-horizontal",
         "thumb": "gallery-esc-043-view-3-horizontal",
         "archiveId": "ARC-011834",
-        "alt": "Flores de engranajes. Fotografía 3",
+        "alt": "Estructura con espiral y ruedas dentadas. Vista 3",
         "sourceName": "DSC04196.JPG",
         "contentKey": "ARC-011834"
       },
@@ -2258,7 +2250,7 @@ export const catalogue = [
         "image": "gallery-esc-043-view-4-horizontal",
         "thumb": "gallery-esc-043-view-4-horizontal",
         "archiveId": "ARC-011838",
-        "alt": "Flores de engranajes. Fotografía 4",
+        "alt": "Estructura con espiral y ruedas dentadas. Vista 4",
         "sourceName": "DSC04200.jpg",
         "contentKey": "ARC-011838"
       }
@@ -2266,21 +2258,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-007134",
-    "label": "Dos planos de perfil ascendente",
+    "label": "Dos planos curvos ascendentes",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-044",
     "image": "gallery-esc-044",
     "thumb": "gallery-esc-044",
-    "alt": "Dos planos de perfil ascendente",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Dos planos curvos ascendentes",
+    "text": "Dos planos curvos ascendentes.",
     "gallery": [
       {
         "image": "gallery-esc-044",
         "thumb": "gallery-esc-044",
         "archiveId": "ARC-007134",
-        "alt": "Dos planos de perfil ascendente. Fotografía 1",
+        "alt": "Dos planos curvos ascendentes. Vista 1",
         "sourceName": "20160529_193038.jpg",
         "contentKey": "f84a223a6da4d5c7d21a3aa6b73cb426281ca2615e184382729f0616cf853c56"
       },
@@ -2288,7 +2280,7 @@ export const catalogue = [
         "image": "gallery-esc-044-view-2-horizontal",
         "thumb": "gallery-esc-044-view-2-horizontal",
         "archiveId": "ARC-007137",
-        "alt": "Dos planos de perfil ascendente. Fotografía 2",
+        "alt": "Dos planos curvos ascendentes. Vista 2",
         "sourceName": "20160529_193228.jpg",
         "contentKey": "7e89f9810fbf7c5333acac03b8497618f7706eb49fa2cf12680ccf2a0c08056c"
       },
@@ -2296,7 +2288,7 @@ export const catalogue = [
         "image": "gallery-esc-044-view-3-horizontal",
         "thumb": "gallery-esc-044-view-3-horizontal",
         "archiveId": "ARC-007141",
-        "alt": "Dos planos de perfil ascendente. Fotografía 3",
+        "alt": "Dos planos curvos ascendentes. Vista 3",
         "sourceName": "20160529_193339.jpg",
         "contentKey": "8db4323e20a94650c5f803f12b794ad8bd4a56442bd77bb5d820eaa04cbc7b6f"
       }
@@ -2304,21 +2296,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-007158",
-    "label": "Elementos claros sobre un eje",
+    "label": "Eje vertical con elementos superpuestos",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-045",
     "image": "gallery-esc-045",
     "thumb": "gallery-esc-045",
-    "alt": "Elementos claros sobre un eje",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "alt": "Eje vertical con elementos superpuestos",
+    "text": "Eje vertical con elementos superpuestos.",
     "gallery": [
       {
         "image": "gallery-esc-045",
         "thumb": "gallery-esc-045",
         "archiveId": "ARC-007158",
-        "alt": "Elementos claros sobre un eje. Fotografía 1",
+        "alt": "Eje vertical con elementos superpuestos. Vista 1",
         "sourceName": "20160529_194010.jpg",
         "contentKey": "81fd5243d3459118bf4cd3342e2e4f6171856aa65ce4afa701c45868dbc18dcd"
       },
@@ -2326,7 +2318,7 @@ export const catalogue = [
         "image": "gallery-esc-045-view-2-horizontal",
         "thumb": "gallery-esc-045-view-2-horizontal",
         "archiveId": "ARC-007161",
-        "alt": "Elementos claros sobre un eje. Fotografía 2",
+        "alt": "Eje vertical con elementos superpuestos. Vista 2",
         "sourceName": "20160529_194049.jpg",
         "contentKey": "4bc76ac7c0ce8605a9c4e9b91f0b56471ce3ae99bf8bbb80ab4664a18b28255e"
       }
@@ -2336,19 +2328,19 @@ export const catalogue = [
     "id": "escultura-008728",
     "label": "Ensamblaje rosa con círculo oscuro",
     "category": "escultura",
-    "series": "Archivo de escultura",
+    "series": "Relieves y ensamblajes murales",
     "chapter": "construir-formas",
     "reference": "ESC-046",
     "image": "gallery-esc-046",
     "thumb": "gallery-esc-046",
     "alt": "Ensamblaje rosa con círculo oscuro",
-    "text": "Una exploración del volumen, la superficie y el espacio. Las vistas reunidas en esta ficha permiten recorrer la misma pieza.",
+    "text": "Ensamblaje rosa con círculo oscuro.",
     "gallery": [
       {
         "image": "gallery-esc-046",
         "thumb": "gallery-esc-046",
         "archiveId": "ARC-007757",
-        "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 1",
+        "alt": "Ensamblaje rosa con círculo oscuro. Vista 1",
         "sourceName": "DSC04018.JPG",
         "contentKey": "7c70a07c25cdbfd786901a594b7c914ef76f748384785671b4c042085078b447"
       },
@@ -2356,7 +2348,7 @@ export const catalogue = [
         "image": "gallery-esc-046-view-2-horizontal",
         "thumb": "gallery-esc-046-view-2-horizontal",
         "archiveId": "ARC-008731",
-        "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 2",
+        "alt": "Ensamblaje rosa con círculo oscuro. Vista 2",
         "sourceName": "20160131_094014.jpg",
         "contentKey": "ARC-008731"
       },
@@ -2364,7 +2356,7 @@ export const catalogue = [
         "image": "gallery-esc-046-view-3-horizontal",
         "thumb": "gallery-esc-046-view-3-horizontal",
         "archiveId": "ARC-008738",
-        "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 3",
+        "alt": "Ensamblaje rosa con círculo oscuro. Vista 3",
         "sourceName": "20160131_094301.jpg",
         "contentKey": "3eeb12506ceb378dc833df887994082ecc20efb21a6aa38891d72b6bd338ced4"
       },
@@ -2372,9 +2364,11 @@ export const catalogue = [
         "image": "gallery-esc-046-view-4-horizontal",
         "thumb": "gallery-esc-046-view-4-horizontal",
         "archiveId": "ARC-008831",
-        "alt": "Ensamblaje rosa con círculo oscuro. Fotografía 4",
+        "alt": "Ensamblaje rosa con círculo oscuro. Variante con abertura circular",
         "sourceName": "DSC_3137.JPG",
-        "contentKey": "ARC-008831"
+        "contentKey": "ARC-008831",
+        "galleryGroup": "Variante con abertura circular",
+        "attribution": "Configuración documentada con el centro abierto."
       }
     ]
   },
@@ -2382,7 +2376,7 @@ export const catalogue = [
     "id": "dibujo-015079",
     "label": "Signos rojos en recorrido",
     "category": "dibujo",
-    "series": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
     "chapter": "construir-formas",
     "reference": "DIB-001",
     "image": "arc-015079",
@@ -2720,7 +2714,7 @@ export const catalogue = [
     "id": "dibujo-015094",
     "label": "Pequeña composición de símbolos",
     "category": "dibujo",
-    "series": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
     "chapter": "construir-formas",
     "reference": "DIB-016",
     "image": "arc-015094",
@@ -2742,7 +2736,7 @@ export const catalogue = [
     "id": "dibujo-015095",
     "label": "Pequeña composición enmarcada",
     "category": "dibujo",
-    "series": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
     "chapter": "construir-formas",
     "reference": "DIB-017",
     "image": "arc-015095",
@@ -3122,7 +3116,7 @@ export const catalogue = [
     "id": "dibujo-015185",
     "label": "Símbolos sobre fondo amarillo",
     "category": "dibujo",
-    "series": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
     "chapter": "construir-formas",
     "reference": "DIB-031",
     "image": "arc-015185",
@@ -3144,7 +3138,7 @@ export const catalogue = [
     "id": "dibujo-015186",
     "label": "Figura con forma de sol",
     "category": "dibujo",
-    "series": "Dibujo y espacio",
+    "series": "Figuras y símbolos",
     "chapter": "construir-formas",
     "reference": "DIB-032",
     "image": "arc-015186",
@@ -3278,13 +3272,13 @@ export const catalogue = [
     "image": "pin-001-estudio-v3",
     "thumb": "pin-001-estudio-v3",
     "alt": "Arca en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca en composición circular.",
     "gallery": [
       {
         "image": "pin-001-estudio-v3",
         "thumb": "pin-001-estudio-v3",
         "archiveId": "ARC-015106",
-        "alt": "Arca en composición circular. Fotografía 1",
+        "alt": "Arca en composición circular. Vista 1",
         "sourceName": "_DSC3514.ARW",
         "contentKey": "ARC-015106"
       }
@@ -3300,13 +3294,13 @@ export const catalogue = [
     "image": "pin-002-estudio-v3",
     "thumb": "pin-002-estudio-v3",
     "alt": "Sol en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Sol en composición circular.",
     "gallery": [
       {
         "image": "pin-002-estudio-v3",
         "thumb": "pin-002-estudio-v3",
         "archiveId": "ARC-015107",
-        "alt": "Sol en composición circular. Fotografía 1",
+        "alt": "Sol en composición circular. Vista 1",
         "sourceName": "_DSC3515.ARW",
         "contentKey": "ARC-015107"
       }
@@ -3322,13 +3316,13 @@ export const catalogue = [
     "image": "pin-003-estudio-v3",
     "thumb": "pin-003-estudio-v3",
     "alt": "Arca sobre fondo oscuro",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca sobre fondo oscuro.",
     "gallery": [
       {
         "image": "pin-003-estudio-v3",
         "thumb": "pin-003-estudio-v3",
         "archiveId": "ARC-015108",
-        "alt": "Arca sobre fondo oscuro. Fotografía 1",
+        "alt": "Arca sobre fondo oscuro. Vista 1",
         "sourceName": "_DSC3516.ARW",
         "contentKey": "3577c23d67ae344a8e0337e215e72d8782dc542338a1e04624c62b017bcceefe"
       }
@@ -3344,13 +3338,13 @@ export const catalogue = [
     "image": "pin-004-estudio-v3",
     "thumb": "pin-004-estudio-v3",
     "alt": "Ojo en composición circular",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Ojo en composición circular.",
     "gallery": [
       {
         "image": "pin-004-estudio-v3",
         "thumb": "pin-004-estudio-v3",
         "archiveId": "ARC-015109",
-        "alt": "Ojo en composición circular. Fotografía 1",
+        "alt": "Ojo en composición circular. Vista 1",
         "sourceName": "_DSC3517.ARW",
         "contentKey": "ARC-015109"
       }
@@ -3366,13 +3360,13 @@ export const catalogue = [
     "image": "pin-005-estudio-v3",
     "thumb": "pin-005-estudio-v3",
     "alt": "Arca y cielo claro",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca y cielo claro.",
     "gallery": [
       {
         "image": "pin-005-estudio-v3",
         "thumb": "pin-005-estudio-v3",
         "archiveId": "ARC-015110",
-        "alt": "Arca y cielo claro. Fotografía 1",
+        "alt": "Arca y cielo claro. Vista 1",
         "sourceName": "_DSC3519.ARW",
         "contentKey": "ARC-015110"
       }
@@ -3388,13 +3382,13 @@ export const catalogue = [
     "image": "pin-006-estudio-v3",
     "thumb": "pin-006-estudio-v3",
     "alt": "Símbolos en círculo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Símbolos en círculo.",
     "gallery": [
       {
         "image": "pin-006-estudio-v3",
         "thumb": "pin-006-estudio-v3",
         "archiveId": "ARC-015111",
-        "alt": "Símbolos en círculo. Fotografía 1",
+        "alt": "Símbolos en círculo. Vista 1",
         "sourceName": "_DSC3520.ARW",
         "contentKey": "ARC-015111"
       }
@@ -3410,13 +3404,13 @@ export const catalogue = [
     "image": "pin-007-estudio-v3",
     "thumb": "pin-007-estudio-v3",
     "alt": "Arca sobre fondo azul",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca sobre fondo azul.",
     "gallery": [
       {
         "image": "pin-007-estudio-v3",
         "thumb": "pin-007-estudio-v3",
         "archiveId": "ARC-015112",
-        "alt": "Arca sobre fondo azul. Fotografía 1",
+        "alt": "Arca sobre fondo azul. Vista 1",
         "sourceName": "_DSC3521.ARW",
         "contentKey": "ARC-015112"
       }
@@ -3432,13 +3426,13 @@ export const catalogue = [
     "image": "pin-008-estudio-v3",
     "thumb": "pin-008-estudio-v3",
     "alt": "Arca y formas azules",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca y formas azules.",
     "gallery": [
       {
         "image": "pin-008-estudio-v3",
         "thumb": "pin-008-estudio-v3",
         "archiveId": "ARC-015113",
-        "alt": "Arca y formas azules. Fotografía 1",
+        "alt": "Arca y formas azules. Vista 1",
         "sourceName": "_DSC3523.ARW",
         "contentKey": "ARC-015113"
       }
@@ -3446,21 +3440,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015114",
-    "label": "Arca, luna y sol",
+    "label": "Composición circular con sol y montañas",
     "category": "pintura",
-    "series": "Arcas",
+    "series": "Figuras y símbolos",
     "chapter": "pintar-mundos",
     "reference": "PIN-009",
     "image": "pin-009-estudio-v3",
     "thumb": "pin-009-estudio-v3",
-    "alt": "Arca, luna y sol",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "alt": "Composición circular con sol y montañas",
+    "text": "Composición circular con sol y montañas.",
     "gallery": [
       {
         "image": "pin-009-estudio-v3",
         "thumb": "pin-009-estudio-v3",
         "archiveId": "ARC-015114",
-        "alt": "Arca, luna y sol. Fotografía 1",
+        "alt": "Composición circular con sol y montañas. Vista 1",
         "sourceName": "_DSC3525.ARW",
         "contentKey": "ARC-015114"
       }
@@ -3476,13 +3470,13 @@ export const catalogue = [
     "image": "pin-010-estudio-v3",
     "thumb": "pin-010-estudio-v3",
     "alt": "Árbol en círculo violeta",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Árbol en círculo violeta.",
     "gallery": [
       {
         "image": "pin-010-estudio-v3",
         "thumb": "pin-010-estudio-v3",
         "archiveId": "ARC-015115",
-        "alt": "Árbol en círculo violeta. Fotografía 1",
+        "alt": "Árbol en círculo violeta. Vista 1",
         "sourceName": "_DSC3528.ARW",
         "contentKey": "9b590d0d16263ae01fb85829f8d70612497fb9761db28291c907e27f2e523f9a"
       }
@@ -3498,13 +3492,13 @@ export const catalogue = [
     "image": "pin-011-estudio-v3",
     "thumb": "pin-011-estudio-v3",
     "alt": "Arca sobre aguas rosas",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca sobre aguas rosas.",
     "gallery": [
       {
         "image": "pin-011-estudio-v3",
         "thumb": "pin-011-estudio-v3",
         "archiveId": "ARC-015118",
-        "alt": "Arca sobre aguas rosas. Fotografía 1",
+        "alt": "Arca sobre aguas rosas. Vista 1",
         "sourceName": "_DSC3531.ARW",
         "contentKey": "ARC-015118"
       }
@@ -3520,13 +3514,13 @@ export const catalogue = [
     "image": "pin-012-estudio-v3",
     "thumb": "pin-012-estudio-v3",
     "alt": "Círculo naranja de figuras",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Círculo naranja de figuras.",
     "gallery": [
       {
         "image": "pin-012-estudio-v3",
         "thumb": "pin-012-estudio-v3",
         "archiveId": "ARC-015119",
-        "alt": "Círculo naranja de figuras. Fotografía 1",
+        "alt": "Círculo naranja de figuras. Vista 1",
         "sourceName": "_DSC3532.ARW",
         "contentKey": "ARC-015119"
       }
@@ -3542,13 +3536,13 @@ export const catalogue = [
     "image": "pin-013-estudio-v3",
     "thumb": "pin-013-estudio-v3",
     "alt": "Figuras enlazadas en rosa",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Figuras enlazadas en rosa.",
     "gallery": [
       {
         "image": "pin-013-estudio-v3",
         "thumb": "pin-013-estudio-v3",
         "archiveId": "ARC-015120",
-        "alt": "Figuras enlazadas en rosa. Fotografía 1",
+        "alt": "Figuras enlazadas en rosa. Vista 1",
         "sourceName": "_DSC3534.ARW",
         "contentKey": "ARC-015120"
       }
@@ -3564,13 +3558,13 @@ export const catalogue = [
     "image": "pin-014-estudio-v3",
     "thumb": "pin-014-estudio-v3",
     "alt": "Arca entre el sol y la luna",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca entre el sol y la luna.",
     "gallery": [
       {
         "image": "pin-014-estudio-v3",
         "thumb": "pin-014-estudio-v3",
         "archiveId": "ARC-015122",
-        "alt": "Arca entre el sol y la luna. Fotografía 1",
+        "alt": "Arca entre el sol y la luna. Vista 1",
         "sourceName": "_DSC3536.ARW",
         "contentKey": "e03af5150376f9990f4c8e25230e27655dc8ca3ff06638debe0d672146345972"
       }
@@ -3580,19 +3574,19 @@ export const catalogue = [
     "id": "pintura-015123",
     "label": "Rostro sobre fondo amarillo",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-015",
     "image": "pin-015-estudio-v3",
     "thumb": "pin-015-estudio-v3",
     "alt": "Rostro sobre fondo amarillo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Rostro sobre fondo amarillo.",
     "gallery": [
       {
         "image": "pin-015-estudio-v3",
         "thumb": "pin-015-estudio-v3",
         "archiveId": "ARC-015123",
-        "alt": "Rostro sobre fondo amarillo. Fotografía 1",
+        "alt": "Rostro sobre fondo amarillo. Vista 1",
         "sourceName": "_DSC3537.ARW",
         "contentKey": "ARC-015123"
       }
@@ -3600,21 +3594,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015124",
-    "label": "Figuras felinas sobre fondo amarillo",
+    "label": "Rostro coronado sobre fondo dorado",
     "category": "pintura",
-    "series": "Gatos",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-016",
     "image": "pin-016-estudio-v3",
     "thumb": "pin-016-estudio-v3",
-    "alt": "Figuras felinas sobre fondo amarillo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "alt": "Rostro coronado sobre fondo dorado",
+    "text": "Rostro coronado sobre fondo dorado.",
     "gallery": [
       {
         "image": "pin-016-estudio-v3",
         "thumb": "pin-016-estudio-v3",
         "archiveId": "ARC-015124",
-        "alt": "Figuras felinas sobre fondo amarillo. Fotografía 1",
+        "alt": "Rostro coronado sobre fondo dorado. Vista 1",
         "sourceName": "_DSC3538.ARW",
         "contentKey": "ARC-015124"
       }
@@ -3630,13 +3624,13 @@ export const catalogue = [
     "image": "pin-017-estudio-v3",
     "thumb": "pin-017-estudio-v3",
     "alt": "Figuras sobre fondo violeta",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Figuras sobre fondo violeta.",
     "gallery": [
       {
         "image": "pin-017-estudio-v3",
         "thumb": "pin-017-estudio-v3",
         "archiveId": "ARC-015125",
-        "alt": "Figuras sobre fondo violeta. Fotografía 1",
+        "alt": "Figuras sobre fondo violeta. Vista 1",
         "sourceName": "_DSC3539.ARW",
         "contentKey": "ARC-015125"
       }
@@ -3646,19 +3640,19 @@ export const catalogue = [
     "id": "pintura-015126",
     "label": "Dos rostros y vegetación",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-018",
     "image": "pin-018-estudio-v3",
     "thumb": "pin-018-estudio-v3",
     "alt": "Dos rostros y vegetación",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Dos rostros y vegetación.",
     "gallery": [
       {
         "image": "pin-018-estudio-v3",
         "thumb": "pin-018-estudio-v3",
         "archiveId": "ARC-015126",
-        "alt": "Dos rostros y vegetación. Fotografía 1",
+        "alt": "Dos rostros y vegetación. Vista 1",
         "sourceName": "_DSC3540.ARW",
         "contentKey": "ARC-015126"
       }
@@ -3666,21 +3660,21 @@ export const catalogue = [
   },
   {
     "id": "gato",
-    "label": "Figura de gato",
+    "label": "Rostro junto a un gato violeta",
     "category": "pintura",
     "series": "Gatos",
     "chapter": "pintar-mundos",
     "reference": "PIN-019",
     "image": "pin-019-estudio-v3",
     "thumb": "pin-019-estudio-v3",
-    "alt": "Figura de gato",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "alt": "Rostro junto a un gato violeta",
+    "text": "Rostro junto a un gato violeta.",
     "gallery": [
       {
         "image": "pin-019-estudio-v3",
         "thumb": "pin-019-estudio-v3",
         "archiveId": "ARC-015127",
-        "alt": "Figura de gato. Fotografía 1",
+        "alt": "Rostro junto a un gato violeta. Vista 1",
         "sourceName": "_DSC3541.ARW",
         "contentKey": "ARC-015127"
       }
@@ -3696,13 +3690,13 @@ export const catalogue = [
     "image": "pin-020-estudio-v3",
     "thumb": "pin-020-estudio-v3",
     "alt": "Cabeza de toro de perfiles claros",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Cabeza de toro de perfiles claros.",
     "gallery": [
       {
         "image": "pin-020-estudio-v3",
         "thumb": "pin-020-estudio-v3",
         "archiveId": "ARC-015128",
-        "alt": "Cabeza de toro de perfiles claros. Fotografía 1",
+        "alt": "Cabeza de toro de perfiles claros. Vista 1",
         "sourceName": "_DSC3542.ARW",
         "contentKey": "ARC-015128"
       }
@@ -3718,13 +3712,13 @@ export const catalogue = [
     "image": "pin-021-estudio-v3",
     "thumb": "pin-021-estudio-v3",
     "alt": "Cabeza de toro naranja",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Cabeza de toro naranja.",
     "gallery": [
       {
         "image": "pin-021-estudio-v3",
         "thumb": "pin-021-estudio-v3",
         "archiveId": "ARC-015129",
-        "alt": "Cabeza de toro naranja. Fotografía 1",
+        "alt": "Cabeza de toro naranja. Vista 1",
         "sourceName": "_DSC3543.ARW",
         "contentKey": "c3fc422afe6361887432a64f781e878cc2e0ea0a6e2f100c821f9e9201bbda99"
       }
@@ -3740,13 +3734,13 @@ export const catalogue = [
     "image": "pin-022-estudio-v3",
     "thumb": "pin-022-estudio-v3",
     "alt": "Cabeza de toro de perfil",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Cabeza de toro de perfil.",
     "gallery": [
       {
         "image": "pin-022-estudio-v3",
         "thumb": "pin-022-estudio-v3",
         "archiveId": "ARC-015130",
-        "alt": "Cabeza de toro de perfil. Fotografía 1",
+        "alt": "Cabeza de toro de perfil. Vista 1",
         "sourceName": "_DSC3544.ARW",
         "contentKey": "ARC-015130"
       }
@@ -3762,13 +3756,13 @@ export const catalogue = [
     "image": "pin-023-estudio-v3",
     "thumb": "pin-023-estudio-v3",
     "alt": "Gato de cuerpo violeta",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Gato de cuerpo violeta.",
     "gallery": [
       {
         "image": "pin-023-estudio-v3",
         "thumb": "pin-023-estudio-v3",
         "archiveId": "ARC-015131",
-        "alt": "Gato de cuerpo violeta. Fotografía 1",
+        "alt": "Gato de cuerpo violeta. Vista 1",
         "sourceName": "_DSC3545.ARW",
         "contentKey": "b076bac14c0b269c7921f184e3ade40e17823562e6ba48c2265082f2ff3e9ce6"
       }
@@ -3784,13 +3778,13 @@ export const catalogue = [
     "image": "pin-024-estudio-v3",
     "thumb": "pin-024-estudio-v3",
     "alt": "Forma trilobulada",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Forma trilobulada.",
     "gallery": [
       {
         "image": "pin-024-estudio-v3",
         "thumb": "pin-024-estudio-v3",
         "archiveId": "ARC-015132",
-        "alt": "Forma trilobulada. Fotografía 1",
+        "alt": "Forma trilobulada. Vista 1",
         "sourceName": "_DSC3546.ARW",
         "contentKey": "ARC-015132"
       }
@@ -3806,13 +3800,13 @@ export const catalogue = [
     "image": "pin-025-estudio-v3",
     "thumb": "pin-025-estudio-v3",
     "alt": "Figura azul de perfil",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Figura azul de perfil.",
     "gallery": [
       {
         "image": "pin-025-estudio-v3",
         "thumb": "pin-025-estudio-v3",
         "archiveId": "ARC-015133",
-        "alt": "Figura azul de perfil. Fotografía 1",
+        "alt": "Figura azul de perfil. Vista 1",
         "sourceName": "_DSC3547.ARW",
         "contentKey": "ARC-015133"
       }
@@ -3820,21 +3814,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015134",
-    "label": "Dos figuras en naranja y violeta",
+    "label": "Tres figuras con abanicos",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Tauromaquia",
     "chapter": "pintar-mundos",
     "reference": "PIN-026",
     "image": "pin-026-estudio-v3",
     "thumb": "pin-026-estudio-v3",
-    "alt": "Dos figuras en naranja y violeta",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "alt": "Tres figuras con abanicos",
+    "text": "Tres figuras con abanicos.",
     "gallery": [
       {
         "image": "pin-026-estudio-v3",
         "thumb": "pin-026-estudio-v3",
         "archiveId": "ARC-015134",
-        "alt": "Dos figuras en naranja y violeta. Fotografía 1",
+        "alt": "Tres figuras con abanicos. Vista 1",
         "sourceName": "_DSC3548.ARW",
         "contentKey": "ARC-015134"
       }
@@ -3844,19 +3838,19 @@ export const catalogue = [
     "id": "pintura-015135",
     "label": "Rostro de líneas cálidas",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-027",
     "image": "pin-027-estudio-v3",
     "thumb": "pin-027-estudio-v3",
     "alt": "Rostro de líneas cálidas",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Rostro de líneas cálidas.",
     "gallery": [
       {
         "image": "pin-027-estudio-v3",
         "thumb": "pin-027-estudio-v3",
         "archiveId": "ARC-015135",
-        "alt": "Rostro de líneas cálidas. Fotografía 1",
+        "alt": "Rostro de líneas cálidas. Vista 1",
         "sourceName": "_DSC3549.ARW",
         "contentKey": "b38eaf5fc3f838bece1d9a6fba2b62662aea401333bc2b6ddade318333195d78"
       }
@@ -3866,19 +3860,19 @@ export const catalogue = [
     "id": "pintura-015136",
     "label": "Rostro y formas circulares",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-028",
     "image": "pin-028-estudio-v3",
     "thumb": "pin-028-estudio-v3",
     "alt": "Rostro y formas circulares",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Rostro y formas circulares.",
     "gallery": [
       {
         "image": "pin-028-estudio-v3",
         "thumb": "pin-028-estudio-v3",
         "archiveId": "ARC-015136",
-        "alt": "Rostro y formas circulares. Fotografía 1",
+        "alt": "Rostro y formas circulares. Vista 1",
         "sourceName": "_DSC3550.ARW",
         "contentKey": "1cfbbba2944098fa7ceaf87d9e3bb20cc48a07248fcc6cef87bc7f133f3fa58d"
       }
@@ -3888,19 +3882,19 @@ export const catalogue = [
     "id": "pintura-015137",
     "label": "Perfil dorado",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Figuras y símbolos",
     "chapter": "pintar-mundos",
     "reference": "PIN-029",
     "image": "pin-029-estudio-v3",
     "thumb": "pin-029-estudio-v3",
     "alt": "Perfil dorado",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Perfil dorado.",
     "gallery": [
       {
         "image": "pin-029-estudio-v3",
         "thumb": "pin-029-estudio-v3",
         "archiveId": "ARC-015137",
-        "alt": "Perfil dorado. Fotografía 1",
+        "alt": "Perfil dorado. Vista 1",
         "sourceName": "_DSC3551.ARW",
         "contentKey": "ARC-015137"
       }
@@ -3916,13 +3910,13 @@ export const catalogue = [
     "image": "pin-030-estudio-v3",
     "thumb": "pin-030-estudio-v3",
     "alt": "Figuras en formato alargado",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Figuras en formato alargado.",
     "gallery": [
       {
         "image": "pin-030-estudio-v3",
         "thumb": "pin-030-estudio-v3",
         "archiveId": "ARC-015138",
-        "alt": "Figuras en formato alargado. Fotografía 1",
+        "alt": "Figuras en formato alargado. Vista 1",
         "sourceName": "_DSC3552.ARW",
         "contentKey": "cfe807c7f8337c676b7affc59fef6b50fe6658711ab721c59784c7c307be05ee"
       }
@@ -3932,19 +3926,19 @@ export const catalogue = [
     "id": "pintura-015139",
     "label": "Rostro naranja y mano azul",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-031",
     "image": "pin-031-estudio-v3",
     "thumb": "pin-031-estudio-v3",
     "alt": "Rostro naranja y mano azul",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Rostro naranja y mano azul.",
     "gallery": [
       {
         "image": "pin-031-estudio-v3",
         "thumb": "pin-031-estudio-v3",
         "archiveId": "ARC-015139",
-        "alt": "Rostro naranja y mano azul. Fotografía 1",
+        "alt": "Rostro naranja y mano azul. Vista 1",
         "sourceName": "_DSC3553.ARW",
         "contentKey": "ARC-015139"
       }
@@ -3952,21 +3946,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015141",
-    "label": "Dos figuras de cuerpo verde",
+    "label": "Dos personajes vestidos de verde",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-032",
     "image": "pin-032-estudio-v3",
     "thumb": "pin-032-estudio-v3",
-    "alt": "Dos figuras de cuerpo verde",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "alt": "Dos personajes vestidos de verde",
+    "text": "Dos personajes vestidos de verde.",
     "gallery": [
       {
         "image": "pin-032-estudio-v3",
         "thumb": "pin-032-estudio-v3",
         "archiveId": "ARC-015141",
-        "alt": "Dos figuras de cuerpo verde. Fotografía 1",
+        "alt": "Dos personajes vestidos de verde. Vista 1",
         "sourceName": "_DSC3555.ARW",
         "contentKey": "ARC-015141"
       }
@@ -3976,19 +3970,19 @@ export const catalogue = [
     "id": "pintura-015142",
     "label": "Figura en rosa y ocre",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-033",
     "image": "pin-033-estudio-v3",
     "thumb": "pin-033-estudio-v3",
     "alt": "Figura en rosa y ocre",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Figura en rosa y ocre.",
     "gallery": [
       {
         "image": "pin-033-estudio-v3",
         "thumb": "pin-033-estudio-v3",
         "archiveId": "ARC-015142",
-        "alt": "Figura en rosa y ocre. Fotografía 1",
+        "alt": "Figura en rosa y ocre. Vista 1",
         "sourceName": "_DSC3557.ARW",
         "contentKey": "bbe50636e2b65bbb0aed7d710c181bd203e19019dba13b555b28dfb02d4bf74c"
       }
@@ -3998,19 +3992,19 @@ export const catalogue = [
     "id": "pintura-015143",
     "label": "Rostro naranja y líneas de color",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-034",
     "image": "pin-034-estudio-v3",
     "thumb": "pin-034-estudio-v3",
     "alt": "Rostro naranja y líneas de color",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Rostro naranja y líneas de color.",
     "gallery": [
       {
         "image": "pin-034-estudio-v3",
         "thumb": "pin-034-estudio-v3",
         "archiveId": "ARC-015143",
-        "alt": "Rostro naranja y líneas de color. Fotografía 1",
+        "alt": "Rostro naranja y líneas de color. Vista 1",
         "sourceName": "_DSC3558.ARW",
         "contentKey": "31c4880aadefede2b9d5b7428416bcb3f851332d781213df4a6e92921ac5dcab"
       }
@@ -4020,19 +4014,19 @@ export const catalogue = [
     "id": "pintura-015145",
     "label": "Rostro con figuras alrededor",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-035",
     "image": "pin-035-estudio-v3",
     "thumb": "pin-035-estudio-v3",
     "alt": "Rostro con figuras alrededor",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Rostro con figuras alrededor.",
     "gallery": [
       {
         "image": "pin-035-estudio-v3",
         "thumb": "pin-035-estudio-v3",
         "archiveId": "ARC-015145",
-        "alt": "Rostro con figuras alrededor. Fotografía 1",
+        "alt": "Rostro con figuras alrededor. Vista 1",
         "sourceName": "_DSC3560.ARW",
         "contentKey": "af19ec04324e727c42517c3b858507ee3dfdde010f7bfab2dd13d70444789bfc"
       }
@@ -4048,13 +4042,13 @@ export const catalogue = [
     "image": "pin-036-estudio-v3",
     "thumb": "pin-036-estudio-v3",
     "alt": "Grupo de gatos de colores",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "text": "Grupo de gatos de colores.",
     "gallery": [
       {
         "image": "pin-036-estudio-v3",
         "thumb": "pin-036-estudio-v3",
         "archiveId": "ARC-015146",
-        "alt": "Grupo de gatos de colores. Fotografía 1",
+        "alt": "Grupo de gatos de colores. Vista 1",
         "sourceName": "_DSC3561.ARW",
         "contentKey": "ARC-015146"
       }
@@ -4062,21 +4056,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015147",
-    "label": "Encuentro de figuras",
+    "label": "Personaje ante una mesa",
     "category": "pintura",
-    "series": "Figuras y símbolos",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-037",
     "image": "pin-037-estudio-v3",
     "thumb": "pin-037-estudio-v3",
-    "alt": "Encuentro de figuras",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "alt": "Personaje ante una mesa",
+    "text": "Personaje ante una mesa.",
     "gallery": [
       {
         "image": "pin-037-estudio-v3",
         "thumb": "pin-037-estudio-v3",
         "archiveId": "ARC-015147",
-        "alt": "Encuentro de figuras. Fotografía 1",
+        "alt": "Personaje ante una mesa. Vista 1",
         "sourceName": "_DSC3562.ARW",
         "contentKey": "ARC-015147"
       }
@@ -4084,21 +4078,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015148",
-    "label": "Gato sobre fondo dorado",
+    "label": "Rostro con tocado y símbolos dorados",
     "category": "pintura",
-    "series": "Gatos",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-038",
     "image": "pin-038-estudio-v3",
     "thumb": "pin-038-estudio-v3",
-    "alt": "Gato sobre fondo dorado",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "alt": "Rostro con tocado y símbolos dorados",
+    "text": "Rostro con tocado y símbolos dorados.",
     "gallery": [
       {
         "image": "pin-038-estudio-v3",
         "thumb": "pin-038-estudio-v3",
         "archiveId": "ARC-015148",
-        "alt": "Gato sobre fondo dorado. Fotografía 1",
+        "alt": "Rostro con tocado y símbolos dorados. Vista 1",
         "sourceName": "_DSC3563.ARW",
         "contentKey": "ARC-015148"
       }
@@ -4106,21 +4100,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015149",
-    "label": "Gato rosa enmarcado",
+    "label": "Toro rosa con copa y figura al fondo",
     "category": "pintura",
-    "series": "Gatos",
+    "series": "Tauromaquia",
     "chapter": "pintar-mundos",
     "reference": "PIN-039",
     "image": "pin-039-estudio-v3",
     "thumb": "pin-039-estudio-v3",
-    "alt": "Gato rosa enmarcado",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por gatos.",
+    "alt": "Toro rosa con copa y figura al fondo",
+    "text": "Toro rosa con copa y figura al fondo.",
     "gallery": [
       {
         "image": "pin-039-estudio-v3",
         "thumb": "pin-039-estudio-v3",
         "archiveId": "ARC-015149",
-        "alt": "Gato rosa enmarcado. Fotografía 1",
+        "alt": "Toro rosa con copa y figura al fondo. Vista 1",
         "sourceName": "_DSC3564.ARW",
         "contentKey": "4dce749363f09abe8eabff484b498200a364dd2c903a35f3e24b62fb7accac91"
       }
@@ -4136,13 +4130,13 @@ export const catalogue = [
     "image": "pin-040-estudio-v3",
     "thumb": "pin-040-estudio-v3",
     "alt": "Figuras sobre fondo lila",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Figuras sobre fondo lila.",
     "gallery": [
       {
         "image": "pin-040-estudio-v3",
         "thumb": "pin-040-estudio-v3",
         "archiveId": "ARC-015150",
-        "alt": "Figuras sobre fondo lila. Fotografía 1",
+        "alt": "Figuras sobre fondo lila. Vista 1",
         "sourceName": "_DSC3565.ARW",
         "contentKey": "ARC-015150"
       }
@@ -4158,13 +4152,13 @@ export const catalogue = [
     "image": "pin-041-estudio-v3",
     "thumb": "pin-041-estudio-v3",
     "alt": "Líneas y planos sobre naranja",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Líneas y planos sobre naranja.",
     "gallery": [
       {
         "image": "pin-041-estudio-v3",
         "thumb": "pin-041-estudio-v3",
         "archiveId": "ARC-015152",
-        "alt": "Líneas y planos sobre naranja. Fotografía 1",
+        "alt": "Líneas y planos sobre naranja. Vista 1",
         "sourceName": "_DSC3567.ARW",
         "contentKey": "85efe8b587796042371aad32628a11fa215cc2476e3ccbb7716101821ed8abac"
       }
@@ -4180,13 +4174,13 @@ export const catalogue = [
     "image": "pin-042-estudio-v3",
     "thumb": "pin-042-estudio-v3",
     "alt": "Curvas blancas sobre naranja",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Curvas blancas sobre naranja.",
     "gallery": [
       {
         "image": "pin-042-estudio-v3",
         "thumb": "pin-042-estudio-v3",
         "archiveId": "ARC-015153",
-        "alt": "Curvas blancas sobre naranja. Fotografía 1",
+        "alt": "Curvas blancas sobre naranja. Vista 1",
         "sourceName": "_DSC3568.ARW",
         "contentKey": "caa8b56365fd23dc75ee2f18b7dc8f6ce4cf6bfb2eaf91753f3fa62acb82c3ed"
       }
@@ -4202,13 +4196,13 @@ export const catalogue = [
     "image": "pin-043-estudio-v3",
     "thumb": "pin-043-estudio-v3",
     "alt": "Remolino de formas claras",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Remolino de formas claras.",
     "gallery": [
       {
         "image": "pin-043-estudio-v3",
         "thumb": "pin-043-estudio-v3",
         "archiveId": "ARC-015154",
-        "alt": "Remolino de formas claras. Fotografía 1",
+        "alt": "Remolino de formas claras. Vista 1",
         "sourceName": "_DSC3569.ARW",
         "contentKey": "ARC-015154"
       }
@@ -4224,13 +4218,13 @@ export const catalogue = [
     "image": "pin-044-estudio-v3",
     "thumb": "pin-044-estudio-v3",
     "alt": "Planos de colores suaves",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Planos de colores suaves.",
     "gallery": [
       {
         "image": "pin-044-estudio-v3",
         "thumb": "pin-044-estudio-v3",
         "archiveId": "ARC-015155",
-        "alt": "Planos de colores suaves. Fotografía 1",
+        "alt": "Planos de colores suaves. Vista 1",
         "sourceName": "_DSC3571.ARW",
         "contentKey": "907b91b23b9088d4c3271417ea0ba95000f9c3eff573162294bc1c3cd356b82c"
       }
@@ -4246,13 +4240,13 @@ export const catalogue = [
     "image": "pin-045-estudio-v3",
     "thumb": "pin-045-estudio-v3",
     "alt": "Planos violetas y ocres",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Planos violetas y ocres.",
     "gallery": [
       {
         "image": "pin-045-estudio-v3",
         "thumb": "pin-045-estudio-v3",
         "archiveId": "ARC-015156",
-        "alt": "Planos violetas y ocres. Fotografía 1",
+        "alt": "Planos violetas y ocres. Vista 1",
         "sourceName": "_DSC3572.ARW",
         "contentKey": "ARC-015156"
       }
@@ -4268,13 +4262,13 @@ export const catalogue = [
     "image": "pin-046-estudio-v3",
     "thumb": "pin-046-estudio-v3",
     "alt": "Giro de formas rojas",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Giro de formas rojas.",
     "gallery": [
       {
         "image": "pin-046-estudio-v3",
         "thumb": "pin-046-estudio-v3",
         "archiveId": "ARC-015157",
-        "alt": "Giro de formas rojas. Fotografía 1",
+        "alt": "Giro de formas rojas. Vista 1",
         "sourceName": "_DSC3573.ARW",
         "contentKey": "ARC-015157"
       }
@@ -4290,13 +4284,13 @@ export const catalogue = [
     "image": "pin-047-estudio-v3",
     "thumb": "pin-047-estudio-v3",
     "alt": "Formas entrelazadas",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Formas entrelazadas.",
     "gallery": [
       {
         "image": "pin-047-estudio-v3",
         "thumb": "pin-047-estudio-v3",
         "archiveId": "ARC-015158",
-        "alt": "Formas entrelazadas. Fotografía 1",
+        "alt": "Formas entrelazadas. Vista 1",
         "sourceName": "_DSC3574.ARW",
         "contentKey": "ARC-015158"
       }
@@ -4312,13 +4306,13 @@ export const catalogue = [
     "image": "pin-048-estudio-v3",
     "thumb": "pin-048-estudio-v3",
     "alt": "Ritmo rojo y blanco",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Ritmo rojo y blanco.",
     "gallery": [
       {
         "image": "pin-048-estudio-v3",
         "thumb": "pin-048-estudio-v3",
         "archiveId": "ARC-015159",
-        "alt": "Ritmo rojo y blanco. Fotografía 1",
+        "alt": "Ritmo rojo y blanco. Vista 1",
         "sourceName": "_DSC3575.ARW",
         "contentKey": "53dc8652539bfa959cb7458deeede6b68d0f0c6ac52119ea1fb937a92cb94b3e"
       }
@@ -4334,13 +4328,13 @@ export const catalogue = [
     "image": "pin-049-estudio-v3",
     "thumb": "pin-049-estudio-v3",
     "alt": "Curvas blancas y naranjas",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Curvas blancas y naranjas.",
     "gallery": [
       {
         "image": "pin-049-estudio-v3",
         "thumb": "pin-049-estudio-v3",
         "archiveId": "ARC-015160",
-        "alt": "Curvas blancas y naranjas. Fotografía 1",
+        "alt": "Curvas blancas y naranjas. Vista 1",
         "sourceName": "_DSC3576.ARW",
         "contentKey": "ARC-015160"
       }
@@ -4356,13 +4350,13 @@ export const catalogue = [
     "image": "pin-050-estudio-v3",
     "thumb": "pin-050-estudio-v3",
     "alt": "Volúmenes de color",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Volúmenes de color.",
     "gallery": [
       {
         "image": "pin-050-estudio-v3",
         "thumb": "pin-050-estudio-v3",
         "archiveId": "ARC-015161",
-        "alt": "Volúmenes de color. Fotografía 1",
+        "alt": "Volúmenes de color. Vista 1",
         "sourceName": "_DSC3577.ARW",
         "contentKey": "ARC-015161"
       }
@@ -4378,13 +4372,13 @@ export const catalogue = [
     "image": "pin-051-estudio-v3",
     "thumb": "pin-051-estudio-v3",
     "alt": "Encuentro de signos y color",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Encuentro de signos y color.",
     "gallery": [
       {
         "image": "pin-051-estudio-v3",
         "thumb": "pin-051-estudio-v3",
         "archiveId": "ARC-015162",
-        "alt": "Encuentro de signos y color. Fotografía 1",
+        "alt": "Encuentro de signos y color. Vista 1",
         "sourceName": "_DSC3578.ARW",
         "contentKey": "ARC-015162"
       }
@@ -4400,13 +4394,13 @@ export const catalogue = [
     "image": "pin-052-estudio-v3",
     "thumb": "pin-052-estudio-v3",
     "alt": "Recorrido rojo y circular",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Recorrido rojo y circular.",
     "gallery": [
       {
         "image": "pin-052-estudio-v3",
         "thumb": "pin-052-estudio-v3",
         "archiveId": "ARC-015163",
-        "alt": "Recorrido rojo y circular. Fotografía 1",
+        "alt": "Recorrido rojo y circular. Vista 1",
         "sourceName": "_DSC3579.ARW",
         "contentKey": "9c017a690d34fd13d2960e772f987fcf89ed581b1dce6d7eb3162f966196dddf"
       }
@@ -4416,19 +4410,19 @@ export const catalogue = [
     "id": "pintura-015164",
     "label": "Signos en rojo",
     "category": "pintura",
-    "series": "Abstracciones",
+    "series": "Letras y signos",
     "chapter": "pintar-mundos",
     "reference": "PIN-053",
     "image": "pin-053-estudio-v3",
     "thumb": "pin-053-estudio-v3",
     "alt": "Signos en rojo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Signos en rojo.",
     "gallery": [
       {
         "image": "pin-053-estudio-v3",
         "thumb": "pin-053-estudio-v3",
         "archiveId": "ARC-015164",
-        "alt": "Signos en rojo. Fotografía 1",
+        "alt": "Signos en rojo. Vista 1",
         "sourceName": "_DSC3580.ARW",
         "contentKey": "ARC-015164"
       }
@@ -4438,19 +4432,19 @@ export const catalogue = [
     "id": "pintura-015165",
     "label": "Letras y figuras rojas",
     "category": "pintura",
-    "series": "Abstracciones",
+    "series": "Letras y signos",
     "chapter": "pintar-mundos",
     "reference": "PIN-054",
     "image": "pin-054-estudio-v3",
     "thumb": "pin-054-estudio-v3",
     "alt": "Letras y figuras rojas",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Letras y figuras rojas.",
     "gallery": [
       {
         "image": "pin-054-estudio-v3",
         "thumb": "pin-054-estudio-v3",
         "archiveId": "ARC-015165",
-        "alt": "Letras y figuras rojas. Fotografía 1",
+        "alt": "Letras y figuras rojas. Vista 1",
         "sourceName": "_DSC3581.ARW",
         "contentKey": "7da7cab76680a88efdf5d95da067580793cbfdeb8109372e3feca6fc552adaf3"
       }
@@ -4460,19 +4454,19 @@ export const catalogue = [
     "id": "pintura-015167",
     "label": "Composición vertical de signos",
     "category": "pintura",
-    "series": "Abstracciones",
+    "series": "Letras y signos",
     "chapter": "pintar-mundos",
     "reference": "PIN-055",
     "image": "pin-055-estudio-v3",
     "thumb": "pin-055-estudio-v3",
     "alt": "Composición vertical de signos",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Composición vertical de signos.",
     "gallery": [
       {
         "image": "pin-055-estudio-v3",
         "thumb": "pin-055-estudio-v3",
         "archiveId": "ARC-015167",
-        "alt": "Composición vertical de signos. Fotografía 1",
+        "alt": "Composición vertical de signos. Vista 1",
         "sourceName": "_DSC3583.ARW",
         "contentKey": "ARC-015167"
       }
@@ -4488,13 +4482,13 @@ export const catalogue = [
     "image": "pin-056-estudio-v3",
     "thumb": "pin-056-estudio-v3",
     "alt": "Retrato de perfil ascendente",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
+    "text": "Retrato de perfil ascendente.",
     "gallery": [
       {
         "image": "pin-056-estudio-v3",
         "thumb": "pin-056-estudio-v3",
         "archiveId": "ARC-015168",
-        "alt": "Retrato de perfil ascendente. Fotografía 1",
+        "alt": "Retrato de perfil ascendente. Vista 1",
         "sourceName": "_DSC3584.ARW",
         "contentKey": "ARC-015168"
       }
@@ -4504,19 +4498,19 @@ export const catalogue = [
     "id": "pintura-015169",
     "label": "Signo rojo en círculo",
     "category": "pintura",
-    "series": "Abstracciones",
+    "series": "Letras y signos",
     "chapter": "pintar-mundos",
     "reference": "PIN-057",
     "image": "pin-057-estudio-v3",
     "thumb": "pin-057-estudio-v3",
     "alt": "Signo rojo en círculo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Signo rojo en círculo.",
     "gallery": [
       {
         "image": "pin-057-estudio-v3",
         "thumb": "pin-057-estudio-v3",
         "archiveId": "ARC-015169",
-        "alt": "Signo rojo en círculo. Fotografía 1",
+        "alt": "Signo rojo en círculo. Vista 1",
         "sourceName": "_DSC3585.ARW",
         "contentKey": "ARC-015169"
       }
@@ -4532,13 +4526,13 @@ export const catalogue = [
     "image": "pin-058-estudio-v3",
     "thumb": "pin-058-estudio-v3",
     "alt": "Composición horizontal de tonos claros",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por abstracciones.",
+    "text": "Composición horizontal de tonos claros.",
     "gallery": [
       {
         "image": "pin-058-estudio-v3",
         "thumb": "pin-058-estudio-v3",
         "archiveId": "ARC-015199",
-        "alt": "Composición horizontal de tonos claros. Fotografía 1",
+        "alt": "Composición horizontal de tonos claros. Vista 1",
         "sourceName": "_DSC3649.ARW",
         "contentKey": "ARC-015199"
       }
@@ -4554,13 +4548,13 @@ export const catalogue = [
     "image": "pin-059-estudio-v3",
     "thumb": "pin-059-estudio-v3",
     "alt": "Retrato de perfil con barba",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por retratos.",
+    "text": "Retrato de perfil con barba.",
     "gallery": [
       {
         "image": "pin-059-estudio-v3",
         "thumb": "pin-059-estudio-v3",
         "archiveId": "ARC-015200",
-        "alt": "Retrato de perfil con barba. Fotografía 1",
+        "alt": "Retrato de perfil con barba. Vista 1",
         "sourceName": "_DSC3651.ARW",
         "contentKey": "ARC-015200"
       }
@@ -4576,13 +4570,13 @@ export const catalogue = [
     "image": "pin-060-estudio-v3",
     "thumb": "pin-060-estudio-v3",
     "alt": "Composición circular azul",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Composición circular azul.",
     "gallery": [
       {
         "image": "pin-060-estudio-v3",
         "thumb": "pin-060-estudio-v3",
         "archiveId": "ARC-015202",
-        "alt": "Composición circular azul. Fotografía 1",
+        "alt": "Composición circular azul. Vista 1",
         "sourceName": "_DSC3653.ARW",
         "contentKey": "ARC-015202"
       }
@@ -4592,19 +4586,19 @@ export const catalogue = [
     "id": "pintura-015204",
     "label": "Rostro de contorno poligonal",
     "category": "pintura",
-    "series": "Rostros",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-061",
     "image": "pin-061-estudio-v3",
     "thumb": "pin-061-estudio-v3",
     "alt": "Rostro de contorno poligonal",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por rostros.",
+    "text": "Rostro de contorno poligonal.",
     "gallery": [
       {
         "image": "pin-061-estudio-v3",
         "thumb": "pin-061-estudio-v3",
         "archiveId": "ARC-015204",
-        "alt": "Rostro de contorno poligonal. Fotografía 1",
+        "alt": "Rostro de contorno poligonal. Vista 1",
         "sourceName": "_DSC3662.ARW",
         "contentKey": "ARC-015204"
       }
@@ -4620,13 +4614,13 @@ export const catalogue = [
     "image": "pin-062-estudio-v3",
     "thumb": "pin-062-estudio-v3",
     "alt": "Arca de contorno recortado",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "text": "Arca de contorno recortado.",
     "gallery": [
       {
         "image": "pin-062-estudio-v3",
         "thumb": "pin-062-estudio-v3",
         "archiveId": "ARC-015206",
-        "alt": "Arca de contorno recortado. Fotografía 1",
+        "alt": "Arca de contorno recortado. Vista 1",
         "sourceName": "_DSC3715.ARW",
         "contentKey": "ARC-015206"
       }
@@ -4634,21 +4628,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015211",
-    "label": "Figuras en composición violeta",
+    "label": "Figura con instrumento y gato violeta",
     "category": "pintura",
-    "series": "Figuras y símbolos",
+    "series": "Gatos",
     "chapter": "pintar-mundos",
     "reference": "PIN-063",
     "image": "pin-063-estudio-v3",
     "thumb": "pin-063-estudio-v3",
-    "alt": "Figuras en composición violeta",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "alt": "Figura con instrumento y gato violeta",
+    "text": "Figura con instrumento y gato violeta.",
     "gallery": [
       {
         "image": "pin-063-estudio-v3",
         "thumb": "pin-063-estudio-v3",
         "archiveId": "ARC-015211",
-        "alt": "Figuras en composición violeta. Fotografía 1",
+        "alt": "Figura con instrumento y gato violeta. Vista 1",
         "sourceName": "_DSC3724.ARW",
         "contentKey": "ARC-015211"
       }
@@ -4656,21 +4650,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015213",
-    "label": "Arquitecturas entre el sol y el agua",
+    "label": "Dos gatos azules ante una ciudad",
     "category": "pintura",
-    "series": "Arcas",
+    "series": "Gatos",
     "chapter": "pintar-mundos",
     "reference": "PIN-064",
     "image": "pin-064-estudio-v3",
     "thumb": "pin-064-estudio-v3",
-    "alt": "Arquitecturas entre el sol y el agua",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por arcas.",
+    "alt": "Dos gatos azules ante una ciudad",
+    "text": "Dos gatos azules ante una ciudad.",
     "gallery": [
       {
         "image": "pin-064-estudio-v3",
         "thumb": "pin-064-estudio-v3",
         "archiveId": "ARC-015213",
-        "alt": "Arquitecturas entre el sol y el agua. Fotografía 1",
+        "alt": "Dos gatos azules ante una ciudad. Vista 1",
         "sourceName": "_DSC3726.ARW",
         "contentKey": "ARC-015213"
       }
@@ -4680,19 +4674,19 @@ export const catalogue = [
     "id": "pintura-015218",
     "label": "Figura y dragón sobre fondo verde",
     "category": "pintura",
-    "series": "Dragones y relatos",
+    "series": "Relatos e iconografía",
     "chapter": "exponer-abrir-espacios",
     "reference": "PIN-065",
     "image": "pin-065-estudio-v3",
     "thumb": "pin-065-estudio-v3",
     "alt": "Figura y dragón sobre fondo verde",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Figura y dragón sobre fondo verde.",
     "gallery": [
       {
         "image": "pin-065-estudio-v3",
         "thumb": "pin-065-estudio-v3",
         "archiveId": "ARC-015218",
-        "alt": "Figura y dragón sobre fondo verde. Fotografía 1",
+        "alt": "Figura y dragón sobre fondo verde. Vista 1",
         "sourceName": "_DSC3731.ARW",
         "contentKey": "b4bc18bcb573e8c65901e6dc76bcf5cfac7aef54d39fa35549d7515107077906"
       }
@@ -4702,19 +4696,19 @@ export const catalogue = [
     "id": "pintura-015221",
     "label": "Figura con espada y dragón",
     "category": "pintura",
-    "series": "Dragones y relatos",
+    "series": "Relatos e iconografía",
     "chapter": "exponer-abrir-espacios",
     "reference": "PIN-066",
     "image": "pin-066-estudio-v3",
     "thumb": "pin-066-estudio-v3",
     "alt": "Figura con espada y dragón",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Figura con espada y dragón.",
     "gallery": [
       {
         "image": "pin-066-estudio-v3",
         "thumb": "pin-066-estudio-v3",
         "archiveId": "ARC-015221",
-        "alt": "Figura con espada y dragón. Fotografía 1",
+        "alt": "Figura con espada y dragón. Vista 1",
         "sourceName": "_DSC3734.ARW",
         "contentKey": "05e71843070a1da806d661839252eb372d7e382175c27043bb974a857dd7e51c"
       }
@@ -4724,19 +4718,19 @@ export const catalogue = [
     "id": "pintura-015223",
     "label": "Figura, escudo y dragón",
     "category": "pintura",
-    "series": "Dragones y relatos",
+    "series": "Relatos e iconografía",
     "chapter": "exponer-abrir-espacios",
     "reference": "PIN-067",
     "image": "pin-067-estudio-v3",
     "thumb": "pin-067-estudio-v3",
     "alt": "Figura, escudo y dragón",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Figura, escudo y dragón.",
     "gallery": [
       {
         "image": "pin-067-estudio-v3",
         "thumb": "pin-067-estudio-v3",
         "archiveId": "ARC-015223",
-        "alt": "Figura, escudo y dragón. Fotografía 1",
+        "alt": "Figura, escudo y dragón. Vista 1",
         "sourceName": "_DSC3736.ARW",
         "contentKey": "ARC-015223"
       }
@@ -4744,21 +4738,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015226",
-    "label": "Figuras bajo un arco",
+    "label": "Gatos bajo un arco",
     "category": "pintura",
-    "series": "Figuras y símbolos",
+    "series": "Gatos",
     "chapter": "pintar-mundos",
     "reference": "PIN-068",
     "image": "pin-068-estudio-v3",
     "thumb": "pin-068-estudio-v3",
-    "alt": "Figuras bajo un arco",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "alt": "Gatos bajo un arco",
+    "text": "Gatos bajo un arco.",
     "gallery": [
       {
         "image": "pin-068-estudio-v3",
         "thumb": "pin-068-estudio-v3",
         "archiveId": "ARC-015226",
-        "alt": "Figuras bajo un arco. Fotografía 1",
+        "alt": "Gatos bajo un arco. Vista 1",
         "sourceName": "_DSC3739.ARW",
         "contentKey": "ARC-015226"
       }
@@ -4774,13 +4768,13 @@ export const catalogue = [
     "image": "pin-069-estudio-v3",
     "thumb": "pin-069-estudio-v3",
     "alt": "Toro y figuras",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Toro y figuras.",
     "gallery": [
       {
         "image": "pin-069-estudio-v3",
         "thumb": "pin-069-estudio-v3",
         "archiveId": "ARC-015228",
-        "alt": "Toro y figuras. Fotografía 1",
+        "alt": "Toro y figuras. Vista 1",
         "sourceName": "_DSC3741.ARW",
         "contentKey": "ae290e1bbd5da432a971c16146614eceb0d9a747f059d8ade624c938daaaf0ea"
       }
@@ -4796,13 +4790,13 @@ export const catalogue = [
     "image": "pin-070-estudio-v3",
     "thumb": "pin-070-estudio-v3",
     "alt": "Composición en forma de ojo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Composición en forma de ojo.",
     "gallery": [
       {
         "image": "pin-070-estudio-v3",
         "thumb": "pin-070-estudio-v3",
         "archiveId": "ARC-015234",
-        "alt": "Composición en forma de ojo. Fotografía 1",
+        "alt": "Composición en forma de ojo. Vista 1",
         "sourceName": "_DSC3748.ARW",
         "contentKey": "ARC-015234"
       }
@@ -4818,13 +4812,13 @@ export const catalogue = [
     "image": "pin-071-estudio-v3",
     "thumb": "pin-071-estudio-v3",
     "alt": "Figuras del ruedo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Figuras del ruedo.",
     "gallery": [
       {
         "image": "pin-071-estudio-v3",
         "thumb": "pin-071-estudio-v3",
         "archiveId": "ARC-015236",
-        "alt": "Figuras del ruedo. Fotografía 1",
+        "alt": "Figuras del ruedo. Vista 1",
         "sourceName": "_DSC3752.ARW",
         "contentKey": "9f7982610a1e567ec76957a86ee4b376b2fc4140372b1c6fe2b6393a7efb3186"
       }
@@ -4834,19 +4828,19 @@ export const catalogue = [
     "id": "pintura-015240",
     "label": "Figura ante una ciudad",
     "category": "pintura",
-    "series": "Dragones y relatos",
+    "series": "Relatos e iconografía",
     "chapter": "exponer-abrir-espacios",
     "reference": "PIN-072",
     "image": "pin-072-estudio-v3",
     "thumb": "pin-072-estudio-v3",
     "alt": "Figura ante una ciudad",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Figura ante una ciudad.",
     "gallery": [
       {
         "image": "pin-072-estudio-v3",
         "thumb": "pin-072-estudio-v3",
         "archiveId": "ARC-015240",
-        "alt": "Figura ante una ciudad. Fotografía 1",
+        "alt": "Figura ante una ciudad. Vista 1",
         "sourceName": "_DSC3756.ARW",
         "contentKey": "ARC-015240"
       }
@@ -4862,13 +4856,13 @@ export const catalogue = [
     "image": "pin-073-estudio-v3",
     "thumb": "pin-073-estudio-v3",
     "alt": "Composición horizontal de figuras",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por figuras y símbolos.",
+    "text": "Composición horizontal de figuras.",
     "gallery": [
       {
         "image": "pin-073-estudio-v3",
         "thumb": "pin-073-estudio-v3",
         "archiveId": "ARC-015243",
-        "alt": "Composición horizontal de figuras. Fotografía 1",
+        "alt": "Composición horizontal de figuras. Vista 1",
         "sourceName": "_DSC3759.ARW",
         "contentKey": "0e46704a6c60323f07fad2c9f76b9a77067c4ebc8e4a14480940bae13366395c"
       }
@@ -4884,13 +4878,13 @@ export const catalogue = [
     "image": "pin-074-estudio-v3",
     "thumb": "pin-074-estudio-v3",
     "alt": "Escena de ruedo",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por tauromaquia.",
+    "text": "Escena de ruedo.",
     "gallery": [
       {
         "image": "pin-074-estudio-v3",
         "thumb": "pin-074-estudio-v3",
         "archiveId": "ARC-015245",
-        "alt": "Escena de ruedo. Fotografía 1",
+        "alt": "Escena de ruedo. Vista 1",
         "sourceName": "_DSC7893.ARW",
         "contentKey": "ARC-015245"
       }
@@ -4900,19 +4894,19 @@ export const catalogue = [
     "id": "pintura-008492",
     "label": "Figura a caballo y dragón",
     "category": "pintura",
-    "series": "Dragones y relatos",
+    "series": "Relatos e iconografía",
     "chapter": "exponer-abrir-espacios",
     "reference": "PIN-075",
     "image": "pin-075-estudio-v3",
     "thumb": "pin-075-estudio-v3",
     "alt": "Figura a caballo y dragón",
-    "text": "Una composición del archivo de pintura de ENRIC SEGARRA I GARIBO. Forma parte del recorrido visual por dragones y relatos.",
+    "text": "Figura a caballo y dragón.",
     "gallery": [
       {
         "image": "pin-075-estudio-v3",
         "thumb": "pin-075-estudio-v3",
         "archiveId": "ARC-008492",
-        "alt": "Figura a caballo y dragón. Fotografía 1",
+        "alt": "Figura a caballo y dragón. Vista 1",
         "sourceName": "SANT JORDI.tif",
         "contentKey": "3f615edb5d34be1bd516866ba2f9c01dbdf4a2bb98f1a85e2de66ccdea68a442"
       }
@@ -4928,13 +4922,13 @@ export const catalogue = [
     "image": "pin-076-estudio-v3",
     "thumb": "pin-076-estudio-v3",
     "alt": "Retrato de un hombre con barba",
-    "text": "Una pintura del archivo de Enric Segarra, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de retratos. El nombre describe la imagen y es provisional.",
+    "text": "Retrato de un hombre con barba.",
     "gallery": [
       {
         "image": "pin-076-estudio-v3",
         "thumb": "pin-076-estudio-v3",
         "archiveId": "ARC-015249",
-        "alt": "Retrato de un hombre con barba",
+        "alt": "Retrato de un hombre con barba. Vista 1",
         "sourceName": "_DSC7897.ARW",
         "contentKey": "ARC-015249"
       }
@@ -4942,21 +4936,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015250",
-    "label": "Personajes alrededor de una mesa de juego",
+    "label": "Personajes alrededor de una mesa y figura a caballo",
     "category": "pintura",
-    "series": "Figuras y símbolos",
+    "series": "Relatos e iconografía",
     "chapter": "pintar-mundos",
     "reference": "PIN-077",
     "image": "pin-077-estudio-v3",
     "thumb": "pin-077-estudio-v3",
-    "alt": "Personajes alrededor de una mesa de juego",
-    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de figuras y símbolos. El nombre describe la imagen y es provisional.",
+    "alt": "Personajes alrededor de una mesa y figura a caballo",
+    "text": "Personajes alrededor de una mesa y figura a caballo.",
     "gallery": [
       {
         "image": "pin-077-estudio-v3",
         "thumb": "pin-077-estudio-v3",
         "archiveId": "ARC-015250",
-        "alt": "Personajes alrededor de una mesa de juego",
+        "alt": "Personajes alrededor de una mesa y figura a caballo. Vista 1",
         "sourceName": "_DSC7898.ARW",
         "contentKey": "ARC-015250"
       }
@@ -4964,21 +4958,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015251",
-    "label": "Gran gato sobre fondo rosa",
+    "label": "Cabeza de toro ante espectadores",
     "category": "pintura",
-    "series": "Gatos",
+    "series": "Tauromaquia",
     "chapter": "pintar-mundos",
     "reference": "PIN-078",
     "image": "pin-078-estudio-v3",
     "thumb": "pin-078-estudio-v3",
-    "alt": "Gran gato sobre fondo rosa",
-    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "alt": "Cabeza de toro ante espectadores",
+    "text": "Cabeza de toro ante espectadores.",
     "gallery": [
       {
         "image": "pin-078-estudio-v3",
         "thumb": "pin-078-estudio-v3",
         "archiveId": "ARC-015251",
-        "alt": "Gran gato sobre fondo rosa",
+        "alt": "Cabeza de toro ante espectadores. Vista 1",
         "sourceName": "_DSC7899.ARW",
         "contentKey": "ARC-015251"
       }
@@ -4986,21 +4980,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015257",
-    "label": "Composición de gatos entrelazados",
+    "label": "Crucifixión con figuras",
     "category": "pintura",
-    "series": "Gatos",
+    "series": "Relatos e iconografía",
     "chapter": "pintar-mundos",
     "reference": "PIN-079",
     "image": "pin-079-estudio-v3",
     "thumb": "pin-079-estudio-v3",
-    "alt": "Composición de gatos entrelazados",
-    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "alt": "Crucifixión con figuras",
+    "text": "Crucifixión con figuras.",
     "gallery": [
       {
         "image": "pin-079-estudio-v3",
         "thumb": "pin-079-estudio-v3",
         "archiveId": "ARC-015257",
-        "alt": "Composición de gatos entrelazados",
+        "alt": "Crucifixión con figuras. Vista 1",
         "sourceName": "_DSC7905.ARW",
         "contentKey": "e12f089d3aa89d1f842ae0cf11526892dcf462aada7cd6e131169a9206c03788"
       }
@@ -5008,21 +5002,21 @@ export const catalogue = [
   },
   {
     "id": "pintura-015263",
-    "label": "Gato amarillo y figura rosa",
+    "label": "Dos figuras en amarillo y rosa",
     "category": "pintura",
-    "series": "Gatos",
+    "series": "Rostros y personajes",
     "chapter": "pintar-mundos",
     "reference": "PIN-080",
     "image": "pin-080-estudio-v3",
     "thumb": "pin-080-estudio-v3",
-    "alt": "Gato amarillo y figura rosa",
-    "text": "Una pintura del archivo de ENRIC SEGARRA I GARIBO, recuperada de su registro fotográfico en RAW. Se incorpora al recorrido de gatos. El nombre describe la imagen y es provisional.",
+    "alt": "Dos figuras en amarillo y rosa",
+    "text": "Dos figuras en amarillo y rosa.",
     "gallery": [
       {
         "image": "pin-080-estudio-v3",
         "thumb": "pin-080-estudio-v3",
         "archiveId": "ARC-015263",
-        "alt": "Gato amarillo y figura rosa",
+        "alt": "Dos figuras en amarillo y rosa. Vista 1",
         "sourceName": "_DSC7911.ARW",
         "contentKey": "ARC-015263"
       }
@@ -5032,7 +5026,7 @@ export const catalogue = [
     "id": "moviles-014955",
     "label": "Arcos oscuros y pequeños acentos de color",
     "category": "moviles",
-    "series": "Líneas y equilibrio",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-022",
     "image": "gallery-014955-cool-neutral-v2",
@@ -5076,21 +5070,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014959",
-    "label": "Recipientes azules entre las ramas",
+    "label": "Árbol con elementos azules suspendidos",
     "category": "escultura",
     "series": "Intervenciones en el entorno",
     "chapter": "construir-formas",
     "reference": "ESC-047",
     "image": "arc-014959",
     "thumb": "arc-014959",
-    "alt": "Recipientes azules entre las ramas",
-    "text": "Recipientes azules entre las ramas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Árbol con elementos azules suspendidos",
+    "text": "Árbol con elementos azules suspendidos.",
     "gallery": [
       {
         "image": "arc-014959",
         "thumb": "arc-014959",
         "archiveId": "ARC-014959",
-        "alt": "Recipientes azules entre las ramas · vista 1",
+        "alt": "Árbol con elementos azules suspendidos. Vista 1",
         "sourceName": "IMG20260603195026~2.jpg",
         "contentKey": "ARC-014959"
       },
@@ -5098,7 +5092,7 @@ export const catalogue = [
         "image": "gallery-esc-047-view-2-horizontal",
         "thumb": "gallery-esc-047-view-2-horizontal",
         "archiveId": "ARC-014960",
-        "alt": "Recipientes azules entre las ramas · vista 2",
+        "alt": "Árbol con elementos azules suspendidos. Vista 2",
         "sourceName": "IMG20260603195042.jpg",
         "contentKey": "ARC-014960"
       },
@@ -5106,7 +5100,7 @@ export const catalogue = [
         "image": "gallery-esc-047-view-3-horizontal",
         "thumb": "gallery-esc-047-view-3-horizontal",
         "archiveId": "ARC-014961",
-        "alt": "Recipientes azules entre las ramas · vista 3",
+        "alt": "Árbol con elementos azules suspendidos. Vista 3",
         "sourceName": "IMG20260604193930.jpg",
         "contentKey": "ARC-014961"
       },
@@ -5114,7 +5108,7 @@ export const catalogue = [
         "image": "gallery-esc-047-view-4-horizontal",
         "thumb": "gallery-esc-047-view-4-horizontal",
         "archiveId": "ARC-014963",
-        "alt": "Recipientes azules entre las ramas · vista 4",
+        "alt": "Árbol con elementos azules suspendidos. Vista 4",
         "sourceName": "IMG20260604193948.jpg",
         "contentKey": "ARC-014963"
       },
@@ -5122,7 +5116,7 @@ export const catalogue = [
         "image": "gallery-esc-047-view-5-horizontal",
         "thumb": "gallery-esc-047-view-5-horizontal",
         "archiveId": "ARC-014965",
-        "alt": "Recipientes azules entre las ramas · vista 5",
+        "alt": "Árbol con elementos azules suspendidos. Vista 5",
         "sourceName": "IMG20260604194013.jpg",
         "contentKey": "ARC-014965"
       },
@@ -5130,7 +5124,7 @@ export const catalogue = [
         "image": "gallery-esc-047-view-6-horizontal",
         "thumb": "gallery-esc-047-view-6-horizontal",
         "archiveId": "ARC-014966",
-        "alt": "Recipientes azules entre las ramas · vista 6",
+        "alt": "Árbol con elementos azules suspendidos. Vista 6",
         "sourceName": "IMG20260604194013~2.jpg",
         "contentKey": "ARC-014966"
       },
@@ -5138,7 +5132,7 @@ export const catalogue = [
         "image": "gallery-esc-047-view-7-horizontal",
         "thumb": "gallery-esc-047-view-7-horizontal",
         "archiveId": "ARC-014989",
-        "alt": "Recipientes azules entre las ramas · vista 7",
+        "alt": "Árbol con elementos azules suspendidos. Vista 7",
         "sourceName": "IMG20260804200417.jpg",
         "contentKey": "ARC-014989"
       },
@@ -5146,7 +5140,7 @@ export const catalogue = [
         "image": "gallery-esc-047-view-8-horizontal",
         "thumb": "gallery-esc-047-view-8-horizontal",
         "archiveId": "ARC-014991",
-        "alt": "Recipientes azules entre las ramas · vista 8",
+        "alt": "Árbol con elementos azules suspendidos. Vista 8",
         "sourceName": "IMG20260804200510.jpg",
         "contentKey": "ARC-014991"
       }
@@ -5154,21 +5148,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014967",
-    "label": "Paneles de color sobre un tronco",
+    "label": "Tres paneles de círculos de colores",
     "category": "escultura",
     "series": "Intervenciones en el entorno",
     "chapter": "construir-formas",
     "reference": "ESC-048",
     "image": "arc-014967",
     "thumb": "arc-014967",
-    "alt": "Paneles de color sobre un tronco",
-    "text": "Paneles de color sobre un tronco. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Tres paneles de círculos de colores",
+    "text": "Tres paneles de círculos de colores.",
     "gallery": [
       {
         "image": "arc-014967",
         "thumb": "arc-014967",
         "archiveId": "ARC-014967",
-        "alt": "Paneles de color sobre un tronco · vista 1",
+        "alt": "Tres paneles de círculos de colores. Vista 1",
         "sourceName": "IMG20260610200823.jpg",
         "contentKey": "ARC-014967"
       },
@@ -5176,7 +5170,7 @@ export const catalogue = [
         "image": "gallery-esc-048-view-2-horizontal",
         "thumb": "gallery-esc-048-view-2-horizontal",
         "archiveId": "ARC-014970",
-        "alt": "Paneles de color sobre un tronco · vista 2",
+        "alt": "Tres paneles de círculos de colores. Vista 2",
         "sourceName": "IMG20260624210545.jpg",
         "contentKey": "ARC-014970"
       }
@@ -5184,21 +5178,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014968",
-    "label": "Recipientes blancos y ramificaciones rojas",
+    "label": "Conjunto de cilindros y ramas",
     "category": "escultura",
     "series": "Intervenciones en el entorno",
     "chapter": "construir-formas",
     "reference": "ESC-049",
     "image": "arc-014968",
     "thumb": "arc-014968",
-    "alt": "Recipientes blancos y ramificaciones rojas",
-    "text": "Recipientes blancos y ramificaciones rojas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Conjunto de cilindros y ramas",
+    "text": "Conjunto de cilindros y ramas.",
     "gallery": [
       {
         "image": "arc-014968",
         "thumb": "arc-014968",
         "archiveId": "ARC-014968",
-        "alt": "Recipientes blancos y ramificaciones rojas · vista 1",
+        "alt": "Conjunto de cilindros y ramas. Vista 1",
         "sourceName": "IMG20260619212231.jpg",
         "contentKey": "ARC-014968"
       },
@@ -5206,7 +5200,7 @@ export const catalogue = [
         "image": "gallery-esc-049-view-2-horizontal",
         "thumb": "gallery-esc-049-view-2-horizontal",
         "archiveId": "ARC-014969",
-        "alt": "Recipientes blancos y ramificaciones rojas · vista 2",
+        "alt": "Conjunto de cilindros y ramas. Vista 2",
         "sourceName": "IMG20260624210506_BURST001_COVER.jpg",
         "contentKey": "ARC-014969"
       },
@@ -5214,7 +5208,7 @@ export const catalogue = [
         "image": "gallery-esc-049-view-3-horizontal",
         "thumb": "gallery-esc-049-view-3-horizontal",
         "archiveId": "ARC-014972",
-        "alt": "Recipientes blancos y ramificaciones rojas · vista 3",
+        "alt": "Conjunto de cilindros y ramas. Vista 3",
         "sourceName": "IMG20260629212820.jpg",
         "contentKey": "ARC-014972"
       },
@@ -5222,7 +5216,7 @@ export const catalogue = [
         "image": "gallery-esc-049-view-4-horizontal",
         "thumb": "gallery-esc-049-view-4-horizontal",
         "archiveId": "ARC-014974",
-        "alt": "Recipientes blancos y ramificaciones rojas · vista 4",
+        "alt": "Conjunto de cilindros y ramas. Vista 4",
         "sourceName": "IMG20260629212955.jpg",
         "contentKey": "ARC-014974"
       },
@@ -5230,7 +5224,7 @@ export const catalogue = [
         "image": "gallery-esc-049-view-5-horizontal",
         "thumb": "gallery-esc-049-view-5-horizontal",
         "archiveId": "ARC-014990",
-        "alt": "Recipientes blancos y ramificaciones rojas · vista 5",
+        "alt": "Conjunto de cilindros y ramas. Vista 5",
         "sourceName": "IMG20260804200454.jpg",
         "contentKey": "ARC-014990"
       },
@@ -5238,7 +5232,7 @@ export const catalogue = [
         "image": "gallery-esc-049-view-6-horizontal",
         "thumb": "gallery-esc-049-view-6-horizontal",
         "archiveId": "ARC-014995",
-        "alt": "Recipientes blancos y ramificaciones rojas · vista 6",
+        "alt": "Conjunto de cilindros y ramas. Vista 6",
         "sourceName": "IMG20260804200727.jpg",
         "contentKey": "ARC-014995"
       },
@@ -5246,7 +5240,7 @@ export const catalogue = [
         "image": "gallery-esc-049-view-7-horizontal",
         "thumb": "gallery-esc-049-view-7-horizontal",
         "archiveId": "ARC-014996",
-        "alt": "Recipientes blancos y ramificaciones rojas · vista 7",
+        "alt": "Conjunto de cilindros y ramas. Vista 7",
         "sourceName": "IMG20260804200738.jpg",
         "contentKey": "ARC-014996"
       }
@@ -5256,7 +5250,7 @@ export const catalogue = [
     "id": "moviles-014976",
     "label": "Círculos rojos entrelazados",
     "category": "moviles",
-    "series": "Tramas y objetos encontrados",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-023",
     "image": "gallery-014976-cool-neutral-v2",
@@ -5340,21 +5334,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-014978",
-    "label": "Marcos de color en el árbol",
+    "label": "Árbol con figuras de colores",
     "category": "escultura",
     "series": "Intervenciones en el entorno",
     "chapter": "construir-formas",
     "reference": "ESC-050",
     "image": "arc-014978",
     "thumb": "arc-014978",
-    "alt": "Marcos de color en el árbol",
-    "text": "Marcos de color en el árbol. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Árbol con figuras de colores",
+    "text": "Árbol con figuras de colores.",
     "gallery": [
       {
         "image": "arc-014978",
         "thumb": "arc-014978",
         "archiveId": "ARC-014978",
-        "alt": "Marcos de color en el árbol · vista 1",
+        "alt": "Árbol con figuras de colores. Vista 1",
         "sourceName": "IMG20260727205616.jpg",
         "contentKey": "ARC-014978"
       },
@@ -5362,7 +5356,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-2-horizontal",
         "thumb": "gallery-esc-050-view-2-horizontal",
         "archiveId": "ARC-014979",
-        "alt": "Marcos de color en el árbol · vista 2",
+        "alt": "Árbol con figuras de colores. Vista 2",
         "sourceName": "IMG20260727205646.jpg",
         "contentKey": "ARC-014979"
       },
@@ -5370,7 +5364,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-3-horizontal",
         "thumb": "gallery-esc-050-view-3-horizontal",
         "archiveId": "ARC-014980",
-        "alt": "Marcos de color en el árbol · vista 3",
+        "alt": "Árbol con figuras de colores. Vista 3",
         "sourceName": "IMG20260728205357.jpg",
         "contentKey": "ARC-014980"
       },
@@ -5378,7 +5372,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-4-horizontal",
         "thumb": "gallery-esc-050-view-4-horizontal",
         "archiveId": "ARC-014981",
-        "alt": "Marcos de color en el árbol · vista 4",
+        "alt": "Árbol con figuras de colores. Vista 4",
         "sourceName": "IMG20260728205409.jpg",
         "contentKey": "ARC-014981"
       },
@@ -5386,7 +5380,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-5-horizontal",
         "thumb": "gallery-esc-050-view-5-horizontal",
         "archiveId": "ARC-014982",
-        "alt": "Marcos de color en el árbol · vista 5",
+        "alt": "Árbol con figuras de colores. Vista 5",
         "sourceName": "IMG20260728205423~2.jpg",
         "contentKey": "ARC-014982"
       },
@@ -5394,7 +5388,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-6-horizontal",
         "thumb": "gallery-esc-050-view-6-horizontal",
         "archiveId": "ARC-014983",
-        "alt": "Marcos de color en el árbol · vista 6",
+        "alt": "Árbol con figuras de colores. Vista 6",
         "sourceName": "IMG20260728205507.jpg",
         "contentKey": "ARC-014983"
       },
@@ -5402,7 +5396,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-7-horizontal",
         "thumb": "gallery-esc-050-view-7-horizontal",
         "archiveId": "ARC-014984",
-        "alt": "Marcos de color en el árbol · vista 7",
+        "alt": "Árbol con figuras de colores. Vista 7",
         "sourceName": "IMG20260728205507~2.jpg",
         "contentKey": "ARC-014984"
       },
@@ -5410,7 +5404,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-8-horizontal",
         "thumb": "gallery-esc-050-view-8-horizontal",
         "archiveId": "ARC-014985",
-        "alt": "Marcos de color en el árbol · vista 8",
+        "alt": "Árbol con figuras de colores. Vista 8",
         "sourceName": "IMG20260728205519.jpg",
         "contentKey": "ARC-014985"
       },
@@ -5418,7 +5412,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-9-horizontal",
         "thumb": "gallery-esc-050-view-9-horizontal",
         "archiveId": "ARC-014997",
-        "alt": "Marcos de color en el árbol · vista 9",
+        "alt": "Árbol con figuras de colores. Vista 9",
         "sourceName": "IMG20260804201122.jpg",
         "contentKey": "ARC-014997"
       },
@@ -5426,7 +5420,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-10-horizontal",
         "thumb": "gallery-esc-050-view-10-horizontal",
         "archiveId": "ARC-014998",
-        "alt": "Marcos de color en el árbol · vista 10",
+        "alt": "Árbol con figuras de colores. Vista 10",
         "sourceName": "IMG20260804201207.jpg",
         "contentKey": "ARC-014998"
       },
@@ -5434,7 +5428,7 @@ export const catalogue = [
         "image": "gallery-esc-050-view-11-horizontal",
         "thumb": "gallery-esc-050-view-11-horizontal",
         "archiveId": "ARC-014999",
-        "alt": "Marcos de color en el árbol · vista 11",
+        "alt": "Árbol con figuras de colores. Vista 11",
         "sourceName": "IMG20260804201207~2.jpg",
         "contentKey": "ARC-014999"
       }
@@ -5444,7 +5438,7 @@ export const catalogue = [
     "id": "moviles-015000",
     "label": "Curvas azules y verdes",
     "category": "moviles",
-    "series": "Discos y recorridos",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-024",
     "image": "gallery-015000-cool-neutral-v2",
@@ -5474,7 +5468,7 @@ export const catalogue = [
     "id": "moviles-015002",
     "label": "Trama oscura con flores de color",
     "category": "moviles",
-    "series": "Tramas y objetos encontrados",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-025",
     "image": "gallery-015002-cool-neutral-v2",
@@ -5496,7 +5490,7 @@ export const catalogue = [
     "id": "moviles-015006",
     "label": "Arco rojo y discos azules",
     "category": "moviles",
-    "series": "Discos y recorridos",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-026",
     "image": "gallery-015006-cool-neutral-v2",
@@ -5526,7 +5520,7 @@ export const catalogue = [
     "id": "moviles-015011",
     "label": "Un recorrido de pequeños discos",
     "category": "moviles",
-    "series": "Discos y recorridos",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-027",
     "image": "gallery-015011-cool-neutral-v2",
@@ -5644,7 +5638,7 @@ export const catalogue = [
     "id": "moviles-015021",
     "label": "Círculo abierto de muchos colores",
     "category": "moviles",
-    "series": "Discos y recorridos",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-028",
     "image": "gallery-015021-cool-neutral-v2",
@@ -5728,21 +5722,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-015032",
-    "label": "Círculo blanco de piezas encontradas",
+    "label": "Composición circular de piezas ensambladas",
     "category": "escultura",
     "series": "Intervenciones en el entorno",
     "chapter": "construir-formas",
     "reference": "ESC-051",
     "image": "arc-015032",
     "thumb": "arc-015032",
-    "alt": "Círculo blanco de piezas encontradas",
-    "text": "Círculo blanco de piezas encontradas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Composición circular de piezas ensambladas",
+    "text": "Composición circular de piezas ensambladas.",
     "gallery": [
       {
         "image": "arc-015032",
         "thumb": "arc-015032",
         "archiveId": "ARC-015032",
-        "alt": "Círculo blanco de piezas encontradas · vista 1",
+        "alt": "Composición circular de piezas ensambladas. Vista 1",
         "sourceName": "IMG20260824190926~2.jpg",
         "contentKey": "ARC-015032"
       },
@@ -5750,7 +5744,7 @@ export const catalogue = [
         "image": "gallery-esc-051-view-2-horizontal",
         "thumb": "gallery-esc-051-view-2-horizontal",
         "archiveId": "ARC-015033",
-        "alt": "Círculo blanco de piezas encontradas · vista 2",
+        "alt": "Composición circular de piezas ensambladas. Vista 2",
         "sourceName": "IMG20260825120912~2.jpg",
         "contentKey": "ARC-015033"
       }
@@ -5760,7 +5754,7 @@ export const catalogue = [
     "id": "moviles-015045",
     "label": "Estructura abierta y un aro de color",
     "category": "moviles",
-    "series": "Tramas y objetos encontrados",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-029",
     "image": "gallery-015045-cool-neutral-v2",
@@ -5782,7 +5776,7 @@ export const catalogue = [
     "id": "moviles-015051",
     "label": "Columna de discos multicolores",
     "category": "moviles",
-    "series": "Discos y recorridos",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-030",
     "image": "gallery-015051-cool-neutral-v2",
@@ -5820,7 +5814,7 @@ export const catalogue = [
     "id": "moviles-015058",
     "label": "Recipientes rosas, verdes y amarillos",
     "category": "moviles",
-    "series": "Discos y recorridos",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-031",
     "image": "gallery-015058-cool-neutral-v2",
@@ -5890,7 +5884,7 @@ export const catalogue = [
     "id": "moviles-015062",
     "label": "Ramas y figuras geométricas",
     "category": "moviles",
-    "series": "Líneas y equilibrio",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-032",
     "image": "gallery-015062-cool-neutral-v2",
@@ -5968,7 +5962,7 @@ export const catalogue = [
     "id": "moviles-015067",
     "label": "Pequeños recipientes suspendidos",
     "category": "moviles",
-    "series": "Discos y recorridos",
+    "series": "Móviles",
     "chapter": "seguir-creando",
     "reference": "MOV-033",
     "image": "gallery-015067-cool-neutral-v2",
@@ -6012,21 +6006,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-015076",
-    "label": "Un tronco con formas superpuestas",
+    "label": "Tronco vertical con elementos superpuestos",
     "category": "escultura",
     "series": "Intervenciones en el entorno",
     "chapter": "construir-formas",
     "reference": "ESC-052",
     "image": "arc-015076",
     "thumb": "arc-015076",
-    "alt": "Un tronco con formas superpuestas",
-    "text": "Un tronco con formas superpuestas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Tronco vertical con elementos superpuestos",
+    "text": "Tronco vertical con elementos superpuestos.",
     "gallery": [
       {
         "image": "arc-015076",
         "thumb": "arc-015076",
         "archiveId": "ARC-015076",
-        "alt": "Un tronco con formas superpuestas · vista 1",
+        "alt": "Tronco vertical con elementos superpuestos. Vista 1",
         "sourceName": "IMG_20241122_163944.jpg",
         "contentKey": "ARC-015076"
       },
@@ -6034,7 +6028,7 @@ export const catalogue = [
         "image": "gallery-esc-052-view-2-horizontal",
         "thumb": "gallery-esc-052-view-2-horizontal",
         "archiveId": "ARC-015077",
-        "alt": "Un tronco con formas superpuestas · vista 2",
+        "alt": "Tronco vertical con elementos superpuestos. Vista 2",
         "sourceName": "IMG_20241122_164000.jpg",
         "contentKey": "ARC-015077"
       }
@@ -6042,21 +6036,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008659",
-    "label": "Una curva que se abre en el espacio",
+    "label": "Volumen abierto de contorno ondulado",
     "category": "escultura",
-    "series": "Volúmenes abiertos",
+    "series": "Planos curvos y volúmenes abiertos",
     "chapter": "construir-formas",
     "reference": "ESC-053",
     "image": "gallery-esc-053",
     "thumb": "gallery-esc-053",
-    "alt": "Una curva que se abre en el espacio",
-    "text": "Una curva que se abre en el espacio. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Volumen abierto de contorno ondulado",
+    "text": "Volumen abierto de contorno ondulado.",
     "gallery": [
       {
         "image": "gallery-esc-053",
         "thumb": "gallery-esc-053",
         "archiveId": "ARC-008659",
-        "alt": "Una curva que se abre en el espacio · vista 1",
+        "alt": "Volumen abierto de contorno ondulado. Vista 1",
         "sourceName": "008_6.JPG",
         "contentKey": "56462c22a76b13d9453da9b86e631820db7fc0c05de51f24607b4f0795672e5b"
       },
@@ -6064,7 +6058,7 @@ export const catalogue = [
         "image": "gallery-esc-053-view-2-horizontal",
         "thumb": "gallery-esc-053-view-2-horizontal",
         "archiveId": "ARC-008658",
-        "alt": "Una curva que se abre en el espacio · vista 2",
+        "alt": "Volumen abierto de contorno ondulado. Vista 2",
         "sourceName": "007_5.JPG",
         "contentKey": "131f83d10542580efa04307623d7e716f430c609a42e4c12e016a472c4675048"
       },
@@ -6072,7 +6066,7 @@ export const catalogue = [
         "image": "gallery-esc-053-view-3-horizontal",
         "thumb": "gallery-esc-053-view-3-horizontal",
         "archiveId": "ARC-008660",
-        "alt": "Una curva que se abre en el espacio · vista 3",
+        "alt": "Volumen abierto de contorno ondulado. Vista 3",
         "sourceName": "009_7.JPG",
         "contentKey": "900aad4413e121322e7fa2abd07c4cee7e220c796c149fbdba90721f07b54cad"
       },
@@ -6080,7 +6074,7 @@ export const catalogue = [
         "image": "gallery-esc-053-view-4-horizontal",
         "thumb": "gallery-esc-053-view-4-horizontal",
         "archiveId": "ARC-008661",
-        "alt": "Una curva que se abre en el espacio · vista 4",
+        "alt": "Volumen abierto de contorno ondulado. Vista 4",
         "sourceName": "010_8.JPG",
         "contentKey": "da163b12ab53e3862f3f0b28e492ed98be86744face24beca252cf3358936b3b"
       },
@@ -6088,7 +6082,7 @@ export const catalogue = [
         "image": "gallery-esc-053-view-5-horizontal",
         "thumb": "gallery-esc-053-view-5-horizontal",
         "archiveId": "ARC-008662",
-        "alt": "Una curva que se abre en el espacio · vista 5",
+        "alt": "Volumen abierto de contorno ondulado. Vista 5",
         "sourceName": "011_9.JPG",
         "contentKey": "04a605c46dc6f3388d078f5759f2a774cc71d5538dbd63e1dcae3faa36fb1e11"
       }
@@ -6096,21 +6090,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-008704",
-    "label": "Forma articulada dentro de un círculo",
+    "label": "Forma articulada en un aro",
     "category": "escultura",
-    "series": "Estructuras y ensamblajes",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-054",
     "image": "gallery-esc-054",
     "thumb": "gallery-esc-054",
-    "alt": "Forma articulada dentro de un círculo",
-    "text": "Forma articulada dentro de un círculo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Forma articulada en un aro",
+    "text": "Forma articulada en un aro.",
     "gallery": [
       {
         "image": "gallery-esc-054",
         "thumb": "gallery-esc-054",
         "archiveId": "ARC-008704",
-        "alt": "Forma articulada dentro de un círculo · vista 1",
+        "alt": "Forma articulada en un aro. Vista 1",
         "sourceName": "SERIE_AGUA1.JPG",
         "contentKey": "507236d7e8d31260339b75e85768b829bcfba84b9082625b9588ea8abec9fd91"
       },
@@ -6118,7 +6112,7 @@ export const catalogue = [
         "image": "gallery-esc-054-view-2-horizontal",
         "thumb": "gallery-esc-054-view-2-horizontal",
         "archiveId": "ARC-008706",
-        "alt": "Forma articulada dentro de un círculo · vista 2",
+        "alt": "Forma articulada en un aro. Vista 2",
         "sourceName": "SERIE_AGUA2.JPG",
         "contentKey": "7ca1c1e19821713ab08ff60edac7113b53dd9c82002f04d24d73bc61e9610e2f"
       },
@@ -6126,7 +6120,7 @@ export const catalogue = [
         "image": "gallery-esc-054-view-3-horizontal",
         "thumb": "gallery-esc-054-view-3-horizontal",
         "archiveId": "ARC-008708",
-        "alt": "Forma articulada dentro de un círculo · vista 3",
+        "alt": "Forma articulada en un aro. Vista 3",
         "sourceName": "SERIE_AGUA3.JPG",
         "contentKey": "c102469f3f97bfbaefb2159041ac95a17fa333821441692e8896a3db8fdb3fe7"
       },
@@ -6134,7 +6128,7 @@ export const catalogue = [
         "image": "gallery-esc-054-view-4-horizontal",
         "thumb": "gallery-esc-054-view-4-horizontal",
         "archiveId": "ARC-008710",
-        "alt": "Forma articulada dentro de un círculo · vista 4",
+        "alt": "Forma articulada en un aro. Vista 4",
         "sourceName": "SERIE_AGUA4.JPG",
         "contentKey": "3de862d922c27bea0cc23112a59774a9e06b6e9a0dea4d122e81673c4e8a2d27"
       },
@@ -6142,7 +6136,7 @@ export const catalogue = [
         "image": "gallery-esc-054-view-5-horizontal",
         "thumb": "gallery-esc-054-view-5-horizontal",
         "archiveId": "ARC-008663",
-        "alt": "Forma articulada dentro de un círculo · vista 5",
+        "alt": "Forma articulada en un aro. Vista 5",
         "sourceName": "024_22.JPG",
         "contentKey": "4639599be41e1de07f306e74ed289fe70d61125a409efde0a8df3e38e65262ee"
       },
@@ -6150,7 +6144,7 @@ export const catalogue = [
         "image": "gallery-esc-054-view-6-horizontal",
         "thumb": "gallery-esc-054-view-6-horizontal",
         "archiveId": "ARC-008664",
-        "alt": "Forma articulada dentro de un círculo · vista 6",
+        "alt": "Forma articulada en un aro. Vista 6",
         "sourceName": "025_23.JPG",
         "contentKey": "34696017acf9244b6cca996e4b17bfc7eed3a2f35a7bedddb1e9f42969be0917"
       },
@@ -6158,7 +6152,7 @@ export const catalogue = [
         "image": "gallery-esc-054-view-7-horizontal",
         "thumb": "gallery-esc-054-view-7-horizontal",
         "archiveId": "ARC-008665",
-        "alt": "Forma articulada dentro de un círculo · vista 7",
+        "alt": "Forma articulada en un aro. Vista 7",
         "sourceName": "026_24.JPG",
         "contentKey": "73afdacbedda7c34f15ef8b5e25afbabed4e6f7cf70c7e6c13175bbd87cb4c33"
       }
@@ -6166,21 +6160,21 @@ export const catalogue = [
   },
   {
     "id": "escultura-009729",
-    "label": "Mesa de varillas y ruedas dentadas",
+    "label": "Estructura de tres ejes y ruedas dentadas",
     "category": "escultura",
-    "series": "Estructuras y ensamblajes",
+    "series": "Estructuras y objetos ensamblados",
     "chapter": "construir-formas",
     "reference": "ESC-055",
     "image": "gallery-esc-055",
     "thumb": "gallery-esc-055",
-    "alt": "Mesa de varillas y ruedas dentadas",
-    "text": "Mesa de varillas y ruedas dentadas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.",
+    "alt": "Estructura de tres ejes y ruedas dentadas",
+    "text": "Estructura de tres ejes y ruedas dentadas.",
     "gallery": [
       {
         "image": "gallery-esc-055",
         "thumb": "gallery-esc-055",
         "archiveId": "ARC-009729",
-        "alt": "Mesa de varillas y ruedas dentadas · vista 1",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 1",
         "sourceName": "DSC_3052.JPG",
         "contentKey": "ARC-009729"
       },
@@ -6188,7 +6182,7 @@ export const catalogue = [
         "image": "gallery-esc-055-view-2-horizontal",
         "thumb": "gallery-esc-055-view-2-horizontal",
         "archiveId": "ARC-009730",
-        "alt": "Mesa de varillas y ruedas dentadas · vista 2",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 2",
         "sourceName": "DSC_3057.JPG",
         "contentKey": "ARC-009730"
       },
@@ -6196,7 +6190,7 @@ export const catalogue = [
         "image": "gallery-esc-055-view-3-horizontal",
         "thumb": "gallery-esc-055-view-3-horizontal",
         "archiveId": "ARC-009731",
-        "alt": "Mesa de varillas y ruedas dentadas · vista 3",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 3",
         "sourceName": "DSC_3060.JPG",
         "contentKey": "ARC-009731"
       },
@@ -6204,7 +6198,7 @@ export const catalogue = [
         "image": "gallery-esc-055-view-4-horizontal",
         "thumb": "gallery-esc-055-view-4-horizontal",
         "archiveId": "ARC-009734",
-        "alt": "Mesa de varillas y ruedas dentadas · vista 4",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 4",
         "sourceName": "DSC_3077.JPG",
         "contentKey": "ARC-009734"
       },
@@ -6212,7 +6206,7 @@ export const catalogue = [
         "image": "gallery-esc-055-view-5-horizontal",
         "thumb": "gallery-esc-055-view-5-horizontal",
         "archiveId": "ARC-009737",
-        "alt": "Mesa de varillas y ruedas dentadas · vista 5",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 5",
         "sourceName": "DSC_3087.JPG",
         "contentKey": "ARC-009737"
       },
@@ -6220,7 +6214,7 @@ export const catalogue = [
         "image": "gallery-esc-055-view-6-horizontal",
         "thumb": "gallery-esc-055-view-6-horizontal",
         "archiveId": "ARC-009713",
-        "alt": "Mesa de varillas y ruedas dentadas · vista 6",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 6",
         "sourceName": "2015-12-05 13.46.58.jpg",
         "contentKey": "ARC-009713"
       },
@@ -6228,9 +6222,17 @@ export const catalogue = [
         "image": "gallery-esc-055-view-7-horizontal",
         "thumb": "gallery-esc-055-view-7-horizontal",
         "archiveId": "ARC-009725",
-        "alt": "Mesa de varillas y ruedas dentadas · vista 7",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 7",
         "sourceName": "20151205_134348.jpg",
         "contentKey": "ARC-009725"
+      },
+      {
+        "image": "gallery-esc-041-view-4-horizontal",
+        "thumb": "gallery-esc-041-view-4-horizontal",
+        "archiveId": "ARC-008829",
+        "alt": "Estructura de tres ejes y ruedas dentadas. Vista 8",
+        "sourceName": "DSC_3049.JPG",
+        "contentKey": "ARC-008829"
       }
     ]
   },
@@ -6238,7 +6240,7 @@ export const catalogue = [
     "id": "dibujo-013422",
     "label": "Curvas entrelazadas en rosa y gris",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-036",
     "image": "arc-013422",
@@ -6260,7 +6262,7 @@ export const catalogue = [
     "id": "dibujo-013423",
     "label": "Planos angulares en gris",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-037",
     "image": "arc-013423",
@@ -6282,7 +6284,7 @@ export const catalogue = [
     "id": "dibujo-013426",
     "label": "Formas azules que se encuentran",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-038",
     "image": "arc-013426",
@@ -6304,7 +6306,7 @@ export const catalogue = [
     "id": "dibujo-013427",
     "label": "Un arco amarillo sobre trazos rojos",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-039",
     "image": "arc-013427",
@@ -6326,7 +6328,7 @@ export const catalogue = [
     "id": "dibujo-013430",
     "label": "Dos formas curvas en azul",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-040",
     "image": "arc-013430",
@@ -6348,7 +6350,7 @@ export const catalogue = [
     "id": "dibujo-013431",
     "label": "Encuentro de amarillos y rojos",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-041",
     "image": "arc-013431",
@@ -6370,7 +6372,7 @@ export const catalogue = [
     "id": "dibujo-013434",
     "label": "Una construcción de líneas azules y naranjas",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-042",
     "image": "arc-013434",
@@ -6392,7 +6394,7 @@ export const catalogue = [
     "id": "dibujo-013435",
     "label": "Trama de líneas azules y rojas",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-043",
     "image": "arc-013435",
@@ -6414,7 +6416,7 @@ export const catalogue = [
     "id": "dibujo-013436",
     "label": "Una composición abierta en rojo",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-044",
     "image": "arc-013436",
@@ -6436,7 +6438,7 @@ export const catalogue = [
     "id": "dibujo-013439",
     "label": "Ritmos grises y acentos naranjas",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-045",
     "image": "arc-013439",
@@ -6458,7 +6460,7 @@ export const catalogue = [
     "id": "dibujo-013440",
     "label": "Planos grises atravesados por el amarillo",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-046",
     "image": "arc-013440",
@@ -6480,7 +6482,7 @@ export const catalogue = [
     "id": "dibujo-013441",
     "label": "Una trama densa de líneas y color",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-047",
     "image": "arc-013441",
@@ -6502,7 +6504,7 @@ export const catalogue = [
     "id": "dibujo-013443",
     "label": "Curvas grises sobre el papel",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-048",
     "image": "arc-013443",
@@ -6524,7 +6526,7 @@ export const catalogue = [
     "id": "dibujo-013447",
     "label": "Dos curvas y una línea oblicua",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-049",
     "image": "arc-013447",
@@ -6546,7 +6548,7 @@ export const catalogue = [
     "id": "dibujo-013448",
     "label": "Trazos rojos entre planos grises",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-050",
     "image": "arc-013448",
@@ -6568,7 +6570,7 @@ export const catalogue = [
     "id": "dibujo-013449",
     "label": "Formas superpuestas en marrón",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-051",
     "image": "arc-013449",
@@ -6590,7 +6592,7 @@ export const catalogue = [
     "id": "dibujo-013452",
     "label": "Planos azules y naranjas",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-052",
     "image": "arc-013452",
@@ -6612,7 +6614,7 @@ export const catalogue = [
     "id": "dibujo-013453",
     "label": "Una forma angular en azul y violeta",
     "category": "dibujo",
-    "series": "Línea y color",
+    "series": "Dibujo y espacio",
     "chapter": "construir-formas",
     "reference": "DIB-053",
     "image": "arc-013453",
@@ -6632,12 +6634,6 @@ export const catalogue = [
   }
 ];
 
-const editorialRoots = { moviles: ["Deriva", "Equilibrio", "Aire", "Suspensión", "Contrapeso", "Órbita", "Tránsito", "Vibración"], escultura: ["Umbral", "Materia", "Torsión", "Vigilia", "Contrapunto", "Pulso", "Rastro", "Presencia"], pintura: ["Visión", "Relato", "Travesía", "Presencia", "Fábula", "Resonancia", "Horizonte", "Aparición"], dibujo: ["Pulso", "Trazo", "Ritmo", "Umbral", "Deriva", "Tensión", "Ecos", "Trama"] };
-function motifFor(label) { const lower = label.toLowerCase(); const motifs = [[/arca|arquitecturas/, "nave"], [/sol|luna/, "astros"], [/ojo/, "mirada"], [/árbol|ramas|tronco/, "ramas"], [/gato|felin/, "felino"], [/rostro|perfil|retrato/, "rostro"], [/dragón/, "dragón"], [/toro|ruedo/, "ruedo"], [/engranaje|ruedas dentadas/, "engranajes"], [/círculo|aro|discos/, "círculos"], [/curvas|ondas|espiral/, "curvas"], [/líneas|trazos|retícula|trama/, "líneas"], [/planos/, "planos"], [/figura|formas|volumen|relieve|estructura|composición/, "formas"]]; return motifs.find(([pattern]) => pattern.test(lower))?.[1] || "forma"; }
-function nuanceFor(label) { const lower = label.toLowerCase(); const colour = lower.match(/\b(rosa|rojo|azul|verde|amarillo|naranja|violeta|ocre|dorado|blanco|negro|gris|claro|oscuro|carmín|marrón)\b/); if (colour) return `en ${colour[1]}`; const movement = lower.match(/\b(suspendid[ao]s?|ascendente|entrelazad[ao]s?|abiert[ao]s?|articulad[ao]s?|quebrad[ao]s?|envolvente|circular|vertical|horizontal|alargad[ao]s?)\b/); return movement?.[1] || "interior"; }
-function descriptionFor(work, label) { const phrase = label.replace(/^(una |un |dos |tres |cuatro |el |la )/i, "").toLowerCase(); const lead = { moviles: "La pieza reúne", escultura: "La pieza presenta", pintura: "La pintura reúne", dibujo: "El dibujo articula" }[work.category]; const close = { moviles: "La suspensión hace que el volumen cambie con cada mirada.", escultura: "Sus contornos, vacíos y superficies construyen una presencia cambiante.", pintura: "El color y el contorno convierten la escena en un espacio propio.", dibujo: "La línea y el color abren una tensión viva sobre el papel." }[work.category]; return `${lead} ${phrase}. ${close}`; }
-const usedEditorialTitles = new Map();
-catalogue.forEach((work, index) => { const descriptiveLabel = work.label; const root = editorialRoots[work.category][index % editorialRoots[work.category].length]; const baseTitle = `${root} de ${motifFor(descriptiveLabel)} ${nuanceFor(descriptiveLabel)}`; const repeated = usedEditorialTitles.get(baseTitle) || 0; usedEditorialTitles.set(baseTitle, repeated + 1); work.label = repeated ? `${baseTitle} ${["II", "III", "IV"][repeated - 1] || "V"}` : baseTitle; work.text = descriptionFor(work, descriptiveLabel); work.alt = work.label; work.gallery.forEach((photo, photoIndex) => { photo.alt = `${work.label}. Vista ${photoIndex + 1}`; }); });
 export const albums = [
   {
     "id": "colomina",

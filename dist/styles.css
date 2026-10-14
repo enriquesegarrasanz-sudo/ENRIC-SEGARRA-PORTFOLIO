@@ -3428,3 +3428,17 @@ main {
 
 .education-directory-image { width: 100%; height: auto; }
 .education-directory-image .directory-count { max-width: calc(100% - 28px); white-space: normal; }
+
+/* Series revisadas: cada conjunto conserva su título y su propio grupo de obras. */
+.catalogue-group { padding: 20px 0 50px; border-top: 1px solid var(--line); }
+.catalogue-group + .catalogue-group { margin-top: 24px; }
+.collection-directory { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px 24px; }
+.collection-directory .image-space { height: 230px; }
+.collection-directory h2 { font-size: clamp(23px,2.1vw,32px); }
+.collection-directory p { font-size: 14px; }
+.catalogue-tools > *, .select-label { min-width: 0; }
+.select-label select { max-width: 100%; }
+@media(max-width:1100px) { .collection-directory { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:600px) { .collection-directory { grid-template-columns: minmax(0,1fr); } .collection-directory .image-space { height: 260px; } .catalogue-group .section-head { align-items: start; gap: 14px; flex-wrap: wrap; } .work-info h1 { overflow-wrap: break-word; } }
+
+.collection-directory small { margin-left: 6px; }

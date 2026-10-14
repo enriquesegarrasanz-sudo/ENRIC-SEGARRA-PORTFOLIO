@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "check": "node scripts/check.mjs && node scripts/check-archive.mjs"
+    "check": "node scripts/check.mjs && node scripts/check-archive.mjs && node scripts/check-collections.mjs"
   },
   "engines": {
     "node": ">=22"
