@@ -153,14 +153,24 @@ function paintingAndDrawing() {
   return head("Obra", "Pintura y dibujo", "Tauromaquia, Gatos y Arcas de Noé, junto a otros conjuntos de pintura y obra sobre papel.") + collectionCards("pintura") + `<div class="end-link">${a("/obra/pintura", "Ver toda la pintura " + arrow)}</div><section class="section">${sectionHead("Dibujo", "/obra/dibujo", "Ver todos los dibujos")}${collectionCards("dibujo")}</section>`;
 }
 function garden() {
-  const allowed = ["ARC-014916", "ARC-014923", "ARC-014849"];
+  const mov17 = works.find(w => w.reference === "MOV-017");
+  const allowed = ["ARC-014916", "ARC-014923", "ARC-014849", "ARC-014851"];
   const allPhotos = ["arboles", "naturaleza-moviles"].flatMap(id => albums.find(al => al.id === id)?.gallery || []);
-  const photos = allowed.map(id => allPhotos.find(p => p.archiveId === id)).filter(Boolean);
+  const photos = allowed.map(id => {
+    if (id === "ARC-014851" && mov17) {
+      return {
+        ...mov17.gallery[0],
+        alt: `${mov17.label} (${mov17.reference})`,
+        owners: [{ id: mov17.id, label: `${mov17.label} (${mov17.reference})`, path: `/obra/${mov17.id}`, scope: "obra" }]
+      };
+    }
+    return allPhotos.find(p => p.archiveId === id);
+  }).filter(Boolean);
   setGallery(photos, "Jardín de las Lagartijas");
   return head("Espacio escultórico", "Jardín de las Lagartijas", "Jardí de les Sargantanes") + prose([
     "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
     "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
-  ]) + `<div class="end-link">${a("/obra/moviles", "Ver la serie de móviles " + arrow)}</div><div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>`;
+  ]) + `<div class="end-link">${a("/obra/moviles", "Ver la serie de móviles " + arrow)}</div><div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>${mov17 ? `<section class="section">${sectionHead("Obra en el espacio", "/obra/" + mov17.id, "Ver ficha de la obra")}${workGrid([mov17])}</section>` : ""}`;
 }
 function trajectoryContact() {
   return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section">${sectionHead("Exposiciones", "/exposiciones", "Ver exposiciones")}${albumGrid(albums.filter(al => al.section === "exposiciones" && al.audience !== "educacion").slice(0,3))}</section><section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
