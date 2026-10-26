@@ -1,3 +1,16 @@
+## 2026-10-26 — Aislamiento de apartados y eliminación de navegación cruzada
+
+- Eliminada la barra de pestañas («Toda la obra», «Móviles», «Escultura», «Pintura», «Dibujo») en el interior de los apartados de disciplina, de forma que cada sección muestra única y exclusivamente sus obras sin dirigir al resto de apartados ni a la vista combinada.
+- Redirección automática de la ruta general `#/obra` hacia `#/obra/moviles`.
+- En el filtro desplegable de familias de cada disciplina, la opción neutra pasa a ser «Todas las series» con sus correspondientes traducciones internacionales.
+
+## 2026-10-26 — Rediseño de la presentación en portada y recorrido curatorial de apartados
+
+- Presentación superior (`.home-hero`) rediseñada en dos columnas equilibradas para que la fotografía completa, el título y los controles del carrusel se visualicen de un vistazo sin desbordar la pantalla.
+- Carrusel automático mejorado con transición suave, contador en vivo (`01 / 09`), etiqueta de disciplina, descripción de la obra activa, barra de progreso por diapositiva y controles de navegación anterior/siguiente, iniciándose automáticamente al abrir la página.
+- Recorrido inferior de apartados (`.home-sections`) rediseñado con una presentación editorial minimalista en trípticos visuales curados (`01` a `08`: Móviles, Escultura, Jardín de las Lagartijas, Pintura, Dibujo, Arte infantil, Exposiciones y Trayectoria y contacto), seleccionando las obras y vistas más representativas de cada disciplina y serie (*Arcas de Noé*, *Tauromaquia*, *Gatos*, hierro, planos plegados, talla en madera, espacio natural y muestras en salas).
+- Traducciones completas incorporadas en `dist/i18n.js` para todos los idiomas disponibles (CA, EN, FR, ZH, JA).
+
 ## 2026-10-26 — Reclasificación de obras a la serie Gatos
 
 - Reclasificación en el catálogo de pintura a la serie «Gatos»:

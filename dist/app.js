@@ -24,7 +24,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20261026-moviles-escultura";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20261026-portada-curatorial";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -136,7 +136,8 @@ function home() {
     { image: "hero-work-blue-green-drawing-real-neutral-v3.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
     { image: "hero-work-painted-relief-real-neutral-v3.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
   ];
-  return `<section class="home-introduction"><p class="eyebrow">Escultura · Pintura · Dibujo</p><h1>ENRIC SEGARRA I GARIBO</h1><p>${esc(site.intro)}</p></section><section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async"><figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption></figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>${homeDirectory()}`;
+  const total = String(slides.length).padStart(2, "0");
+  return `<section class="home-hero" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-introduction"><p class="eyebrow">Escultura · Pintura · Dibujo</p><h1>ENRIC SEGARRA I GARIBO</h1><p class="home-intro-lead">${esc(site.intro)}</p><div class="home-carousel-meta"><div class="home-carousel-bar"><span class="home-carousel-counter" data-home-carousel-counter>01 / ${total}</span><span class="home-carousel-kinds">${slides.map((slide, i) => `<span class="home-carousel-kind${i === 0 ? " is-active" : ""}" data-home-kind>${esc(slide.kind)}</span>`).join("")}</span><div class="home-carousel-controls"><button type="button" data-home-carousel-prev aria-label="Anterior obra"><span aria-hidden="true">←</span></button><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div><div class="home-carousel-captions">${slides.map((slide, i) => `<p class="home-carousel-caption${i === 0 ? " is-active" : ""}" data-home-caption>${esc(slide.alt)}</p>`).join("")}</div><div class="home-carousel-dots" role="tablist" aria-label="Obras en portada">${slides.map((slide, i) => `<button type="button" class="home-carousel-dot${i === 0 ? " is-active" : ""}" data-home-carousel-dot="${i}" aria-label="${esc(slide.alt)}" aria-current="${i === 0 ? "true" : "false"}"></button>`).join("")}</div></div></div><div class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel-stage title="Siguiente obra"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async"><figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption></figure>`).join("")}</div></div></div></section>${homeDirectory()}`;
 }
 
 
@@ -144,7 +145,120 @@ function directoryCard(path, title, image, description = "") {
   return a(path, `<div class="image-space">${img(image, title)}</div><h2>${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ""}<span aria-hidden="true">↗</span>`, "section-card");
 }
 function homeDirectory() {
-  return `<div class="section-directory">${directoryCard("/moviles", "Móviles", works.find(w => w.category === "moviles").thumb, "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.")}${directoryCard("/escultura", "Escultura", "escultura-madera", "Planos plegados, madera, hierro, piedra y relieves murales")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014916", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura", "Pintura", works.find(w => w.reference === "PIN-036").thumb, "Tauromaquia, Gatos y Arcas de Noé, junto a otras series")}${directoryCard("/dibujo", "Dibujo", works.find(w => w.reference === "DIB-003").thumb, "Líneas, planos y figuras sobre papel")}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}${directoryCard("/exposiciones", "Exposiciones", "colomina-009086-professional", "La obra en las salas y la memoria de los encuentros.")}</div>`;
+  const sections = [
+    {
+      num: "01",
+      path: "/moviles",
+      title: "Móviles",
+      meta: "33 obras · Escultura suspendida",
+      description: "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.",
+      highlights: "Equilibrio · Aire · Materiales recuperados",
+      frames: [
+        { src: "gallery-015021-cool-neutral-v2", alt: "Círculo abierto de muchos colores (MOV-028)", mode: "studio" },
+        { src: "hero-work-corrugated-real-neutral-v3", alt: "Móvil suspendido de tubos corrugados", mode: "studio" },
+        { src: "hero-work-baskets-real-neutral-v3", alt: "Móvil suspendido compuesto por cestas y elementos de color", mode: "studio" },
+      ],
+    },
+    {
+      num: "02",
+      path: "/escultura",
+      title: "Escultura",
+      meta: "55 obras · 7 conjuntos",
+      description: "Planos plegados, madera, hierro, piedra y relieves murales",
+      highlights: "Hierro forjado · Planos curvos · Talla en madera",
+      frames: [
+        { src: "hero-work-circle-real-neutral-v3", alt: "Escultura circular de metal y piezas articuladas", mode: "studio" },
+        { src: "gallery-esc-031", alt: "Plano abierto con curvas ascendentes (ESC-031)", mode: "studio" },
+        { src: "gallery-esc-009", alt: "Forma curva con veta (ESC-009)", mode: "studio" },
+      ],
+    },
+    {
+      num: "03",
+      path: "/jardin",
+      title: "Jardín de las Lagartijas",
+      meta: "Espacio escultórico en la naturaleza",
+      description: "Jardí de les Sargantanes · Espacio escultórico",
+      highlights: "Árboles · Viento · Paisaje rústico",
+      frames: [
+        { src: "nature-014851", alt: "Planos de color entre los árboles (MOV-017)", mode: "cover" },
+        { src: "arc-014873", alt: "Obras suspendidas bajo la encina en el Jardín de las Lagartijas", mode: "cover" },
+        { src: "arc-014957", alt: "Cestas suspendidas entre las ramas (MOV-022)", mode: "cover" },
+      ],
+    },
+    {
+      num: "04",
+      path: "/pintura",
+      title: "Pintura",
+      meta: "80 obras · 8 series pictóricas",
+      description: "Tauromaquia, Gatos y Arcas de Noé, junto a otras series",
+      highlights: "Arcas de Noé · Tauromaquia · Gatos",
+      frames: [
+        { src: "pin-001-estudio-v3", alt: "Arca en composición circular (PIN-001)", mode: "studio" },
+        { src: "pin-069-estudio-v3", alt: "Toro y figuras (PIN-069)", mode: "studio" },
+        { src: "pin-023-estudio-v3", alt: "Gato de cuerpo violeta (PIN-023)", mode: "studio" },
+      ],
+    },
+    {
+      num: "05",
+      path: "/dibujo",
+      title: "Dibujo",
+      meta: "53 obras · Papel y espacio",
+      description: "Líneas, planos y figuras sobre papel",
+      highlights: "Dibujo y espacio · Color · Figura",
+      frames: [
+        { src: "drawing-015081-catalogue", alt: "Estudio de formas en rojo (DIB-003)", mode: "studio" },
+        { src: "drawing-015098-catalogue", alt: "Planos azules, verdes y amarillos (DIB-019)", mode: "studio" },
+        { src: "hero-work-blue-green-drawing-real-neutral-v3", alt: "Dibujo abstracto azul y verde", mode: "studio" },
+      ],
+    },
+    {
+      num: "06",
+      path: "/arte-infantil",
+      title: "Arte infantil",
+      meta: "20 colecciones · Pedagogía y creación",
+      description: "Una etapa de la trayectoria artística",
+      highlights: "Exposiciones · Talleres · Creación colectiva",
+      frames: [
+        { src: "bellas-arc-012548", alt: "Arte infantil en la Sala de Bellas Artes", mode: "cover" },
+        { src: "arc-002472", alt: "Exposición de arte infantil en Casa Abadía", mode: "cover" },
+        { src: "arc-000043", alt: "Pintar y construir en común", mode: "cover" },
+      ],
+    },
+    {
+      num: "07",
+      path: "/exposiciones",
+      title: "Exposiciones",
+      meta: "Archivo de muestras y salas",
+      description: "La obra en las salas y la memoria de los encuentros.",
+      highlights: "Palacio Colomina · Bellas Artes · Caixa Castelló",
+      frames: [
+        { src: "colomina-009086-professional", alt: "Exposición de escultura en el Palacio Colomina", mode: "cover" },
+        { src: "evolucion-013392-restored", alt: "Sala d’Exposicions de les Belles Arts · Evolución 1984–2004", mode: "cover" },
+        { src: "arc-009490", alt: "Exposición de dibujo y escultura en Caixa Castelló", mode: "cover" },
+      ],
+    },
+    {
+      num: "08",
+      path: "/trayectoria-contacto",
+      title: "Trayectoria y contacto",
+      meta: "Biografía · 1959 — presente",
+      description: "Vida, taller, capítulos de creación y contacto directo.",
+      highlights: "Orígenes · Taller · Contacto",
+      frames: [
+        { src: "hero-portrait-real-neutral-v3", alt: "ENRIC SEGARRA I GARIBO sostiene una escultura de madera", mode: "studio" },
+        { src: "retrato-artista", alt: "Retrato de ENRIC SEGARRA I GARIBO", mode: "cover" },
+        { src: "arc-014923", alt: "ENRIC SEGARRA I GARIBO junto a un móvil en el jardín", mode: "cover" },
+      ],
+    },
+  ];
+  return `<section class="home-sections" aria-label="Apartados del archivo"><div class="home-sections-head"><p class="eyebrow">Recorrido por el archivo</p><span>08 apartados</span></div><div class="home-sections-grid">${sections.map((s) => {
+    const [mainFrame, ...sideFrames] = s.frames;
+    return a(
+      s.path,
+      `<div class="home-section-topline"><span class="home-section-num">${s.num}</span><span class="home-section-meta">${esc(s.meta)}</span><span class="home-section-arrow" aria-hidden="true">↗</span></div><div class="home-section-triptych"><div class="home-section-frame is-main is-${mainFrame.mode}">${img(mainFrame.src, mainFrame.alt)}</div><div class="home-section-side">${sideFrames.map((f) => `<div class="home-section-frame is-secondary is-${f.mode}">${img(f.src, f.alt)}</div>`).join("")}</div></div><div class="home-section-body"><div class="home-section-title-row"><h2>${esc(s.title)}</h2><span class="home-section-highlights">${esc(s.highlights)}</span></div><p>${esc(s.description)}</p></div>`,
+      "home-section-card",
+    );
+  }).join("")}</div></section>`;
 }
 function sculpture() {
   return head("Obra", "Escultura", "Planos plegados, madera, hierro, piedra y relieves murales.") + collectionCards("escultura") + `<div class="end-link">${a("/obra/escultura", "Ver toda la escultura " + arrow)}</div>`;
@@ -214,10 +328,61 @@ function trajectoryContact() {
   return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
 }
 
-const room3dUrl = (space) => {
+const room3dUrl = (space, query = "") => {
   const base = location.port === "4173" ? `${location.protocol}//${location.hostname}:5188/` : "galeria-3d/";
-  return `${base}#${space}`;
+  return `${base}${query ? "?" + query : ""}#${space}`;
 };
+function mobiles3dShowcase() {
+  const iframeSrc = room3dUrl("moviles", "autoenter=1");
+  return `<section class="mobiles-3d-showcase" aria-label="El Mirador del Aire · Galería 3D y 2D-3D de Móviles">
+    <div class="mobiles-3d-top">
+      <div>
+        <p class="eyebrow">Galería interactiva 3D y 2D-3D · Juego del Aire en tres alturas</p>
+        <h2>El Mirador del Aire · Sala Aérea de Móviles</h2>
+        <p>Al estar suspendidos en el espacio, este pabellón propone descubrir los 33 móviles combinando la <strong>mirada desde abajo</strong> con <strong>terrazas escalonadas (+1.70m)</strong>, una <strong>gran pasarela aérea (+3.20m)</strong> y el <strong>Juego del Aire</strong>, alternando en tiempo real entre <strong>Volumen 3D</strong> e <strong>Imagen 2D-3D</strong> de máxima nitidez.</p>
+      </div>
+      <a class="room-3d-cta" href="${room3dUrl("moviles")}" target="_blank" rel="noopener">Abrir sala 3D a pantalla completa <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="mobiles-3d-pillars">
+      <article class="mobiles-3d-pillar">
+        <strong>01 · Mirada Cenital desde abajo (0.0m)</strong>
+        <p>Camina por el suelo principal y sitúate sobre los medallones cenitales bajo cada móvil para contemplar su constelación suspendida contra los lucernarios.</p>
+        <button type="button" data-mob3d-cmd='{"elev":0,"action":"lookup"}'>👀 Mirar desde abajo ↑</button>
+      </article>
+      <article class="mobiles-3d-pillar">
+        <strong>02 · Subir a Terrazas (+1.7m) y Pasarela (+3.2m)</strong>
+        <p>Sube por las rampas escalonadas a las terrazas laterales o a la pasarela central suspendida en el cielo para ver las obras cara a cara a la altura de tus ojos.</p>
+        <button type="button" data-mob3d-cmd='{"elev":2}'>🌉 Subir a la Pasarela Aérea +3.2m</button>
+      </article>
+      <article class="mobiles-3d-pillar">
+        <strong>03 · Juego del Aire + Formato 3D / 2D-3D</strong>
+        <p>Sopla corrientes de brisa para despertar los 33 móviles y ponlos en danza mientras cambias entre Volumen 3D texturizado e Imagen 2D-3D multi-ángulo.</p>
+        <button type="button" data-mob3d-cmd='{"action":"breeze"}'>🌬️ Soplar corriente de aire</button>
+      </article>
+    </div>
+    <div class="mobiles-3d-controls" role="toolbar" aria-label="Controles rápidos de la galería 3D de móviles">
+      <div class="mobiles-3d-btn-group">
+        <span>Altura:</span>
+        <button type="button" class="mobiles-3d-btn" data-mob3d-elev="0" data-mob3d-cmd='{"elev":0}' aria-pressed="true">Suelo Cenital (0.0m)</button>
+        <button type="button" class="mobiles-3d-btn" data-mob3d-elev="1" data-mob3d-cmd='{"elev":1}' aria-pressed="false">Terrazas (+1.70m)</button>
+        <button type="button" class="mobiles-3d-btn" data-mob3d-elev="2" data-mob3d-cmd='{"elev":2}' aria-pressed="false">Pasarela Aérea (+3.20m)</button>
+      </div>
+      <div class="mobiles-3d-btn-group">
+        <span>Renderizado:</span>
+        <button type="button" class="mobiles-3d-btn" data-mob3d-mode="ai3d" data-mob3d-cmd='{"mode":"ai3d"}' aria-pressed="true">🧊 Volumen 3D</button>
+        <button type="button" class="mobiles-3d-btn" data-mob3d-mode="billboard" data-mob3d-cmd='{"mode":"billboard"}' aria-pressed="false">🖼️ Imagen 2D-3D</button>
+      </div>
+      <div class="mobiles-3d-btn-group">
+        <button type="button" class="mobiles-3d-btn accent" data-mob3d-cmd='{"action":"lookup"}'>👀 Mirar arriba ↑</button>
+        <button type="button" class="mobiles-3d-btn accent" data-mob3d-cmd='{"action":"breeze"}'>🌬️ Soplar brisa</button>
+        <button type="button" class="mobiles-3d-btn" data-mob3d-cmd='{"action":"next"}'>🎯 Siguiente móvil ↗</button>
+      </div>
+    </div>
+    <div class="mobiles-3d-stage" id="mobiles-3d-stage">
+      <iframe id="mobiles-3d-iframe" class="mobiles-3d-iframe" src="${iframeSrc}" title="Galería 3D y 2D-3D interactiva de Móviles de Enric Segarra" loading="lazy" allow="fullscreen"></iframe>
+    </div>
+  </section>`;
+}
 function room3dBanner(series) {
   const spaces = {
     "Formas orgánicas": {
@@ -228,11 +393,11 @@ function room3dBanner(series) {
       cta: "Entrar en la sala 3D de Formas orgánicas"
     },
     "Planos curvos y volúmenes abiertos": {
-      hash: "galeria",
+      hash: "planos-curvos",
       eyebrow: "Sala de exposición 3D · Visión amplia 360°",
-      title: "Galería blanca y Jardín 3D",
-      copy: "Explora las esculturas de «Planos curvos y volúmenes abiertos» en el espacio virtual 3D, alternando entre Volumen 3D e Imagen en 3D multi-ángulo.",
-      cta: "Abrir en la galería 3D"
+      title: "Sala de Planos curvos y volúmenes abiertos 3D",
+      copy: "Explora las 12 esculturas de «Planos curvos y volúmenes abiertos» en su gran salón virtual 3D, alternando entre Volumen 3D e Imagen en 3D multi-ángulo.",
+      cta: "Entrar en la sala 3D de Planos curvos"
     },
     "Estructuras y objetos ensamblados": {
       hash: "galeria",
@@ -278,10 +443,9 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
     return items.length ? `<section class="catalogue-group">${sectionHead(c.label, "/obra/" + c.id)}${renderWorks(items, view)}</section>` : "";
   }).join("") : collections[category] && !series ? groupedWorks(filtered, category, view) : renderWorks(filtered, view);
   return head(series ? catName(category) : "Catálogo de obra", collection?.label || (category === "todas" ? "Obra" : catName(category)), collection?.description || descriptions[category]) +
-    `<nav class="tabs" aria-label="Disciplinas">${categories.map(c => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter(w => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>` +
     (showDirectory ? `<section aria-label="Series y conjuntos">${collectionCards(category)}</section>` : "") +
-    room3dBanner(series) +
-    `<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar descripción o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${seriesList.length ? `<label class="select-label">Serie o conjunto<select name="serie"><option value="">Todas las obras</option>${seriesList.map(name => `<option value="${esc(name)}" ${name === series ? "selected" : ""}>${esc(seriesLabel(category,name))}</option>`).join("")}</select></label>` : ""}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}</p><p>Descripciones visuales de las obras</p></div><div id="catalogue-results">${catalogue}</div>${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`;
+    (category === "moviles" ? mobiles3dShowcase() : room3dBanner(series)) +
+    `<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar descripción o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${seriesList.length ? `<label class="select-label">Serie o conjunto<select name="serie"><option value="">Todas las series</option>${seriesList.map(name => `<option value="${esc(name)}" ${name === series ? "selected" : ""}>${esc(seriesLabel(category,name))}</option>`).join("")}</select></label>` : ""}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}</p><p>Descripciones visuales de las obras</p></div><div id="catalogue-results">${catalogue}</div>${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a("/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`;
 }
 function renderWorks(list, view) {
   return view === "catalogo"
@@ -712,7 +876,7 @@ function artist() {
 function contact() {
   return (
     head("Información", "Contacto", site.contactText) + `<p><a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a></p><p><a href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` +
-    `<div class="prose"><p>Este espacio reúne la obra y la memoria artística de ENRIC SEGARRA I GARIBO. El archivo sigue creciendo con la identificación de piezas, documentos y fotografías.</p></div><div class="end-link">${a("/obra", "Volver a la obra " + arrow)}</div>`
+    `<div class="prose"><p>Este espacio reúne la obra y la memoria artística de ENRIC SEGARRA I GARIBO. El archivo sigue creciendo con la identificación de piezas, documentos y fotografías.</p></div><div class="end-link">${a("/", "Volver al inicio " + arrow)}</div>`
   );
 }
 function notFound() {
@@ -721,7 +885,7 @@ function notFound() {
       "Archivo",
       "Página no encontrada",
       "Este enlace no corresponde a una ficha del archivo.",
-    ) + a("/obra", "Explorar la obra " + arrow, "text-link")
+    ) + a("/obra/moviles", "Explorar la obra " + arrow, "text-link")
   );
 }
 
@@ -765,7 +929,11 @@ function render({ keepScroll = false } = {}) {
   } else if (section === "trayectoria-contacto") {
     html = trajectoryContact(); title = "Trayectoria y contacto";
   } else if (section === "obra") {
-    if (!id || categories.some((c) => c.id === id)) {
+    if (!id || id === "todas") {
+    location.replace("#/obra/moviles");
+    return;
+  }
+  if (!id || categories.some((c) => c.id === id)) {
       html = workIndex(id || "todas", params);
       title = id ? catName(id) : "Obra";
     } else {
@@ -920,15 +1088,30 @@ function attachHomeCarousel() {
   const carousel = document.querySelector("[data-home-carousel]");
   if (!carousel) return;
   const slides = [...carousel.querySelectorAll("[data-home-slide]")];
+  const kinds = [...carousel.querySelectorAll("[data-home-kind]")];
+  const captions = [...carousel.querySelectorAll("[data-home-caption]")];
+  const dots = [...carousel.querySelectorAll("[data-home-carousel-dot]")];
+  const counter = carousel.querySelector("[data-home-carousel-counter]");
+  const prev = carousel.querySelector("[data-home-carousel-prev]");
   const next = carousel.querySelector("[data-home-carousel-next]");
-  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
-  let index = 0, timer = null, paused = false;
+  const stage = carousel.querySelector("[data-home-carousel-stage]");
+  const total = String(slides.length).padStart(2, "0");
+  let index = 0, timer = null;
   const show = (target) => {
-    slides[index].classList.remove("is-active");
-    slides[index].setAttribute("aria-hidden", "true");
+    slides[index]?.classList.remove("is-active");
+    slides[index]?.setAttribute("aria-hidden", "true");
+    kinds[index]?.classList.remove("is-active");
+    captions[index]?.classList.remove("is-active");
+    dots[index]?.classList.remove("is-active");
+    dots[index]?.setAttribute("aria-current", "false");
     index = (target + slides.length) % slides.length;
-    slides[index].classList.add("is-active");
-    slides[index].setAttribute("aria-hidden", "false");
+    slides[index]?.classList.add("is-active");
+    slides[index]?.setAttribute("aria-hidden", "false");
+    kinds[index]?.classList.add("is-active");
+    captions[index]?.classList.add("is-active");
+    dots[index]?.classList.add("is-active");
+    dots[index]?.setAttribute("aria-current", "true");
+    if (counter) counter.textContent = `${String(index + 1).padStart(2, "0")} / ${total}`;
   };
   const stop = () => {
     if (timer) window.clearTimeout(timer);
@@ -936,24 +1119,23 @@ function attachHomeCarousel() {
   };
   const schedule = () => {
     stop();
-    if (!paused && !reduceMotion.matches && !document.hidden) {
+    if (!document.hidden && slides.length > 1) {
       timer = window.setTimeout(() => {
         show(index + 1);
         schedule();
-      }, 4000);
+      }, 3400);
     }
   };
-  const pause = () => { paused = true; stop(); };
-  const resume = () => { paused = false; schedule(); };
-  next.addEventListener("click", () => { show(index + 1); schedule(); });
-  carousel.addEventListener("mouseenter", pause);
-  carousel.addEventListener("mouseleave", resume);
-  carousel.addEventListener("focusin", pause);
-  carousel.addEventListener("focusout", (event) => {
-    if (!carousel.contains(event.relatedTarget)) resume();
+  prev?.addEventListener("click", () => { show(index - 1); schedule(); });
+  next?.addEventListener("click", () => { show(index + 1); schedule(); });
+  stage?.addEventListener("click", () => { show(index + 1); schedule(); });
+  dots.forEach((dot, dotIndex) => {
+    dot.addEventListener("click", () => {
+      show(dotIndex);
+      schedule();
+    });
   });
   document.addEventListener("visibilitychange", () => document.hidden ? stop() : schedule(), { signal: pageEvents.signal });
-  reduceMotion.addEventListener("change", schedule, { signal: pageEvents.signal });
   schedule();
   homeCarouselStop = stop;
 }
@@ -1029,6 +1211,28 @@ function attachPageEvents() {
   });
 }
 main.addEventListener("click", (e) => {
+  const mobBtn = e.target.closest("[data-mob3d-cmd]");
+  if (mobBtn) {
+    try {
+      const cmd = JSON.parse(mobBtn.dataset.mob3dCmd);
+      const iframe = document.querySelector("#mobiles-3d-iframe");
+      if (iframe?.contentWindow) {
+        iframe.contentWindow.postMessage({ type: "mobiles-cmd", ...cmd }, "*");
+      }
+      if (typeof cmd.elev === "number") {
+        document.querySelectorAll("[data-mob3d-elev]").forEach((b) =>
+          b.setAttribute("aria-pressed", String(Number(b.dataset.mob3dElev) === cmd.elev))
+        );
+      }
+      if (cmd.mode) {
+        document.querySelectorAll("[data-mob3d-mode]").forEach((b) =>
+          b.setAttribute("aria-pressed", String(b.dataset.mob3dMode === cmd.mode))
+        );
+      }
+      document.querySelector("#mobiles-3d-stage")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    } catch {}
+    return;
+  }
   const photo = e.target.closest("[data-photo]");
   if (photo) {
     selectedPhoto = +photo.dataset.photo;

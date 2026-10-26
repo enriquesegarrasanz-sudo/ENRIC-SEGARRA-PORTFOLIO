@@ -1,3 +1,14 @@
+## 2026-10-26 — Rediseño de la presentación en portada y recorrido curatorial de apartados
+
+- Presentación superior (`.home-hero`) rediseñada en dos columnas proporcionadas (`max-height: clamp(250px, 42vh, 390px)`) con carrusel automático continuo (`3.4s`), transición suave, contador `01 / 09`, indicadores de progreso y descripción activa.
+- Directorio de apartados (`.home-sections`) rediseñado con composición minimalista en trípticos visuales curados para los 8 apartados del archivo, mostrando tres obras o vistas representativas por sección sin bandas grises ni recortes.
+
+## 2026-10-26 — Aislamiento de apartados y eliminación de navegación cruzada
+
+- Eliminada la barra de pestañas («Toda la obra», «Móviles», «Escultura», «Pintura», «Dibujo») en el interior de los apartados de disciplina, de forma que cada sección muestra única y exclusivamente sus obras sin dirigir al resto de apartados ni a la vista combinada.
+- Redirección automática de la ruta general `#/obra` hacia `#/obra/moviles`.
+- En el filtro desplegable de familias de cada disciplina, la opción neutra pasa a ser «Todas las series» con sus correspondientes traducciones internacionales.
+
 ## 2026-10-26 — Apartado independiente para Exposiciones y nueva página dedicada
 
 - Menú de navegación principal actualizado con un apartado propio para «Exposiciones» (`#/exposiciones`), separándolo de Trayectoria y contacto.
