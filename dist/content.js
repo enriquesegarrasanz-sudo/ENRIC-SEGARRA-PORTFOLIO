@@ -16,7 +16,7 @@ export const categories = [
   { id: "dibujo", label: "Dibujo" },
 ];
 // El catálogo amplio y sus galerías se editan en catalogue.js.
-import { catalogue, albums as catalogueAlbums } from "./catalogue.js?v=20261014-series";
+import { catalogue, albums as catalogueAlbums } from "./catalogue.js?v=20261026-gatos";
 import { bellasArtsGallery } from "./bellas-arts.js";
 
 export const works = catalogue;

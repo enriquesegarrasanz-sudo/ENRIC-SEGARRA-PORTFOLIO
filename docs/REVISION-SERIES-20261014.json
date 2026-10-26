@@ -1447,10 +1447,10 @@
     "reference": "PIN-003",
     "id": "pintura-015108",
     "previousSeries": "Arcas",
-    "series": "Arcas",
+    "series": "Gatos",
     "previousDescription": "Arca sobre fondo oscuro",
     "description": "Arca sobre fondo oscuro",
-    "criterion": "Arcas y embarcaciones simbólicas.",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
     "reviewedImages": [
       "pin-003-estudio-v3"
     ],
@@ -1525,14 +1525,14 @@
     "reference": "PIN-009",
     "id": "pintura-015114",
     "previousSeries": "Arcas",
-    "series": "Figuras y símbolos",
+    "series": "Gatos",
     "previousDescription": "Arca, luna y sol",
     "description": "Composición circular con sol y montañas",
-    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
     "reviewedImages": [
       "pin-009-estudio-v3"
     ],
-    "pending": "No se distingue un arca inequívoca. Se conserva en Figuras y símbolos; la pertenencia histórica a Arcas requiere confirmación del artista."
+    "pending": null
   },
   {
     "reference": "PIN-010",
@@ -1564,10 +1564,10 @@
     "reference": "PIN-012",
     "id": "pintura-015119",
     "previousSeries": "Figuras y símbolos",
-    "series": "Figuras y símbolos",
+    "series": "Gatos",
     "previousDescription": "Círculo naranja de figuras",
     "description": "Círculo naranja de figuras",
-    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
     "reviewedImages": [
       "pin-012-estudio-v3"
     ],
@@ -1629,10 +1629,10 @@
     "reference": "PIN-017",
     "id": "pintura-015125",
     "previousSeries": "Figuras y símbolos",
-    "series": "Figuras y símbolos",
+    "series": "Gatos",
     "previousDescription": "Figuras sobre fondo violeta",
     "description": "Figuras sobre fondo violeta",
-    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
     "reviewedImages": [
       "pin-017-estudio-v3"
     ],
@@ -1928,10 +1928,10 @@
     "reference": "PIN-040",
     "id": "pintura-015150",
     "previousSeries": "Figuras y símbolos",
-    "series": "Figuras y símbolos",
+    "series": "Gatos",
     "previousDescription": "Figuras sobre fondo lila",
     "description": "Figuras sobre fondo lila",
-    "criterion": "Ojos, astros, arquitecturas y composiciones simbólicas.",
+    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
     "reviewedImages": [
       "pin-040-estudio-v3"
     ],

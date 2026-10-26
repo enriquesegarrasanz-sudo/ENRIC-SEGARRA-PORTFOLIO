@@ -5,10 +5,10 @@ import {
   chapters,
   categories,
   albumRedirects,
-} from "./content.js?v=20261014-series";
-import { collections } from "./collections.js?v=20261014-series";
+} from "./content.js?v=20261026-gatos";
+import { collections } from "./collections.js?v=20261026-gatos";
 import { journeyEntries } from "./journey.js";
-import { redirects } from "./catalogue.js?v=20261014-series";
+import { redirects } from "./catalogue.js?v=20261026-gatos";
 
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 import {
@@ -24,7 +24,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20261026-ja";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20261026-moviles-escultura";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -144,10 +144,16 @@ function directoryCard(path, title, image, description = "") {
   return a(path, `<div class="image-space">${img(image, title)}</div><h2>${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ""}<span aria-hidden="true">↗</span>`, "section-card");
 }
 function homeDirectory() {
-  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014916", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura", "Pintura", works.find(w => w.reference === "PIN-036").thumb, "Tauromaquia, Gatos y Arcas de Noé, junto a otras series")}${directoryCard("/dibujo", "Dibujo", works.find(w => w.reference === "DIB-003").thumb, "Líneas, planos y figuras sobre papel")}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}${directoryCard("/exposiciones", "Exposiciones", "colomina-009086-professional", "La obra en las salas y la memoria de los encuentros.")}</div>`;
+  return `<div class="section-directory">${directoryCard("/moviles", "Móviles", works.find(w => w.category === "moviles").thumb, "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.")}${directoryCard("/escultura", "Escultura", "escultura-madera", "Planos plegados, madera, hierro, piedra y relieves murales")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014916", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura", "Pintura", works.find(w => w.reference === "PIN-036").thumb, "Tauromaquia, Gatos y Arcas de Noé, junto a otras series")}${directoryCard("/dibujo", "Dibujo", works.find(w => w.reference === "DIB-003").thumb, "Líneas, planos y figuras sobre papel")}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}${directoryCard("/exposiciones", "Exposiciones", "colomina-009086-professional", "La obra en las salas y la memoria de los encuentros.")}</div>`;
+}
+function sculpture() {
+  return head("Obra", "Escultura", "Planos plegados, madera, hierro, piedra y relieves murales.") + collectionCards("escultura") + `<div class="end-link">${a("/obra/escultura", "Ver toda la escultura " + arrow)}</div>`;
+}
+function mobiles(params) {
+  return workIndex("moviles", params);
 }
 function sculptureAndMobiles() {
-  return head("Obra", "Escultura y móviles", "Volumen, equilibrio y movimiento. La obra escultórica y las piezas suspendidas, reunidas en un mismo recorrido.") + `<div class="section-directory">${directoryCard("/obra/escultura", "Escultura", "escultura-madera")}${directoryCard("/obra/moviles", "Móviles", works.find(w => w.category === "moviles").thumb, "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.")}</div><div class="end-link">${a("/jardin", "Jardín de las Lagartijas — Jardí de les Sargantanes " + arrow)}</div>`;
+  return sculpture();
 }
 function painting() {
   return head("Obra", "Pintura", "Tauromaquia, Gatos y Arcas de Noé, junto a otros conjuntos de pintura.") + collectionCards("pintura") + `<div class="end-link">${a("/obra/pintura", "Ver toda la pintura " + arrow)}</div>`;
@@ -738,8 +744,15 @@ function render({ keepScroll = false } = {}) {
   if (section === "inicio") {
     html = home();
     title = "ENRIC SEGARRA I GARIBO";
+  } else if (section === "moviles") {
+    html = mobiles(params); title = "Móviles";
+  } else if (section === "escultura") {
+    html = sculpture(); title = "Escultura";
   } else if (section === "escultura-moviles") {
-    html = sculptureAndMobiles(); title = "Escultura y móviles";
+    location.replace("#/escultura");
+    return;
+
+
   } else if (section === "pintura") {
     html = painting(); title = "Pintura";
   } else if (section === "dibujo") {
@@ -817,7 +830,7 @@ function render({ keepScroll = false } = {}) {
           ? "exposiciones"
           : section;
   document.querySelectorAll("[data-nav]").forEach((el) => {
-    const group = section === "obra" ? (id === "pintura" || works.find(w => w.id === id)?.category === "pintura" ? "pintura" : id === "dibujo" || works.find(w => w.id === id)?.category === "dibujo" ? "dibujo" : "escultura-moviles") : active === "exposiciones" ? "exposiciones" : ["memoria", "artista", "contacto"].includes(active) ? "trayectoria-contacto" : active;
+    const group = section === "obra" ? (id === "moviles" || works.find(w => w.id === id)?.category === "moviles" ? "moviles" : id === "escultura" || works.find(w => w.id === id)?.category === "escultura" ? "escultura" : id === "pintura" || works.find(w => w.id === id)?.category === "pintura" ? "pintura" : id === "dibujo" || works.find(w => w.id === id)?.category === "dibujo" ? "dibujo" : "") : active === "exposiciones" ? "exposiciones" : ["memoria", "artista", "contacto"].includes(active) ? "trayectoria-contacto" : active;
     if (el.dataset.nav === group) el.setAttribute("aria-current", "page");
     else el.removeAttribute("aria-current");
   });

@@ -1,3 +1,23 @@
+## 2026-10-26 — Reclasificación de obras a la serie Gatos
+
+- Reclasificación en el catálogo de pintura a la serie «Gatos»:
+  - PIN-003: Arca sobre fondo oscuro (anteriormente en Arcas de Noé).
+  - PIN-009: Composición circular con sol y montañas (anteriormente en Figuras y símbolos).
+  - PIN-012: Círculo naranja de figuras (anteriormente en Figuras y símbolos).
+  - PIN-017: Figuras sobre fondo violeta (anteriormente en Figuras y símbolos).
+  - PIN-040: Figuras sobre fondo lila (anteriormente en Figuras y símbolos).
+- Registro de auditoría y conjuntos verificado con scripts/check-collections.mjs.
+
+## 2026-10-26 — Separación de los apartados de Móviles y Escultura
+
+- Menú de navegación principal actualizado con apartados independientes para Móviles (`#/moviles`) y Escultura (`#/escultura`), completando la diferenciación de todas las disciplinas.
+- Apartado dedicado de Móviles con acceso directo al catálogo de las 33 esculturas suspendidas y su relación con el aire y el entorno.
+- Apartado dedicado de Escultura con sus 7 conjuntos y series revisadas (Planos curvos y volúmenes abiertos, Formas orgánicas, Relieves, Ensamblajes e Intervenciones) y acceso al catálogo completo.
+- Portada actualizada con tarjetas independientes para Móviles y Escultura en el directorio principal.
+- Indicador de página activa sincronizado en el menú superior para Móviles y Escultura tanto en sus vistas de catálogo como en las fichas individuales.
+- Redirección automática de cortesía desde la ruta combinada previa (`#/escultura-moviles`) hacia Escultura.
+- Traducciones actualizadas en el selector de idiomas para los nuevos textos y descripciones.
+
 ## 2026-10-26 — Apartado independiente para Exposiciones y nueva página dedicada
 
 - Menú de navegación principal actualizado con un apartado propio para «Exposiciones» (`#/exposiciones`), separándolo de Trayectoria y contacto.
