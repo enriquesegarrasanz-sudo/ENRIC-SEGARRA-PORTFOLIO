@@ -154,7 +154,9 @@ function paintingAndDrawing() {
 }
 function garden() {
   const mov17 = works.find(w => w.reference === "MOV-017");
-  const allowed = ["ARC-014916", "ARC-014923", "ARC-014849", "ARC-014851"];
+  const rawMov33 = works.find(w => w.reference === "MOV-033");
+  const mov33 = rawMov33 ? { ...rawMov33, thumb: "arc-015069", image: "arc-015069" } : null;
+  const allowed = ["ARC-014916", "ARC-014923", "ARC-014849", "ARC-014851", "ARC-015069"];
   const allPhotos = ["arboles", "naturaleza-moviles"].flatMap(id => albums.find(al => al.id === id)?.gallery || []);
   const photos = allowed.map(id => {
     if (id === "ARC-014851" && mov17) {
@@ -164,13 +166,22 @@ function garden() {
         owners: [{ id: mov17.id, label: `${mov17.label} (${mov17.reference})`, path: `/obra/${mov17.id}`, scope: "obra" }]
       };
     }
+    if (id === "ARC-015069" && rawMov33) {
+      const p3 = rawMov33.gallery.find(p => p.archiveId === "ARC-015069") || rawMov33.gallery[2] || rawMov33.gallery[0];
+      return {
+        ...p3,
+        alt: `${rawMov33.label} (${rawMov33.reference}) · vista 3`,
+        owners: [{ id: rawMov33.id, label: `${rawMov33.label} (${rawMov33.reference})`, path: `/obra/${rawMov33.id}`, scope: "obra" }]
+      };
+    }
     return allPhotos.find(p => p.archiveId === id);
   }).filter(Boolean);
   setGallery(photos, "Jardín de las Lagartijas");
+  const gardenWorks = [mov17, mov33].filter(Boolean);
   return head("Espacio escultórico", "Jardín de las Lagartijas", "Jardí de les Sargantanes") + prose([
     "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
     "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
-  ]) + `<div class="end-link">${a("/obra/moviles", "Ver la serie de móviles " + arrow)}</div><div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>${mov17 ? `<section class="section">${sectionHead("Obra en el espacio", "/obra/" + mov17.id, "Ver ficha de la obra")}${workGrid([mov17])}</section>` : ""}`;
+  ]) + `<div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>${gardenWorks.length ? `<section class="section">${sectionHead("Obras en el espacio")}${workGrid(gardenWorks)}</section>` : ""}`;
 }
 function trajectoryContact() {
   return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section">${sectionHead("Exposiciones", "/exposiciones", "Ver exposiciones")}${albumGrid(albums.filter(al => al.section === "exposiciones" && al.audience !== "educacion").slice(0,3))}</section><section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
@@ -240,17 +251,15 @@ function educationPhotoIndex(section, list) {
 
 function workDetail(w) {
   setGallery(w.gallery, w.label);
-  const related = works
-    .filter(
-      (x) =>
-        (w.category === "escultura"
-          ? sculptureFamilyFor(x) === sculptureFamilyFor(w)
-          : x.series === w.series) && x.category === w.category && x.id !== w.id,
-    )
-    .slice(0, 3);
+  const isGardenWork = w.reference === "MOV-017" || w.reference === "MOV-033";
+  const related = isGardenWork
+    ? works.filter(x => (x.reference === "MOV-017" || x.reference === "MOV-033") && x.id !== w.id)
+    : works.filter((x) => (w.category === "escultura" ? sculptureFamilyFor(x) === sculptureFamilyFor(w) : x.series === w.series) && x.category === w.category && x.id !== w.id).slice(0, 3);
+  const parentPath = isGardenWork ? "/jardin" : "/obra/" + w.category;
+  const parentLabel = isGardenWork ? "Jardín de las Lagartijas" : catName(w.category);
   return (
-    trail("/obra/" + w.category, catName(w.category), w.reference) +
-    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(seriesLabel(w.category,w.series))}</p>${w.text && w.text !== w.label + "." ? prose([w.text]) : ""}<dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción visual</dd></div></dl><p class="note">Descripción visual para identificar la pieza. Título, fecha y técnica pendientes de documentación.</p>${a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead("En relación")}${workGrid(related)}</section>` : ""}`
+    trail(parentPath, parentLabel, w.reference) +
+    `<section class="work-detail"><div class="work-stage"><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(seriesLabel(w.category,w.series))}</p>${w.text && w.text !== w.label + "." ? prose([w.text]) : ""}<dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div><div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción visual</dd></div></dl><p class="note">Descripción visual para identificar la pieza. Título, fecha y técnica pendientes de documentación.</p>${isGardenWork ? a("/jardin", "Volver al Jardín de las Lagartijas " + arrow, "text-link") : a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Continuar por esta familia " + arrow, "text-link")}</div></section>${related.length ? `<section class="section">${sectionHead(isGardenWork ? "Otra obra en este espacio" : "En relación")}${workGrid(related)}</section>` : ""}`
   );
 }
 function albumPage(al) {
