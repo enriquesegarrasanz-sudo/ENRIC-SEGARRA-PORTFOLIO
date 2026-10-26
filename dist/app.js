@@ -144,7 +144,7 @@ function directoryCard(path, title, image, description = "") {
   return a(path, `<div class="image-space">${img(image, title)}</div><h2>${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ""}<span aria-hidden="true">↗</span>`, "section-card");
 }
 function homeDirectory() {
-  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014873", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura-dibujo", "Pintura y dibujo", works.find(w => w.reference === "PIN-036").thumb)}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}</div>`;
+  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014916", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura-dibujo", "Pintura y dibujo", works.find(w => w.reference === "PIN-036").thumb)}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}</div>`;
 }
 function sculptureAndMobiles() {
   return head("Obra", "Escultura y móviles", "Volumen, equilibrio y movimiento. La obra escultórica y las piezas suspendidas, reunidas en un mismo recorrido.") + `<div class="section-directory">${directoryCard("/obra/escultura", "Escultura", "escultura-madera")}${directoryCard("/obra/moviles", "Móviles", works.find(w => w.category === "moviles").thumb, "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.")}</div><div class="end-link">${a("/jardin", "Jardín de las Lagartijas — Jardí de les Sargantanes " + arrow)}</div>`;
@@ -153,17 +153,14 @@ function paintingAndDrawing() {
   return head("Obra", "Pintura y dibujo", "Tauromaquia, Gatos y Arcas de Noé, junto a otros conjuntos de pintura y obra sobre papel.") + collectionCards("pintura") + `<div class="end-link">${a("/obra/pintura", "Ver toda la pintura " + arrow)}</div><section class="section">${sectionHead("Dibujo", "/obra/dibujo", "Ver todos los dibujos")}${collectionCards("dibujo")}</section>`;
 }
 function garden() {
-  const seen = new Set();
-  const photos = ["arboles", "naturaleza-moviles"].flatMap(id => albums.find(al => al.id === id)?.gallery || []).filter(p => {
-    const key = p.contentKey || p.archiveId + ":" + (p.sourcePage || "");
-    if (seen.has(key)) return false;
-    seen.add(key); return true;
-  });
+  const allowed = ["ARC-014916", "ARC-014923", "ARC-014849"];
+  const allPhotos = ["arboles", "naturaleza-moviles"].flatMap(id => albums.find(al => al.id === id)?.gallery || []);
+  const photos = allowed.map(id => allPhotos.find(p => p.archiveId === id)).filter(Boolean);
   setGallery(photos, "Jardín de las Lagartijas");
   return head("Espacio escultórico", "Jardín de las Lagartijas", "Jardí de les Sargantanes") + prose([
     "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
     "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
-  ]) + `<div class="end-link">${a("/obra/moviles", "Ver la serie de móviles " + arrow)}</div><div class="gallery-grid" id="album-photos">${galleryGrid(photos.slice(0,36))}</div>${photos.length > 36 ? `<button class="load-more" id="more-photos" data-shown="36">Seguir viendo <span>36 / ${photos.length}</span></button>` : ""}`;
+  ]) + `<div class="end-link">${a("/obra/moviles", "Ver la serie de móviles " + arrow)}</div><div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>`;
 }
 function trajectoryContact() {
   return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section">${sectionHead("Exposiciones", "/exposiciones", "Ver exposiciones")}${albumGrid(albums.filter(al => al.section === "exposiciones" && al.audience !== "educacion").slice(0,3))}</section><section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
@@ -689,6 +686,10 @@ function render({ keepScroll = false } = {}) {
     html = r ? readingPage(r) : notFound();
     title = r?.title;
   } else if (section === "archivo") {
+    if (id === "arboles" || id === "naturaleza-moviles") {
+      location.replace("#/jardin");
+      return;
+    }
     if (albumRedirects[id]) {
       const destination = albumRedirects[id];
       location.replace(
