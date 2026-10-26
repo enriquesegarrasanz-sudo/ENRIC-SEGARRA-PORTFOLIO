@@ -154,9 +154,9 @@ function paintingAndDrawing() {
 }
 function garden() {
   const mov17 = works.find(w => w.reference === "MOV-017");
-  const rawMov33 = works.find(w => w.reference === "MOV-033");
-  const mov33 = rawMov33 ? { ...rawMov33, thumb: "arc-015069", image: "arc-015069" } : null;
-  const allowed = ["ARC-014916", "ARC-014923", "ARC-014849", "ARC-014851", "ARC-015069"];
+  const rawMov22 = works.find(w => w.reference === "MOV-022");
+  const mov22 = rawMov22 ? { ...rawMov22, thumb: "arc-014957", image: "arc-014957" } : null;
+  const allowed = ["ARC-014916", "ARC-014923", "ARC-014849", "ARC-014851", "ARC-014957"];
   const allPhotos = ["arboles", "naturaleza-moviles"].flatMap(id => albums.find(al => al.id === id)?.gallery || []);
   const photos = allowed.map(id => {
     if (id === "ARC-014851" && mov17) {
@@ -166,18 +166,18 @@ function garden() {
         owners: [{ id: mov17.id, label: `${mov17.label} (${mov17.reference})`, path: `/obra/${mov17.id}`, scope: "obra" }]
       };
     }
-    if (id === "ARC-015069" && rawMov33) {
-      const p3 = rawMov33.gallery.find(p => p.archiveId === "ARC-015069") || rawMov33.gallery[2] || rawMov33.gallery[0];
+    if (id === "ARC-014957" && rawMov22) {
+      const p3 = rawMov22.gallery.find(p => p.archiveId === "ARC-014957") || rawMov22.gallery[2] || rawMov22.gallery[0];
       return {
         ...p3,
-        alt: `${rawMov33.label} (${rawMov33.reference}) · vista 3`,
-        owners: [{ id: rawMov33.id, label: `${rawMov33.label} (${rawMov33.reference})`, path: `/obra/${rawMov33.id}`, scope: "obra" }]
+        alt: `${rawMov22.label} (${rawMov22.reference}) · vista 3`,
+        owners: [{ id: rawMov22.id, label: `${rawMov22.label} (${rawMov22.reference})`, path: `/obra/${rawMov22.id}`, scope: "obra" }]
       };
     }
     return allPhotos.find(p => p.archiveId === id);
   }).filter(Boolean);
   setGallery(photos, "Jardín de las Lagartijas");
-  const gardenWorks = [mov17, mov33].filter(Boolean);
+  const gardenWorks = [mov17, mov22].filter(Boolean);
   return head("Espacio escultórico", "Jardín de las Lagartijas", "Jardí de les Sargantanes") + prose([
     "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
     "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
@@ -251,9 +251,9 @@ function educationPhotoIndex(section, list) {
 
 function workDetail(w) {
   setGallery(w.gallery, w.label);
-  const isGardenWork = w.reference === "MOV-017" || w.reference === "MOV-033";
+  const isGardenWork = w.reference === "MOV-017" || w.reference === "MOV-022";
   const related = isGardenWork
-    ? works.filter(x => (x.reference === "MOV-017" || x.reference === "MOV-033") && x.id !== w.id)
+    ? works.filter(x => (x.reference === "MOV-017" || x.reference === "MOV-022") && x.id !== w.id)
     : works.filter((x) => (w.category === "escultura" ? sculptureFamilyFor(x) === sculptureFamilyFor(w) : x.series === w.series) && x.category === w.category && x.id !== w.id).slice(0, 3);
   const parentPath = isGardenWork ? "/jardin" : "/obra/" + w.category;
   const parentLabel = isGardenWork ? "Jardín de las Lagartijas" : catName(w.category);
