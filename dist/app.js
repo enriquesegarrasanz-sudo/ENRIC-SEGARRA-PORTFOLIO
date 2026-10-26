@@ -178,10 +178,25 @@ function garden() {
   }).filter(Boolean);
   setGallery(photos, "Jardín de las Lagartijas");
   const gardenWorks = [mov17, mov22].filter(Boolean);
-  return head("Espacio escultórico", "Jardín de las Lagartijas", "Jardí de les Sargantanes") + prose([
-    "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
-    "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
-  ]) + `<div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>${gardenWorks.length ? `<section class="section">${sectionHead("Obras en el espacio")}${workGrid(gardenWorks)}</section>` : ""}`;
+  return (
+    head("Espacio escultórico", "Jardín de las Lagartijas", "Jardí de les Sargantanes") +
+    `<blockquote class="artist-statement">` +
+      `<p class="statement-eyebrow">Reflexión sobre la naturaleza</p>` +
+      `<div class="statement-body">` +
+        `<p>En el silencio y el recogimiento, hablar a la naturaleza con gratitud, respeto y amor es volver a tender un puente hacia ella. Escucharla, reconocer su presencia y dejarnos tocar por su misterio quizá sea la forma más íntima de recuperar el vínculo que nos une.</p>` +
+        `<p>Mi obra escultórica transita por diversos lenguajes y materiales. En estos espacios de móviles, sin embargo, es la propia naturaleza quien ofrece la materia: ramas, formas y elementos nacidos del lugar, cargados de su tiempo y de su memoria.</p>` +
+        `<p>La obra se despliega en diálogo con el entorno. Se mueve con el aire, respira con el paisaje y parece surgir de la tierra que la sostiene. No llega para imponerse, sino para pertenecer: una presencia viva en la que arte y naturaleza encuentran su armonía.</p>` +
+        `<p>Cada móvil recoge el impulso invisible del viento y lo convierte en movimiento. Así, la naturaleza se expresa, y la escultura se vuelve cauce, escucha y celebración de su energía.</p>` +
+      `</div>` +
+      `<footer class="statement-author">— Enric Segarra</footer>` +
+    `</blockquote>` +
+    prose([
+      "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
+      "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
+    ]) +
+    `<div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>` +
+    (gardenWorks.length ? `<section class="section">${sectionHead("Obras en el espacio")}${workGrid(gardenWorks)}</section>` : "")
+  );
 }
 function trajectoryContact() {
   return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section">${sectionHead("Exposiciones", "/exposiciones", "Ver exposiciones")}${albumGrid(albums.filter(al => al.section === "exposiciones" && al.audience !== "educacion").slice(0,3))}</section><section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;

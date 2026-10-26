@@ -43,6 +43,12 @@ Object.values(educationDescriptions).forEach((text) => strings.add(text));
   "salas",
   "Archivo educativo",
   "Relieve realizado en una actividad de arte infantil",
+  "Reflexión sobre la naturaleza",
+  "En el silencio y el recogimiento, hablar a la naturaleza con gratitud, respeto y amor es volver a tender un puente hacia ella. Escucharla, reconocer su presencia y dejarnos tocar por su misterio quizá sea la forma más íntima de recuperar el vínculo que nos une.",
+  "Mi obra escultórica transita por diversos lenguajes y materiales. En estos espacios de móviles, sin embargo, es la propia naturaleza quien ofrece la materia: ramas, formas y elementos nacidos del lugar, cargados de su tiempo y de su memoria.",
+  "La obra se despliega en diálogo con el entorno. Se mueve con el aire, respira con el paisaje y parece surgir de la tierra que la sostiene. No llega para imponerse, sino para pertenecer: una presencia viva en la que arte y naturaleza encuentran su armonía.",
+  "Cada móvil recoge el impulso invisible del viento y lo convierte en movimiento. Así, la naturaleza se expresa, y la escultura se vuelve cauce, escucha y celebración de su energía.",
+  "— Enric Segarra",
 ].forEach((text) => strings.add(text));
 
 await writeFile(

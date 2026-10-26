@@ -3442,3 +3442,43 @@ main {
 @media(max-width:600px) { .collection-directory { grid-template-columns: minmax(0,1fr); } .collection-directory .image-space { height: 260px; } .catalogue-group .section-head { align-items: start; gap: 14px; flex-wrap: wrap; } .work-info h1 { overflow-wrap: break-word; } }
 
 .collection-directory small { margin-left: 6px; }
+
+.artist-statement {
+  margin: 24px 0 56px;
+  max-width: 760px;
+  padding: 32px 0 32px 36px;
+  border-left: 1px solid var(--line);
+}
+.statement-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.statement-body p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #20201e;
+}
+.statement-body p + p {
+  margin-top: 22px;
+}
+.statement-author {
+  margin-top: 28px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-style: normal;
+}
+@media (max-width: 760px) {
+  .artist-statement {
+    padding-left: 20px;
+    margin: 16px 0 44px;
+  }
+  .statement-body p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
