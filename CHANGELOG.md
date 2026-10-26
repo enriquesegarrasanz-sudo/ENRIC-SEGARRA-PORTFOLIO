@@ -1,3 +1,8 @@
+## 2026-10-26 — Incorporación del idioma japonés
+
+- Añadido el japonés (`日本語`) al selector de idiomas de la cabecera, manteniendo la preferencia en el navegador.
+- Traducida la interfaz completa, las secciones, las descripciones de series y conjuntos, los textos editoriales, el archivo visual y las fichas del catálogo al japonés (`dist/i18n.js` y `dist/content-translations.js`).
+
 ## 2026-10-14 — Revisión visual de series y conjuntos
 
 Revisión de las 221 imágenes principales del catálogo: 80 pinturas, 55 esculturas, 53 dibujos y 33 móviles. Se compararon además las 123 imágenes de las galerías de escultura con varias vistas y 23 fotografías de origen de pinturas dudosas. Las hojas de contacto y fotografías de trabajo se conservan fuera del repositorio público. No se afirma haber revisado todo el fondo familiar.

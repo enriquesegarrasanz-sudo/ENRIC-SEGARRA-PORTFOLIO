@@ -131,6 +131,6 @@ Rama de corrección: fix/pintura-fidelidad, creada sobre la versión pública an
 
 ### Idiomas
 
-- La web permite cambiar entre castellano, catalán, inglés, francés y chino simplificado desde el selector de la cabecera.
+- La web permite cambiar entre castellano, catalán, inglés, francés, chino simplificado y japonés desde el selector de la cabecera.
 - La preferencia se conserva en el navegador y la interfaz se actualiza al volver a cargar la página.
 - Los nombres descriptivos y textos de archivo que todavía no tienen traducción editorial conservan su redacción original para no alterar la identificación documental.

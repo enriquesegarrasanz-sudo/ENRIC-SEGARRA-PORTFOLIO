@@ -9,7 +9,7 @@ import urllib.request
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "dist" / "content-translation-source.json"
 OUTPUT = ROOT / "dist" / "content-translations.js"
-LANGUAGES = {"ca": "ca", "en": "en", "fr": "fr", "zh": "zh-CN"}
+LANGUAGES = {"ca": "ca", "en": "en", "fr": "fr", "zh": "zh-CN", "ja": "ja"}
 SEPARATOR = "\n@@@\n"
 MAX_CHARS = 4200
 

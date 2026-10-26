@@ -24,7 +24,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20261014-series";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20261026-ja";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -509,6 +509,7 @@ function attachArchiveEvents() {
     b.dataset.shown = n + list.length;
     b.innerHTML = `Ver más imágenes <span>${b.dataset.shown} / ${currentGallery.length}</span>`;
     if (+b.dataset.shown >= currentGallery.length) b.remove();
+    applyTranslations(document);
   });
   document
     .querySelector("#exhibition-search")
@@ -553,6 +554,7 @@ function attachJourneyEvents() {
         image.alt = e.title;
         link.href = "#" + e.path;
         document.querySelector("#journey-caption").textContent = e.title;
+        applyTranslations(link);
       });
     document.querySelector("#journey-position").textContent =
       `${num(i + 1)} / ${num(entries.length)}`;
@@ -574,6 +576,7 @@ function attachJourneyEvents() {
     document.querySelector("#journey-empty").hidden = visible.length > 0;
     document.querySelector("#journey-status").textContent =
       `${visible.length} entradas · Recorre la lista para cambiar de imagen`;
+    applyTranslations(document.querySelector("#journey-status"));
     document.querySelector("#journey-image-link").hidden = !visible.length;
     document.querySelector(".journey-controls").hidden = !visible.length;
     if (visible.length) select(+visible[0].dataset.entry);
@@ -929,6 +932,7 @@ function attachPageEvents() {
     b.dataset.shown = n + list.length;
     b.innerHTML = `Ver más obras <span>${b.dataset.shown} / ${activeFilters.filtered.length}</span>`;
     if (+b.dataset.shown >= activeFilters.filtered.length) b.remove();
+    applyTranslations(document);
     observe();
   });
   document.querySelector("#more-photos")?.addEventListener("click", (e) => {
@@ -941,6 +945,7 @@ function attachPageEvents() {
     b.dataset.shown = n + list.length;
     b.innerHTML = `Seguir viendo <span>${b.dataset.shown} / ${currentGallery.length}</span>`;
     if (+b.dataset.shown >= currentGallery.length) b.remove();
+    applyTranslations(document);
     observe();
   });
 }
@@ -997,7 +1002,8 @@ function showImage() {
       : "";
   document
     .querySelectorAll("[data-step]")
-    .forEach((b) => (b.disabled = currentGallery.length < 2));
+      .forEach((b) => (b.disabled = currentGallery.length < 2));
+  applyTranslations(dialog);
 }
 function step(n) {
   selectedPhoto =
