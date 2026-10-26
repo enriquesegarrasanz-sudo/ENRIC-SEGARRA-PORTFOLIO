@@ -1876,10 +1876,10 @@
     "reference": "PIN-036",
     "id": "pintura-015146",
     "previousSeries": "Gatos",
-    "series": "Gatos",
+    "series": "Rostros y personajes",
     "previousDescription": "Grupo de gatos de colores",
-    "description": "Grupo de gatos de colores",
-    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "description": "Trío de músicos y personajes",
+    "criterion": "Rostros estilizados y escenas de personajes.",
     "reviewedImages": [
       "pin-036-estudio-v3"
     ],
@@ -2133,32 +2133,6 @@
     "pending": null
   },
   {
-    "reference": "PIN-056",
-    "id": "pintura-015168",
-    "previousSeries": "Retratos",
-    "series": "Retratos",
-    "previousDescription": "Retrato de perfil ascendente",
-    "description": "Retrato de perfil ascendente",
-    "criterion": "Retratos de tratamiento figurativo.",
-    "reviewedImages": [
-      "pin-056-estudio-v3"
-    ],
-    "pending": null
-  },
-  {
-    "reference": "PIN-057",
-    "id": "pintura-015169",
-    "previousSeries": "Abstracciones",
-    "series": "Letras y signos",
-    "previousDescription": "Signo rojo en círculo",
-    "description": "Signo rojo en círculo",
-    "criterion": "Letras y signos como motivo principal de la composición.",
-    "reviewedImages": [
-      "pin-057-estudio-v3"
-    ],
-    "pending": null
-  },
-  {
     "reference": "PIN-058",
     "id": "pintura-015199",
     "previousSeries": "Abstracciones",
@@ -2168,19 +2142,6 @@
     "criterion": "Composiciones de planos, curvas y color.",
     "reviewedImages": [
       "pin-058-estudio-v3"
-    ],
-    "pending": null
-  },
-  {
-    "reference": "PIN-059",
-    "id": "pintura-015200",
-    "previousSeries": "Retratos",
-    "series": "Retratos",
-    "previousDescription": "Retrato de perfil con barba",
-    "description": "Retrato de perfil con barba",
-    "criterion": "Retratos de tratamiento figurativo.",
-    "reviewedImages": [
-      "pin-059-estudio-v3"
     ],
     "pending": null
   },
@@ -2291,11 +2252,11 @@
   {
     "reference": "PIN-068",
     "id": "pintura-015226",
-    "previousSeries": "Figuras y símbolos",
-    "series": "Gatos",
+    "previousSeries": "Gatos",
+    "series": "Rostros y personajes",
     "previousDescription": "Figuras bajo un arco",
-    "description": "Gatos bajo un arco",
-    "criterion": "Figuras felinas, solas o acompañadas de personajes.",
+    "description": "Personajes ante el teatro de títeres",
+    "criterion": "Rostros estilizados y escenas de personajes.",
     "reviewedImages": [
       "pin-068-estudio-v3"
     ],
@@ -2389,19 +2350,6 @@
     "criterion": "Dragones, figuras a caballo y escenas de iconografía religiosa.",
     "reviewedImages": [
       "pin-075-estudio-v3"
-    ],
-    "pending": null
-  },
-  {
-    "reference": "PIN-076",
-    "id": "pintura-015249",
-    "previousSeries": "Retratos",
-    "series": "Retratos",
-    "previousDescription": "Retrato de un hombre con barba",
-    "description": "Retrato de un hombre con barba",
-    "criterion": "Retratos de tratamiento figurativo.",
-    "reviewedImages": [
-      "pin-076-estudio-v3"
     ],
     "pending": null
   },

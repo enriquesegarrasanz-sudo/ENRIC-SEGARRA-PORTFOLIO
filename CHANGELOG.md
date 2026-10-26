@@ -1,3 +1,21 @@
+## 2026-10-26 — Apartado independiente para Exposiciones y nueva página dedicada
+
+- Menú de navegación principal actualizado con un apartado propio para «Exposiciones» (`#/exposiciones`), separándolo de Trayectoria y contacto.
+- Página dedicada de Exposiciones con presentación visual limpia en cuadrícula de tarjetas (formato de álbumes con fotografía destacada, categoría, título y número de fotos) y opción de vista ampliada con textos descriptivos.
+- Filtros por tipología de exposición (Todas, Obra propia, Muestras colectivas y Archivo de sala) y búsqueda contextual.
+- En «Trayectoria y contacto» (`#/trayectoria-contacto`), se elimina el bloque redundante de exposiciones, manteniendo el foco en el artista, su trayectoria y las vías de contacto, con enlace directo desde los principios de búsqueda.
+- Estado activo del menú sincronizado: al acceder a `#/exposiciones` o a cualquiera de los álbumes de salas o muestras, el indicador de página activa se asigna exclusivamente a «Exposiciones».
+- Tarjeta de acceso a «Exposiciones» añadida al directorio principal de la portada.
+
+## 2026-10-26 — Separación de los apartados de Pintura y Dibujo
+
+- Menú superior actualizado con apartados independientes para Pintura (`#/pintura`) y Dibujo (`#/dibujo`), pasando a 7 apartados de navegación principal.
+- Página dedicada de Pintura con sus series y conjuntos (Tauromaquia, Gatos, Arcas de Noé, Rostros y personajes, etc.) y acceso al catálogo completo.
+- Página dedicada de Dibujo con sus series (Dibujo y espacio, Figuras y símbolos) y acceso al catálogo completo.
+- Portada actualizada con tarjetas independientes para Pintura y Dibujo en el directorio principal.
+- Redirección automática de cortesía desde la ruta combinada previa (`#/pintura-dibujo`) hacia la página de Pintura.
+- Traducciones completas incorporadas al selector de idiomas para los nuevos textos y descripciones.
+
 ## 2026-10-26 — Incorporación del idioma japonés
 
 - Añadido el japonés (`日本語`) al selector de idiomas de la cabecera, manteniendo la preferencia en el navegador.

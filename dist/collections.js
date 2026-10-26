@@ -1,4 +1,3 @@
-// Series del artista y conjuntos visuales revisados. Los conjuntos no son títulos oficiales.
 export const collections = {
   "pintura": [
     {
@@ -12,7 +11,7 @@ export const collections = {
       "series": "Gatos",
       "label": "Gatos",
       "description": "Figuras felinas, solas o acompañadas de personajes.",
-      "cover": "PIN-036",
+      "cover": "PIN-023",
       "kind": "serie"
     },
     {
@@ -55,13 +54,6 @@ export const collections = {
       "label": "Letras y signos",
       "description": "Letras y signos como motivo principal de la composición.",
       "cover": "PIN-054",
-      "kind": "conjunto"
-    },
-    {
-      "series": "Retratos",
-      "label": "Retratos",
-      "description": "Retratos de tratamiento figurativo.",
-      "cover": "PIN-059",
       "kind": "conjunto"
     }
   ],

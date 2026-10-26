@@ -1,3 +1,12 @@
+## 2026-10-26 — Apartado independiente para Exposiciones y nueva página dedicada
+
+- Menú de navegación principal actualizado con un apartado propio para «Exposiciones» (`#/exposiciones`), separándolo de Trayectoria y contacto.
+- Página dedicada de Exposiciones con presentación visual limpia en cuadrícula de tarjetas (formato de álbumes con fotografía destacada, categoría, título y número de fotos) y opción de vista ampliada con textos descriptivos.
+- Filtros por tipología de exposición (Todas, Obra propia, Muestras colectivas y Archivo de sala) y búsqueda contextual.
+- En «Trayectoria y contacto» (`#/trayectoria-contacto`), se elimina el bloque redundante de exposiciones, manteniendo el foco en el artista, su trayectoria y las vías de contacto, con enlace directo desde los principios de búsqueda.
+- Estado activo del menú sincronizado: al acceder a `#/exposiciones` o a cualquiera de los álbumes de salas o muestras, el indicador de página activa se asigna exclusivamente a «Exposiciones».
+- Tarjeta de acceso a «Exposiciones» añadida al directorio principal de la portada.
+
 ## 2026-10-14 — Revisión visual de series y conjuntos
 
 Revisión de las 221 imágenes principales del catálogo: 80 pinturas, 55 esculturas, 53 dibujos y 33 móviles. Se compararon además las 123 imágenes de las galerías de escultura con varias vistas y 23 fotografías de origen de pinturas dudosas. Las hojas de contacto y fotografías de trabajo se conservan fuera del repositorio público. No se afirma haber revisado todo el fondo familiar.

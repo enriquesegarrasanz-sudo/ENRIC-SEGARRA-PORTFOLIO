@@ -2,7 +2,7 @@
 
 Portfolio, catálogo visual y memoria artística. Reorganizado el 14 de octubre de 2026 según las indicaciones del artista.
 
-El menú reúne Inicio, Escultura y móviles, Jardín de las Lagartijas, Pintura y dibujo, Arte infantil y Trayectoria y contacto. Las exposiciones infantiles se consultan dentro de Arte infantil; las de obra propia, desde Trayectoria y contacto.
+El menú reúne Inicio, Escultura y móviles, Jardín de las Lagartijas, Pintura, Dibujo, Arte infantil y Trayectoria y contacto. Las exposiciones infantiles se consultan dentro de Arte infantil; las de obra propia, desde Trayectoria y contacto.
 
 ## Qué contiene
 

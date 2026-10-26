@@ -30,6 +30,7 @@ OUTPUT_VERSION = "studio-v2"
 ORIENTATIONS: dict[str, int] = {
     "arc-015123": 90,
     "arc-015124": 90,
+    "arc-015125": 90,
     "arc-015126": 90,
     "arc-015127": 90,
     "arc-015128": 90,

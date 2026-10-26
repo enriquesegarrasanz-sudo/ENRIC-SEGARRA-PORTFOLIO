@@ -144,13 +144,19 @@ function directoryCard(path, title, image, description = "") {
   return a(path, `<div class="image-space">${img(image, title)}</div><h2>${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ""}<span aria-hidden="true">↗</span>`, "section-card");
 }
 function homeDirectory() {
-  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014916", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura-dibujo", "Pintura y dibujo", works.find(w => w.reference === "PIN-036").thumb)}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}</div>`;
+  return `<div class="section-directory">${directoryCard("/escultura-moviles", "Escultura y móviles", "escultura-madera")}${directoryCard("/jardin", "Jardín de las Lagartijas", "arc-014916", "Jardí de les Sargantanes · Espacio escultórico")}${directoryCard("/pintura", "Pintura", works.find(w => w.reference === "PIN-036").thumb, "Tauromaquia, Gatos y Arcas de Noé, junto a otras series")}${directoryCard("/dibujo", "Dibujo", works.find(w => w.reference === "DIB-003").thumb, "Líneas, planos y figuras sobre papel")}${directoryCard("/arte-infantil", "Arte infantil", "arc-014341", "Una etapa de la trayectoria artística")}${directoryCard("/exposiciones", "Exposiciones", "colomina-009086-professional", "La obra en las salas y la memoria de los encuentros.")}</div>`;
 }
 function sculptureAndMobiles() {
   return head("Obra", "Escultura y móviles", "Volumen, equilibrio y movimiento. La obra escultórica y las piezas suspendidas, reunidas en un mismo recorrido.") + `<div class="section-directory">${directoryCard("/obra/escultura", "Escultura", "escultura-madera")}${directoryCard("/obra/moviles", "Móviles", works.find(w => w.category === "moviles").thumb, "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.")}</div><div class="end-link">${a("/jardin", "Jardín de las Lagartijas — Jardí de les Sargantanes " + arrow)}</div>`;
 }
+function painting() {
+  return head("Obra", "Pintura", "Tauromaquia, Gatos y Arcas de Noé, junto a otros conjuntos de pintura.") + collectionCards("pintura") + `<div class="end-link">${a("/obra/pintura", "Ver toda la pintura " + arrow)}</div>`;
+}
+function drawing() {
+  return head("Obra", "Dibujo", "Líneas, planos y figuras sobre papel.") + collectionCards("dibujo") + `<div class="end-link">${a("/obra/dibujo", "Ver todos los dibujos " + arrow)}</div>`;
+}
 function paintingAndDrawing() {
-  return head("Obra", "Pintura y dibujo", "Tauromaquia, Gatos y Arcas de Noé, junto a otros conjuntos de pintura y obra sobre papel.") + collectionCards("pintura") + `<div class="end-link">${a("/obra/pintura", "Ver toda la pintura " + arrow)}</div><section class="section">${sectionHead("Dibujo", "/obra/dibujo", "Ver todos los dibujos")}${collectionCards("dibujo")}</section>`;
+  return painting();
 }
 function garden() {
   const mov17 = works.find(w => w.reference === "MOV-017");
@@ -199,9 +205,48 @@ function garden() {
   );
 }
 function trajectoryContact() {
-  return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section">${sectionHead("Exposiciones", "/exposiciones", "Ver exposiciones")}${albumGrid(albums.filter(al => al.section === "exposiciones" && al.audience !== "educacion").slice(0,3))}</section><section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
+  return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
 }
 
+const room3dUrl = (space) => {
+  const base = location.port === "4173" ? `${location.protocol}//${location.hostname}:5188/` : "galeria-3d/";
+  return `${base}#${space}`;
+};
+function room3dBanner(series) {
+  const spaces = {
+    "Formas orgánicas": {
+      hash: "formas-organicas",
+      eyebrow: "Sala de exposición 3D · Visión amplia 360°",
+      title: "Sala de Formas orgánicas",
+      copy: "Recorre una sala amplia dedicada a las 8 esculturas de «Formas orgánicas» con visión interactiva tanto en Volumen 3D como en Imagen en 3D (2D/3D de estudio bien renderizado).",
+      cta: "Entrar en la sala 3D de Formas orgánicas"
+    },
+    "Planos curvos y volúmenes abiertos": {
+      hash: "galeria",
+      eyebrow: "Sala de exposición 3D · Visión amplia 360°",
+      title: "Galería blanca y Jardín 3D",
+      copy: "Explora las esculturas de «Planos curvos y volúmenes abiertos» en el espacio virtual 3D, alternando entre Volumen 3D e Imagen en 3D multi-ángulo.",
+      cta: "Abrir en la galería 3D"
+    },
+    "Estructuras y objetos ensamblados": {
+      hash: "galeria",
+      eyebrow: "Sala de exposición 3D · Visión amplia 360°",
+      title: "Galería blanca 3D",
+      copy: "Explora las esculturas de «Estructuras y objetos ensamblados» en el espacio virtual 3D, tanto en Volumen 3D como en Imagen en 3D de estudio.",
+      cta: "Abrir en la galería 3D"
+    },
+    "Dibujo y espacio": {
+      hash: "dibujo",
+      eyebrow: "Sala de exposición 3D · Pabellón longitudinal",
+      title: "Sala de Dibujo 3D",
+      copy: "Recorre sin prisa el gran pabellón virtual dedicado a las 48 obras originales sobre papel de la serie «Dibujo y espacio».",
+      cta: "Entrar en la Sala de Dibujo 3D"
+    }
+  };
+  const info = spaces[series];
+  if (!info) return "";
+  return `<aside class="room-3d-banner" aria-label="${esc(info.title)}"><div><p class="eyebrow">${esc(info.eyebrow)}</p><h2>${esc(info.title)}</h2><p>${esc(info.copy)}</p></div><a class="room-3d-cta" href="${room3dUrl(info.hash)}" target="_blank" rel="noopener">${esc(info.cta)} <span aria-hidden="true">↗</span></a></aside>`;
+}
 function workIndex(category = "todas", params = new URLSearchParams()) {
   const pool = works.filter(w => category === "todas" || w.category === category);
   const query = params.get("q") || "";
@@ -229,6 +274,7 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
   return head(series ? catName(category) : "Catálogo de obra", collection?.label || (category === "todas" ? "Obra" : catName(category)), collection?.description || descriptions[category]) +
     `<nav class="tabs" aria-label="Disciplinas">${categories.map(c => a(c.id === "todas" ? "/obra" : "/obra/" + c.id, `${esc(c.label)} <sup>${works.filter(w => c.id === "todas" || w.category === c.id).length}</sup>`, c.id === category ? "active" : "")).join("")}</nav>` +
     (showDirectory ? `<section aria-label="Series y conjuntos">${collectionCards(category)}</section>` : "") +
+    room3dBanner(series) +
     `<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar descripción o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${seriesList.length ? `<label class="select-label">Serie o conjunto<select name="serie"><option value="">Todas las obras</option>${seriesList.map(name => `<option value="${esc(name)}" ${name === series ? "selected" : ""}>${esc(seriesLabel(category,name))}</option>`).join("")}</select></label>` : ""}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}</p><p>Descripciones visuales de las obras</p></div><div id="catalogue-results">${catalogue}</div>${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a(category === "todas" ? "/obra" : "/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`;
 }
 function renderWorks(list, view) {
@@ -442,7 +488,7 @@ function exhibitions(params) {
       "Exposiciones",
       "La obra en las salas y la memoria de los encuentros. Montajes, vistas del espacio y documentos, organizados por el contexto de cada exposición.",
     ) +
-    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t]) => a("/exposiciones?tipo=" + id, t + ` <sup>${all.filter((al) => id === "todas" || al.exhibitionKind === id).length}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"><div class="view-toggle" aria-label="Presentación"><button type="button" data-exhibition-view="mosaico" aria-pressed="${view === "mosaico"}">Mosaico</button><button type="button" data-exhibition-view="ampliada" aria-pressed="${view === "ampliada"}">Vista amplia</button></div></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? `<div class="exhibition-results ${view === "ampliada" ? "is-expanded" : "is-grid"}">${exhibitionList(list)}</div>` : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada archivo. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
+    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t]) => a("/exposiciones?tipo=" + id, t + ` <sup>${all.filter((al) => id === "todas" || al.exhibitionKind === id).length}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"><div class="view-toggle" aria-label="Presentación"><button type="button" data-exhibition-view="mosaico" aria-pressed="${view === "mosaico"}">Mosaico</button><button type="button" data-exhibition-view="ampliada" aria-pressed="${view === "ampliada"}">Vista amplia</button></div></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? (view === "ampliada" ? `<div class="exhibition-results is-expanded">${exhibitionList(list)}</div>` : albumGrid(list)) : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada archivo. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
   );
 }
 
@@ -694,8 +740,13 @@ function render({ keepScroll = false } = {}) {
     title = "ENRIC SEGARRA I GARIBO";
   } else if (section === "escultura-moviles") {
     html = sculptureAndMobiles(); title = "Escultura y móviles";
+  } else if (section === "pintura") {
+    html = painting(); title = "Pintura";
+  } else if (section === "dibujo") {
+    html = drawing(); title = "Dibujo";
   } else if (section === "pintura-dibujo") {
-    html = paintingAndDrawing(); title = "Pintura y dibujo";
+    location.replace("#/pintura");
+    return;
   } else if (section === "jardin") {
     html = garden(); title = "Jardín de las Lagartijas";
   } else if (section === "trayectoria-contacto") {
@@ -766,7 +817,7 @@ function render({ keepScroll = false } = {}) {
           ? "exposiciones"
           : section;
   document.querySelectorAll("[data-nav]").forEach((el) => {
-    const group = section === "obra" ? (["pintura", "dibujo"].includes(id) || ["pintura", "dibujo"].includes(works.find(w => w.id === id)?.category) ? "pintura-dibujo" : "escultura-moviles") : ["memoria", "artista", "contacto", "exposiciones"].includes(active) ? "trayectoria-contacto" : active;
+    const group = section === "obra" ? (id === "pintura" || works.find(w => w.id === id)?.category === "pintura" ? "pintura" : id === "dibujo" || works.find(w => w.id === id)?.category === "dibujo" ? "dibujo" : "escultura-moviles") : active === "exposiciones" ? "exposiciones" : ["memoria", "artista", "contacto"].includes(active) ? "trayectoria-contacto" : active;
     if (el.dataset.nav === group) el.setAttribute("aria-current", "page");
     else el.removeAttribute("aria-current");
   });
@@ -798,7 +849,7 @@ function render({ keepScroll = false } = {}) {
   observe();
   if (shouldRevealSculptureResults) {
     requestAnimationFrame(() => {
-      document.querySelector("#catalogue-results")?.scrollIntoView({
+      (document.querySelector(".room-3d-banner") || document.querySelector("#catalogue-results"))?.scrollIntoView({
         behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
           ? "instant"
           : "smooth",

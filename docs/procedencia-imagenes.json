@@ -4308,16 +4308,16 @@
     "archivo_id": "ARC-015125",
     "original": "PINTURA\\_DSC3539.ARW",
     "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
-    "width": 1600,
-    "height": 1067
+    "width": 1067,
+    "height": 1600
   },
   {
     "asset": "assets/thumb-015125.webp",
     "archivo_id": "ARC-015125",
     "original": "PINTURA\\_DSC3539.ARW",
     "transformacion": "Orientación EXIF, reducción proporcional y WebP; sin recorte ni retoque creativo",
-    "width": 560,
-    "height": 373
+    "width": 373,
+    "height": 560
   },
   {
     "asset": "assets/arc-015126.webp",
@@ -19442,16 +19442,16 @@
     "archivo_id": "ARC-015125",
     "original": "PINTURA\\_DSC3539.ARW",
     "transformacion": "Obra y marco copiados directamente de la versión web anterior, sin reinterpretación generativa; sustitución del fondo exterior por fondo de estudio blanco cálido generado con IA, recorte supervisado y sombra ambiental suave; original intacto",
-    "width": 1600,
-    "height": 1067
+    "width": 1067,
+    "height": 1600
   },
   {
     "asset": "assets/thumb-015125-studio.webp",
     "archivo_id": "ARC-015125",
     "original": "PINTURA\\_DSC3539.ARW",
     "transformacion": "Miniatura proporcional de la versión de estudio; obra y marco conservados; original intacto",
-    "width": 560,
-    "height": 373
+    "width": 373,
+    "height": 560
   },
   {
     "asset": "assets/arc-015126-studio.webp",
@@ -20730,16 +20730,16 @@
     "archivo_id": "ARC-015125",
     "original": "PINTURA\\_DSC3539.ARW",
     "transformacion": "Fotografía original conservada sin reinterpretación generativa; orientación revisada manualmente cuando corresponde; sustitución exclusiva de píxeles de fondo confirmados y conectados al borde por fondo de estudio blanco cálido generado con IA; sin simplificar, rellenar ni reconstruir el contorno; original y primera versión intactos",
-    "width": 1600,
-    "height": 1067
+    "width": 1067,
+    "height": 1600
   },
   {
     "asset": "assets/thumb-015125-studio-v2.webp",
     "archivo_id": "ARC-015125",
     "original": "PINTURA\\_DSC3539.ARW",
     "transformacion": "Miniatura proporcional de la segunda versión de estudio; orientación, obra, marco y proporciones conservados; original intacto",
-    "width": 560,
-    "height": 373
+    "width": 373,
+    "height": 560
   },
   {
     "asset": "assets/arc-015126-studio-v2.webp",
@@ -26136,8 +26136,8 @@
     "archivo_id": "ARC-015125",
     "original": "Fotografía de catálogo: _DSC3539.ARW",
     "transformacion": "Versión de presentación de estudio: iluminación uniforme, fondo blanco cálido, color y contraste equilibrados; formato y obra completos preservados, sin recorte.",
-    "width": 1536,
-    "height": 1024
+    "width": 1024,
+    "height": 1536
   },
   {
     "asset": "assets/pin-018-estudio-v3.png",
