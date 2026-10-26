@@ -6,9 +6,8 @@
 
 ## 2026-10-26 — Rediseño de la presentación en portada y recorrido curatorial de apartados
 
-- Presentación superior (`.home-hero`) rediseñada en dos columnas equilibradas para que la fotografía completa, el título y los controles del carrusel se visualicen de un vistazo sin desbordar la pantalla.
-- Carrusel automático mejorado con transición suave, contador en vivo (`01 / 09`), etiqueta de disciplina, descripción de la obra activa, barra de progreso por diapositiva y controles de navegación anterior/siguiente, iniciándose automáticamente al abrir la página.
-- Recorrido inferior de apartados (`.home-sections`) rediseñado con una presentación editorial minimalista en trípticos visuales curados (`01` a `08`: Móviles, Escultura, Jardín de las Lagartijas, Pintura, Dibujo, Arte infantil, Exposiciones y Trayectoria y contacto), seleccionando las obras y vistas más representativas de cada disciplina y serie (*Arcas de Noé*, *Tauromaquia*, *Gatos*, hierro, planos plegados, talla en madera, espacio natural y muestras en salas).
+- Presentación superior centrada horizontalmente en la portada, conservando su disposición original y proporción `3:2` en la imagen principal (`width: min(100%, 960px)`), con carrusel automático continuo (`3.4s`) y transición suave.
+- Recorrido inferior de apartados (`.home-directory`) con presentación minimalista, elegante y compacta en cuadrícula de 4 columnas (2 filas de 4 apartados), con una imagen representativa en proporción `3:2` por sección (`01` a `08`: Móviles, Escultura, Jardín de las Lagartijas, Pintura, Dibujo, Arte infantil, Exposiciones y Trayectoria y contacto), reduciendo el espacio ocupado y eliminando bandas grises y recortes.
 - Traducciones completas incorporadas en `dist/i18n.js` para todos los idiomas disponibles (CA, EN, FR, ZH, JA).
 
 ## 2026-10-26 — Reclasificación de obras a la serie Gatos

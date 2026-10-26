@@ -1,7 +1,7 @@
 ## 2026-10-26 — Rediseño de la presentación en portada y recorrido curatorial de apartados
 
-- Presentación superior (`.home-hero`) rediseñada en dos columnas proporcionadas (`max-height: clamp(250px, 42vh, 390px)`) con carrusel automático continuo (`3.4s`), transición suave, contador `01 / 09`, indicadores de progreso y descripción activa.
-- Directorio de apartados (`.home-sections`) rediseñado con composición minimalista en trípticos visuales curados para los 8 apartados del archivo, mostrando tres obras o vistas representativas por sección sin bandas grises ni recortes.
+- Presentación superior centrada en portada conservando su disposición original y proporción `3:2` (`width: min(100%, 960px)`), con carrusel automático continuo (`3.4s`).
+- Directorio de apartados (`.home-directory`) con diseño minimalista, elegante y compacto en 4 columnas (2 filas de 4 apartados), reduciendo el espacio ocupado y mostrando una única obra representativa en formato `3:2` por sección (`01` a `08`), sin bandas grises ni recortes.
 
 ## 2026-10-26 — Aislamiento de apartados y eliminación de navegación cruzada
 

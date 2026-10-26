@@ -136,8 +136,7 @@ function home() {
     { image: "hero-work-blue-green-drawing-real-neutral-v3.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
     { image: "hero-work-painted-relief-real-neutral-v3.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
   ];
-  const total = String(slides.length).padStart(2, "0");
-  return `<section class="home-hero" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-introduction"><p class="eyebrow">Escultura · Pintura · Dibujo</p><h1>ENRIC SEGARRA I GARIBO</h1><p class="home-intro-lead">${esc(site.intro)}</p><div class="home-carousel-meta"><div class="home-carousel-bar"><span class="home-carousel-counter" data-home-carousel-counter>01 / ${total}</span><span class="home-carousel-kinds">${slides.map((slide, i) => `<span class="home-carousel-kind${i === 0 ? " is-active" : ""}" data-home-kind>${esc(slide.kind)}</span>`).join("")}</span><div class="home-carousel-controls"><button type="button" data-home-carousel-prev aria-label="Anterior obra"><span aria-hidden="true">←</span></button><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div><div class="home-carousel-captions">${slides.map((slide, i) => `<p class="home-carousel-caption${i === 0 ? " is-active" : ""}" data-home-caption>${esc(slide.alt)}</p>`).join("")}</div><div class="home-carousel-dots" role="tablist" aria-label="Obras en portada">${slides.map((slide, i) => `<button type="button" class="home-carousel-dot${i === 0 ? " is-active" : ""}" data-home-carousel-dot="${i}" aria-label="${esc(slide.alt)}" aria-current="${i === 0 ? "true" : "false"}"></button>`).join("")}</div></div></div><div class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel-stage title="Siguiente obra"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async"><figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption></figure>`).join("")}</div></div></div></section>${homeDirectory()}`;
+  return `<section class="home-introduction"><p class="eyebrow">Escultura · Pintura · Dibujo</p><h1>ENRIC SEGARRA I GARIBO</h1><p>${esc(site.intro)}</p></section><section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async"><figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption></figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>${homeDirectory()}`;
 }
 
 
@@ -145,120 +144,93 @@ function directoryCard(path, title, image, description = "") {
   return a(path, `<div class="image-space">${img(image, title)}</div><h2>${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ""}<span aria-hidden="true">↗</span>`, "section-card");
 }
 function homeDirectory() {
-  const sections = [
+  const items = [
     {
       num: "01",
+      meta: "33 obras · Escultura suspendida",
       path: "/moviles",
       title: "Móviles",
-      meta: "33 obras · Escultura suspendida",
+      image: "hero-work-baskets-real-neutral-v3",
+      alt: "Móvil suspendido compuesto por cestas y elementos de color",
+      fit: "contain",
       description: "Una misma serie, instalada en el jardín de casa y en el Jardín de las Lagartijas.",
-      highlights: "Equilibrio · Aire · Materiales recuperados",
-      frames: [
-        { src: "gallery-015021-cool-neutral-v2", alt: "Círculo abierto de muchos colores (MOV-028)", mode: "studio" },
-        { src: "hero-work-corrugated-real-neutral-v3", alt: "Móvil suspendido de tubos corrugados", mode: "studio" },
-        { src: "hero-work-baskets-real-neutral-v3", alt: "Móvil suspendido compuesto por cestas y elementos de color", mode: "studio" },
-      ],
     },
     {
       num: "02",
+      meta: "55 obras · 7 conjuntos",
       path: "/escultura",
       title: "Escultura",
-      meta: "55 obras · 7 conjuntos",
+      image: "gallery-esc-009",
+      alt: "Forma curva con veta (ESC-009)",
+      fit: "contain",
       description: "Planos plegados, madera, hierro, piedra y relieves murales",
-      highlights: "Hierro forjado · Planos curvos · Talla en madera",
-      frames: [
-        { src: "hero-work-circle-real-neutral-v3", alt: "Escultura circular de metal y piezas articuladas", mode: "studio" },
-        { src: "gallery-esc-031", alt: "Plano abierto con curvas ascendentes (ESC-031)", mode: "studio" },
-        { src: "gallery-esc-009", alt: "Forma curva con veta (ESC-009)", mode: "studio" },
-      ],
     },
     {
       num: "03",
+      meta: "Espacio escultórico en la naturaleza",
       path: "/jardin",
       title: "Jardín de las Lagartijas",
-      meta: "Espacio escultórico en la naturaleza",
+      image: "arc-014873",
+      alt: "Obras suspendidas bajo la encina en el Jardín de las Lagartijas",
+      fit: "cover",
       description: "Jardí de les Sargantanes · Espacio escultórico",
-      highlights: "Árboles · Viento · Paisaje rústico",
-      frames: [
-        { src: "nature-014851", alt: "Planos de color entre los árboles (MOV-017)", mode: "cover" },
-        { src: "arc-014873", alt: "Obras suspendidas bajo la encina en el Jardín de las Lagartijas", mode: "cover" },
-        { src: "arc-014957", alt: "Cestas suspendidas entre las ramas (MOV-022)", mode: "cover" },
-      ],
     },
     {
       num: "04",
+      meta: "80 obras · 8 series pictóricas",
       path: "/pintura",
       title: "Pintura",
-      meta: "80 obras · 8 series pictóricas",
+      image: "pin-001-estudio-v3",
+      alt: "Arca en composición circular (PIN-001)",
+      fit: "contain",
       description: "Tauromaquia, Gatos y Arcas de Noé, junto a otras series",
-      highlights: "Arcas de Noé · Tauromaquia · Gatos",
-      frames: [
-        { src: "pin-001-estudio-v3", alt: "Arca en composición circular (PIN-001)", mode: "studio" },
-        { src: "pin-069-estudio-v3", alt: "Toro y figuras (PIN-069)", mode: "studio" },
-        { src: "pin-023-estudio-v3", alt: "Gato de cuerpo violeta (PIN-023)", mode: "studio" },
-      ],
     },
     {
       num: "05",
+      meta: "53 obras · Papel y espacio",
       path: "/dibujo",
       title: "Dibujo",
-      meta: "53 obras · Papel y espacio",
+      image: "drawing-015081-catalogue",
+      alt: "Estudio de formas en rojo (DIB-003)",
+      fit: "contain",
       description: "Líneas, planos y figuras sobre papel",
-      highlights: "Dibujo y espacio · Color · Figura",
-      frames: [
-        { src: "drawing-015081-catalogue", alt: "Estudio de formas en rojo (DIB-003)", mode: "studio" },
-        { src: "drawing-015098-catalogue", alt: "Planos azules, verdes y amarillos (DIB-019)", mode: "studio" },
-        { src: "hero-work-blue-green-drawing-real-neutral-v3", alt: "Dibujo abstracto azul y verde", mode: "studio" },
-      ],
     },
     {
       num: "06",
+      meta: "20 colecciones · Pedagogía y creación",
       path: "/arte-infantil",
       title: "Arte infantil",
-      meta: "20 colecciones · Pedagogía y creación",
+      image: "bellas-arc-012548",
+      alt: "Arte infantil en la Sala de Bellas Artes",
+      fit: "cover",
       description: "Una etapa de la trayectoria artística",
-      highlights: "Exposiciones · Talleres · Creación colectiva",
-      frames: [
-        { src: "bellas-arc-012548", alt: "Arte infantil en la Sala de Bellas Artes", mode: "cover" },
-        { src: "arc-002472", alt: "Exposición de arte infantil en Casa Abadía", mode: "cover" },
-        { src: "arc-000043", alt: "Pintar y construir en común", mode: "cover" },
-      ],
     },
     {
       num: "07",
+      meta: "Archivo de muestras y salas",
       path: "/exposiciones",
       title: "Exposiciones",
-      meta: "Archivo de muestras y salas",
+      image: "colomina-009086-professional",
+      alt: "Exposición de escultura en el Palacio Colomina",
+      fit: "cover",
       description: "La obra en las salas y la memoria de los encuentros.",
-      highlights: "Palacio Colomina · Bellas Artes · Caixa Castelló",
-      frames: [
-        { src: "colomina-009086-professional", alt: "Exposición de escultura en el Palacio Colomina", mode: "cover" },
-        { src: "evolucion-013392-restored", alt: "Sala d’Exposicions de les Belles Arts · Evolución 1984–2004", mode: "cover" },
-        { src: "arc-009490", alt: "Exposición de dibujo y escultura en Caixa Castelló", mode: "cover" },
-      ],
     },
     {
       num: "08",
+      meta: "Biografía · 1959 — presente",
       path: "/trayectoria-contacto",
       title: "Trayectoria y contacto",
-      meta: "Biografía · 1959 — presente",
+      image: "hero-portrait-real-neutral-v3",
+      alt: "ENRIC SEGARRA I GARIBO sostiene una escultura de madera",
+      fit: "contain",
       description: "Vida, taller, capítulos de creación y contacto directo.",
-      highlights: "Orígenes · Taller · Contacto",
-      frames: [
-        { src: "hero-portrait-real-neutral-v3", alt: "ENRIC SEGARRA I GARIBO sostiene una escultura de madera", mode: "studio" },
-        { src: "retrato-artista", alt: "Retrato de ENRIC SEGARRA I GARIBO", mode: "cover" },
-        { src: "arc-014923", alt: "ENRIC SEGARRA I GARIBO junto a un móvil en el jardín", mode: "cover" },
-      ],
     },
   ];
-  return `<section class="home-sections" aria-label="Apartados del archivo"><div class="home-sections-head"><p class="eyebrow">Recorrido por el archivo</p><span>08 apartados</span></div><div class="home-sections-grid">${sections.map((s) => {
-    const [mainFrame, ...sideFrames] = s.frames;
-    return a(
-      s.path,
-      `<div class="home-section-topline"><span class="home-section-num">${s.num}</span><span class="home-section-meta">${esc(s.meta)}</span><span class="home-section-arrow" aria-hidden="true">↗</span></div><div class="home-section-triptych"><div class="home-section-frame is-main is-${mainFrame.mode}">${img(mainFrame.src, mainFrame.alt)}</div><div class="home-section-side">${sideFrames.map((f) => `<div class="home-section-frame is-secondary is-${f.mode}">${img(f.src, f.alt)}</div>`).join("")}</div></div><div class="home-section-body"><div class="home-section-title-row"><h2>${esc(s.title)}</h2><span class="home-section-highlights">${esc(s.highlights)}</span></div><p>${esc(s.description)}</p></div>`,
-      "home-section-card",
-    );
-  }).join("")}</div></section>`;
+  return `<div class="section-directory home-directory">${items.map((item) => a(
+    item.path,
+    `<div class="home-card-meta"><span>${item.num}</span><span>${esc(item.meta)}</span></div><div class="image-space is-${item.fit}">${img(item.image, item.alt)}</div><div class="home-card-head"><h2>${esc(item.title)}</h2><span class="home-card-arrow" aria-hidden="true">↗</span></div><p>${esc(item.description)}</p>`,
+    "section-card home-editorial-card",
+  )).join("")}</div>`;
 }
 function sculpture() {
   return head("Obra", "Escultura", "Planos plegados, madera, hierro, piedra y relieves murales.") + collectionCards("escultura") + `<div class="end-link">${a("/obra/escultura", "Ver toda la escultura " + arrow)}</div>`;
