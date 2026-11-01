@@ -3821,3 +3821,17 @@ main {
     gap: 28px;
   }
 }
+.seo-footer-links {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin: 6px 0;
+}
+.seo-footer-links a {
+  color: inherit;
+  text-decoration: none;
+}
+.seo-footer-links a:hover {
+  color: #222;
+  text-decoration: underline;
+}

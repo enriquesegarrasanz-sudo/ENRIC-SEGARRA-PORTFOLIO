@@ -1,3 +1,12 @@
+## 2026-11-01 — Publicación unificada del Museo 3D y posicionamiento orgánico SEO en Google
+
+- Integración completa del Museo y Espacios 3D (`dist/galeria-3d/`) con las 6 salas interactivas (Galería blanca, recreación topográfica de la parcela real de El Jardín de las Lagartijas en Náquera con ciclo Día/Noche, nubes en movimiento, iluminación nocturna, pájaros, ardillas y música ambiental interactiva, Sala de Dibujo, Sala de Formas orgánicas, Sala de Planos curvos y El Mirador del Aire con los 33 móviles a tres alturas).
+- Incorporación del visor interactivo 3D de El Jardín de las Lagartijas en `#/jardin`.
+- Optimización SEO orgánica sin coste (`scripts/build-seo.mjs`):
+  - Pre-renderizado semántico HTML en `dist/index.html` y generación de 8 páginas estáticas indexables por sección (`moviles.html`, `escultura.html`, `jardin-de-las-lagartijas.html`, `pintura.html`, `dibujo.html`, `arte-infantil.html`, `exposiciones.html`, `biografia-enric-segarra.html`).
+  - Datos estructurados `Schema.org` JSON-LD (`VisualArtist`, `Person`, `WebSite`, `CollectionPage`, `ItemList`, `VisualArtwork`, `Place`, `ProfilePage`) para **Enric Segarra i Garibo (Segarra y Garibo)**.
+  - Mapa del sitio `dist/sitemap.xml` ampliado a 11 URLs canónicas con extensión oficial de **Google Image Sitemap** (`image:image`) para indexar las obras en Google Imágenes, además de `dist/robots.txt` y `dist/llms.txt`.
+
 ## 2026-10-26 — Aislamiento de apartados y eliminación de navegación cruzada
 
 - Eliminada la barra de pestañas («Toda la obra», «Móviles», «Escultura», «Pintura», «Dibujo») en el interior de los apartados de disciplina, de forma que cada sección muestra única y exclusivamente sus obras sin dirigir al resto de apartados ni a la vista combinada.

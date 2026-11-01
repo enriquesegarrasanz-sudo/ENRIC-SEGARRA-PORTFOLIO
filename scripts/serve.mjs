@@ -11,6 +11,9 @@ const types = {
   ".webp": "image/webp",
   ".svg": "image/svg+xml",
   ".json": "application/json; charset=utf-8",
+  ".glb": "model/gltf-binary",
+  ".xml": "application/xml; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8",
 };
 const server = http.createServer(async (req, res) => {
   try {
@@ -19,7 +22,7 @@ const server = http.createServer(async (req, res) => {
     );
     const file = path.resolve(
       root,
-      "." + (name === "/" ? "/index.html" : name),
+      "." + (name.endsWith("/") ? name + "index.html" : name),
     );
     if (
       !file.startsWith(root + path.sep) &&

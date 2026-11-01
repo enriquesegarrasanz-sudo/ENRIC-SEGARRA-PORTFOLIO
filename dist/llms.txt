@@ -1,0 +1,23 @@
+# ENRIC SEGARRA I GARIBO (Segarra y Garibo) — Web Oficial y Catálogo de Obra
+
+> Portfolio oficial, archivo documental de 217 obras y museo virtual 3D del escultor, pintor, dibujante y educador artístico Enric Segarra i Garibo (nacido en Barcelona en 1959 y formado en la Facultad de Bellas Artes de Valencia).
+
+## Identidad del artista
+- **Nombre completo**: Enric Segarra i Garibo
+- **Nombre artístico**: Segarra y Garibo / Enric Segarra
+- **Nacimiento y formación**: Barcelona (1959); licenciado en Bellas Artes en Valencia.
+- **Ámbitos de creación**: Escultura (hierro, madera, piedra y ensamblaje), Móviles cinéticos suspendidos, Pintura, Dibujo, Intervención en la naturaleza (El Jardín de las Lagartijas, Náquera, Valencia) y Educación artística / Arte infantil.
+- **Contacto directo**: enric3art@gmail.com · Teléfono: +34 615 224 258
+- **Web oficial**: https://enricsegarraigaribo.com/
+
+## Secciones principales e índice de URLs
+- [Inicio y Portada](https://enricsegarraigaribo.com/): Presentación general y acceso a las 8 disciplinas.
+- [Móviles y Esculturas Suspendidas](https://enricsegarraigaribo.com/moviles.html): 33 móviles cinéticos (MOV-001 a MOV-033) y pabellón interactivo 3D «El Mirador del Aire».
+- [Escultura](https://enricsegarraigaribo.com/escultura.html): 55 esculturas en 7 conjuntos (Planos curvos y volúmenes abiertos, Formas orgánicas, Relieves, Ensamblajes e Intervenciones) con salas 3D.
+- [El Jardín de las Lagartijas / Jardí de les Sargantanes](https://enricsegarraigaribo.com/jardin-de-las-lagartijas.html): Espacio escultórico al aire libre en Partida Collado dels Llops, Náquera (Valencia) y recreación topográfica 3D.
+- [Pintura](https://enricsegarraigaribo.com/pintura.html): 80 pinturas organizadas en 9 series (Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Figuras y símbolos, Relatos e iconografía, Letras y signos, Geometría y color, Materia y abstracción).
+- [Dibujo](https://enricsegarraigaribo.com/dibujo.html): 53 dibujos en ceras, carbón y pastel (Dibujo y espacio, Figuras y símbolos) y Sala de Dibujo 3D.
+- [Arte Infantil y Educación Artística](https://enricsegarraigaribo.com/arte-infantil.html): Proyecto pedagógico, talleres, formación docente y lecturas documentadas.
+- [Exposiciones](https://enricsegarraigaribo.com/exposiciones.html): Exposiciones individuales, muestras colectivas y archivo de la Sala d’Exposicions de les Belles Arts de Valencia («Evolución 1984–2004»).
+- [Biografía, Trayectoria y Contacto](https://enricsegarraigaribo.com/biografia-enric-segarra.html): Recorrido biográfico en 7 etapas y contacto directo.
+- [Museo y Espacios en Movimiento 3D](https://enricsegarraigaribo.com/galeria-3d/): Seis espacios virtuales 3D navegables en WebGL.

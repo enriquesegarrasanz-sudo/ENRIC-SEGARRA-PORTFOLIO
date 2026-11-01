@@ -1,7 +1,1265 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://enricsegarraigaribo.com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/retrato.webp</image:loc>
+      <image:title>Enric Segarra i Garibo (Segarra y Garibo)</image:title>
+      <image:caption>Retrato del escultor y pintor Enric Segarra i Garibo con su obra</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014590-cool-neutral-v2.webp</image:loc>
+      <image:title>Composición suspendida en rosa (MOV-001) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Composición suspendida en rosa)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014605-cool-neutral-v2.webp</image:loc>
+      <image:title>Una línea en suspensión (MOV-002) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Una línea en suspensión)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014616.webp</image:loc>
+      <image:title>Rama oscura, acentos rojos (MOV-003) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Rama oscura, acentos rojos)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014625-cool-neutral-v2.webp</image:loc>
+      <image:title>Figuras sobre una barra roja (MOV-004) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Figuras sobre una barra roja)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014646-cool-neutral-v2.webp</image:loc>
+      <image:title>Forma suspendida en verde (MOV-005) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Forma suspendida en verde)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014666.webp</image:loc>
+      <image:title>Tubos rosas sobre un arco (MOV-006) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Tubos rosas sobre un arco)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014680-cool-neutral-v2.webp</image:loc>
+      <image:title>Estructura clara y elementos cilíndricos (MOV-007) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Estructura clara y elementos cilíndricos)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014696-cool-neutral-v2.webp</image:loc>
+      <image:title>Pequeño volumen abierto en rosa (MOV-008) — Móvil de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio. (Pequeño volumen abierto en rosa)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-001.webp</image:loc>
+      <image:title>Perfil recortado sobre fondo oscuro (ESC-001) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Perfil recortado sobre fondo oscuro. (Perfil recortado sobre fondo oscuro)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-002.webp</image:loc>
+      <image:title>Relieve de líneas onduladas (ESC-002) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieve de líneas onduladas. (Relieve de líneas onduladas)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-003.webp</image:loc>
+      <image:title>Plano recortado en diagonal (ESC-003) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Plano recortado en diagonal. (Plano recortado en diagonal)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-004.webp</image:loc>
+      <image:title>Relieve de contornos angulares (ESC-004) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieve de contornos angulares. (Relieve de contornos angulares)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-005.webp</image:loc>
+      <image:title>Volumen vertical de planos abiertos (ESC-005) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Volumen vertical de planos abiertos. (Volumen vertical de planos abiertos)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-006.webp</image:loc>
+      <image:title>Plano curvo con abertura (ESC-006) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Plano curvo con abertura. (Plano curvo con abertura)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-007.webp</image:loc>
+      <image:title>Volumen de planos envolventes (ESC-007) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Volumen de planos envolventes. (Volumen de planos envolventes)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-008.webp</image:loc>
+      <image:title>Volumen claro de formas onduladas (ESC-008) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Volumen claro de formas onduladas. (Volumen claro de formas onduladas)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/moviles.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014590-cool-neutral-v2.webp</image:loc>
+      <image:title>Composición suspendida en rosa (MOV-001) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014605-cool-neutral-v2.webp</image:loc>
+      <image:title>Una línea en suspensión (MOV-002) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014616.webp</image:loc>
+      <image:title>Rama oscura, acentos rojos (MOV-003) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014625-cool-neutral-v2.webp</image:loc>
+      <image:title>Figuras sobre una barra roja (MOV-004) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014646-cool-neutral-v2.webp</image:loc>
+      <image:title>Forma suspendida en verde (MOV-005) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014666.webp</image:loc>
+      <image:title>Tubos rosas sobre un arco (MOV-006) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014680-cool-neutral-v2.webp</image:loc>
+      <image:title>Estructura clara y elementos cilíndricos (MOV-007) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014696-cool-neutral-v2.webp</image:loc>
+      <image:title>Pequeño volumen abierto en rosa (MOV-008) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014715-cool-neutral-v2.webp</image:loc>
+      <image:title>Una columna de discos rosas (MOV-009) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014722-cool-neutral-v2.webp</image:loc>
+      <image:title>Escalera de elementos claros (MOV-010) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014728-cool-neutral-v2.webp</image:loc>
+      <image:title>Líneas rosas ramificadas (MOV-011) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014755.webp</image:loc>
+      <image:title>Curvas de tubo corrugado (MOV-012) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014765-cool-neutral-v2.webp</image:loc>
+      <image:title>Discos rosas en dos recorridos (MOV-013) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014774-cool-neutral-v2.webp</image:loc>
+      <image:title>Composición de aros (MOV-014) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014821-cool-neutral-v2.webp</image:loc>
+      <image:title>Una forma articulada (MOV-015) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014847-cool-neutral-v2.webp</image:loc>
+      <image:title>Pieza entre las ramas (MOV-016) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/nature-014851.webp</image:loc>
+      <image:title>Planos de color entre los árboles (MOV-017) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014880-cool-neutral-v2.webp</image:loc>
+      <image:title>Líneas de color al aire libre (MOV-018) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014890-cool-neutral-v2.webp</image:loc>
+      <image:title>Círculo azul y blanco (MOV-019) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-008941-cool-neutral-v2.webp</image:loc>
+      <image:title>Estructura de líneas oscuras y esferas (MOV-020) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-008954-cool-neutral-v2.webp</image:loc>
+      <image:title>Fragmentos de color suspendidos (MOV-021) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>La suspensión permite observar la pieza desde distintos puntos de vista. Las fotografías reúnen su forma, sus uniones y su relación con el espacio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014955-cool-neutral-v2.webp</image:loc>
+      <image:title>Arcos oscuros y pequeños acentos de color (MOV-022) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Arcos oscuros y pequeños acentos de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-014976-cool-neutral-v2.webp</image:loc>
+      <image:title>Círculos rojos entrelazados (MOV-023) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Círculos rojos entrelazados. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015000-cool-neutral-v2.webp</image:loc>
+      <image:title>Curvas azules y verdes (MOV-024) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Curvas azules y verdes. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015002-cool-neutral-v2.webp</image:loc>
+      <image:title>Trama oscura con flores de color (MOV-025) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Trama oscura con flores de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015006-cool-neutral-v2.webp</image:loc>
+      <image:title>Arco rojo y discos azules (MOV-026) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Arco rojo y discos azules. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015011-cool-neutral-v2.webp</image:loc>
+      <image:title>Un recorrido de pequeños discos (MOV-027) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Un recorrido de pequeños discos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015021-cool-neutral-v2.webp</image:loc>
+      <image:title>Círculo abierto de muchos colores (MOV-028) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Círculo abierto de muchos colores. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015045-cool-neutral-v2.webp</image:loc>
+      <image:title>Estructura abierta y un aro de color (MOV-029) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructura abierta y un aro de color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015051-cool-neutral-v2.webp</image:loc>
+      <image:title>Columna de discos multicolores (MOV-030) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Columna de discos multicolores. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015058-cool-neutral-v2.webp</image:loc>
+      <image:title>Recipientes rosas, verdes y amarillos (MOV-031) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Recipientes rosas, verdes y amarillos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015062-cool-neutral-v2.webp</image:loc>
+      <image:title>Ramas y figuras geométricas (MOV-032) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Ramas y figuras geométricas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-015067-cool-neutral-v2.webp</image:loc>
+      <image:title>Pequeños recipientes suspendidos (MOV-033) — Móvil suspendido de Enric Segarra i Garibo</image:title>
+      <image:caption>Pequeños recipientes suspendidos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. Las fotografías reúnen perspectivas y variaciones de su presentación. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/escultura.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-001.webp</image:loc>
+      <image:title>Perfil recortado sobre fondo oscuro (ESC-001) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de planos recortados: Perfil recortado sobre fondo oscuro.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-002.webp</image:loc>
+      <image:title>Relieve de líneas onduladas (ESC-002) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de planos recortados: Relieve de líneas onduladas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-003.webp</image:loc>
+      <image:title>Plano recortado en diagonal (ESC-003) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de planos recortados: Plano recortado en diagonal.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-004.webp</image:loc>
+      <image:title>Relieve de contornos angulares (ESC-004) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de planos recortados: Relieve de contornos angulares.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-005.webp</image:loc>
+      <image:title>Volumen vertical de planos abiertos (ESC-005) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Volumen vertical de planos abiertos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-006.webp</image:loc>
+      <image:title>Plano curvo con abertura (ESC-006) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Plano curvo con abertura.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-007.webp</image:loc>
+      <image:title>Volumen de planos envolventes (ESC-007) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Volumen de planos envolventes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-008.webp</image:loc>
+      <image:title>Volumen claro de formas onduladas (ESC-008) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Volumen claro de formas onduladas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-009.webp</image:loc>
+      <image:title>Forma curva con veta (ESC-009) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Forma curva con veta.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-010.webp</image:loc>
+      <image:title>Volumen claro con abertura superior (ESC-010) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Volumen claro con abertura superior.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-011.webp</image:loc>
+      <image:title>Volumen ovalado con dos huecos (ESC-011) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Volumen ovalado con dos huecos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-012.webp</image:loc>
+      <image:title>Figura de planos plegados (ESC-012) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Figura de planos plegados.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-013.webp</image:loc>
+      <image:title>Forma vertical ondulada (ESC-013) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Forma vertical ondulada.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-014.webp</image:loc>
+      <image:title>Forma alargada sobre peana (ESC-014) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Forma alargada sobre peana.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-015.webp</image:loc>
+      <image:title>Volumen redondeado con cavidades (ESC-015) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Volumen redondeado con cavidades.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-016.webp</image:loc>
+      <image:title>Dos paneles con elementos superpuestos (ESC-016) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Dos paneles con elementos superpuestos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-017.webp</image:loc>
+      <image:title>Relieve con forma circular abierta (ESC-017) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Relieve con forma circular abierta.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-018.webp</image:loc>
+      <image:title>Relieve circular de capas concéntricas (ESC-018) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Relieve circular de capas concéntricas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-019.webp</image:loc>
+      <image:title>Ensamblaje circular con números (ESC-019) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Ensamblaje circular con números.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-020.webp</image:loc>
+      <image:title>Relieve circular con ruedas dentadas (ESC-020) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Relieve circular con ruedas dentadas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-021.webp</image:loc>
+      <image:title>Franja vertical con piezas superpuestas (ESC-021) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Franja vertical con piezas superpuestas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-022.webp</image:loc>
+      <image:title>Relieve de contornos fragmentados (ESC-022) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Relieve de contornos fragmentados.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-023.webp</image:loc>
+      <image:title>Relieve con arco circular (ESC-023) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Relieve con arco circular.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-024.webp</image:loc>
+      <image:title>Relieve claro con dibujo inciso (ESC-024) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de textura: Relieve claro con dibujo inciso.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-025.webp</image:loc>
+      <image:title>Relieve claro con trazos rojizos (ESC-025) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de textura: Relieve claro con trazos rojizos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-026.webp</image:loc>
+      <image:title>Relieve con rostro inciso (ESC-026) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de textura: Relieve con rostro inciso.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-027.webp</image:loc>
+      <image:title>Relieve circular con tramas (ESC-027) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de textura: Relieve circular con tramas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-028.webp</image:loc>
+      <image:title>Dos paneles verdes con bandas (ESC-028) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Dos paneles verdes con bandas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-029.webp</image:loc>
+      <image:title>Relieve claro con elementos rectangulares (ESC-029) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves de textura: Relieve claro con elementos rectangulares.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-030.webp</image:loc>
+      <image:title>Relieve rosa con figuras y piezas superpuestas (ESC-030) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Relieve rosa con figuras y piezas superpuestas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-031.webp</image:loc>
+      <image:title>Plano abierto con curvas ascendentes (ESC-031) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Plano abierto con curvas ascendentes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-032.webp</image:loc>
+      <image:title>Plano curvo sobre peana (ESC-032) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Plano curvo sobre peana.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-033.webp</image:loc>
+      <image:title>Volumen envolvente con abertura (ESC-033) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Volumen envolvente con abertura.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-034.webp</image:loc>
+      <image:title>Plano curvo con lazo central (ESC-034) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Plano curvo con lazo central.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-035.webp</image:loc>
+      <image:title>Plano abierto de contorno ovalado (ESC-035) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Plano abierto de contorno ovalado.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-036.webp</image:loc>
+      <image:title>Volumen de curvas en espiral (ESC-036) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Volumen de curvas en espiral.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-037.webp</image:loc>
+      <image:title>Retícula con elementos claros (ESC-037) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Retícula con elementos claros.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-038.webp</image:loc>
+      <image:title>Forma natural sobre soporte (ESC-038) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas orgánicas: Forma natural sobre soporte.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-039.webp</image:loc>
+      <image:title>Estructura vertical con barras y esferas (ESC-039) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Estructura vertical con barras y esferas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-040.webp</image:loc>
+      <image:title>Planos curvos sobre rueda dentada (ESC-040) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Planos curvos sobre rueda dentada.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-041.webp</image:loc>
+      <image:title>Dos estructuras de espirales (ESC-041) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Dos estructuras de espirales.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-042.webp</image:loc>
+      <image:title>Ensamblaje con herramienta y cadena (ESC-042) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Ensamblaje con herramienta y cadena.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-043.webp</image:loc>
+      <image:title>Estructura con espiral y ruedas dentadas (ESC-043) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Estructura con espiral y ruedas dentadas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-044.webp</image:loc>
+      <image:title>Dos planos curvos ascendentes (ESC-044) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Dos planos curvos ascendentes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-045.webp</image:loc>
+      <image:title>Eje vertical con elementos superpuestos (ESC-045) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Eje vertical con elementos superpuestos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-046.webp</image:loc>
+      <image:title>Ensamblaje rosa con círculo oscuro (ESC-046) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Relieves y ensamblajes murales: Ensamblaje rosa con círculo oscuro.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-014959.webp</image:loc>
+      <image:title>Árbol con elementos azules suspendidos (ESC-047) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Intervenciones en el entorno: Árbol con elementos azules suspendidos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-014967.webp</image:loc>
+      <image:title>Tres paneles de círculos de colores (ESC-048) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Intervenciones en el entorno: Tres paneles de círculos de colores.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-014968.webp</image:loc>
+      <image:title>Conjunto de cilindros y ramas (ESC-049) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Intervenciones en el entorno: Conjunto de cilindros y ramas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-014978.webp</image:loc>
+      <image:title>Árbol con figuras de colores (ESC-050) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Intervenciones en el entorno: Árbol con figuras de colores.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-015032.webp</image:loc>
+      <image:title>Composición circular de piezas ensambladas (ESC-051) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Intervenciones en el entorno: Composición circular de piezas ensambladas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-015076.webp</image:loc>
+      <image:title>Tronco vertical con elementos superpuestos (ESC-052) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Intervenciones en el entorno: Tronco vertical con elementos superpuestos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-053.webp</image:loc>
+      <image:title>Volumen abierto de contorno ondulado (ESC-053) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos curvos y volúmenes abiertos: Volumen abierto de contorno ondulado.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-054.webp</image:loc>
+      <image:title>Forma articulada en un aro (ESC-054) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Forma articulada en un aro.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/gallery-esc-055.webp</image:loc>
+      <image:title>Estructura de tres ejes y ruedas dentadas (ESC-055) — Escultura de Enric Segarra i Garibo</image:title>
+      <image:caption>Estructuras y objetos ensamblados: Estructura de tres ejes y ruedas dentadas.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/jardin-de-las-lagartijas.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-014916.webp</image:loc>
+      <image:title>El Jardín de las Lagartijas (Jardí de les Sargantanes) · Náquera</image:title>
+      <image:caption>Espacio escultórico y natural de Enric Segarra i Garibo en Náquera, Valencia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/arc-014923.webp</image:loc>
+      <image:title>Árboles y móviles en el Jardín de las Lagartijas</image:title>
+      <image:caption>Intervención escultórica en la naturaleza por Enric Segarra i Garibo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/pintura.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-001-estudio-v3.webp</image:loc>
+      <image:title>Arca en composición circular (PIN-001) — Pintura serie Arcas de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca en composición circular.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-002-estudio-v3.webp</image:loc>
+      <image:title>Sol en composición circular (PIN-002) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Sol en composición circular.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-003-estudio-v3.webp</image:loc>
+      <image:title>Arca sobre fondo oscuro (PIN-003) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca sobre fondo oscuro.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-004-estudio-v3.webp</image:loc>
+      <image:title>Ojo en composición circular (PIN-004) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Ojo en composición circular.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-005-estudio-v3.webp</image:loc>
+      <image:title>Arca y cielo claro (PIN-005) — Pintura serie Arcas de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca y cielo claro.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-006-estudio-v3.webp</image:loc>
+      <image:title>Símbolos en círculo (PIN-006) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Símbolos en círculo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-007-estudio-v3.webp</image:loc>
+      <image:title>Arca sobre fondo azul (PIN-007) — Pintura serie Arcas de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca sobre fondo azul.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-008-estudio-v3.webp</image:loc>
+      <image:title>Arca y formas azules (PIN-008) — Pintura serie Arcas de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca y formas azules.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-009-estudio-v3.webp</image:loc>
+      <image:title>Composición circular con sol y montañas (PIN-009) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Composición circular con sol y montañas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-010-estudio-v3.webp</image:loc>
+      <image:title>Árbol en círculo violeta (PIN-010) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Árbol en círculo violeta.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-011-estudio-v3.webp</image:loc>
+      <image:title>Arca sobre aguas rosas (PIN-011) — Pintura serie Arcas de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca sobre aguas rosas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-012-estudio-v3.webp</image:loc>
+      <image:title>Círculo naranja de figuras (PIN-012) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Círculo naranja de figuras.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-013-estudio-v3.webp</image:loc>
+      <image:title>Figuras enlazadas en rosa (PIN-013) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Figuras enlazadas en rosa.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-014-estudio-v3.webp</image:loc>
+      <image:title>Arca entre el sol y la luna (PIN-014) — Pintura serie Arcas de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca entre el sol y la luna.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-015-estudio-v3.webp</image:loc>
+      <image:title>Rostro sobre fondo amarillo (PIN-015) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro sobre fondo amarillo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-016-estudio-v3.webp</image:loc>
+      <image:title>Rostro coronado sobre fondo dorado (PIN-016) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro coronado sobre fondo dorado.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-017-estudio-v3.webp</image:loc>
+      <image:title>Figuras sobre fondo violeta (PIN-017) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Figuras sobre fondo violeta.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-018-estudio-v3.webp</image:loc>
+      <image:title>Dos rostros y vegetación (PIN-018) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Dos rostros y vegetación.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-019-estudio-v3.webp</image:loc>
+      <image:title>Rostro junto a un gato violeta (PIN-019) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro junto a un gato violeta.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-020-estudio-v3.webp</image:loc>
+      <image:title>Cabeza de toro de perfiles claros (PIN-020) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Cabeza de toro de perfiles claros.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-021-estudio-v3.webp</image:loc>
+      <image:title>Cabeza de toro naranja (PIN-021) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Cabeza de toro naranja.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-022-estudio-v3.webp</image:loc>
+      <image:title>Cabeza de toro de perfil (PIN-022) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Cabeza de toro de perfil.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-023-estudio-v3.webp</image:loc>
+      <image:title>Gato de cuerpo violeta (PIN-023) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Gato de cuerpo violeta.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-024-estudio-v3.webp</image:loc>
+      <image:title>Forma trilobulada (PIN-024) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Forma trilobulada.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-025-estudio-v3.webp</image:loc>
+      <image:title>Figura azul de perfil (PIN-025) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura azul de perfil.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-026-estudio-v3.webp</image:loc>
+      <image:title>Tres figuras con abanicos (PIN-026) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Tres figuras con abanicos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-027-estudio-v3.webp</image:loc>
+      <image:title>Rostro de líneas cálidas (PIN-027) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro de líneas cálidas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-028-estudio-v3.webp</image:loc>
+      <image:title>Rostro y formas circulares (PIN-028) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro y formas circulares.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-029-estudio-v3.webp</image:loc>
+      <image:title>Perfil dorado (PIN-029) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Perfil dorado.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-030-estudio-v3.webp</image:loc>
+      <image:title>Figuras en formato alargado (PIN-030) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Figuras en formato alargado.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-031-estudio-v3.webp</image:loc>
+      <image:title>Rostro naranja y mano azul (PIN-031) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro naranja y mano azul.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-032-estudio-v3.webp</image:loc>
+      <image:title>Dos personajes vestidos de verde (PIN-032) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Dos personajes vestidos de verde.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-033-estudio-v3.webp</image:loc>
+      <image:title>Figura en rosa y ocre (PIN-033) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura en rosa y ocre.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-034-estudio-v3.webp</image:loc>
+      <image:title>Rostro naranja y líneas de color (PIN-034) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro naranja y líneas de color.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-035-estudio-v3.webp</image:loc>
+      <image:title>Rostro con figuras alrededor (PIN-035) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro con figuras alrededor.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-036-estudio-v3.webp</image:loc>
+      <image:title>Trío de músicos y personajes (PIN-036) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Trío de músicos y personajes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-037-estudio-v3.webp</image:loc>
+      <image:title>Personaje ante una mesa (PIN-037) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Personaje ante una mesa.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-038-estudio-v3.webp</image:loc>
+      <image:title>Rostro con tocado y símbolos dorados (PIN-038) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro con tocado y símbolos dorados.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-039-estudio-v3.webp</image:loc>
+      <image:title>Toro rosa con copa y figura al fondo (PIN-039) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Toro rosa con copa y figura al fondo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-040-estudio-v3.webp</image:loc>
+      <image:title>Figuras sobre fondo lila (PIN-040) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Figuras sobre fondo lila.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-041-estudio-v3.webp</image:loc>
+      <image:title>Líneas y planos sobre naranja (PIN-041) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Líneas y planos sobre naranja.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-042-estudio-v3.webp</image:loc>
+      <image:title>Curvas blancas sobre naranja (PIN-042) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Curvas blancas sobre naranja.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-043-estudio-v3.webp</image:loc>
+      <image:title>Remolino de formas claras (PIN-043) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Remolino de formas claras.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-044-estudio-v3.webp</image:loc>
+      <image:title>Planos de colores suaves (PIN-044) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos de colores suaves.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-045-estudio-v3.webp</image:loc>
+      <image:title>Planos violetas y ocres (PIN-045) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos violetas y ocres.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-046-estudio-v3.webp</image:loc>
+      <image:title>Giro de formas rojas (PIN-046) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Giro de formas rojas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-047-estudio-v3.webp</image:loc>
+      <image:title>Formas entrelazadas (PIN-047) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas entrelazadas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-048-estudio-v3.webp</image:loc>
+      <image:title>Ritmo rojo y blanco (PIN-048) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Ritmo rojo y blanco.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-049-estudio-v3.webp</image:loc>
+      <image:title>Curvas blancas y naranjas (PIN-049) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Curvas blancas y naranjas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-050-estudio-v3.webp</image:loc>
+      <image:title>Volúmenes de color (PIN-050) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Volúmenes de color.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-051-estudio-v3.webp</image:loc>
+      <image:title>Encuentro de signos y color (PIN-051) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Encuentro de signos y color.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-052-estudio-v3.webp</image:loc>
+      <image:title>Recorrido rojo y circular (PIN-052) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Recorrido rojo y circular.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-053-estudio-v3.webp</image:loc>
+      <image:title>Signos en rojo (PIN-053) — Pintura serie Letras y signos de Enric Segarra i Garibo</image:title>
+      <image:caption>Signos en rojo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-054-estudio-v3.webp</image:loc>
+      <image:title>Letras y figuras rojas (PIN-054) — Pintura serie Letras y signos de Enric Segarra i Garibo</image:title>
+      <image:caption>Letras y figuras rojas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-055-estudio-v3.webp</image:loc>
+      <image:title>Composición vertical de signos (PIN-055) — Pintura serie Letras y signos de Enric Segarra i Garibo</image:title>
+      <image:caption>Composición vertical de signos.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-058-estudio-v3.webp</image:loc>
+      <image:title>Composición horizontal de tonos claros (PIN-058) — Pintura serie Abstracciones de Enric Segarra i Garibo</image:title>
+      <image:caption>Composición horizontal de tonos claros.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-060-estudio-v3.webp</image:loc>
+      <image:title>Composición circular azul (PIN-060) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Composición circular azul.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-061-estudio-v3.webp</image:loc>
+      <image:title>Rostro de contorno poligonal (PIN-061) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Rostro de contorno poligonal.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-062-estudio-v3.webp</image:loc>
+      <image:title>Arca de contorno recortado (PIN-062) — Pintura serie Arcas de Enric Segarra i Garibo</image:title>
+      <image:caption>Arca de contorno recortado.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-063-estudio-v3.webp</image:loc>
+      <image:title>Figura con instrumento y gato violeta (PIN-063) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura con instrumento y gato violeta.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-064-estudio-v3.webp</image:loc>
+      <image:title>Dos gatos azules ante una ciudad (PIN-064) — Pintura serie Gatos de Enric Segarra i Garibo</image:title>
+      <image:caption>Dos gatos azules ante una ciudad.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-065-estudio-v3.webp</image:loc>
+      <image:title>Figura y dragón sobre fondo verde (PIN-065) — Pintura serie Relatos e iconografía de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura y dragón sobre fondo verde.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-066-estudio-v3.webp</image:loc>
+      <image:title>Figura con espada y dragón (PIN-066) — Pintura serie Relatos e iconografía de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura con espada y dragón.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-067-estudio-v3.webp</image:loc>
+      <image:title>Figura, escudo y dragón (PIN-067) — Pintura serie Relatos e iconografía de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura, escudo y dragón.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-068-estudio-v3.webp</image:loc>
+      <image:title>Personajes ante el teatro de títeres (PIN-068) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Personajes ante el teatro de títeres.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-069-estudio-v3.webp</image:loc>
+      <image:title>Toro y figuras (PIN-069) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Toro y figuras.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-070-estudio-v3.webp</image:loc>
+      <image:title>Composición en forma de ojo (PIN-070) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Composición en forma de ojo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-071-estudio-v3.webp</image:loc>
+      <image:title>Figuras del ruedo (PIN-071) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Figuras del ruedo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-072-estudio-v3.webp</image:loc>
+      <image:title>Figura ante una ciudad (PIN-072) — Pintura serie Relatos e iconografía de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura ante una ciudad.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-073-estudio-v3.webp</image:loc>
+      <image:title>Composición horizontal de figuras (PIN-073) — Pintura serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>Composición horizontal de figuras.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-074-estudio-v3.webp</image:loc>
+      <image:title>Escena de ruedo (PIN-074) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Escena de ruedo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-075-estudio-v3.webp</image:loc>
+      <image:title>Figura a caballo y dragón (PIN-075) — Pintura serie Relatos e iconografía de Enric Segarra i Garibo</image:title>
+      <image:caption>Figura a caballo y dragón.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-077-estudio-v3.webp</image:loc>
+      <image:title>Personajes alrededor de una mesa y figura a caballo (PIN-077) — Pintura serie Relatos e iconografía de Enric Segarra i Garibo</image:title>
+      <image:caption>Personajes alrededor de una mesa y figura a caballo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-078-estudio-v3.webp</image:loc>
+      <image:title>Cabeza de toro ante espectadores (PIN-078) — Pintura serie Tauromaquia de Enric Segarra i Garibo</image:title>
+      <image:caption>Cabeza de toro ante espectadores.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-079-estudio-v3.webp</image:loc>
+      <image:title>Crucifixión con figuras (PIN-079) — Pintura serie Relatos e iconografía de Enric Segarra i Garibo</image:title>
+      <image:caption>Crucifixión con figuras.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/pin-080-estudio-v3.webp</image:loc>
+      <image:title>Dos figuras en amarillo y rosa (PIN-080) — Pintura serie Rostros y personajes de Enric Segarra i Garibo</image:title>
+      <image:caption>Dos figuras en amarillo y rosa.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/dibujo.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015079-catalogue.webp</image:loc>
+      <image:title>Signos rojos en recorrido (DIB-001) — Dibujo serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015080-catalogue.webp</image:loc>
+      <image:title>Planos de color rojo (DIB-002) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015081-catalogue.webp</image:loc>
+      <image:title>Estudio de formas en rojo (DIB-003) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015082-catalogue.webp</image:loc>
+      <image:title>Planos de sombra cálida (DIB-004) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015083-catalogue.webp</image:loc>
+      <image:title>Líneas y planos en naranja (DIB-005) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015084-catalogue.webp</image:loc>
+      <image:title>Formas rojas y centro circular (DIB-006) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015085-catalogue.webp</image:loc>
+      <image:title>Formas en negro y ocre (DIB-007) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015086-catalogue.webp</image:loc>
+      <image:title>Ritmos de color rojo (DIB-008) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015087-catalogue.webp</image:loc>
+      <image:title>Trazos azules sobre ocre (DIB-009) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015088-catalogue.webp</image:loc>
+      <image:title>Líneas azules y amarillas (DIB-010) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015089-catalogue.webp</image:loc>
+      <image:title>Composición sobre fondo ocre (DIB-011) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015090-catalogue.webp</image:loc>
+      <image:title>Composición verde sobre ocre (DIB-012) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015091-catalogue.webp</image:loc>
+      <image:title>Trazos sobre fondo rosa (DIB-013) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015092-catalogue.webp</image:loc>
+      <image:title>Líneas curvas rojas (DIB-014) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015093-catalogue.webp</image:loc>
+      <image:title>Trazos verdes y naranjas (DIB-015) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015094-catalogue.webp</image:loc>
+      <image:title>Pequeña composición de símbolos (DIB-016) — Dibujo serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015095-catalogue.webp</image:loc>
+      <image:title>Pequeña composición enmarcada (DIB-017) — Dibujo serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015096-catalogue.webp</image:loc>
+      <image:title>Dos figuras en rojo (DIB-018) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015098-catalogue.webp</image:loc>
+      <image:title>Planos azules, verdes y amarillos (DIB-019) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015099-catalogue.webp</image:loc>
+      <image:title>Estudio de formas en negro (DIB-020) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015102-catalogue.webp</image:loc>
+      <image:title>Planos negros y rojos (DIB-021) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015103-catalogue.webp</image:loc>
+      <image:title>Figura de líneas negras (DIB-022) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015105-catalogue.webp</image:loc>
+      <image:title>Planos de color violeta (DIB-023) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015172-catalogue.webp</image:loc>
+      <image:title>Formas abiertas en azul y amarillo (DIB-024) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015173-catalogue.webp</image:loc>
+      <image:title>Curvas y planos cálidos (DIB-025) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015176-catalogue.webp</image:loc>
+      <image:title>Ritmos de color carmín (DIB-026) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015178-catalogue.webp</image:loc>
+      <image:title>Planos azules suspendidos (DIB-027) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015181-catalogue.webp</image:loc>
+      <image:title>Líneas de color ocre (DIB-028) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015182-catalogue.webp</image:loc>
+      <image:title>Espacio de líneas verdes (DIB-029) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015183-catalogue.webp</image:loc>
+      <image:title>Trazos oscuros y acentos de color (DIB-030) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015185-catalogue.webp</image:loc>
+      <image:title>Símbolos sobre fondo amarillo (DIB-031) — Dibujo serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015186-catalogue.webp</image:loc>
+      <image:title>Figura con forma de sol (DIB-032) — Dibujo serie Figuras y símbolos de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-015187-catalogue.webp</image:loc>
+      <image:title>Figuras y planos enmarcados (DIB-033) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-008527-catalogue.webp</image:loc>
+      <image:title>Líneas azules y acentos amarillos (DIB-034) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-008528-catalogue.webp</image:loc>
+      <image:title>Figuras de líneas negras (DIB-035) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013422-catalogue.webp</image:loc>
+      <image:title>Curvas entrelazadas en rosa y gris (DIB-036) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Curvas entrelazadas en rosa y gris. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013423-catalogue.webp</image:loc>
+      <image:title>Planos angulares en gris (DIB-037) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos angulares en gris. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013426-catalogue.webp</image:loc>
+      <image:title>Formas azules que se encuentran (DIB-038) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas azules que se encuentran. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013427-catalogue.webp</image:loc>
+      <image:title>Un arco amarillo sobre trazos rojos (DIB-039) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Un arco amarillo sobre trazos rojos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013430-catalogue.webp</image:loc>
+      <image:title>Dos formas curvas en azul (DIB-040) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Dos formas curvas en azul. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013431-catalogue.webp</image:loc>
+      <image:title>Encuentro de amarillos y rojos (DIB-041) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Encuentro de amarillos y rojos. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013434-catalogue.webp</image:loc>
+      <image:title>Una construcción de líneas azules y naranjas (DIB-042) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Una construcción de líneas azules y naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013435-catalogue.webp</image:loc>
+      <image:title>Trama de líneas azules y rojas (DIB-043) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Trama de líneas azules y rojas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013436-catalogue.webp</image:loc>
+      <image:title>Una composición abierta en rojo (DIB-044) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Una composición abierta en rojo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013439-catalogue.webp</image:loc>
+      <image:title>Ritmos grises y acentos naranjas (DIB-045) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Ritmos grises y acentos naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013440-catalogue.webp</image:loc>
+      <image:title>Planos grises atravesados por el amarillo (DIB-046) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos grises atravesados por el amarillo. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013441-catalogue.webp</image:loc>
+      <image:title>Una trama densa de líneas y color (DIB-047) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Una trama densa de líneas y color. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013443-catalogue.webp</image:loc>
+      <image:title>Curvas grises sobre el papel (DIB-048) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Curvas grises sobre el papel. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013447-catalogue.webp</image:loc>
+      <image:title>Dos curvas y una línea oblicua (DIB-049) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Dos curvas y una línea oblicua. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013448-catalogue.webp</image:loc>
+      <image:title>Trazos rojos entre planos grises (DIB-050) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Trazos rojos entre planos grises. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013449-catalogue.webp</image:loc>
+      <image:title>Formas superpuestas en marrón (DIB-051) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Formas superpuestas en marrón. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013452-catalogue.webp</image:loc>
+      <image:title>Planos azules y naranjas (DIB-052) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Planos azules y naranjas. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/drawing-013453-catalogue.webp</image:loc>
+      <image:title>Una forma angular en azul y violeta (DIB-053) — Dibujo serie Dibujo y espacio de Enric Segarra i Garibo</image:title>
+      <image:caption>Una forma angular en azul y violeta. Una pieza del archivo de ENRIC SEGARRA I GARIBO. El dibujo explora la relación entre línea, color y espacio sobre el papel. El nombre es una descripción provisional de la imagen.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/arte-infantil.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/bellas-arc-012548.webp</image:loc>
+      <image:title>Exposición de Arte Infantil · Sala de Bellas Artes</image:title>
+      <image:caption>Proyecto de educación artística coordinado por Enric Segarra i Garibo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/exposiciones.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/evolucion-013392-restored.webp</image:loc>
+      <image:title>Exposición Evolución 1984–2004 · Sala d’Exposicions de les Belles Arts (Valencia)</image:title>
+      <image:caption>Archivo de exposiciones de Enric Segarra i Garibo en Valencia</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/biografia-enric-segarra.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://enricsegarraigaribo.com/assets/retrato.webp</image:loc>
+      <image:title>Enric Segarra i Garibo (Segarra y Garibo)</image:title>
+      <image:caption>Retrato de Enric Segarra i Garibo con una escultura</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/galeria-3d/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://enricsegarraigaribo.com/galeria-3d/personajes.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 </urlset>

@@ -1,3 +1,9 @@
+## 2026-11-01 — Publicación unificada en `main`, Museo 3D integrado y posicionamiento SEO orgánico
+
+- Integrada la versión completa del Museo y Espacios 3D en `dist/galeria-3d/` y el visor 3D del Jardín de las Lagartijas en `#/jardin`.
+- Generadas 9 páginas HTML estáticas con contenido semántico pre-renderizado, datos estructurados `Schema.org` JSON-LD (`VisualArtist`, `VisualArtwork`, `CollectionPage`, `Place`), `sitemap.xml` con imágenes para Google Images y `llms.txt`.
+- Todos los cambios de `revision-series-20261014` y las mejoras 3D/SEO quedan sincronizados en `main` para su despliegue automático en GitHub Pages (`https://enricsegarraigaribo.com/`).
+
 ## 2026-10-26 — Rediseño de la presentación en portada y recorrido curatorial de apartados
 
 - Presentación superior centrada en portada conservando su disposición original y proporción `3:2` (`width: min(100%, 960px)`), con carrusel automático continuo (`3.4s`).

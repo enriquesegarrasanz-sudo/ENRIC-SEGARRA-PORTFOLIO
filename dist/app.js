@@ -292,6 +292,7 @@ function garden() {
       "Un proyecto en un terreno rústico donde esculturas, árboles y móviles dialogan con el entorno natural. Se encuentra aproximadamente a un kilómetro del jardín de casa.",
       "Los móviles de tarjetas recicladas forman una misma serie artística, aunque se instalen en los dos espacios. Este recorrido reúne el archivo del entorno y las esculturas suspendidas, sin convertir sus distintas vistas en obras diferentes."
     ]) +
+    garden3dShowcase() +
     `<div class="gallery-grid" id="album-photos">${galleryGrid(photos)}</div>` +
     (gardenWorks.length ? `<section class="section">${sectionHead("Obras en el espacio")}${workGrid(gardenWorks)}</section>` : "")
   );
@@ -301,9 +302,38 @@ function trajectoryContact() {
 }
 
 const room3dUrl = (space, query = "") => {
-  const base = location.port === "4173" ? `${location.protocol}//${location.hostname}:5188/` : "galeria-3d/";
+  const base = "galeria-3d/";
   return `${base}${query ? "?" + query : ""}#${space}`;
 };
+function garden3dShowcase() {
+  const iframeSrc = room3dUrl("jardin", "autoenter=1");
+  return `<section class="mobiles-3d-showcase" aria-label="Recreación 3D del Jardín de las Lagartijas en Náquera">
+    <div class="mobiles-3d-top">
+      <div>
+        <p class="eyebrow">Recreación 3D de la parcela real · Collado dels Llops (Náquera)</p>
+        <h2>El Jardín de las Lagartijas en 3D · Día, Noche y Naturaleza Viva</h2>
+        <p>Recorre en tres dimensiones la parcela de <strong>Enric Segarra</strong> con la caseta-taller en madera, las acequias, el gran algarrobo centenario, los almendros y olivos donde cuelgan sus móviles, con <strong>cielo de nubes en movimiento</strong>, <strong>pájaros y ardillas</strong>, <strong>ciclo Día / Noche con iluminación cálida</strong> y <strong>música ambiental interactiva</strong>.</p>
+      </div>
+      <a class="room-3d-cta" href="${room3dUrl("jardin")}" target="_blank" rel="noopener">Abrir Jardín 3D a pantalla completa <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="mobiles-3d-controls" role="toolbar" aria-label="Controles rápidos del Jardín de las Lagartijas 3D">
+      <div class="mobiles-3d-btn-group">
+        <span>Atmósfera:</span>
+        <button type="button" class="mobiles-3d-btn" data-garden3d-time="day" data-garden3d-cmd='{"timeOfDay":"day"}' aria-pressed="true">☀️ Día y nubes</button>
+        <button type="button" class="mobiles-3d-btn" data-garden3d-time="night" data-garden3d-cmd='{"timeOfDay":"night"}' aria-pressed="false">🌙 Noche iluminada</button>
+      </div>
+      <div class="mobiles-3d-btn-group">
+        <button type="button" class="mobiles-3d-btn accent" data-garden3d-cmd='{"action":"toggle-music"}'>🎵 Música ambiental</button>
+        <button type="button" class="mobiles-3d-btn accent" data-garden3d-cmd='{"action":"breeze"}'>🌬️ Soplar brisa</button>
+        <button type="button" class="mobiles-3d-btn" data-garden3d-cmd='{"stop":3}'>🌳 Bajo el Gran Algarrobo</button>
+        <button type="button" class="mobiles-3d-btn" data-garden3d-cmd='{"stop":1}'>🏡 Caseta-Taller</button>
+      </div>
+    </div>
+    <div class="mobiles-3d-stage" id="garden-3d-stage">
+      <iframe id="garden-3d-iframe" class="mobiles-3d-iframe" src="${iframeSrc}" title="Recreación 3D interactiva del Jardín de las Lagartijas de Enric Segarra en Náquera" loading="lazy" allow="fullscreen"></iframe>
+    </div>
+  </section>`;
+}
 function mobiles3dShowcase() {
   const iframeSrc = room3dUrl("moviles", "autoenter=1");
   return `<section class="mobiles-3d-showcase" aria-label="El Mirador del Aire · Galería 3D y 2D-3D de Móviles">
@@ -862,7 +892,7 @@ function notFound() {
 }
 
 function render({ keepScroll = false } = {}) {
-  const raw = location.hash.slice(1) || "/",
+  const raw = location.hash.slice(1) || document.documentElement.dataset.defaultRoute || "/",
     [path, qs = ""] = raw.split("?"),
     parts = path.split("/").filter(Boolean),
     params = new URLSearchParams(qs),
@@ -959,8 +989,24 @@ function render({ keepScroll = false } = {}) {
   }
   if (dialog.open) dialog.close();
   main.innerHTML = html;
-  document.title = title === site.name ? site.name : `${title || "Archivo"} — ${site.name}`;
-  document.documentElement.dataset.baseTitle = document.title;
+  const fullTitle = title === site.name ? `${site.name} (Segarra y Garibo) · Escultor, Móviles, Pintura, Dibujo y Arte Infantil` : `${title || "Archivo"} — ${site.name} (Segarra y Garibo)`;
+  document.title = fullTitle;
+  document.documentElement.dataset.baseTitle = fullTitle;
+  const seoDescriptions = {
+    inicio: "Web oficial y catálogo de obra de Enric Segarra i Garibo (Segarra y Garibo, Barcelona 1959 – Valencia): escultor, móviles suspendidos, Jardín de las Lagartijas (Náquera), pintura, dibujo, arte infantil y exposiciones.",
+    moviles: "Catálogo de 33 móviles y esculturas cinéticas suspendidas de Enric Segarra i Garibo (Segarra y Garibo) y galería interactiva 3D El Mirador del Aire.",
+    escultura: "Catálogo de 55 esculturas en hierro forjado, madera tallada, piedra y ensamblaje de Enric Segarra i Garibo (Segarra y Garibo), con salas virtuales 3D.",
+    jardin: "El Jardín de las Lagartijas (Jardí de les Sargantanes) en Náquera, Valencia: espacio escultórico en la naturaleza y recreación 3D de la parcela de Enric Segarra i Garibo.",
+    pintura: "Catálogo de 80 pinturas de Enric Segarra i Garibo (Segarra y Garibo): series Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Relatos y Letras.",
+    dibujo: "Catálogo de 53 dibujos y obras sobre papel de Enric Segarra i Garibo (Segarra y Garibo): series Dibujo y espacio, Figuras y símbolos y sala 3D.",
+    "arte-infantil": "Proyecto educativo, talleres de arte infantil, formación docente y exposiciones de educación artística de Enric Segarra i Garibo en Valencia.",
+    exposiciones: "Exposiciones individuales, muestras colectivas y archivo de la Sala d’Exposicions de les Belles Arts (Valencia) de Enric Segarra i Garibo.",
+    "trayectoria-contacto": "Biografía, memoria artística en siete etapas y contacto directo de Enric Segarra i Garibo (Segarra y Garibo), escultor y pintor en Valencia."
+  };
+  const metaDesc = seoDescriptions[section] || seoDescriptions.inicio;
+  document.querySelector('meta[name="description"]')?.setAttribute("content", metaDesc);
+  document.querySelector('meta[property="og:title"]')?.setAttribute("content", fullTitle);
+  document.querySelector('meta[property="og:description"]')?.setAttribute("content", metaDesc);
   const al =
       section === "archivo" ? visibleAlbums().find((al) => al.id === id) : null,
     active =
@@ -1183,6 +1229,23 @@ function attachPageEvents() {
   });
 }
 main.addEventListener("click", (e) => {
+  const gardenBtn = e.target.closest("[data-garden3d-cmd]");
+  if (gardenBtn) {
+    try {
+      const cmd = JSON.parse(gardenBtn.dataset.garden3dCmd);
+      const iframe = document.querySelector("#garden-3d-iframe");
+      if (iframe?.contentWindow) {
+        iframe.contentWindow.postMessage({ type: "garden-cmd", ...cmd }, "*");
+      }
+      if (cmd.timeOfDay) {
+        document.querySelectorAll("[data-garden3d-time]").forEach((b) =>
+          b.setAttribute("aria-pressed", String(b.dataset.garden3dTime === cmd.timeOfDay))
+        );
+      }
+      document.querySelector("#garden-3d-stage")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    } catch {}
+    return;
+  }
   const mobBtn = e.target.closest("[data-mob3d-cmd]");
   if (mobBtn) {
     try {
