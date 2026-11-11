@@ -4,8 +4,8 @@ import { collections } from "../dist/collections.js";
 import { educationIntro, educationPrinciples, educationSections, readings } from "../dist/education.js";
 
 const DOMAIN = "https://enricsegarraigaribo.com";
-const TODAY = "2026-11-01";
-const VERSION = "20261101-seo-3d";
+const TODAY = "2026-11-11";
+const VERSION = "20261111-seo-3d-v2";
 
 const esc = (s = "") =>
   String(s)
@@ -125,7 +125,7 @@ function buildPageHtml({
     <meta name="color-scheme" content="light" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-src 'self' http://127.0.0.1:5188 http://localhost:5188; object-src 'none'; base-uri 'self'; form-action 'none'"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
     />
     <title>${esc(title)}</title>
     <link
@@ -158,6 +158,7 @@ function buildPageHtml({
         <a href="#/jardin" data-nav="jardin">Jardín de las Lagartijas</a>
         <a href="#/pintura" data-nav="pintura">Pintura</a>
         <a href="#/dibujo" data-nav="dibujo">Dibujo</a>
+        <a href="#/exposicion-3d" data-nav="exposicion-3d">Exposición 3D</a>
         <a href="#/arte-infantil" data-nav="arte-infantil">Arte infantil</a>
         <a href="#/exposiciones" data-nav="exposiciones">Exposiciones</a>
         <a href="#/trayectoria-contacto" data-nav="trayectoria-contacto">Trayectoria y contacto</a>
@@ -197,9 +198,24 @@ ${bodyHtml}
       <small>Selección en desarrollo · Archivo familiar</small>
     </footer>
     <dialog id="image-dialog" aria-labelledby="image-caption">
-      <button class="close-image" aria-label="Cerrar imagen">
-        Cerrar <span aria-hidden="true">×</span></button
-      ><img id="large-image" alt="" />
+      <div class="dialog-top-bar">
+        <div class="dialog-work-stepper" id="lightbox-work-stepper">
+          <button type="button" id="lightbox-prev-work" data-work-step="-1" aria-label="Obra anterior">⏮ Obra ant.</button>
+          <span id="lightbox-work-indicator" class="lightbox-work-indicator"></span>
+          <button type="button" id="lightbox-next-work" data-work-step="1" aria-label="Obra siguiente">Sig. obra ⏭</button>
+        </div>
+        <div class="dialog-animatica-controls">
+          <button type="button" id="lightbox-animatica-toggle" class="lightbox-animatica-btn" aria-pressed="false">▶ Animática 2D</button>
+          <a id="lightbox-animatica-3d" class="lightbox-animatica-btn is-3d" href="galeria-3d/index.html">🎬 Animática 3D ↗</a>
+        </div>
+        <button class="close-image" aria-label="Cerrar imagen">
+          Cerrar <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="lightbox-progress" id="lightbox-progress" hidden>
+        <div class="lightbox-progress-fill" id="lightbox-progress-fill"></div>
+      </div>
+      <img id="large-image" alt="" />
       <div class="dialog-bottom">
         <button data-step="-1" aria-label="Fotografía anterior">
           ← Anterior
@@ -299,15 +315,15 @@ const pages = [
       <section class="section" aria-label="Apartados principales del catálogo">
         <h2>Recorrido por disciplinas y espacios</h2>
         <ul>
-          <li><a href="moviles.html"><strong>Móviles (33 obras suspendidas y Mirador del Aire 3D)</strong></a>: esculturas cinéticas en equilibrio con el viento y la gravedad.</li>
+          <li><a href="moviles.html"><strong>Móviles (33 obras suspendidas y Sala de Móviles 3D)</strong></a>: esculturas cinéticas en equilibrio con el viento y la gravedad.</li>
           <li><a href="escultura.html"><strong>Escultura (55 obras en hierro, madera y piedra + Salas 3D)</strong></a>: planos curvos y volúmenes abiertos, formas orgánicas, relieves, ensamblajes e intervenciones exteriores.</li>
           <li><a href="jardin-de-las-lagartijas.html"><strong>Jardín de las Lagartijas / Jardí de les Sargantanes (Náquera, Valencia)</strong></a>: espacio escultórico en la naturaleza y recreación topográfica 3D de la parcela en Partida Collado dels Llops.</li>
-          <li><a href="pintura.html"><strong>Pintura (80 obras por series)</strong></a>: Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Relatos e iconografía, Letras y signos.</li>
+          <li><a href="pintura.html"><strong>Pintura (76 obras en ocho series + Sala de Pintura 3D)</strong></a>: Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Figuras y símbolos, Relatos e iconografía, Letras y signos y Abstracciones.</li>
           <li><a href="dibujo.html"><strong>Dibujo y obra sobre papel (53 obras + Sala de Dibujo 3D)</strong></a>: Dibujo y espacio, Figuras y símbolos en ceras, carbón y pastel.</li>
           <li><a href="arte-infantil.html"><strong>Arte infantil y educación artística</strong></a>: proyecto pedagógico, talleres, formación docente, lecturas y exposiciones infantiles.</li>
-          <li><a href="exposiciones.html"><strong>Exposiciones y Archivo de Sala</strong></a>: muestras individuales, colectivas y archivo de la Sala d’Exposicions de les Belles Arts de Valencia («Evolución 1984–2004»).</li>
-          <li><a href="biografia-enric-segarra.html"><strong>Trayectoria, biografía y contacto</strong></a>: siete capítulos documentales y contacto directo con el artista (${esc(site.contactEmail)} · 615 224 258).</li>
-          <li><a href="galeria-3d/index.html"><strong>Museo y Espacios en Movimiento 3D</strong></a>: seis salas virtuales interactivas (Galería blanca, Jardín de las Lagartijas, Sala de Dibujo, Formas orgánicas, Planos curvos y Mirador del Aire).</li>
+          <li><a href="exposiciones.html"><strong>Exposiciones y Archivo de Sala</strong></a>: muestras individuales, colectivas, salas virtuales 3D vinculadas y archivo de la Sala d’Exposicions de les Belles Arts de Valencia («Evolución 1984–2004»).</li>
+          <li><a href="biografia-enric-segarra.html"><strong>Trayectoria, biografía y contacto</strong></a>: seis capítulos documentales y contacto directo con el artista (${esc(site.contactEmail)} · 615 224 258).</li>
+          <li><a href="galeria-3d/index.html"><strong>Museo y Espacios en Movimiento 3D</strong></a>: siete espacios virtuales interactivos (Galería blanca, Jardín de las Lagartijas, Sala de Pintura, Sala de Dibujo, Formas orgánicas, Planos curvos y Sala de Móviles 3D).</li>
         </ul>
       </section>
       <section class="section" aria-label="Selección destacada de obras">
@@ -325,9 +341,9 @@ const pages = [
     defaultRoute: "/moviles",
     title: "Móviles y Esculturas Suspendidas · ENRIC SEGARRA I GARIBO (Segarra y Garibo)",
     description:
-      "Catálogo de los 33 móviles y esculturas cinéticas suspendidas de Enric Segarra i Garibo (Segarra y Garibo) y galería interactiva 3D El Mirador del Aire en tres alturas.",
+      "Catálogo de los 33 móviles y esculturas cinéticas suspendidas de Enric Segarra i Garibo (Segarra y Garibo) y Sala de Móviles 3D con cámara libre en altura (1.72m, 2.80m y 3.60m).",
     keywords:
-      "móviles Enric Segarra, esculturas suspendidas, arte cinético Valencia, móviles jardín, El Mirador del Aire 3D, Enric Segarra i Garibo, Segarra y Garibo",
+      "móviles Enric Segarra, esculturas suspendidas, arte cinético Valencia, móviles jardín, Sala de Móviles 3D, Enric Segarra i Garibo, Segarra y Garibo",
     ogImage: `assets/${movilesWorks[0]?.image || "arc-014887"}.webp`,
     schemaGraph: [
       buildArtworkSchemaList(
@@ -340,7 +356,7 @@ const pages = [
       <section class="page-head">
         <p class="eyebrow">CATÁLOGO DE OBRA · ESCULTURA CINÉTICA SUSPENDIDA</p>
         <h1>Móviles de Enric Segarra i Garibo (Segarra y Garibo)</h1>
-        <p class="lead">Serie de 33 esculturas suspendidas realizadas con materiales recuperados, metal, madera y elementos encontrados que dialogan con el aire en el jardín de casa, en el Jardín de las Lagartijas (Náquera) y en la sala 3D El Mirador del Aire.</p>
+        <p class="lead">Serie de 33 esculturas suspendidas realizadas con materiales recuperados, metal, madera y elementos encontrados que dialogan con el aire en el jardín de casa, en el Jardín de las Lagartijas (Náquera) y en la Sala de Móviles 3D.</p>
       </section>
       ${renderStaticWorkList(movilesWorks, 33)}`,
   },
@@ -412,7 +428,7 @@ const pages = [
     defaultRoute: "/pintura",
     title: "Pintura: Gatos, Tauromaquia, Arcas de Noé y Rostros · ENRIC SEGARRA I GARIBO",
     description:
-      "Catálogo de 80 pinturas de Enric Segarra i Garibo (Segarra y Garibo) organizadas en nueve series y conjuntos: Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Relatos e iconografía, Letras y signos y Abstracción.",
+      "Catálogo de 76 pinturas de Enric Segarra i Garibo (Segarra y Garibo) organizadas en ocho series y conjuntos: Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Figuras y símbolos, Relatos e iconografía, Letras y signos y Abstracciones, con Sala de Pintura 3D.",
     keywords:
       "pintura Enric Segarra, serie Gatos Enric Segarra, Tauromaquia pintura, Arcas de Noé pintura, pintor Valencia, Segarra y Garibo, Enric Segarra i Garibo",
     ogImage: `assets/${pinturaWorks[0]?.image || "gatos"}.webp`,
@@ -425,11 +441,11 @@ const pages = [
     ],
     bodyHtml: `
       <section class="page-head">
-        <p class="eyebrow">CATÁLOGO DE OBRA · NUEVE SERIES Y CONJUNTOS PICTÓRICOS</p>
+        <p class="eyebrow">CATÁLOGO DE OBRA · OCHO SERIES Y CONJUNTOS PICTÓRICOS</p>
         <h1>Pintura de Enric Segarra i Garibo (Segarra y Garibo)</h1>
-        <p class="lead">80 obras pictóricas reunidas por sus imaginarios y motivos visuales: Gatos, Tauromaquia, Arcas, Rostros y personajes, Figuras y símbolos, Relatos e iconografía, Letras y signos, Geometría y color, y Materia y abstracción.</p>
+        <p class="lead">76 obras pictóricas reunidas por sus imaginarios y motivos visuales: Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Figuras y símbolos, Relatos e iconografía, Letras y signos y Abstracciones, acompañadas de la Sala de Pintura 3D.</p>
       </section>
-      ${renderStaticWorkList(pinturaWorks, 80)}`,
+      ${renderStaticWorkList(pinturaWorks, 76)}`,
   },
   {
     filename: "dibujo.html",
@@ -520,7 +536,7 @@ const pages = [
     defaultRoute: "/trayectoria-contacto",
     title: "Biografía, Trayectoria y Contacto · ENRIC SEGARRA I GARIBO (Segarra y Garibo)",
     description:
-      "Biografía, trayectoria artística en siete capítulos y datos de contacto directo de Enric Segarra i Garibo (Segarra y Garibo), escultor, pintor y educador artístico nacido en Barcelona (1959) y afincado en Valencia.",
+      "Biografía, trayectoria artística en seis capítulos y datos de contacto directo de Enric Segarra i Garibo (Segarra y Garibo), escultor, pintor y educador artístico nacido en Barcelona (1959) y afincado en Valencia.",
     keywords:
       "biografía Enric Segarra i Garibo, quién es Enric Segarra, Segarra y Garibo contacto, escultor Barcelona 1959 Valencia, teléfono correo Enric Segarra",
     ogImage: "assets/retrato.webp",
@@ -719,16 +735,16 @@ const llmsTxt = `# ENRIC SEGARRA I GARIBO (Segarra y Garibo) — Web Oficial y C
 - **Web oficial**: ${DOMAIN}/
 
 ## Secciones principales e índice de URLs
-- [Inicio y Portada](${DOMAIN}/): Presentación general y acceso a las 8 disciplinas.
-- [Móviles y Esculturas Suspendidas](${DOMAIN}/moviles.html): 33 móviles cinéticos (MOV-001 a MOV-033) y pabellón interactivo 3D «El Mirador del Aire».
+- [Inicio y Portada](${DOMAIN}/): Presentación general, siete salas virtuales 3D y catálogo completo.
+- [Móviles y Esculturas Suspendidas](${DOMAIN}/moviles.html): 33 móviles cinéticos (MOV-001 a MOV-033) y Sala de Móviles 3D interactiva.
 - [Escultura](${DOMAIN}/escultura.html): 55 esculturas en 7 conjuntos (Planos curvos y volúmenes abiertos, Formas orgánicas, Relieves, Ensamblajes e Intervenciones) con salas 3D.
 - [El Jardín de las Lagartijas / Jardí de les Sargantanes](${DOMAIN}/jardin-de-las-lagartijas.html): Espacio escultórico al aire libre en Partida Collado dels Llops, Náquera (Valencia) y recreación topográfica 3D.
-- [Pintura](${DOMAIN}/pintura.html): 80 pinturas organizadas en 9 series (Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Figuras y símbolos, Relatos e iconografía, Letras y signos, Geometría y color, Materia y abstracción).
+- [Pintura](${DOMAIN}/pintura.html): 76 pinturas organizadas en 8 series (Gatos, Tauromaquia, Arcas de Noé, Rostros y personajes, Figuras y símbolos, Relatos e iconografía, Letras y signos y Abstracciones) y Sala de Pintura 3D.
 - [Dibujo](${DOMAIN}/dibujo.html): 53 dibujos en ceras, carbón y pastel (Dibujo y espacio, Figuras y símbolos) y Sala de Dibujo 3D.
 - [Arte Infantil y Educación Artística](${DOMAIN}/arte-infantil.html): Proyecto pedagógico, talleres, formación docente y lecturas documentadas.
-- [Exposiciones](${DOMAIN}/exposiciones.html): Exposiciones individuales, muestras colectivas y archivo de la Sala d’Exposicions de les Belles Arts de Valencia («Evolución 1984–2004»).
-- [Biografía, Trayectoria y Contacto](${DOMAIN}/biografia-enric-segarra.html): Recorrido biográfico en 7 etapas y contacto directo.
-- [Museo y Espacios en Movimiento 3D](${DOMAIN}/galeria-3d/): Seis espacios virtuales 3D navegables en WebGL.
+- [Exposiciones](${DOMAIN}/exposiciones.html): Exposiciones individuales, muestras colectivas, salas virtuales 3D vinculadas y archivo de la Sala d’Exposicions de les Belles Arts de Valencia («Evolución 1984–2004»).
+- [Biografía, Trayectoria y Contacto](${DOMAIN}/biografia-enric-segarra.html): Recorrido biográfico en 6 etapas y contacto directo.
+- [Museo y Espacios en Movimiento 3D](${DOMAIN}/galeria-3d/): Siete espacios virtuales 3D navegables en WebGL.
 `;
 await writeFile(new URL("../dist/llms.txt", import.meta.url), llmsTxt, "utf8");
 

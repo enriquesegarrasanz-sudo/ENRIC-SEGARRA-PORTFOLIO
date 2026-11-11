@@ -1,3 +1,16 @@
+## 2026-11-11 — Unificación completa Exposiciones ↔ Salas Virtuales 3D, perfeccionamiento escultórico 360° y depuración de erratas
+
+- **Unificación bidireccional entre Exposiciones, Salas Virtuales 3D, Series y Fichas de Obra (`dist/app.js`, `dist/styles.css`, `dist/i18n.js`)**:
+  - Conectados los 7 archivos expositivos documentales (`colomina`, `caixa-castello`, `sala-bellas-artes`, `quatre`, `sant-jordi-estivella`, `dragonians-casa-libro`, `signo-agua`) con sus correspondientes salas virtuales 3D, animáticas 3D y series del catálogo mediante botones directos en las tarjetas de `#/exposiciones` (tanto en Mosaico como en Vista amplia) y un bloque curatorial dedicado (`.album-3d-bridge`) dentro de cada álbum `#/archivo/<id>`.
+  - Incorporada la pestaña `Salas virtuales 3D` (`#/exposiciones?tipo=salas-3d`) y un puente curatorial en `#/exposiciones` para alternar entre los montajes históricos y las 7 salas tridimensionales interactivas.
+  - Añadidos enlaces de **Exposiciones vinculadas** en cada sala del hub `#/exposicion-3d` y en cada ficha individual `#/obra/<id>`, además de vincular las 17 piezas presentes en la recreación 3D de **El Jardín de las Lagartijas** (`GARDEN_3D_REFS`) y sincronizar el mapa de espacios en `postMessage` (`SPACE_HASH_MAP`).
+  - Habilitado el filtrado directo por `?serie=`, `?q=` y `?vista=` también sobre las rutas cortas `#/escultura`, `#/pintura` y `#/dibujo` con desplazamiento suave a los resultados.
+- **Reconstrucción limpia en 360° de las reproducciones 3D y las 7 salas virtuales (`dist/galeria-3d/`)**:
+  - Reconstruidos los modelos GLB de las 29 esculturas exentas con desmezclado de fondo de estudio (eliminación de halos blancos, sombras proyectadas y estiramientos laterales), peanas de travertino cálido sin doble base y ensamblaje geométrico fiel de `ESC-054` (cilindro de madera noble, pletina soldada, aro circular y vórtice articulado de hierro).
+  - Eliminada la superposición cuádruple en los 26 relieves murales, ajustada la orientación inicial frontal de todos los móviles 3D (`MOV-001` a `MOV-033`) y despejado el encuadre de entrada al **Jardín de las Lagartijas** (`MOV-028`) y la barra inferior en pantallas de 1440 px.
+- **Corrección integral de cifras, nomenclatura y metadatos (`scripts/build-seo.mjs`, `scripts/serve.mjs`)**:
+  - Unificadas todas las referencias públicas y metadatos SEO al recuento real verificado del archivo: **217 obras** (**33 móviles**, **55 esculturas** en 7 conjuntos, **76 pinturas** en 8 series y **53 dibujos** en 2 series), **6 etapas biográficas** y **7 espacios virtuales 3D** (sustituyendo denominaciones antiguas como «Mirador del Aire» o «80 pinturas / nueve series» y depurando la CSP `frame-src 'self'`).
+
 ## 2026-11-01 — Publicación unificada del Museo 3D y posicionamiento orgánico SEO en Google
 
 - Integración completa del Museo y Espacios 3D (`dist/galeria-3d/`) con las 6 salas interactivas (Galería blanca, recreación topográfica de la parcela real de El Jardín de las Lagartijas en Náquera con ciclo Día/Noche, nubes en movimiento, iluminación nocturna, pájaros, ardillas y música ambiental interactiva, Sala de Dibujo, Sala de Formas orgánicas, Sala de Planos curvos y El Mirador del Aire con los 33 móviles a tres alturas).

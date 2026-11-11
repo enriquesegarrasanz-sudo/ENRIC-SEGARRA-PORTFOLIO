@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three.module.min.js';
-import {createFather,createDog,updateCharacter,act} from './characters-1cd222bb4d.js';
+import {createFather,createDog,updateCharacter,act} from './characters-211a84a90a.js';
 const $=id=>document.getElementById(id),reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let renderer,scene,camera,pair,father,dog,subject='both',angle=.25,elevation=.1,distance=3.5,spinning=false,walking=false,last=0,time=0,pointer=null;
 const center=new THREE.Vector3(0,.94,0);

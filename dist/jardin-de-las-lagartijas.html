@@ -32,7 +32,7 @@
     <meta name="color-scheme" content="light" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-src 'self' http://127.0.0.1:5188 http://localhost:5188; object-src 'none'; base-uri 'self'; form-action 'none'"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
     />
     <title>El Jardín de las Lagartijas (Jardí de les Sargantanes) · Náquera · ENRIC SEGARRA I GARIBO</title>
     <link
@@ -40,9 +40,9 @@
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ffffff'/%3E%3Ctext x='13' y='47' font-family='Arial,sans-serif' font-size='46' fill='%23222222'%3Ee%3C/text%3E%3C/svg%3E"
     />
-    <link rel="stylesheet" href="styles.css?v=20261101-seo-3d" />
+    <link rel="stylesheet" href="styles.css?v=20261111-seo-3d-v2" />
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Person","VisualArtist"],"@id":"https://enricsegarraigaribo.com/#artist","name":"Enric Segarra i Garibo","alternateName":["Segarra y Garibo","SEGARRA Y GARIBO","Enric Segarra","Enrique Segarra Garibo","Enric Segarra Garibo"],"birthDate":"1959","birthPlace":{"@type":"Place","name":"Barcelona, España"},"workLocation":[{"@type":"Place","name":"Valencia, España"},{"@type":"Place","name":"Jardín de las Lagartijas (Jardí de les Sargantanes), Partida Collado dels Llops, Náquera, Valencia"}],"alumniOf":{"@type":"CollegeOrUniversity","name":"Facultad de Bellas Artes de San Carlos, Valencia"},"jobTitle":"Escultor, pintor, dibujante y educador artístico","description":"Escultor, pintor, dibujante y educador artístico nacido en Barcelona (1959) y formado en Bellas Artes en Valencia. Autor de móviles y esculturas suspendidas, escultura en hierro, madera y piedra, el espacio natural Jardín de las Lagartijas en Náquera, series pictóricas (Gatos, Tauromaquia, Arcas de Noé) y proyectos de arte infantil.","knowsAbout":["Escultura contemporánea","Móviles cinéticos y esculturas suspendidas","Jardín de las Lagartijas (Jardí de les Sargantanes)","Escultura en hierro forjado, madera y piedra","Pintura contemporánea","Dibujo y obra sobre papel","Arte infantil y educación artística"],"url":"https://enricsegarraigaribo.com/","image":"https://enricsegarraigaribo.com/assets/retrato.webp","email":"mailto:enric3art@gmail.com","telephone":"+34615224258"},{"@type":"WebSite","@id":"https://enricsegarraigaribo.com/#website","url":"https://enricsegarraigaribo.com/","name":"ENRIC SEGARRA I GARIBO · Obra, presente y memoria","alternateName":["SEGARRA Y GARIBO","Enric Segarra Portfolio Oficial"],"description":"Web oficial, catálogo razonado de 217 obras, museo virtual 3D y memoria artística de Enric Segarra i Garibo (Segarra y Garibo).","inLanguage":["es","ca","en","fr","zh","ja"],"publisher":{"@id":"https://enricsegarraigaribo.com/#artist"}},{"@type":["Place","TouristAttraction"],"@id":"https://enricsegarraigaribo.com/jardin-de-las-lagartijas.html#place","name":"El Jardín de las Lagartijas (Jardí de les Sargantanes)","description":"Espacio escultórico y natural de Enric Segarra i Garibo en Partida Collado dels Llops, Náquera (Valencia), donde móviles suspendidos, algarrobos, almendros, olivos y piedra seca dialogan con el paisaje mediterráneo.","address":{"@type":"PostalAddress","addressLocality":"Náquera","addressRegion":"Valencia","addressCountry":"ES"},"geo":{"@type":"GeoCoordinates","latitude":39.65486,"longitude":-0.44318}}]}</script>
-    <script type="module" src="app.js?v=20261101-seo-3d"></script>
+    <script type="module" src="app.js?v=20261111-seo-3d-v2"></script>
   </head>
   <body>
     <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -65,6 +65,7 @@
         <a href="#/jardin" data-nav="jardin">Jardín de las Lagartijas</a>
         <a href="#/pintura" data-nav="pintura">Pintura</a>
         <a href="#/dibujo" data-nav="dibujo">Dibujo</a>
+        <a href="#/exposicion-3d" data-nav="exposicion-3d">Exposición 3D</a>
         <a href="#/arte-infantil" data-nav="arte-infantil">Arte infantil</a>
         <a href="#/exposiciones" data-nav="exposiciones">Exposiciones</a>
         <a href="#/trayectoria-contacto" data-nav="trayectoria-contacto">Trayectoria y contacto</a>
@@ -112,9 +113,24 @@
       <small>Selección en desarrollo · Archivo familiar</small>
     </footer>
     <dialog id="image-dialog" aria-labelledby="image-caption">
-      <button class="close-image" aria-label="Cerrar imagen">
-        Cerrar <span aria-hidden="true">×</span></button
-      ><img id="large-image" alt="" />
+      <div class="dialog-top-bar">
+        <div class="dialog-work-stepper" id="lightbox-work-stepper">
+          <button type="button" id="lightbox-prev-work" data-work-step="-1" aria-label="Obra anterior">⏮ Obra ant.</button>
+          <span id="lightbox-work-indicator" class="lightbox-work-indicator"></span>
+          <button type="button" id="lightbox-next-work" data-work-step="1" aria-label="Obra siguiente">Sig. obra ⏭</button>
+        </div>
+        <div class="dialog-animatica-controls">
+          <button type="button" id="lightbox-animatica-toggle" class="lightbox-animatica-btn" aria-pressed="false">▶ Animática 2D</button>
+          <a id="lightbox-animatica-3d" class="lightbox-animatica-btn is-3d" href="galeria-3d/index.html">🎬 Animática 3D ↗</a>
+        </div>
+        <button class="close-image" aria-label="Cerrar imagen">
+          Cerrar <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="lightbox-progress" id="lightbox-progress" hidden>
+        <div class="lightbox-progress-fill" id="lightbox-progress-fill"></div>
+      </div>
+      <img id="large-image" alt="" />
       <div class="dialog-bottom">
         <button data-step="-1" aria-label="Fotografía anterior">
           ← Anterior

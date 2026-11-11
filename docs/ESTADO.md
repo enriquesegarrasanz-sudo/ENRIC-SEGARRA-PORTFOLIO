@@ -1,3 +1,13 @@
+## 2026-11-11 — Unificación bidireccional Exposiciones ↔ Museo Virtual 3D y revisión integral 360° sin erratas
+
+- **Navegación unificada Exposiciones ↔ 7 Salas Virtuales 3D ↔ Series y 217 Fichas**:
+  - Cada exposición documental (`Palacio Colomina`, `Caixa Castelló`, `Sala d’Exposicions de les Belles Arts`, `Quatre`, `Sant Jordi i el drac · Estivella`, `Dragonians Cinc · Casa del Libro` y `Signo de Agua`) enlaza directamente con sus salas virtuales 3D, su Animática 3D y sus series del catálogo, tanto desde `#/exposiciones` (incluyendo la nueva pestaña `Salas virtuales 3D`) como desde cada página `#/archivo/<id>`.
+  - A la inversa, cada tarjeta de `#/exposicion-3d`, cada ficha de obra `#/obra/<id>` y las 7 salas de `dist/galeria-3d/` enlazan con sus exposiciones históricas y series correspondientes.
+- **Calidad visual 360° en las 7 salas virtuales (`dist/galeria-3d/`, release `211a84a90a`)**:
+  - Modelos GLB de escultura regenerados sin restos de fondo blanco ni estiramientos laterales, relieves murales nítidos sin capas fantasma, `ESC-054` fiel a su aro y cilindro de madera, móviles orientados de frente desde el primer fotograma y vistas despejadas en el Jardín de las Lagartijas.
+- **Cero erratas y coherencia documental (`scripts/build-seo.mjs`, `dist/app.js`, `dist/i18n.js`)**:
+  - Metadatos SEO, páginas estáticas, `llms.txt` y traducciones (ES, CA, EN, FR, ZH, JA) alineados con las 217 fichas verificadas (76 pinturas en 8 series, 55 esculturas, 53 dibujos, 33 móviles), 6 capítulos biográficos y 7 espacios virtuales 3D.
+
 ## 2026-11-01 — Publicación unificada en `main`, Museo 3D integrado y posicionamiento SEO orgánico
 
 - Integrada la versión completa del Museo y Espacios 3D en `dist/galeria-3d/` y el visor 3D del Jardín de las Lagartijas en `#/jardin`.

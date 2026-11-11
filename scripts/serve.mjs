@@ -32,7 +32,21 @@ const server = http.createServer(async (req, res) => {
       res.end("Acceso no permitido");
       return;
     }
-    const body = await readFile(file);
+    let body;
+    try {
+      body = await readFile(file);
+    } catch (err) {
+      if (name === "/local-gallery.json") {
+        res.writeHead(200, {
+          "Content-Type": "application/json; charset=utf-8",
+          "X-Content-Type-Options": "nosniff",
+          "Cache-Control": "no-cache",
+        });
+        res.end("{}");
+        return;
+      }
+      throw err;
+    }
     res.writeHead(200, {
       "Content-Type": types[path.extname(file)] || "application/octet-stream",
       "X-Content-Type-Options": "nosniff",
