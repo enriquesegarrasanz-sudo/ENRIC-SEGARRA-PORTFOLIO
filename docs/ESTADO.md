@@ -1,3 +1,13 @@
+## 2026-11-11 — Rediseño minimalista y mobile-first de la web y de las 7 Salas 3D
+
+- **Experiencia minimalista, sintética y pensada para móvil (~80 % de visitas)**:
+  - Cabecera compacta de una sola fila (`56 px` en móvil con auto-ocultación al bajar y `68 px` en escritorio), selector de idioma abreviado y navegación táctil despejada (`>= 44×44 px`).
+  - Eliminados los iframes 3D incrustados, los bloques informativos redundantes, las píldoras verdes repetidas en tarjetas y todos los emojis de interfaz.
+  - Portada con los 8 apartados esenciales en cuadrícula de 2 columnas en móvil y una franja sutil de acceso a `Salas 3D`; cada disciplina e índice de serie incorpora un único acceso limpio en línea a su sala virtual correspondiente.
+  - Fichas de obra (`#/obra/<id>`), directorio `#/exposicion-3d` (`Salas 3D`) y visor de ampliación (`Presentación`) simplificados manteniendo intactos los 217 registros, referencias `ARC`, exposiciones vinculadas, páginas SEO estáticas y traducciones en 6 idiomas (`ES, CA, EN, FR, ZH, JA`).
+- **Visor 3D depurado (`dist/galeria-3d/`, release `897a2cdc2c`)**:
+  - Más del `90 %` del lienzo libre en móvil y escritorio, retorno directo a la ficha de procedencia (`← MOV-001` / `← Catálogo`), cajón único de `Ajustes` (visita, luz, sonido) y barra inferior mínima de paseo guiado.
+
 ## 2026-11-11 — Unificación bidireccional Exposiciones ↔ Museo Virtual 3D y revisión integral 360° sin erratas
 
 - **Navegación unificada Exposiciones ↔ 7 Salas Virtuales 3D ↔ Series y 217 Fichas**:

@@ -24,7 +24,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20261026-portada-curatorial";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20261111-minimal-v1";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -302,10 +302,8 @@ function workAnimatica3dUrl(w, hashOverride = "") {
   const info = work3dInfo(w);
   return room3dUrl(hashOverride || info.hash, `obra=${encodeURIComponent(w.reference)}&autoenter=1&animatica=obras`);
 }
-const workCard = (w) => {
-  const info3d = work3dInfo(w);
-  return `<article class="work-card reveal">${a("/obra/" + w.id, `<div class="image-space">${img(w.thumb, w.alt)}</div><div class="caption"><span class="reference">${esc(w.reference)}</span><h3>${esc(w.label)}</h3><p>${esc(w.category === "moviles" ? "Móviles" : w.series === "Arcas" ? "Arcas de Noé" : w.series)}${w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : ""}</p></div>`, "work-card-main")}<div class="work-card-3d-row">${a("/obra/" + w.id, "Ficha " + arrow, "work-card-ficha")}<a class="work-card-3d-pill" href="${work3dUrl(w)}" title="Ver ${esc(w.reference)} directamente en ${esc(info3d.roomLabel)}">🧊 Ver en 3D (${esc(info3d.shortRoom)}) ↗</a>${info3d.gardenAlso ? `<a class="work-card-3d-pill garden-pill" href="${work3dUrl(w, "jardin")}" title="Ver ${esc(w.reference)} en el Jardín de las Lagartijas 3D">🌳 Jardín 3D ↗</a>` : ""}</div></article>`;
-};
+const workCard = (w) =>
+  `<article class="work-card reveal">${a("/obra/" + w.id, `<div class="image-space">${img(w.thumb, w.alt)}</div><div class="caption"><span class="reference">${esc(w.reference)}</span><h3>${esc(w.label)}</h3><p>${esc(w.category === "moviles" ? "Móviles" : w.series === "Arcas" ? "Arcas de Noé" : w.series)}${w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : ""}</p></div>`, "work-card-main")}</article>`;
 const albumCard = (al) => {
   const reference = al.section === "exposiciones"
     ? [{ obra: "Obra propia", colectiva: "Colectiva", infantil: "Arte infantil", formacion: "Formación docente", sala: "Archivo de sala" }[al.exhibitionKind], al.date]
@@ -313,11 +311,7 @@ const albumCard = (al) => {
         .map((value) => `<span>${esc(value)}</span>`)
         .join('<span aria-hidden="true"> · </span>')
     : `<span>${esc(al.audience === "educacion" ? educationSections.find((s) => s.id === al.section)?.label : al.type)}</span>`;
-  const link3d = al.audience !== "educacion" ? EXHIBITION_3D_LINKS[al.id] : null;
-  const row3d = link3d
-    ? `<div class="work-card-3d-row exh-card-3d-row">${a("/archivo/" + al.id, "Archivo " + arrow, "work-card-ficha")}<a class="work-card-3d-pill" href="${room3dUrl(link3d.primaryRoom.hash, link3d.primaryRoom.query)}" title="Recorrer la sala 3D vinculada a ${esc(al.title)}">🧊 ${esc(link3d.primaryRoom.label)} ↗</a></div>`
-    : "";
-  return `<article class="album-card reveal${link3d ? " has-3d-row" : ""}">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${reference}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`, "album-card-main")}${row3d}</article>`;
+  return `<article class="album-card reveal">${a("/archivo/" + al.id, `<div class="album-image">${img(al.image, al.title)}</div><div class="caption"><span class="reference">${reference}</span><h3>${esc(al.title)}</h3><p>${al.gallery.length} fotografías ${arrow}</p></div>`, "album-card-main")}</article>`;
 };
 const exhibitionKind = {
   obra: "Obra propia",
@@ -331,11 +325,7 @@ const exhibitionCard = (al) => {
     .filter(Boolean)
     .map((value) => `<span>${esc(value)}</span>`)
     .join('<span aria-hidden="true"> · </span>');
-  const link3d = al.audience !== "educacion" ? EXHIBITION_3D_LINKS[al.id] : null;
-  const actions3d = link3d
-    ? `<div class="exhibition-3d-pills">${link3d.rooms.map((r) => `<a class="work-card-3d-pill" href="${room3dUrl(r.hash, r.query)}">🧊 ${esc(r.label)} ↗</a>`).join("")}<a class="work-card-3d-pill anim3d-pill" href="${room3dUrl(link3d.primaryRoom.hash, link3d.primaryRoom.query + "&animatica=obras")}">🎬 Animática 3D ↗</a>${link3d.catalogLinks.slice(0, 1).map((c) => a(c.path, esc(c.label) + " " + arrow, "exh-cat-mini-link")).join("")}</div>`
-    : "";
-  return `<article class="exhibition-card reveal${link3d ? " has-3d-links" : ""}">${a("/archivo/" + al.id, `<div class="exhibition-image">${img(al.image, al.title)}<span class="exhibition-count">${al.gallery.length} fotografías</span></div><div class="exhibition-copy"><p class="eyebrow">${esc(exhibitionKind[al.exhibitionKind] || "Exposición")}</p><h2>${esc(al.title)}</h2>${details ? `<p class="exhibition-details">${details}</p>` : ""}<p class="exhibition-text">${esc(al.text)}</p><span class="exhibition-link">Recorrer el archivo <b aria-hidden="true">${arrow}</b></span></div><span class="exhibition-arrow" aria-hidden="true">${arrow}</span>`)}${actions3d}</article>`;
+  return `<article class="exhibition-card reveal">${a("/archivo/" + al.id, `<div class="exhibition-image">${img(al.image, al.title)}<span class="exhibition-count">${al.gallery.length} fotografías</span></div><div class="exhibition-copy"><p class="eyebrow">${esc(exhibitionKind[al.exhibitionKind] || "Exposición")}</p><h2>${esc(al.title)}</h2>${details ? `<p class="exhibition-details">${details}</p>` : ""}<p class="exhibition-text">${esc(al.text)}</p><span class="exhibition-link">Recorrer el archivo <b aria-hidden="true">${arrow}</b></span></div><span class="exhibition-arrow" aria-hidden="true">${arrow}</span>`)}</article>`;
 };
 const workGrid = (ws) =>
     `<div class="works-grid">${ws.map(workCard).join("")}</div>`,
@@ -400,10 +390,7 @@ function collectionCards(category) {
   return `<div class="section-directory collection-directory">${(collections[category] || []).map(c => {
     const cover = works.find(w => w.reference === c.cover);
     const count = works.filter(w => w.category === category && w.series === c.series).length;
-    const hash3d = series3dHash(category, c.series);
-    const url3d = room3dUrl(hash3d, "autoenter=1&serie=" + encodeURIComponent(c.series));
-    const urlAnim3d = room3dUrl(hash3d, "autoenter=1&serie=" + encodeURIComponent(c.series) + "&animatica=obras");
-    return `<div class="collection-card-wrap">${directoryCard("/obra/" + category + "?serie=" + encodeURIComponent(c.series), c.label, cover.thumb, c.description).replace('</a>', `<small>${count} obras</small></a>`)}<div class="collection-card-actions"><a class="collection-card-3d" href="${url3d}">🧊 Sala 3D ↗</a><button type="button" class="collection-card-anim2d" data-start-animatica="series-group" data-series-cat="${esc(category)}" data-series-name="${esc(c.series)}">🎬 Animática 2D</button><a class="collection-card-anim3d" href="${urlAnim3d}">🎬 Animática 3D ↗</a></div></div>`;
+    return directoryCard("/obra/" + category + "?serie=" + encodeURIComponent(c.series), c.label, cover.thumb, c.description).replace('</a>', `<small>${count} obras</small></a>`);
   }).join("")}</div>`;
 }
 function groupedWorks(list, category, view) {
@@ -412,8 +399,7 @@ function groupedWorks(list, category, view) {
     const items = list.filter(w => w.series === c.series);
     const hash3d = series3dHash(category, c.series);
     const url3d = room3dUrl(hash3d, "autoenter=1&serie=" + encodeURIComponent(c.series));
-    const urlAnim3d = room3dUrl(hash3d, "autoenter=1&serie=" + encodeURIComponent(c.series) + "&animatica=obras");
-    return `<section class="catalogue-group"><div class="section-head"><h2>${esc(c.label)}</h2><div class="group-head-meta"><span>${items.length} obras</span><button type="button" class="series-anim2d-pill" data-start-animatica="series-group" data-series-cat="${esc(category)}" data-series-name="${esc(c.series)}">🎬 Animática 2D</button><a class="series-3d-pill" href="${url3d}">🧊 Sala 3D ↗</a><a class="series-3d-pill anim3d" href="${urlAnim3d}">🎬 Animática 3D ↗</a></div></div>${renderWorks(items, view)}</section>`;
+    return `<section class="catalogue-group"><div class="section-head"><h2>${esc(c.label)}</h2><div class="group-head-meta"><span>${items.length} obras</span><span aria-hidden="true">·</span><a class="quiet-3d-link" href="${url3d}">Sala 3D ↗</a></div></div>${renderWorks(items, view)}</section>`;
   }).join("");
 }
 
@@ -522,22 +508,19 @@ function homeDirectory() {
       fit: "contain",
       description: "Vida, taller, capítulos de creación y contacto directo.",
     },
-    {
-      num: "09",
-      meta: "7 salas virtuales · 217 obras vinculadas",
-      path: "/exposicion-3d",
-      title: "Exposición Virtual 3D",
-      image: "hero-work-circle-real-neutral-v3",
-      alt: "Recorrido interactivo 3D por las 217 obras del catálogo",
-      fit: "contain",
-      description: "Recorre en 3D las 7 salas y el Jardín de las Lagartijas con acceso directo a cada ficha.",
-    },
   ];
-  return `<div class="section-directory home-directory">${items.map((item) => a(
-    item.path,
-    `<div class="home-card-meta"><span>${item.num}</span><span>${esc(item.meta)}</span></div><div class="image-space is-${item.fit}">${img(item.image, item.alt)}</div><div class="home-card-head"><h2>${esc(item.title)}</h2><span class="home-card-arrow" aria-hidden="true">↗</span></div><p>${esc(item.description)}</p>`,
-    "section-card home-editorial-card",
-  )).join("")}</div>`;
+  return (
+    `<div class="section-directory home-directory">${items.map((item, idx) => a(
+      item.path,
+      `<div class="home-card-meta"><span>${item.num}</span><span>${esc(item.meta)}</span></div><div class="image-space is-${item.fit}">${img(item.image, item.alt, idx < 4)}</div><div class="home-card-head"><h2>${esc(item.title)}</h2><span class="home-card-arrow" aria-hidden="true">↗</span></div><p>${esc(item.description)}</p>`,
+      "section-card home-editorial-card",
+    )).join("")}</div>` +
+    `<div class="home-3d-bar-wrap">${a(
+      "/exposicion-3d",
+      `<div class="home-3d-bar-text"><span class="home-3d-bar-kicker">Salas 3D</span><span class="home-3d-bar-copy">Siete espacios virtuales para recorrer las 217 obras a escala</span></div><span class="home-3d-bar-cta">Explorar salas <span aria-hidden="true">↗</span></span>`,
+      "home-3d-bar",
+    )}</div>`
+  );
 }
 function sculpture(params = new URLSearchParams()) {
   if (params.has("serie") || params.has("q") || params.has("vista")) return workIndex("escultura", params);
@@ -611,336 +594,85 @@ function trajectoryContact() {
   return artist().replace('<h1>ENRIC SEGARRA I GARIBO</h1>', '<h1>Trayectoria y contacto</h1>') + `<section class="section" id="contacto">${sectionHead("Contacto")}${site.contactEmail ? `<a class="text-link" href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a><p><a class="text-link" href="tel:${esc(site.contactPhone)}">615 224 258</a></p>` : `<p>${esc(site.contactText)}</p>`}</section>`;
 }
 
+function room3dStrip(label, meta, href, cta = "Ver en sala 3D") {
+  return `<aside class="room-3d-strip" aria-label="${esc(label)}"><div class="room-3d-strip-copy"><strong>${esc(label)}</strong>${meta ? `<span>${esc(meta)}</span>` : ""}</div><a class="room-3d-strip-link" href="${href}">${esc(cta)} <span aria-hidden="true">↗</span></a></aside>`;
+}
 function garden3dShowcase() {
-  const iframeSrc = room3dUrl("jardin", "autoenter=1");
-  return `<section class="mobiles-3d-showcase" aria-label="Recreación 3D del Jardín de las Lagartijas en Náquera">
-    <div class="mobiles-3d-top">
-      <div>
-        <p class="eyebrow">Recreación 3D de la parcela real · Collado dels Llops (Náquera)</p>
-        <h2>El Jardín de las Lagartijas en 3D · Día, Noche y Naturaleza Viva</h2>
-        <p>Recorre en tres dimensiones la parcela de <strong>Enric Segarra</strong> con la caseta-taller en madera, las acequias, el gran algarrobo centenario, los almendros y olivos donde cuelgan sus móviles, con <strong>cielo de nubes en movimiento</strong>, <strong>pájaros y ardillas</strong>, <strong>ciclo Día / Noche con iluminación cálida</strong> y <strong>música ambiental interactiva</strong>.</p>
-      </div>
-      <div class="expo3d-top-ctas">
-        <a class="room-3d-cta" href="${room3dUrl("jardin", "autoenter=1")}">Abrir Jardín 3D a pantalla completa <span aria-hidden="true">↗</span></a>
-        <a class="room-3d-cta animatica-3d-cta" href="${room3dUrl("jardin", "autoenter=1&animatica=obras")}">🎬 Animática 3D del Jardín <span aria-hidden="true">↗</span></a>
-      </div>
-    </div>
-    <div class="mobiles-3d-controls" role="toolbar" aria-label="Controles rápidos del Jardín de las Lagartijas 3D">
-      <div class="mobiles-3d-btn-group">
-        <span>Atmósfera:</span>
-        <button type="button" class="mobiles-3d-btn" data-garden3d-time="day" data-garden3d-cmd='{"timeOfDay":"day"}' aria-pressed="true">☀️ Día y nubes</button>
-        <button type="button" class="mobiles-3d-btn" data-garden3d-time="night" data-garden3d-cmd='{"timeOfDay":"night"}' aria-pressed="false">🌙 Noche iluminada</button>
-      </div>
-      <div class="mobiles-3d-btn-group">
-        <span>Movilidad y Animática:</span>
-        <button type="button" class="mobiles-3d-btn" data-garden3d-cmd='{"action":"prev-work"}'>⏮ Obra ant.</button>
-        <button type="button" class="mobiles-3d-btn" data-garden3d-cmd='{"action":"next-work"}'>Sig. obra ⏭</button>
-        <button type="button" class="mobiles-3d-btn accent" data-garden3d-cmd='{"action":"toggle-cinematic","cinematicMode":"works"}'>🎬 Animática 3D</button>
-      </div>
-      <div class="mobiles-3d-btn-group">
-        <button type="button" class="mobiles-3d-btn accent" data-garden3d-cmd='{"action":"toggle-music"}'>🎵 Música ambiental</button>
-        <button type="button" class="mobiles-3d-btn accent" data-garden3d-cmd='{"action":"breeze"}'>🌬️ Soplar brisa</button>
-        <button type="button" class="mobiles-3d-btn" data-garden3d-cmd='{"stop":3}'>🌳 Bajo el Gran Algarrobo</button>
-        <button type="button" class="mobiles-3d-btn" data-garden3d-cmd='{"stop":1}'>🏡 Caseta-Taller</button>
-      </div>
-    </div>
-    <div class="live-3d-status-bar" data-live-3d-status="jardin" aria-live="polite">
-      <span class="live-3d-badge">🧊 Sincronizado con 3D</span>
-      <span class="live-3d-text" data-live-3d-text>Pasa de una obra a otra con «⏮ Obra ant. / Sig. obra ⏭» o activa «🎬 Animática 3D» para ver aquí la pieza en foco y abrir su ficha.</span>
-      <div class="live-3d-actions" data-live-3d-actions hidden></div>
-    </div>
-    <div class="mobiles-3d-stage" id="garden-3d-stage">
-      <iframe id="garden-3d-iframe" class="mobiles-3d-iframe" src="${iframeSrc}" title="Recreación 3D interactiva del Jardín de las Lagartijas de Enric Segarra en Náquera" loading="lazy" allow="fullscreen"></iframe>
-    </div>
-  </section>`;
+  return room3dStrip(
+    "Jardín de las Lagartijas en 3D",
+    "Recreación interactiva de la parcela en Náquera con ciclo de luz y sonido",
+    room3dUrl("jardin", "autoenter=1"),
+    "Entrar al Jardín 3D",
+  );
 }
 function mobiles3dShowcase() {
-  const iframeSrc = room3dUrl("moviles", "autoenter=1");
-  return `<section class="mobiles-3d-showcase" aria-label="Sala de Móviles 3D · Nave Diáfana y Juego del Aire">
-    <div class="mobiles-3d-top">
-      <div>
-        <p class="eyebrow">Galería interactiva 3D y 2D-3D · Cámara libre en tres alturas y Juego del Aire</p>
-        <h2>Sala de Móviles 3D · Nave Diáfana</h2>
-        <p>Al estar suspendidos en el espacio, esta nave diáfana presenta los 33 móviles combinando el <strong>paseo natural (1.72m)</strong> con la <strong>altura media cara a cara (2.80m)</strong>, la <strong>vista aérea (3.60m)</strong> y el <strong>Juego del Aire</strong>, alternando en tiempo real entre <strong>Volumen 3D</strong> fiel a cada obra e <strong>Imagen 2D-3D</strong> de estudio.</p>
-      </div>
-      <div class="expo3d-top-ctas">
-        <a class="room-3d-cta" href="${room3dUrl("moviles", "autoenter=1")}">Abrir sala 3D a pantalla completa <span aria-hidden="true">↗</span></a>
-        <a class="room-3d-cta animatica-3d-cta" href="${room3dUrl("moviles", "autoenter=1&animatica=obras")}">🎬 Animática 3D de Móviles <span aria-hidden="true">↗</span></a>
-      </div>
-    </div>
-    <div class="mobiles-3d-pillars">
-      <article class="mobiles-3d-pillar">
-        <strong>01 · Paseo y mirada cenital (1.72m)</strong>
-        <p>Camina libremente por la nave diáfana sin obstáculos y contempla las constelaciones suspendidas contra los lucernarios luminosos.</p>
-        <button type="button" data-mob3d-cmd='{"elev":0,"action":"lookup"}'>👀 Mirar hacia arriba ↑</button>
-      </article>
-      <article class="mobiles-3d-pillar">
-        <strong>02 · Elevar cámara: Cara a cara (2.80m) y Aérea (3.60m)</strong>
-        <p>Eleva suavemente la cámara a media altura o a cota aérea para rodear en 360° los móviles centrales y laterales a la altura exacta de tus ojos.</p>
-        <button type="button" data-mob3d-cmd='{"elev":1}'>🔭 Altura cara a cara (2.80m)</button>
-      </article>
-      <article class="mobiles-3d-pillar">
-        <strong>03 · Juego del Aire + Formato 3D / 2D-3D</strong>
-        <p>Sopla corrientes de brisa para despertar los 33 móviles y ponlos en danza mientras cambias entre Volumen 3D escultórico e Imagen 2D-3D multi-ángulo.</p>
-        <button type="button" data-mob3d-cmd='{"action":"breeze"}'>🌬️ Soplar corriente de aire</button>
-      </article>
-    </div>
-    <div class="mobiles-3d-controls" role="toolbar" aria-label="Controles rápidos de la galería 3D de móviles">
-      <div class="mobiles-3d-btn-group">
-        <span>Altura cámara:</span>
-        <button type="button" class="mobiles-3d-btn" data-mob3d-elev="0" data-mob3d-cmd='{"elev":0}' aria-pressed="true">Paseo (1.72m)</button>
-        <button type="button" class="mobiles-3d-btn" data-mob3d-elev="1" data-mob3d-cmd='{"elev":1}' aria-pressed="false">Cara a cara (2.80m)</button>
-        <button type="button" class="mobiles-3d-btn" data-mob3d-elev="2" data-mob3d-cmd='{"elev":2}' aria-pressed="false">Vista aérea (3.60m)</button>
-      </div>
-      <div class="mobiles-3d-btn-group">
-        <span>Renderizado:</span>
-        <button type="button" class="mobiles-3d-btn" data-mob3d-mode="ai3d" data-mob3d-cmd='{"mode":"ai3d"}' aria-pressed="true">🧊 Volumen 3D</button>
-        <button type="button" class="mobiles-3d-btn" data-mob3d-mode="billboard" data-mob3d-cmd='{"mode":"billboard"}' aria-pressed="false">🖼️ Imagen 2D-3D</button>
-      </div>
-      <div class="mobiles-3d-btn-group">
-        <button type="button" class="mobiles-3d-btn" data-mob3d-cmd='{"action":"prev-work"}'>⏮ Móvil ant.</button>
-        <button type="button" class="mobiles-3d-btn" data-mob3d-cmd='{"action":"next-work"}'>Sig. móvil ⏭</button>
-        <button type="button" class="mobiles-3d-btn accent" data-mob3d-cmd='{"action":"toggle-cinematic","cinematicMode":"works"}'>🎬 Animática 3D</button>
-        <button type="button" class="mobiles-3d-btn accent" data-mob3d-cmd='{"action":"breeze"}'>🌬️ Soplar brisa</button>
-      </div>
-    </div>
-    <div class="live-3d-status-bar" data-live-3d-status="moviles" aria-live="polite">
-      <span class="live-3d-badge">🧊 Sincronizado con 3D</span>
-      <span class="live-3d-text" data-live-3d-text>Usa «⏮ Móvil ant. / Sig. móvil ⏭» o «🎬 Animática 3D» para volar suavemente de un móvil a otro y abrir aquí su ficha del catálogo.</span>
-      <div class="live-3d-actions" data-live-3d-actions hidden></div>
-    </div>
-    <div class="mobiles-3d-stage" id="mobiles-3d-stage">
-      <iframe id="mobiles-3d-iframe" class="mobiles-3d-iframe" src="${iframeSrc}" title="Galería 3D y 2D-3D interactiva de Móviles de Enric Segarra" loading="lazy" allow="fullscreen"></iframe>
-    </div>
-  </section>`;
+  return room3dStrip(
+    "Sala de Móviles 3D",
+    "33 obras suspendidas a tres alturas con brisa interactiva",
+    room3dUrl("moviles", "autoenter=1"),
+    "Entrar en sala 3D",
+  );
 }
 function room3dBanner(series = "", category = "") {
   const spaces = {
-    "Formas orgánicas": {
-      hash: "formas-organicas",
-      eyebrow: "Sala de exposición 3D · Visión amplia 360°",
-      title: "Sala de Formas orgánicas 3D",
-      copy: "Recorre la sala dedicada a las 8 esculturas de «Formas orgánicas» con visión interactiva en Volumen 3D e Imagen 2D-3D y salto directo a cada ficha.",
-      cta: "Entrar en Sala de Formas orgánicas 3D"
-    },
-    "Planos curvos y volúmenes abiertos": {
-      hash: "planos-curvos",
-      eyebrow: "Sala de exposición 3D · Visión amplia 360°",
-      title: "Sala de Planos curvos y volúmenes abiertos 3D",
-      copy: "Explora las 12 esculturas de «Planos curvos y volúmenes abiertos» en su gran salón virtual 3D con acceso directo a la ficha de cada obra.",
-      cta: "Entrar en Sala de Planos curvos 3D"
-    },
-    "Estructuras y objetos ensamblados": {
-      hash: "galeria",
-      eyebrow: "Sala de exposición 3D · Galería Principal",
-      title: "Estructuras y objetos ensamblados en la Galería 3D",
-      copy: "Explora las 9 esculturas de «Estructuras y objetos ensamblados» sobre sus pedestales en la Galería Principal 3D.",
-      cta: "Ver serie en la Galería 3D"
-    },
-    "Relieves y ensamblajes murales": {
-      hash: "galeria",
-      eyebrow: "Sala de exposición 3D · Muro Oeste de la Galería Principal",
-      title: "Relieves y ensamblajes murales en 3D",
-      copy: "Recorre los 11 relieves y ensamblajes murales dispuestos a escala en el muro oeste de la Galería Principal 3D.",
-      cta: "Ver relieves en la Galería 3D"
-    },
-    "Relieves de planos recortados": {
-      hash: "galeria",
-      eyebrow: "Sala de exposición 3D · Muro Este de la Galería Principal",
-      title: "Relieves de planos recortados en 3D",
-      copy: "Contempla los 4 relieves de planos recortados instalados en el muro este de la Galería Principal 3D.",
-      cta: "Ver serie en la Galería 3D"
-    },
-    "Relieves de textura": {
-      hash: "galeria",
-      eyebrow: "Sala de exposición 3D · Muro Este de la Galería Principal",
-      title: "Relieves de textura en 3D",
-      copy: "Recorre los 5 relieves de textura y materia pictórica en la Galería Principal 3D.",
-      cta: "Ver relieves en la Galería 3D"
-    },
-    "Intervenciones en el entorno": {
-      hash: "jardin",
-      eyebrow: "Exposición 3D · Jardín de las Lagartijas y Galería Principal",
-      title: "Intervenciones en el entorno en 3D",
-      copy: "Explora las 6 intervenciones en piedra y árbol integradas tanto en el Jardín de las Lagartijas 3D como en el muro sur de la Galería Principal.",
-      cta: "Ver en el Jardín 3D"
-    },
-    "Dibujo y espacio": {
-      hash: "dibujo",
-      eyebrow: "Sala de exposición 3D · Pabellón longitudinal",
-      title: "Sala de Dibujo 3D · Dibujo y espacio",
-      copy: "Recorre el gran pabellón virtual dedicado a las 48 obras sobre papel de la serie «Dibujo y espacio».",
-      cta: "Entrar en la Sala de Dibujo 3D"
-    },
+    "Formas orgánicas": { hash: "formas-organicas", title: "Sala de Formas orgánicas 3D", meta: "8 esculturas en visión 360°" },
+    "Planos curvos y volúmenes abiertos": { hash: "planos-curvos", title: "Sala de Planos curvos 3D", meta: "12 esculturas en visión 360°" },
+    "Estructuras y objetos ensamblados": { hash: "galeria", title: "Galería Blanca 3D · Estructuras", meta: "9 obras sobre peana" },
+    "Relieves y ensamblajes murales": { hash: "galeria", title: "Galería Blanca 3D · Relieves murales", meta: "11 obras a escala" },
+    "Relieves de planos recortados": { hash: "galeria", title: "Galería Blanca 3D · Planos recortados", meta: "4 relieves murales" },
+    "Relieves de textura": { hash: "galeria", title: "Galería Blanca 3D · Relieves de textura", meta: "5 obras en sala" },
+    "Intervenciones en el entorno": { hash: "jardin", title: "Jardín de las Lagartijas 3D", meta: "6 intervenciones en piedra y árbol" },
+    "Dibujo y espacio": { hash: "dibujo", title: "Sala de Dibujo 3D · Dibujo y espacio", meta: "48 obras sobre papel" },
     "Figuras y símbolos": {
       hash: category === "dibujo" ? "dibujo" : "pintura",
-      eyebrow: category === "dibujo" ? "Sala de Dibujo 3D · Muro Norte" : "Sala de Pintura 3D · Paneles Centrales I y II",
-      title: category === "dibujo" ? "Figuras y símbolos en la Sala de Dibujo 3D" : "Serie «Figuras y símbolos» en la Sala de Pintura 3D",
-      copy: category === "dibujo"
-        ? "Contempla los 5 dibujos de la serie «Figuras y símbolos» en la Sala de Dibujo 3D."
-        : "Recorre los 12 lienzos de «Figuras y símbolos» dispuestos en los dos paneles centrales de la Sala de Pintura 3D.",
-      cta: category === "dibujo" ? "Ver en la Sala de Dibujo 3D" : "Ver en la Sala de Pintura 3D"
+      title: category === "dibujo" ? "Sala de Dibujo 3D · Figuras y símbolos" : "Sala de Pintura 3D · Figuras y símbolos",
+      meta: category === "dibujo" ? "5 obras sobre papel" : "12 lienzos en sala",
     },
-    "Arcas": {
-      hash: "pintura",
-      eyebrow: "Sala de Pintura 3D · Panel Central Sur",
-      title: "Serie «Arcas de Noé» en la Sala de Pintura 3D",
-      copy: "Recorre los 7 lienzos de la serie «Arcas de Noé» colgados a escala en el primer panel central de la Sala de Pintura 3D.",
-      cta: "Ver Arcas de Noé en 3D"
-    },
-    "Gatos": {
-      hash: "pintura",
-      eyebrow: "Sala de Pintura 3D · Muro Oeste (Ala Norte)",
-      title: "Serie «Gatos» en la Sala de Pintura 3D",
-      copy: "Explora las 9 pinturas de la serie «Gatos» en el ala norte del muro oeste de la Sala de Pintura 3D.",
-      cta: "Ver serie Gatos en 3D"
-    },
-    "Rostros y personajes": {
-      hash: "pintura",
-      eyebrow: "Sala de Pintura 3D · Gran Muro Este",
-      title: "Serie «Rostros y personajes» en la Sala de Pintura 3D",
-      copy: "Recorre las 16 obras de «Rostros y personajes» a lo largo del gran muro este de la Sala de Pintura 3D con enlace directo a cada ficha.",
-      cta: "Ver Rostros y personajes en 3D"
-    },
-    "Tauromaquia": {
-      hash: "pintura",
-      eyebrow: "Sala de Pintura 3D · Muro Oeste (Ala Sur)",
-      title: "Serie «Tauromaquia» en la Sala de Pintura 3D",
-      copy: "Contempla los 9 lienzos de la serie «Tauromaquia» en el ala sur del muro oeste de la Sala de Pintura 3D.",
-      cta: "Ver Tauromaquia en 3D"
-    },
-    "Abstracciones": {
-      hash: "pintura",
-      eyebrow: "Sala de Pintura 3D · Panel Norte y Muro Norte",
-      title: "Serie «Abstracciones» en la Sala de Pintura 3D",
-      copy: "Explora los 13 cuadros de la serie «Abstracciones» instalados en el panel norte y la cabecera norte de la Sala de Pintura 3D.",
-      cta: "Ver Abstracciones en 3D"
-    },
-    "Letras y signos": {
-      hash: "pintura",
-      eyebrow: "Sala de Pintura 3D · Muro Sur",
-      title: "Serie «Letras y signos» en la Sala de Pintura 3D",
-      copy: "Recorre las 3 obras de «Letras y signos» en el umbral sur de la Sala de Pintura 3D.",
-      cta: "Ver Letras y signos en 3D"
-    },
-    "Relatos e iconografía": {
-      hash: "pintura",
-      eyebrow: "Sala de Pintura 3D · Panel Central",
-      title: "Serie «Relatos e iconografía» en la Sala de Pintura 3D",
-      copy: "Explora las 7 pinturas de «Relatos e iconografía» en el panel curatorial central de la Sala de Pintura 3D.",
-      cta: "Ver Relatos e iconografía en 3D"
-    }
+    "Arcas": { hash: "pintura", title: "Sala de Pintura 3D · Arcas de Noé", meta: "7 lienzos a escala" },
+    "Gatos": { hash: "pintura", title: "Sala de Pintura 3D · Gatos", meta: "9 pinturas en sala" },
+    "Rostros y personajes": { hash: "pintura", title: "Sala de Pintura 3D · Rostros y personajes", meta: "16 obras en sala" },
+    "Tauromaquia": { hash: "pintura", title: "Sala de Pintura 3D · Tauromaquia", meta: "9 lienzos en sala" },
+    "Abstracciones": { hash: "pintura", title: "Sala de Pintura 3D · Abstracciones", meta: "13 pinturas en sala" },
+    "Letras y signos": { hash: "pintura", title: "Sala de Pintura 3D · Letras y signos", meta: "3 obras en sala" },
+    "Relatos e iconografía": { hash: "pintura", title: "Sala de Pintura 3D · Relatos e iconografía", meta: "7 pinturas en sala" },
   };
   const categoryDefaults = {
-    escultura: {
-      hash: "galeria",
-      eyebrow: "Exposición Virtual 3D · 55 esculturas en 4 espacios",
-      title: "Todas las esculturas vinculadas con la Exposición 3D",
-      copy: "Recorre las 55 esculturas distribuidas entre la Galería Principal (Estructuras y Relieves), la Sala de Formas Orgánicas, la Sala de Planos Curvos y el Jardín de las Lagartijas.",
-      cta: "Entrar en las salas de Escultura 3D"
-    },
-    pintura: {
-      hash: "pintura",
-      eyebrow: "Exposición Virtual 3D · Gran Pabellón Pictórico",
-      title: "Sala de Pintura 3D · Los 76 lienzos en 8 series",
-      copy: "Recorre el salón virtual con las 76 pinturas de Enric Segarra organizadas por sus 8 series curatoriales (Arcas de Noé, Gatos, Tauromaquia, Rostros, Figuras y símbolos, Abstracciones, Letras y Relatos).",
-      cta: "Entrar en la Sala de Pintura 3D"
-    },
-    dibujo: {
-      hash: "dibujo",
-      eyebrow: "Exposición Virtual 3D · Pabellón de Obra sobre Papel",
-      title: "Sala de Dibujo 3D · Las 53 obras sobre papel",
-      copy: "Camina por el pabellón de dibujo con los 48 estudios de «Dibujo y espacio» y las 5 obras de «Figuras y símbolos», vinculadas una a una con su ficha del catálogo.",
-      cta: "Entrar en la Sala de Dibujo 3D"
-    }
+    escultura: { hash: "galeria", title: "Salas de Escultura 3D", meta: "55 esculturas distribuidas en cuatro espacios" },
+    pintura: { hash: "pintura", title: "Sala de Pintura 3D", meta: "76 obras organizadas en ocho series" },
+    dibujo: { hash: "dibujo", title: "Sala de Dibujo 3D", meta: "53 obras sobre papel" },
   };
   const info = spaces[series] || categoryDefaults[category];
   if (!info) return "";
   const query = series ? `autoenter=1&serie=${encodeURIComponent(series)}` : "autoenter=1";
-  const animQuery = `${query}&animatica=obras`;
-  return `<aside class="room-3d-banner" aria-label="${esc(info.title)}"><div><p class="eyebrow">${esc(info.eyebrow)}</p><h2>${esc(info.title)}</h2><p>${esc(info.copy)}</p></div><div class="room-3d-banner-ctas"><a class="room-3d-cta" href="${room3dUrl(info.hash, query)}">${esc(info.cta)} <span aria-hidden="true">↗</span></a><a class="room-3d-cta animatica-3d-cta" href="${room3dUrl(info.hash, animQuery)}">🎬 Animática 3D en sala <span aria-hidden="true">↗</span></a><button type="button" class="room-3d-cta animatica-2d-cta" data-start-animatica="banner" data-series-cat="${esc(category)}" data-series-name="${esc(series)}">🎬 Animática 2D (${series ? "serie" : "catálogo"})</button></div></aside>`;
+  return room3dStrip(info.title, info.meta, room3dUrl(info.hash, query), "Ver en sala 3D");
 }
 function getRooms3dCatalog() {
+  const orgCover = works.find((w) => w.series === "Formas orgánicas")?.thumb || "gallery-esc-009";
+  const curvosCover = works.find((w) => w.series === "Planos curvos y volúmenes abiertos")?.thumb || "gallery-esc-009";
+  const galCover = works.find((w) => w.reference === "ESC-054")?.thumb || "gallery-esc-009";
   return [
-    { hash: "galeria", num: "01", label: "Galería Blanca", count: "41 obras", sectionPath: "/obra/escultura", sectionLabel: "Catálogo de Escultura", desc: "Estructuras y objetos ensamblados sobre peanas, relieves murales, planos recortados, relieves de textura, móviles y pintura." },
-    { hash: "jardin", num: "02", label: "Jardín de las Lagartijas", count: "17 obras", sectionPath: "/jardin", sectionLabel: "Apartado Jardín de las Lagartijas", desc: "Parcela natural en Náquera con móviles en los árboles, intervenciones en el entorno, caseta-taller y ciclo Día/Noche." },
-    { hash: "pintura", num: "03", label: "Sala de Pintura", count: "76 obras", sectionPath: "/obra/pintura", sectionLabel: "Catálogo de Pintura", desc: "Gran pabellón con las 8 series pictóricas completas: Arcas de Noé, Gatos, Tauromaquia, Rostros, Figuras y símbolos, Abstracciones, Letras y Relatos." },
-    { hash: "dibujo", num: "04", label: "Sala de Dibujo", count: "53 obras", sectionPath: "/obra/dibujo", sectionLabel: "Catálogo de Dibujo", desc: "Pabellón longitudinal con las 48 obras de «Dibujo y espacio» y las 5 de «Figuras y símbolos»." },
-    { hash: "formas-organicas", num: "05", label: "Formas Orgánicas", count: "8 obras", sectionPath: "/obra/escultura?serie=" + encodeURIComponent("Formas orgánicas"), sectionLabel: "Serie Formas orgánicas", desc: "Sala monográfica con las 8 esculturas de madera tallada, piedra y volúmenes orgánicos en 360°." },
-    { hash: "planos-curvos", num: "06", label: "Planos Curvos", count: "12 obras", sectionPath: "/obra/escultura?serie=" + encodeURIComponent("Planos curvos y volúmenes abiertos"), sectionLabel: "Serie Planos curvos", desc: "Salón dedicado a las 12 esculturas de chapa plegada, hierro forjado y planos en tensión en 360°." },
-    { hash: "moviles", num: "07", label: "Sala de Móviles 3D", count: "33 obras", sectionPath: "/moviles", sectionLabel: "Catálogo de Móviles", desc: "Nave diáfana con los 33 móviles en verdadero volumen 3D, cámara libre en tres alturas (1.72m, 2.80m y 3.60m) y Juego del Aire." }
+    { hash: "galeria", num: "01", label: "Galería Blanca", count: "41 obras", cover: galCover, fit: "contain", sectionPath: "/obra/escultura", sectionLabel: "Escultura", desc: "Estructuras sobre peana, relieves murales, planos recortados y relieves de textura." },
+    { hash: "jardin", num: "02", label: "Jardín de las Lagartijas", count: "17 obras", cover: "arc-014873", fit: "cover", sectionPath: "/jardin", sectionLabel: "Jardín de las Lagartijas", desc: "Parcela natural en Náquera con móviles en los árboles, intervenciones, luz diurna y nocturna." },
+    { hash: "pintura", num: "03", label: "Sala de Pintura", count: "76 obras", cover: "pin-001-estudio-v3", fit: "contain", sectionPath: "/obra/pintura", sectionLabel: "Pintura", desc: "Pabellón con las ocho series pictóricas: Arcas de Noé, Gatos, Tauromaquia, Rostros y más." },
+    { hash: "dibujo", num: "04", label: "Sala de Dibujo", count: "53 obras", cover: "drawing-015081-catalogue", fit: "contain", sectionPath: "/obra/dibujo", sectionLabel: "Dibujo", desc: "Obra sobre papel de las series «Dibujo y espacio» y «Figuras y símbolos»." },
+    { hash: "formas-organicas", num: "05", label: "Formas Orgánicas", count: "8 obras", cover: orgCover, fit: "contain", sectionPath: "/obra/escultura?serie=" + encodeURIComponent("Formas orgánicas"), sectionLabel: "Formas orgánicas", desc: "Esculturas de madera tallada, piedra y volúmenes orgánicos en recorrido 360°." },
+    { hash: "planos-curvos", num: "06", label: "Planos Curvos", count: "12 obras", cover: curvosCover, fit: "contain", sectionPath: "/obra/escultura?serie=" + encodeURIComponent("Planos curvos y volúmenes abiertos"), sectionLabel: "Planos curvos", desc: "Hierro forjado, chapa plegada y volúmenes abiertos a escala real." },
+    { hash: "moviles", num: "07", label: "Sala de Móviles", count: "33 obras", cover: "hero-work-baskets-real-neutral-v3", fit: "contain", sectionPath: "/moviles", sectionLabel: "Móviles", desc: "Nave diáfana con los 33 móviles suspendidos a tres alturas y brisa interactiva." },
   ];
 }
+function renderSalas3dGrid(rooms, highlightHash = "") {
+  return `<div class="salas3d-grid">${rooms.map((r) => `<article class="sala3d-card reveal${r.hash === highlightHash ? " is-highlighted" : ""}" data-sala3d-card="${r.hash}"><a class="sala3d-card-main" href="${room3dUrl(r.hash, "autoenter=1")}"><div class="sala3d-card-meta"><span>${r.num}</span><span>${esc(r.count)}</span></div><div class="image-space is-${r.fit}">${img(r.cover, r.label)}</div><div class="sala3d-card-head"><h2>${esc(r.label)}</h2><span aria-hidden="true">↗</span></div><p>${esc(r.desc)}</p></a><div class="sala3d-card-foot"><a class="sala3d-enter-link" href="${room3dUrl(r.hash, "autoenter=1")}">Entrar en sala <span aria-hidden="true">↗</span></a>${a(r.sectionPath, "Catálogo: " + esc(r.sectionLabel) + " " + arrow, "quiet-3d-link")}</div></article>`).join("")}</div>`;
+}
 function exposicion3dPage(params = new URLSearchParams()) {
-  const requestedRoom = params.get("sala") || "galeria";
+  const requestedRoom = params.get("sala") || "";
   const rooms = getRooms3dCatalog();
-  const current = rooms.find(r => r.hash === requestedRoom) || rooms[0];
-  const currentExhs = ROOM_EXHIBITIONS_MAP[current.hash] || [];
-  const iframeSrc = room3dUrl(current.hash, "autoenter=1");
   return (
     head(
-      "Museo Virtual Interactivo · 217 obras y exposiciones conectadas",
-      "Exposición Virtual 3D",
-      "Todas las obras del catálogo de Enric Segarra están ubicadas en 7 espacios virtuales 3D vinculados a sus series y exposiciones. Puedes entrar a cualquier sala aquí mismo o a pantalla completa, saltar de una obra a otra con vuelo suave, activar la Animática 3D y abrir al instante la ficha o exposición de cada pieza."
+      "Museo virtual · 7 espacios",
+      "Salas 3D",
+      "Recorrido tridimensional por las 217 obras del catálogo y el Jardín de las Lagartijas. Toca cualquier sala para entrar a pantalla completa.",
     ) +
-    `<section class="expo3d-hub" aria-label="Selector de salas de la Exposición 3D">
-      <div class="expo3d-rooms-grid">
-        ${rooms.map(r => {
-          const exhs = ROOM_EXHIBITIONS_MAP[r.hash] || [];
-          return `<article class="expo3d-room-card${r.hash === current.hash ? " is-active" : ""}" data-expo3d-card="${r.hash}">
-          <div class="expo3d-room-top">
-            <span class="reference">${r.num} · ${esc(r.count)}</span>
-            <a class="expo3d-fullscreen-pill" href="${room3dUrl(r.hash, "autoenter=1")}">Pantalla completa ↗</a>
-          </div>
-          <h2>${esc(r.label)}</h2>
-          <p>${esc(r.desc)}</p>
-          ${exhs.length ? `<div class="expo3d-linked-exhs"><span class="expo3d-linked-label">Exposiciones vinculadas:</span>${exhs.map((ex) => a("/archivo/" + ex.id, esc(ex.label) + " " + arrow, "expo3d-exh-chip")).join("")}</div>` : ""}
-          <div class="expo3d-room-actions">
-            <button type="button" class="expo3d-select-btn" data-expo3d-room="${r.hash}" aria-pressed="${r.hash === current.hash}">🧊 Cargar sala aquí</button>
-            <a class="expo3d-anim-pill" href="${room3dUrl(r.hash, "autoenter=1&animatica=obras")}">🎬 Animática 3D ↗</a>
-            ${a(r.sectionPath, esc(r.sectionLabel) + " " + arrow, "expo3d-cat-link")}
-          </div>
-        </article>`;
-        }).join("")}
-      </div>
-      <div class="mobiles-3d-showcase expo3d-stage-wrap">
-        <div class="mobiles-3d-top">
-          <div>
-            <p class="eyebrow" id="expo3d-current-eyebrow">Sala activa · ${current.num} (${esc(current.count)})</p>
-            <h2 id="expo3d-current-title">${esc(current.label)}</h2>
-            <p id="expo3d-current-desc">${esc(current.desc)}</p>
-            ${currentExhs.length ? `<div class="expo3d-linked-exhs is-stage"><span class="expo3d-linked-label">Exposiciones vinculadas:</span>${currentExhs.map((ex) => a("/archivo/" + ex.id, esc(ex.label) + " " + arrow, "expo3d-exh-chip")).join("")}</div>` : ""}
-          </div>
-          <div class="expo3d-top-ctas">
-            <a class="room-3d-cta" id="expo3d-fullscreen-btn" href="${room3dUrl(current.hash, "autoenter=1")}">Abrir ${esc(current.label)} a pantalla completa <span aria-hidden="true">↗</span></a>
-            <a class="room-3d-cta animatica-3d-cta" href="${room3dUrl(current.hash, "autoenter=1&animatica=obras")}">🎬 Animática 3D a pantalla completa <span aria-hidden="true">↗</span></a>
-            <a class="button" id="expo3d-section-btn" href="#${current.sectionPath}">Ir a ${esc(current.sectionLabel)} <span aria-hidden="true">↗</span></a>
-          </div>
-        </div>
-        <div class="mobiles-3d-controls" role="toolbar" aria-label="Controles de movilidad y animática de la sala 3D activa">
-          <div class="mobiles-3d-btn-group">
-            <span>Movilidad en sala:</span>
-            <button type="button" class="mobiles-3d-btn" data-expo3d-cmd='{"action":"prev-work"}'>⏮ Obra anterior</button>
-            <button type="button" class="mobiles-3d-btn" data-expo3d-cmd='{"action":"next-work"}'>Siguiente obra ⏭</button>
-            <button type="button" class="mobiles-3d-btn" data-expo3d-cmd='{"action":"toggle-fast-walk"}'>⚡ Paso rápido</button>
-          </div>
-          <div class="mobiles-3d-btn-group">
-            <span>Animática 3D:</span>
-            <button type="button" class="mobiles-3d-btn accent" data-expo3d-cmd='{"action":"toggle-cinematic","cinematicMode":"works"}'>🎬 Animática Obra a obra</button>
-            <button type="button" class="mobiles-3d-btn" data-expo3d-cmd='{"action":"toggle-cinematic","cinematicMode":"stops"}'>🏛️ Animática Planos de sala</button>
-            <button type="button" class="mobiles-3d-btn" data-expo3d-cmd='{"action":"toggle-music"}'>🎵 Música ambiental</button>
-          </div>
-        </div>
-        <div class="live-3d-status-bar" data-live-3d-status="expo3d" aria-live="polite">
-          <span class="live-3d-badge">🧊 Sincronizado con 3D</span>
-          <span class="live-3d-text" data-live-3d-text>Pasa de una obra a otra con «⏮ Obra anterior / Siguiente obra ⏭» o activa «🎬 Animática Obra a obra» para ver aquí la pieza en foco y abrir su ficha.</span>
-          <div class="live-3d-actions" data-live-3d-actions hidden></div>
-        </div>
-        <div class="mobiles-3d-stage" id="expo3d-stage">
-          <iframe id="expo3d-iframe" class="mobiles-3d-iframe" src="${iframeSrc}" title="Exposición Virtual 3D de Enric Segarra" allow="fullscreen"></iframe>
-        </div>
-      </div>
-    </section>`
+    `<section class="expo3d-hub" aria-label="Salas virtuales 3D">${renderSalas3dGrid(rooms, requestedRoom)}</section>`
   );
 }
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -967,20 +699,15 @@ function workIndex(category = "todas", params = new URLSearchParams()) {
     const items = filtered.filter(w => w.category === c.id);
     return items.length ? `<section class="catalogue-group">${sectionHead(c.label, "/obra/" + c.id)}${renderWorks(items, view)}</section>` : "";
   }).join("") : collections[category] && !series ? groupedWorks(filtered, category, view) : renderWorks(filtered, view);
-  const anim3dHash = series3dHash(category === "todas" ? "escultura" : category, series);
-  const anim3dQuery = (series ? "serie=" + encodeURIComponent(series) + "&" : "") + "autoenter=1&animatica=obras";
   return head(series ? catName(category) : "Catálogo de obra", collection?.label || (category === "todas" ? "Obra" : catName(category)), collection?.description || descriptions[category]) +
-    (showDirectory ? `<section aria-label="Series y conjuntos">${collectionCards(category)}</section>` : "") +
     (category === "moviles" ? mobiles3dShowcase() : room3dBanner(series, category)) +
-    `<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar descripción o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${seriesList.length ? `<label class="select-label">Serie o conjunto<select name="serie"><option value="">Todas las series</option>${seriesList.map(name => `<option value="${esc(name)}" ${name === series ? "selected" : ""}>${esc(seriesLabel(category,name))}</option>`).join("")}</select></label>` : ""}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}</p><div class="result-line-actions">${filtered.length ? `<button type="button" class="animatica-launch-btn" data-start-animatica="filtered">🎬 Reproducir Animática 2D (${filtered.length} obras)</button><a class="animatica-launch-btn is-3d" href="${room3dUrl(anim3dHash, anim3dQuery)}">🎬 Animática 3D en sala ↗</a>` : ""}</div></div><div id="catalogue-results">${catalogue}</div>${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a("/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`;
+    (showDirectory ? `<section aria-label="Series y conjuntos">${collectionCards(category)}</section>` : "") +
+    `<form class="catalogue-tools" id="catalogue-filters"><label class="search"><span class="sr-only">Buscar obras</span><input type="search" name="q" placeholder="Buscar descripción o referencia" value="${esc(query)}"><button aria-label="Buscar">↗</button></label>${seriesList.length ? `<label class="select-label">Serie o conjunto<select name="serie"><option value="">Todas las series</option>${seriesList.map(name => `<option value="${esc(name)}" ${name === series ? "selected" : ""}>${esc(seriesLabel(category,name))}</option>`).join("")}</select></label>` : ""}<div class="view-toggle" aria-label="Presentación"><button type="button" data-view="catalogo" aria-pressed="${view === "catalogo"}">Cuadrícula</button><button type="button" data-view="recorrido" aria-pressed="${view === "recorrido"}">Recorrido ↓</button></div></form><div class="result-line"><p role="status">${filtered.length} ${filtered.length === 1 ? "obra" : "obras"}</p>${filtered.length ? `<button type="button" class="quiet-action-btn" data-start-animatica="filtered">Presentación</button>` : ""}</div><div id="catalogue-results">${catalogue}</div>${!filtered.length ? `<div class="empty"><h2>No hay obras con esa búsqueda.</h2>${a("/obra/" + category, "Restablecer filtros " + arrow)}</div>` : ""}`;
 }
 function renderWorks(list, view) {
   return view === "catalogo"
     ? workGrid(list)
-    : `<div class="work-walk">${list.map((w) => {
-        const info3d = work3dInfo(w);
-        return `<article class="walk-item reveal"><div><span class="reference">${esc(w.reference)}</span><h2>${esc(w.label)}</h2><p>${esc(w.series)}</p><div class="walk-item-links">${a("/obra/" + w.id, "Ver la obra" + (w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : "") + " " + arrow, "text-link")}<a class="work-card-3d-pill" href="${work3dUrl(w)}">🧊 Ver en 3D (${esc(info3d.shortRoom)}) ↗</a>${info3d.gardenAlso ? `<a class="work-card-3d-pill garden-pill" href="${work3dUrl(w, "jardin")}">🌳 Jardín 3D ↗</a>` : ""}</div></div>${a("/obra/" + w.id, img(w.image, w.alt))}</article>`;
-      }).join("")}</div>`;
+    : `<div class="work-walk">${list.map((w) => `<article class="walk-item reveal"><div><span class="reference">${esc(w.reference)}</span><h2>${esc(w.label)}</h2><p>${esc(w.series)}</p><div class="walk-item-links">${a("/obra/" + w.id, "Ver la obra" + (w.gallery.length > 1 ? ` · ${w.gallery.length} vistas` : "") + " " + arrow, "text-link")}<a class="quiet-3d-link" href="${work3dUrl(w)}">Ver en sala 3D ↗</a></div></div>${a("/obra/" + w.id, img(w.image, w.alt))}</article>`).join("")}</div>`;
 }
 function setGallery(list, label) {
   currentGallery = list.slice();
@@ -1024,72 +751,54 @@ function workDetail(w) {
   const parentLabel = isGardenWork ? "Jardín de las Lagartijas" : catName(w.category);
   const info3d = work3dInfo(w);
   const direct3dUrl = work3dUrl(w);
-  const animatica3dUrl = workAnimatica3dUrl(w);
   const garden3dUrl = work3dUrl(w, "jardin");
-  const series3dUrl = room3dUrl(info3d.hash, "autoenter=1&serie=" + encodeURIComponent(w.series));
-  const seriesAnim3dUrl = room3dUrl(info3d.hash, "autoenter=1&serie=" + encodeURIComponent(w.series) + "&animatica=obras");
   const sLabel = seriesLabel(w.category, w.series);
+  const seriesFilterPath = isGardenWork
+    ? "/jardin"
+    : "/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series);
   const linkedExhs = workExposiciones(w);
 
-  const renderMobilityBar = (pos = "top") => `
-    <nav class="work-mobility-bar is-${pos}" aria-label="Navegación entre obras (${pos === "top" ? "superior" : "inferior"})">
-      <a class="mobility-work-link is-prev" href="#/obra/${esc(nav.prevWork.id)}" data-nav-dir="backward" title="Obra anterior: ${esc(nav.prevWork.reference)} · ${esc(nav.prevWork.label)} (Tecla ←)">
-        <span class="mobility-thumb">${img(nav.prevWork.thumb, nav.prevWork.alt)}</span>
-        <span class="mobility-copy">
-          <span class="mobility-kicker">← Obra anterior</span>
-          <strong>${esc(nav.prevWork.reference)} · ${esc(nav.prevWork.label)}</strong>
-        </span>
-      </a>
-      <div class="mobility-center">
-        <div class="mobility-counter">
-          <span>Obra <strong>${num(nav.seriesIdx + 1)} / ${num(nav.seriesPool.length)}</strong> en «${esc(sLabel)}»</span>
-          <small>${num(nav.catIdx + 1)} / ${num(nav.catPool.length)} en ${esc(catName(w.category))} · Usa ← → para pasar de obra</small>
-        </div>
-        <div class="mobility-actions">
-          <button type="button" class="mobility-pill animatica-2d-pill" data-start-animatica="series" data-work-id="${esc(w.id)}">🎬 Animática 2D</button>
-          <a class="mobility-pill animatica-3d-pill" href="${animatica3dUrl}">🎬 Animática 3D ↗</a>
-          <button type="button" class="mobility-pill inline-3d-pill" data-toggle-inline-3d="${esc(direct3dUrl)}" aria-expanded="false">🧊 Visor 3D aquí</button>
-        </div>
-      </div>
-      <a class="mobility-work-link is-next" href="#/obra/${esc(nav.nextWork.id)}" data-nav-dir="forward" title="Obra siguiente: ${esc(nav.nextWork.reference)} · ${esc(nav.nextWork.label)} (Tecla →)">
-        <span class="mobility-copy">
-          <span class="mobility-kicker">Siguiente obra →</span>
-          <strong>${esc(nav.nextWork.reference)} · ${esc(nav.nextWork.label)}</strong>
-        </span>
-        <span class="mobility-thumb">${img(nav.nextWork.thumb, nav.nextWork.alt)}</span>
-      </a>
-    </nav>`;
-
   return (
-    `<div class="work-top-row">${trail(parentPath, parentLabel, w.reference)}</div>` +
-    renderMobilityBar("top") +
-    `<section class="work-detail" data-work-detail="${esc(w.id)}"><div class="work-stage"><div class="stage-3d-bar"><a class="stage-3d-link" href="${direct3dUrl}">🧊 Ver en ${esc(info3d.roomLabel)} ↗</a><a class="stage-3d-anim-link" href="${animatica3dUrl}">🎬 Animática 3D ↗</a><button type="button" class="stage-3d-inline-btn" data-toggle-inline-3d="${esc(direct3dUrl)}" aria-expanded="false">Explorar en 3D aquí</button></div><div class="main-photo-stage"><a class="stage-step-arrow prev" href="#/obra/${esc(nav.prevWork.id)}" data-nav-dir="backward" aria-label="Obra anterior: ${esc(nav.prevWork.reference)} ${esc(nav.prevWork.label)}" title="Obra anterior: ${esc(nav.prevWork.reference)} · ${esc(nav.prevWork.label)}">←</a><button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button><a class="stage-step-arrow next" href="#/obra/${esc(nav.nextWork.id)}" data-nav-dir="forward" aria-label="Obra siguiente: ${esc(nav.nextWork.reference)} ${esc(nav.nextWork.label)}" title="Obra siguiente: ${esc(nav.nextWork.reference)} · ${esc(nav.nextWork.label)}">→</a></div>${w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : ""}</div><div class="work-info"><p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p><h1>${esc(w.label)}</h1><p class="work-series">${esc(sLabel)}</p>${w.text && w.text !== w.label + "." ? prose([w.text]) : ""}<div class="work-3d-box" aria-label="Conexión con la Exposición Virtual 3D y Animáticas"><p class="work-3d-eyebrow">🧊 EXPOSICIÓN VIRTUAL 3D Y ANIMÁTICAS VINCULADAS</p><p class="work-3d-copy">Esta pieza (<strong>${esc(w.reference)}</strong>) está instalada en la <strong>${esc(info3d.roomLabel)}</strong>. Puedes contemplarla en el espacio tridimensional, iniciar la <strong>Animática 3D o 2D</strong> obra a obra o desplegar el visor 3D sin salir de esta ficha.</p><div class="work-3d-actions"><a class="work-3d-cta primary" href="${direct3dUrl}">🧊 Ir a la obra en ${esc(info3d.roomLabel)} ↗</a><a class="work-3d-cta anim3d" href="${animatica3dUrl}">🎬 Animática 3D desde esta obra ↗</a><button type="button" class="work-3d-cta anim2d" data-start-animatica="series" data-work-id="${esc(w.id)}">🎬 Animática 2D de la serie</button><button type="button" class="work-3d-cta secondary" data-toggle-inline-3d="${esc(direct3dUrl)}" aria-expanded="false">Abrir visor 3D en esta página</button>${info3d.gardenAlso ? `<a class="work-3d-cta garden" href="${garden3dUrl}">🌳 Ver también en el Jardín de las Lagartijas 3D ↗</a>` : ""}</div><div class="work-3d-series-links"><a class="work-3d-series-link" href="${series3dUrl}">Recorrer la serie «${esc(sLabel)}» en ${esc(info3d.shortRoom)} ↗</a><a class="work-3d-series-link" href="${seriesAnim3dUrl}">🎬 Animática 3D de toda la serie ↗</a>${linkedExhs.map((ex) => a("/archivo/" + ex.id, "Exposición: " + esc(ex.label) + " " + arrow, "work-3d-series-link")).join("")}</div></div><dl><div><dt>Autor</dt><dd>ENRIC SEGARRA I GARIBO</dd></div><div><dt>Posición en serie</dt><dd>${num(nav.seriesIdx + 1)} de ${num(nav.seriesPool.length)} (${esc(sLabel)})</dd></div><div><dt>Sala 3D</dt><dd><a href="${direct3dUrl}">${esc(info3d.roomLabel)} ↗</a></dd></div>${linkedExhs.length ? `<div><dt>Exposiciones relacionadas</dt><dd>${linkedExhs.map((ex) => a("/archivo/" + ex.id, esc(ex.label) + " " + arrow)).join(" · ")}</dd></div>` : ""}<div><dt>Archivo visual</dt><dd>${w.gallery.length} ${w.gallery.length === 1 ? "fotografía" : "fotografías"}</dd></div><div><dt>Identificación</dt><dd>Descripción visual</dd></div></dl><p class="note">Descripción visual para identificar la pieza. Título, fecha y técnica pendientes de documentación.</p>${isGardenWork ? a("/jardin", "Volver al Jardín de las Lagartijas " + arrow, "text-link") : a("/obra/" + w.category + "?serie=" + encodeURIComponent(w.category === "escultura" ? sculptureFamilyFor(w) : w.series), "Ver cuadrícula completa de esta serie " + arrow, "text-link")}</div></section>` +
-    `<section class="series-strip-section" aria-label="Recorrido continuo por la serie ${esc(sLabel)}">
-      <div class="series-strip-head">
-        <div>
-          <p class="eyebrow">Tira de movilidad rápida · ${num(nav.seriesIdx + 1)} / ${num(nav.seriesPool.length)} obras</p>
-          <h2>Recorrido continuo: ${esc(sLabel)}</h2>
-        </div>
-        <div class="series-strip-controls">
-          <button type="button" class="strip-scroll-btn" data-strip-scroll="-1" aria-label="Desplazar tira a la izquierda">←</button>
-          <button type="button" class="strip-scroll-btn" data-strip-scroll="1" aria-label="Desplazar tira a la derecha">→</button>
-          <button type="button" class="strip-anim-btn" data-start-animatica="series" data-work-id="${esc(w.id)}">🎬 Animática 2D</button>
-          <a class="strip-anim-btn is-3d" href="${seriesAnim3dUrl}">🎬 Animática 3D ↗</a>
-        </div>
-      </div>
-      <div class="series-strip-track" data-series-strip role="list">
-        ${nav.seriesPool.map((item, idx) => `<a role="listitem" class="series-strip-item${item.id === w.id ? " is-current" : ""}" href="#/obra/${esc(item.id)}" data-nav-dir="${idx < nav.seriesIdx ? "backward" : "forward"}" ${item.id === w.id ? 'aria-current="page"' : ""}>
-          <div class="series-strip-thumb">${img(item.thumb, item.alt)}<span class="series-strip-num">${num(idx + 1)}</span></div>
-          <div class="series-strip-meta">
-            <span class="series-strip-ref">${esc(item.reference)}</span>
-            <strong>${esc(item.label)}</strong>
-          </div>
-        </a>`).join("")}
-      </div>
-    </section>` +
-    `<section class="work-inline-3d" id="work-inline-3d" hidden aria-label="Visor 3D interactivo de ${esc(w.label)}"><div class="work-inline-3d-bar"><div><strong>🧊 ${esc(w.label)} (${esc(w.reference)}) en ${esc(info3d.roomLabel)}</strong><span>Pasa de una obra a otra en 3D o activa la Animática 3D · El visor se sincroniza con el catálogo</span></div><div class="work-inline-3d-actions"><button type="button" data-inline3d-cmd='{"action":"prev-work"}'>⏮ Obra ant. en 3D</button><button type="button" data-inline3d-cmd='{"action":"next-work"}'>Sig. obra en 3D ⏭</button><button type="button" data-inline3d-cmd='{"action":"toggle-cinematic","cinematicMode":"works"}'>🎬 Animática 3D</button><a href="${direct3dUrl}">Pantalla completa ↗</a><button type="button" data-close-inline-3d>Cerrar ×</button></div></div><div class="live-3d-status-bar is-inline" data-live-3d-status="inline" aria-live="polite"><span class="live-3d-badge">🧊 En foco 3D</span><span class="live-3d-text" data-live-3d-text>${esc(w.reference)} · ${esc(w.label)}</span><div class="live-3d-actions" data-live-3d-actions hidden></div></div><div class="work-inline-3d-stage"><iframe id="work-inline-3d-iframe" title="${esc(w.label)} en ${esc(info3d.roomLabel)}" allow="fullscreen"></iframe></div></section>` +
+    `<div class="work-top-nav">` +
+      trail(parentPath, parentLabel, w.reference) +
+      `<nav class="work-stepper-minimal" aria-label="Navegación de serie">` +
+        `<a class="stepper-arrow" href="#/obra/${esc(nav.prevWork.id)}" data-nav-dir="backward" aria-label="Anterior obra: ${esc(nav.prevWork.reference)}" title="${esc(nav.prevWork.reference)} · ${esc(nav.prevWork.label)}">←</a>` +
+        `<span class="stepper-count">${num(nav.seriesIdx + 1)} / ${num(nav.seriesPool.length)}</span>` +
+        `<a class="stepper-arrow" href="#/obra/${esc(nav.nextWork.id)}" data-nav-dir="forward" aria-label="Siguiente obra: ${esc(nav.nextWork.reference)}" title="${esc(nav.nextWork.reference)} · ${esc(nav.nextWork.label)}">→</a>` +
+      `</nav>` +
+    `</div>` +
+    `<section class="work-detail" data-work-detail="${esc(w.id)}">` +
+      `<div class="work-stage">` +
+        `<div class="main-photo-stage">` +
+          `<a class="stage-step-arrow prev" href="#/obra/${esc(nav.prevWork.id)}" data-nav-dir="backward" aria-label="Anterior obra">←</a>` +
+          `<button class="photo-button main-photo" data-photo="0" aria-label="Ampliar: ${esc(w.label)}">${img(w.image, w.alt, true)}<span class="zoom-mark" aria-hidden="true">↗</span></button>` +
+          `<a class="stage-step-arrow next" href="#/obra/${esc(nav.nextWork.id)}" data-nav-dir="forward" aria-label="Siguiente obra">→</a>` +
+        `</div>` +
+        (w.gallery.length > 1 ? `<div class="thumbnails">${w.gallery.map((p, i) => `<button data-preview="${i}" aria-label="Ver perspectiva ${i + 1}" aria-pressed="${i === 0}">${img(p.thumb, p.alt)}</button>`).join("")}</div>` : "") +
+      `</div>` +
+      `<div class="work-info">` +
+        `<p class="eyebrow">${esc(catName(w.category))} / ${esc(w.reference)}</p>` +
+        `<h1>${esc(w.label)}</h1>` +
+        `<p class="work-series">${a(seriesFilterPath, esc(sLabel) + " " + arrow)}</p>` +
+        (w.text && w.text !== w.label + "." ? prose([w.text]) : "") +
+        `<div class="work-actions-minimal">` +
+          `<a class="btn-minimal-3d" href="${direct3dUrl}">Ver en ${esc(info3d.roomLabel)} <span aria-hidden="true">↗</span></a>` +
+          `<button type="button" class="btn-minimal-secondary" data-start-animatica="series" data-work-id="${esc(w.id)}">Presentación</button>` +
+          (info3d.gardenAlso ? `<a class="quiet-3d-link" href="${garden3dUrl}">Jardín 3D ↗</a>` : "") +
+        `</div>` +
+        `<div class="work-meta-minimal">` +
+          `<p class="work-author-line">ENRIC SEGARRA I GARIBO${w.gallery.length > 1 ? ` · ${w.gallery.length} fotografías` : ""}</p>` +
+          (linkedExhs.length ? `<p class="work-exh-line"><span>Exposiciones:</span> ${linkedExhs.map((ex) => a("/archivo/" + ex.id, esc(ex.label) + " " + arrow)).join('<span aria-hidden="true"> · </span>')}</p>` : "") +
+          `<p class="note">Descripción visual para identificar la pieza. Título, fecha y técnica pendientes de documentación.</p>` +
+        `</div>` +
+      `</div>` +
+    `</section>` +
     (related.length ? `<section class="section">${sectionHead(isGardenWork ? "Otra obra en este espacio" : "En relación")}${workGrid(related)}</section>` : "") +
-    renderMobilityBar("bottom")
+    `<nav class="work-bottom-nav" aria-label="Siguiente o anterior">` +
+      `<a href="#/obra/${esc(nav.prevWork.id)}" data-nav-dir="backward">← ${esc(nav.prevWork.reference)}</a>` +
+      a(seriesFilterPath, isGardenWork ? "Volver al Jardín de las Lagartijas" : "Ver toda la serie") +
+      `<a href="#/obra/${esc(nav.nextWork.id)}" data-nav-dir="forward">${esc(nav.nextWork.reference)} →</a>` +
+    `</nav>`
   );
 }
 function albumPage(al) {
@@ -1103,25 +812,10 @@ function albumPage(al) {
         ? "Arte infantil"
         : al.section === "proceso" ? "Jardín de las Lagartijas" : "Exposiciones";
   const link3d = al.audience !== "educacion" ? EXHIBITION_3D_LINKS[al.id] : null;
-  const bridge3d = link3d
-    ? `<section class="album-3d-bridge" aria-label="Salas virtuales 3D y catálogo vinculados a ${esc(al.title)}">
-        <div class="album-3d-bridge-copy">
-          <p class="eyebrow">🧊 CONEXIÓN CON LA EXPOSICIÓN VIRTUAL 3D Y EL CATÁLOGO</p>
-          <h2>Recorre las salas 3D y series vinculadas a «${esc(al.title)}»</h2>
-          <p>${esc(link3d.note)}</p>
-        </div>
-        <div class="album-3d-bridge-actions">
-          ${link3d.rooms.map((r, i) => `<a class="work-3d-cta${i === 0 ? " primary" : " secondary"}" href="${room3dUrl(r.hash, r.query)}">🧊 ${esc(r.label)} ↗</a>`).join("")}
-          <a class="work-3d-cta anim3d" href="${room3dUrl(link3d.primaryRoom.hash, link3d.primaryRoom.query + "&animatica=obras")}">🎬 Animática 3D en sala ↗</a>
-          ${a("/exposicion-3d?sala=" + encodeURIComponent(link3d.primaryRoom.hash), "Visor 3D integrado " + arrow, "work-3d-cta secondary")}
-          ${link3d.catalogLinks.map((c) => a(c.path, esc(c.label) + " " + arrow, "album-3d-cat-pill")).join("")}
-        </div>
-      </section>`
-    : "";
   return (
     trail(parent, label, al.title) +
     head(al.date || al.type, al.title, al.text) +
-    `<div class="album-intro${al.paragraphs?.length ? "" : " is-compact"}">${al.paragraphs?.length ? prose(al.paragraphs) : ""}<aside>${al.place ? `<p class="eyebrow">Lugar</p><p>${esc(al.place)}</p>` : ""}<p class="eyebrow">Archivo visual</p><p>${al.gallery.length} fotografías</p>${a("/imagenes?coleccion=" + al.id, "Abrir con filtros ↗", "text-link")}${link3d ? `<p class="eyebrow">Sala virtual 3D</p><p><a class="text-link" href="${room3dUrl(link3d.primaryRoom.hash, link3d.primaryRoom.query)}">🧊 ${esc(link3d.primaryRoom.label)} ↗</a></p>` : ""}${al.credit ? `<p class="credit">${esc(al.credit)}</p>` : ""}</aside></div>${bridge3d}<div class="gallery-grid" id="album-photos">${galleryGrid(al.gallery.slice(0, 36))}</div>${al.gallery.length > 36 ? `<button class="load-more" id="more-photos" data-shown="36">Seguir viendo <span>36 / ${al.gallery.length}</span></button>` : ""}${al.source ? `<div class="source-note"><p class="eyebrow">Documentación</p><p>${esc(al.source)}</p></div>` : ""}<div class="end-link">${a(parent, "Volver a " + label.toLowerCase() + " " + arrow)}</div>`
+    `<div class="album-intro${al.paragraphs?.length ? "" : " is-compact"}">${al.paragraphs?.length ? prose(al.paragraphs) : ""}<aside>${al.place ? `<p class="eyebrow">Lugar</p><p>${esc(al.place)}</p>` : ""}<p class="eyebrow">Archivo visual</p><p>${al.gallery.length} fotografías</p>${a("/imagenes?coleccion=" + al.id, "Abrir con filtros ↗", "text-link")}${link3d ? `<p class="eyebrow">Sala virtual 3D</p><p><a class="text-link" href="${room3dUrl(link3d.primaryRoom.hash, link3d.primaryRoom.query)}">${esc(link3d.primaryRoom.label)} ↗</a></p>` : ""}${al.credit ? `<p class="credit">${esc(al.credit)}</p>` : ""}</aside></div><div class="gallery-grid" id="album-photos">${galleryGrid(al.gallery.slice(0, 36))}</div>${al.gallery.length > 36 ? `<button class="load-more" id="more-photos" data-shown="36">Seguir viendo <span>36 / ${al.gallery.length}</span></button>` : ""}${al.source ? `<div class="source-note"><p class="eyebrow">Documentación</p><p>${esc(al.source)}</p></div>` : ""}<div class="end-link">${a(parent, "Volver a " + label.toLowerCase() + " " + arrow)}</div>`
   );
 }
 
@@ -1271,46 +965,27 @@ function exhibitions(params) {
     ["obra", "Obra propia", all.filter((al) => al.exhibitionKind === "obra").length],
     ["colectiva", "Colectivas", all.filter((al) => al.exhibitionKind === "colectiva").length],
     ["sala", "Sala", all.filter((al) => al.exhibitionKind === "sala").length],
-    ["salas-3d", "Salas virtuales 3D", rooms3d.length],
+    ["salas-3d", "Salas 3D", rooms3d.length],
   ];
-  const banner3d = `<aside class="room-3d-banner exhibitions-3d-banner" aria-label="Conexión entre Exposiciones y Salas Virtuales 3D"><div><p class="eyebrow">🧊 ARCHIVO EXPOSITIVO Y MUSEO VIRTUAL UNIFICADOS</p><h2>Cada exposición documental conectada con sus salas virtuales 3D</h2><p>Explora las fotografías históricas de montaje en el Palacio Colomina, Caixa Castelló o la Sala de Bellas Artes y entra directamente desde cada archivo a las 7 salas tridimensionales donde las obras se recorren hoy en 360°.</p></div><div class="room-3d-banner-ctas">${a("/exposicion-3d", "🧊 Mapa de las 7 salas 3D " + arrow, "room-3d-cta")}<a class="room-3d-cta animatica-3d-cta" href="${room3dUrl("galeria", "autoenter=1&animatica=obras")}">🎬 Animática 3D general <span aria-hidden="true">↗</span></a>${f !== "salas-3d" ? a("/exposiciones?tipo=salas-3d", "Ver las 7 salas virtuales 3D " + arrow, "room-3d-cta secondary-cta") : a("/exposiciones", "Ver los 7 archivos históricos " + arrow, "room-3d-cta secondary-cta")}</div></aside>`;
   if (f === "salas-3d") {
     return (
       head(
-        "Encuentros con el público · Recorrido tridimensional",
-        "Exposiciones y Salas Virtuales 3D",
-        "Los 7 espacios virtuales del museo 3D en diálogo directo con las exposiciones históricas, las series del catálogo y las 217 fichas de obra.",
+        "Encuentros con el público",
+        "Salas 3D",
+        "Los siete espacios virtuales en relación con las exposiciones y el catálogo.",
       ) +
       `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t, count]) => a("/exposiciones" + (id === "todas" ? "" : "?tipo=" + id), t + ` <sup>${count}</sup>`, id === f ? "active" : "")).join("")}</nav>` +
-      banner3d +
-      `<div class="result-line"><p role="status">${filteredRooms3d.length} salas virtuales 3D</p>${a("/exposicion-3d", "Abrir visor 3D interactivo aquí " + arrow)}</div>` +
-      `<div class="expo3d-rooms-grid exhibitions-rooms-grid">${filteredRooms3d.map((r) => {
-        const exhs = ROOM_EXHIBITIONS_MAP[r.hash] || [];
-        return `<article class="expo3d-room-card reveal">
-          <div class="expo3d-room-top">
-            <span class="reference">${r.num} · ${esc(r.count)}</span>
-            <a class="expo3d-fullscreen-pill" href="${room3dUrl(r.hash, "autoenter=1")}">Entrar en 3D ↗</a>
-          </div>
-          <h2>${esc(r.label)}</h2>
-          <p>${esc(r.desc)}</p>
-          ${exhs.length ? `<div class="expo3d-linked-exhs"><span class="expo3d-linked-label">Exposiciones vinculadas:</span>${exhs.map((ex) => a("/archivo/" + ex.id, esc(ex.label) + " " + arrow, "expo3d-exh-chip")).join("")}</div>` : ""}
-          <div class="expo3d-room-actions">
-            <a class="expo3d-select-btn" href="${room3dUrl(r.hash, "autoenter=1")}">🧊 Recorrer sala 3D ↗</a>
-            <a class="expo3d-anim-pill" href="${room3dUrl(r.hash, "autoenter=1&animatica=obras")}">🎬 Animática 3D ↗</a>
-            ${a("/exposicion-3d?sala=" + encodeURIComponent(r.hash), "Visor integrado " + arrow, "expo3d-cat-link")}
-            ${a(r.sectionPath, esc(r.sectionLabel) + " " + arrow, "expo3d-cat-link")}
-          </div>
-        </article>`;
-      }).join("")}</div>`
+      `<div class="result-line"><p role="status">${filteredRooms3d.length} salas 3D</p></div>` +
+      renderSalas3dGrid(filteredRooms3d)
     );
   }
   return (
     head(
       "Encuentros con el público",
       "Exposiciones",
-      "La obra en las salas y la memoria de los encuentros. Montajes, vistas del espacio y documentos, organizados por el contexto de cada exposición y conectados con sus salas virtuales 3D.",
+      "La obra en las salas y la memoria de los encuentros. Montajes, vistas del espacio y documentos organizados por el contexto de cada exposición.",
     ) +
-    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t, count]) => a("/exposiciones" + (id === "todas" ? "" : "?tipo=" + id), t + ` <sup>${count}</sup>`, id === f ? "active" : "")).join("")}</nav>${banner3d}<form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"><div class="view-toggle" aria-label="Presentación"><button type="button" data-exhibition-view="mosaico" aria-pressed="${view === "mosaico"}">Mosaico</button><button type="button" data-exhibition-view="ampliada" aria-pressed="${view === "ampliada"}">Vista amplia</button></div></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? (view === "ampliada" ? `<div class="exhibition-results is-expanded">${exhibitionList(list)}</div>` : albumGrid(list)) : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada archivo. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
+    `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t, count]) => a("/exposiciones" + (id === "todas" ? "" : "?tipo=" + id), t + ` <sup>${count}</sup>`, id === f ? "active" : "")).join("")}</nav><form class="exhibition-search" id="exhibition-search"><label class="search"><span class="sr-only">Buscar exposición, lugar o año</span><input type="search" name="q" placeholder="Buscar exposición, lugar o año" value="${esc(q)}"><button aria-label="Buscar exposición">↗</button></label><input type="hidden" name="tipo" value="${esc(f)}"><div class="view-toggle" aria-label="Presentación"><button type="button" data-exhibition-view="mosaico" aria-pressed="${view === "mosaico"}">Mosaico</button><button type="button" data-exhibition-view="ampliada" aria-pressed="${view === "ampliada"}">Vista amplia</button></div></form><div class="result-line"><p role="status">${list.length} exposiciones</p>${a("/imagenes?ambito=exposiciones", "Ver todas las fotografías " + arrow)}</div>${list.length ? (view === "ampliada" ? `<div class="exhibition-results is-expanded">${exhibitionList(list)}</div>` : albumGrid(list)) : `<div class="empty"><h2>No hay exposiciones con esa búsqueda.</h2>${a("/exposiciones", "Restablecer filtros")}</div>`}<div class="source-note"><p>Las fechas documentadas se indican en cada archivo. Las muestras colectivas conservan diferenciadas las obras de sus participantes.</p></div>`
   );
 }
 
@@ -1353,13 +1028,8 @@ function imageArchive(params) {
 function archiveGrid(list, start = 0) {
   return list
     .map(
-      (p, i) => {
-        const ownerWork = works.find((w) => p.owners.some((o) => o.path === "/obra/" + w.id || o.id === w.id));
-        const pill3d = ownerWork
-          ? `<a class="archive-3d-pill" href="${work3dUrl(ownerWork)}">🧊 Ver en 3D (${esc(work3dInfo(ownerWork).shortRoom)}) ↗</a>`
-          : "";
-        return `<figure class="archive-photo"><button class="photo-button" data-photo="${start + i}" aria-label="Ampliar: ${esc(p.owners[0].label)} · ${esc(photoRef(p))}">${img(p.thumb, p.alt, false, p.local)}<span class="zoom-mark" aria-hidden="true">↗</span></button><figcaption><span class="reference">${esc(photoRef(p))}</span>${a(p.owners[0].path, esc(p.owners[0].label) + " " + arrow)}${pill3d}<span class="archive-context">${esc(archiveSections.find(([id]) => id === p.owners[0].scope)?.[1] || "Archivo")}${p.owners.length > 1 ? " · " + p.owners.length + " recorridos" : ""}</span></figcaption></figure>`;
-      },
+      (p, i) =>
+        `<figure class="archive-photo"><button class="photo-button" data-photo="${start + i}" aria-label="Ampliar: ${esc(p.owners[0].label)} · ${esc(photoRef(p))}">${img(p.thumb, p.alt, false, p.local)}<span class="zoom-mark" aria-hidden="true">↗</span></button><figcaption><span class="reference">${esc(photoRef(p))}</span>${a(p.owners[0].path, esc(p.owners[0].label) + " " + arrow)}<span class="archive-context">${esc(archiveSections.find(([id]) => id === p.owners[0].scope)?.[1] || "Archivo")}${p.owners.length > 1 ? " · " + p.owners.length + " recorridos" : ""}</span></figcaption></figure>`,
     )
     .join("");
 }
@@ -1586,8 +1256,8 @@ function render({ keepScroll = false } = {}) {
     return;
   } else if (section === "jardin") {
     html = garden(); title = "Jardín de las Lagartijas";
-  } else if (section === "exposicion-3d" || section === "galeria-3d") {
-    html = exposicion3dPage(params); title = "Exposición Virtual 3D";
+  } else if (section === "exposicion-3d" || section === "galeria-3d" || section === "salas-3d") {
+    html = exposicion3dPage(params); title = "Salas 3D";
   } else if (section === "trayectoria-contacto") {
     html = trajectoryContact(); title = "Trayectoria y contacto";
   } else if (section === "obra") {
@@ -1677,7 +1347,7 @@ function render({ keepScroll = false } = {}) {
           ? "exposiciones"
           : section;
   document.querySelectorAll("[data-nav]").forEach((el) => {
-    const group = section === "obra" ? (id === "moviles" || works.find(w => w.id === id)?.category === "moviles" ? "moviles" : id === "escultura" || works.find(w => w.id === id)?.category === "escultura" ? "escultura" : id === "pintura" || works.find(w => w.id === id)?.category === "pintura" ? "pintura" : id === "dibujo" || works.find(w => w.id === id)?.category === "dibujo" ? "dibujo" : "") : active === "exposiciones" ? "exposiciones" : ["memoria", "artista", "contacto"].includes(active) ? "trayectoria-contacto" : active;
+    const group = section === "obra" ? (id === "moviles" || works.find(w => w.id === id)?.category === "moviles" ? "moviles" : id === "escultura" || works.find(w => w.id === id)?.category === "escultura" ? "escultura" : id === "pintura" || works.find(w => w.id === id)?.category === "pintura" ? "pintura" : id === "dibujo" || works.find(w => w.id === id)?.category === "dibujo" ? "dibujo" : "") : active === "exposiciones" ? "exposiciones" : ["galeria-3d", "salas-3d"].includes(active) ? "exposicion-3d" : ["memoria", "artista", "contacto"].includes(active) ? "trayectoria-contacto" : active;
     if (el.dataset.nav === group) el.setAttribute("aria-current", "page");
     else el.removeAttribute("aria-current");
   });
@@ -1689,7 +1359,7 @@ function render({ keepScroll = false } = {}) {
     params.has("serie");
   const shouldRevealExpoStage =
     !keepScroll &&
-    (section === "exposicion-3d" || section === "galeria-3d") &&
+    (section === "exposicion-3d" || section === "galeria-3d" || section === "salas-3d") &&
     params.has("sala");
   if (!keepScroll && !shouldRevealSeriesResults && !shouldRevealExpoStage) {
     const root = document.documentElement,
@@ -1711,19 +1381,9 @@ function render({ keepScroll = false } = {}) {
   attachHomeCarousel();
   applyTranslations(document);
   observe();
-  if (currentDetailWork) {
-    requestAnimationFrame(() => {
-      const strip = document.querySelector("[data-series-strip]");
-      const currentItem = strip?.querySelector(".is-current");
-      if (strip && currentItem) {
-        const targetLeft = currentItem.offsetLeft - strip.clientWidth / 2 + currentItem.clientWidth / 2;
-        strip.scrollTo({ left: Math.max(0, targetLeft), behavior: "instant" });
-      }
-    });
-  }
   if (shouldRevealSeriesResults) {
     requestAnimationFrame(() => {
-      (document.querySelector(".room-3d-banner") || document.querySelector("#catalogue-results"))?.scrollIntoView({
+      (document.querySelector(".room-3d-strip") || document.querySelector("#catalogue-results"))?.scrollIntoView({
         behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
           ? "instant"
           : "smooth",
@@ -1732,11 +1392,11 @@ function render({ keepScroll = false } = {}) {
     });
   } else if (shouldRevealExpoStage) {
     requestAnimationFrame(() => {
-      document.querySelector("#expo3d-stage")?.scrollIntoView({
+      document.querySelector("[data-sala3d-card].is-highlighted")?.scrollIntoView({
         behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
           ? "instant"
           : "smooth",
-        block: "nearest",
+        block: "center",
       });
     });
   }
@@ -1968,17 +1628,6 @@ function attachPageEvents() {
     applyTranslations(document);
     observe();
   });
-  document.querySelectorAll("[data-strip-scroll]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const strip = document.querySelector("[data-series-strip]");
-      if (!strip) return;
-      const delta = Number(btn.dataset.stripScroll) * Math.max(260, strip.clientWidth * 0.65);
-      strip.scrollBy({
-        left: delta,
-        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
-      });
-    });
-  });
   const stageEl = document.querySelector(".main-photo-stage");
   if (stageEl && currentDetailWork) {
     let touchStartX = 0,
@@ -2112,7 +1761,8 @@ function setLightboxAnimaticaState(active) {
   const progressWrap = document.querySelector("#lightbox-progress");
   if (btn) {
     btn.setAttribute("aria-pressed", String(animaticaActive));
-    btn.textContent = animaticaActive ? "⏸ Pausar Animática 2D" : "▶ Animática 2D";
+    btn.textContent = animaticaActive ? "Pausar" : "Presentación";
+    applyTranslations(btn);
   }
   if (!animaticaActive) {
     if (animaticaTimer) window.clearTimeout(animaticaTimer);
@@ -2123,7 +1773,7 @@ function setLightboxAnimaticaState(active) {
   }
 }
 
-function stepLightboxWork(delta) {
+function stepLightboxWork(delta, lastPhoto = false) {
   if (lightboxWorkPool.length < 2) return;
   lightboxWorkIndex =
     (lightboxWorkIndex + delta + lightboxWorkPool.length) % lightboxWorkPool.length;
@@ -2144,7 +1794,7 @@ function stepLightboxWork(delta) {
     })),
     `${target.reference} · ${target.label}`,
   );
-  selectedPhoto = 0;
+  selectedPhoto = lastPhoto ? Math.max(0, currentGallery.length - 1) : 0;
   showImage({ direction: delta });
 }
 
@@ -2176,111 +1826,6 @@ main.addEventListener("click", (e) => {
       pool = works;
     }
     startLightboxAnimatica(pool, startIdx);
-    return;
-  }
-  const toggleInline3d = e.target.closest("[data-toggle-inline-3d]");
-  if (toggleInline3d) {
-    const wrap = document.querySelector("#work-inline-3d");
-    const iframe = document.querySelector("#work-inline-3d-iframe");
-    if (wrap && iframe) {
-      const opening = wrap.hidden;
-      wrap.hidden = !opening;
-      if (opening && (!iframe.src || !iframe.src.includes(toggleInline3d.dataset.toggleInline3d))) {
-        iframe.src = toggleInline3d.dataset.toggleInline3d;
-      }
-      document.querySelectorAll("[data-toggle-inline-3d]").forEach((b) => {
-        b.setAttribute("aria-expanded", String(opening));
-        if (b.classList.contains("secondary")) {
-          b.textContent = opening ? "Ocultar visor 3D en esta página" : "Abrir visor 3D en esta página";
-        }
-      });
-      if (opening) {
-        wrap.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }
-    return;
-  }
-  const closeInline3d = e.target.closest("[data-close-inline-3d]");
-  if (closeInline3d) {
-    const wrap = document.querySelector("#work-inline-3d");
-    if (wrap) wrap.hidden = true;
-    document.querySelectorAll("[data-toggle-inline-3d]").forEach((b) => {
-      b.setAttribute("aria-expanded", "false");
-      if (b.classList.contains("secondary")) {
-        b.textContent = "Abrir visor 3D en esta página";
-      }
-    });
-    return;
-  }
-  const inline3dBtn = e.target.closest("[data-inline3d-cmd]");
-  if (inline3dBtn) {
-    try {
-      const cmd = JSON.parse(inline3dBtn.dataset.inline3dCmd);
-      const iframe = document.querySelector("#work-inline-3d-iframe");
-      if (iframe?.contentWindow) {
-        iframe.contentWindow.postMessage({ type: "museum-cmd", ...cmd }, "*");
-      }
-    } catch {}
-    return;
-  }
-  const expo3dCmdBtn = e.target.closest("[data-expo3d-cmd]");
-  if (expo3dCmdBtn) {
-    try {
-      const cmd = JSON.parse(expo3dCmdBtn.dataset.expo3dCmd);
-      const iframe = document.querySelector("#expo3d-iframe");
-      if (iframe?.contentWindow) {
-        iframe.contentWindow.postMessage({ type: "museum-cmd", ...cmd }, "*");
-      }
-      document.querySelector("#expo3d-stage")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    } catch {}
-    return;
-  }
-  const expoRoomBtn = e.target.closest("[data-expo3d-room]");
-  if (expoRoomBtn) {
-    const hash = expoRoomBtn.dataset.expo3dRoom;
-    location.hash = "/exposicion-3d?sala=" + encodeURIComponent(hash);
-    requestAnimationFrame(() => {
-      document.querySelector("#expo3d-stage")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    });
-    return;
-  }
-  const gardenBtn = e.target.closest("[data-garden3d-cmd]");
-  if (gardenBtn) {
-    try {
-      const cmd = JSON.parse(gardenBtn.dataset.garden3dCmd);
-      const iframe = document.querySelector("#garden-3d-iframe");
-      if (iframe?.contentWindow) {
-        iframe.contentWindow.postMessage({ type: "garden-cmd", ...cmd }, "*");
-      }
-      if (cmd.timeOfDay) {
-        document.querySelectorAll("[data-garden3d-time]").forEach((b) =>
-          b.setAttribute("aria-pressed", String(b.dataset.garden3dTime === cmd.timeOfDay))
-        );
-      }
-      document.querySelector("#garden-3d-stage")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    } catch {}
-    return;
-  }
-  const mobBtn = e.target.closest("[data-mob3d-cmd]");
-  if (mobBtn) {
-    try {
-      const cmd = JSON.parse(mobBtn.dataset.mob3dCmd);
-      const iframe = document.querySelector("#mobiles-3d-iframe");
-      if (iframe?.contentWindow) {
-        iframe.contentWindow.postMessage({ type: "mobiles-cmd", ...cmd }, "*");
-      }
-      if (typeof cmd.elev === "number") {
-        document.querySelectorAll("[data-mob3d-elev]").forEach((b) =>
-          b.setAttribute("aria-pressed", String(Number(b.dataset.mob3dElev) === cmd.elev))
-        );
-      }
-      if (cmd.mode) {
-        document.querySelectorAll("[data-mob3d-mode]").forEach((b) =>
-          b.setAttribute("aria-pressed", String(b.dataset.mob3dMode === cmd.mode))
-        );
-      }
-      document.querySelector("#mobiles-3d-stage")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    } catch {}
     return;
   }
   const photo = e.target.closest("[data-photo]");
@@ -2399,32 +1944,17 @@ function showImage(opts = {}) {
         p.owners?.some((o) => o.path === "/obra/" + w.id || o.id === w.id) ||
         w.gallery.some((gp) => gp.archiveId === p.archiveId),
     );
-  const workStepper = document.querySelector("#lightbox-work-stepper");
-  const workIndicator = document.querySelector("#lightbox-work-indicator");
-  const prevWorkBtn = document.querySelector("#lightbox-prev-work");
-  const nextWorkBtn = document.querySelector("#lightbox-next-work");
-  const anim3dLink = document.querySelector("#lightbox-animatica-3d");
-  if (workStepper) {
-    const hasWorkPool = lightboxWorkPool.length > 1 && ownerWork;
-    workStepper.hidden = !hasWorkPool;
-    if (hasWorkPool && workIndicator) {
-      workIndicator.textContent = `Obra ${num(lightboxWorkIndex + 1)} / ${num(lightboxWorkPool.length)} · ${ownerWork.reference}`;
-    }
-    if (prevWorkBtn) prevWorkBtn.disabled = !hasWorkPool;
-    if (nextWorkBtn) nextWorkBtn.disabled = !hasWorkPool;
-  }
-  if (anim3dLink) {
-    anim3dLink.href = ownerWork
-      ? workAnimatica3dUrl(ownerWork)
-      : room3dUrl("galeria", "autoenter=1&animatica=obras");
-  }
-  const captionText = `${ownerWork ? `${ownerWork.reference} · ${ownerWork.label}` : p.owners?.[0]?.label || galleryLabel} · Vista ${selectedPhoto + 1} / ${currentGallery.length} · ${photoRef(p)}`;
+  const viewPart =
+    currentGallery.length > 1
+      ? ` · ${selectedPhoto + 1} / ${currentGallery.length}`
+      : "";
+  const captionText = `${ownerWork ? `${ownerWork.reference} · ${ownerWork.label}` : p.owners?.[0]?.label || galleryLabel}${viewPart} · ${photoRef(p)}`;
   const link3d = ownerWork
-    ? `<a class="lightbox-3d-link" href="${work3dUrl(ownerWork)}">🧊 Ver ${esc(ownerWork.reference)} en 3D (${esc(work3dInfo(ownerWork).shortRoom)}) ↗</a>`
+    ? `<a class="lightbox-3d-link" href="${work3dUrl(ownerWork)}">Sala 3D ↗</a>`
     : "";
   const fichaLink =
     ownerWork && (!currentDetailWork || currentDetailWork.id !== ownerWork.id)
-      ? `<a class="lightbox-ficha-link" href="#/obra/${esc(ownerWork.id)}">📄 Abrir ficha de ${esc(ownerWork.reference)} ↗</a>`
+      ? `<a class="lightbox-ficha-link" href="#/obra/${esc(ownerWork.id)}">Ver ficha ↗</a>`
       : "";
   const contextHtml =
     (p.owners
@@ -2539,10 +2069,17 @@ function showImage(opts = {}) {
   });
 }
 function step(n) {
-  if (currentGallery.length < 2 && lightboxWorkPool.length > 1) {
-    stepLightboxWork(n);
-    return;
+  if (lightboxWorkPool.length > 1) {
+    if (n > 0 && selectedPhoto + n >= currentGallery.length) {
+      stepLightboxWork(1, false);
+      return;
+    }
+    if (n < 0 && selectedPhoto + n < 0) {
+      stepLightboxWork(-1, true);
+      return;
+    }
   }
+  if (!currentGallery.length) return;
   selectedPhoto =
     (selectedPhoto + n + currentGallery.length) % currentGallery.length;
   showImage({ direction: n });
@@ -2553,11 +2090,6 @@ document
 document
   .querySelectorAll("[data-step]")
   .forEach((b) => b.addEventListener("click", () => step(+b.dataset.step)));
-document
-  .querySelectorAll("[data-work-step]")
-  .forEach((b) =>
-    b.addEventListener("click", () => stepLightboxWork(+b.dataset.workStep)),
-  );
 document
   .querySelector("#lightbox-animatica-toggle")
   ?.addEventListener("click", () => setLightboxAnimaticaState(!animaticaActive));
@@ -2622,51 +2154,29 @@ document.addEventListener("keydown", (e) => {
     location.hash = "/obra/" + nav.prevWork.id;
   }
 });
-window.addEventListener("message", (event) => {
-  const d = event.data;
-  if (!d || typeof d !== "object" || d.type !== "museum-state") return;
-  const workRef =
-    typeof d.work === "object" && d.work
-      ? d.work.catalogId || d.work.code || d.work.id
-      : d.work;
-  const matchedWork = workRef
-    ? works.find(
-        (w) =>
-          w.id === workRef ||
-          w.reference === workRef ||
-          (d.work?.code && w.reference === d.work.code),
-      )
-    : null;
-  const isCinematic = Boolean(d.cinematic ?? d.cinematicMode);
-  document.querySelectorAll("[data-live-3d-status]").forEach((bar) => {
-    const badge = bar.querySelector(".live-3d-badge");
-    const textEl = bar.querySelector("[data-live-3d-text]");
-    const actionsEl = bar.querySelector("[data-live-3d-actions]");
-    if (badge) {
-      badge.textContent = isCinematic
-        ? "🎬 Animática 3D en curso"
-        : d.inspectMode
-          ? "🔍 Inspección 360° en 3D"
-          : "🧊 En foco 3D";
-      badge.classList.toggle("is-cinematic", isCinematic);
+let lastHeaderScrollY = window.scrollY;
+window.addEventListener(
+  "scroll",
+  () => {
+    const headerEl = document.querySelector(".header");
+    if (!headerEl) return;
+    const y = window.scrollY;
+    if (innerWidth > 900 || headerEl.classList.contains("menu-open") || y < 48) {
+      headerEl.classList.remove("is-scroll-hidden");
+      lastHeaderScrollY = y;
+      return;
     }
-    if (matchedWork && textEl) {
-      textEl.innerHTML = `<strong>${esc(matchedWork.reference)} · ${esc(matchedWork.label)}</strong> <span>(${esc(seriesLabel(matchedWork.category, matchedWork.series))})</span>`;
-      if (actionsEl) {
-        actionsEl.hidden = false;
-        const isDifferentWork = !currentDetailWork || currentDetailWork.id !== matchedWork.id;
-        const mappedSpace = SPACE_HASH_MAP[d.space] || d.space || "";
-        actionsEl.innerHTML =
-          (isDifferentWork
-            ? `<a class="live-3d-action-btn primary" href="#/obra/${esc(matchedWork.id)}">📄 Ir a la ficha de ${esc(matchedWork.reference)} ↗</a>`
-            : `<span class="live-3d-current-pill">Ficha actual</span>`) +
-          `<a class="live-3d-action-btn" href="${work3dUrl(matchedWork, mappedSpace)}">🧊 Abrir en 3D pantalla completa ↗</a>`;
-      }
-    } else if (textEl && isCinematic) {
-      textEl.textContent = "Recorriendo la sala en modo Animática 3D…";
+    const delta = y - lastHeaderScrollY;
+    if (delta > 10) {
+      headerEl.classList.add("is-scroll-hidden");
+      lastHeaderScrollY = y;
+    } else if (delta < -6) {
+      headerEl.classList.remove("is-scroll-hidden");
+      lastHeaderScrollY = y;
     }
-  });
-});
+  },
+  { passive: true },
+);
 function renderWithViewTransition() {
   const direction = pendingNavDirection || "forward";
   pendingNavDirection = "";

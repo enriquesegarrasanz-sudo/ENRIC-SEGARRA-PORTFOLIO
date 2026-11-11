@@ -5,7 +5,7 @@ let api=null,activeSpace='gallery',currentStop=0,entered=false,selected=null,mov
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 const state={keys:new Set(),pointers:new Map(),yaw:0,pitch:0,roll:0,camElev:0,transition:null,player:null,avatarHeading:Math.PI,walkBlend:0,movingAt:-10,nearbyWork:null,proximityClock:0,inspectReturn:null,orbitAngle:0,orbitElev:.1,orbitRadius:4,targetOrbitAngle:0,targetOrbitElev:.1,targetOrbitRadius:4,viewOffsetX:0,viewOffsetY:0,lastFrame:0,time:0,hover:null,dragging:false,frame:0,pixelScale:1.5,slowFrames:0,walkTarget:null,joyX:0,joyY:0,joyActive:false};
 let THREE,ART,ORGANIC_IDS,CURVED_PLANE_IDS,MOBILE_GALLERY_IDS,PAINTING_IDS,FIGURAS_DIB_IDS,RELIEF_RECORTADOS_IDS,RELIEF_MURALES_IDS,RELIEF_TEXTURA_IDS,INTERVENCIONES_IDS,renderer,camera,world,worlds={},raycaster,mouse,updateMobiles,createGallery,createGarden,createDrawingsRoom,createPaintingsRoom,createOrganicRoom,createCurvedPlanesRoom,createMobilesRoom,setSculpturePresentation,getSculpturePresentation,setWorldNightMode,setGardenTimeOfDay,getGardenTimeOfDay;
-let timeOfDayMode='day',isNightMode=false,musicActive=false,cinematicActive=false,cinematicPaused=false,cinematicAllSpaces=true,cinematicSwitching=false,cinematicClock=0,cinematicMode='works',currentWorkIdx=0,tourStepMode='stops',fastWalk=false,photoCurrentWork=null,audioCtx=null,musicMaster=null,reverbBus=null,windGainNode=null,waterGainNode=null,hammerBuf=null,musicTimer=0,stepAccum=0,lastTapTime=0;
+let timeOfDayMode='day',isNightMode=false,musicActive=false,cinematicActive=false,cinematicPaused=false,cinematicAllSpaces=true,cinematicSwitching=false,cinematicClock=0,cinematicMode='works',currentWorkIdx=0,tourStepMode='works',fastWalk=false,photoCurrentWork=null,audioCtx=null,musicMaster=null,reverbBus=null,windGainNode=null,waterGainNode=null,hammerBuf=null,musicTimer=0,stepAccum=0,lastTapTime=0,walkHintTimer=0;
 const isFlatArt=k=>k==='painting'||k==='drawing';
 const hasDual3D=w=>!!w&&!w.isGardenInstallation&&(w.kind==='sculpture'||w.kind==='mobile');
 const SCULPTURE_MODES={ai3d:{short:'Volumen 3D',note:'Volumen 3D con el moldeado, la textura de alta definición y los colores originales de la fotografía de estudio.'},billboard:{short:'Imagen en 3D',note:'Fotografía real de estudio en el espacio 3D. Cambia automáticamente entre frente, perfil y reverso al rodearla.'}};
@@ -96,14 +96,14 @@ function updateWorkNavCounters(refWork=null){
  if($('nearby-pos'))$('nearby-pos').textContent=label;
  if($('photo-work-pos'))$('photo-work-pos').textContent=label;
  if(tourStepMode==='works'&&works[idx]){
-  if($('stop-number'))$('stop-number').textContent=`OBRA ${cur} / ${total}`;
+  if($('stop-number'))$('stop-number').textContent=`${cur} / ${total}`;
   if($('stop-title'))$('stop-title').textContent=`${works[idx].code} · ${works[idx].title}`;
  }
 }
 const SPACE_WEB_INFO={
  gallery:{
-  label:'Escultura y relieves en la web ↗',
-  route:'#/obra/escultura',
+  label:'Escultura en el catálogo web ↗',
+  route:'#/escultura',
   exhibitions:[
    {id:'colomina',title:'Escultura · Palacio Colomina'},
    {id:'caixa-castello',title:'Dibujo y escultura · Caixa Castelló (2006)'},
@@ -113,15 +113,15 @@ const SPACE_WEB_INFO={
   ]
  },
  garden:{
-  label:'El Jardín en la web ↗',
+  label:'El Jardín en el catálogo web ↗',
   route:'#/jardin',
   exhibitions:[
    {id:'colomina',title:'Escultura y móviles · Palacio Colomina'}
   ]
  },
  paintings:{
-  label:'Pintura (76) en la web ↗',
-  route:'#/obra/pintura',
+  label:'Pintura (76) en el catálogo web ↗',
+  route:'#/pintura',
   exhibitions:[
    {id:'sala-bellas-artes',title:'Sala de les Belles Arts · Evolución (1984–2004)'},
    {id:'quatre',title:'Exposición Quatre'},
@@ -130,8 +130,8 @@ const SPACE_WEB_INFO={
   ]
  },
  drawings:{
-  label:'Dibujo (53) en la web ↗',
-  route:'#/obra/dibujo',
+  label:'Dibujo (53) en el catálogo web ↗',
+  route:'#/dibujo',
   exhibitions:[
    {id:'caixa-castello',title:'Dibujo y escultura · Caixa Castelló (2006)'},
    {id:'sala-bellas-artes',title:'Sala de les Belles Arts · Evolución (1984–2004)'},
@@ -140,23 +140,23 @@ const SPACE_WEB_INFO={
   ]
  },
  organic:{
-  label:'Formas orgánicas en la web ↗',
-  route:'#/obra/escultura?serie=Formas%20org%C3%A1nicas',
+  label:'Formas orgánicas en el catálogo web ↗',
+  route:'#/escultura?serie=Formas%20org%C3%A1nicas',
   exhibitions:[
    {id:'caixa-castello',title:'Dibujo y escultura · Caixa Castelló (2006)'},
    {id:'sala-bellas-artes',title:'Sala de les Belles Arts · Evolución (1984–2004)'}
   ]
  },
  curvos:{
-  label:'Planos curvos en la web ↗',
-  route:'#/obra/escultura?serie=Planos%20curvos%20y%20vol%C3%BAmenes%20abiertos',
+  label:'Planos curvos en el catálogo web ↗',
+  route:'#/escultura?serie=Planos%20curvos%20y%20vol%C3%BAmenes%20abiertos',
   exhibitions:[
    {id:'caixa-castello',title:'Dibujo y escultura · Caixa Castelló (2006)'},
    {id:'sala-bellas-artes',title:'Sala de les Belles Arts · Evolución (1984–2004)'}
   ]
  },
  mobiles:{
-  label:'Móviles (33) en la web ↗',
+  label:'Móviles (33) en el catálogo web ↗',
   route:'#/moviles',
   exhibitions:[
    {id:'colomina',title:'Escultura y móviles · Palacio Colomina'}
@@ -198,12 +198,15 @@ function syncWebNavigationLinks(){
  });
  const refWork=selected||urlOriginWork;
  if($('web-return-work')){
+  $('web-return-work').hidden=false;
   if(refWork&&refWork.catalogId){
-   $('web-return-work').hidden=false;
    $('web-return-work').href=catalogUrl(refWork);
-   $('web-return-work').textContent=`← Volver a ${refWork.code}`;
+   $('web-return-work').textContent=`← ${refWork.code}`;
+   $('web-return-work').title=`Volver a la ficha de ${refWork.code}`;
   }else{
-   $('web-return-work').hidden=true;
+   $('web-return-work').href=`${base}${info.route}`;
+   $('web-return-work').textContent='← Catálogo';
+   $('web-return-work').title='Volver al catálogo web';
   }
  }
 }
@@ -219,14 +222,21 @@ function applySculptureMode(mode){if(!SCULPTURE_MODES[mode])return;if(setSculptu
 document.querySelectorAll('[data-scmode]').forEach(b=>b.addEventListener('click',()=>applySculptureMode(b.dataset.scmode)));
 if($('sculpture-mode-btn'))$('sculpture-mode-btn').onclick=()=>{const order=['ai3d','billboard'],cur=getSculpturePresentation?getSculpturePresentation():'ai3d';applySculptureMode(order[(order.indexOf(cur)+1)%order.length]);};
 const isPlayerMode=()=>visitMode==='avatar'||visitMode==='floki';
-const fail=message=>{$('loading').hidden=true;$('fallback').hidden=false;$('status').textContent=message;document.body.classList.add('entered');$('intro').hidden=true;$('tourbar').hidden=true;$('minimap').hidden=true;$('motion').hidden=true;$('mode-guided').disabled=true;$('mode-avatar').disabled=true;$('mode-floki').disabled=true;$('companion-panel').hidden=true;$('nearby-work').hidden=true;$('enter').disabled=true;};
-function openDialog(id){stopTour();state.keys.clear();hideNearby();previousFocus=document.activeElement;$(id).showModal();}
-function closeDialog(dialog){dialog.close();previousFocus?.focus?.();}
+const fail=message=>{if($('loading'))$('loading').hidden=true;if($('fallback'))$('fallback').hidden=false;if($('status'))$('status').textContent=message;document.body.classList.add('entered');if($('intro'))$('intro').hidden=true;if($('tourbar'))$('tourbar').hidden=true;if($('minimap'))$('minimap').hidden=true;if($('motion'))$('motion').hidden=true;if($('mode-guided'))$('mode-guided').disabled=true;if($('mode-avatar'))$('mode-avatar').disabled=true;if($('mode-floki'))$('mode-floki').disabled=true;if($('companion-panel'))$('companion-panel').hidden=true;if($('nearby-work'))$('nearby-work').hidden=true;if($('enter'))$('enter').disabled=true;};
+function openDialog(id){
+ const dlg=$(id);if(!dlg)return;
+ document.querySelectorAll('dialog[open]').forEach(d=>{if(d!==dlg)d.close();});
+ stopTour();state.keys.clear();hideNearby();previousFocus=document.activeElement;dlg.showModal();
+}
+function closeDialog(dialog){if(!dialog)return;dialog.close();previousFocus?.focus?.();}
 document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>closeDialog(b.closest('dialog'))));
 document.querySelectorAll('dialog').forEach(d=>{d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDialog(d);}});});
-$('help-open').onclick=()=>openDialog('help');$('about-open').onclick=()=>openDialog('about');
-document.querySelector('.skip').onclick=e=>{e.preventDefault();openDialog('collection');};
-$('collection-open').onclick=()=>openDialog('collection');$('fallback-collection').onclick=()=>openDialog('collection');
+if($('options-open'))$('options-open').onclick=()=>openDialog('options');
+if($('help-open'))$('help-open').onclick=()=>openDialog('help');
+if($('about-open'))$('about-open').onclick=()=>openDialog('about');
+if(document.querySelector('.skip'))document.querySelector('.skip').onclick=e=>{e.preventDefault();openDialog('collection');};
+if($('collection-open'))$('collection-open').onclick=()=>openDialog('collection');
+if($('fallback-collection'))$('fallback-collection').onclick=()=>openDialog('collection');
 $('photo-image').onerror=()=>{$('photo-caption').textContent='No se ha podido cargar la fotografía. Comprueba tu conexión y vuelve a abrirla.';};
 const kindLabel=k=>k==='mobile'?'MÓVIL':k==='sculpture'?'ESCULTURA':k==='drawing'?'DIBUJO':'PINTURA';
 function renderCollection(){
@@ -349,34 +359,53 @@ if($('photo-focus-3d'))$('photo-focus-3d').onclick=()=>{
 };
 function hideNearby(){state.nearbyWork=null;$('nearby-work').hidden=true;document.body.classList.remove('nearby-active');}
 function updateNearby(dt){state.proximityClock+=dt;if(state.proximityClock<.12)return;state.proximityClock=0;if(activeSpace==='mobiles')updateMobileGameUI();if(!entered||selected||hasDialog()){hideNearby();return;}const p=isPlayerMode()?state.player:camera.position;let nearest=null,best=Infinity;for(const work of world.works){if(isFlatArt(work.kind)){const rot=work.object?.rotation?.y||0;const dot=(p.x-work.center.x)*Math.sin(rot)+(p.z-work.center.z)*Math.cos(rot);if(dot<-0.15)continue;}const distance=Math.hypot(p.x-work.center.x,p.z-work.center.z),limit=isFlatArt(work.kind)?3.4:work.kind==='sculpture'?3.6:5;if(distance<3.4&&work.kind==='mobile'&&!work.awakened){work.awakened=true;work.spin=Math.max(work.spin,1.05);updateMobileGameUI();playMobileMaterialChime(work,0.85);}if(distance>=limit)continue;if(isFlatArt(nearest?.kind)&&!isFlatArt(work.kind))continue;if(isFlatArt(work.kind)&&!isFlatArt(nearest?.kind)||distance<best){nearest=work;best=distance;}}if(!nearest){hideNearby();return;}const idx=nearest.viewIndex||0,src=nearest.views?.[idx]?.src||nearest.image;if(state.nearbyWork?.id!==nearest.id||state.nearbyWorkView!==idx){state.nearbyWork=nearest;state.nearbyWorkView=idx;updateWorkNavCounters(nearest);notifyParentState();$('nearby-image').src=src;$('nearby-image').alt=`Fotografía de ${nearest.title}`;$('nearby-code').textContent=`${kindLabel(nearest.kind)} · ${nearest.code}`;$('nearby-title').textContent=nearest.title;if($('nearby-catalog'))$('nearby-catalog').href=catalogUrl(nearest);if($('nearby-scmode'))$('nearby-scmode').hidden=!hasDual3D(nearest);if($('nearby-explore'))$('nearby-explore').textContent=isFlatArt(nearest.kind)?'Acercarse a la obra':'Ver de cerca 360°';renderAngles($('nearby-angles'),nearest,i=>{$('nearby-image').src=nearest.views[i].src;state.nearbyWorkView=i;renderAngles($('nearby-angles'),nearest);});}$('nearby-work').hidden=false;document.body.classList.add('nearby-active');if($('nearby-thumb-wrap'))$('nearby-thumb-wrap').onclick=()=>state.nearbyWork&&showPhoto(state.nearbyWork);}
-$('nearby-open').onclick=()=>state.nearbyWork&&showPhoto(state.nearbyWork);
-$('nearby-explore').onclick=()=>state.nearbyWork&&focusAndInspectWork(state.nearbyWork);
+if($('nearby-open'))$('nearby-open').onclick=()=>state.nearbyWork&&showPhoto(state.nearbyWork);
+if($('nearby-explore'))$('nearby-explore').onclick=()=>state.nearbyWork&&focusAndInspectWork(state.nearbyWork);
+if($('nearby-card-tap'))$('nearby-card-tap').onclick=()=>state.nearbyWork&&focusAndInspectWork(state.nearbyWork);
 if($('nearby-prev'))$('nearby-prev').onclick=()=>stepWorkInRoom(-1,{inspect:false});
 if($('nearby-next'))$('nearby-next').onclick=()=>stepWorkInRoom(1,{inspect:false});
-function announce(message){$('status').textContent=message;}
-function enter(){entered=true;$('intro').hidden=true;document.body.classList.add('entered');$('movement').hidden=false;$('walk-hint').hidden=false;$('viewport').focus({preventScroll:true});$('companion-panel').hidden=visitMode!=='guided';if($('mobile-game-panel'))$('mobile-game-panel').hidden=activeSpace!=='mobiles';updateMobileGameUI();}
-$('enter').onclick=enter;
+function announce(message){if($('status'))$('status').textContent=message;}
+function hideWalkHint(){clearTimeout(walkHintTimer);if($('walk-hint'))$('walk-hint').hidden=true;}
+function enter(){
+ entered=true;
+ if($('intro'))$('intro').hidden=true;
+ document.body.classList.add('entered');
+ if($('movement'))$('movement').hidden=false;
+ if($('walk-hint')){
+  $('walk-hint').hidden=false;
+  clearTimeout(walkHintTimer);
+  walkHintTimer=setTimeout(hideWalkHint,3800);
+ }
+ $('viewport')?.focus({preventScroll:true});
+ if($('companion-panel'))$('companion-panel').hidden=visitMode!=='guided';
+ if($('mobile-game-panel'))$('mobile-game-panel').hidden=activeSpace!=='mobiles';
+ if($('mobiles-quick-bar'))$('mobiles-quick-bar').hidden=activeSpace!=='mobiles';
+ updateMobileGameUI();
+}
+if($('enter'))$('enter').onclick=enter;
 if($('intro-animatica'))$('intro-animatica').onclick=()=>toggleCinematicMode(true,'works');
 if($('tourbar-animatica'))$('tourbar-animatica').onclick=()=>toggleCinematicMode(true,'works');
 function stopTour(){
  touring=false;tourTimer=0;
  if(cinematicActive){
-  cinematicActive=false;cinematicPaused=false;if($('cinematic-progress-fill'))$('cinematic-progress-fill').style.width='0%';if($('cin-pause')){$('cin-pause').setAttribute('aria-pressed','false');$('cin-pause').textContent='⏸ Pausar';}if(camera&&Math.abs(camera.fov-55)>0.1){camera.fov=55;camera.updateProjectionMatrix();}
+  cinematicActive=false;cinematicPaused=false;if($('cinematic-progress-fill'))$('cinematic-progress-fill').style.width='0%';if($('cin-pause')){$('cin-pause').setAttribute('aria-pressed','false');$('cin-pause').textContent='Ⅱ Pausar';}if(camera&&Math.abs(camera.fov-55)>0.1){camera.fov=55;camera.updateProjectionMatrix();}
   document.body.classList.remove('cinematic-active');
   if($('cinematic-hud'))$('cinematic-hud').hidden=true;
   if($('cinematic-btn'))$('cinematic-btn').setAttribute('aria-pressed','false');
-  if($('cinematic-label'))$('cinematic-label').textContent='Animática';
+  if($('cinematic-label'))$('cinematic-label').textContent='Paseo automático';
   notifyParentState();
  }
- $('tour-toggle').setAttribute('aria-pressed','false');
- $('tour-label').textContent=visitMode==='guided'?'Reanudar guía':'Recorrido guiado';
- $('play-symbol').textContent='▷';
+ if($('tour-toggle'))$('tour-toggle').setAttribute('aria-pressed','false');
+ if($('tour-label'))$('tour-label').textContent='Paseo';
+ if($('play-symbol'))$('play-symbol').textContent='▷';
+ updateMobileGameUI();
 }
-function updateMotion(){ $('motion').setAttribute('aria-pressed',String(moving));$('motion').setAttribute('aria-label',moving?'Pausar movimiento de las obras':'Activar movimiento de las obras');$('motion').firstChild.textContent=moving?'Ⅱ ':'▷ ';}
-updateMotion();$('motion').onclick=()=>{moving=!moving;updateMotion();announce(moving?'Movimiento de las obras activado':'Movimiento de las obras pausado');};
+function updateMotion(){if(!$('motion'))return;$('motion').setAttribute('aria-pressed',String(moving));$('motion').setAttribute('aria-label',moving?'Pausar movimiento de las obras':'Activar movimiento de las obras');if($('motion').firstChild)$('motion').firstChild.textContent=moving?'Ⅱ ':'▷ ';}
+updateMotion();if($('motion'))$('motion').onclick=()=>{moving=!moving;updateMotion();announce(moving?'Movimiento de las obras activado':'Movimiento de las obras pausado');};
 reduced.addEventListener?.('change',e=>{if(e.matches){moving=false;updateMotion();stopTour();}});
-$('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else announce('Este navegador no permite pantalla completa.');}catch{announce('No se ha podido activar la pantalla completa.');}};
-$('map-toggle').onclick=()=>{const hidden=!$('map-body').hidden;$('map-body').hidden=hidden;$('map-toggle').textContent=hidden?'+':'−';$('map-toggle').setAttribute('aria-expanded',String(!hidden));$('map-toggle').setAttribute('aria-label',hidden?'Mostrar plano':'Ocultar plano');};
+if($('fullscreen'))$('fullscreen').onclick=async()=>{closeDialog($('options'));try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else announce('Este navegador no permite pantalla completa.');}catch{announce('No se ha podido activar la pantalla completa.');}};
+if($('map-toggle'))$('map-toggle').onclick=()=>{if($('minimap'))$('minimap').hidden=true;if($('minimap-open-btn'))$('minimap-open-btn').setAttribute('aria-pressed','false');};
+if($('minimap-open-btn'))$('minimap-open-btn').onclick=()=>{const mm=$('minimap');if(!mm)return;const show=mm.hidden;mm.hidden=!show;$('minimap-open-btn').setAttribute('aria-pressed',String(show));closeDialog($('options'));};
 function anglesFor(position,target){const d=target.clone().sub(position);return{yaw:Math.atan2(-d.x,-d.z),pitch:Math.atan2(d.y,Math.hypot(d.x,d.z))};}
 function lookCamera(dt=0){
  if(isPlayerMode()&&!selected){
@@ -477,19 +506,35 @@ function goStop(index,instant=false){if(!renderer)return;leaveInspection(false);
  const dur=cinematicActive?Math.min(3.4,Math.max(1.65,dist/3.4)):visitMode==='guided'?Math.max(2.2,dist/1.85):Math.min(2.2,Math.max(1.0,dist/4.2));
  state.transition=buildSmoothTransition(to,look,{duration:dur,toFov:targetFov,cinematicHandoff:cinematicActive,arcFactor:0.13,liftFactor:0.06,maxLift:0.75});
 }updateStopUI();updateMobileGameUI();notifyParentState();announce(`Parada ${currentStop+1}: ${s.title}`);}
-$('prev-stop').onclick=()=>{stopTour();if(tourStepMode==='works')stepWorkInRoom(-1,{inspect:Boolean(selected)});else goStop(currentStop-1);};
-$('next-stop').onclick=()=>{stopTour();if(tourStepMode==='works')stepWorkInRoom(1,{inspect:Boolean(selected)});else goStop(currentStop+1);};
+if($('prev-stop'))$('prev-stop').onclick=()=>{stopTour();if(tourStepMode==='works')stepWorkInRoom(-1,{inspect:Boolean(selected)});else goStop(currentStop-1);};
+if($('next-stop'))$('next-stop').onclick=()=>{stopTour();if(tourStepMode==='works')stepWorkInRoom(1,{inspect:Boolean(selected)});else goStop(currentStop+1);};
+if($('stop-inspect-btn'))$('stop-inspect-btn').onclick=()=>{
+ if(!world||!renderer)return;
+ if(tourStepMode==='works'){
+  const works=getRoomNavigableWorks();
+  const w=works[(currentWorkIdx+works.length)%Math.max(1,works.length)];
+  if(w)focusAndInspectWork(w);
+ }else{
+  const s=world.stops[currentStop];
+  if(s?.work){const w=world.works.find(x=>x.id===s.work);if(w)focusAndInspectWork(w);}
+ }
+};
 if($('tour-step-mode')){
  $('tour-step-mode').onclick=()=>{
   tourStepMode=tourStepMode==='stops'?'works':'stops';
   $('tour-step-mode').dataset.mode=tourStepMode;
-  $('tour-step-mode').textContent=tourStepMode==='works'?'📍 Ver paradas':'🖼️ Obra a obra';
+  $('tour-step-mode').textContent=tourStepMode==='works'?'Paso: Obra a obra':'Paso: Paradas de sala';
   updateStopUI();
-  announce(tourStepMode==='works'?'Flechas de la barra inferior en modo Obra a obra: pasa de una pieza a otra.':'Flechas de la barra inferior en modo Paradas de sala.');
+  announce(tourStepMode==='works'?'Flechas inferiores en modo Obra a obra.':'Flechas inferiores en modo Paradas de sala.');
  };
 }
-$('tour-toggle').onclick=()=>{if(!renderer)return;if(touring){stopTour();return;}if(visitMode!=='guided'){setVisitMode('guided');return;}startTour();};
-function startTour(){leaveInspection();enter();touring=true;tourTimer=0;$('tour-toggle').setAttribute('aria-pressed','true');$('tour-label').textContent='Pausar guía';$('play-symbol').textContent='Ⅱ';companionMessage();announce(`Enric y Floki te acompañan: ${world.stops[currentStop].title}.`);}
+if($('tour-toggle'))$('tour-toggle').onclick=()=>{
+ if(!renderer)return;
+ if(touring||cinematicActive){stopTour();return;}
+ if(visitMode==='guided'){startTour();return;}
+ toggleCinematicMode(true,'works');
+};
+function startTour(){leaveInspection();enter();touring=true;tourTimer=0;if($('tour-toggle'))$('tour-toggle').setAttribute('aria-pressed','true');if($('tour-label'))$('tour-label').textContent='Pausar';if($('play-symbol'))$('play-symbol').textContent='Ⅱ';companionMessage();announce(`Enric y Floki te acompañan: ${world.stops[currentStop].title}.`);}
 function getOrbitPositionForWork(w,angle,elev,radius){
  const center=w.center;
  const position=new THREE.Vector3(center.x+Math.sin(angle)*radius*Math.cos(elev),center.y+Math.sin(elev)*radius,center.z+Math.cos(angle)*radius*Math.cos(elev));
@@ -538,15 +583,16 @@ function inspect(w,opts={}){
  state.orbitElev=w.isTreeInstallation?0.05:(w.kind==='mobile'?-.02:.04);
  state.orbitRadius=w.radius*(innerWidth<700?1.65:1);
  if(w.kind==='character'){
-  state.orbitAngle=w.object.rotation.y;state.orbitElev=.09;$('inspect-code').textContent=w.code;$('inspect-note').textContent='Primer prototipo cartoon en 3D. Gíralo para verlo desde todos los lados.';$('impulse').hidden=false;$('impulse').textContent=w.id==='father'?'Saludar a Enric ↗':'Acariciar al perro ♡';document.querySelector('.orbit-tools span').textContent='GIRAR 360°';
+  state.orbitAngle=w.object.rotation.y;state.orbitElev=.09;$('inspect-code').textContent=w.code;$('inspect-note').textContent='Prototipo en 3D. Gíralo para verlo desde todos los ángulos.';$('impulse').hidden=false;$('impulse').textContent=w.id==='father'?'Saludar a Enric':'Acariciar a Floki';const ot=document.querySelector('.orbit-tools span');if(ot)ot.textContent='360°';
  }else{
-  $('impulse').innerHTML=w.kind==='sculpture'?`Siguiente ángulo (${(w.viewIndex||0)+1}/${w.views.length}) <span>↻</span>`:'Soplar corriente de aire <span>↻</span>';
+  $('impulse').textContent=w.kind==='sculpture'?`Ángulo ${(w.viewIndex||0)+1}/${w.views.length}`:'Impulsar aire';
  }
  if(isFlatArt(w.kind)){state.orbitAngle=Math.atan2(w.view.x-w.center.x,w.view.z-w.center.z);state.orbitElev=0;}
  state.targetOrbitAngle=state.orbitAngle;
  state.targetOrbitElev=state.orbitElev;
  state.targetOrbitRadius=state.orbitRadius;
  resize();
+ updateMobileGameUI();
  const targetPos=getOrbitPositionForWork(w,state.orbitAngle,state.orbitElev,state.orbitRadius);
  const dist=camera.position.distanceTo(targetPos);
  if(opts.smoothGlide&&!reduced.matches&&dist>0.08){
@@ -557,8 +603,8 @@ function inspect(w,opts={}){
  }
  announce(`Explorando ${w.title} (${w.code}). Usa las flechas o [ ] para pasar a otra obra, arrastra para girar o pulsa Escape para volver.`);
 }
-function orbitCamera(){if(!selected)return;const center=selected.center;const position=getOrbitPositionForWork(selected,state.orbitAngle,state.orbitElev,state.orbitRadius);camera.position.copy(position);applyAngles(position,center);if(hasDual3D(selected)){updateMobiles(world,state.time,0,false,camera.position);const scMode=getSculpturePresentation?getSculpturePresentation():'ai3d';$('inspect-note').textContent=SCULPTURE_MODES[scMode].note;$('impulse').hidden=false;if(selected.kind==='sculpture')$('impulse').innerHTML=`Siguiente ángulo (${(selected.viewIndex||0)+1}/${selected.views.length}) <span>↻</span>`;if($('inspect-thumb'))$('inspect-thumb').src=selected.views?.[selected.viewIndex||0]?.src||selected.image;renderAngles($('inspect-angles'),selected,i=>{if($('inspect-thumb'))swapImgSmooth($('inspect-thumb'),selected.views[i].src,selected.title);renderAngles($('inspect-angles'),selected);});}}
-function leaveInspection(restore=true){if(!selected)return;if(hasDual3D(selected))selected.manualView=false;const lastW=selected;selected=null;state.transition=null;document.body.classList.remove('inspecting');$('inspection').hidden=true;$('movement').hidden=!entered;$('walk-hint').hidden=!entered;resize();if(restore){const stand=getWorkStandPosition(lastW);if(state.player)state.player.set(stand.x,world?.heightAt?world.heightAt(stand.x,stand.z):0,stand.z);const dist=camera.position.distanceTo(stand);if(!reduced.matches&&!isPlayerMode()&&dist>0.08){state.transition=buildSmoothTransition(stand,lastW.center,{duration:Math.min(1.05,Math.max(0.58,dist/4.5)),toFov:55,arcFactor:0.08,liftFactor:0.03,maxLift:0.28});}else{camera.position.copy(stand);applyAngles(camera.position,lastW.center);}}state.inspectReturn=null;syncWebNavigationLinks();notifyParentState();}
+function orbitCamera(){if(!selected)return;const center=selected.center;const position=getOrbitPositionForWork(selected,state.orbitAngle,state.orbitElev,state.orbitRadius);camera.position.copy(position);applyAngles(position,center);if(hasDual3D(selected)){updateMobiles(world,state.time,0,false,camera.position);const scMode=getSculpturePresentation?getSculpturePresentation():'ai3d';if($('inspect-note'))$('inspect-note').textContent=SCULPTURE_MODES[scMode].note;$('impulse').hidden=false;if(selected.kind==='sculpture')$('impulse').textContent=`Ángulo ${(selected.viewIndex||0)+1}/${selected.views.length}`;if($('inspect-thumb'))$('inspect-thumb').src=selected.views?.[selected.viewIndex||0]?.src||selected.image;renderAngles($('inspect-angles'),selected,i=>{if($('inspect-thumb'))swapImgSmooth($('inspect-thumb'),selected.views[i].src,selected.title);renderAngles($('inspect-angles'),selected);});}}
+function leaveInspection(restore=true){if(!selected)return;if(hasDual3D(selected))selected.manualView=false;const lastW=selected;selected=null;state.transition=null;document.body.classList.remove('inspecting');$('inspection').hidden=true;if($('movement'))$('movement').hidden=!entered;hideWalkHint();resize();if(restore){const stand=getWorkStandPosition(lastW);if(state.player)state.player.set(stand.x,world?.heightAt?world.heightAt(stand.x,stand.z):0,stand.z);const dist=camera.position.distanceTo(stand);if(!reduced.matches&&!isPlayerMode()&&dist>0.08){state.transition=buildSmoothTransition(stand,lastW.center,{duration:Math.min(1.05,Math.max(0.58,dist/4.5)),toFov:55,arcFactor:0.08,liftFactor:0.03,maxLift:0.28});}else{camera.position.copy(stand);applyAngles(camera.position,lastW.center);}}state.inspectReturn=null;updateMobileGameUI();syncWebNavigationLinks();notifyParentState();}
 function focusAndInspectWork(w,opts={}){
  if(!w||!renderer||!world)return;
  enter();
@@ -646,15 +692,19 @@ async function switchSpace(id,opts={}){
  document.body.classList.toggle('curvos',id==='curvos');
  document.body.classList.toggle('mobiles',id==='mobiles');
  if($('mobile-game-panel'))$('mobile-game-panel').hidden=true;
- $('intro').hidden=false;$('movement').hidden=true;$('walk-hint').hidden=true;
+ if($('mobiles-quick-bar'))$('mobiles-quick-bar').hidden=true;
+ $('intro').hidden=false;if($('movement'))$('movement').hidden=true;hideWalkHint();
+ const locText=id==='gallery'?'SALA 01 · GALERÍA BLANCA':id==='garden'?'SALA 02 · JARDÍN DE LAS LAGARTIJAS':id==='paintings'?'SALA 03 · SALA DE PINTURA':id==='drawings'?'SALA 04 · SALA DE DIBUJO':id==='organic'?'SALA 05 · FORMAS ORGÁNICAS':id==='curvos'?'SALA 06 · PLANOS CURVOS':'SALA 07 · MÓVILES 3D';
+ if($('intro-eyebrow'))$('intro-eyebrow').textContent=locText;
  $('scene-title').innerHTML=id==='gallery'?'La forma<br>del aire<span>.</span>':id==='garden'?'El jardín<br>que se mueve<span>.</span>':id==='paintings'?'El color y<br>el relato<span>.</span>':id==='drawings'?'El trazo y<br>el espacio<span>.</span>':id==='organic'?'La materia<br>orgánica<span>.</span>':id==='curvos'?'El pliegue<br>y el vacío<span>.</span>':'El mirador<br>del aire<span>.</span>';
- $('scene-copy').innerHTML=id==='gallery'?'Escultura ensamblada, relieves murales,<br>planos recortados, texturas y móviles<br>en la galería principal.':id==='garden'?'Recreación 3D de la parcela real en Náquera.<br>Caseta de madera, acequias, algarrobo,<br>móviles e intervenciones al aire libre.':id==='paintings'?'Un gran salón museístico para recorrer<br>las 76 pinturas del archivo organizadas<br>en sus ocho series temáticas.':id==='drawings'?'Una gran sala longitudinal<br>para recorrer sin prisa los 53 dibujos<br>de «Dibujo y espacio» y «Figuras y símbolos».':id==='organic'?'Un amplio salón diáfano para rodear<br>las 8 esculturas de «Formas orgánicas»<br>en Volumen 3D e Imagen en 3D.':id==='curvos'?'Un gran salón escultórico para rodear<br>las 12 obras de «Planos curvos y volúmenes<br>abiertos» en Volumen 3D e Imagen en 3D.':'33 móviles en verdadero 3D en una nave diáfana.<br>Muévete con total libertad, sube/baja la cámara<br>y mira arriba y abajo en 360°.';
- $('enter').innerHTML=id==='gallery'?'Entrar en la galería <span>↗</span>':id==='garden'?'Entrar en el jardín <span>↗</span>':id==='paintings'?'Entrar en la Sala de Pintura <span>↗</span>':id==='drawings'?'Entrar en la Sala de Dibujo <span>↗</span>':id==='organic'?'Entrar en Formas orgánicas <span>↗</span>':id==='curvos'?'Entrar en Planos curvos <span>↗</span>':'Entrar a la Sala de Móviles <span>↗</span>';
- $('scene-location').textContent=id==='gallery'?'GALERÍA BLANCA':id==='garden'?'JARDÍN DE LAS LAGARTIJAS':id==='paintings'?'SALA DE PINTURA':id==='drawings'?'SALA DE DIBUJO':id==='organic'?'SALA DE FORMAS ORGÁNICAS':id==='curvos'?'SALA DE PLANOS CURVOS':'SALA DE MÓVILES 3D';
- $('scene-subtitle').textContent=id==='gallery'?'SALA 01 · ENSAMBLAJES, RELIEVES, INTERVENCIONES Y MÓVILES':id==='garden'?'SALA 02 · COLLADO DELS LLOPS (NÁQUERA) · MÓVILES E INTERVENCIONES':id==='paintings'?'SALA 03 · 76 PINTURAS EN OCHO SERIES TEMÁTICAS':id==='drawings'?'SALA 04 · 53 DIBUJOS ORIGINALES (DIBUJO Y ESPACIO · FIGURAS Y SÍMBOLOS)':id==='organic'?'SALA 05 · SERIE FORMAS ORGÁNICAS (08 OBRAS · 3D + 2D)':id==='curvos'?'SALA 06 · PLANOS CURVOS Y VOLÚMENES ABIERTOS (12 OBRAS · 3D + 2D)':'SALA 07 · 33 MÓVILES 3D · MOVIMIENTO Y CÁMARA VERTICAL LIBRES';
+ $('scene-copy').textContent=id==='gallery'?'Escultura ensamblada, relieves, pintura y móviles en la sala principal.':id==='garden'?'Recreación 3D de la parcela de Náquera con árboles, caseta y móviles al aire libre.':id==='paintings'?'76 pinturas del archivo organizadas en sus ocho series.':id==='drawings'?'53 dibujos originales de «Dibujo y espacio» y «Figuras y símbolos».':id==='organic'?'Ocho esculturas en madera y piedra de la serie «Formas orgánicas».':id==='curvos'?'Doce esculturas de hierro y piedra de «Planos curvos y volúmenes abiertos».':'Los 33 móviles suspendidos en una nave diáfana con altura libre.';
+ $('enter').innerHTML='Entrar <span>↗</span>';
+ if($('scene-location'))$('scene-location').textContent=locText;
+ if($('scene-subtitle'))$('scene-subtitle').textContent='';
  if($('sculpture-mode-btn'))$('sculpture-mode-btn').hidden=id==='drawings'||id==='paintings';
  if($('motion'))$('motion').hidden=id==='drawings'||id==='paintings'||id==='organic'||id==='curvos';
  if($('breeze-btn'))$('breeze-btn').hidden=id==='drawings'||id==='paintings'||id==='organic'||id==='curvos';
+ if($('space-select'))$('space-select').value=id;
  document.querySelectorAll('[data-space]').forEach(b=>{b.classList.toggle('active',b.dataset.space===id);b.setAttribute('aria-pressed',String(b.dataset.space===id));});
  if(renderer){
   $('loading').hidden=false;await new Promise(resolve=>requestAnimationFrame(resolve));
@@ -700,13 +750,14 @@ async function switchSpace(id,opts={}){
  updateMobileGameUI();
  announce(id==='gallery'?'Galería blanca preparada':id==='garden'?'Jardín de las Lagartijas preparado':id==='paintings'?'Sala de Pintura preparada':id==='drawings'?'Sala de Dibujo preparada':id==='organic'?'Sala de Formas orgánicas preparada':id==='curvos'?'Sala de Planos curvos y volúmenes abiertos preparada':'Sala de Móviles 3D preparada');
 }
-document.querySelectorAll('[data-space]').forEach(b=>b.onclick=async()=>{const wasCin=cinematicActive,prevCinMode=cinematicMode;await switchSpace(b.dataset.space);if(wasCin)toggleCinematicMode(true,prevCinMode);});
+document.querySelectorAll('[data-space]').forEach(b=>b.onclick=async()=>{const wasCin=cinematicActive,prevCinMode=cinematicMode;await switchSpace(b.dataset.space,{preserveEntered:true});if(wasCin)toggleCinematicMode(true,prevCinMode);});
+if($('space-select'))$('space-select').onchange=async e=>{const wasCin=cinematicActive,prevCinMode=cinematicMode;await switchSpace(e.target.value,{preserveEntered:true});if(wasCin)toggleCinematicMode(true,prevCinMode);};
 function cancelNavigation(){stopTour();state.transition=null;}
 function toggleFastWalk(force){
  fastWalk=typeof force==='boolean'?force:!fastWalk;
  if($('speed-toggle')){
   $('speed-toggle').setAttribute('aria-pressed',String(fastWalk));
-  $('speed-toggle').textContent=fastWalk?'⚡ Rápido ON':'⚡ Rápido';
+  $('speed-toggle').textContent=fastWalk?'Rápido ON':'Rápido';
  }
  announce(fastWalk?'Paso rápido activado.':'Paso normal activado.');
 }
@@ -803,6 +854,7 @@ function setupPointer(){
  const canvas=renderer.domElement;
  canvas.addEventListener('pointerdown',e=>{
   if(hasDialog())return;
+  hideWalkHint();
   if(audioCtx&&audioCtx.state==='suspended'&&musicActive)audioCtx.resume();
   canvas.setPointerCapture(e.pointerId);
   state.pointers.set(e.pointerId,{x:e.clientX,y:e.clientY,startX:e.clientX,startY:e.clientY});
@@ -1164,6 +1216,8 @@ async function init(){
     if(wIdx>=0)currentWorkIdx=wIdx;
     if(animParam==='1'||animParam==='true'||animParam==='obras'){
      toggleCinematicMode(true,'works');
+    }else if(innerWidth<=700){
+     flyToWork(wObj,{inspect:false,instant:true});
     }else{
      focusAndInspectWork(wObj,{instant:true});
     }
@@ -1274,18 +1328,18 @@ function companionMessage(){
  $('guide-work').hidden=visitMode!=='guided'||!world.stops[currentStop].work;
 }
 function setVisitMode(mode){
- if(!renderer||!['mute','avatar','floki','guided'].includes(mode))return;stopTour();leaveInspection();const previous=visitMode,wasPlayer=isPlayerMode(),ground=wasPlayer&&state.player?state.player.clone():camera.position.clone();visitMode=mode;state.keys.clear();state.transition=null;state.walkBlend=0;enter();$('tour-label').textContent=mode==='guided'?'Reanudar guía':'Recorrido guiado';
+ if(!renderer||!['mute','avatar','floki','guided'].includes(mode))return;closeDialog($('options'));stopTour();leaveInspection();const previous=visitMode,wasPlayer=isPlayerMode(),ground=wasPlayer&&state.player?state.player.clone():camera.position.clone();visitMode=mode;state.keys.clear();state.transition=null;state.walkBlend=0;enter();if($('tour-label'))$('tour-label').textContent='Paseo';
  const gy=world?.heightAt?world.heightAt(ground.x,ground.z):0;
  if(mode==='mute'&&wasPlayer){camera.position.set(ground.x,gy+1.72,ground.z);state.pitch=0;}
  if(isPlayerMode()){state.player.set(ground.x,gy,ground.z);state.pitch=0;if(!wasPlayer)state.avatarHeading=state.yaw+Math.PI;placeAvatar();if(mode==='avatar'){world.companions.father.position.copy(state.player);world.companions.dog.position.copy(avatarDogTarget());}else world.companions.dog.position.copy(state.player);}
  setCompanionsVisible(world,mode!=='mute');if(mode==='floki')world.companions.father.visible=false;if(mode==='guided')positionCompanions(world,currentStop,true);else if(isPlayerMode())updateAvatar(0);
- for(const name of ['mute','avatar','floki','guided'])$(`mode-${name}`).setAttribute('aria-pressed',String(mode===name));
- $('companion-panel').hidden=mode!=='guided'||!entered;$('hover-label').hidden=true;state.hover=null;document.body.classList.toggle('accompanied',mode==='guided');
- $('walk-hint').textContent=isPlayerMode()?'Toca el suelo para caminar allí · Toca una obra para verla · Joystick o W A S D / flechas':'Toca el suelo para caminar allí · Toca una obra para verla · Arrastra para mirar · W A S D / flechas';
- for(const side of ['left','right'])document.querySelector(`[data-move=${side}]`).setAttribute('aria-label',`${isPlayerMode()?'Girar':'Caminar'} a la ${side==='left'?'izquierda':'derecha'}`);
+ for(const name of ['mute','avatar','floki','guided'])$(`mode-${name}`)?.setAttribute('aria-pressed',String(mode===name));
+ if($('companion-panel'))$('companion-panel').hidden=mode!=='guided'||!entered;if($('hover-label'))$('hover-label').hidden=true;state.hover=null;document.body.classList.toggle('accompanied',mode==='guided');
+ if($('walk-hint'))$('walk-hint').textContent='Arrastra para mirar · Toca el suelo o una obra';
+ for(const side of ['left','right'])document.querySelector(`[data-move=${side}]`)?.setAttribute('aria-label',`${isPlayerMode()?'Girar':'Caminar'} a la ${side==='left'?'izquierda':'derecha'}`);
  companionMessage();lookCamera();if(mode==='guided'){goStop(currentStop,true);startTour();}
  const url=new URL(location.href);if(mode==='mute')url.searchParams.delete('visita');else url.searchParams.set('visita',mode==='avatar'?'personaje':mode==='floki'?'floki':'acompanada');history.replaceState(null,'',url.pathname+url.search+url.hash);
- announce(mode==='mute'?'Modo solo: camina en primera persona, sin acompañantes ni audio.':mode==='avatar'?'Juegas como Enric: camina en tercera persona con Floki a tu lado.':mode==='floki'?'Juegas como Floki: acércate a las obras para verlas.':'Enric y Floki te guían por la exposición.');
+ announce(mode==='mute'?'Modo en primera persona.':mode==='avatar'?'Visita con Enric y Floki.':mode==='floki'?'Visita con Floki.':'Visita guiada con Enric y Floki.');
 }
 function companionAction(who,action){if(!world?.companions)return;moving=true;updateMotion();act(world.companions[who],action);$('companion-message').textContent=who==='father'?'Enric te devuelve el saludo.':'Floki te mira y mueve la cola.';}
 $('mode-mute').onclick=()=>setVisitMode('mute');$('mode-avatar').onclick=()=>setVisitMode('avatar');$('mode-floki').onclick=()=>setVisitMode('floki');$('mode-guided').onclick=()=>setVisitMode('guided');
@@ -1296,15 +1350,16 @@ $('wave-father').onclick=()=>companionAction('father','wave');$('pet-dog').oncli
 
 let terraceSide=-1;
 function updateMobileGameUI(){
- const panel=$('mobile-game-panel');if(!panel)return;
- panel.hidden=activeSpace!=='mobiles'||!entered;
+ const panel=$('mobile-game-panel');
+ if(panel)panel.hidden=activeSpace!=='mobiles';
+ if($('mobiles-quick-bar'))$('mobiles-quick-bar').hidden=activeSpace!=='mobiles'||!entered||Boolean(selected)||cinematicActive;
  if(activeSpace!=='mobiles'||!world)return;
  const total=world.mobiles.length||33,count=world.mobiles.filter(m=>m.awakened).length;
  if($('awakened-count'))$('awakened-count').textContent=`${count} / ${total}`;
  if($('awakened-bar'))$('awakened-bar').style.width=`${Math.min(100,Math.round(count/total*100))}%`;
  const camY=1.72+(state.camElev||0);
  const lvl=camY>=3.25?2:camY>=2.35?1:0;
- if($('mg-level-label'))$('mg-level-label').textContent=`Altura de cámara · ${camY.toFixed(2)}m (${lvl===2?'Vista Aérea':lvl===1?'Cara a cara':'Paseo'})`;
+ if($('mg-level-label'))$('mg-level-label').textContent=`Altura · ${camY.toFixed(2).replace('.',',')} m`;
  if($('cam-height-slider')&&document.activeElement!==$('cam-height-slider'))$('cam-height-slider').value=camY.toFixed(2);
  document.querySelectorAll('[data-elev]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.elev)===lvl)));
 }
@@ -1385,10 +1440,10 @@ if($('breeze-btn'))$('breeze-btn').onclick=()=>triggerBreezeWave();
 if($('mg-next-mobile'))$('mg-next-mobile').onclick=()=>goToNextUnawakenedMobile();
 
 const TIME_MODES={
- day:{icon:'☀️',label:'Día',msg:'Modo Día: luz natural cenital de museo y cielo azul mediterráneo en el jardín.'},
- sunset:{icon:'🌅',label:'Atardecer',msg:'Modo Atardecer: luz dorada de poniente, focos cálidos de galería y guirnaldas encendidas.'},
- night:{icon:'🌙',label:'Noche',msg:'Modo Noche: iluminación museística nocturna de acento y jardín bajo las estrellas.'},
- cycle:{icon:'🌗',label:'Ciclo',msg:'Ciclo continuo Día · Atardecer · Noche activado.'}
+ day:{icon:'',label:'Día',msg:'Iluminación de día.'},
+ sunset:{icon:'',label:'Atardecer',msg:'Iluminación de atardecer.'},
+ night:{icon:'',label:'Noche',msg:'Iluminación nocturna.'},
+ cycle:{icon:'',label:'Ciclo',msg:'Ciclo continuo de luz activado.'}
 };
 function setTimeOfDay(mode,instant=false){
  if(!TIME_MODES[mode])mode='day';
@@ -1403,6 +1458,7 @@ function setTimeOfDay(mode,instant=false){
   btn.dataset.mode=mode;
   btn.setAttribute('aria-pressed',String(mode!=='day'));
  }
+ document.querySelectorAll('[data-tod]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tod===mode)));
  if($('day-night-icon'))$('day-night-icon').textContent=TIME_MODES[mode].icon;
  if($('day-night-label'))$('day-night-label').textContent=TIME_MODES[mode].label;
  if(renderer)renderer.toneMappingExposure=mode==='night'?1.02:mode==='sunset'?1.05:1.08;
@@ -1415,6 +1471,7 @@ function cycleTimeOfDay(){
  setTimeOfDay(next,false);
 }
 if($('day-night-btn'))$('day-night-btn').onclick=()=>cycleTimeOfDay();
+document.querySelectorAll('[data-tod]').forEach(b=>b.addEventListener('click',()=>setTimeOfDay(b.dataset.tod,false)));
 
 function createReverbImpulse(ctx,duration=3.6,decay=2.5){
  const rate=ctx.sampleRate,len=Math.floor(rate*duration);
@@ -1985,17 +2042,17 @@ function scheduleAmbientPhrase(){
 function toggleAmbientMusic(force){
  musicActive=typeof force==='boolean'?force:!musicActive;
  if($('music-btn'))$('music-btn').setAttribute('aria-pressed',String(musicActive));
- if($('music-icon'))$('music-icon').textContent=musicActive?'🎶':'🎵';
- if($('music-label'))$('music-label').textContent=musicActive?'Música ON':'Música';
+ if($('music-icon'))$('music-icon').textContent='';
+ if($('music-label'))$('music-label').textContent=musicActive?'Sonido activo':'Sonido ambiental';
  clearTimeout(musicTimer);
  if(musicActive){
   ensureAudio();
   if(audioCtx&&audioCtx.state==='suspended')audioCtx.resume();
   scheduleAmbientPhrase();
-  announce('Música interactiva de estudio estilo Minecraft (C418) activada.');
+  announce('Sonido ambiental activado.');
  }else{
   if(windGainNode&&audioCtx)windGainNode.gain.setTargetAtTime(0.0001,audioCtx.currentTime,0.2);
-  announce('Música ambiental pausada.');
+  announce('Sonido ambiental pausado.');
  }
 }
 if($('music-btn'))$('music-btn').onclick=()=>toggleAmbientMusic();
@@ -2114,13 +2171,17 @@ function updateCinematicHUD(immediate=false){
  const wObj=getCurrentCinematicWork();
  const s=world.stops[currentStop];
  const applyHUDContent=()=>{
-  if($('cinematic-tag'))$('cinematic-tag').textContent=`${spaceLabel} · ${isWorks?'OBRA':'PLANO'} ${cur} / ${total}${wObj?.series?' · '+wObj.series.toUpperCase():''}`;
-  if($('cinematic-title'))$('cinematic-title').textContent=isWorks&&wObj?`${wObj.code} · ${wObj.title}`:(s?s.title:'El Jardín de las Lagartijas');
+  if($('cinematic-tag'))$('cinematic-tag').textContent=`${cur} / ${total}`;
+  if($('cinematic-title'))$('cinematic-title').textContent=isWorks&&wObj?`${wObj.code} · ${wObj.title}`:(s?s.title:spaceLabel);
   if($('cinematic-sub'))$('cinematic-sub').textContent=meta.sub;
-  if($('cinematic-lens'))$('cinematic-lens').textContent=`🎬 ${meta.lens}`;
+  if($('cinematic-lens'))$('cinematic-lens').textContent=meta.lens;
   if($('cin-mode')){
    $('cin-mode').setAttribute('aria-pressed',String(isWorks));
-   $('cin-mode').textContent=isWorks?'🖼️ Modo: Obra a obra':'🏛️ Modo: Planos de sala';
+   $('cin-mode').textContent=isWorks?'Modo: Obra a obra':'Modo: Planos de sala';
+  }
+  if($('cin-bottom-web')){
+   if(wObj&&wObj.catalogId){$('cin-bottom-web').hidden=false;$('cin-bottom-web').href=catalogUrl(wObj);}
+   else $('cin-bottom-web').hidden=true;
   }
   if($('cinematic-work-card')){
    if(wObj){
@@ -2132,7 +2193,6 @@ function updateCinematicHUD(immediate=false){
     if($('cin-work-code'))$('cin-work-code').textContent=`${kindLabel(wObj.kind)} · ${wObj.code}${wObj.series?' · '+wObj.series:''}`;
     if($('cin-work-title'))$('cin-work-title').textContent=wObj.title;
     if($('cin-web-link'))$('cin-web-link').href=catalogUrl(wObj);
-    if($('cin-bottom-web')){$('cin-bottom-web').hidden=false;$('cin-bottom-web').href=catalogUrl(wObj);}
     if($('cin-series-link')){
      const hasSer=Boolean(wObj.series);
      $('cin-series-link').hidden=!hasSer;
@@ -2140,10 +2200,8 @@ function updateCinematicHUD(immediate=false){
     }
    }else{
     $('cinematic-work-card').hidden=true;
-    if($('cin-bottom-web'))$('cin-bottom-web').hidden=true;
    }
   }
-  if($('cinematic-work-pill'))$('cinematic-work-pill').hidden=true;
   notifyParentState();
  };
  clearTimeout(hudFadeTimer);
@@ -2415,6 +2473,7 @@ function toggleCinematicMode(force,modeOverride=null){
   const nIdx=works.findIndex(w=>w.id===state.nearbyWork.id||w.code===state.nearbyWork.code);
   if(nIdx>=0)currentWorkIdx=nIdx;
  }
+ closeDialog($('options'));
  leaveInspection(false);
  enter();
  if(isPlayerMode())setVisitMode('mute');
@@ -2426,12 +2485,13 @@ function toggleCinematicMode(force,modeOverride=null){
  document.body.classList.add('cinematic-active');
  if($('cinematic-hud'))$('cinematic-hud').hidden=false;
  if($('cinematic-btn'))$('cinematic-btn').setAttribute('aria-pressed','true');
- if($('cinematic-label'))$('cinematic-label').textContent='Animática ON';
- if($('cin-pause')){$('cin-pause').setAttribute('aria-pressed','false');$('cin-pause').textContent='⏸ Pausar';}
- if($('cin-all-spaces')){$('cin-all-spaces').setAttribute('aria-pressed',String(cinematicAllSpaces));$('cin-all-spaces').textContent=`🔁 7 Salas: ${cinematicAllSpaces?'Sí':'No'}`;}
- $('tour-toggle').setAttribute('aria-pressed','true');
- $('tour-label').textContent='Pausar animática';
- $('play-symbol').textContent='Ⅱ';
+ if($('cinematic-label'))$('cinematic-label').textContent='Paseo activo';
+ if($('cin-pause')){$('cin-pause').setAttribute('aria-pressed','false');$('cin-pause').textContent='Ⅱ Pausar';}
+ if($('cin-all-spaces')){$('cin-all-spaces').setAttribute('aria-pressed',String(cinematicAllSpaces));$('cin-all-spaces').textContent=`7 Salas: ${cinematicAllSpaces?'Sí':'No'}`;}
+ if($('tour-toggle'))$('tour-toggle').setAttribute('aria-pressed','true');
+ if($('tour-label'))$('tour-label').textContent='Pausar';
+ if($('play-symbol'))$('play-symbol').textContent='Ⅱ';
+ updateMobileGameUI();
  if(!musicActive)toggleAmbientMusic(true);
  const works=getRoomNavigableWorks();
  if(cinematicMode==='works'&&works.length){
@@ -2441,7 +2501,7 @@ function toggleCinematicMode(force,modeOverride=null){
  }
  updateCinematicHUD(true);
  triggerCinematicShotCue();
- announce(cinematicMode==='works'?'Animática Obra a obra iniciada: recorriendo cada pieza de la sala con ficha interactiva y música C418.':'Animática de Planos de sala iniciada con realización multicámara y música C418.');
+ announce('Paseo automático iniciado.');
 }
 if($('cinematic-btn'))$('cinematic-btn').onclick=()=>toggleCinematicMode();
 if($('cin-prev'))$('cin-prev').onclick=()=>{stepCinematicShot(-1);};
@@ -2457,14 +2517,14 @@ if($('cin-mode'))$('cin-mode').onclick=()=>{
  }
  updateCinematicHUD(true);
  triggerCinematicShotCue();
- announce(cinematicMode==='works'?'Animática en modo Obra a obra.':'Animática en modo Planos generales de sala.');
+ announce(cinematicMode==='works'?'Modo Obra a obra.':'Modo Planos de sala.');
 };
 if($('cin-pause'))$('cin-pause').onclick=()=>{
  cinematicPaused=!cinematicPaused;
  $('cin-pause').setAttribute('aria-pressed',String(cinematicPaused));
- $('cin-pause').textContent=cinematicPaused?'▶ Reanudar':'⏸ Pausar';
+ $('cin-pause').textContent=cinematicPaused?'▷ Reanudar':'Ⅱ Pausar';
  notifyParentState();
- announce(cinematicPaused?'Plano cinematográfico en pausa.':'Reanudando animática.');
+ announce(cinematicPaused?'Paseo en pausa.':'Reanudando paseo.');
 };
 const inspectFromCinematic=()=>{
  const wObj=getCurrentCinematicWork();
@@ -2481,7 +2541,7 @@ if($('cinematic-work-pill')){
 if($('cin-all-spaces'))$('cin-all-spaces').onclick=()=>{
  cinematicAllSpaces=!cinematicAllSpaces;
  $('cin-all-spaces').setAttribute('aria-pressed',String(cinematicAllSpaces));
- $('cin-all-spaces').textContent=`🔁 7 Salas: ${cinematicAllSpaces?'Sí':'No'}`;
+ $('cin-all-spaces').textContent=`7 Salas: ${cinematicAllSpaces?'Sí':'No'}`;
  announce(cinematicAllSpaces?'Modo continuo por las 7 salas activado.':'Animática limitada a la sala actual.');
 };
 if($('cin-exit'))$('cin-exit').onclick=()=>toggleCinematicMode(false);

@@ -5,7 +5,7 @@ import { educationIntro, educationPrinciples, educationSections, readings } from
 
 const DOMAIN = "https://enricsegarraigaribo.com";
 const TODAY = "2026-11-11";
-const VERSION = "20261111-seo-3d-v2";
+const VERSION = "20261111-minimal-v1";
 
 const esc = (s = "") =>
   String(s)
@@ -95,7 +95,7 @@ function buildPageHtml({
 <html lang="es"${defaultRoute && defaultRoute !== "/" ? ` data-default-route="${esc(defaultRoute)}"` : ""}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content="${esc(description)}" />
     <meta name="keywords" content="${esc(keywords)}" />
     <meta name="author" content="Enric Segarra i Garibo (Segarra y Garibo)" />
@@ -158,7 +158,7 @@ function buildPageHtml({
         <a href="#/jardin" data-nav="jardin">Jardín de las Lagartijas</a>
         <a href="#/pintura" data-nav="pintura">Pintura</a>
         <a href="#/dibujo" data-nav="dibujo">Dibujo</a>
-        <a href="#/exposicion-3d" data-nav="exposicion-3d">Exposición 3D</a>
+        <a href="#/exposicion-3d" data-nav="exposicion-3d">Salas 3D</a>
         <a href="#/arte-infantil" data-nav="arte-infantil">Arte infantil</a>
         <a href="#/exposiciones" data-nav="exposiciones">Exposiciones</a>
         <a href="#/trayectoria-contacto" data-nav="trayectoria-contacto">Trayectoria y contacto</a>
@@ -166,12 +166,12 @@ function buildPageHtml({
       <label class="language-switcher">
         <span class="sr-only">Idioma</span>
         <select data-language-select aria-label="Idioma">
-          <option data-language-option value="es">ES · Castellano</option>
-          <option data-language-option value="ca">CA · Català</option>
-          <option data-language-option value="en">EN · English</option>
-          <option data-language-option value="fr">FR · Français</option>
-          <option data-language-option value="zh">中文 · 中文</option>
-          <option data-language-option value="ja">日本語 · 日本語</option>
+          <option data-language-option value="es">ES</option>
+          <option data-language-option value="ca">CA</option>
+          <option data-language-option value="en">EN</option>
+          <option data-language-option value="fr">FR</option>
+          <option data-language-option value="zh">中文</option>
+          <option data-language-option value="ja">日本語</option>
         </select>
       </label>
       <p class="sidebar-note">
@@ -199,15 +199,7 @@ ${bodyHtml}
     </footer>
     <dialog id="image-dialog" aria-labelledby="image-caption">
       <div class="dialog-top-bar">
-        <div class="dialog-work-stepper" id="lightbox-work-stepper">
-          <button type="button" id="lightbox-prev-work" data-work-step="-1" aria-label="Obra anterior">⏮ Obra ant.</button>
-          <span id="lightbox-work-indicator" class="lightbox-work-indicator"></span>
-          <button type="button" id="lightbox-next-work" data-work-step="1" aria-label="Obra siguiente">Sig. obra ⏭</button>
-        </div>
-        <div class="dialog-animatica-controls">
-          <button type="button" id="lightbox-animatica-toggle" class="lightbox-animatica-btn" aria-pressed="false">▶ Animática 2D</button>
-          <a id="lightbox-animatica-3d" class="lightbox-animatica-btn is-3d" href="galeria-3d/index.html">🎬 Animática 3D ↗</a>
-        </div>
+        <button type="button" id="lightbox-animatica-toggle" class="lightbox-animatica-btn" aria-pressed="false">Presentación</button>
         <button class="close-image" aria-label="Cerrar imagen">
           Cerrar <span aria-hidden="true">×</span>
         </button>

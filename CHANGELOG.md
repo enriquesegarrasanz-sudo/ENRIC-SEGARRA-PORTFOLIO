@@ -1,3 +1,16 @@
+## 2026-11-11 — Rediseño minimalista y mobile-first del catálogo web y del Museo Virtual 3D
+
+- **Simplificación editorial y eliminación de fricción visual en la web principal (`dist/app.js`, `dist/styles.css`, `dist/i18n.js`, `scripts/build-seo.mjs`)**:
+  - Cabecera de una sola fila (`68 px` en escritorio y `56 px` en móvil, `< 9 %` del alto de ventana) con ocultación suave al desplazar hacia abajo en móvil, selector de idioma compacto (`ES`, `CA`, `EN`, `FR`, `中文`, `日本語`), `viewport-fit=cover` y objetivos táctiles mínimos de `44×44 px`.
+  - Portada depurada: directorio de los 8 apartados esenciales (`01` a `08`) en cuadrícula de 2 columnas en móvil y 4 en escritorio, acompañado de una única franja horizontal discreta (`Salas 3D · Explorar salas ↗`).
+  - Sustitución de todos los iframes WebGL incrustados, cajas verdes y múltiples botones por una franja arquitectónica de una sola línea (`.room-3d-strip`) en Móviles, Escultura, Pintura, Dibujo y Jardín de las Lagartijas, evitando bloqueos de desplazamiento en pantallas táctiles.
+  - Tarjetas de obra, colecciones, exposiciones y archivo visual limpias, sin filas auxiliares de píldoras ni iconos decorativos, con cuadrícula de 2 columnas en móvil para explorar el catálogo con fluidez.
+  - Ficha de obra (`#/obra/<id>`) sintetizada: navegación superior e inferior ligera (`← 01 / N →`), imagen despejada con gesto táctil lateral, acción clara `Ver en <Sala 3D> ↗` junto a `Presentación`, metadatos concisos con exposiciones vinculadas en línea y obras relacionadas.
+  - Apartado `#/exposicion-3d` (`Salas 3D`) rediseñado como galería editorial de los 7 espacios virtuales con entrada directa a pantalla completa y enlace a su catálogo correspondiente; visor de ampliación (`#image-dialog`) simplificado con recorrido continuo entre vistas y obras.
+- **Interfaz minimalista de museo en el visor 3D (`dist/galeria-3d/`, release `897a2cdc2c`)**:
+  - Barra superior compacta de `50 px` con retorno contextual (`← MOV-001` o `← Catálogo`), selector directo de las 7 salas, índice lateral `Obras` y cajón `Ajustes` (`<dialog id="options">`) que agrupa modo de visita (1.ª persona, Enric, Floki), luz Día/Noche y sonido, dejando más del `90 %` de la pantalla libre para la obra.
+  - Barra inferior unificada (`← · 01 / N · Título · → · ▷ Paseo`), joystick táctil translúcido exclusivo para dispositivos táctiles y ficha de inspección como hoja inferior limpia.
+
 ## 2026-11-11 — Unificación completa Exposiciones ↔ Salas Virtuales 3D, perfeccionamiento escultórico 360° y depuración de erratas
 
 - **Unificación bidireccional entre Exposiciones, Salas Virtuales 3D, Series y Fichas de Obra (`dist/app.js`, `dist/styles.css`, `dist/i18n.js`)**:
