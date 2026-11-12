@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#f6f5ef"><meta name="description" content="Siete salas virtuales 3D de Enric Segarra i Garibo: Galería Blanca, Jardín de las Lagartijas, Sala de Pintura, Sala de Dibujo, Formas orgánicas, Planos curvos y Móviles 3D.">
 <title>Enric Segarra i Garibo · Salas 3D</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23242a23'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='38' font-family='Georgia' fill='%23eeeade'%3Ee%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=20261112-v24">
 </head>
 <body>
 <a class="skip" href="#collection">Ir a las obras</a>
@@ -36,8 +36,8 @@
   </nav>
  </div>
  <div class="topbar-actions">
-  <button class="top-pill" id="collection-open" type="button">Obras <span id="work-count">06</span></button>
-  <button class="top-pill top-pill-quiet" id="options-open" type="button" aria-haspopup="dialog" aria-controls="options">Ajustes</button>
+  <button class="top-pill" id="collection-open" type="button" commandfor="collection" command="show-modal" aria-haspopup="dialog">Obras <span id="work-count">06</span></button>
+  <button class="top-pill top-pill-settings" id="options-open" type="button" commandfor="options" command="show-modal" aria-haspopup="dialog" aria-controls="options"><span aria-hidden="true">⚙</span> Ajustes</button>
  </div>
 </header>
 <main id="experience">
@@ -47,11 +47,102 @@
   <p class="eyebrow" id="intro-eyebrow">SALA 01 · GALERÍA BLANCA</p>
   <h1 id="scene-title">La forma<br>del aire<span>.</span></h1>
   <p class="intro-copy" id="scene-copy">Escultura, relieves, pintura y móviles en el espacio.</p>
+  <div class="intro-visit-picker" role="group" aria-label="Elegir cómo recorrer la galería">
+   <p class="intro-picker-label">¿Cómo quieres recorrer la galería?</p>
+   <div class="intro-visit-grid">
+    <button type="button" class="intro-visit-card" data-entry-visit="mute" aria-pressed="true">
+     <strong>Tu visión sola</strong>
+     <span>Primera persona</span>
+    </button>
+    <button type="button" class="intro-visit-card" data-entry-visit="avatar" aria-pressed="false">
+     <strong>Enric y Floki</strong>
+     <span>Con mi padre y el perro</span>
+    </button>
+    <button type="button" class="intro-visit-card" data-entry-visit="enric" aria-pressed="false">
+     <strong>Solo Enric</strong>
+     <span>Solo con mi padre</span>
+    </button>
+    <button type="button" class="intro-visit-card" data-entry-visit="floki" aria-pressed="false">
+     <strong>Solo Floki</strong>
+     <span>Solo con el perro</span>
+    </button>
+   </div>
+  </div>
   <div class="intro-actions">
    <button class="primary" id="enter" type="button">Entrar <span>↗</span></button>
    <button class="intro-quiet-btn" id="intro-animatica" type="button">▷ Paseo automático</button>
+   <button class="intro-quiet-btn" type="button" data-entry-visit="guided">✦ Visita guiada</button>
   </div>
+  <p class="intro-settings-hint">Arriba tienes siempre visibles <strong>Compañía</strong>, <strong>Música</strong>, <strong>Luces</strong> y <strong>⚙ Ajustes</strong>.</p>
  </section>
+ <aside class="entry-companion-card" id="entry-companion-card" hidden aria-label="Elegir experiencia de visita">
+  <div class="entry-card-head">
+   <div>
+    <p class="eyebrow">EXPERIENCIA DE VISITA</p>
+    <h2>¿Con quién quieres recorrer la sala?</h2>
+   </div>
+   <button type="button" class="entry-card-close" id="entry-card-close" aria-label="Continuar con la vista actual">×</button>
+  </div>
+  <div class="intro-visit-grid entry-card-grid" role="group" aria-label="Compañía en la sala">
+   <button type="button" class="intro-visit-card" data-entry-visit="mute" aria-pressed="true">
+    <strong>Tu visión sola</strong>
+    <span>Sin personajes</span>
+   </button>
+   <button type="button" class="intro-visit-card" data-entry-visit="avatar" aria-pressed="false">
+    <strong>Enric y Floki</strong>
+    <span>Padre y perro</span>
+   </button>
+   <button type="button" class="intro-visit-card" data-entry-visit="enric" aria-pressed="false">
+    <strong>Solo Enric</strong>
+    <span>Solo mi padre</span>
+   </button>
+   <button type="button" class="intro-visit-card" data-entry-visit="floki" aria-pressed="false">
+    <strong>Solo Floki</strong>
+    <span>Solo el perro</span>
+   </button>
+  </div>
+  <div class="entry-card-footer">
+   <button type="button" class="entry-mini-pill" id="entry-music-toggle" aria-pressed="false">♪ Activar música</button>
+   <button type="button" class="entry-mini-pill" id="entry-light-toggle">☀ Luz: <span id="entry-light-label">Día</span></button>
+   <button type="button" class="entry-mini-pill" id="entry-open-options">⚙ Todos los ajustes</button>
+  </div>
+ </aside>
+ <div class="quick-env-wrap" id="quick-env-wrap" hidden>
+  <div class="quick-env-bar" role="toolbar" aria-label="Accesos rápidos de visita, música, luz y ajustes">
+   <button type="button" class="quick-env-btn" id="quick-visit-btn" aria-expanded="false" aria-controls="quick-visit-menu" title="Cambiar compañía o modo de visión">
+    <span aria-hidden="true" id="quick-visit-icon">👁</span>
+    <span id="quick-visit-label">Visión sola</span>
+    <span class="quick-caret" aria-hidden="true">▾</span>
+   </button>
+   <span class="quick-sep" aria-hidden="true"></span>
+   <button type="button" class="quick-env-btn" id="quick-music-btn" aria-pressed="false" title="Activar o pausar música ambiental">
+    <span aria-hidden="true">♪</span>
+    <span id="quick-music-label">Música</span>
+   </button>
+   <span class="quick-sep" aria-hidden="true"></span>
+   <button type="button" class="quick-env-btn" id="quick-light-btn" title="Cambiar iluminación: Día, Atardecer, Noche o Ciclo">
+    <span aria-hidden="true" id="quick-light-icon">☀</span>
+    <span id="quick-light-label">Día</span>
+   </button>
+   <span class="quick-sep" aria-hidden="true"></span>
+   <button type="button" class="quick-env-btn quick-env-fs" id="quick-fullscreen-btn" aria-pressed="false" title="Pantalla completa o vista inmersiva sin barras" aria-label="Pantalla completa">
+    <span aria-hidden="true" id="quick-fs-icon">⛶</span>
+    <span class="quick-fs-label" id="quick-fs-label">Amplia</span>
+   </button>
+   <span class="quick-sep" aria-hidden="true"></span>
+   <button type="button" class="quick-env-btn quick-env-settings" id="quick-options-btn" title="Abrir todos los ajustes de la galería">
+    <span aria-hidden="true">⚙</span>
+    <span>Ajustes</span>
+   </button>
+  </div>
+  <div class="quick-visit-menu" id="quick-visit-menu" hidden role="group" aria-label="Seleccionar compañía">
+   <button type="button" data-quick-visit="mute" aria-pressed="true">👁 Tu visión sola <small>Primera persona</small></button>
+   <button type="button" data-quick-visit="avatar" aria-pressed="false">👥 Con Enric y Floki <small>Padre y perro</small></button>
+   <button type="button" data-quick-visit="enric" aria-pressed="false">🧔 Solo con Enric <small>Solo mi padre</small></button>
+   <button type="button" data-quick-visit="floki" aria-pressed="false">🐕 Solo con Floki <small>Solo el perro</small></button>
+   <button type="button" data-quick-visit="guided" aria-pressed="false">✦ Visita guiada <small>Recorrido comentado</small></button>
+  </div>
+ </div>
  <div class="scene-caption" hidden><span id="scene-location">GALERÍA BLANCA</span><span class="caption-line"></span><span id="scene-subtitle">SALA 01</span></div>
  <div class="mobiles-quick-bar" id="mobiles-quick-bar" hidden aria-label="Altura en sala de móviles">
   <button type="button" data-elev="0" aria-pressed="true">1,7 m</button>
@@ -90,62 +181,100 @@
    <button id="meet-dog" type="button" hidden>Perro</button>
   </div>
  </aside>
+ <button type="button" id="exit-immersive-btn" class="exit-immersive-btn" hidden aria-label="Mostrar barra superior">↙ Mostrar barra</button>
  <aside id="nearby-work" class="nearby-work" hidden aria-label="Obra cercana">
-  <div class="nearby-thumb-wrap" id="nearby-thumb-wrap"><img id="nearby-image" alt=""></div>
-  <div class="nearby-copy" id="nearby-card-tap">
-   <p class="eyebrow" id="nearby-code"></p>
-   <h2 id="nearby-title"></h2>
+  <div class="artwork-panel-bar">
+   <span class="panel-state-pill">Obra cercana</span>
+   <div class="inspect-work-nav" role="group" aria-label="Cambiar de obra en la sala">
+    <button type="button" id="nearby-prev" aria-label="Obra anterior">←</button>
+    <span class="inspect-work-pos" id="nearby-pos">01 / 06</span>
+    <button type="button" id="nearby-next" aria-label="Obra siguiente">→</button>
+   </div>
+   <button id="nearby-close" type="button" class="inspect-close-btn nearby-close-btn" aria-label="Ocultar tarjeta de obra cercana" title="Ocultar tarjeta">×</button>
+  </div>
+  <div class="nearby-main">
+   <div class="nearby-photo-card" id="nearby-photo-card">
+    <button type="button" class="nearby-thumb-wrap" id="nearby-thumb-wrap" aria-label="Ampliar fotografía original de la obra">
+     <img id="nearby-image" alt="">
+     <span class="thumb-zoom-badge">Ampliar foto</span>
+    </button>
+    <div id="nearby-angles" class="angle-pills" hidden></div>
+   </div>
+   <div class="nearby-copy" id="nearby-card-tap">
+    <p class="eyebrow" id="nearby-code"></p>
+    <p class="artwork-series-tag" id="nearby-series" hidden></p>
+    <h2 id="nearby-title"></h2>
+    <p class="nearby-description" id="nearby-description"></p>
+   </div>
+  </div>
+  <div id="nearby-scmode" class="sculpture-modes" role="group" aria-label="Versión de visualización">
+   <span class="modes-label">VERSIÓN EN SALA</span>
+   <div class="modes-row">
+    <button type="button" data-scmode="ai3d" aria-pressed="true">Versión normal (3D)</button>
+    <button type="button" data-scmode="billboard" aria-pressed="false">Versión fotografía</button>
+   </div>
   </div>
   <div class="nearby-btns">
-   <button id="nearby-explore" type="button" class="btn-dark">Ver</button>
-   <button id="nearby-open" type="button" hidden>Foto</button>
-   <a id="nearby-catalog" class="btn-link" href="#" target="_top" hidden>Ficha ↗</a>
+   <button id="nearby-explore" type="button" class="btn-dark">Inspeccionar</button>
+   <button id="nearby-open" type="button" class="nearby-sec-btn">Ampliar foto</button>
+   <a id="nearby-catalog" class="nearby-sec-btn btn-link" href="#" target="_top" title="Ver ficha completa en el catálogo web">Ficha web ↗</a>
   </div>
  </aside>
  <div id="loading" class="loading" role="status"><span></span> Cargando sala…</div>
  <div id="fallback" class="fallback" hidden><h2>Catálogo de la sala</h2><p>Este dispositivo no ha podido iniciar la vista 3D. Puedes consultar todas las obras en fotografía.</p><button class="primary" id="fallback-collection" type="button">Ver obras</button></div>
  <button id="hover-label" class="hover-label" type="button" hidden>Ver obra <span>↗</span></button>
- <div id="walk-hint" class="walk-hint" hidden>Arrastra para mirar · Toca el suelo o una obra</div>
+ <div id="walk-hint" class="walk-hint" hidden>Arrastra para mirar · Pellizca para zoom · Toca el suelo o una obra</div>
  <aside id="inspection" class="inspection" hidden aria-label="Obra seleccionada">
-  <div class="inspect-top-bar">
+  <div class="sheet-grabber" id="inspect-grabber" aria-hidden="true"></div>
+  <div class="inspect-top-bar" id="inspect-top-bar">
+   <span class="panel-state-pill is-inspecting" id="inspect-pill-label">En inspección</span>
    <div class="inspect-work-nav" role="group" aria-label="Cambiar de obra">
     <button type="button" id="inspect-prev-work" aria-label="Obra anterior">←</button>
     <span class="inspect-work-pos" id="inspect-work-pos">01 / 06</span>
     <button type="button" id="inspect-next-work" aria-label="Obra siguiente">→</button>
    </div>
-   <button id="inspect-close" type="button" class="inspect-close-btn" aria-label="Seguir recorriendo la sala">×</button>
-  </div>
-  <div class="inspect-main">
-   <div id="inspect-photo-card" class="inspect-photo-card">
-    <div class="inspect-thumb-box" id="inspect-thumb-box" title="Ampliar fotografía"><img id="inspect-thumb" alt=""><span class="thumb-zoom-badge">Ampliar</span></div>
-    <div id="inspect-angles" class="angle-pills" hidden></div>
-   </div>
-   <div class="inspect-text">
-    <p class="eyebrow" id="inspect-code">OBRA</p>
-    <h2 id="inspect-title"></h2>
-    <p id="inspect-description"></p>
+   <div class="inspect-bar-btns">
+    <button id="inspect-sheet-toggle" type="button" class="sheet-toggle-btn" aria-expanded="true" aria-label="Plegar o desplegar ficha para ver mejor la obra" title="Plegar o desplegar ficha">▾</button>
+    <button id="inspect-close" type="button" class="inspect-close-btn" aria-label="Seguir recorriendo la sala">×</button>
    </div>
   </div>
-  <div id="sculpture-modes" class="sculpture-modes" hidden aria-label="Representación 3D">
-   <div class="modes-row">
-    <button type="button" data-scmode="ai3d" aria-pressed="true">Volumen 3D</button>
-    <button type="button" data-scmode="billboard" aria-pressed="false">Fotografía</button>
+  <div class="inspect-collapsed-title" id="inspect-collapsed-title" hidden></div>
+  <div class="inspect-body" id="inspect-body">
+   <div class="inspect-main">
+    <div id="inspect-photo-card" class="inspect-photo-card">
+     <button type="button" class="inspect-thumb-box" id="inspect-thumb-box" aria-label="Ampliar fotografía original de la obra"><img id="inspect-thumb" alt=""><span class="thumb-zoom-badge">Ampliar foto</span></button>
+     <div id="inspect-angles" class="angle-pills" hidden></div>
+    </div>
+    <div class="inspect-text">
+     <p class="eyebrow" id="inspect-code">OBRA</p>
+     <p class="artwork-series-tag" id="inspect-series" hidden></p>
+     <h2 id="inspect-title"></h2>
+     <p id="inspect-description"></p>
+    </div>
    </div>
+   <div id="sculpture-modes" class="sculpture-modes" role="group" aria-label="Versión de visualización">
+    <span class="modes-label">VERSIÓN EN SALA</span>
+    <div class="modes-row">
+     <button type="button" data-scmode="ai3d" aria-pressed="true">Versión normal (3D)</button>
+     <button type="button" data-scmode="billboard" aria-pressed="false">Versión fotografía</button>
+    </div>
+   </div>
+   <div class="inspect-actions">
+    <a id="inspect-catalog" class="primary-cta" href="#" target="_top">Ficha completa ↗</a>
+    <button type="button" id="original" class="secondary-cta-btn">Ampliar foto</button>
+    <button type="button" id="impulse" class="secondary-cta-btn">Impulso</button>
+    <a id="inspect-series-link" class="quiet-inline-link" href="#" target="_top" hidden>Serie ↗</a>
+   </div>
+   <div class="orbit-tools">
+    <button id="orbit-left" type="button" aria-label="Girar a la izquierda">↶</button>
+    <span>360°</span>
+    <button id="orbit-right" type="button" aria-label="Girar a la derecha">↷</button>
+    <button id="zoom-in" type="button" aria-label="Acercar">+</button>
+    <button id="zoom-out" type="button" aria-label="Alejar">−</button>
+    <button id="orbit-reset" type="button" aria-label="Centrar encuadre" title="Centrar encuadre">⟲</button>
+   </div>
+   <p class="small-note" id="inspect-note" hidden></p>
   </div>
-  <div class="inspect-actions">
-   <a id="inspect-catalog" class="primary-cta" href="#" target="_top">Ficha completa ↗</a>
-   <button type="button" id="original" class="secondary-cta-btn">Ampliar foto</button>
-   <button type="button" id="impulse" class="secondary-cta-btn">Impulso</button>
-   <a id="inspect-series-link" class="quiet-inline-link" href="#" target="_top" hidden>Serie ↗</a>
-  </div>
-  <div class="orbit-tools">
-   <button id="orbit-left" type="button" aria-label="Girar a la izquierda">↶</button>
-   <span>360°</span>
-   <button id="orbit-right" type="button" aria-label="Girar a la derecha">↷</button>
-   <button id="zoom-in" type="button" aria-label="Acercar">+</button>
-   <button id="zoom-out" type="button" aria-label="Alejar">−</button>
-  </div>
-  <p class="small-note" id="inspect-note" hidden></p>
  </aside>
  <aside class="minimap" id="minimap" hidden aria-label="Plano de la sala">
   <div class="map-header"><span>PLANO</span><button id="map-toggle" type="button" aria-expanded="true" aria-label="Cerrar plano">×</button></div>
@@ -165,40 +294,41 @@
   <button class="tour-play" id="tour-toggle" type="button" aria-pressed="false"><span id="play-symbol">▷</span><span id="tour-label">Paseo</span></button>
  </div>
 </main>
-<dialog id="options" class="options-dialog" aria-label="Ajustes de la visita 3D">
+<dialog id="options" class="options-dialog" closedby="any" aria-labelledby="options-title">
  <div class="dialog-head">
-  <div><p class="eyebrow">SALA VIRTUAL 3D</p><h2>Ajustes de visita</h2></div>
+  <div><p class="eyebrow">SALA VIRTUAL 3D</p><h2 id="options-title">Ajustes de visita</h2></div>
   <button class="close" type="button" data-close aria-label="Cerrar ajustes">×</button>
  </div>
  <div class="options-sections">
   <section class="opt-group">
-   <h3>Recorrido y ambiente</h3>
-   <div class="opt-grid-2">
-    <button type="button" id="cinematic-btn" aria-pressed="false"><span id="cinematic-label">Paseo automático</span></button>
-    <button type="button" id="music-btn" aria-pressed="false"><span id="music-label">Sonido ambiental</span></button>
+   <h3>Compañía y punto de vista</h3>
+   <div class="opt-grid-2" role="group" aria-label="Perspectiva de la visita">
+    <button type="button" id="mode-mute" aria-pressed="true">Tu visión sola</button>
+    <button type="button" id="mode-avatar" aria-pressed="false">Enric y Floki</button>
+    <button type="button" id="mode-enric" aria-pressed="false">Solo Enric</button>
+    <button type="button" id="mode-floki" aria-pressed="false">Solo Floki</button>
+    <button type="button" id="mode-guided" class="opt-span-2" aria-pressed="false">✦ Visita guiada comentada (Enric y Floki)</button>
    </div>
-   <div class="opt-sublabel">Iluminación</div>
-   <div class="opt-grid-4" role="group" aria-label="Iluminación">
-    <button type="button" data-tod="day" aria-pressed="true">Día</button>
-    <button type="button" data-tod="sunset" aria-pressed="false">Atardecer</button>
-    <button type="button" data-tod="night" aria-pressed="false">Noche</button>
-    <button type="button" data-tod="cycle" aria-pressed="false">Ciclo</button>
-   </div>
-   <button type="button" id="day-night-btn" hidden><span id="day-night-label">Día</span></button>
   </section>
   <section class="opt-group">
-   <h3>Modo de visita</h3>
-   <div class="opt-grid-2" role="group" aria-label="Perspectiva de la visita">
-    <button type="button" id="mode-mute" aria-pressed="true">Primera persona</button>
-    <button type="button" id="mode-guided" aria-pressed="false">Visita guiada</button>
-    <button type="button" id="mode-avatar" aria-pressed="false">Enric y Floki</button>
-    <button type="button" id="mode-floki" aria-pressed="false">Solo Floki</button>
+   <h3>Música, luces y recorrido</h3>
+   <div class="opt-grid-2">
+    <button type="button" id="music-btn" aria-pressed="false">♪ <span id="music-label">Sonido ambiental</span></button>
+    <button type="button" id="cinematic-btn" aria-pressed="false">▷ <span id="cinematic-label">Paseo automático</span></button>
    </div>
+   <div class="opt-sublabel">Iluminación de la sala / jardín</div>
+   <div class="opt-grid-4" role="group" aria-label="Iluminación">
+    <button type="button" data-tod="day" aria-pressed="true">☀ Día</button>
+    <button type="button" data-tod="sunset" aria-pressed="false">◐ Atardecer</button>
+    <button type="button" data-tod="night" aria-pressed="false">☾ Noche</button>
+    <button type="button" data-tod="cycle" aria-pressed="false">↻ Ciclo</button>
+   </div>
+   <button type="button" id="day-night-btn" hidden><span id="day-night-label">Día</span></button>
   </section>
   <section class="opt-group" id="opt-room-controls">
    <h3>Vista y espacio</h3>
    <div class="opt-grid-2">
-    <button type="button" id="sculpture-mode-btn">Vista: <span id="sculpture-mode-label">Volumen 3D</span></button>
+    <button type="button" id="sculpture-mode-btn">Versión: <span id="sculpture-mode-label">Versión normal (3D)</span></button>
     <button type="button" id="breeze-btn"><span id="breeze-label">Soplar brisa</span></button>
     <button type="button" id="motion" aria-pressed="true">Ⅱ <span>Movimiento</span></button>
     <button type="button" id="minimap-open-btn" aria-pressed="false">Plano de sala</button>
@@ -224,7 +354,7 @@
   </section>
  </div>
 </dialog>
-<dialog id="collection" class="collection-dialog">
+<dialog id="collection" class="collection-dialog" closedby="any" aria-labelledby="collection-title">
  <div class="dialog-head">
   <div><p class="eyebrow">OBRAS EN ESTA SALA</p><h2 id="collection-title">Obras del espacio</h2></div>
   <button class="close" type="button" data-close aria-label="Cerrar obras">×</button>
@@ -232,9 +362,19 @@
  <div id="collection-exhibitions" class="room-exhibitions-box" hidden></div>
  <div class="work-grid" id="work-grid"></div>
 </dialog>
-<dialog id="photo" class="photo-dialog">
+<dialog id="photo" class="photo-dialog" closedby="any" aria-labelledby="photo-title">
  <button class="close" type="button" data-close aria-label="Cerrar fotografía">×</button>
- <div class="photo-stage"><img id="photo-image" alt=""><div id="photo-angles" class="angle-pills photo-dialog-angles" hidden></div></div>
+ <div class="photo-stage" id="photo-stage">
+  <div class="photo-zoom-viewport" id="photo-zoom-viewport">
+   <img id="photo-image" alt="" draggable="false">
+  </div>
+  <div class="photo-zoom-tools" role="group" aria-label="Zoom de fotografía">
+   <button type="button" id="photo-zoom-out" aria-label="Alejar fotografía">−</button>
+   <button type="button" id="photo-zoom-reset" aria-label="Restablecer zoom al 100%">100%</button>
+   <button type="button" id="photo-zoom-in" aria-label="Acercar fotografía">+</button>
+  </div>
+  <div id="photo-angles" class="angle-pills photo-dialog-angles" hidden></div>
+ </div>
  <div class="photo-meta">
   <div class="inspect-work-nav photo-work-nav" id="photo-work-nav">
    <button type="button" id="photo-prev-work" aria-label="Obra anterior">←</button>
@@ -246,25 +386,25 @@
   <p id="photo-caption">Fotografía del archivo del artista.</p>
   <div class="photo-dialog-actions">
    <button type="button" id="photo-focus-3d" class="secondary-cta-btn">Ver en la sala 3D</button>
-   <a id="photo-catalog" class="primary-cta" href="#" target="_top">Ficha completa ↗</a>
+   <a id="photo-catalog" class="primary-cta" href="#" target="_top">Ficha en la página web ↗</a>
    <a id="photo-series" class="quiet-inline-link" href="#" target="_top" hidden>Serie ↗</a>
   </div>
  </div>
 </dialog>
-<dialog id="help" class="help-dialog">
+<dialog id="help" class="help-dialog" closedby="any" aria-labelledby="help-title">
  <button class="close" type="button" data-close aria-label="Cerrar ayuda">×</button>
- <p class="eyebrow">NAVEGACIÓN</p>
- <h2>Cómo recorrer la sala</h2>
- <div class="help-row"><b>01</b><p><strong>En móvil o tableta</strong>Arrastra en la escena para mirar alrededor, usa el mando circular inferior para caminar o toca cualquier obra para acercarte.</p></div>
- <div class="help-row"><b>02</b><p><strong>En ordenador</strong>Arrastra con el ratón para orientar la vista, camina con W A S D o las flechas (E / Q para cambiar altura) y haz clic en cualquier obra.</p></div>
- <div class="help-row"><b>03</b><p><strong>Obra a obra o paseo</strong>Usa las flechas inferiores (← →) para pasar de una pieza a otra o pulsa «Paseo» para iniciar un recorrido continuo.</p></div>
+ <p class="eyebrow">NAVEGACIÓN Y GESTOS TÁCTILES</p>
+ <h2 id="help-title">Cómo recorrer la sala</h2>
+ <div class="help-row"><b>01</b><p><strong>Caminar y mirar</strong>Toca el suelo o usa el mando inferior izquierdo para caminar; arrastra con un dedo para orientar la mirada, pellizca con dos dedos para acercar o alejar y desliza dos dedos en vertical para ajustar la altura.</p></div>
+ <div class="help-row"><b>02</b><p><strong>Inspección y lupa táctil</strong>Toca cualquier obra para estudiarla: gira esculturas y móviles en 360°, desplaza cuadros o dibujos ampliados con un dedo, haz doble toque para acercar al detalle y pliega la ficha inferior (▾) cuando quieras despejar la pantalla.</p></div>
+ <div class="help-row"><b>03</b><p><strong>Compañía, música y luces</strong>Elige recorrer con tu visión sola o acompañado por Enric y Floki, cambia entre Día, Atardecer, Noche o Ciclo y activa la vista inmersiva (⛶) o el paseo automático.</p></div>
  <button class="primary" type="button" data-close>Continuar</button>
 </dialog>
-<dialog id="about" class="help-dialog">
+<dialog id="about" class="help-dialog" closedby="any" aria-labelledby="about-title">
  <button class="close" type="button" data-close aria-label="Cerrar información">×</button>
  <p class="eyebrow">ARQUITECTURA VIRTUAL</p>
- <h2>Siete espacios vinculados al archivo</h2>
- <p>Las 217 obras catalogadas de Enric Segarra i Garibo se distribuyen en siete espacios virtuales conectados con sus fichas y exposiciones documentales: Galería blanca, Jardín de las Lagartijas (recreación de la parcela de Náquera), Sala de Pintura, Sala de Dibujo, Formas orgánicas, Planos curvos y Móviles 3D.</p>
+ <h2 id="about-title">Siete espacios vinculados al archivo</h2>
+ <p>Las obras catalogadas de Enric Segarra i Garibo se distribuyen en siete espacios virtuales conectados con sus fichas y exposiciones documentales: Galería blanca, Jardín de las Lagartijas (recreación de la parcela de Náquera), Sala de Pintura, Sala de Dibujo, Formas orgánicas, Planos curvos y Móviles 3D.</p>
  <div class="source-links">
   <a href="models/parcela-jardin-lagartijas.glb" download="parcela-jardin-lagartijas.glb">Descargar parcela 3D (.glb) ↓</a>
   <a href="../#/exposiciones" target="_top">Exposiciones vinculadas ↗</a>
@@ -273,5 +413,5 @@
 </dialog>
 <div id="status" class="sr-only" aria-live="polite"></div>
 <noscript><div class="fallback"><h2>Activa JavaScript para recorrer las salas 3D.</h2></div></noscript>
-<script type="module" src="app.js?v=20261111-min-v1"></script>
+<script type="module" src="app.js?v=20261112-v24"></script>
 </body></html>

@@ -412,7 +412,20 @@ const pages = [
         <p class="lead">Un proyecto artístico en un terreno rústico de Náquera (Partida Collado dels Llops) donde esculturas, algarrobos, almendros, olivos y móviles dialogan con el viento y el paisaje mediterráneo.</p>
       </section>
       <blockquote class="artist-statement">
-        <p>«En el silencio y el recogimiento, hablar a la naturaleza con gratitud, respeto y amor es volver a tender un puente hacia ella. Cada móvil recoge el impulso invisible del viento y lo convierte en movimiento. Así, la naturaleza se expresa, y la escultura se vuelve cauce, escucha y celebración de su energía.» — Enric Segarra</p>
+        <div class="statement-header">
+          <p class="statement-eyebrow">Reflexión sobre la naturaleza</p>
+          <footer class="statement-author">— Enric Segarra</footer>
+        </div>
+        <div class="statement-body">
+          <div class="statement-col">
+            <p>En el silencio y el recogimiento, hablar a la naturaleza con gratitud, respeto y amor es volver a tender un puente hacia ella. Escucharla, reconocer su presencia y dejarnos tocar por su misterio quizá sea la forma más íntima de recuperar el vínculo que nos une.</p>
+            <p>Mi obra escultórica transita por diversos lenguajes y materiales. En estos espacios de móviles, sin embargo, es la propia naturaleza quien ofrece la materia: ramas, formas y elementos nacidos del lugar, cargados de su tiempo y de su memoria.</p>
+          </div>
+          <div class="statement-col">
+            <p>La obra se despliega en diálogo con el entorno. Se mueve con el aire, respira con el paisaje y parece surgir de la tierra que la sostiene. No llega para imponerse, sino para pertenecer: una presencia viva en la que arte y naturaleza encuentran su armonía.</p>
+            <p>Cada móvil recoge el impulso invisible del viento y lo convierte en movimiento. Así, la naturaleza se expresa, y la escultura se vuelve cauce, escucha y celebración de su energía.</p>
+          </div>
+        </div>
       </blockquote>`,
   },
   {

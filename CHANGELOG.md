@@ -1,3 +1,19 @@
+## 2026-11-12 — Perfeccionamiento integral de la Galería Virtual 3D para móviles y tablets (`release 8b837e6795`)
+
+- **Interacción multitáctil avanzada y gestos naturales (`dist/galeria-3d/app.js`, `dist/galeria-3d/studio.js`)**:
+  - Selección táctil tolerante (`pickHit`) con muestreo radial y proximidad volumétrica al eje del rayo para que los móviles de alambre fino y las esculturas exentas respondan al primer toque sin afectar al paseo al tocar el suelo.
+  - Desplazamiento con un dedo (*pan* lateral/vertical) sobre pinturas y dibujos durante la inspección, pellizco con dos dedos para zoom persistente en sala (`state.userZoomFov`) o para ajustar altura con arrastre vertical a dos dedos, doble toque para acercar/restablecer encuadre e inercia suave de mirada al soltar el dedo.
+  - Mando táctil (`#joystick-pad`) con zona muerta radial (`10 %`) y soporte de doble pulgar (avance lateral *strafe* simultáneo mientras el otro dedo orienta la cámara en el lienzo), ocultándose automáticamente al inspeccionar una obra.
+  - Lupa multitáctil en el visor de fotografía original (`<dialog id="photo">`): zoom de pellizco (`1×` a `4,5×`), doble toque (`1× ↔ 2,4×`), arrastre de detalle, paso lateral entre obras al `100 %` y barra táctil `− / 100% / +`.
+  - Modo inmersivo multiplataforma (`toggleFullscreenOrImmersive`): API nativa de pantalla completa en Android/tablets y modo inmersivo `100dvh` (`body.immersive-ui`) compatible con iOS Safari.
+- **Diseño adaptativo por formato, orientación y contenedor (`dist/galeria-3d/styles.css`, `dist/galeria-3d/index.html`, `dist/galeria-3d/personajes.html`, `dist/galeria-3d/characters.css`)**:
+  - Hoja inferior de inspección plegable (`#inspect-sheet-toggle` y gesto vertical en `.sheet-grabber`) y tarjeta de proximidad compacta con cierre directo (`#nearby-close`).
+  - Encuadre tridimensional consciente del espacio libre (`getIdealOrbitRadius` y `computeInspectViewOffset`) adaptado automáticamente a móvil vertical, móvil apaisado (panel lateral derecho y portada en 2 columnas sin colisión con joystick ni barra de paseo), tablet vertical (hoja inferior centrada en `701–960 px`) y tablet apaisada, recalculando el radio al girar el dispositivo.
+  - Cumplimiento de objetivos táctiles mínimos de `44×44 px` en punteros táctiles (`@media (pointer: coarse)`, WCAG 2.5.5), márgenes seguros `env(safe-area-inset-*)`, consultas de contenedor (`@container`) y reflujo íntegro hasta `320 px` de ancho sin desbordamiento horizontal (WCAG 1.4.10).
+  - Estudio de personajes (`personajes.html` / `personajes-3d.html`) optimizado para móvil y tablet con el escenario 3D visible en la mitad superior, zoom de pellizco a dos dedos y tipografía legible.
+- **Estabilidad de memoria GPU (VRAM) en dispositivos móviles (`dist/galeria-3d/world.js`, `dist/galeria-3d/app.js`)**:
+  - Reducción del `75 %` en memoria de texturas de cartelas individuales (`512×128` frente a `1024×256`), liberación explícita de geometrías, materiales y mapas de sombras por sala (`disposeWorld`) con caché LRU de máximo 2 salas simultáneas en dispositivos táctiles o de memoria limitada (`<= 4 GB`), protegiendo cachés compartidas y cargas asíncronas GLB.
+
 ## 2026-11-11 — Rediseño minimalista y mobile-first del catálogo web y del Museo Virtual 3D
 
 - **Simplificación editorial y eliminación de fricción visual en la web principal (`dist/app.js`, `dist/styles.css`, `dist/i18n.js`, `scripts/build-seo.mjs`)**:

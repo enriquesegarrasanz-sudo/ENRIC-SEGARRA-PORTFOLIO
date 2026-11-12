@@ -1,3 +1,10 @@
+## 2026-11-12 — Perfeccionamiento táctil, adaptativo y de memoria GPU de la Galería Virtual 3D (`release 8b837e6795`)
+
+- **Experiencia móvil y tablet de precisión museográfica (`dist/galeria-3d/`)**:
+  - Controles táctiles verificados a `>= 44×44 px` (`pointer: coarse`), reflujo limpio desde `320×568 px` hasta iPad vertical (`820×1180`) y apaisado (`1180×820`), y diseño específico para móvil apaisado (`844×390`) sin colisiones entre joystick, barra de recorrido y paneles laterales.
+  - Ficha inferior plegable en móvil/tablet vertical, tarjeta de obra cercana descartable, encuadre 3D calculado sobre el área libre real de pantalla, desplazamiento con un dedo en obra plana, lupa multitáctil (`1×–4,5×`) en fotografía original, modo inmersivo compatible con iPhone Safari y raycast táctil tolerante para móviles de alambre fino.
+  - Gestión activa de VRAM (`disposeWorld` + caché LRU de 2 salas en dispositivos táctiles y cartelas optimizadas a `512×128`) comprobada recorriendo 6 salas consecutivas en Chromium Edge móvil sin pérdida de contexto WebGL ni errores de consola, más actualización táctil de `personajes-3d.html`.
+
 ## 2026-11-11 — Rediseño minimalista y mobile-first de la web y de las 7 Salas 3D
 
 - **Experiencia minimalista, sintética y pensada para móvil (~80 % de visitas)**:
