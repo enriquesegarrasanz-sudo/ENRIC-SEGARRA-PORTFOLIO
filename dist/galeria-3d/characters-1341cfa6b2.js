@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three.module.min.js';
-import {createFather,createDog} from './sculptures-57b542be01.js';
+import {createFather,createDog} from './sculptures-1341cfa6b2.js';
 export {createFather,createDog};
 const V=(x=0,y=0,z=0)=>new THREE.Vector3(x,y,z);
 

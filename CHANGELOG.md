@@ -1,3 +1,14 @@
+## 2026-11-13 — Perfeccionamiento integral de la «Versión fotografía» en las 7 salas 3D y asentamiento documental de `MOV-017` (`release 1341cfa6b2`)
+
+- **Recortes fotográficos de alta fidelidad en las 183 vistas alfa (`dist/galeria-3d/assets/cut-*.webp`, `dist/galeria-3d/world.js`)**:
+  - Reconstrucción íntegra de los **183 recortes fotográficos** (`cut-esc-*`, `cut-mov-*`, `cut-aberturas-*`, `cut-espiral-*`, `cut-planos-*`, `cut-quatre-*`, `cut-tubos-*`) con segmentación `BiRefNet` a `1024×1024`, apertura de calados y huecos interiores, desbordado antihalo y preservación estricta de partes blancas, yesos, mármoles, tubos claros (`ESC-049`), platos de latón (`ESC-017`) y varillas finas (`MOV-021`, `MOV-025`, `MOV-031`), actualizando todas las proporciones `{w, h}` exactas y el parámetro de caché `?v=26`.
+- **Integración fiel de `MOV-017` (Almendro en V y túmulo de piedra) en Jardín y Sala de Móviles (`dist/galeria-3d/world.js`)**:
+  - Extraído directamente de la fotografía documental `ARC-014850` conservando el tronco bifurcado real del almendro seco, el túmulo de piedras calizas y rodeno en la base y las siete tiras perforadas sin cables grises artificiales.
+  - En **El Jardín de las Lagartijas** (`modo=billboard`), `MOV-017` se asienta directamente sobre la tierra y oculta el árbol 3D, el túmulo 3D y la fauna superpuesta para evitar duplicidades o colisiones; en la **Sala 07 · Móviles**, `MOV-017` reposa a ras de suelo sobre halo museográfico con atril de cartela y sin cable de techo tanto en `Versión fotografía` como en `Reproducción 3D`.
+- **Alineación natural de ramas anfitrionas, sombras de silueta real y cero colisiones en las 7 salas (`dist/galeria-3d/world.js`, `dist/galeria-3d/app.js`, `dist/galeria-3d/index.html`)**:
+  - Incorporado `configureCutoutPlane()` con filtrado anisotrópico `16×` y material de profundidad personalizado (`MeshDepthMaterial` con `alphaTest`) para que cada recorte proyecte la sombra exacta de su silueta en lugar de un rectángulo.
+  - Suspendidos limpiamente desde el borde superior bajo las ramas del Gran Algarrobo y del pino compañero los móviles `MOV-016`, `MOV-018`, `MOV-019` y `MOV-022` (desplazando la pita del fondo para despejar la silueta), añadidos troncos anfitriones específicos alineados con los hilos reales de `MOV-032` y `MOV-033`, adelantados los montajes de `ESC-048` y `ESC-051` sin intersección con la corteza y filtrado el giro de vistas en `billboard` exclusivamente a vistas recortadas.
+
 ## 2026-11-13 — Escenario 3D en vivo en portada y Salas 3D, animática de elección de guía, fidelidad escultórica 3D, recortes fotográficos y lagartijas animadas (`release 57b542be01`)
 
 - **Presentación 3D interactiva ya cargada y en vivo en la web principal (`dist/app.js`, `dist/styles.css`, `dist/i18n.js`, `scripts/build-seo.mjs`)**:

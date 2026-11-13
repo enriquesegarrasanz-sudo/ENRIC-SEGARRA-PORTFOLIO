@@ -2077,7 +2077,7 @@ async function init(){
   const initParams=new URLSearchParams(location.search);
   isEmbeddedView=initParams.get('embed')==='1';
   if(isEmbeddedView)document.body.classList.add('is-embedded');
-  api=await import('./world.js?v=20261113-v25');
+  api=await import('./world.js?v=20261113-v26');
   ({THREE,ART,ORGANIC_IDS,CURVED_PLANE_IDS,MOBILE_GALLERY_IDS,PAINTING_IDS,FIGURAS_DIB_IDS,RELIEF_RECORTADOS_IDS,RELIEF_MURALES_IDS,RELIEF_TEXTURA_IDS,INTERVENCIONES_IDS,updateMobiles,disposeWorld,createGallery,createGarden,createDrawingsRoom,createPaintingsRoom,createOrganicRoom,createCurvedPlanesRoom,createMobilesRoom,setSculpturePresentation,getSculpturePresentation,setWorldNightMode,setGardenTimeOfDay,getGardenTimeOfDay}=api);
   renderCollection();
   renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance',alpha:false});

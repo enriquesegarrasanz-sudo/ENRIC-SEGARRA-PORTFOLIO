@@ -1,3 +1,10 @@
+## 2026-11-13 — Perfeccionamiento integral de la «Versión fotografía» en las 7 salas 3D y montaje real de `MOV-017` (`release 1341cfa6b2`)
+
+- **183 recortes alfa regenerados con calados interiores y proporciones exactas (`dist/galeria-3d/assets/cut-*.webp`, `dist/galeria-3d/world.js`)**:
+  - Segmentación de alta resolución (`BiRefNet` + limpieza de huecos internos y antihalo) protegiendo piezas blancas, metálicas y varillas finas, con sombras WebGL proyectadas según la silueta real (`MeshDepthMaterial`) y caché invalidada (`?v=26`, `v=20261113-v26`).
+- **Fidelidad documental y espacial sin colisiones en Jardín y Museo (`dist/galeria-3d/world.js`)**:
+  - `MOV-017` muestra su almendro real en V y su base de piedras (`ARC-014850`) asentados sobre el suelo sin cables añadidos ni solapamiento con elementos 3D en el Jardín, y sin hilo de techo en la Sala de Móviles; ramas anfitrionas y puntos de suspensión calibrados al milímetro para `MOV-016`, `MOV-018`, `MOV-019`, `MOV-022`, `MOV-032`, `MOV-033`, `ESC-048` y `ESC-051`.
+
 ## 2026-11-13 — Escenario 3D en vivo en portada, animática de guías, fidelidad 3D, recortes alfa y lagartijas animadas (`release 57b542be01`)
 
 - **Museo 3D vivo desde el primer vistazo (`dist/app.js`, `dist/styles.css`, `dist/i18n.js`)**:

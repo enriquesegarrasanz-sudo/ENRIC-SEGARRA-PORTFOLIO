@@ -1,4 +1,4 @@
-import {attachCompanions,setCompanionsVisible,positionCompanions,stageCompanionsForPreview,flankCompanionsForInspection,updateCompanions,updateCharacter,act} from './characters-57b542be01.js';
+import {attachCompanions,setCompanionsVisible,positionCompanions,stageCompanionsForPreview,flankCompanionsForInspection,updateCompanions,updateCharacter,act} from './characters-1341cfa6b2.js';
 let visitMode='mute';
 const $=id=>document.getElementById(id);
 let api=null,activeSpace='gallery',currentStop=0,entered=false,selected=null,moving=!matchMedia('(prefers-reduced-motion: reduce)').matches,touring=false,tourTimer=0,previousFocus=null;
@@ -2077,7 +2077,7 @@ async function init(){
   const initParams=new URLSearchParams(location.search);
   isEmbeddedView=initParams.get('embed')==='1';
   if(isEmbeddedView)document.body.classList.add('is-embedded');
-  api=await import('./world-57b542be01.js');
+  api=await import('./world-1341cfa6b2.js');
   ({THREE,ART,ORGANIC_IDS,CURVED_PLANE_IDS,MOBILE_GALLERY_IDS,PAINTING_IDS,FIGURAS_DIB_IDS,RELIEF_RECORTADOS_IDS,RELIEF_MURALES_IDS,RELIEF_TEXTURA_IDS,INTERVENCIONES_IDS,updateMobiles,disposeWorld,createGallery,createGarden,createDrawingsRoom,createPaintingsRoom,createOrganicRoom,createCurvedPlanesRoom,createMobilesRoom,setSculpturePresentation,getSculpturePresentation,setWorldNightMode,setGardenTimeOfDay,getGardenTimeOfDay}=api);
   renderCollection();
   renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance',alpha:false});
