@@ -1,3 +1,12 @@
+## 2026-11-13 — Escenario 3D en vivo en portada, animática de guías, fidelidad 3D, recortes alfa y lagartijas animadas (`release 57b542be01`)
+
+- **Museo 3D vivo desde el primer vistazo (`dist/app.js`, `dist/styles.css`, `dist/i18n.js`)**:
+  - Portada (`#/`) y directorio `#/exposicion-3d` equipados con visor 3D interactivo ya cargado, selector directo de las 7 salas y de los 5 modos de visita, pausa accesible WCAG 2.2.2 y ahorro automático de GPU fuera de pantalla.
+- **Puesta en escena 3D de bienvenida e inspección limpia (`dist/galeria-3d/`)**:
+  - Escenario coreografiado en vivo con Enric y Floki para escoger acompañante (`#entry-companion-card.guide-stage-dock`), cero oclusión del personaje al inspeccionar obras (`PIN-016` y resto del catálogo), transiciones orbitales orgánicas y escalas museográficas equilibradas.
+- **Fidelidad tridimensional respecto a fotografía real y Jardín de las Lagartijas vivo**:
+  - Modelos 3D reconstruidos en Blender 5.2 y Python/Three.js (`MOV-005`/`green`, `MOV-006`, `MOV-014`, `MOV-017`, `MOV-020`, `MOV-021`, `MOV-029`, `MOV-031`, `MOV-032`, `ESC-050`, `ESC-051` y 11 esculturas/relieves `.glb`), recortes alfa sin recuadros blancos en Modo Fotografía para todas las piezas del jardín y 22 lagartijas animadas recorriendo caminos, rocas y bancales.
+
 ## 2026-11-12 — Perfeccionamiento táctil, adaptativo y de memoria GPU de la Galería Virtual 3D (`release 8b837e6795`)
 
 - **Experiencia móvil y tablet de precisión museográfica (`dist/galeria-3d/`)**:

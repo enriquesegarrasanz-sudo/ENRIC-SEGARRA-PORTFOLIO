@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#f6f5ef"><meta name="description" content="Siete salas virtuales 3D de Enric Segarra i Garibo: Galería Blanca, Jardín de las Lagartijas, Sala de Pintura, Sala de Dibujo, Formas orgánicas, Planos curvos y Móviles 3D.">
 <title>Enric Segarra i Garibo · Salas 3D</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23242a23'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='38' font-family='Georgia' fill='%23eeeade'%3Ee%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=20261112-v24">
+<link rel="stylesheet" href="styles.css?v=20261113-v25">
 </head>
 <body>
 <a class="skip" href="#collection">Ir a las obras</a>
@@ -48,63 +48,92 @@
   <h1 id="scene-title">La forma<br>del aire<span>.</span></h1>
   <p class="intro-copy" id="scene-copy">Escultura, relieves, pintura y móviles en el espacio.</p>
   <div class="intro-visit-picker" role="group" aria-label="Elegir cómo recorrer la galería">
-   <p class="intro-picker-label">¿Cómo quieres recorrer la galería?</p>
+   <div class="stage-picker-head">
+    <p class="intro-picker-label">🎬 Escena en vivo · ¿Cómo quieres ser guiado?</p>
+    <button type="button" class="stage-reel-toggle" id="intro-stage-reel-btn" aria-pressed="true" title="Pausar o reanudar la presentación animada de guías">Ⅱ Animática</button>
+   </div>
+   <p class="stage-live-quote" id="intro-stage-quote" aria-live="polite">«¡Hola! Soy Enric, y aquí está Floki. Elige con quién recorrer la sala.»</p>
    <div class="intro-visit-grid">
-    <button type="button" class="intro-visit-card" data-entry-visit="mute" aria-pressed="true">
-     <strong>Tu visión sola</strong>
-     <span>Primera persona</span>
-    </button>
     <button type="button" class="intro-visit-card" data-entry-visit="avatar" aria-pressed="false">
-     <strong>Enric y Floki</strong>
-     <span>Con mi padre y el perro</span>
+     <span class="visit-cast-icon" aria-hidden="true">👥</span>
+     <strong>Con Enric y Floki</strong>
+     <span>Mi padre y el perro</span>
     </button>
     <button type="button" class="intro-visit-card" data-entry-visit="enric" aria-pressed="false">
-     <strong>Solo Enric</strong>
-     <span>Solo con mi padre</span>
+     <span class="visit-cast-icon" aria-hidden="true">🧔</span>
+     <strong>Solo con Enric</strong>
+     <span>El artista como anfitrión</span>
     </button>
     <button type="button" class="intro-visit-card" data-entry-visit="floki" aria-pressed="false">
-     <strong>Solo Floki</strong>
-     <span>Solo con el perro</span>
+     <span class="visit-cast-icon" aria-hidden="true">🐕</span>
+     <strong>Solo con Floki</strong>
+     <span>A ras de suelo con el perro</span>
+    </button>
+    <button type="button" class="intro-visit-card" data-entry-visit="mute" aria-pressed="true">
+     <span class="visit-cast-icon" aria-hidden="true">👁</span>
+     <strong>Por tu cuenta</strong>
+     <span>Visión libre sin personajes</span>
+    </button>
+    <button type="button" class="intro-visit-card visit-card-wide" data-entry-visit="guided" aria-pressed="false">
+     <span class="visit-cast-icon" aria-hidden="true">✦</span>
+     <strong>Visita guiada comentada</strong>
+     <span>Recorrido parada a parada con Enric y Floki</span>
     </button>
    </div>
   </div>
   <div class="intro-actions">
-   <button class="primary" id="enter" type="button">Entrar <span>↗</span></button>
-   <button class="intro-quiet-btn" id="intro-animatica" type="button">▷ Paseo automático</button>
-   <button class="intro-quiet-btn" type="button" data-entry-visit="guided">✦ Visita guiada</button>
+   <button class="primary" id="enter" type="button">Entrar a la sala <span>↗</span></button>
+   <button class="intro-quiet-btn" id="intro-animatica" type="button">▷ Paseo cinematográfico</button>
   </div>
   <p class="intro-settings-hint">Arriba tienes siempre visibles <strong>Compañía</strong>, <strong>Música</strong>, <strong>Luces</strong> y <strong>⚙ Ajustes</strong>.</p>
  </section>
- <aside class="entry-companion-card" id="entry-companion-card" hidden aria-label="Elegir experiencia de visita">
+ <aside class="entry-companion-card guide-stage-dock" id="entry-companion-card" hidden aria-label="Presentación animada del modo de guía">
+  <div class="stage-live-banner">
+   <span class="stage-live-badge" id="stage-live-badge">EN ESCENA · ENRIC Y FLOKI</span>
+   <p class="stage-live-speech" id="stage-live-quote" aria-live="polite">«¡Bienvenido! Pasa el cursor o pulsa cada modo para vernos en escena antes de empezar.»</p>
+  </div>
   <div class="entry-card-head">
    <div>
-    <p class="eyebrow">EXPERIENCIA DE VISITA</p>
-    <h2>¿Con quién quieres recorrer la sala?</h2>
+    <p class="eyebrow">ANIMÁTICA INTERACTIVA EN 3D · MODO DE GUÍA</p>
+    <h2>¿Cómo quieres recorrer la exposición?</h2>
    </div>
-   <button type="button" class="entry-card-close" id="entry-card-close" aria-label="Continuar con la vista actual">×</button>
+   <div class="stage-head-controls">
+    <button type="button" class="stage-reel-toggle" id="stage-reel-pause" aria-pressed="true" title="Pausar o reanudar presentación automática">Ⅱ Pausar escena</button>
+    <button type="button" class="entry-card-close" id="entry-card-close" aria-label="Continuar con la vista actual">×</button>
+   </div>
   </div>
-  <div class="intro-visit-grid entry-card-grid" role="group" aria-label="Compañía en la sala">
-   <button type="button" class="intro-visit-card" data-entry-visit="mute" aria-pressed="true">
-    <strong>Tu visión sola</strong>
-    <span>Sin personajes</span>
-   </button>
-   <button type="button" class="intro-visit-card" data-entry-visit="avatar" aria-pressed="false">
+  <div class="stage-cast-strip" role="group" aria-label="Elegir compañía o modo de visita">
+   <button type="button" class="stage-cast-card" data-stage-visit="avatar" aria-pressed="false">
+    <span class="cast-avatar-pill" aria-hidden="true">👥</span>
     <strong>Enric y Floki</strong>
-    <span>Padre y perro</span>
+    <span>Con mi padre y el perro</span>
    </button>
-   <button type="button" class="intro-visit-card" data-entry-visit="enric" aria-pressed="false">
+   <button type="button" class="stage-cast-card" data-stage-visit="enric" aria-pressed="false">
+    <span class="cast-avatar-pill" aria-hidden="true">🧔</span>
     <strong>Solo Enric</strong>
-    <span>Solo mi padre</span>
+    <span>Paseo con mi padre</span>
    </button>
-   <button type="button" class="intro-visit-card" data-entry-visit="floki" aria-pressed="false">
+   <button type="button" class="stage-cast-card" data-stage-visit="floki" aria-pressed="false">
+    <span class="cast-avatar-pill" aria-hidden="true">🐕</span>
     <strong>Solo Floki</strong>
-    <span>Solo el perro</span>
+    <span>Con el perro por la sala</span>
+   </button>
+   <button type="button" class="stage-cast-card" data-stage-visit="mute" aria-pressed="true">
+    <span class="cast-avatar-pill" aria-hidden="true">👁</span>
+    <strong>Por tu cuenta</strong>
+    <span>Primera persona libre</span>
+   </button>
+   <button type="button" class="stage-cast-card" data-stage-visit="guided" aria-pressed="false">
+    <span class="cast-avatar-pill" aria-hidden="true">✦</span>
+    <strong>Visita guiada</strong>
+    <span>Recorrido comentado</span>
    </button>
   </div>
   <div class="entry-card-footer">
+   <button type="button" class="primary stage-confirm-btn" id="stage-confirm-btn">Comenzar recorrido <span>↗</span></button>
    <button type="button" class="entry-mini-pill" id="entry-music-toggle" aria-pressed="false">♪ Activar música</button>
    <button type="button" class="entry-mini-pill" id="entry-light-toggle">☀ Luz: <span id="entry-light-label">Día</span></button>
-   <button type="button" class="entry-mini-pill" id="entry-open-options">⚙ Todos los ajustes</button>
+   <button type="button" class="entry-mini-pill" id="entry-open-options">⚙ Ajustes</button>
   </div>
  </aside>
  <div class="quick-env-wrap" id="quick-env-wrap" hidden>
@@ -136,7 +165,8 @@
    </button>
   </div>
   <div class="quick-visit-menu" id="quick-visit-menu" hidden role="group" aria-label="Seleccionar compañía">
-   <button type="button" data-quick-visit="mute" aria-pressed="true">👁 Tu visión sola <small>Primera persona</small></button>
+   <button type="button" id="open-guide-stage-btn" class="quick-stage-trigger">🎬 Escena 3D: elegir guía <small>Animática</small></button>
+   <button type="button" data-quick-visit="mute" aria-pressed="true">👁 Por tu cuenta <small>Primera persona</small></button>
    <button type="button" data-quick-visit="avatar" aria-pressed="false">👥 Con Enric y Floki <small>Padre y perro</small></button>
    <button type="button" data-quick-visit="enric" aria-pressed="false">🧔 Solo con Enric <small>Solo mi padre</small></button>
    <button type="button" data-quick-visit="floki" aria-pressed="false">🐕 Solo con Floki <small>Solo el perro</small></button>
@@ -269,6 +299,7 @@
     <button id="orbit-left" type="button" aria-label="Girar a la izquierda">↶</button>
     <span>360°</span>
     <button id="orbit-right" type="button" aria-label="Girar a la derecha">↷</button>
+    <button id="orbit-auto" type="button" aria-pressed="false" aria-label="Giro automático suave" title="Giro continuo 360°">↻</button>
     <button id="zoom-in" type="button" aria-label="Acercar">+</button>
     <button id="zoom-out" type="button" aria-label="Alejar">−</button>
     <button id="orbit-reset" type="button" aria-label="Centrar encuadre" title="Centrar encuadre">⟲</button>
@@ -413,5 +444,5 @@
 </dialog>
 <div id="status" class="sr-only" aria-live="polite"></div>
 <noscript><div class="fallback"><h2>Activa JavaScript para recorrer las salas 3D.</h2></div></noscript>
-<script type="module" src="app.js?v=20261112-v24"></script>
+<script type="module" src="app.js?v=20261113-v25"></script>
 </body></html>

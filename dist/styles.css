@@ -4680,3 +4680,377 @@ dialog#image-dialog.is-animatica .lightbox-progress-fill {
     transform: none !important;
   }
 }
+
+/* ==========================================================================
+   Museo 3D Interactivo en Vivo (Portada #/ y Hub #/exposicion-3d)
+   ========================================================================== */
+#nav a[data-nav="exposicion-3d"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 600;
+  color: #161614;
+}
+#nav a[data-nav="exposicion-3d"]::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #b6883c;
+  flex-shrink: 0;
+}
+
+.home-intro-QuickLinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.live-3d-showcase {
+  margin: 12px 0 44px;
+  border: 1px solid #d8d6ce;
+  border-radius: 18px;
+  background: #faf9f5;
+  overflow: hidden;
+  box-shadow: 0 18px 46px rgba(24, 24, 20, 0.06);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 690px;
+}
+.live-3d-showcase.is-hub {
+  margin: 0 0 48px;
+}
+.live-3d-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px 20px;
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid #e6e4dc;
+  background: #ffffff;
+}
+.live-3d-title-wrap {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+.live-3d-kicker-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+.live-3d-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #1d1d1b;
+}
+.live-3d-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #2f855a;
+  box-shadow: 0 0 0 3px rgba(47, 133, 90, 0.16);
+}
+.live-3d-showcase.is-paused .live-3d-dot {
+  background: #9a988e;
+  box-shadow: none;
+}
+.live-3d-room-tag {
+  font-size: 11.5px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.live-3d-lead {
+  font-size: 13px;
+  color: #54544e;
+  margin: 0;
+}
+.live-3d-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.live3d-ctrl-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 6px 14px;
+  border: 1px solid #d4d1c8;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #20201e;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background 170ms ease, border-color 170ms ease, color 170ms ease;
+}
+.live3d-ctrl-btn:hover,
+.live3d-ctrl-btn:focus-visible {
+  border-color: #20201e;
+  background: #f3f1ea;
+}
+.live3d-ctrl-btn.is-accent {
+  border-color: #cbb07a;
+  background: #fcf8ee;
+  color: #3a2d12;
+}
+.live3d-ctrl-btn.is-accent:hover,
+.live3d-ctrl-btn.is-accent:focus-visible {
+  background: #f5ebd4;
+  border-color: #a8843e;
+}
+.live3d-ctrl-btn[aria-pressed="true"] {
+  background: #20201e;
+  border-color: #20201e;
+  color: #ffffff;
+}
+.live3d-fullscreen-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 38px;
+  padding: 6px 15px;
+  border-radius: 999px;
+  background: #20201e;
+  border: 1px solid #20201e;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 170ms ease;
+}
+.live3d-fullscreen-btn:hover,
+.live3d-fullscreen-btn:focus-visible {
+  background: #383833;
+  color: #ffffff;
+}
+
+.live-3d-rooms {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  background: #f5f4ee;
+  border-bottom: 1px solid #e5e3da;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.live3d-room-pill {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  min-height: 36px;
+  padding: 6px 13px;
+  border-radius: 999px;
+  border: 1px solid #dcd9cf;
+  background: #ffffff;
+  color: #3f3f3a;
+  font-size: 12px;
+  white-space: nowrap;
+  transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+.live3d-room-pill:hover,
+.live3d-room-pill:focus-visible {
+  border-color: #20201e;
+  color: #151513;
+}
+.live3d-room-pill.is-active,
+.live3d-room-pill[aria-pressed="true"] {
+  background: #20201e;
+  border-color: #20201e;
+  color: #ffffff;
+}
+.live3d-room-num {
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  opacity: 0.68;
+  font-variant-numeric: tabular-nums;
+}
+
+.live-3d-viewport-wrap {
+  position: relative;
+  width: 100%;
+  height: clamp(410px, 60dvh, 620px);
+  background: #171715;
+}
+.live-3d-showcase.is-hub .live-3d-viewport-wrap {
+  height: clamp(440px, 65dvh, 680px);
+}
+.live-3d-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #171715;
+}
+
+.live-3d-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 18px;
+  padding: 11px 18px;
+  background: #ffffff;
+  border-top: 1px solid #e6e4dc;
+}
+.live-3d-guides {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.live-3d-guides-label {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: 4px;
+}
+.live3d-guide-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  border: 1px solid #dedbd2;
+  background: #faf9f5;
+  color: #3c3c37;
+  font-size: 11.5px;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+.live3d-guide-pill:hover,
+.live3d-guide-pill:focus-visible {
+  border-color: #20201e;
+  color: #161614;
+}
+.live3d-guide-pill.is-active,
+.live3d-guide-pill[aria-pressed="true"] {
+  background: #20201e;
+  border-color: #20201e;
+  color: #ffffff;
+}
+.live-3d-status {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  margin-left: auto;
+}
+.live-3d-hint {
+  font-size: 11.5px;
+  color: var(--muted);
+}
+.live3d-work-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #f5efe0;
+  border: 1px solid #d5c08e;
+  color: #2b220e;
+  font-size: 11.5px;
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease,
+    display 220ms allow-discrete;
+  transition-behavior: allow-discrete;
+}
+.live3d-work-pill[hidden] {
+  display: none;
+  opacity: 0;
+  transform: translateY(4px);
+}
+@starting-style {
+  .live3d-work-pill:not([hidden]) {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+dialog#image-dialog {
+  opacity: 0;
+  transition:
+    opacity 240ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 620ms cubic-bezier(0.22, 1, 0.36, 1),
+    color 500ms cubic-bezier(0.22, 1, 0.36, 1),
+    overlay 240ms allow-discrete,
+    display 240ms allow-discrete;
+  transition-behavior: allow-discrete;
+}
+dialog#image-dialog[open] {
+  opacity: 1;
+}
+@starting-style {
+  dialog#image-dialog[open] {
+    opacity: 0;
+  }
+}
+
+.sala3d-card-select {
+  width: 100%;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+.quiet-action-btn.is-active {
+  background: #20201e;
+  border-color: #20201e;
+  color: #ffffff;
+}
+.home-carousel-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 760px) {
+  .live-3d-showcase {
+    margin: 8px 0 30px;
+    border-radius: 14px;
+  }
+  .live-3d-head {
+    padding: 13px 14px 10px;
+  }
+  .live-3d-lead {
+    display: none;
+  }
+  .live-3d-rooms {
+    padding: 8px 12px;
+  }
+  .live-3d-viewport-wrap,
+  .live-3d-showcase.is-hub .live-3d-viewport-wrap {
+    height: clamp(340px, 54dvh, 470px);
+  }
+  .live-3d-foot {
+    padding: 10px 12px;
+  }
+  .live-3d-guides-label,
+  .live-3d-hint {
+    display: none;
+  }
+}
+@media (pointer: coarse) {
+  .live3d-ctrl-btn,
+  .live3d-fullscreen-btn,
+  .live3d-room-pill,
+  .live3d-guide-pill {
+    min-height: 40px;
+  }
+}

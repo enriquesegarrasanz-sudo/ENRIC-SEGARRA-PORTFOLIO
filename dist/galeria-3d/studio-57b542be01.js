@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three.module.min.js';
-import {createFather,createDog,updateCharacter,act} from './characters-8b837e6795.js';
+import {createFather,createDog,updateCharacter,act} from './characters-57b542be01.js';
 const $=id=>document.getElementById(id),reduced=matchMedia('(prefers-reduced-motion: reduce)');
 let renderer,scene,camera,pair,father,dog,subject='both',angle=.25,elevation=.1,distance=3.5,spinning=false,walking=false,last=0,time=0,pinching=false,lastTap=0;
 const pointers=new Map();

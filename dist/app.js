@@ -24,7 +24,7 @@ import {
   educationDescriptions,
   readings,
 } from "./education.js";
-import { applyTranslations, initLanguage } from "./i18n.js?v=20261111-minimal-v1";
+import { applyTranslations, initLanguage } from "./i18n.js?v=20261113-live3d-v25";
 const main = document.querySelector("main"),
   dialog = document.querySelector("#image-dialog");
 const esc = (v) =>
@@ -73,6 +73,22 @@ const SPACE_HASH_MAP = {
   organic: "formas-organicas",
   curvos: "planos-curvos",
   mobiles: "moviles",
+};
+const HASH_TO_SPACE_MAP = {
+  galeria: "gallery",
+  jardin: "garden",
+  pintura: "paintings",
+  dibujo: "drawings",
+  "formas-organicas": "organic",
+  "planos-curvos": "curvos",
+  moviles: "mobiles",
+};
+const VISIT_QUERY_MAP = {
+  avatar: "personaje",
+  enric: "enric",
+  floki: "floki",
+  mute: "sola",
+  guided: "acompanada",
 };
 const EXHIBITION_3D_LINKS = {
   colomina: {
@@ -419,7 +435,12 @@ function home() {
     { image: "hero-work-blue-green-drawing-real-neutral-v3.webp", alt: "Dibujo abstracto azul y verde", kind: "dibujo" },
     { image: "hero-work-painted-relief-real-neutral-v3.webp", alt: "Relieve pintado multicolor", kind: "pintura" },
   ];
-  return `<section class="home-introduction"><p class="eyebrow">Escultura · Pintura · Dibujo</p><h1>ENRIC SEGARRA I GARIBO</h1><p>${esc(site.intro)}</p></section><section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async"><figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption></figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>${homeDirectory()}`;
+  return (
+    `<section class="home-introduction"><p class="eyebrow">Escultura · Pintura · Dibujo · Museo 3D</p><h1>ENRIC SEGARRA I GARIBO</h1><p>${esc(site.intro)}</p><div class="home-intro-QuickLinks"><a class="btn-minimal-3d" href="#/exposicion-3d">Salas 3D <span>↗</span></a><a class="btn-minimal-secondary" href="${room3dUrl("galeria", "autoenter=1")}">Pantalla completa <span>↗</span></a></div></section>` +
+    renderLive3dStage("galeria", "home") +
+    `<section class="home-carousel-hero"><div class="home-carousel-stage" data-home-carousel aria-roledescription="carrusel" aria-label="Selección de obra de ENRIC SEGARRA I GARIBO"><div class="home-carousel-slides">${slides.map((slide, i) => `<figure class="home-carousel-slide${i === 0 ? " is-active" : ""}" data-home-slide aria-hidden="${i === 0 ? "false" : "true"}"><img src="assets/${slide.image}" alt="${esc(slide.alt)}" loading="${i < 2 ? "eager" : "lazy"}" decoding="async"><figcaption class="home-carousel-label"><span>${esc(slide.kind)}</span></figcaption></figure>`).join("")}</div><div class="home-carousel-nav"><button type="button" data-home-carousel-pause aria-pressed="false" aria-label="Pausar carrusel"><span aria-hidden="true">Ⅱ</span></button><button type="button" data-home-carousel-next aria-label="Siguiente obra"><span aria-hidden="true">→</span></button></div></div></section>` +
+    homeDirectory()
+  );
 }
 
 
@@ -666,19 +687,82 @@ function getRooms3dCatalog() {
     { hash: "moviles", num: "07", label: "Sala de Móviles", count: "33 obras", cover: "hero-work-baskets-real-neutral-v3", fit: "contain", sectionPath: "/moviles", sectionLabel: "Móviles", desc: "Nave diáfana con los 33 móviles suspendidos a tres alturas y brisa interactiva." },
   ];
 }
-function renderSalas3dGrid(rooms, highlightHash = "") {
-  return `<div class="salas3d-grid">${rooms.map((r) => `<article class="sala3d-card reveal${r.hash === highlightHash ? " is-highlighted" : ""}" data-sala3d-card="${r.hash}"><a class="sala3d-card-main" href="${room3dUrl(r.hash, "autoenter=1")}"><div class="sala3d-card-meta"><span>${r.num}</span><span>${esc(r.count)}</span></div><div class="image-space is-${r.fit}">${img(r.cover, r.label)}</div><div class="sala3d-card-head"><h2>${esc(r.label)}</h2><span aria-hidden="true">↗</span></div><p>${esc(r.desc)}</p></a><div class="sala3d-card-foot"><a class="sala3d-enter-link" href="${room3dUrl(r.hash, "autoenter=1")}">Entrar en sala <span aria-hidden="true">↗</span></a>${a(r.sectionPath, "Catálogo: " + esc(r.sectionLabel) + " " + arrow, "quiet-3d-link")}</div></article>`).join("")}</div>`;
+function renderLive3dStage(initialHash = "galeria", variant = "home") {
+  const rooms = getRooms3dCatalog();
+  const activeRoom = rooms.find((r) => r.hash === initialHash) || rooms[0];
+  const guides = [
+    ["avatar", "Enric y Floki"],
+    ["enric", "Solo Enric"],
+    ["floki", "Solo Floki"],
+    ["mute", "Por tu cuenta"],
+    ["guided", "Visita guiada"],
+  ];
+  return (
+    `<section class="live-3d-showcase is-${variant}" id="${variant === "home" ? "home-live-3d" : "hub-live-3d"}" data-live-3d-root data-active-room="${esc(activeRoom.hash)}" data-active-visit="avatar" aria-label="Museo 3D interactivo · En vivo">` +
+      `<div class="live-3d-head">` +
+        `<div class="live-3d-title-wrap">` +
+          `<div class="live-3d-kicker-row">` +
+            `<span class="live-3d-badge"><span class="live-3d-dot" aria-hidden="true"></span><span>Museo 3D interactivo · En vivo</span></span>` +
+            `<span class="live-3d-room-tag" data-live3d-room-summary>${esc(activeRoom.num)} · ${esc(activeRoom.label)} · ${esc(activeRoom.count)}</span>` +
+          `</div>` +
+          `<p class="live-3d-lead">Explora aquí mismo las 7 salas tridimensionales con Enric y Floki o ábrelas a pantalla completa</p>` +
+        `</div>` +
+        `<div class="live-3d-actions">` +
+          `<button type="button" class="live3d-ctrl-btn is-accent" data-live3d-guide-stage>Elegir guía en 3D</button>` +
+          `<button type="button" class="live3d-ctrl-btn" data-live3d-pause aria-pressed="false">Pausar 3D</button>` +
+          `<a class="live3d-fullscreen-btn" data-live3d-fullscreen href="${room3dUrl(activeRoom.hash, "autoenter=1&visita=personaje")}">Pantalla completa <span aria-hidden="true">↗</span></a>` +
+        `</div>` +
+      `</div>` +
+      `<div class="live-3d-rooms" role="toolbar" aria-label="Salas 3D">` +
+        rooms.map((r) => `<button type="button" class="live3d-room-pill${r.hash === activeRoom.hash ? " is-active" : ""}" data-live3d-room="${esc(r.hash)}" aria-pressed="${r.hash === activeRoom.hash}"><span class="live3d-room-num">${esc(r.num)}</span><span>${esc(r.label)}</span></button>`).join("") +
+      `</div>` +
+      `<div class="live-3d-viewport-wrap">` +
+        `<iframe class="live-3d-iframe" data-live3d-iframe src="${room3dUrl(activeRoom.hash, "autoenter=1&embed=1&visita=personaje")}" title="Museo 3D interactivo de Enric Segarra i Garibo" loading="eager" allow="fullscreen"></iframe>` +
+      `</div>` +
+      `<div class="live-3d-foot">` +
+        `<div class="live-3d-guides" role="group" aria-label="Modo de compañía">` +
+          `<span class="live-3d-guides-label">Modo de compañía</span>` +
+          guides.map(([mode, label]) => `<button type="button" class="live3d-guide-pill${mode === "avatar" ? " is-active" : ""}" data-live3d-visit="${mode}" aria-pressed="${mode === "avatar"}">${esc(label)}</button>`).join("") +
+        `</div>` +
+        `<div class="live-3d-status">` +
+          `<a class="live3d-work-pill" data-live3d-work-link href="#/exposicion-3d" hidden></a>` +
+          `<span class="live-3d-hint" data-live3d-hint>Arrastra dentro del visor para mirar o caminar · Toca cualquier obra para acercarte en 360°</span>` +
+        `</div>` +
+      `</div>` +
+    `</section>`
+  );
+}
+function renderSalas3dGrid(rooms, highlightHash = "", syncWithStage = false) {
+  const activeHash = highlightHash || (syncWithStage && rooms[0]?.hash) || "";
+  return `<div class="salas3d-grid">${rooms.map((r) => {
+    const isCurrent = r.hash === activeHash;
+    const cardHeadInner = `<div class="sala3d-card-meta"><span>${r.num}</span><span>${esc(r.count)}</span></div><div class="image-space is-${r.fit}">${img(r.cover, r.label)}</div><div class="sala3d-card-head"><h2>${esc(r.label)}</h2><span aria-hidden="true">${syncWithStage ? "◎" : "↗"}</span></div><p>${esc(r.desc)}</p>`;
+    return (
+      `<article class="sala3d-card reveal${isCurrent ? " is-highlighted" : ""}" data-sala3d-card="${r.hash}">` +
+      (syncWithStage
+        ? `<button type="button" class="sala3d-card-main sala3d-card-select" data-select-sala3d="${esc(r.hash)}" aria-pressed="${isCurrent}">${cardHeadInner}</button>`
+        : `<a class="sala3d-card-main" href="${room3dUrl(r.hash, "autoenter=1")}">${cardHeadInner}</a>`) +
+      `<div class="sala3d-card-foot">` +
+        (syncWithStage
+          ? `<button type="button" class="quiet-action-btn${isCurrent ? " is-active" : ""}" data-select-sala3d="${esc(r.hash)}" aria-pressed="${isCurrent}">${isCurrent ? "En el visor" : "Seleccionar en el visor"}</button>`
+          : "") +
+        `<a class="sala3d-enter-link" href="${room3dUrl(r.hash, "autoenter=1")}">${syncWithStage ? "Pantalla completa" : "Entrar en sala"} <span aria-hidden="true">↗</span></a>` +
+        `${a(r.sectionPath, "Catálogo: " + esc(r.sectionLabel) + " " + arrow, "quiet-3d-link")}` +
+      `</div></article>`
+    );
+  }).join("")}</div>`;
 }
 function exposicion3dPage(params = new URLSearchParams()) {
-  const requestedRoom = params.get("sala") || "";
   const rooms = getRooms3dCatalog();
+  const requestedRoom = params.get("sala") || rooms[0].hash;
   return (
     head(
       "Museo virtual · 7 espacios",
       "Salas 3D",
-      "Recorrido tridimensional por las 217 obras del catálogo y el Jardín de las Lagartijas. Toca cualquier sala para entrar a pantalla completa.",
+      "Recorrido tridimensional por las 217 obras del catálogo y el Jardín de las Lagartijas. Explora cada sala en vivo aquí mismo o entra a pantalla completa.",
     ) +
-    `<section class="expo3d-hub" aria-label="Salas virtuales 3D">${renderSalas3dGrid(rooms, requestedRoom)}</section>`
+    renderLive3dStage(requestedRoom, "hub") +
+    `<section class="expo3d-hub" aria-label="Salas virtuales 3D">${renderSalas3dGrid(rooms, requestedRoom, true)}</section>`
   );
 }
 function workIndex(category = "todas", params = new URLSearchParams()) {
@@ -974,6 +1058,7 @@ function exhibitions(params) {
     ["salas-3d", "Salas 3D", rooms3d.length],
   ];
   if (f === "salas-3d") {
+    const stageHash = filteredRooms3d[0]?.hash || "galeria";
     return (
       head(
         "Encuentros con el público",
@@ -981,8 +1066,9 @@ function exhibitions(params) {
         "Los siete espacios virtuales en relación con las exposiciones y el catálogo.",
       ) +
       `<nav class="tabs" aria-label="Tipo de exposición">${types.map(([id, t, count]) => a("/exposiciones" + (id === "todas" ? "" : "?tipo=" + id), t + ` <sup>${count}</sup>`, id === f ? "active" : "")).join("")}</nav>` +
+      renderLive3dStage(stageHash, "hub") +
       `<div class="result-line"><p role="status">${filteredRooms3d.length} salas 3D</p></div>` +
-      renderSalas3dGrid(filteredRooms3d)
+      renderSalas3dGrid(filteredRooms3d, stageHash, true)
     );
   }
   return (
@@ -1385,6 +1471,7 @@ function render({ keepScroll = false } = {}) {
   attachArchiveEvents();
   attachJourneyEvents();
   attachHomeCarousel();
+  attachLive3dStage();
   applyTranslations(document);
   observe();
   if (shouldRevealSeriesResults) {
@@ -1398,11 +1485,11 @@ function render({ keepScroll = false } = {}) {
     });
   } else if (shouldRevealExpoStage) {
     requestAnimationFrame(() => {
-      document.querySelector("[data-sala3d-card].is-highlighted")?.scrollIntoView({
+      (document.querySelector("[data-live-3d-root]") || document.querySelector("[data-sala3d-card].is-highlighted"))?.scrollIntoView({
         behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
           ? "instant"
           : "smooth",
-        block: "center",
+        block: "start",
       });
     });
   }
@@ -1509,9 +1596,19 @@ function attachHomeCarousel() {
   const counter = carousel.querySelector("[data-home-carousel-counter]");
   const prev = carousel.querySelector("[data-home-carousel-prev]");
   const next = carousel.querySelector("[data-home-carousel-next]");
+  const pauseBtn = carousel.querySelector("[data-home-carousel-pause]");
   const stage = carousel.querySelector("[data-home-carousel-stage]");
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
   const total = String(slides.length).padStart(2, "0");
-  let index = 0, timer = null;
+  let index = 0, timer = null, userPaused = reduceMotion.matches;
+  const syncPauseBtn = () => {
+    if (!pauseBtn) return;
+    pauseBtn.setAttribute("aria-pressed", String(userPaused));
+    pauseBtn.setAttribute("aria-label", userPaused ? "Reanudar carrusel" : "Pausar carrusel");
+    const icon = pauseBtn.querySelector("span");
+    if (icon) icon.textContent = userPaused ? "▷" : "Ⅱ";
+    applyTranslations(pauseBtn);
+  };
   const show = (target) => {
     const nextIdx = (target + slides.length) % slides.length;
     if (nextIdx === index) return;
@@ -1544,13 +1641,19 @@ function attachHomeCarousel() {
   };
   const schedule = () => {
     stop();
-    if (!document.hidden && slides.length > 1) {
+    if (!userPaused && !document.hidden && slides.length > 1) {
       timer = window.setTimeout(() => {
         show(index + 1);
         schedule();
       }, 4800);
     }
   };
+  pauseBtn?.addEventListener("click", () => {
+    userPaused = !userPaused;
+    syncPauseBtn();
+    if (userPaused) stop();
+    else schedule();
+  });
   prev?.addEventListener("click", () => { show(index - 1); schedule(); });
   next?.addEventListener("click", () => { show(index + 1); schedule(); });
   stage?.addEventListener("click", () => { show(index + 1); schedule(); });
@@ -1560,9 +1663,180 @@ function attachHomeCarousel() {
       schedule();
     });
   });
+  syncPauseBtn();
   document.addEventListener("visibilitychange", () => document.hidden ? stop() : schedule(), { signal: pageEvents.signal });
   schedule();
   homeCarouselStop = stop;
+}
+
+function attachLive3dStage() {
+  const rootEl = document.querySelector("[data-live-3d-root]");
+  if (!rootEl) return;
+  const iframe = rootEl.querySelector("[data-live3d-iframe]");
+  if (!iframe) return;
+  const rooms = getRooms3dCatalog();
+  const roomSummary = rootEl.querySelector("[data-live3d-room-summary]");
+  const fullscreenLink = rootEl.querySelector("[data-live3d-fullscreen]");
+  const pauseBtn = rootEl.querySelector("[data-live3d-pause]");
+  const guideStageBtn = rootEl.querySelector("[data-live3d-guide-stage]");
+  const workLink = rootEl.querySelector("[data-live3d-work-link]");
+  const hintEl = rootEl.querySelector("[data-live3d-hint]");
+  let activeHash = rootEl.dataset.activeRoom || "galeria";
+  let activeVisit = rootEl.dataset.activeVisit || "avatar";
+  let userPaused = false;
+  let contentSkipped = false;
+  let inViewport = true;
+
+  const postCmd = (payload) => {
+    try {
+      iframe.contentWindow?.postMessage({ type: "museum-cmd", ...payload }, "*");
+    } catch {}
+  };
+
+  const syncEffectivePause = () => {
+    const shouldPause = Boolean(userPaused || contentSkipped || !inViewport || document.hidden);
+    rootEl.classList.toggle("is-paused", Boolean(userPaused));
+    if (pauseBtn) {
+      pauseBtn.setAttribute("aria-pressed", String(userPaused));
+      pauseBtn.textContent = userPaused ? "Reanudar 3D" : "Pausar 3D";
+      applyTranslations(pauseBtn);
+    }
+    postCmd({ action: "set-paused", paused: shouldPause });
+  };
+
+  const syncStageUi = (hash, visit) => {
+    if (hash) activeHash = hash;
+    if (visit) activeVisit = visit;
+    rootEl.dataset.activeRoom = activeHash;
+    rootEl.dataset.activeVisit = activeVisit;
+    const roomMeta = rooms.find((r) => r.hash === activeHash) || rooms[0];
+    if (roomSummary && roomMeta) {
+      roomSummary.textContent = `${roomMeta.num} · ${roomMeta.label} · ${roomMeta.count}`;
+      applyTranslations(roomSummary);
+    }
+    if (fullscreenLink) {
+      const visitParam = VISIT_QUERY_MAP[activeVisit] || "personaje";
+      fullscreenLink.href = room3dUrl(activeHash, `autoenter=1&visita=${encodeURIComponent(visitParam)}`);
+    }
+    rootEl.querySelectorAll("[data-live3d-room]").forEach((btn) => {
+      const on = btn.dataset.live3dRoom === activeHash;
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-pressed", String(on));
+    });
+    rootEl.querySelectorAll("[data-live3d-visit]").forEach((btn) => {
+      const on = btn.dataset.live3dVisit === activeVisit;
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-pressed", String(on));
+    });
+    document.querySelectorAll("[data-sala3d-card]").forEach((card) => {
+      const on = card.dataset.sala3dCard === activeHash;
+      card.classList.toggle("is-highlighted", on);
+      card.querySelectorAll("[data-select-sala3d]").forEach((btn) => {
+        btn.setAttribute("aria-pressed", String(on));
+        if (btn.classList.contains("quiet-action-btn")) {
+          btn.classList.toggle("is-active", on);
+          btn.textContent = on ? "En el visor" : "Seleccionar en el visor";
+          applyTranslations(btn);
+        }
+      });
+    });
+  };
+
+  const selectRoomHash = (hash, scrollStage = false) => {
+    const space = HASH_TO_SPACE_MAP[hash];
+    if (!space) return;
+    if (userPaused) {
+      userPaused = false;
+      syncEffectivePause();
+    }
+    syncStageUi(hash, activeVisit);
+    postCmd({ space, autoenter: true });
+    if (scrollStage) {
+      const rect = rootEl.getBoundingClientRect();
+      if (rect.top < -80 || rect.top > window.innerHeight * 0.45) {
+        rootEl.scrollIntoView({
+          behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
+          block: "start",
+        });
+      }
+    }
+  };
+
+  rootEl.querySelectorAll("[data-live3d-room]").forEach((btn) => {
+    btn.addEventListener("click", () => selectRoomHash(btn.dataset.live3dRoom, false), { signal: pageEvents.signal });
+  });
+  document.querySelectorAll("[data-select-sala3d]").forEach((btn) => {
+    btn.addEventListener("click", () => selectRoomHash(btn.dataset.selectSala3d, true), { signal: pageEvents.signal });
+  });
+  rootEl.querySelectorAll("[data-live3d-visit]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const mode = btn.dataset.live3dVisit || "avatar";
+      if (userPaused) {
+        userPaused = false;
+        syncEffectivePause();
+      }
+      syncStageUi(activeHash, mode);
+      postCmd({ visitMode: mode, autoenter: true });
+    }, { signal: pageEvents.signal });
+  });
+  guideStageBtn?.addEventListener("click", () => {
+    if (userPaused) {
+      userPaused = false;
+      syncEffectivePause();
+    }
+    postCmd({ action: "open-guide-stage", visitMode: activeVisit });
+  }, { signal: pageEvents.signal });
+  pauseBtn?.addEventListener("click", () => {
+    userPaused = !userPaused;
+    syncEffectivePause();
+  }, { signal: pageEvents.signal });
+
+  rootEl.addEventListener("contentvisibilityautostatechange", (event) => {
+    contentSkipped = Boolean(event.skipped);
+    syncEffectivePause();
+  }, { signal: pageEvents.signal });
+
+  if (typeof IntersectionObserver !== "undefined") {
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.target === rootEl) {
+            inViewport = entry.isIntersecting;
+            syncEffectivePause();
+          }
+        }
+      },
+      { rootMargin: "160px 0px", threshold: 0.02 },
+    );
+    io.observe(rootEl);
+    pageEvents.signal.addEventListener("abort", () => io.disconnect(), { once: true });
+  }
+
+  document.addEventListener("visibilitychange", syncEffectivePause, { signal: pageEvents.signal });
+  iframe.addEventListener("load", () => syncEffectivePause(), { signal: pageEvents.signal });
+
+  window.addEventListener("message", (event) => {
+    if (event.source !== iframe.contentWindow) return;
+    const d = event.data;
+    if (!d || d.type !== "museum-state") return;
+    const nextHash = SPACE_HASH_MAP[d.space] || activeHash;
+    const nextVisit = d.visitMode || activeVisit;
+    if (nextHash !== activeHash || nextVisit !== activeVisit) {
+      syncStageUi(nextHash, nextVisit);
+    }
+    if (workLink) {
+      if (d.work && d.work.code) {
+        const matchW = works.find((w) => w.reference === d.work.code || w.id === d.work.catalogId);
+        workLink.href = matchW ? `#/obra/${matchW.id}` : `#/exposicion-3d?sala=${encodeURIComponent(nextHash)}`;
+        workLink.textContent = `${d.work.code} · ${d.work.title} ↗`;
+        workLink.hidden = false;
+        if (hintEl) hintEl.hidden = true;
+      } else {
+        workLink.hidden = true;
+        if (hintEl) hintEl.hidden = false;
+      }
+    }
+  }, { signal: pageEvents.signal });
 }
 
 function updateFilters(view) {

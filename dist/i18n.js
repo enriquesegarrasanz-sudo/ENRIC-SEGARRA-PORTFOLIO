@@ -383,6 +383,26 @@ const copy = {
   "Ver en": ["Veure a","View in","Voir dans","查看于","3Dで見る：",null,null,null],
   "Catálogo:": ["Catàleg:","Catalogue:","Catalogue :","目录：","カタログ：",null,null,null],
   "Orígenes · Taller · Contacto": ["Orígens · Taller · Contacte","Origins · Studio · Contact","Origines · Atelier · Contact","起源 · 工作室 · 联系","原点 · アトリエ · 連絡先",null,null,null],
+  "Escultura · Pintura · Dibujo · Museo 3D": ["Escultura · Pintura · Dibuix · Museu 3D","Sculpture · Painting · Drawing · 3D Museum","Sculpture · Peinture · Dessin · Musée 3D","雕塑 · 绘画 · 素描 · 3D 博物馆","彫刻 · 絵画 · ドローイング · 3Dミュージアム",null,null,null],
+  "Museo 3D interactivo · En vivo": ["Museu 3D interactiu · En viu","Interactive 3D Museum · Live","Musée 3D interactif · En direct","互动 3D 博物馆 · 实时体验","インタラクティブ 3D ミュージアム · ライブ",null,null,null],
+  "Explora aquí mismo las 7 salas tridimensionales con Enric y Floki o ábrelas a pantalla completa": ["Explora ací mateix les 7 sales tridimensionals amb Enric i Floki o obri-les a pantalla completa","Explore all 7 three-dimensional rooms right here with Enric and Floki or open them in full screen","Explorez ici même les 7 salles tridimensionnelles avec Enric et Floki ou ouvrez-les en plein écran","在此直接与 Enric 和 Floki 一同游览 7 个三维展厅，或全屏打开","ここで直接エンリックとフロキと一緒に7つの3D展示室を巡るか、全画面で開けます",null,null,null],
+  "Elegir guía en 3D": ["Triar guia en 3D","Choose 3D guide","Choisir le guide 3D","选择 3D 导览伙伴","3Dガイドを選ぶ",null,null,null],
+  "Pausar 3D": ["Pausa 3D","Pause 3D","Pause 3D","暂停 3D","3Dを一時停止",null,null,null],
+  "Reanudar 3D": ["Reprèn 3D","Resume 3D","Reprendre 3D","继续 3D","3Dを再開",null,null,null],
+  "Pantalla completa": ["Pantalla completa","Full screen","Plein écran","全屏浏览","全画面表示",null,null,null],
+  "Modo de compañía": ["Companyia","Companion mode","Mode d’accompagnement","导览方式","同行モード",null,null,null],
+  "Enric y Floki": ["Enric i Floki","Enric and Floki","Enric et Floki","Enric 与 Floki","エンリックとフロキ",null,null,null],
+  "Solo Enric": ["Només Enric","Only Enric","Enric seul","仅 Enric","エンリックのみ",null,null,null],
+  "Solo Floki": ["Només Floki","Only Floki","Floki seul","仅 Floki","フロキのみ",null,null,null],
+  "Por tu cuenta": ["Pel teu compte","On your own","En solo","自由游览","ひとりで巡る",null,null,null],
+  "Visita guiada": ["Visita guiada","Guided tour","Visite guidée","语音/文字导览","ガイドツアー",null,null,null],
+  "Arrastra dentro del visor para mirar o caminar · Toca cualquier obra para acercarte en 360°": ["Arrossega dins del visor per mirar o caminar · Toca qualsevol obra per acostar-te en 360°","Drag inside the viewer to look or walk · Tap any artwork to inspect in 360°","Faites glisser dans la vue pour regarder ou marcher · Touchez une œuvre pour l’examiner à 360°","在视窗内拖动即可环顾或行走 · 点击任意作品可 360° 近距离观赏","ビューア内をドラッグして見回す・歩く · 作品をタップして360°鑑賞",null,null,null],
+  "Seleccionar en el visor": ["Veure al visor","Load in viewer","Voir dans le lecteur","在视窗中打开","ビューアで表示",null,null,null],
+  "En el visor": ["Al visor","In viewer","Affiché","当前正在浏览","表示中",null,null,null],
+  "Pausar carrusel": ["Pausa el carrusel","Pause carousel","Mettre le carrousel en pause","暂停轮播","スライドを一時停止",null,null,null],
+  "Reanudar carrusel": ["Reprèn el carrusel","Resume carousel","Reprendre le carrousel","继续轮播","スライドを再開",null,null,null],
+  "Museo 3D interactivo de Enric Segarra i Garibo": ["Museu 3D interactiu d’Enric Segarra i Garibo","Interactive 3D Museum of Enric Segarra i Garibo","Musée 3D interactif d’Enric Segarra i Garibo","Enric Segarra i Garibo 互动 3D 博物馆","Enric Segarra i Garibo インタラクティブ 3D ミュージアム",null,null,null],
+  "Recorrido tridimensional por las 217 obras del catálogo y el Jardín de las Lagartijas. Explora cada sala en vivo aquí mismo o entra a pantalla completa.": ["Recorregut tridimensional per les 217 obres del catàleg i el Jardí de les Sargantanes. Explora cada sala en viu ací mateix o entra a pantalla completa.","Three-dimensional tour through all 217 catalogue works and the Garden of the Lizards. Explore every room live right here or enter full screen.","Parcours tridimensionnel des 217 œuvres du catalogue et du Jardin des Lézards. Explorez chaque salle en direct ici même ou entrez en plein écran.","三维游览目录全部 217 件作品与蜥蜴花园。在此实时探索各个展厅或全屏进入。","カタログ全217点の作品と「トカゲの庭」を巡る3Dツアー。ここで各展示室をライブ体験するか、全画面で入場できます。",null,null,null],
 };
 
 const dynamic = [
@@ -415,6 +435,7 @@ const dynamic = [
   [/^(.+) \/ ([A-Z]{3}-\d{3})$/, (cat, ref) => `${translateText(cat)} / ${ref}`],
   [/^(.+) · (\d+) \/ (\d+) · (.+)$/, (label, a, b, ref) => `${translateText(label)} · ${a} / ${b} · ${ref}`],
   [/^Documento (ARC-\d+)$/, (ref) => `${phrase("Documentación")} ${ref}`],
+  [/^(\d+) · (.+) · (\d+ obras?)$/, (numStr, room, countStr) => `${numStr} · ${translateText(room)} · ${translateText(countStr)}`],
 ];
 
 let current = "es";

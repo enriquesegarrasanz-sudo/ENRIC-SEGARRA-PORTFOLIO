@@ -102,24 +102,24 @@ export const ART=[
  {id:"mov013",code:"MOV-013",catalogId:"moviles-014764",title:"Discos rosas en dos recorridos",kind:'mobile',image:"assets/mov-013.webp",glb:"assets/hy3d-mov-013.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-013-1.webp",w:0.798,h:2.15,label:"Vista frontal"},{src:"assets/cut-mov-013-2.webp",w:0.81,h:2.15,label:"Detalle 1",cutout:false},{src:"assets/cut-mov-013-3.webp",w:0.74,h:2.15,label:"Detalle 2",cutout:false}],height:2.15,description:"Discos rosas en dos recorridos (MOV-013). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov014",code:"MOV-014",catalogId:"aros",title:"Composición de aros",kind:'mobile',image:"assets/mov-014.webp",glb:"assets/hy3d-mov-014.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-014-1.webp",w:1.273,h:1.95,label:"Vista frontal"}],height:1.95,description:"Composición de aros (MOV-014). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov015",code:"MOV-015",catalogId:"moviles-014821",title:"Una forma articulada",kind:'mobile',image:"assets/mov-015.webp",glb:"assets/hy3d-mov-015.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-015-4.webp",w:0.7,h:2.15,label:"Vista vertical"},{src:"assets/cut-mov-015-1.webp",w:2.155,h:1.24,label:"Vista horizontal 1"},{src:"assets/cut-mov-015-3.webp",w:1.905,h:1.24,label:"Vista horizontal 2"},{src:"assets/cut-mov-015-2.webp",w:1.691,h:2.15,label:"Detalle articulado",cutout:false},{src:"assets/ctx-mov-015-1.webp",w:3.224,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-015-2.webp",w:3.225,h:2.15,label:"En el entorno 2",cutout:false}],height:2.3,description:"Una forma articulada (MOV-015). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov016",code:"MOV-016",catalogId:"ramas-y-color",title:"Pieza entre las ramas",kind:'mobile',image:"assets/mov-016.webp",glb:"assets/hy3d-mov-016.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-016.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-016-1.webp",w:3.225,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-016-2.webp",w:1.434,h:2.15,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-016-1.webp",w:1.669,h:2.15,label:"Detalle"}],height:2.15,description:"Pieza entre las ramas (MOV-016). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov017",code:"MOV-017",catalogId:"moviles-014850",title:"Planos de color entre los árboles",kind:'mobile',image:"assets/mov-017.webp",glb:"assets/hy3d-mov-017.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-017.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-017-1.webp",w:1.3,h:1.95,label:"En el entorno",cutout:false},{src:"assets/cut-mov-017-1.webp",w:1.719,h:1.95,label:"Detalle"}],height:1.95,description:"Planos de color entre los árboles (MOV-017). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov018",code:"MOV-018",catalogId:"moviles-014879",title:"Líneas de color al aire libre",kind:'mobile',image:"assets/mov-018.webp",glb:"assets/hy3d-mov-018.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-018.webp",w:1.533,h:2.3,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-018-1.webp",w:1.533,h:2.3,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-018-2.webp",w:1.534,h:2.3,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-018-1.webp",w:1.126,h:2.3,label:"Detalle"}],height:2.3,description:"Líneas de color al aire libre (MOV-018). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov019",code:"MOV-019",catalogId:"moviles-014887",title:"Círculo azul y blanco",kind:'mobile',image:"assets/mov-019.webp",glb:"assets/hy3d-mov-019.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-019.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-019-1.webp",w:3.225,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-019-2.webp",w:1.434,h:2.15,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-019-1.webp",w:1.759,h:2.15,label:"Detalle"}],height:2.15,description:"Círculo azul y blanco (MOV-019). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov016",code:"MOV-016",catalogId:"ramas-y-color",title:"Pieza entre las ramas",kind:'mobile',image:"assets/mov-016.webp",glb:"assets/hy3d-mov-016.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-016-1.webp",w:1.669,h:2.15,label:"Vista frontal"},{src:"assets/mov-016.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-016-1.webp",w:3.225,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-016-2.webp",w:1.434,h:2.15,label:"En el entorno 2",cutout:false}],height:2.15,description:"Pieza entre las ramas (MOV-016). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov017",code:"MOV-017",catalogId:"moviles-014850",title:"Planos de color entre los árboles",kind:'mobile',image:"assets/mov-017.webp",glb:"assets/hy3d-mov-017.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-017-1.webp",w:1.719,h:1.95,label:"Vista frontal"},{src:"assets/mov-017.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-017-1.webp",w:1.3,h:1.95,label:"En el entorno",cutout:false}],height:1.95,description:"Planos de color entre los árboles (MOV-017). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov018",code:"MOV-018",catalogId:"moviles-014879",title:"Líneas de color al aire libre",kind:'mobile',image:"assets/mov-018.webp",glb:"assets/hy3d-mov-018.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-018-1.webp",w:1.126,h:2.3,label:"Vista frontal"},{src:"assets/mov-018.webp",w:1.533,h:2.3,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-018-1.webp",w:1.533,h:2.3,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-018-2.webp",w:1.534,h:2.3,label:"En el entorno 2",cutout:false}],height:2.3,description:"Líneas de color al aire libre (MOV-018). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov019",code:"MOV-019",catalogId:"moviles-014887",title:"Círculo azul y blanco",kind:'mobile',image:"assets/mov-019.webp",glb:"assets/hy3d-mov-019.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-019-1.webp",w:1.759,h:2.15,label:"Vista frontal"},{src:"assets/mov-019.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-019-1.webp",w:3.225,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-019-2.webp",w:1.434,h:2.15,label:"En el entorno 2",cutout:false}],height:2.15,description:"Círculo azul y blanco (MOV-019). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov020",code:"MOV-020",catalogId:"moviles-008941",title:"Estructura de líneas oscuras y esferas",kind:'mobile',image:"assets/mov-020.webp",glb:"assets/hy3d-mov-020.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-020-1.webp",w:1.544,h:1.95,label:"Vista frontal"},{src:"assets/cut-mov-020-2.webp",w:1.383,h:1.95,label:"Ángulo 2"},{src:"assets/cut-mov-020-3.webp",w:1.479,h:1.95,label:"Ángulo 3"}],height:1.95,description:"Estructura de líneas oscuras y esferas (MOV-020). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov021",code:"MOV-021",catalogId:"moviles-008911",title:"Fragmentos de color suspendidos",kind:'mobile',image:"assets/mov-021.webp",glb:"assets/hy3d-mov-021.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-021-1.webp",w:2.236,h:2.3,label:"Vista frontal"},{src:"assets/ctx-mov-021-1.webp",w:1.725,h:2.3,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-021-2.webp",w:3.067,h:2.3,label:"En el entorno 2",cutout:false}],height:2.3,description:"Fragmentos de color suspendidos (MOV-021). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov022",code:"MOV-022",catalogId:"moviles-014955",title:"Arcos oscuros y pequeños acentos de color",kind:'mobile',image:"assets/mov-022.webp",glb:"assets/hy3d-mov-022.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-022.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-022-1.webp",w:1.612,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-022-2.webp",w:1.612,h:2.15,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-022-1.webp",w:1.456,h:2.15,label:"Detalle"}],height:2.15,description:"Arcos oscuros y pequeños acentos de color (MOV-022). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov023",code:"MOV-023",catalogId:"moviles-014976",title:"Círculos rojos entrelazados",kind:'mobile',image:"assets/mov-023.webp",glb:"assets/hy3d-mov-023.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-023.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-023-1.webp",w:1.462,h:1.95,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-023-2.webp",w:1.462,h:1.95,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-023-1.webp",w:1.137,h:1.95,label:"Detalle"}],height:1.95,description:"Círculos rojos entrelazados (MOV-023). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov022",code:"MOV-022",catalogId:"moviles-014955",title:"Arcos oscuros y pequeños acentos de color",kind:'mobile',image:"assets/mov-022.webp",glb:"assets/hy3d-mov-022.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-022-1.webp",w:1.456,h:2.15,label:"Vista frontal"},{src:"assets/mov-022.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-022-1.webp",w:1.612,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-022-2.webp",w:1.612,h:2.15,label:"En el entorno 2",cutout:false}],height:2.15,description:"Arcos oscuros y pequeños acentos de color (MOV-022). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov023",code:"MOV-023",catalogId:"moviles-014976",title:"Círculos rojos entrelazados",kind:'mobile',image:"assets/mov-023.webp",glb:"assets/hy3d-mov-023.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-023-1.webp",w:1.137,h:1.95,label:"Vista frontal"},{src:"assets/mov-023.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-023-1.webp",w:1.462,h:1.95,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-023-2.webp",w:1.462,h:1.95,label:"En el entorno 2",cutout:false}],height:1.95,description:"Círculos rojos entrelazados (MOV-023). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov024",code:"MOV-024",catalogId:"moviles-015000",title:"Curvas azules y verdes",kind:'mobile',image:"assets/mov-024.webp",glb:"assets/hy3d-mov-024.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-024-1.webp",w:1.803,h:2.3,label:"Vista frontal"},{src:"assets/ctx-mov-024-1.webp",w:1.725,h:2.3,label:"En el entorno",cutout:false}],height:2.3,description:"Curvas azules y verdes (MOV-024). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov025",code:"MOV-025",catalogId:"moviles-015002",title:"Trama oscura con flores de color",kind:'mobile',image:"assets/mov-025.webp",glb:"assets/hy3d-mov-025.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-025.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-025-1.webp",w:1.612,h:2.15,label:"En el entorno",cutout:false},{src:"assets/cut-mov-025-1.webp",w:1.227,h:2.15,label:"Detalle"}],height:2.15,description:"Trama oscura con flores de color (MOV-025). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov026",code:"MOV-026",catalogId:"moviles-015006",title:"Arco rojo y discos azules",kind:'mobile',image:"assets/mov-026.webp",glb:"assets/hy3d-mov-026.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-026.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-026-1.webp",w:1.462,h:1.95,label:"En el entorno",cutout:false},{src:"assets/cut-mov-026-1.webp",w:1.2,h:1.95,label:"Detalle"}],height:1.95,description:"Arco rojo y discos azules (MOV-026). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov025",code:"MOV-025",catalogId:"moviles-015002",title:"Trama oscura con flores de color",kind:'mobile',image:"assets/mov-025.webp",glb:"assets/hy3d-mov-025.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-025-1.webp",w:1.227,h:2.15,label:"Vista frontal"},{src:"assets/mov-025.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-025-1.webp",w:1.612,h:2.15,label:"En el entorno",cutout:false}],height:2.15,description:"Trama oscura con flores de color (MOV-025). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov026",code:"MOV-026",catalogId:"moviles-015006",title:"Arco rojo y discos azules",kind:'mobile',image:"assets/mov-026.webp",glb:"assets/hy3d-mov-026.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-026-1.webp",w:1.2,h:1.95,label:"Vista frontal"},{src:"assets/mov-026.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-026-1.webp",w:1.462,h:1.95,label:"En el entorno",cutout:false}],height:1.95,description:"Arco rojo y discos azules (MOV-026). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov027",code:"MOV-027",catalogId:"moviles-015011",title:"Un recorrido de pequeños discos",kind:'mobile',image:"assets/mov-027.webp",glb:"assets/hy3d-mov-027.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-027-1.webp",w:1.145,h:2.3,label:"Vista frontal"},{src:"assets/ctx-mov-027-1.webp",w:1.725,h:2.3,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-027-2.webp",w:1.725,h:2.3,label:"En el entorno 2",cutout:false}],height:2.3,description:"Un recorrido de pequeños discos (MOV-027). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov028",code:"MOV-028",catalogId:"moviles-015021",title:"Círculo abierto de muchos colores",kind:'mobile',image:"assets/mov-028.webp",glb:"assets/hy3d-mov-028.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-028.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-028-1.webp",w:1.813,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-028-2.webp",w:1.924,h:2.15,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-028-1.webp",w:1.58,h:2.15,label:"Detalle"}],height:2.15,description:"Círculo abierto de muchos colores (MOV-028). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov028",code:"MOV-028",catalogId:"moviles-015021",title:"Círculo abierto de muchos colores",kind:'mobile',image:"assets/mov-028.webp",glb:"assets/hy3d-mov-028.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-028-1.webp",w:1.58,h:2.15,label:"Vista frontal"},{src:"assets/mov-028.webp",w:1.433,h:2.15,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-028-1.webp",w:1.813,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-028-2.webp",w:1.924,h:2.15,label:"En el entorno 2",cutout:false}],height:2.15,description:"Círculo abierto de muchos colores (MOV-028). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov029",code:"MOV-029",catalogId:"moviles-015045",title:"Estructura abierta y un aro de color",kind:'mobile',image:"assets/mov-029.webp",glb:"assets/hy3d-mov-029.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-029-1.webp",w:1.396,h:1.95,label:"Vista frontal"},{src:"assets/ctx-mov-029-1.webp",w:2.206,h:1.95,label:"En el entorno",cutout:false}],height:1.95,description:"Estructura abierta y un aro de color (MOV-029). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov030",code:"MOV-030",catalogId:"moviles-015051",title:"Columna de discos multicolores",kind:'mobile',image:"assets/mov-030.webp",glb:"assets/hy3d-mov-030.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-030-1.webp",w:1.236,h:2.3,label:"Vista frontal"},{src:"assets/ctx-mov-030-1.webp",w:1.725,h:2.3,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-030-2.webp",w:1.517,h:2.3,label:"En el entorno 2",cutout:false}],height:2.3,description:"Columna de discos multicolores (MOV-030). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
  {id:"mov031",code:"MOV-031",catalogId:"moviles-015058",title:"Recipientes rosas, verdes y amarillos",kind:'mobile',image:"assets/mov-031.webp",glb:"assets/hy3d-mov-031.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-031-1.webp",w:2.295,h:2.15,label:"Vista frontal"},{src:"assets/ctx-mov-031-1.webp",w:2.862,h:2.15,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-031-2.webp",w:2.857,h:2.15,label:"En el entorno 2",cutout:false}],height:2.15,description:"Recipientes rosas, verdes y amarillos (MOV-031). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov032",code:"MOV-032",catalogId:"moviles-015062",title:"Ramas y figuras geométricas",kind:'mobile',image:"assets/mov-032.webp",glb:"assets/hy3d-mov-032.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-032.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-032-1.webp",w:1.468,h:1.95,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-032-2.webp",w:1.47,h:1.95,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-032-1.webp",w:0.999,h:1.95,label:"Detalle"}],height:1.95,description:"Ramas y figuras geométricas (MOV-032). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
- {id:"mov033",code:"MOV-033",catalogId:"moviles-015067",title:"Pequeños recipientes suspendidos",kind:'mobile',image:"assets/mov-033.webp",glb:"assets/hy3d-mov-033.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/mov-033.webp",w:1.533,h:2.3,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-033-1.webp",w:1.732,h:2.3,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-033-2.webp",w:1.725,h:2.3,label:"En el entorno 2",cutout:false},{src:"assets/cut-mov-033-1.webp",w:1.693,h:2.3,label:"Detalle"}],height:2.3,description:"Pequeños recipientes suspendidos (MOV-033). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."}
+ {id:"mov032",code:"MOV-032",catalogId:"moviles-015062",title:"Ramas y figuras geométricas",kind:'mobile',image:"assets/mov-032.webp",glb:"assets/hy3d-mov-032.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-032-1.webp",w:0.999,h:1.95,label:"Vista frontal"},{src:"assets/mov-032.webp",w:1.3,h:1.95,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-032-1.webp",w:1.468,h:1.95,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-032-2.webp",w:1.47,h:1.95,label:"En el entorno 2",cutout:false}],height:1.95,description:"Ramas y figuras geométricas (MOV-032). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."},
+ {id:"mov033",code:"MOV-033",catalogId:"moviles-015067",title:"Pequeños recipientes suspendidos",kind:'mobile',image:"assets/mov-033.webp",glb:"assets/hy3d-mov-033.glb",roughness:0.56,metalness:0.14,views:[{src:"assets/cut-mov-033-1.webp",w:1.693,h:2.3,label:"Vista frontal"},{src:"assets/mov-033.webp",w:1.533,h:2.3,label:"Vista de estudio",cutout:false},{src:"assets/ctx-mov-033-1.webp",w:1.732,h:2.3,label:"En el entorno 1",cutout:false},{src:"assets/ctx-mov-033-2.webp",w:1.725,h:2.3,label:"En el entorno 2",cutout:false}],height:2.3,description:"Pequeños recipientes suspendidos (MOV-033). Escultura móvil suspendida de Enric Segarra. Explórala en 360°, ajusta la altura de cámara (E/Q) para verla frente a frente y alterna entre Volumen 3D e Imagen en 3D."}
 ,
  {id:"dib001",code:"DIB-001",catalogId:"dibujo-015079",title:"Signos rojos en recorrido",kind:'drawing',category:"dibujo",series:"Figuras y símbolos",aspect:1.5,image:"../assets/drawing-015079-catalogue.webp",description:"El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO."},
  {id:"dib016",code:"DIB-016",catalogId:"dibujo-015094",title:"Pequeña composición de símbolos",kind:'drawing',category:"dibujo",series:"Figuras y símbolos",aspect:1.5,image:"../assets/drawing-015094-catalogue.webp",description:"El trazo, el color y las zonas de sombra construyen un espacio sobre el plano. Una obra del archivo de dibujo de ENRIC SEGARRA I GARIBO."},
@@ -146,12 +146,12 @@ export const ART=[
  {id:"esc029",code:"ESC-029",catalogId:"escultura-014577",title:"Relieve claro con elementos rectangulares",kind:'sculpture',category:"escultura",series:"Relieves de textura",aspect:0.809,image:"../assets/gallery-esc-029.webp",glb:"assets/hy3d-esc-029.glb",roughness:0.82,metalness:0.06,views:[{src:"assets/cut-esc-029-1.webp",w:0.421,h:0.52,label:'Vista frontal'},{src:"../assets/gallery-esc-029.webp",w:0.78,h:0.52,label:'Fotografía de archivo',cutout:false}],height:0.52,description:"Relieve de pasta clara con huellas y elementos rectangulares impresos."},
  {id:"esc030",code:"ESC-030",catalogId:"escultura-014578",title:"Relieve rosa con figuras y piezas superpuestas",kind:'sculpture',category:"escultura",series:"Relieves y ensamblajes murales",aspect:1.072,image:"../assets/gallery-esc-030.webp",glb:"assets/hy3d-esc-030.glb",roughness:0.74,metalness:0.03,views:[{src:"assets/cut-esc-030-1.webp",w:0.622,h:0.58,label:'Vista frontal'},{src:"../assets/gallery-esc-030.webp",w:0.87,h:0.58,label:'Fotografía de archivo',cutout:false}],height:0.58,description:"Relieve policromado en rosa con figuras recortadas y piezas superpuestas."},
  {id:"esc046",code:"ESC-046",catalogId:"escultura-008728",title:"Ensamblaje rosa con círculo oscuro",kind:'sculpture',category:"escultura",series:"Relieves y ensamblajes murales",aspect:1.118,image:"../assets/gallery-esc-046.webp",glb:"assets/hy3d-esc-046.glb",roughness:0.58,metalness:0.22,views:[{src:"assets/cut-esc-046-1.webp",w:0.604,h:0.54,label:'Vista frontal'},{src:"../assets/gallery-esc-046.webp",w:0.81,h:0.54,label:'Fotografía de archivo',cutout:false}],height:0.54,description:"Ensamblaje mural en madera rosa con corona circular oscura en relieve."},
- {id:"esc047",code:"ESC-047",catalogId:"escultura-014959",title:"Árbol con elementos azules suspendidos",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.650,image:"../assets/arc-014959.webp",views:[{src:"../assets/arc-014959.webp",w:1.08,h:1.66,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-047-view-2-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 2',cutout:false},{src:"../assets/gallery-esc-047-view-3-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 3',cutout:false},{src:"../assets/gallery-esc-047-view-4-horizontal.webp",w:1.86,h:1.24,label:'Detalle',cutout:false}],height:1.66,description:"Árbol con elementos azules suspendidos en el entorno natural."},
- {id:"esc048",code:"ESC-048",catalogId:"escultura-014967",title:"Tres paneles de círculos de colores",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.750,image:"../assets/arc-014967.webp",views:[{src:"../assets/arc-014967.webp",w:1.20,h:1.60,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-048-view-2-horizontal.webp",w:1.86,h:1.24,label:'En el entorno',cutout:false}],height:1.60,description:"Tres paneles de círculos de colores suspendidos junto al tronco."},
- {id:"esc049",code:"ESC-049",catalogId:"escultura-014968",title:"Conjunto de cilindros y ramas",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.750,image:"../assets/arc-014968.webp",views:[{src:"../assets/arc-014968.webp",w:1.02,h:1.36,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-049-view-2-horizontal.webp",w:1.80,h:1.20,label:'Vista del conjunto',cutout:false},{src:"../assets/gallery-esc-049-view-3-horizontal.webp",w:1.80,h:1.20,label:'Ángulo 3',cutout:false},{src:"../assets/gallery-esc-049-view-4-horizontal.webp",w:1.80,h:1.20,label:'Detalle',cutout:false}],height:1.36,description:"Conjunto escultórico de suelo formado por cuatro bloques rústicos, cilindros graduados, tubos blancos y haces de ramas."},
- {id:"esc050",code:"ESC-050",catalogId:"escultura-014978",title:"Árbol con figuras de colores",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.750,image:"../assets/arc-014978.webp",views:[{src:"../assets/arc-014978.webp",w:1.20,h:1.60,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-050-view-2-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 2',cutout:false},{src:"../assets/gallery-esc-050-view-3-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 3',cutout:false}],height:1.60,description:"Árbol con figuras recortadas de colores suspendidas."},
- {id:"esc051",code:"ESC-051",catalogId:"escultura-015032",title:"Composición circular de piezas ensambladas",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.716,image:"../assets/arc-015032.webp",views:[{src:"../assets/arc-015032.webp",w:0.96,h:1.34,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-051-view-2-horizontal.webp",w:1.68,h:1.12,label:'Detalle frontal',cutout:false}],height:1.34,description:"Composición circular de engranajes y piezas metálicas ensambladas."},
- {id:"esc052",code:"ESC-052",catalogId:"escultura-015076",title:"Tronco vertical con elementos superpuestos",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.754,image:"../assets/arc-015076.webp",views:[{src:"../assets/arc-015076.webp",w:1.36,h:1.80,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-052-view-2-horizontal.webp",w:1.86,h:1.24,label:'En el entorno',cutout:false}],height:1.98,description:"Columna escultórica vertical de suelo en tronco rústico con fragmentos cerámicos salientes y herrajes de fundición."},
+ {id:"esc047",code:"ESC-047",catalogId:"escultura-014959",title:"Árbol con elementos azules suspendidos",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.650,image:"../assets/arc-014959.webp",views:[{src:"assets/cut-esc-047-1.webp",w:1.487,h:1.66,label:'Vista frontal'},{src:"../assets/arc-014959.webp",w:1.08,h:1.66,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-047-view-2-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 2',cutout:false},{src:"../assets/gallery-esc-047-view-3-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 3',cutout:false},{src:"../assets/gallery-esc-047-view-4-horizontal.webp",w:1.86,h:1.24,label:'Detalle',cutout:false}],height:1.66,description:"Árbol con elementos azules suspendidos en el entorno natural."},
+ {id:"esc048",code:"ESC-048",catalogId:"escultura-014967",title:"Tres paneles de círculos de colores",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.750,image:"../assets/arc-014967.webp",views:[{src:"assets/cut-esc-048-1.webp",w:0.376,h:1.52,label:'Vista frontal'},{src:"../assets/arc-014967.webp",w:1.20,h:1.60,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-048-view-2-horizontal.webp",w:1.86,h:1.24,label:'En el entorno',cutout:false}],height:1.60,description:"Tres paneles de círculos de colores suspendidos junto al tronco."},
+ {id:"esc049",code:"ESC-049",catalogId:"escultura-014968",title:"Conjunto de cilindros y ramas",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.750,image:"../assets/arc-014968.webp",views:[{src:"assets/cut-esc-049-1.webp",w:2.114,h:1.36,label:'Vista frontal'},{src:"../assets/arc-014968.webp",w:1.02,h:1.36,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-049-view-2-horizontal.webp",w:1.80,h:1.20,label:'Vista del conjunto',cutout:false},{src:"../assets/gallery-esc-049-view-3-horizontal.webp",w:1.80,h:1.20,label:'Ángulo 3',cutout:false},{src:"../assets/gallery-esc-049-view-4-horizontal.webp",w:1.80,h:1.20,label:'Detalle',cutout:false}],height:1.36,description:"Conjunto escultórico de suelo formado por cuatro bloques rústicos, cilindros graduados, tubos blancos y haces de ramas."},
+ {id:"esc050",code:"ESC-050",catalogId:"escultura-014978",title:"Árbol con figuras de colores",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.750,image:"../assets/arc-014978.webp",views:[{src:"assets/cut-esc-050-1.webp",w:1.893,h:1.60,label:'Vista frontal'},{src:"../assets/arc-014978.webp",w:1.20,h:1.60,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-050-view-2-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 2',cutout:false},{src:"../assets/gallery-esc-050-view-3-horizontal.webp",w:1.86,h:1.24,label:'Ángulo 3',cutout:false}],height:1.60,description:"Árbol con figuras recortadas de colores suspendidas."},
+ {id:"esc051",code:"ESC-051",catalogId:"escultura-015032",title:"Composición circular de piezas ensambladas",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.716,image:"../assets/arc-015032.webp",views:[{src:"assets/cut-esc-051-1.webp",w:0.702,h:0.92,label:'Vista frontal'},{src:"../assets/arc-015032.webp",w:0.96,h:1.34,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-051-view-2-horizontal.webp",w:1.68,h:1.12,label:'Detalle frontal',cutout:false}],height:1.34,description:"Composición circular de engranajes y piezas metálicas ensambladas."},
+ {id:"esc052",code:"ESC-052",catalogId:"escultura-015076",title:"Tronco vertical con elementos superpuestos",kind:'sculpture',category:"escultura",series:"Intervenciones en el entorno",aspect:0.754,image:"../assets/arc-015076.webp",views:[{src:"assets/cut-esc-052-1.webp",w:0.301,h:1.98,label:'Vista frontal'},{src:"../assets/arc-015076.webp",w:1.36,h:1.80,label:'Vista principal',cutout:false},{src:"../assets/gallery-esc-052-view-2-horizontal.webp",w:1.86,h:1.24,label:'En el entorno',cutout:false}],height:1.98,description:"Columna escultórica vertical de suelo en tronco rústico con fragmentos cerámicos salientes y herrajes de fundición."},
  {id:"pin001",code:"PIN-001",catalogId:"arca",title:"Arca en composición circular",kind:'painting',category:"pintura",series:"Arcas",aspect:1.5,image:"../assets/pin-001-estudio-v3.webp",description:"Arca en composición circular."},
  {id:"pin002",code:"PIN-002",catalogId:"pintura-015107",title:"Sol en composición circular",kind:'painting',category:"pintura",series:"Figuras y símbolos",aspect:1.5,image:"../assets/pin-002-estudio-v3.webp",description:"Sol en composición circular."},
  {id:"pin003",code:"PIN-003",catalogId:"pintura-015108",title:"Arca sobre fondo oscuro",kind:'painting',category:"pintura",series:"Gatos",aspect:1.5,image:"../assets/pin-003-estudio-v3.webp",description:"Arca sobre fondo oscuro."},
@@ -1175,37 +1175,42 @@ function addFloorInstallationGallery(world,id,position,rotation=0){
  const data=ART.find(a=>a.id===id);if(!data)return null;
  const anchor=new THREE.Group();anchor.position.set(...position);anchor.rotation.y=rotation;world.scene.add(anchor);
  const pivot=new THREE.Group();anchor.add(pivot);
+ const instScale=id==='esc049'?1.24:1.26;
+ pivot.scale.setScalar(instScale);
  let centerY=0.95,inspectDist=2.15,viewY=1.52;
  if(id==='esc049'){
   populateEsc049Geometry(pivot);
   const ca=Math.cos(rotation),sa=Math.sin(rotation);
-  for(const lx of [-0.55,0,0.55]){
-   world.colliders.push({x:position[0]+lx*ca,z:position[2]-lx*sa,r:0.44});
+  for(const lx of [-0.68,0,0.68]){
+   world.colliders.push({x:position[0]+lx*ca,z:position[2]-lx*sa,r:0.52});
   }
-  addFloorLecternPlaque(anchor,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,0.42],0.40);
-  addSculptureFloorHalo(world.scene,position[0],position[2],1.56,0.42);
-  softShadow(world.scene,position[0],position[2],1.95,0.24);
-  centerY=0.68;inspectDist=2.20;viewY=1.44;
+  addFloorLecternPlaque(anchor,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,0.52],0.40);
+  addSculptureFloorHalo(world.scene,position[0],position[2],1.85,0.50);
+  softShadow(world.scene,position[0],position[2],2.35,0.24);
+  centerY=0.84;inspectDist=2.58;viewY=1.50;
  }else if(id==='esc052'){
   populateEsc052Geometry(pivot,false);
-  world.colliders.push({x:position[0],z:position[2],r:0.46});
-  addFloorLecternPlaque(anchor,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,0.38],0.40);
-  addSculptureFloorHalo(world.scene,position[0],position[2],0.44,0.44);
-  softShadow(world.scene,position[0],position[2],1.25,0.26);
-  centerY=1.02;inspectDist=2.28;viewY=1.58;
+  world.colliders.push({x:position[0],z:position[2],r:0.54});
+  addFloorLecternPlaque(anchor,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,0.46],0.40);
+  addSculptureFloorHalo(world.scene,position[0],position[2],0.54,0.54);
+  softShadow(world.scene,position[0],position[2],1.48,0.26);
+  centerY=1.22;inspectDist=2.68;viewY=1.64;
  }
  const allViews=(data.views&&data.views.length)?data.views:[{src:data.image,w:1.35,h:1.35,cutout:false,label:'Vista frontal'}];
+ const firstCutIdx=Math.max(0,allViews.findIndex(v=>v.cutout!==false));
  const textures=allViews.map(v=>{const t=texLoader.load(v.src,()=>{world.dirty=true;},undefined,()=>{world.assetErrors.push(v.src);});t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t;});
- const v0=allViews[0];
- const gBillboard=new THREE.Group();gBillboard.position.set(0,0.02,0);anchor.add(gBillboard);
+ const v0=allViews[firstCutIdx]||allViews[0];
+ const gBillboard=new THREE.Group();gBillboard.position.set(0,0.02,0);gBillboard.scale.setScalar(instScale);anchor.add(gBillboard);
  const billBack=new THREE.Mesh(boxGeo,mat('#232520',0.82,0.04));
  billBack.scale.set(v0.w+0.024,v0.h+0.024,0.012);billBack.position.set(0,v0.h/2,-0.008);
  billBack.visible=v0.cutout===false;gBillboard.add(billBack);
- const billMat=new THREE.MeshBasicMaterial({map:textures[0],toneMapped:false,transparent:v0.cutout!==false,alphaTest:v0.cutout===false?0:0.15,side:THREE.DoubleSide});
+ const billMat=new THREE.MeshBasicMaterial({map:textures[firstCutIdx]||textures[0],toneMapped:false,transparent:v0.cutout!==false,alphaTest:v0.cutout===false?0:0.15,side:THREE.DoubleSide});
  const billPlane=new THREE.Mesh(new THREE.PlaneGeometry(1,1),billMat);
  billPlane.scale.set(v0.w,v0.h,1);billPlane.position.set(0,v0.h/2,0);billPlane.castShadow=true;gBillboard.add(billPlane);
  const work={
   ...data,
+  displayHeight:(data.height||v0.h)*instScale,
+  displayWidth:v0.w*instScale,
   object:pivot,
   ai3dGroup:pivot,
   billboardGroup:gBillboard,
@@ -1223,13 +1228,14 @@ function addFloorInstallationGallery(world,id,position,rotation=0){
   setView:idx=>{
    const n=allViews.length,i=((idx%n)+n)%n;
    work.viewIndex=i;
-   const vp=allViews[i];
-   billPlane.scale.set(vp.w,vp.h,1);billPlane.position.y=vp.h/2;
-   billBack.scale.set(vp.w+0.024,vp.h+0.024,0.012);billBack.position.y=vp.h/2;
-   billBack.visible=vp.cutout===false;
-   billMat.map=textures[i];
-   billMat.transparent=vp.cutout!==false;
-   billMat.alphaTest=vp.cutout===false?0:0.15;
+   const cutIdx=allViews[i].cutout===false?firstCutIdx:i;
+   const vc=allViews[cutIdx];
+   billPlane.scale.set(vc.w,vc.h,1);billPlane.position.y=vc.h/2;
+   billBack.scale.set(vc.w+0.024,vc.h+0.024,0.012);billBack.position.y=vc.h/2;
+   billBack.visible=vc.cutout===false;
+   billMat.map=textures[cutIdx];
+   billMat.transparent=vc.cutout!==false;
+   billMat.alphaTest=vc.cutout===false?0:0.15;
    billMat.needsUpdate=true;
    world.dirty=true;
   },
@@ -1246,66 +1252,74 @@ function addFloorInstallationGallery(world,id,position,rotation=0){
 }
 function addSculpture(world,id,position,rotation=0,pedestalH=.9,opts={}){
  const data=ART.find(a=>a.id===id),root=new THREE.Group();root.position.set(...position);root.rotation.y=rotation;world.scene.add(root);
- const [pedW,pedD]=SCULPTURE_PED_DIMS[id]||[.40,.40];
- world.colliders.push({x:position[0],z:position[2],r:Math.max(.44,Math.hypot(pedW,pedD)*.54+.08)});
+ const firstCutIdx=Math.max(0,data.views.findIndex(v=>v.cutout!==false));
+ const h=data.height||0.48,v0=data.views[firstCutIdx]||data.views[0];
+ // Museum exhibition scale: give compact studio pieces (22–56 cm) commanding architectural presence in large halls while preserving real cm metadata in catalogue.js
+ const displayScale=h<0.90?THREE.MathUtils.clamp((0.64+h*0.82)/h,1.22,3.20):1.20;
+ const dispH=h*displayScale,dispW=v0.w*displayScale;
+ const [rawPedW,rawPedD]=SCULPTURE_PED_DIMS[id]||[.40,.40];
+ const pedBoost=pedestalH>0?Math.min(1.52,0.92+displayScale*0.20):1.0;
+ const pedW=Math.max(rawPedW*pedBoost,Math.min(0.86,dispW*0.78));
+ const pedD=Math.max(rawPedD*pedBoost,Math.min(0.82,pedW*0.92));
+ const effPedH=pedestalH>0.55?Math.min(pedestalH,0.78):pedestalH;
+ world.colliders.push({x:position[0],z:position[2],r:Math.max(.50,Math.hypot(pedW,pedD)*.56+.10)});
  let baseTopY=0.003;
- if(pedestalH<=0){
+ if(effPedH<=0){
   baseTopY=0.003;
-  softShadow(root,0,0,Math.max(pedW,pedD)*1.28,.28,0);
-  addFloorLecternPlaque(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,pedD/2+.22],0.38);
+  softShadow(root,0,0,Math.max(pedW,pedD)*1.38,.28,0);
+  addFloorLecternPlaque(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,Math.max(pedD/2,dispW*0.36)+.28],0.40);
  }else if(opts.mount==='wood_stool'){
-  baseTopY=pedestalH;
+  baseTopY=effPedH;
   const stoolCol='#584332';
+  const stoolR=Math.max(0.24,Math.min(0.36,dispW*0.42));
   const apron=new THREE.Mesh(cylinderGeo,mat('#4a3829',0.82,0.03));
-  apron.scale.set(0.175,0.026,0.175);apron.position.set(0,pedestalH-0.013,0);apron.castShadow=true;apron.receiveShadow=true;root.add(apron);
+  apron.scale.set(stoolR,0.030,stoolR);apron.position.set(0,effPedH-0.015,0);apron.castShadow=true;apron.receiveShadow=true;root.add(apron);
   const legCoords=[];
   for(const sx of [-1,1])for(const sz of [-1,1]){
-   const topP=[sx*0.118,pedestalH-0.018,sz*0.118],botP=[sx*0.155,0.0,sz*0.155];
-   rod(root,botP,topP,0.020,stoolCol,0.023);
-   legCoords.push([sx*0.142,0.155,sz*0.142]);
+   const topP=[sx*stoolR*0.68,effPedH-0.020,sz*stoolR*0.68],botP=[sx*stoolR*0.90,0.0,sz*stoolR*0.90];
+   rod(root,botP,topP,0.022,stoolCol,0.025);
+   legCoords.push([sx*stoolR*0.82,0.165,sz*stoolR*0.82]);
   }
-  rod(root,legCoords[0],legCoords[1],0.013,stoolCol);
-  rod(root,legCoords[2],legCoords[3],0.013,stoolCol);
-  rod(root,legCoords[0],legCoords[2],0.013,stoolCol);
-  rod(root,legCoords[1],legCoords[3],0.013,stoolCol);
-  softShadow(root,0,0,0.68,.26,0);
-  addFloorLecternPlaque(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,pedD/2+.20],0.38);
+  rod(root,legCoords[0],legCoords[1],0.014,stoolCol);
+  rod(root,legCoords[2],legCoords[3],0.014,stoolCol);
+  rod(root,legCoords[0],legCoords[2],0.014,stoolCol);
+  rod(root,legCoords[1],legCoords[3],0.014,stoolCol);
+  softShadow(root,0,0,stoolR*3.4,.26,0);
+  addFloorLecternPlaque(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,stoolR+.26],0.40);
  }else{
-  baseTopY=pedestalH;
+  baseTopY=effPedH;
   const plinthMat=mat('#f3f1e9',0.84,0.02);
   box(root,[pedW-.024,.024,pedD-.024],[0,.012,0],'#2c2f2a');
   const pedCol=new THREE.Mesh(boxGeo,plinthMat);
-  pedCol.scale.set(pedW,pedestalH-.024,pedD);
-  pedCol.position.set(0,.024+(pedestalH-.024)/2,0);
+  pedCol.scale.set(pedW,effPedH-.024,pedD);
+  pedCol.position.set(0,.024+(effPedH-.024)/2,0);
   pedCol.castShadow=true;pedCol.receiveShadow=true;root.add(pedCol);
-  softShadow(root,0,0,Math.min(pedW,pedD)*.92,.28,baseTopY);
+  softShadow(root,0,0,Math.min(pedW,pedD)*.94,.28,baseTopY);
   const glowTex=getRadialGlowTexture();
   if(glowTex){
    const pool=new THREE.Mesh(new THREE.PlaneGeometry(pedW-.02,pedD-.02),new THREE.MeshBasicMaterial({map:glowTex,color:'#fff4d2',transparent:true,opacity:.10,depthWrite:false,blending:THREE.AdditiveBlending,polygonOffset:true,polygonOffsetFactor:-2,polygonOffsetUnits:-4}));
    pool.rotation.x=-Math.PI/2;pool.position.set(0,baseTopY+.003,0);root.add(pool);
   }
-  if(pedestalH>=0.65){
-   sign(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,pedestalH-.14,pedD/2+.009],Math.min(.36,pedW*.88));
+  if(effPedH>=0.62){
+   sign(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,effPedH-.14,pedD/2+.009],Math.min(.42,pedW*.88));
   }else{
-   addFloorLecternPlaque(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,pedD/2+.20],0.38);
+   addFloorLecternPlaque(root,data.code,(data.title||'ENRIC SEGARRA').slice(0,26).toUpperCase(),[0,0,pedD/2+.24],0.40);
   }
  }
- const firstCutIdx=Math.max(0,data.views.findIndex(v=>v.cutout!==false));
- const h=data.height||0.48,v0=data.views[firstCutIdx]||data.views[0];
  const textures=data.views.map(v=>{const t=texLoader.load(v.src,()=>{world.dirty=true;},undefined,()=>{world.assetErrors.push(v.src);});t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t;});
- const gAi3d=new THREE.Group();gAi3d.position.set(0,baseTopY,0);root.add(gAi3d);
- const gBillboard=new THREE.Group();gBillboard.position.set(0,baseTopY,0);root.add(gBillboard);
+ const gAi3d=new THREE.Group();gAi3d.position.set(0,baseTopY,0);gAi3d.scale.setScalar(displayScale);root.add(gAi3d);
+ const gBillboard=new THREE.Group();gBillboard.position.set(0,baseTopY,0);gBillboard.scale.setScalar(displayScale);root.add(gBillboard);
  const billMat=new THREE.MeshBasicMaterial({map:textures[firstCutIdx]||textures[0],toneMapped:false,transparent:true,alphaTest:.15,side:THREE.DoubleSide});
  const billPlane=new THREE.Mesh(new THREE.PlaneGeometry(1,1),billMat);billPlane.scale.set(v0.w,v0.h,1);billPlane.position.set(0,v0.h/2,0);billPlane.castShadow=true;gBillboard.add(billPlane);
- const centerY=baseTopY+h*.52;
- const inspectDist=Math.max(1.25,Math.min(2.15,0.92+Math.max(h,Math.max(pedW,pedD))*1.05));
- const viewY=Math.max(1.18,Math.min(1.72,baseTopY+h*.62+.14));
- const work={...data,object:gBillboard,ai3dGroup:gAi3d,billboardGroup:gBillboard,plane:billPlane,textures,viewIndex:0,anchor:root,center:V(position[0],centerY,position[2]),view:V(position[0]+Math.sin(rotation)*inspectDist,viewY,position[2]+Math.cos(rotation)*inspectDist),radius:Math.max(1.38,inspectDist+0.25),spin:0,phase:world.works.length*1.7,baseRotation:rotation};
+ const centerY=baseTopY+dispH*.52;
+ const inspectDist=Math.max(1.48,Math.min(2.65,0.96+Math.max(dispH,Math.max(dispW,Math.max(pedW,pedD)))*1.05));
+ const viewY=Math.max(1.24,Math.min(1.76,baseTopY+dispH*.56+.12));
+ const work={...data,displayHeight:dispH,displayWidth:dispW,displayScale,object:gBillboard,ai3dGroup:gAi3d,billboardGroup:gBillboard,plane:billPlane,textures,viewIndex:0,anchor:root,center:V(position[0],centerY,position[2]),view:V(position[0]+Math.sin(rotation)*inspectDist,viewY,position[2]+Math.cos(rotation)*inspectDist),radius:Math.max(1.55,inspectDist+0.28),spin:0,phase:world.works.length*1.7,baseRotation:rotation};
  work.setView=idx=>{const n=data.views.length,i=((idx%n)+n)%n;work.viewIndex=i;const planeIdx=data.views[i].cutout===false?firstCutIdx:i;const vp=data.views[planeIdx];billPlane.scale.set(vp.w,vp.h,1);billPlane.position.y=vp.h/2;billMat.map=textures[planeIdx];billMat.needsUpdate=true;world.dirty=true;};
  work.applyMode=mode=>{gAi3d.visible=mode==='ai3d';gBillboard.visible=mode==='billboard';world.dirty=true;};
  work.applyMode(sculpturePresentation);
- if(data.glb){const glbUrl=data.glb+(data.glb.includes('?')?'':'?v=23');gltfLoader.load(glbUrl,gltf=>{if(world.disposed){disposeDetachedTree(gltf.scene);return;}const model=gltf.scene;model.position.set(0,0,0);model.updateMatrixWorld(true);const mBox=new THREE.Box3().setFromObject(model);if(!mBox.isEmpty())model.position.y=-mBox.min.y;model.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;o.userData.work=work;const tex=o.material?.map,nMap=o.material?.normalMap;if(tex){tex.colorSpace=THREE.SRGBColorSpace;tex.anisotropy=8;if(nMap){nMap.colorSpace=THREE.NoColorSpace;nMap.anisotropy=4;}o.material=new THREE.MeshStandardMaterial({map:tex,normalMap:nMap||null,normalScale:new THREE.Vector2(1.26,1.26),emissive:'#ffffff',emissiveMap:tex,emissiveIntensity:.045,envMapIntensity:1.22,roughness:data.roughness??.64,metalness:data.metalness??.07,side:THREE.DoubleSide});}else{const hasVC=!!o.geometry.attributes.color;o.material=new THREE.MeshStandardMaterial({vertexColors:hasVC,color:hasVC?'#ffffff':'#d8ccb8',envMapIntensity:1.05,roughness:data.roughness??.62,metalness:data.metalness??.06,side:THREE.DoubleSide});}}});gAi3d.add(model);world.dirty=true;},undefined,()=>{world.assetErrors.push(data.glb);});}
- root.traverse(o=>{if(o.isMesh)o.userData.work=work;});world.works.push(work);world.pickables.push(root);softShadow(world.scene,position[0],position[2],Math.max(1.05,Math.max(pedW,pedD)*2.05),.26);return work;
+ if(data.glb){const glbUrl=data.glb+(data.glb.includes('?')?'':'?v=25');gltfLoader.load(glbUrl,gltf=>{if(world.disposed){disposeDetachedTree(gltf.scene);return;}const model=gltf.scene;model.position.set(0,0,0);model.updateMatrixWorld(true);const mBox=new THREE.Box3().setFromObject(model);if(!mBox.isEmpty())model.position.y=-mBox.min.y;model.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;o.userData.work=work;const tex=o.material?.map,nMap=o.material?.normalMap;if(tex){tex.colorSpace=THREE.SRGBColorSpace;tex.anisotropy=8;if(nMap){nMap.colorSpace=THREE.NoColorSpace;nMap.anisotropy=4;}o.material=new THREE.MeshStandardMaterial({map:tex,normalMap:nMap||null,normalScale:new THREE.Vector2(1.26,1.26),emissive:'#ffffff',emissiveMap:tex,emissiveIntensity:.045,envMapIntensity:1.22,roughness:data.roughness??.64,metalness:data.metalness??.07,side:THREE.DoubleSide});}else{const hasVC=!!o.geometry.attributes.color;const baseCol=hasVC?'#ffffff':(o.material?.color?o.material.color:'#d8ccb8');o.material=new THREE.MeshStandardMaterial({vertexColors:hasVC,color:baseCol,envMapIntensity:1.05,roughness:o.material?.roughness??(data.roughness??.62),metalness:o.material?.metalness??(data.metalness??.06),side:THREE.DoubleSide});}}});gAi3d.add(model);world.dirty=true;},undefined,()=>{world.assetErrors.push(data.glb);});}
+ root.traverse(o=>{if(o.isMesh)o.userData.work=work;});world.works.push(work);world.pickables.push(root);softShadow(world.scene,position[0],position[2],Math.max(1.18,Math.max(pedW,pedD)*2.08),.26);return work;
 }
 function mount2DArtwork(world,data,g,w,h,uvOverride=null){
  const mountType=data.kind==='drawing'?(data.mountType||'drawing'):(data.mountType||'canvas');
@@ -1450,27 +1464,29 @@ function addRelief(world,id,position,rotation){
  const data=ART.find(a=>a.id===id);if(!data)return null;
  const firstCutIdx=Math.max(0,(data.views||[]).findIndex(v=>v.cutout!==false));
  const v0=(data.views&&data.views[firstCutIdx])||(data.views&&data.views[0]);
- const h=v0?v0.h:(data.height||0.56);
- const w=v0?v0.w:+(h*(data.aspect||1)).toFixed(3);
+ const rawH=v0?v0.h:(data.height||0.56);
+ const rawW=v0?v0.w:+(rawH*(data.aspect||1)).toFixed(3);
+ const relScale=rawH<0.68?Math.min(1.68,0.68/rawH):1.12;
+ const h=rawH*relScale,w=rawW*relScale;
  const g=new THREE.Group();g.position.set(...position);g.rotation.y=rotation;
  addWallDropShadow(g,w+.05,h+.05,.001,.26);
- addWallLightWash(world,g,Math.max(.48,w),Math.max(.48,h),.002);
+ addWallLightWash(world,g,Math.max(.56,w),Math.max(.56,h),.002);
  const textures=(data.views||[]).map(v=>{const t=texLoader.load(v.src,()=>{world.dirty=true;},undefined,()=>{world.assetErrors.push(v.src);});t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t;});
- const gAi3d=new THREE.Group();gAi3d.position.set(0,0,.003);g.add(gAi3d);
+ const gAi3d=new THREE.Group();gAi3d.position.set(0,0,.003);gAi3d.scale.setScalar(relScale);g.add(gAi3d);
  const gBillboard=new THREE.Group();gBillboard.position.set(0,0,.014);g.add(gBillboard);
  const billMat=new THREE.MeshBasicMaterial({map:textures[firstCutIdx]||textures[0],toneMapped:false,transparent:true,alphaTest:.12,side:THREE.DoubleSide});
  const billPlane=new THREE.Mesh(new THREE.PlaneGeometry(w,h),billMat);
  billPlane.castShadow=true;gBillboard.add(billPlane);
- const signPos=h>1.05?[w/2+.28,-.18,.008]:[0,-h/2-.14,.008];
- sign(g,data.code,data.title.slice(0,28).toUpperCase(),signPos,h>1.05?.40:.42);
+ const signPos=h>1.12?[w/2+.28,-.18,.008]:[0,-h/2-.15,.008];
+ sign(g,data.code,data.title.slice(0,28).toUpperCase(),signPos,h>1.12?.42:.44);
  world.scene.add(g);
- const inspectDist=Math.max(1.24,Math.min(2.05,0.88+Math.max(w,h)*0.92));
- const work={...data,isWallRelief:true,isWallWork:true,normalXZ:[Math.sin(rotation),Math.cos(rotation)],width:w,height:h,object:g,ai3dGroup:gAi3d,billboardGroup:gBillboard,plane:billPlane,textures,viewIndex:0,anchor:g,center:V(...position),radius:Math.max(1.36,inspectDist+0.22),view:V(Math.sin(rotation)*inspectDist+position[0],position[1],Math.cos(rotation)*inspectDist+position[2]),baseRotation:rotation};
+ const inspectDist=Math.max(1.38,Math.min(2.25,0.92+Math.max(w,h)*0.92));
+ const work={...data,displayHeight:h,displayWidth:w,displayScale:relScale,isWallRelief:true,isWallWork:true,normalXZ:[Math.sin(rotation),Math.cos(rotation)],width:w,height:h,object:g,ai3dGroup:gAi3d,billboardGroup:gBillboard,plane:billPlane,textures,viewIndex:0,anchor:g,center:V(...position),radius:Math.max(1.48,inspectDist+0.24),view:V(Math.sin(rotation)*inspectDist+position[0],position[1],Math.cos(rotation)*inspectDist+position[2]),baseRotation:rotation};
  work.setView=idx=>{if(!data.views?.length)return;const n=data.views.length,i=((idx%n)+n)%n;work.viewIndex=i;const planeIdx=data.views[i].cutout===false?firstCutIdx:i;billMat.map=textures[planeIdx];billMat.needsUpdate=true;world.dirty=true;};
  work.applyMode=mode=>{gAi3d.visible=mode==='ai3d';gBillboard.visible=mode==='billboard';world.dirty=true;};
  work.applyMode(sculpturePresentation);
  if(data.glb){
-  const glbUrl=data.glb+(data.glb.includes('?')?'':'?v=23');
+  const glbUrl=data.glb+(data.glb.includes('?')?'':'?v=25');
   gltfLoader.load(glbUrl,gltf=>{
    if(world.disposed){disposeDetachedTree(gltf.scene);return;}
    const model=gltf.scene;model.position.set(0,0,0);model.updateMatrixWorld(true);
@@ -1488,7 +1504,8 @@ function addRelief(world,id,position,rotation){
       o.material=new THREE.MeshStandardMaterial({map:tex,normalMap:nMap||null,normalScale:new THREE.Vector2(1.24,1.24),emissive:'#ffffff',emissiveMap:tex,emissiveIntensity:.045,envMapIntensity:1.18,roughness:data.roughness??.72,metalness:data.metalness??.06,side:THREE.DoubleSide});
      }else{
       const hasVC=!!o.geometry.attributes.color;
-      o.material=new THREE.MeshStandardMaterial({vertexColors:hasVC,color:hasVC?'#ffffff':'#d8ccb8',envMapIntensity:1.05,roughness:data.roughness??.72,metalness:data.metalness??.05,side:THREE.DoubleSide});
+      const baseCol=hasVC?'#ffffff':(o.material?.color?o.material.color:'#d8ccb8');
+      o.material=new THREE.MeshStandardMaterial({vertexColors:hasVC,color:baseCol,envMapIntensity:1.05,roughness:o.material?.roughness??(data.roughness??.72),metalness:o.material?.metalness??(data.metalness??.05),side:THREE.DoubleSide});
      }
     }
    });
@@ -1900,23 +1917,32 @@ function parcelaHeightAt(x,z){
  const micro = 0.04 * Math.sin(x * 0.17) * Math.cos(z * 0.15);
  return base + terrace + micro;
 }
-function registerCustomGardenWork(world,id,anchor,pivot,centerVec,radius=2.2,isTreeInstallation=true,extraPickRoot=null){
+function registerCustomGardenWork(world,id,anchor,pivot,centerVec,radius=2.2,isTreeInstallation=true,extraPickRoot=null,opts={}){
  const data=ART.find(a=>a.id===id);if(!data)return null;
  const gy=parcelaHeightAt(centerVec.x,centerVec.z);
  const allViews=(data.views&&data.views.length)?data.views:[{src:data.image,w:1.45,h:1.85,cutout:false,label:'Vista frontal'}];
+ const firstCutIdx=Math.max(0,allViews.findIndex(v=>v.cutout!==false));
  const textures=allViews.map(v=>{const t=texLoader.load(v.src,()=>{world.dirty=true;},undefined,()=>{world.assetErrors.push(v.src);});t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t;});
  anchor.updateMatrixWorld(true);
  const localCenter=anchor.worldToLocal(centerVec.clone());
- const v0=allViews[0];
- const gBillboard=new THREE.Group();gBillboard.position.copy(localCenter);anchor.add(gBillboard);
+ const v0=allViews[firstCutIdx]||allViews[0];
+ const bScale=opts.billboardScale??1.0;
+ const groundCutout=!!opts.groundCutout;
+ const gBillboard=new THREE.Group();
+ gBillboard.position.set(localCenter.x,groundCutout?0.02:localCenter.y,localCenter.z);
+ gBillboard.scale.setScalar(bScale);
+ anchor.add(gBillboard);
  const billBack=new THREE.Mesh(boxGeo,mat('#232620',0.82,0.04));
- billBack.scale.set(v0.w+0.028,v0.h+0.028,0.014);billBack.position.set(0,0,-0.010);
+ billBack.scale.set(v0.w+0.028,v0.h+0.028,0.014);billBack.position.set(0,groundCutout?v0.h/2:0,-0.010);
  billBack.visible=v0.cutout===false;gBillboard.add(billBack);
- const billMat=new THREE.MeshBasicMaterial({map:textures[0],toneMapped:false,transparent:v0.cutout!==false,alphaTest:v0.cutout===false?0:0.15,side:THREE.DoubleSide});
+ const billMat=new THREE.MeshBasicMaterial({map:textures[firstCutIdx]||textures[0],toneMapped:false,transparent:v0.cutout!==false,alphaTest:v0.cutout===false?0:0.15,side:THREE.DoubleSide});
  const billPlane=new THREE.Mesh(new THREE.PlaneGeometry(1,1),billMat);
- billPlane.scale.set(v0.w,v0.h,1);billPlane.castShadow=true;gBillboard.add(billPlane);
+ billPlane.scale.set(v0.w,v0.h,1);billPlane.position.y=groundCutout?v0.h/2:0;billPlane.castShadow=true;gBillboard.add(billPlane);
  const work={
   ...data,
+  displayHeight:(data.height||v0.h)*(opts.displayScale??bScale),
+  displayWidth:v0.w*(opts.displayScale??bScale),
+  clampFrontAngle:!!opts.clampFrontAngle,
   object:pivot,
   ai3dGroup:pivot,
   billboardGroup:gBillboard,
@@ -1938,19 +1964,20 @@ function registerCustomGardenWork(world,id,anchor,pivot,centerVec,radius=2.2,isT
   setView:idx=>{
    const n=allViews.length,i=((idx%n)+n)%n;
    work.viewIndex=i;
-   const vp=allViews[i];
-   billPlane.scale.set(vp.w,vp.h,1);
-   billBack.scale.set(vp.w+0.028,vp.h+0.028,0.014);
-   billBack.visible=vp.cutout===false;
-   billMat.map=textures[i];
-   billMat.transparent=vp.cutout!==false;
-   billMat.alphaTest=vp.cutout===false?0:0.15;
+   const cutIdx=allViews[i].cutout===false?firstCutIdx:i;
+   const vc=allViews[cutIdx];
+   billPlane.scale.set(vc.w,vc.h,1);billPlane.position.y=groundCutout?vc.h/2:0;
+   billBack.scale.set(vc.w+0.028,vc.h+0.028,0.014);billBack.position.y=groundCutout?vc.h/2:0;
+   billBack.visible=vc.cutout===false;
+   billMat.map=textures[cutIdx];
+   billMat.transparent=vc.cutout!==false;
+   billMat.alphaTest=vc.cutout===false?0:0.15;
    billMat.needsUpdate=true;
    world.dirty=true;
   },
   applyMode:mode=>{
    pivot.visible=mode==='ai3d';
-   if(extraPickRoot)extraPickRoot.visible=mode==='ai3d';
+   if(extraPickRoot)extraPickRoot.visible=opts.keepHostTreeInBillboard?true:(mode==='ai3d');
    gBillboard.visible=mode==='billboard';
    world.dirty=true;
   }
@@ -2035,24 +2062,40 @@ function addFoliageCluster(parent,center,radius,palette,random,count=18,flatness
   cluster.add(puff);
  }
 }
-function addLizard(parent,pos,rotY=0,scale=1,worldRef=null){
+function addLizard(parent,pos,rotY=0,scale=1,worldRef=null,variant=0){
  const g=new THREE.Group();g.position.set(...pos);g.rotation.y=rotY;g.scale.setScalar(scale);
- const bodyMat=mat('#588238',0.58),stripeMat=mat('#c4d668',0.62),eyeMat=mat('#171c12',0.25);
+ const palettes=[
+  {body:'#568834',stripe:'#d2e268',leg:'#456c28'},
+  {body:'#687e38',stripe:'#dce082',leg:'#52642a'},
+  {body:'#488c42',stripe:'#b8e468',leg:'#387032'},
+  {body:'#7d7442',stripe:'#d8c87a',leg:'#645c34'}
+ ];
+ const pal=palettes[variant%palettes.length];
+ const bodyMat=mat(pal.body,0.52),stripeMat=mat(pal.stripe,0.58),eyeMat=mat('#141810',0.22);
  const bodyGroup=new THREE.Group();g.add(bodyGroup);
- const torso=new THREE.Mesh(new THREE.CapsuleGeometry(0.023,0.092,8,12),bodyMat);torso.rotation.x=Math.PI/2;torso.scale.set(1,1,0.62);torso.position.y=0.016;torso.castShadow=true;bodyGroup.add(torso);
- const stripe=new THREE.Mesh(new THREE.CapsuleGeometry(0.0085,0.088,4,8),stripeMat);stripe.rotation.x=Math.PI/2;stripe.position.set(0,0.026,0);bodyGroup.add(stripe);
- const headPivot=new THREE.Group();headPivot.position.set(0,0.02,0.052);bodyGroup.add(headPivot);
- const head=new THREE.Mesh(new THREE.ConeGeometry(0.021,0.048,10),bodyMat);head.rotation.x=Math.PI/2;head.scale.set(1,1,0.66);head.position.set(0,0,0.018);headPivot.add(head);
+ const torso=new THREE.Mesh(new THREE.CapsuleGeometry(0.025,0.098,8,12),bodyMat);torso.rotation.x=Math.PI/2;torso.scale.set(1,1,0.62);torso.position.y=0.018;torso.castShadow=true;bodyGroup.add(torso);
+ const stripe=new THREE.Mesh(new THREE.CapsuleGeometry(0.0095,0.094,4,8),stripeMat);stripe.rotation.x=Math.PI/2;stripe.position.set(0,0.028,0);bodyGroup.add(stripe);
  for(const sx of [-1,1]){
-  const eye=new THREE.Mesh(sphereGeo,eyeMat);eye.scale.setScalar(0.0048);eye.position.set(sx*0.012,0.006,0.014);headPivot.add(eye);
-  for(const [lz,la] of [[0.03,0.55],[-0.03,-0.55]]){
-   rod(bodyGroup,[sx*0.016,0.014,lz],[sx*0.044,0.003,lz+la*0.022],0.0042,'#4a6e2d');
+  const sideStripe=new THREE.Mesh(new THREE.CapsuleGeometry(0.0052,0.084,4,6),stripeMat);
+  sideStripe.rotation.x=Math.PI/2;sideStripe.position.set(sx*0.019,0.021,0);bodyGroup.add(sideStripe);
+ }
+ const headPivot=new THREE.Group();headPivot.position.set(0,0.022,0.056);bodyGroup.add(headPivot);
+ const head=new THREE.Mesh(new THREE.ConeGeometry(0.022,0.052,10),bodyMat);head.rotation.x=Math.PI/2;head.scale.set(1,1,0.66);head.position.set(0,0,0.020);head.castShadow=true;headPivot.add(head);
+ const legs=[];
+ for(const sx of [-1,1]){
+  const eye=new THREE.Mesh(sphereGeo,eyeMat);eye.scale.setScalar(0.0052);eye.position.set(sx*0.013,0.006,0.016);headPivot.add(eye);
+  for(const [lz,la,isFront] of [[0.032,0.52,true],[-0.032,-0.52,false]]){
+   const legPiv=new THREE.Group();legPiv.position.set(sx*0.016,0.015,lz);
+   rod(legPiv,[0,0,0],[sx*0.022,-0.007,la*0.014],0.0048,pal.leg);
+   rod(legPiv,[sx*0.022,-0.007,la*0.014],[sx*0.034,-0.014,la*0.028],0.0038,pal.leg);
+   bodyGroup.add(legPiv);
+   legs.push({piv:legPiv,sx,isFront});
   }
  }
- const tailPivot=new THREE.Group();tailPivot.position.set(0,0.015,-0.045);bodyGroup.add(tailPivot);
- curve(tailPivot,[[0,0,0],[0.012,-0.005,-0.065],[-0.015,-0.009,-0.145],[0.008,-0.011,-0.22]],0.0058,'#4a6e2d');
- const critterInfo={kind:'lizard',name:'Lagartija valenciana del jardín',mesh:g,excitedUntil:0};
- g.userData.lizardRig={bodyGroup,headPivot,tailPivot,basePos:[...pos],baseRotY:rotY,phase:Math.random()*6.28,critter:critterInfo};
+ const tailPivot=new THREE.Group();tailPivot.position.set(0,0.016,-0.048);bodyGroup.add(tailPivot);
+ curve(tailPivot,[[0,0,0],[0.012,-0.005,-0.072],[-0.016,-0.010,-0.158],[0.009,-0.013,-0.245]],0.0062,pal.leg);
+ const critterInfo={kind:'lizard',name:'Lagartija valenciana (Podarcis liolepis)',mesh:g,excitedUntil:0};
+ g.userData.lizardRig={bodyGroup,headPivot,tailPivot,legs,basePos:[...pos],baseRotY:rotY,phase:Math.random()*6.28,critter:critterInfo};
  g.traverse(o=>{if(o.isMesh)o.userData.critter=critterInfo;});
  parent.add(g);
  if(worldRef){
@@ -2222,13 +2265,13 @@ function addTallCompanionPine(world,x,z){
  });
  addFoliageCluster(g,[-0.2,6.7,0],1.55,pinePalette,random,22,0.56);
  const mov22Anchor=new THREE.Group();
- mov22Anchor.position.set(x-1.05,gy+2.24,z+0.85);
+ mov22Anchor.position.set(x-1.05,gy+2.48,z+0.85);
  world.scene.add(mov22Anchor);
  const mov22Pivot=new THREE.Group();mov22Anchor.add(mov22Pivot);
  const gMob22=buildTrue3DMobileGeometry('mov022');
- if(gMob22){gMob22.scale.setScalar(0.58);mov22Pivot.add(gMob22);}
- const w22=registerCustomGardenWork(world,'mov022',mov22Anchor,mov22Pivot,V(x-1.05,gy+1.62,z+0.85),2.2,false);
- if(w22)w22.view=V(x-1.15,parcelaHeightAt(x-1.15,z+2.65)+1.62,z+2.65);
+ if(gMob22){gMob22.scale.setScalar(0.86);mov22Pivot.add(gMob22);}
+ const w22=registerCustomGardenWork(world,'mov022',mov22Anchor,mov22Pivot,V(x-1.05,gy+1.56,z+0.85),2.55,false,null,{billboardScale:0.86,displayScale:0.86});
+ if(w22)w22.view=V(x-1.15,parcelaHeightAt(x-1.15,z+3.05)+1.68,z+3.05);
  softShadow(world.scene,x,z,4.8,0.26,gy);
  return g;
 }
@@ -2413,25 +2456,26 @@ function addAlmendroV(world,x,z){
   lc.position.set(lx,ly,lz);
   g.add(lc);
  }
- // Stacked angular limestone & pinkish-terracotta rodeno stone cairn (rocalla) at the trunk base
+ // Stacked angular limestone & pinkish-terracotta rodeno stone cairn (rocalla) at the trunk base (attached to mov17Anchor so it stays grounded in both 3D & cutout modes)
+ const mov17Anchor=new THREE.Group();mov17Anchor.position.set(x,gy,z);world.scene.add(mov17Anchor);
+ g.scale.setScalar(1.18);
  const stoneCols=['#dcd4c6','#cfa292','#c4baa8','#e6dfd2','#988e82','#d4a898','#b8ada0','#68625c'];
  for(let i=0;i<68;i++){
   const a=(i*2.39996)+(random()-0.5)*0.25;
   const tRad=Math.pow(i/68,0.62);
-  const rad=0.08+tRad*0.52;
-  const hLayer=Math.max(0.03,(0.58-rad)*0.56)+(random()-0.3)*0.05;
+  const rad=0.09+tRad*0.58;
+  const hLayer=Math.max(0.03,(0.64-rad)*0.56)+(random()-0.3)*0.05;
   const useFaceted=(i%3!==0);
   const st=new THREE.Mesh(useFaceted?rockFacetedGeo:pebbleGeo,mat(stoneCols[i%stoneCols.length],0.88));
-  const s=0.075+random()*0.068;
+  const s=0.082+random()*0.072;
   st.scale.set(s*(1.22+random()*0.35),s*(0.68+random()*0.25),s*(0.95+random()*0.30));
   st.position.set(Math.cos(a)*rad,hLayer,Math.sin(a)*rad);
   st.rotation.set(random()*3.14,random()*3.14,random()*3.14);
   st.castShadow=true;st.receiveShadow=true;
-  g.add(st);
+  mov17Anchor.add(st);
  }
  // 7 true-3D extruded perforated colored lattice strips matching assets/mov-017.webp in the clear foreground
- const mov17Anchor=new THREE.Group();mov17Anchor.position.set(x,gy,z);world.scene.add(mov17Anchor);
- const mov17Pivot=new THREE.Group();mov17Anchor.add(mov17Pivot);
+ const mov17Pivot=new THREE.Group();mov17Pivot.scale.setScalar(1.18);mov17Anchor.add(mov17Pivot);
  const strips=[
   {pos:[-0.78,1.75,0.06],cord:0.15,len:0.44,col:'#f5c818',rotY:0.08,rotZ:0.14,twist:0.08},
   {pos:[-0.51,1.63,0.07],cord:0.13,len:0.42,col:'#e84a82',rotY:-0.06,rotZ:0.03,twist:-0.06},
@@ -2464,16 +2508,16 @@ function addAlmendroV(world,x,z){
   tiltGroup.add(stripMesh);
   mov17Pivot.add(sp);
  });
- addLizard(g,[0.36,0.16,0.32],-0.8,1.15,world);
- softShadow(world.scene,x,z,3.2,0.24,gy);
- const w17=registerCustomGardenWork(world,'mov017',mov17Anchor,mov17Pivot,V(x+0.02,gy+1.30,z),2.82,true,g);
- if(w17)w17.view=V(x-0.32,parcelaHeightAt(x-0.32,z+2.68)+1.72,z+2.68);
+ addLizard(mov17Anchor,[0.42,0.18,0.36],-0.8,1.38,world,0);
+ softShadow(world.scene,x,z,3.6,0.24,gy);
+ const w17=registerCustomGardenWork(world,'mov017',mov17Anchor,mov17Pivot,V(x+0.02,gy+1.48,z+0.06),3.05,true,g,{billboardScale:1.10,displayScale:1.18});
+ if(w17)w17.view=V(x-0.32,parcelaHeightAt(x-0.32,z+3.10)+1.72,z+3.10);
  return g;
 }
 function addBlueBottleTree(world,x,z){
  const gy=parcelaHeightAt(x,z),g=new THREE.Group();
- g.position.set(x,gy,z);world.scene.add(g);
- world.colliders.push({x,z,r:0.75});
+ g.position.set(x,gy,z);g.scale.setScalar(1.14);world.scene.add(g);
+ world.colliders.push({x,z,r:0.82});
  const random=rng(604);
  const bark='#786c5c';
  taperedBranch(g,[[0,-0.06,0],[0.02,0.24,0],[0,0.48,0]],0.20,0.16,bark,14,10,true);
@@ -2502,24 +2546,24 @@ function addBlueBottleTree(world,x,z){
    g.add(leaf);
   }
  }
- addStoneRing(world,x,z,0.94,18,false);
+ addStoneRing(world,x,z,1.04,18,false);
  const mov33Anchor=new THREE.Group();mov33Anchor.position.set(x,gy,z);world.scene.add(mov33Anchor);
  const mov33Pivot=new THREE.Group();mov33Anchor.add(mov33Pivot);
  const centralMob=buildTrue3DMobileGeometry('mov033');
  if(centralMob){
-  centralMob.position.set(0.04,2.04,0.22);
-  centralMob.scale.setScalar(0.54);
+  centralMob.position.set(0.04,2.32,0.28);
+  centralMob.scale.setScalar(0.82);
   mov33Pivot.add(centralMob);
  }
- softShadow(world.scene,x,z,3.2,0.22,gy);
- const w33=registerCustomGardenWork(world,'mov033',mov33Anchor,mov33Pivot,V(x+0.04,gy+1.52,z+0.22),2.2,true,g);
- if(w33)w33.view=V(x+0.04,parcelaHeightAt(x+0.04,z+2.35)+1.52,z+2.35);
+ softShadow(world.scene,x,z,3.5,0.22,gy);
+ const w33=registerCustomGardenWork(world,'mov033',mov33Anchor,mov33Pivot,V(x+0.04,gy+1.40,z+0.34),2.55,true,g,{billboardScale:0.82,displayScale:0.82,keepHostTreeInBillboard:true});
+ if(w33)w33.view=V(x+0.04,parcelaHeightAt(x+0.04,z+2.85)+1.56,z+2.85);
  return g;
 }
 function addGeometricFoamTree(world,x,z){
  const gy=parcelaHeightAt(x,z),g=new THREE.Group();
- g.position.set(x,gy,z);world.scene.add(g);
- world.colliders.push({x,z,r:0.65});
+ g.position.set(x,gy,z);g.scale.setScalar(1.16);world.scene.add(g);
+ world.colliders.push({x,z,r:0.74});
  const bark='#5e5042';
  taperedBranch(g,[[0,-0.05,0],[0.03,0.48,0.02],[-0.01,0.96,0]],0.15,0.11,bark,14,10,true);
  const arms=[
@@ -2547,13 +2591,32 @@ function addGeometricFoamTree(world,x,z){
  const mov32Pivot=new THREE.Group();mov32Anchor.add(mov32Pivot);
  const mob32=buildTrue3DMobileGeometry('mov032');
  if(mob32){
-  mob32.position.set(0.02,1.88,0.18);
-  mob32.scale.setScalar(0.56);
+  mob32.position.set(0.02,2.18,0.22);
+  mob32.scale.setScalar(0.84);
   mov32Pivot.add(mob32);
  }
- softShadow(world.scene,x,z,2.8,0.22,gy);
- const w32=registerCustomGardenWork(world,'mov032',mov32Anchor,mov32Pivot,V(x+0.02,gy+1.36,z+0.18),2.2,true,g);
- if(w32)w32.view=V(x+0.02,parcelaHeightAt(x+0.02,z+2.35)+1.38,z+2.35);
+ softShadow(world.scene,x,z,3.1,0.22,gy);
+ const w32=registerCustomGardenWork(world,'mov032',mov32Anchor,mov32Pivot,V(x+0.02,gy+1.36,z+0.28),2.48,true,g,{billboardScale:0.84,displayScale:0.84,keepHostTreeInBillboard:true});
+ if(w32){
+  w32.view=V(x+0.02,parcelaHeightAt(x+0.02,z+2.75)+1.52,z+2.75);
+  gltfLoader.load('assets/hy3d-mov-032.glb?v=25',gltf=>{
+   if(world.disposed){disposeDetachedTree(gltf.scene);return;}
+   const swayGrp=new THREE.Group();
+   swayGrp.position.set(0.02,2.18,0.22);
+   swayGrp.scale.setScalar(0.84);
+   swayGrp.userData.kineticSway={baseRotY:0.12,spinSpeed:0.68,phase:0.7,amp:0.26,swayZ:0.045,swayX:0.038};
+   gltf.scene.traverse(o=>{
+    if(o.isMesh){
+     o.castShadow=true;o.receiveShadow=true;o.userData.work=w32;
+     if(o.material){o.material.side=THREE.DoubleSide;o.material.envMapIntensity=1.15;}
+    }
+   });
+   swayGrp.add(gltf.scene);
+   if(mob32)mob32.visible=false;
+   mov32Pivot.add(swayGrp);
+   world.dirty=true;
+  },undefined,()=>{world.assetErrors.push('assets/hy3d-mov-032.glb');});
+ }
  return g;
 }
 function addChumbera(world,x,z,scale=1,seed=1){
@@ -3477,16 +3540,48 @@ function addGardenAtmosphere(world){
  }
  world.sunbeams={meshes:sunbeams,mat:sunbeamMat};
 
- // 4. Additional active darting lizards along the Bancal Central & Well-ring
- const lizardSpots=[
-  [0.2,parcelaHeightAt(0.2,3.58)+0.49,3.58,0.15,1.25],
-  [-5.8,parcelaHeightAt(-5.8,3.82)+0.49,3.82,-0.25,1.2],
-  [-2.55,parcelaHeightAt(-2.75,2.15)+0.35,2.15,1.8,1.15]
+ // 4. ~22 Active Mediterranean Running Lizards (Sargantanes / Lagartijas) darting along paths, bancal stones & sunny clearings
+ const lizRoutes=[
+  // Entrance & Almond Path
+  {pts:[[13.4,-13.8,0.02],[11.8,-12.0,0.02],[10.0,-10.0,0.02]],speed:0.72,phase:0.2,sc:1.52,v:0},
+  {pts:[[9.2,-9.0,0.02],[7.4,-7.3,0.02],[5.6,-5.8,0.02]],speed:0.68,phase:1.7,sc:1.46,v:2},
+  {pts:[[11.2,-10.8,0.02],[9.8,-8.8,0.02],[8.4,-7.8,0.02]],speed:0.78,phase:3.1,sc:1.42,v:1},
+  // North Sculptural Almonds (MOV-017 & MOV-032)
+  {pts:[[3.6,-4.4,0.02],[1.6,-3.1,0.02],[-0.6,-2.2,0.02]],speed:0.75,phase:0.9,sc:1.56,v:0},
+  {pts:[[-0.8,-4.6,0.02],[-2.6,-3.4,0.02],[-4.2,-2.2,0.02]],speed:0.70,phase:2.4,sc:1.48,v:2},
+  {pts:[[2.8,-2.4,0.02],[0.6,-1.6,0.02],[-1.8,-1.0,0.02]],speed:0.82,phase:4.2,sc:1.50,v:3},
+  {pts:[[1.4,-5.6,0.02],[-0.4,-5.0,0.02],[-1.8,-4.8,0.02]],speed:0.66,phase:5.1,sc:1.44,v:1},
+  // Gran Algarrobo & West Path
+  {pts:[[-3.8,0.4,0.02],[-6.0,1.2,0.02],[-8.6,1.0,0.02]],speed:0.76,phase:1.3,sc:1.58,v:0},
+  {pts:[[-7.2,-0.6,0.02],[-9.6,-0.2,0.02],[-12.2,0.6,0.02]],speed:0.72,phase:3.6,sc:1.46,v:2},
+  {pts:[[-11.8,1.2,0.02],[-14.8,0.8,0.02],[-17.6,0.9,0.02]],speed:0.69,phase:0.6,sc:1.52,v:1},
+  {pts:[[-5.2,-2.8,0.02],[-7.8,-2.6,0.02],[-9.8,-1.8,0.02]],speed:0.74,phase:2.8,sc:1.42,v:3},
+  // Dry-stone Bancal Central top & sunny south face
+  {pts:[[-11.2,4.04,0.49],[-8.2,3.92,0.49],[-5.2,3.80,0.49]],speed:0.80,phase:0.4,sc:1.55,v:0},
+  {pts:[[-4.4,3.77,0.49],[-1.2,3.64,0.49],[2.0,3.52,0.49]],speed:0.74,phase:2.1,sc:1.60,v:2},
+  {pts:[[2.8,3.49,0.49],[6.2,3.36,0.49],[9.6,3.22,0.49]],speed:0.78,phase:3.9,sc:1.50,v:1},
+  {pts:[[10.2,3.18,0.49],[12.6,3.09,0.49],[14.6,3.01,0.49]],speed:0.71,phase:1.1,sc:1.45,v:3},
+  {pts:[[-2.6,4.35,0.02],[0.8,4.22,0.02],[4.0,4.10,0.02]],speed:0.84,phase:4.8,sc:1.54,v:0},
+  // Claro Central & Intervenciones (ESC-047..051)
+  {pts:[[-9.8,6.2,0.02],[-7.2,7.1,0.02],[-4.6,6.9,0.02]],speed:0.73,phase:1.5,sc:1.50,v:2},
+  {pts:[[-3.4,6.7,0.02],[-0.4,6.9,0.02],[2.6,7.1,0.02]],speed:0.79,phase:3.3,sc:1.58,v:0},
+  {pts:[[3.4,7.2,0.02],[6.2,7.3,0.02],[8.8,6.4,0.02]],speed:0.75,phase:0.8,sc:1.48,v:1},
+  {pts:[[-2.4,2.0,0.02],[0.4,2.6,0.02],[2.6,4.2,0.02]],speed:0.77,phase:2.6,sc:1.52,v:2},
+  // Caseta-Taller Porch & East Path (MOV-025 & ESC-052)
+  {pts:[[15.0,-1.4,0.02],[13.4,1.2,0.02],[11.2,3.6,0.02]],speed:0.76,phase:1.9,sc:1.54,v:0},
+  {pts:[[16.8,-3.8,0.02],[15.6,-1.6,0.02],[16.2,1.2,0.02]],speed:0.70,phase:4.4,sc:1.48,v:3}
  ];
- for(const [lx,ly,lz,lrot,lsc] of lizardSpots){
-  const liz=addLizard(scene,[lx,ly,lz],lrot,lsc,world);
-  liz.userData.lizardRig.isRunner=true;
- }
+ lizRoutes.forEach(lr=>{
+  const cPts=lr.pts.map(([px,pz,dy])=>V(px,parcelaHeightAt(px,pz)+(dy||0.02),pz));
+  const curveObj=new THREE.CatmullRomCurve3(cPts);
+  const p0=cPts[0];
+  const liz=addLizard(scene,[p0.x,p0.y,p0.z],0,lr.sc,world,lr.v);
+  const rig=liz.userData.lizardRig;
+  rig.routeCurve=curveObj;
+  rig.routeSpeed=lr.speed;
+  rig.phase=lr.phase;
+  rig.startleBoost=0;
+ });
 }
 export function setGardenTimeOfDay(world,mode,instant=false){
  if(!world)return;
@@ -3629,14 +3724,14 @@ export function createGarden(){
  addAlmendroV(world,2.2,-5.2);
  addGeometricFoamTree(world,-2.2,-4.3);
  addBlueBottleTree(world,-1.2,2.4);
- const mov28Anchor=[9.5,parcelaHeightAt(9.5,-8.5)+2.04,-8.5];
- const mov26Anchor=[12.3,parcelaHeightAt(12.3,-3.5)+2.06,-3.5];
- const mov23Anchor=[8.0,parcelaHeightAt(8.0,4.9)+2.04,4.9];
- addMediterraneanTree(world,10.3,-8.9,4.5,21,'almond',true,mov28Anchor);
- addMediterraneanTree(world,6.8,-11.5,4.3,22,'almond',true);
- addMediterraneanTree(world,14.5,-11.5,4.4,23,'almond',true);
- addMediterraneanTree(world,13.3,-3.9,4.6,24,'olive',true,mov26Anchor);
- addMediterraneanTree(world,9.0,5.3,4.4,31,'olive',true,mov23Anchor);
+ const mov28Anchor=[9.5,parcelaHeightAt(9.5,-8.5)+2.42,-8.5];
+ const mov26Anchor=[12.3,parcelaHeightAt(12.3,-3.5)+2.38,-3.5];
+ const mov23Anchor=[8.0,parcelaHeightAt(8.0,4.9)+2.38,4.9];
+ addMediterraneanTree(world,10.3,-8.9,4.9,21,'almond',true,mov28Anchor);
+ addMediterraneanTree(world,6.8,-11.5,4.5,22,'almond',true);
+ addMediterraneanTree(world,14.5,-11.5,4.6,23,'almond',true);
+ addMediterraneanTree(world,13.3,-3.9,5.0,24,'olive',true,mov26Anchor);
+ addMediterraneanTree(world,9.0,5.3,4.8,31,'olive',true,mov23Anchor);
  addMediterraneanTree(world,3.8,1.8,4.2,32,'olive',true);
  addMediterraneanTree(world,15.5,6.8,4.5,33,'olive',false);
  addMediterraneanTree(world,-18.5,1.2,4.8,34,'olive',true);
@@ -3670,43 +3765,75 @@ export function createGarden(){
   sh.position.set(sx,sy+r*0.24,sz);
   sh.castShadow=true;sh.receiveShadow=true;scene.add(sh);
  }
- const mov16=addHangingMobile3D(world,'mov016',[-7.65,parcelaHeightAt(-7.65,-1.65)+1.98,-1.65],parcelaHeightAt(-7.65,-1.65)+2.06,0.42,'branch');
- if(mov16){mov16.baseRotation=-0.38;mov16.object.rotation.y=mov16.baseRotation;mov16.view.set(-8.55,Math.max(1.72,mov16.center.y),0.65);}
- const mov19=addHangingMobile3D(world,'mov019',[-6.05,parcelaHeightAt(-6.05,-0.82)+2.02,-0.82],parcelaHeightAt(-6.05,-0.82)+2.10,0.42,'branch');
- if(mov19){mov19.baseRotation=0.08;mov19.object.rotation.y=mov19.baseRotation;mov19.view.set(-5.85,Math.max(1.72,mov19.center.y),1.55);}
- const mov18=addHangingMobile3D(world,'mov018',[-4.65,parcelaHeightAt(-4.65,-1.35)+1.98,-1.35],parcelaHeightAt(-4.65,-1.35)+2.06,0.40,'branch');
- if(mov18){mov18.baseRotation=0.45;mov18.object.rotation.y=mov18.baseRotation;mov18.view.set(-3.65,Math.max(1.72,mov18.center.y),0.85);}
- const mov25=addHangingMobile3D(world,'mov025',[18.0,parcelaHeightAt(18.0,0.2)+2.62,0.2],parcelaHeightAt(18.0,0.2)+3.05,0.42,'pergola');
- if(mov25){mov25.baseRotation=-Math.PI/2;mov25.object.rotation.y=mov25.baseRotation;mov25.view.set(15.35,Math.max(1.72,mov25.center.y),0.2);}
- const mov26=addHangingMobile3D(world,'mov026',[mov26Anchor[0],mov26Anchor[1]-0.04,mov26Anchor[2]],mov26Anchor[1]+0.02,0.42,'branch');
- if(mov26){mov26.baseRotation=-1.15;mov26.object.rotation.y=mov26.baseRotation;mov26.view.set(mov26Anchor[0]-2.15,Math.max(1.72,mov26.center.y),mov26Anchor[2]+0.95);}
- const mov28=addHangingMobile3D(world,'mov028',[mov28Anchor[0],mov28Anchor[1]-0.04,mov28Anchor[2]],mov28Anchor[1]+0.02,0.42,'branch');
- if(mov28){mov28.baseRotation=-1.15;mov28.object.rotation.y=mov28.baseRotation;mov28.view.set(mov28Anchor[0]-2.15,Math.max(1.72,mov28.center.y),mov28Anchor[2]+0.95);}
- const mov23=addHangingMobile3D(world,'mov023',[mov23Anchor[0],mov23Anchor[1]-0.04,mov23Anchor[2]],mov23Anchor[1]+0.02,0.42,'branch');
- if(mov23){mov23.baseRotation=-1.95;mov23.object.rotation.y=mov23.baseRotation;mov23.view.set(mov23Anchor[0]-2.15,Math.max(1.72,mov23.center.y),mov23Anchor[2]-0.85);}
+ const mov16=addHangingMobile3D(world,'mov016',[-7.65,parcelaHeightAt(-7.65,-1.65)+2.38,-1.65],parcelaHeightAt(-7.65,-1.65)+2.48,0.80,'branch');
+ if(mov16){mov16.baseRotation=-0.38;mov16.object.rotation.y=mov16.baseRotation;mov16.view.set(-8.75,Math.max(1.72,mov16.center.y),1.05);}
+ const mov19=addHangingMobile3D(world,'mov019',[-6.05,parcelaHeightAt(-6.05,-0.82)+2.42,-0.82],parcelaHeightAt(-6.05,-0.82)+2.52,0.80,'branch');
+ if(mov19){mov19.baseRotation=0.08;mov19.object.rotation.y=mov19.baseRotation;mov19.view.set(-5.85,Math.max(1.72,mov19.center.y),1.95);}
+ const mov18=addHangingMobile3D(world,'mov018',[-4.65,parcelaHeightAt(-4.65,-1.35)+2.42,-1.35],parcelaHeightAt(-4.65,-1.35)+2.52,0.76,'branch');
+ if(mov18){mov18.baseRotation=0.45;mov18.object.rotation.y=mov18.baseRotation;mov18.view.set(-3.45,Math.max(1.72,mov18.center.y),1.25);}
+ const mov25=addHangingMobile3D(world,'mov025',[18.0,parcelaHeightAt(18.0,0.2)+2.74,0.2],parcelaHeightAt(18.0,0.2)+3.05,0.82,'pergola');
+ if(mov25){mov25.baseRotation=-Math.PI/2;mov25.object.rotation.y=mov25.baseRotation;mov25.view.set(15.15,Math.max(1.72,mov25.center.y),0.2);}
+ const mov26=addHangingMobile3D(world,'mov026',[mov26Anchor[0],mov26Anchor[1]-0.04,mov26Anchor[2]],mov26Anchor[1]+0.04,0.84,'branch');
+ if(mov26){mov26.baseRotation=-1.15;mov26.object.rotation.y=mov26.baseRotation;mov26.view.set(mov26Anchor[0]-2.55,Math.max(1.72,mov26.center.y),mov26Anchor[2]+1.15);}
+ const mov28=addHangingMobile3D(world,'mov028',[mov28Anchor[0],mov28Anchor[1]-0.04,mov28Anchor[2]],mov28Anchor[1]+0.04,0.80,'branch');
+ if(mov28){mov28.baseRotation=-1.15;mov28.object.rotation.y=mov28.baseRotation;mov28.view.set(mov28Anchor[0]-2.55,Math.max(1.72,mov28.center.y),mov28Anchor[2]+1.15);}
+ const mov23=addHangingMobile3D(world,'mov023',[mov23Anchor[0],mov23Anchor[1]-0.04,mov23Anchor[2]],mov23Anchor[1]+0.04,0.84,'branch');
+ if(mov23){mov23.baseRotation=-1.95;mov23.object.rotation.y=mov23.baseRotation;mov23.view.set(mov23Anchor[0]-2.55,Math.max(1.72,mov23.center.y),mov23Anchor[2]-1.05);}
  // 6 Intervenciones en el entorno (ESC-047 a ESC-052) integradas con geometría 3D 100% fiel a las fotografías reales del archivo
- const buildScallopedEvaFrame3D=(col)=>{
-  const outerR=0.076,innerR=0.036,lobes=10;
+ const buildPuzzleFoamTile3D=(col,glyph='O')=>{
+  const hs=0.086,tr=0.019;
   const sh=new THREE.Shape();
-  for(let i=0;i<=60;i++){
-   const a=(i/60)*Math.PI*2;
-   const r=outerR*(1+0.14*Math.cos(a*lobes));
-   const px=Math.cos(a)*r,py=Math.sin(a)*r;
-   if(i===0)sh.moveTo(px,py);else sh.lineTo(px,py);
-  }
+  // Square puzzle-mat tile outline with 2 interlocking puzzle tabs per edge (matching ARC-014978)
+  sh.moveTo(-hs,-hs);
+  sh.lineTo(-hs*0.38,-hs);sh.lineTo(-hs*0.42,-hs-tr);sh.lineTo(-hs*0.14,-hs-tr);sh.lineTo(-hs*0.18,-hs);
+  sh.lineTo(hs*0.18,-hs);sh.lineTo(hs*0.14,-hs+tr*0.85);sh.lineTo(hs*0.42,-hs+tr*0.85);sh.lineTo(hs*0.38,-hs);
+  sh.lineTo(hs,-hs);
+  sh.lineTo(hs,-hs*0.38);sh.lineTo(hs+tr,-hs*0.42);sh.lineTo(hs+tr,-hs*0.14);sh.lineTo(hs,-hs*0.18);
+  sh.lineTo(hs,hs*0.18);sh.lineTo(hs-tr*0.85,hs*0.14);sh.lineTo(hs-tr*0.85,hs*0.42);sh.lineTo(hs,hs*0.38);
+  sh.lineTo(hs,hs);
+  sh.lineTo(hs*0.38,hs);sh.lineTo(hs*0.42,hs+tr);sh.lineTo(hs*0.14,hs+tr);sh.lineTo(hs*0.18,hs);
+  sh.lineTo(-hs*0.18,hs);sh.lineTo(-hs*0.14,hs-tr*0.85);sh.lineTo(-hs*0.42,hs-tr*0.85);sh.lineTo(-hs*0.38,hs);
+  sh.lineTo(-hs,hs);
+  sh.lineTo(-hs,hs*0.38);sh.lineTo(-hs-tr,hs*0.42);sh.lineTo(-hs-tr,hs*0.14);sh.lineTo(-hs,hs*0.18);
+  sh.lineTo(-hs,-hs*0.18);sh.lineTo(-hs+tr*0.85,-hs*0.14);sh.lineTo(-hs+tr*0.85,-hs*0.42);sh.lineTo(-hs,-hs*0.38);
+  sh.closePath();
+  // Cut-out central letter/number stencil hole (CW winding for hole)
   const hole=new THREE.Path();
-  for(let i=0;i<=48;i++){
-   const a=-(i/48)*Math.PI*2;
-   const r=innerR*(1+0.10*Math.cos(a*4));
-   const px=Math.cos(a)*r,py=Math.sin(a)*r;
-   if(i===0)hole.moveTo(px,py);else hole.lineTo(px,py);
+  if(glyph==='L'){
+   hole.moveTo(-0.032,0.048);hole.lineTo(-0.012,0.048);hole.lineTo(-0.012,-0.026);hole.lineTo(0.034,-0.026);hole.lineTo(0.034,-0.046);hole.lineTo(-0.032,-0.046);hole.closePath();
+  }else if(glyph==='E'){
+   hole.moveTo(-0.034,0.048);hole.lineTo(0.034,0.048);hole.lineTo(0.034,0.030);hole.lineTo(-0.014,0.030);hole.lineTo(-0.014,0.008);hole.lineTo(0.026,0.008);hole.lineTo(0.026,-0.008);hole.lineTo(-0.014,-0.008);hole.lineTo(-0.014,-0.030);hole.lineTo(0.034,-0.030);hole.lineTo(0.034,-0.048);hole.lineTo(-0.034,-0.048);hole.closePath();
+  }else if(glyph==='N'){
+   hole.moveTo(-0.036,0.046);hole.lineTo(-0.016,0.046);hole.lineTo(0.016,-0.014);hole.lineTo(0.016,0.046);hole.lineTo(0.036,0.046);hole.lineTo(0.036,-0.046);hole.lineTo(0.016,-0.046);hole.lineTo(-0.016,0.014);hole.lineTo(-0.016,-0.046);hole.lineTo(-0.036,-0.046);hole.closePath();
+  }else if(glyph==='2'){
+   hole.moveTo(-0.032,0.030);hole.lineTo(-0.032,0.048);hole.lineTo(0.032,0.048);hole.lineTo(0.032,0.004);hole.lineTo(-0.012,-0.028);hole.lineTo(0.034,-0.028);hole.lineTo(0.034,-0.048);hole.lineTo(-0.034,-0.048);hole.lineTo(-0.034,-0.022);hole.lineTo(0.012,0.012);hole.lineTo(0.012,0.030);hole.closePath();
+  }else if(glyph==='4'){
+   hole.moveTo(0.008,0.048);hole.lineTo(0.028,0.048);hole.lineTo(0.028,-0.048);hole.lineTo(0.008,-0.048);hole.lineTo(0.008,-0.014);hole.lineTo(-0.034,-0.014);hole.lineTo(-0.034,0.006);hole.closePath();
+  }else{
+   hole.absarc(0,0,0.036,0,Math.PI*2,true);
   }
   sh.holes.push(hole);
-  const geo=new THREE.ExtrudeGeometry(sh,{depth:0.015,bevelEnabled:true,bevelThickness:0.002,bevelSize:0.0015,bevelSegments:1,curveSegments:10});
-  geo.translate(0,0,-0.0075);
-  const mesh=new THREE.Mesh(geo,mat(col,0.56,0.04));
+  const geo=new THREE.ExtrudeGeometry(sh,{depth:0.014,bevelEnabled:true,bevelThickness:0.002,bevelSize:0.0015,bevelSegments:1,curveSegments:8});
+  geo.translate(0,0,-0.007);
+  const mesh=new THREE.Mesh(geo,mat(col,0.58,0.03));
   mesh.castShadow=true;mesh.receiveShadow=true;
   return mesh;
+ };
+ const buildHouseholdKey3D=(keyMat,darkMat)=>{
+  const kg=new THREE.Group();
+  // Round/hex key bow with lanyard hole
+  const bow=new THREE.Mesh(cylinderGeo,keyMat);
+  bow.rotation.x=Math.PI/2;bow.scale.set(0.021,0.0042,0.021);bow.position.y=0.056;bow.castShadow=true;kg.add(bow);
+  const bowHole=new THREE.Mesh(cylinderGeo,darkMat);
+  bowHole.rotation.x=Math.PI/2;bowHole.scale.set(0.007,0.0052,0.007);bowHole.position.y=0.064;kg.add(bowHole);
+  // Key blade with bitting notches
+  const blade=new THREE.Mesh(boxGeo,keyMat);
+  blade.scale.set(0.010,0.050,0.0034);blade.position.y=0.016;blade.castShadow=true;kg.add(blade);
+  for(const [ny,nw] of [[0.004,0.006],[0.018,0.008],[0.030,0.005]]){
+   const tooth=new THREE.Mesh(boxGeo,keyMat);
+   tooth.scale.set(nw,0.005,0.0034);tooth.position.set(0.004,ny,0);kg.add(tooth);
+  }
+  return kg;
  };
  const gardenIntervenciones=[
   {id:'esc047',x:-11.4,z:5.8,rot:0.12},
@@ -3719,9 +3846,10 @@ export function createGarden(){
  gardenIntervenciones.forEach(gi=>{
   const gy=parcelaHeightAt(gi.x,gi.z);
   const anchor=new THREE.Group();anchor.position.set(gi.x,gy,gi.z);anchor.rotation.y=gi.rot||0;world.scene.add(anchor);
-  const pivot=new THREE.Group();anchor.add(pivot);
+  const pivot=new THREE.Group();pivot.scale.setScalar(1.28);anchor.add(pivot);
   const bBark=(gi.id==='esc047'||gi.id==='esc050')?'#bdb5a4':'#6b5d4e';
-  let customCenter=V(gi.x,gy+0.98,gi.z),customView=null,customRadius=2.35;
+  let customCenter=V(gi.x,gy+1.18,gi.z),customView=null,customRadius=2.65;
+  let regOpts={billboardScale:1.28,displayScale:1.28,groundCutout:true};
   if(gi.id==='esc047'){
    // ESC-047: Árbol seco ramificado en alcorque de piedras ocres/terracota con 12 botellas cuadradas azul cobalto (fiel a ARC-014959..63)
    const stCols=['#d4b894','#c89672','#dcd0bc','#b88462','#c6b49a','#a87858'];
@@ -3761,7 +3889,6 @@ export function createGarden(){
     sp.userData.kineticSway={baseRotY:bi*0.4,spinSpeed:0.82+(bi%4)*0.11,phase:bi*1.1,amp:0.20,swayZ:0.05,swayX:0.04};
     rod(sp,[0,0,0],[0,-drop,0],0.0020,'#9aa094');
     const bg=new THREE.Group();bg.position.set(0,-drop-0.105,0);
-    // Square-shouldered rectangular cobalt-blue bottle matching ARC-014960..63
     const body=new THREE.Mesh(boxGeo,bMat);body.scale.set(0.056,0.165,0.056);body.castShadow=true;bg.add(body);
     const shoulder=new THREE.Mesh(new THREE.CylinderGeometry(0.016,0.036,0.032,4),bMat);
     shoulder.rotation.y=Math.PI/4;shoulder.position.y=0.098;bg.add(shoulder);
@@ -3769,13 +3896,14 @@ export function createGarden(){
     const cap=new THREE.Mesh(cylinderGeo,capMat);cap.scale.set(0.015,0.016,0.015);cap.position.y=0.150;bg.add(cap);
     sp.add(bg);pivot.add(sp);
    });
-   customCenter=V(gi.x,gy+0.88,gi.z);
-   customView=V(gi.x,parcelaHeightAt(gi.x,gi.z+2.65)+1.34,gi.z+2.65);
+   customCenter=V(gi.x,gy+1.10,gi.z);
+   customView=V(gi.x,parcelaHeightAt(gi.x,gi.z+3.10)+1.52,gi.z+3.10);
   }else if(gi.id==='esc048'){
-   // ESC-048: Tres paneles rectangulares blancos curvados cubiertos densamente de tapones multicolores junto a tronco de pino (fiel a ARC-014967 y ARC-014970)
-   taperedBranch(pivot,[[-0.26,-0.06,0],[-0.20,0.95,0.02],[-0.13,1.95,0.03],[-0.06,2.85,0.04]],0.21,0.145,'#6b5848',16,12,false);
-   taperedBranch(pivot,[[-0.14,2.12,0.03],[0.14,2.18,0.04],[0.36,2.22,0.05]],0.058,0.024,'#6b5848',10,8,true);
-   const dp=new THREE.Group();dp.position.set(0.14,2.10,0.06);
+   // ESC-048: Tronco anfitrión en anchor (permanece visible en modo fotografía) + 3 paneles curvados de tapones en pivot
+   const hostTree=new THREE.Group();hostTree.scale.setScalar(1.28);anchor.add(hostTree);
+   taperedBranch(hostTree,[[-0.26,-0.06,0],[-0.20,0.95,0.02],[-0.13,1.95,0.03],[-0.06,2.85,0.04]],0.21,0.145,'#6b5848',16,12,false);
+   taperedBranch(hostTree,[[-0.14,2.12,0.03],[0.14,2.18,0.04],[0.36,2.22,0.05]],0.058,0.024,'#6b5848',10,8,true);
+   const dp=new THREE.Group();dp.position.set(0.14,2.10,0.08);
    dp.userData.kineticSway={baseRotY:0,spinSpeed:0.68,phase:0.8,amp:0.18,swayZ:0.035,swayX:0.028};
    rod(dp,[0,0.06,0],[0,-1.48,0],0.0032,'#9e9a8e');
    const capPalette=['#e02824','#1860d0','#f2c414','#249e48','#f06818','#e44882','#22262a','#22a6e8','#8838b8'];
@@ -3786,13 +3914,11 @@ export function createGarden(){
    ];
    panelDefs.forEach((pd,pi)=>{
     const pg=new THREE.Group();pg.position.set(0,pd.cy,0);pg.rotation.set(0,pd.ry,pd.rz);
-    // Curved white half-cylinder rectangular panel
     const curvedPanel=new THREE.Mesh(
      new THREE.CylinderGeometry(pd.w*0.56,pd.w*0.56,pd.h,18,1,false,-Math.PI*0.48,Math.PI*0.96),
      new THREE.MeshStandardMaterial({color:'#f4f3ee',roughness:0.52,side:THREE.DoubleSide})
     );
     curvedPanel.castShadow=true;curvedPanel.receiveShadow=true;pg.add(curvedPanel);
-    // Dense 7x9 mosaic of ~56 colorful bottle caps covering the entire curved front face
     const rows=9,cols=7;
     for(let r=0;r<rows;r++){
      for(let c=0;c<cols;c++){
@@ -3809,129 +3935,141 @@ export function createGarden(){
     dp.add(pg);
    });
    pivot.add(dp);
-   customCenter=V(gi.x+0.02,gy+1.26,gi.z+0.04);
-   customView=V(gi.x+0.02,parcelaHeightAt(gi.x+0.02,gi.z+2.35)+1.30,gi.z+2.35);
+   regOpts={billboardScale:1.28,displayScale:1.28,groundCutout:false,clampFrontAngle:true};
+   customCenter=V(gi.x+0.18,gy+1.66,gi.z+0.14);
+   customView=V(gi.x+0.10,parcelaHeightAt(gi.x+0.10,gi.z+2.75)+1.58,gi.z+2.75);
   }else if(gi.id==='esc049'){
    populateEsc049Geometry(pivot);
-   customCenter=V(gi.x,gy+0.68,gi.z);
-   customView=V(gi.x,parcelaHeightAt(gi.x,gi.z+2.95)+0.88,gi.z+2.95);
-   customRadius=2.6;
+   customCenter=V(gi.x,gy+0.86,gi.z);
+   customView=V(gi.x,parcelaHeightAt(gi.x,gi.z+3.35)+1.18,gi.z+3.35);
+   customRadius=2.95;
   }else if(gi.id==='esc050'){
-   // ESC-050: Árbol seco sobre lajas planas de piedra/terracota con 11 marcos calados festoneados de goma EVA (fiel a ARC-014978..81)
-   const slabCols=['#a89e92','#c67c5c','#8e867c','#d2c8b8','#b56a4c','#989084'];
-   for(let s=0;s<18;s++){
-    const sa=(s/18)*Math.PI*2+(s%3)*0.2,sr=0.14+(s%4)*0.095;
-    const sl=new THREE.Mesh(boxGeo,mat(slabCols[s%slabCols.length],0.88));
-    sl.scale.set(0.20+(s%3)*0.05,0.028,0.15+(s%2)*0.05);
-    sl.position.set(Math.cos(sa)*sr,0.022+(3-(s%4))*0.022,Math.sin(sa)*sr);
-    sl.rotation.set((s%2-0.5)*0.12,sa+0.4,(s%3-1)*0.10);
-    sl.castShadow=true;sl.receiveShadow=true;pivot.add(sl);
-   }
-   taperedBranch(pivot,[[0,0.02,0],[0.02,0.44,0.01],[0.03,0.86,0.02]],0.076,0.052,bBark,12,9,false);
+   // ESC-050: Árbol de corteza clara podado con 9 losetas cuadradas dentadas de puzzle de goma EVA con letras/números calados (fiel a ARC-014978)
+   taperedBranch(pivot,[[0,-0.02,0],[0.02,0.44,0.01],[0.03,0.88,0.02]],0.088,0.062,bBark,12,9,false);
    const sArms=[
-    [[0.03,0.82,0.02],[-0.30,1.14,0.14],[-0.62,1.42,0.22]],
-    [[0.03,0.84,0.02],[0.32,1.16,-0.10],[0.64,1.44,-0.18]],
-    [[0.03,0.86,0.02],[-0.08,1.26,-0.16],[-0.18,1.62,-0.28]],
-    [[0.03,0.86,0.02],[0.14,1.28,0.16],[0.24,1.66,0.26]],
-    [[-0.30,1.14,0.14],[-0.46,1.46,-0.08]],
-    [[0.32,1.16,-0.10],[0.48,1.48,0.12]]
+    [[0.03,0.84,0.02],[-0.32,1.18,0.12],[-0.68,1.48,0.20]],
+    [[0.03,0.86,0.02],[0.34,1.20,-0.08],[0.68,1.52,-0.14]],
+    [[0.03,0.88,0.02],[-0.10,1.30,-0.14],[-0.20,1.66,-0.22]],
+    [[0.03,0.88,0.02],[0.16,1.32,0.14],[0.26,1.68,0.22]],
+    [[-0.32,1.18,0.12],[-0.48,1.52,-0.06]],
+    [[0.34,1.20,-0.08],[0.52,1.54,0.10]]
    ];
-   sArms.forEach(pts=>taperedBranch(pivot,pts,0.040,0.014,bBark,10,7,false));
-   const frameSpecs=[
-    {pos:[-0.58,1.38,0.20],col:'#34a8e2'},
-    {pos:[-0.36,1.16,0.14],col:'#ec5888'},
-    {pos:[-0.44,1.42,-0.06],col:'#8c58c8'},
-    {pos:[-0.16,1.54,-0.24],col:'#34a8e2'},
-    {pos:[-0.18,0.92,0.08],col:'#f5cc18'},
-    {pos:[0.04,1.12,0.10],col:'#f27824'},
-    {pos:[0.22,1.58,0.24],col:'#34a8e2'},
-    {pos:[0.26,1.18,-0.08],col:'#ec5888'},
-    {pos:[0.46,1.42,0.10],col:'#8c58c8'},
-    {pos:[0.58,1.38,-0.16],col:'#34a8e2'},
-    {pos:[0.38,0.96,0.06],col:'#e83838'}
+   sArms.forEach(pts=>taperedBranch(pivot,pts,0.044,0.016,bBark,10,7,true));
+   const tileSpecs=[
+    {pos:[-0.64,1.44,0.18],col:'#8c6ad8',glyph:'E',drop:0.14,rz:0.12},
+    {pos:[-0.44,1.46,-0.04],col:'#f08030',glyph:'O',drop:0.16,rz:-0.10},
+    {pos:[-0.46,1.12,0.14],col:'#f5df38',glyph:'2',drop:0.22,rz:0.08},
+    {pos:[-0.22,1.26,0.08],col:'#eb5a78',glyph:'3',drop:0.14,rz:-0.08},
+    {pos:[-0.16,1.56,-0.18],col:'#16c2c8',glyph:'R',drop:0.13,rz:0.14},
+    {pos:[0.04,1.08,0.10],col:'#f2648c',glyph:'4',drop:0.15,rz:0.06},
+    {pos:[0.14,1.02,0.06],col:'#f5df38',glyph:'O',drop:0.19,rz:-0.12},
+    {pos:[0.26,1.58,0.18],col:'#22d4b8',glyph:'L',drop:0.14,rz:-0.06},
+    {pos:[0.50,1.46,0.08],col:'#b89ce0',glyph:'O',drop:0.18,rz:0.10},
+    {pos:[0.62,1.44,-0.12],col:'#2c8ce8',glyph:'N',drop:0.22,rz:-0.08}
    ];
-   frameSpecs.forEach((fs,fi)=>{
-    const lp=new THREE.Group();lp.position.set(...fs.pos);
-    lp.userData.kineticSway={baseRotY:fi*0.45,spinSpeed:0.88+fi*0.07,phase:fi*1.1,amp:0.28,swayZ:0.05,swayX:0.04};
-    const drop=0.11+(fi%3)*0.05;
-    rod(lp,[0,0,0],[0,-drop,0],0.0020,'#9e9a90');
-    const fr=buildScallopedEvaFrame3D(fs.col);
-    fr.position.set(0,-drop-0.072,0);
+   tileSpecs.forEach((ts,fi)=>{
+    const lp=new THREE.Group();lp.position.set(...ts.pos);
+    lp.userData.kineticSway={baseRotY:fi*0.42,spinSpeed:0.84+fi*0.06,phase:fi*1.1,amp:0.26,swayZ:0.045,swayX:0.035};
+    rod(lp,[0,0,0],[0,-ts.drop,0],0.0022,'#9e9a90');
+    const fr=buildPuzzleFoamTile3D(ts.col,ts.glyph);
+    fr.position.set(0,-ts.drop-0.088,0);
+    fr.rotation.z=ts.rz;
     lp.add(fr);pivot.add(lp);
    });
-   customCenter=V(gi.x,gy+0.92,gi.z);
-   customView=V(gi.x,parcelaHeightAt(gi.x,gi.z+2.55)+1.18,gi.z+2.55);
+   customCenter=V(gi.x,gy+1.08,gi.z);
+   customView=V(gi.x,parcelaHeightAt(gi.x,gi.z+3.05)+1.42,gi.z+3.05);
   }else if(gi.id==='esc051'){
-   // ESC-051: Corona dentada circular de acero/hierro con orejeta superior perforada y engranajes interiores ensamblados, SIN llaves radiales ni biela (fiel a ARC-015032/33)
-   taperedBranch(pivot,[[-0.14,-0.04,0],[-0.05,0.62,0.01],[0.04,1.28,0.02],[0.12,1.92,0.03]],0.19,0.13,'#635648',14,12,false);
-   taperedBranch(pivot,[[0.02,1.08,0.02],[-0.18,1.42,0.10],[-0.30,1.78,0.14]],0.10,0.062,'#635648',12,9,true);
-   const med=new THREE.Group();med.position.set(-0.04,1.16,0.18);med.rotation.set(0.03,0.06,0);
-   // Top green hanging cord to trunk nail
-   rod(pivot,[-0.04,1.56,0.15],[-0.04,1.46,0.18],0.003,'#1e7842');
-   const ringMat=mat('#9ca09e',0.46,0.68),rustMat=mat('#7c6854',0.58,0.52),darkGearMat=mat('#383a3e',0.48,0.65);
-   const R=0.22;
-   // Outer circular ring-gear body + 44 compact perimeter gear teeth (no keys!)
-   const outerTorus=new THREE.Mesh(new THREE.TorusGeometry(R,0.022,10,48),ringMat);
-   outerTorus.scale.set(1,1,0.45);outerTorus.castShadow=true;med.add(outerTorus);
-   for(let t=0;t<44;t++){
-    const ta=(t/44)*Math.PI*2;
-    const tooth=new THREE.Mesh(boxGeo,t%3===0?rustMat:ringMat);
-    tooth.scale.set(0.014,0.018,0.016);
-    tooth.position.set(Math.cos(ta)*(R+0.022),Math.sin(ta)*(R+0.022),0);
+   // ESC-051: Plato y biela de bicicleta de acero plateado con piñón interior "ACERO TEMPLADO", 20 llaves domésticas radiales y 1 llave dorada de latón arriba (100% fiel a ARC-015032)
+   const hostTree51=new THREE.Group();hostTree51.scale.setScalar(1.28);anchor.add(hostTree51);
+   taperedBranch(hostTree51,[[-0.14,-0.04,0],[-0.05,0.62,0.01],[0.04,1.28,0.02],[0.12,1.92,0.03]],0.19,0.13,'#635648',14,12,false);
+   taperedBranch(hostTree51,[[0.02,1.08,0.02],[-0.18,1.42,0.10],[-0.30,1.78,0.14]],0.10,0.062,'#635648',12,9,true);
+   const med=new THREE.Group();med.position.set(-0.04,1.16,0.20);med.rotation.set(0.03,0.06,0);
+   med.userData.kineticSway={baseRotY:0.06,spinSpeed:0.62,phase:0.5,amp:0.14,swayZ:0.025,swayX:0.02};
+   rod(pivot,[-0.04,1.56,0.16],[-0.04,1.43,0.20],0.0030,'#1e7842');
+   const steelMat=mat('#bcc2c0',0.32,0.82),nickelMat=mat('#cfd4d0',0.28,0.85),brassKeyMat=mat('#dbb03c',0.30,0.84),darkGearMat=mat('#2c3034',0.46,0.68);
+   const R=0.205;
+   // Outer silvery steel bicycle chainring + 48 sprocket teeth
+   const outerRing=new THREE.Mesh(new THREE.RingGeometry(R-0.026,R+0.006,52),new THREE.MeshStandardMaterial({color:'#bcc2c0',roughness:0.32,metalness:0.82,side:THREE.DoubleSide}));
+   outerRing.castShadow=true;med.add(outerRing);
+   const outerRim=new THREE.Mesh(new THREE.TorusGeometry(R-0.010,0.0055,8,52),steelMat);
+   med.add(outerRim);
+   for(let t=0;t<48;t++){
+    const ta=(t/48)*Math.PI*2;
+    const tooth=new THREE.Mesh(boxGeo,steelMat);
+    tooth.scale.set(0.008,0.013,0.005);
+    tooth.position.set(Math.cos(ta)*(R+0.009),Math.sin(ta)*(R+0.009),0);
     tooth.rotation.z=ta-Math.PI/2;med.add(tooth);
    }
-   // 8 small round perforated bolted inner-rim tabs
-   for(let b=0;b<8;b++){
-    const ba=(b/8)*Math.PI*2+0.38;
-    const boss=new THREE.Mesh(cylinderGeo,ringMat);
-    boss.rotation.x=Math.PI/2;boss.scale.set(0.020,0.018,0.020);
-    boss.position.set(Math.cos(ba)*(R-0.022),Math.sin(ba)*(R-0.022),0.004);med.add(boss);
-    const bolt=new THREE.Mesh(cylinderGeo,darkGearMat);
-    bolt.rotation.x=Math.PI/2;bolt.scale.set(0.008,0.024,0.008);
-    bolt.position.copy(boss.position);med.add(bolt);
+   // Central 24-tooth inner chainring ("ACERO TEMPLADO") + 5 bicycle crank spider arms
+   const innerR=0.092;
+   const innerRing=new THREE.Mesh(new THREE.RingGeometry(0.032,innerR,36),new THREE.MeshStandardMaterial({color:'#aeb4b2',roughness:0.36,metalness:0.78,side:THREE.DoubleSide}));
+   innerRing.position.z=0.005;med.add(innerRing);
+   for(let t=0;t<24;t++){
+    const ta=(t/24)*Math.PI*2;
+    const th=new THREE.Mesh(boxGeo,steelMat);
+    th.scale.set(0.008,0.011,0.005);
+    th.position.set(Math.cos(ta)*(innerR+0.005),Math.sin(ta)*(innerR+0.005),0.005);
+    th.rotation.z=ta-Math.PI/2;med.add(th);
    }
-   // Top rounded perforated hanging lug plate + small dark spur pinion right below lug (exact match to ARC-015033!)
-   const lug=new THREE.Mesh(boxGeo,ringMat);
-   lug.scale.set(0.056,0.088,0.014);lug.position.set(0,R+0.052,-0.004);lug.castShadow=true;med.add(lug);
-   const lugTop=new THREE.Mesh(new THREE.TorusGeometry(0.022,0.008,8,18),ringMat);
-   lugTop.position.set(0,R+0.092,-0.004);med.add(lugTop);
-   const topPinion=new THREE.Mesh(cylinderGeo,darkGearMat);
-   topPinion.rotation.x=Math.PI/2;topPinion.scale.set(0.036,0.022,0.036);topPinion.position.set(0,R-0.012,0.012);med.add(topPinion);
-   // Central hub gear + 4 internal spur gears & perforated linkage straps inside the ring
-   const addSpur=(gx,gy2,gz,gr,teeth,mCol)=>{
-    const sg=new THREE.Group();sg.position.set(gx,gy2,gz);
-    const rim=new THREE.Mesh(new THREE.TorusGeometry(gr,gr*0.24,8,24),mCol);
-    rim.scale.set(1,1,0.5);sg.add(rim);
-    for(let k=0;k<teeth;k++){
-     const a=(k/teeth)*Math.PI*2;
-     const th=new THREE.Mesh(boxGeo,mCol);
-     th.scale.set(gr*0.18,gr*0.24,0.014);
-     th.position.set(Math.cos(a)*(gr*1.14),Math.sin(a)*(gr*1.14),0);
-     th.rotation.z=a-Math.PI/2;sg.add(th);
-    }
-    med.add(sg);
-   };
-   addSpur(0,0,0.008,0.048,12,ringMat);
-   addSpur(-0.085,0.068,0.004,0.062,14,rustMat);
-   addSpur(0.095,0.022,0.004,0.066,15,rustMat);
-   addSpur(-0.072,-0.092,0.004,0.052,12,ringMat);
-   addSpur(0.025,-0.128,0.010,0.044,12,darkGearMat);
-   // Internal connecting straps
-   for(const [p1,p2] of [[[0,R-0.02,0.006],[0,0,0.006]],[[-0.18,-0.08,0.006],[0,0,0.006]],[[0.16,0.10,0.006],[0,0,0.006]],[[0.14,-0.14,0.006],[0,0,0.006]]]){
-    rod(med,p1,p2,0.012,'#8d918e');
+   for(let sp=0;sp<5;sp++){
+    const sa=Math.PI/2+(sp/5)*Math.PI*2;
+    rod(med,[Math.cos(sa)*0.034,Math.sin(sa)*0.034,0.008],[Math.cos(sa)*(R-0.016),Math.sin(sa)*(R-0.016),0.003],0.011,'#c2c8c6');
+    const chainBolt=new THREE.Mesh(cylinderGeo,darkGearMat);
+    chainBolt.rotation.x=Math.PI/2;chainBolt.scale.set(0.007,0.012,0.007);
+    chainBolt.position.set(Math.cos(sa)*(R-0.018),Math.sin(sa)*(R-0.018),0.006);med.add(chainBolt);
    }
+   // Upright bicycle crank arm (biela) rising to 12 o'clock pedal boss + small 16-tooth cog on upper crank arm
+   const crankArm=new THREE.Mesh(boxGeo,nickelMat);
+   crankArm.scale.set(0.032,0.285,0.012);crankArm.position.set(0,0.132,0.015);crankArm.castShadow=true;med.add(crankArm);
+   const hubBoss=new THREE.Mesh(cylinderGeo,nickelMat);
+   hubBoss.rotation.x=Math.PI/2;hubBoss.scale.set(0.028,0.022,0.028);hubBoss.position.set(0,0,0.015);med.add(hubBoss);
+   const pedalBoss=new THREE.Mesh(new THREE.TorusGeometry(0.018,0.0065,8,20),nickelMat);
+   pedalBoss.position.set(0,0.278,0.015);med.add(pedalBoss);
+   const topCog=new THREE.Mesh(cylinderGeo,darkGearMat);
+   topCog.rotation.x=Math.PI/2;topCog.scale.set(0.038,0.012,0.038);topCog.position.set(0,0.196,0.022);med.add(topCog);
+   for(let ct=0;ct<14;ct++){
+    const ca=(ct/14)*Math.PI*2;
+    const cth=new THREE.Mesh(boxGeo,darkGearMat);
+    cth.scale.set(0.006,0.010,0.008);
+    cth.position.set(Math.cos(ca)*0.042,0.196+Math.sin(ca)*0.042,0.022);
+    cth.rotation.z=ca-Math.PI/2;med.add(cth);
+   }
+   // 18 radial silvery household keys bolted around the chainring perimeter + 4 inner hub keys
+   for(let k=0;k<18;k++){
+    const ka=(k/18)*Math.PI*2+0.16;
+    if(Math.abs(Math.cos(ka))<0.18&&Math.sin(ka)>0.75)continue;
+    const keyMesh=buildHouseholdKey3D(k%2?nickelMat:steelMat,darkGearMat);
+    const kr=R-0.014;
+    keyMesh.position.set(Math.cos(ka)*kr,Math.sin(ka)*kr,(k%2?0.007:-0.006));
+    keyMesh.rotation.z=ka-Math.PI/2+((k%3)-1)*0.08;
+    med.add(keyMesh);
+   }
+   for(let ik=0;ik<4;ik++){
+    const ika=-0.35-ik*0.72;
+    const iKey=buildHouseholdKey3D(nickelMat,darkGearMat);
+    iKey.position.set(Math.cos(ika)*0.072,Math.sin(ika)*0.072,0.011);
+    iKey.rotation.z=ika-Math.PI/2;
+    med.add(iKey);
+   }
+   // Signature golden brass JMA key tucked vertically behind the upper crank arm at 12 o'clock (exact match to ARC-015032!)
+   const goldKey=buildHouseholdKey3D(brassKeyMat,darkGearMat);
+   goldKey.scale.setScalar(1.12);
+   goldKey.position.set(-0.016,0.205,0.008);
+   goldKey.rotation.z=0.08;
+   med.add(goldKey);
    pivot.add(med);
-   customCenter=V(gi.x-0.04,gy+1.18,gi.z+0.18);
-   customView=V(gi.x-0.04,parcelaHeightAt(gi.x-0.04,gi.z+1.75)+1.20,gi.z+1.75);
-   customRadius=1.6;
+   regOpts={billboardScale:1.28,displayScale:1.28,groundCutout:false,clampFrontAngle:true};
+   customCenter=V(gi.x-0.05,gy+1.48,gi.z+0.26);
+   customView=V(gi.x-0.05,parcelaHeightAt(gi.x-0.05,gi.z+2.25)+1.48,gi.z+2.25);
+   customRadius=2.05;
   }else if(gi.id==='esc052'){
    populateEsc052Geometry(pivot,true);
-   customCenter=V(gi.x-0.08,gy+0.98,gi.z);
-   customView=V(gi.x-0.08,parcelaHeightAt(gi.x-0.08,gi.z+2.85)+1.15,gi.z+2.85);
+   customCenter=V(gi.x-0.08,gy+1.24,gi.z);
+   customView=V(gi.x-0.08,parcelaHeightAt(gi.x-0.08,gi.z+3.25)+1.42,gi.z+3.25);
   }
-  world.colliders.push({x:gi.x,z:gi.z,r:0.55});
-  softShadow(world.scene,gi.x,gi.z,2.2,0.22,gy);
-  const gw=registerCustomGardenWork(world,gi.id,anchor,pivot,customCenter,customRadius,true);
+  world.colliders.push({x:gi.x,z:gi.z,r:0.64});
+  softShadow(world.scene,gi.x,gi.z,2.5,0.22,gy);
+  const gw=registerCustomGardenWork(world,gi.id,anchor,pivot,customCenter,customRadius,true,null,regOpts);
   if(gw&&customView)gw.view=customView;
  });
  world.mapFeatures={
@@ -4595,7 +4733,7 @@ function buildTrue3DMobileGeometry(id){
    for(let k=0;k<tr.n;k++){
     const a=(k/tr.n)*Math.PI*2+linkIdx*0.58;
     const lx=Math.cos(a)*tr.rx,lz=Math.sin(a)*tr.rz;
-    addGoldDoubleRingLink3D(mob,[lx,tr.y,lz],[0.55*Math.sin(a*1.3),a+0.7,0.65*Math.cos(a)],tr.sc,linkIdx%2?'#caa44e':'#dbb862');
+    addGoldDoubleRingLink3D(mob,[lx,tr.y,lz],[0.55*Math.sin(a*1.3),a+0.7,0.65*Math.cos(a)],tr.sc*1.42,linkIdx%2?'#caa44e':'#dbb862');
     linkIdx++;
    }
   }
@@ -4806,43 +4944,40 @@ function buildTrue3DMobileGeometry(id){
   return g;
  }
  if(id==='mov029'){
-  // MOV-029: "Estructura rojiza con tapones" — Central vertical column of terracotta EVA puzzle-mat foam tiles pierced by 8 terracotta dowels + 4 curved amber tubes with 28 bottle caps
-  rod(g,[0,0,0],[0,-0.30,0],0.0045,'#9e7256');
+  // MOV-029: "Estructura rojiza con tapones" — Offset terracotta EVA puzzle-mat foam column (x=-0.14) pierced by 8 dowels + sweeping right-hand amber tube arches with 30 colorful bottle caps (cut-mov-029-1.webp)
+  rod(g,[-0.08,0,0],[-0.12,-0.30,0],0.0045,'#9e7256');
   const mob=new THREE.Group();
   mob.userData.kineticSway={baseRotY:0.10,spinSpeed:0.62,phase:0.5,amp:0.24,swayZ:0.04,swayX:0.035};
   const terraMat=mat('#c85a3c',0.68,0.04);
   const terraDark=mat('#a8462c',0.72,0.04);
-  // Central vertical double-layered column of 6 interlocking terracotta puzzle-foam slabs (y=-0.34 to -1.78)
+  const colX=-0.14;
   for(let s=0;s<6;s++){
    const sy=-0.44-s*0.24;
    for(const sz of [-0.036,0.036]){
     const tile=new THREE.Mesh(boxGeo,s%2?terraMat:terraDark);
-    tile.scale.set(0.22,0.23,0.028);
-    tile.position.set(((s%2)-0.5)*0.02,sy,sz);
+    tile.scale.set(0.21,0.23,0.028);
+    tile.position.set(colX+((s%2)-0.5)*0.02,sy,sz);
     tile.rotation.y=((s%3)-1)*0.08;
     tile.castShadow=true;tile.receiveShadow=true;mob.add(tile);
-    // Puzzle-tab teeth along left & right edges
-    for(const ty of [-0.06,0.06])for(const tx of [-0.125,0.125]){
+    for(const ty of [-0.06,0.06])for(const tx of [-0.12,0.12]){
      const tab=new THREE.Mesh(boxGeo,terraMat);
-     tab.scale.set(0.038,0.042,0.028);
-     tab.position.set(tx,sy+ty,sz);mob.add(tab);
+     tab.scale.set(0.036,0.042,0.028);
+     tab.position.set(colX+tx,sy+ty,sz);mob.add(tab);
     }
    }
   }
-  // 8 straight terracotta-painted dowels piercing horizontally/diagonally through the foam column
   for(let d=0;d<8;d++){
    const dy=-0.42-d*0.18;
-   const az=(d%2?0.35:-0.35)+(d%3)*0.18;
-   const tilt=((d%3)-1)*0.16;
-   const dx=Math.cos(az)*0.36,dz=Math.sin(az)*0.36;
-   rod(mob,[-dx,dy-tilt,-dz],[dx,dy+tilt,dz],0.008,'#b84e32');
+   const az=(d%2?0.32:-0.32)+(d%3)*0.16;
+   const tilt=((d%3)-1)*0.15;
+   const dx=Math.cos(az)*0.34,dz=Math.sin(az)*0.34;
+   rod(mob,[colX-dx*0.78,dy-tilt,-dz],[colX+dx*1.12,dy+tilt,dz],0.008,'#b84e32');
   }
-  // 4 sweeping 3D curved amber tubes wrapping around the terracotta column, threaded with 28 colorful bottle caps
   const loops=[
-   [[-0.08,-0.38,0.06],[-0.34,-0.64,0.18],[-0.38,-1.06,0.14],[-0.16,-1.42,0.08],[0.14,-1.68,-0.06]],
-   [[0.08,-0.42,-0.06],[0.36,-0.72,-0.16],[0.40,-1.14,0.10],[0.18,-1.52,0.16],[-0.12,-1.76,0.04]],
-   [[-0.14,-0.56,-0.12],[-0.36,-0.92,-0.18],[-0.28,-1.34,-0.14],[0.06,-1.62,-0.08]],
-   [[0.12,-0.62,0.12],[0.34,-0.96,0.20],[0.28,-1.38,-0.12],[-0.04,-1.66,-0.10]]
+   [[colX+0.06,-0.38,0.05],[0.26,-0.62,0.16],[0.44,-1.02,0.12],[0.22,-1.40,0.06],[colX+0.04,-1.66,-0.04]],
+   [[colX+0.08,-0.46,-0.05],[0.34,-0.74,-0.14],[0.46,-1.18,0.08],[0.26,-1.54,0.14],[colX+0.02,-1.76,0.04]],
+   [[colX-0.06,-0.54,0.10],[-0.34,-0.88,0.14],[-0.26,-1.30,0.08],[0.12,-1.56,-0.06]],
+   [[colX+0.10,-0.66,0.10],[0.38,-0.98,0.18],[0.32,-1.38,-0.10],[colX+0.04,-1.64,-0.08]]
   ];
   const capCols=['#229e48','#1cb0f0','#1b52c4','#7c38b8','#e8dec8','#e02828','#229e48'];
   let cIdx=0;
@@ -4853,7 +4988,7 @@ function buildTrue3DMobileGeometry(id){
    for(let k=1;k<=7;k++){
     const t=k/8;
     const pt=cObj.getPointAt(t),tan=cObj.getTangentAt(t);
-    const cap=addBottleCap3D(mob,[pt.x,pt.y,pt.z],null,capCols[cIdx%capCols.length],0.054,0.026);
+    const cap=addBottleCap3D(mob,[pt.x,pt.y,pt.z],null,capCols[cIdx%capCols.length],0.056,0.026);
     cap.quaternion.setFromUnitVectors(V(0,1,0),tan);
     cIdx++;
    }
@@ -4904,12 +5039,13 @@ function buildTrue3DMobileGeometry(id){
   return g;
  }
  if(id==='mov031'){
-  // MOV-031: "Recipientes rosas, verdes y amarillos" — Single upper suspension convergence (NO 4 vertical ceiling bars!) + open diagonal 3D skewer star of mint-green, yellow & pink foam cups/discs (ARC-015058..60)
-  rod(g,[0,0,0],[0,-0.42,0],0.0030,'#8e9488');
-  rod(g,[0,-0.42,0],[-0.14,-0.68,0.04],0.0022,'#9ea498');
-  rod(g,[0,-0.42,0],[0.16,-0.72,-0.04],0.0022,'#9ea498');
+  // MOV-031: "Recipientes rosas, verdes y amarillos" — 4 colored vertical cords (orange, green, silver-white, yellow) + diagonal 3D skewer star of mint-green, yellow & pink foam cups/discs (ARC-015058..60 & cut-mov-031-1.webp)
+  rod(g,[-0.26,0,0.02],[-0.26,-0.62,0.04],0.0038,'#e87828');
+  rod(g,[-0.08,0,-0.02],[-0.08,-0.68,-0.02],0.0038,'#48b868');
+  rod(g,[0.10,0,0.02],[0.10,-0.70,0.03],0.0034,'#b8bcb4');
+  rod(g,[0.28,0,-0.02],[0.28,-0.64,-0.03],0.0038,'#ebd028');
   const mob=new THREE.Group();
-  mob.userData.kineticSway={baseRotY:0.14,spinSpeed:0.68,phase:0.9,amp:0.26,swayZ:0.045,swayX:0.038};
+  mob.userData.kineticSway={baseRotY:0.14,spinSpeed:0.68,phase:0.9,amp:0.22,swayZ:0.036,swayX:0.032};
   const dowelCol='#caa86a';
   const dowels=[
    [[-0.54,-0.64,0.10],[0.52,-1.18,-0.10]],
@@ -5281,8 +5417,7 @@ function buildTrue3DMobileGeometry(id){
   rod(g,[0,0,0],[-0.34,-0.74,0.04],0.003,'#889084');
   rod(g,[0,0,0],[0.26,-0.52,-0.02],0.003,'#889084');
   const bark='#3c322b';
-  // Natural tapered lower stem rising to the V-fork, plus left & right gnarled almond boughs & upper twig crown
-  taperedBranch(g,[[-0.04,-1.72,0.02],[-0.02,-1.40,0.01],[0.0,-1.10,0]],0.026,0.046,bark,14,10,true);
+  taperedBranch(g,[[0.02,-1.24,0.01],[0.0,-1.10,0]],0.028,0.046,bark,8,10,true);
   taperedBranch(g,[[0,-1.10,0],[-0.26,-0.80,0.03],[-0.54,-0.62,0.06]],0.042,0.018,bark,14,10,true);
   taperedBranch(g,[[-0.22,-0.84,0.03],[-0.16,-0.70,-0.05]],0.022,0.012,bark,8,8,true);
   taperedBranch(g,[[0,-1.10,0],[0.14,-0.76,-0.02],[0.04,-0.56,0.02],[0.32,-0.38,-0.02],[0.24,-0.14,0.02]],0.044,0.014,bark,16,10,true);
@@ -5483,6 +5618,7 @@ function buildTrue3DMobileGeometry(id){
  return null;
 }
 
+const BLENDER_FAITHFUL_MOBILE_IDS=new Set(['green','mov005','mov006','mov020','mov021','mov032']);
 function addHangingMobile3D(world,id,anchorPos,ceilingY=9.2,scale=1,levelTag='air'){
  const data=ART.find(a=>a.id===id);if(!data)return null;
  const anchor=new THREE.Group();anchor.position.set(...anchorPos);world.scene.add(anchor);
@@ -5494,7 +5630,7 @@ function addHangingMobile3D(world,id,anchorPos,ceilingY=9.2,scale=1,levelTag='ai
  const activeViews=cutViews.length?cutViews:(data.views||[{src:data.image,w:1.8,h:2.2,label:'Vista principal'}]);
  const allViews=data.views||activeViews;
  const textures=allViews.map(v=>{const t=texLoader.load(v.src,()=>{world.dirty=true;},undefined,()=>{world.assetErrors.push(v.src);});t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t;});
- // Mode 1: Volumetric 3D Mobile (True 360° procedural 3D sculpture for all 33 mobiles)
+ // Mode 1: Volumetric 3D Mobile (Blender-modeled GLB + True 360° procedural 3D sculpture)
  const gAi3d=new THREE.Group();gAi3d.scale.setScalar(scale);pivot.add(gAi3d);
  const firstCutIdx=Math.max(0,allViews.findIndex(v=>v.cutout!==false));
  const v0=allViews[firstCutIdx]||allViews[0];
@@ -5504,20 +5640,20 @@ function addHangingMobile3D(world,id,anchorPos,ceilingY=9.2,scale=1,levelTag='ai
  const filigreePlane=new THREE.Mesh(new THREE.PlaneGeometry(1,1),filigreeMat);
  filigreePlane.scale.set(v0.w,v0.h,1);filigreePlane.position.set(0,-v0.h/2,0);
  if(custom3d){gAi3d.add(custom3d);}else{gAi3d.add(filigreePlane);}
- // Mode 2: Crisp High-Definition Studio Cutout (single decontaminated double-sided plane, zero beige rim halo)
+ // Mode 2: Crisp High-Definition Studio Cutout (clean alpha-extracted plane, never white/background box)
  const gBillboard=new THREE.Group();gBillboard.scale.setScalar(scale);pivot.add(gBillboard);
- const frontMat=new THREE.MeshBasicMaterial({map:cutTex0,toneMapped:false,transparent:v0.cutout!==false,alphaTest:v0.cutout===false?0:.18,side:THREE.DoubleSide});
+ const frontMat=new THREE.MeshBasicMaterial({map:cutTex0,toneMapped:false,transparent:true,alphaTest:.16,side:THREE.DoubleSide});
  const frontPlane=new THREE.Mesh(new THREE.PlaneGeometry(1,1),frontMat);
  frontPlane.scale.set(v0.w,v0.h,1);
  frontPlane.position.set(0,-v0.h/2,0);
  frontPlane.castShadow=true;
  gBillboard.add(frontPlane);
- // Subtle kinetic air ring around the mobile that glows when awakened in the "Juego del Aire"
- const ringGeo=new THREE.RingGeometry(Math.max(.55,v0.w*.46)*scale,Math.max(.60,v0.w*.49)*scale,48);
- const ringMat=new THREE.MeshBasicMaterial({color:'#8ca878',transparent:true,opacity:.14,side:THREE.DoubleSide,depthWrite:false});
- const breezeRing=new THREE.Mesh(ringGeo,ringMat);breezeRing.rotation.x=-Math.PI/2;breezeRing.position.set(0,-h*.52,0);anchor.add(breezeRing);
  const centerY=anchorPos[1]-h*.52;
  const groundY=world.heightAt?world.heightAt(anchorPos[0],anchorPos[2]):0;
+ // Ground-level subtle floor ring (never floating in mid-air across the mobile!)
+ const ringGeo=new THREE.RingGeometry(Math.max(.55,v0.w*.44)*scale,Math.max(.59,v0.w*.47)*scale,48);
+ const ringMat=new THREE.MeshBasicMaterial({color:'#8ca878',transparent:true,opacity:.06,side:THREE.DoubleSide,depthWrite:false});
+ const breezeRing=new THREE.Mesh(ringGeo,ringMat);breezeRing.rotation.x=-Math.PI/2;breezeRing.position.set(anchorPos[0],groundY+.014,anchorPos[2]);world.scene.add(breezeRing);
  softShadow(world.scene,anchorPos[0],anchorPos[2],Math.max(1.8,v0.w*1.35*scale),.18,groundY);
  const vx=anchorPos[0]+(anchorPos[0]<0?2.1:anchorPos[0]>0?-2.1:0);
  const vz=Math.max(-27.5,Math.min(27.5,anchorPos[2]+2.2));
@@ -5536,6 +5672,8 @@ function addHangingMobile3D(world,id,anchorPos,ceilingY=9.2,scale=1,levelTag='ai
   view:V(vx,vy,vz),
   groundY,
   levelTag,
+  displayHeight:h,
+  displayWidth:v0.w*scale,
   radius:Math.max(2.25,h*1.18),
   spin:0,
   windBoost:0,
@@ -5550,13 +5688,14 @@ function addHangingMobile3D(world,id,anchorPos,ceilingY=9.2,scale=1,levelTag='ai
   work.viewIndex=i;
   const vp=allViews[i];
   const cutIdx=vp.cutout===false?firstCutIdx:i;
-  const vc=allViews[cutIdx];
+  const vc=allViews[cutIdx]||v0;
+  const cTex=textures[cutIdx]||cutTex0;
   filigreePlane.scale.set(vc.w,vc.h,1);filigreePlane.position.y=-vc.h/2;
-  filigreeMat.map=textures[cutIdx];filigreeMat.needsUpdate=true;
-  frontPlane.scale.set(vp.w,vp.h,1);frontPlane.position.y=-vp.h/2;
-  frontMat.map=textures[i];
-  frontMat.transparent=vp.cutout!==false;
-  frontMat.alphaTest=vp.cutout===false?0:.18;
+  filigreeMat.map=cTex;filigreeMat.needsUpdate=true;
+  frontPlane.scale.set(vc.w,vc.h,1);frontPlane.position.y=-vc.h/2;
+  frontMat.map=cTex;
+  frontMat.transparent=true;
+  frontMat.alphaTest=.16;
   frontMat.needsUpdate=true;
   world.dirty=true;
  };
@@ -5566,8 +5705,8 @@ function addHangingMobile3D(world,id,anchorPos,ceilingY=9.2,scale=1,levelTag='ai
   world.dirty=true;
  };
  work.applyMode(sculpturePresentation);
- if(data.glb&&!custom3d){
-  const glbUrl=data.glb+(data.glb.includes('?')?'':'?v=23');
+ if(data.glb&&(!custom3d||BLENDER_FAITHFUL_MOBILE_IDS.has(id))){
+  const glbUrl=data.glb.replace(/\?.*$/,'')+'?v=25';
   gltfLoader.load(glbUrl,gltf=>{
    if(world.disposed){disposeDetachedTree(gltf.scene);return;}
    const model=gltf.scene;
@@ -5576,15 +5715,25 @@ function addHangingMobile3D(world,id,anchorPos,ceilingY=9.2,scale=1,levelTag='ai
     if(o.isMesh){
      o.castShadow=true;o.receiveShadow=true;o.userData.work=work;
      const tex=o.material?.map,nMap=o.material?.normalMap;
-     if(tex){
+     if(id==='mov021'&&(tex||o.name?.startsWith('PrintedCard'))){
+      o.material=new THREE.MeshStandardMaterial({map:cutTex0,transparent:true,alphaTest:.10,roughness:.54,metalness:.04,envMapIntensity:1.15,side:THREE.DoubleSide});
+     }else if(tex){
       tex.colorSpace=THREE.SRGBColorSpace;tex.anisotropy=8;
       if(nMap){nMap.colorSpace=THREE.NoColorSpace;nMap.anisotropy=4;}
       o.material=new THREE.MeshStandardMaterial({map:tex,normalMap:nMap||null,normalScale:new THREE.Vector2(1.05,1.05),emissive:'#ffffff',emissiveMap:tex,emissiveIntensity:.05,envMapIntensity:1.12,roughness:data.roughness??.52,metalness:data.metalness??.15,side:THREE.DoubleSide});
+     }else if(o.material){
+      o.material.side=THREE.DoubleSide;
+      o.material.envMapIntensity=1.18;
+      o.material.needsUpdate=true;
      }
     }
    });
+   const swayGrp=new THREE.Group();
+   swayGrp.userData.kineticSway={baseRotY:0.12,spinSpeed:0.64,phase:0.8,amp:0.24,swayZ:0.04,swayX:0.035};
+   swayGrp.add(model);
+   if(custom3d)custom3d.visible=false;
    filigreePlane.visible=false;
-   gAi3d.add(model);world.dirty=true;
+   gAi3d.add(swayGrp);world.dirty=true;
   },undefined,()=>{world.assetErrors.push(data.glb);});
  }
  anchor.traverse(o=>{if(o.isMesh)o.userData.work=work;});
@@ -5634,41 +5783,41 @@ export function createMobilesRoom(){
  const westIds=['mov011','mov012','mov013','mov014','mov015','mov016','mov017'];
  const eastIds=['mov018','mov019','mov020','mov021','mov022','mov023','mov024'];
  lateralZs.forEach((tz,i)=>{
-  const wWest=addHangingMobile3D(world,westIds[i],[-7.2,3.25,tz],ceilingY,1.08,'terrace');
-  const wEast=addHangingMobile3D(world,eastIds[i],[7.2,3.25,tz],ceilingY,1.08,'terrace');
+  const wWest=addHangingMobile3D(world,westIds[i],[-7.2,3.42,tz],ceilingY,1.18,'terrace');
+  const wEast=addHangingMobile3D(world,eastIds[i],[7.2,3.42,tz],ceilingY,1.18,'terrace');
   if(wWest)world.zenithSpots.push(addZenithSpot(world,-7.2,tz,wWest,0));
   if(wEast)world.zenithSpots.push(addZenithSpot(world,7.2,tz,wEast,0));
  });
 
- // B) 9 Móviles de Paseo Intermedio (anclaje 3.85m -> centro ~2.75m, visión cómoda y despejada)
+ // B) 9 Móviles de Paseo Intermedio (anclaje 3.95m -> visión cómoda y despejada)
  const midPlacements=[
-  {id:'mov025',pos:[-3.8,3.85,22.5],scale:1.08},
-  {id:'mov026',pos:[-3.8,3.85,15.0],scale:1.08},
-  {id:'mov027',pos:[-3.8,3.85,-15.0],scale:1.08},
-  {id:'mov028',pos:[-3.8,3.85,-22.5],scale:1.08},
-  {id:'mov029',pos:[3.8,3.85,22.5],scale:1.08},
-  {id:'mov030',pos:[3.8,3.85,15.0],scale:1.08},
-  {id:'mov031',pos:[3.8,3.85,-15.0],scale:1.08},
-  {id:'mov032',pos:[3.8,3.85,-22.5],scale:1.08},
-  {id:'mov033',pos:[0.0,4.05,-24.0],scale:1.18}
+  {id:'mov025',pos:[-3.8,3.95,22.5],scale:1.18},
+  {id:'mov026',pos:[-3.8,3.95,15.0],scale:1.18},
+  {id:'mov027',pos:[-3.8,3.95,-15.0],scale:1.18},
+  {id:'mov028',pos:[-3.8,3.95,-22.5],scale:1.18},
+  {id:'mov029',pos:[3.8,3.95,22.5],scale:1.18},
+  {id:'mov030',pos:[3.8,3.95,15.0],scale:1.18},
+  {id:'mov031',pos:[3.8,3.95,-15.0],scale:1.18},
+  {id:'mov032',pos:[3.8,3.95,-22.5],scale:1.18},
+  {id:'mov033',pos:[0.0,4.15,-24.0],scale:1.26}
  ];
  midPlacements.forEach(p=>{
   const w=addHangingMobile3D(world,p.id,p.pos,ceilingY,p.scale,'zenith');
   if(w)world.zenithSpots.push(addZenithSpot(world,p.pos[0],p.pos[2],w,0));
  });
 
- // C) 10 Móviles Centrales de Galería (anclaje 4.45m -> centro ~3.30m, cerca y claros contra el cielo luminoso)
+ // C) 10 Móviles Centrales de Galería (anclaje 4.55m -> cerca y claros contra el cielo luminoso)
  const centralPlacements=[
-  {id:'mov001',pos:[0.0,4.25,19.0],scale:1.15},
-  {id:'mov002',pos:[-2.8,4.40,9.5],scale:1.10},
-  {id:'mov003',pos:[2.8,4.40,9.5],scale:1.10},
-  {id:'mov004',pos:[-2.8,4.45,3.5],scale:1.10},
-  {id:'mov005',pos:[2.8,4.45,3.5],scale:1.10},
-  {id:'mov006',pos:[-2.8,4.35,-2.5],scale:1.12},
-  {id:'mov007',pos:[2.8,4.35,-2.5],scale:1.12},
-  {id:'mov008',pos:[-2.8,4.45,-8.5],scale:1.10},
-  {id:'mov009',pos:[2.8,4.45,-8.5],scale:1.10},
-  {id:'mov010',pos:[0.0,4.35,-16.5],scale:1.15}
+  {id:'mov001',pos:[0.0,4.38,19.0],scale:1.25},
+  {id:'mov002',pos:[-2.8,4.52,9.5],scale:1.22},
+  {id:'mov003',pos:[2.8,4.52,9.5],scale:1.22},
+  {id:'mov004',pos:[-2.8,4.55,3.5],scale:1.22},
+  {id:'mov005',pos:[2.8,4.55,3.5],scale:1.22},
+  {id:'mov006',pos:[-2.8,4.48,-2.5],scale:1.24},
+  {id:'mov007',pos:[2.8,4.48,-2.5],scale:1.24},
+  {id:'mov008',pos:[-2.8,4.55,-8.5],scale:1.22},
+  {id:'mov009',pos:[2.8,4.55,-8.5],scale:1.22},
+  {id:'mov010',pos:[0.0,4.48,-16.5],scale:1.25}
  ];
  centralPlacements.forEach(p=>{
   const w=addHangingMobile3D(world,p.id,p.pos,ceilingY,p.scale,'skybridge');
@@ -5806,15 +5955,62 @@ export function updateMobiles(world,time,dt,moving,cameraPos){
  if(world.lizards&&moving){
   for(const liz of world.lizards){
    const rig=liz.userData.lizardRig;if(!rig)continue;
-   const t=time*2.2+rig.phase;
-   // Rapid lizard push-up head bobs & sinuous tail wave
-   rig.headPivot.rotation.x=Math.max(0,Math.sin(t*3.2))*0.28;
-   rig.headPivot.rotation.y=Math.sin(t*1.3)*0.22;
-   rig.tailPivot.rotation.y=Math.sin(t*4.5)*0.24;
-   if(rig.isRunner){
-    const dart=Math.sin(t*0.65);
-    liz.position.x=rig.basePos[0]+dart*0.55;
-    liz.rotation.y=rig.baseRotY+(Math.cos(t*0.65)>=0?0:Math.PI);
+   if(cameraPos){
+    const dCam=Math.hypot(liz.position.x-cameraPos.x,liz.position.z-cameraPos.z);
+    rig.startleBoost=dCam<3.8?Math.min(2.8,(rig.startleBoost||0)+dt*5.8):Math.max(0,(rig.startleBoost||0)-dt*1.4);
+   }
+   if(rig.routeCurve){
+    rig.routeClock=(rig.routeClock??rig.phase)+dt*(rig.routeSpeed||0.85)*(1+(rig.startleBoost||0));
+    const cyc=rig.routeClock%5.0;
+    let u=0,scurrying=false,dir=1;
+    if(cyc<1.55){u=cyc/1.55;scurrying=true;dir=1;}
+    else if(cyc<2.50){u=1.0;scurrying=false;dir=1;}
+    else if(cyc<4.05){u=1.0-(cyc-2.50)/1.55;scurrying=true;dir=-1;}
+    else{u=0.0;scurrying=false;dir=-1;}
+    const uc=Math.max(0,Math.min(1,u));
+    const pt=rig.routeCurve.getPointAt(uc);
+    const tan=rig.routeCurve.getTangentAt(uc);
+    liz.position.set(pt.x,pt.y,pt.z);
+    if(scurrying){
+     const gait=time*28*(1+(rig.startleBoost||0)*0.4)+rig.phase;
+     liz.rotation.y=Math.atan2(tan.x*dir,tan.z*dir)+Math.sin(gait)*0.09;
+     rig.tailPivot.rotation.y=Math.sin(gait)*0.42;
+     rig.headPivot.rotation.x=0.06;
+     rig.headPivot.rotation.y=-Math.sin(gait)*0.12;
+     if(rig.legs&&rig.legs.length===4){
+      const sw=Math.sin(gait)*0.62,lf=Math.max(0,Math.cos(gait))*0.28,lf2=Math.max(0,-Math.cos(gait))*0.28;
+      const l0=rig.legs[0].piv||rig.legs[0],l1=rig.legs[1].piv||rig.legs[1],l2=rig.legs[2].piv||rig.legs[2],l3=rig.legs[3].piv||rig.legs[3];
+      l0.rotation.y=sw;l0.rotation.z=lf;
+      l3.rotation.y=-sw;l3.rotation.z=lf;
+      l1.rotation.y=-sw;l1.rotation.z=-lf2;
+      l2.rotation.y=sw;l2.rotation.z=-lf2;
+     }
+    }else{
+     const bob=Math.max(0,Math.sin(time*8.2+rig.phase));
+     rig.headPivot.rotation.x=bob*0.32;
+     rig.headPivot.rotation.y=Math.sin(time*2.6+rig.phase)*0.28;
+     rig.tailPivot.rotation.y=Math.sin(time*3.4+rig.phase)*0.16;
+     if(rig.legs&&rig.legs.length===4){
+      for(const lg of rig.legs){const lp=lg.piv||lg;lp.rotation.y*=0.82;lp.rotation.z*=0.82;}
+     }
+    }
+   }else{
+    const t=time*2.2*(1+(rig.startleBoost||0)*0.5)+rig.phase;
+    rig.headPivot.rotation.x=Math.max(0,Math.sin(t*3.2))*0.28;
+    rig.headPivot.rotation.y=Math.sin(t*1.3)*0.22;
+    rig.tailPivot.rotation.y=Math.sin(t*4.5)*0.24;
+    if(rig.isRunner){
+     const dart=Math.sin(t*0.65);
+     const vel=Math.cos(t*0.65);
+     liz.position.x=rig.basePos[0]+dart*0.62;
+     liz.rotation.y=rig.baseRotY+(vel>=0?0:Math.PI);
+     if(rig.legs&&rig.legs.length===4){
+      const gait=time*24+rig.phase,sw=Math.sin(gait)*0.55*Math.min(1,Math.abs(vel)*1.4);
+      const l0=rig.legs[0].piv||rig.legs[0],l1=rig.legs[1].piv||rig.legs[1],l2=rig.legs[2].piv||rig.legs[2],l3=rig.legs[3].piv||rig.legs[3];
+      l0.rotation.y=sw;l3.rotation.y=-sw;
+      l1.rotation.y=-sw;l2.rotation.y=sw;
+     }
+    }
    }
   }
  }
@@ -5942,7 +6138,7 @@ export function updateMobiles(world,time,dt,moving,cameraPos){
   if(w.breezeRing){
    w.breezePhase=(w.breezePhase??(time*.35))+dt*(.35+(w.smoothSpin||0)*.45);
    w.breezeRing.rotation.z=w.breezePhase;
-   const targetOp=w.awakened?(.38+Math.sin(time*2.2+w.phase)*.12):.14;
+   const targetOp=w.awakened?(.26+Math.sin(time*2.2+w.phase)*.08):.06;
    w.breezeRing.material.opacity+=(targetOp-w.breezeRing.material.opacity)*Math.min(1,dt*3.5);
    w.breezeRing.material.color.set(w.awakened?'#52a36c':'#8ca878');
   }
@@ -5953,7 +6149,11 @@ export function updateMobiles(world,time,dt,moving,cameraPos){
    if(w.isFloorInstallation||w.isTreeInstallation){
     if(w.billboardGroup){
      const angle=Math.atan2(cameraPos.x-w.center.x,cameraPos.z-w.center.z);
-     w.billboardGroup.rotation.y=angle-(w.anchor?.rotation?.y||0);
+     let relY=angle-(w.anchor?.rotation?.y||0);
+     while(relY>Math.PI)relY-=Math.PI*2;
+     while(relY<-Math.PI)relY+=Math.PI*2;
+     if(w.clampFrontAngle)relY=Math.max(-1.05,Math.min(1.05,relY));
+     w.billboardGroup.rotation.y=relY;
     }
     return;
    }

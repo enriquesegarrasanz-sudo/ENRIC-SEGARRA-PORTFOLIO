@@ -4,8 +4,8 @@ import { collections } from "../dist/collections.js";
 import { educationIntro, educationPrinciples, educationSections, readings } from "../dist/education.js";
 
 const DOMAIN = "https://enricsegarraigaribo.com";
-const TODAY = "2026-11-11";
-const VERSION = "20261111-minimal-v1";
+const TODAY = "2026-11-13";
+const VERSION = "20261113-live3d-v25";
 
 const esc = (s = "") =>
   String(s)
@@ -153,12 +153,12 @@ function buildPageHtml({
       </button>
       <nav id="nav" aria-label="Navegación principal">
         <a href="#/" data-nav="inicio">Inicio</a>
+        <a href="#/exposicion-3d" data-nav="exposicion-3d">Salas 3D</a>
         <a href="#/moviles" data-nav="moviles">Móviles</a>
         <a href="#/escultura" data-nav="escultura">Escultura</a>
         <a href="#/jardin" data-nav="jardin">Jardín de las Lagartijas</a>
         <a href="#/pintura" data-nav="pintura">Pintura</a>
         <a href="#/dibujo" data-nav="dibujo">Dibujo</a>
-        <a href="#/exposicion-3d" data-nav="exposicion-3d">Salas 3D</a>
         <a href="#/arte-infantil" data-nav="arte-infantil">Arte infantil</a>
         <a href="#/exposiciones" data-nav="exposiciones">Exposiciones</a>
         <a href="#/trayectoria-contacto" data-nav="trayectoria-contacto">Trayectoria y contacto</a>
